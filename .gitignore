@@ -1,0 +1,4 @@
+node_modules/
+*.p12
+*.jks
+.DS_Store

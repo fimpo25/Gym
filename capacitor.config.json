@@ -1,0 +1,17 @@
+{
+  "appId": "ar.fimpo.gimnasio",
+  "appName": "Gimnasio",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#080810"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_timer",
+      "iconColor": "#4ECDC4"
+    },
+    "SystemBars": {
+      "style": "DARK"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+name: Compilar APK
+
+on:
+  push:
+    branches: [android]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Verificar secreto de firma
+        id: key
+        env:
+          PW: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -z "$PW" ]; then
+            echo "::warning::Falta el secreto ANDROID_KEYSTORE_PASSWORD: se compila solo una version de prueba (debug), sin publicar."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Instalar dependencias y sincronizar Capacitor
+        run: |
+          npm ci
+          npx cap sync android
+
+      - name: Compilar version de prueba (sin secreto)
+        if: steps.key.outputs.ok != 'true'
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - uses: actions/upload-artifact@v4
+        if: steps.key.outputs.ok != 'true'
+        with:
+          name: gimnasio-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 7
+
+      - name: Inspeccionar APK
+        if: steps.key.outputs.ok != 'true'
+        run: |
+          APK=$(ls android/app/build/outputs/apk/*/*.apk 2>/dev/null | head -1)
+          [ -z "$APK" ] && { echo "::warning::No hay APK para inspeccionar"; exit 0; }
+          BT=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1); AAPT="$ANDROID_HOME/build-tools/$BT/aapt2"
+          echo "::notice title=APK::$(basename $APK) $(du -h $APK | cut -f1) | $($AAPT dump badging $APK | head -1)"
+          echo "::notice title=Permisos::$($AAPT dump permissions $APK | grep -o "name='[^']*'" | sed "s/name='android.permission.//;s/'//" | tr '\n' ' ')"
+          H1=$(unzip -p $APK assets/public/index.html | sha256sum | cut -c1-16); H2=$(sha256sum www/index.html | cut -c1-16)
+          echo "::notice title=HTML::apk=$H1 www=$H2 $( [ "$H1" = "$H2" ] && echo COINCIDE || echo DISTINTO ) | NativeRest=$(unzip -p $APK assets/public/index.html | grep -c 'var NativeRest')"
+          echo "::notice title=Recursos::$(unzip -l $APK | grep -oE 'res/raw/descanso.wav|assets/capacitor.plugins.json' | tr '\n' ' ') | plugins=$(unzip -p $APK assets/capacitor.plugins.json | tr -d ' \n')"
+          echo "::notice title=Splash/icono::$(unzip -l $APK | grep -cE 'ic_launcher') iconos, ic_stat_timer=$(unzip -l $APK | grep -c ic_stat_timer)"
+
+      - name: Falta el secreto de firma
+        if: steps.key.outputs.ok != 'true'
+        run: |
+          echo "::error::Compilacion de prueba OK, pero falta ANDROID_KEYSTORE_PASSWORD para firmar y publicar el APK."
+          exit 1
+
+      - name: Descifrar keystore
+        env:
+          PW: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in signing/gimnasio-release.p12.enc -out "$RUNNER_TEMP/release.p12" -pass env:PW
+
+      - name: Compilar APK firmado
+        working-directory: android
+        env:
+          KEYSTORE_PATH: ${{ runner.temp }}/release.p12
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: gimnasio
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: Verificar firma
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk gimnasio.apk
+          BT=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1)
+          "$ANDROID_HOME/build-tools/$BT/apksigner" verify --print-certs gimnasio.apk
+          ls -la gimnasio.apk
+
+      - name: Inspeccionar APK firmado
+        if: steps.key.outputs.ok == 'true'
+        run: |
+          APK=$(ls android/app/build/outputs/apk/*/*.apk 2>/dev/null | head -1)
+          [ -z "$APK" ] && { echo "::warning::No hay APK para inspeccionar"; exit 0; }
+          BT=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1); AAPT="$ANDROID_HOME/build-tools/$BT/aapt2"
+          echo "::notice title=APK::$(basename $APK) $(du -h $APK | cut -f1) | $($AAPT dump badging $APK | head -1)"
+          echo "::notice title=Permisos::$($AAPT dump permissions $APK | grep -o "name='[^']*'" | sed "s/name='android.permission.//;s/'//" | tr '\n' ' ')"
+          H1=$(unzip -p $APK assets/public/index.html | sha256sum | cut -c1-16); H2=$(sha256sum www/index.html | cut -c1-16)
+          echo "::notice title=HTML::apk=$H1 www=$H2 $( [ "$H1" = "$H2" ] && echo COINCIDE || echo DISTINTO ) | NativeRest=$(unzip -p $APK assets/public/index.html | grep -c 'var NativeRest')"
+          echo "::notice title=Recursos::$(unzip -l $APK | grep -oE 'res/raw/descanso.wav|assets/capacitor.plugins.json' | tr '\n' ' ') | plugins=$(unzip -p $APK assets/capacitor.plugins.json | tr -d ' \n')"
+          echo "::notice title=Splash/icono::$(unzip -l $APK | grep -cE 'ic_launcher') iconos, ic_stat_timer=$(unzip -l $APK | grep -c ic_stat_timer)"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gimnasio-apk
+          path: gimnasio.apk
+          retention-days: 30
+
+      - name: Publicar en el release "apk"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete apk --yes --cleanup-tag || true
+          gh release create apk gimnasio.apk \
+            --target "$GITHUB_SHA" \
+            --title "Gimnasio APK (build ${GITHUB_RUN_NUMBER})" \
+            --notes "APK de Android de Gimnasio. Instalar encima de la version anterior para conservar los datos." \
+            --latest=false
