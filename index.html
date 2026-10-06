@@ -2232,6 +2232,14 @@ function renderHistory() {
 
 function renderEditScreen() {
   var list = document.getElementById("editList"); list.innerHTML = "";
+  // Alta global de ejercicios: fuera de los grupos. Se elige el ejercicio en la
+  // biblioteca y la app lo archiva en su grupo muscular correcto + pide el/los dias.
+  var addGlobal = document.createElement("button");
+  addGlobal.className = "addExBtn";
+  addGlobal.style.cssText = "width:100%;margin:0 0 18px;padding:14px;font-size:15px;font-weight:800;background:var(--primary,#4ECDC4);color:#06121a;border:none;border-radius:14px;cursor:pointer;box-shadow:var(--shadow-btn)";
+  addGlobal.innerHTML = "&#43; Agregar ejercicio desde la biblioteca";
+  addGlobal.onclick = openLibraryForAdd;
+  list.appendChild(addGlobal);
   var gKeys = Object.keys(GROUPS);
   for (var gi = 0; gi < gKeys.length; gi++) {
     var gName = gKeys[gi]; var gData = GROUPS[gName];
@@ -2247,9 +2255,9 @@ function renderEditScreen() {
       var ssBtn = document.createElement("button"); ssBtn.style.cssText = "background:none;border:none;color:#C3B1E160;font-size:11px;font-weight:700;cursor:pointer;padding:4px 6px;flex-shrink:0";
       ssBtn.textContent = "SS"; ssBtn.title = "Superset";
       (function(n){ ssBtn.onclick = function(){ openSupersetFor(n); }; })(exName);
-      var dayIdx = dayAssignments[exName];
-      var dayBtn = document.createElement("button"); dayBtn.style.cssText = "background:none;border:none;color:"+(dayIdx!==undefined?"#FF6B35":"#333")+";font-size:11px;font-weight:700;cursor:pointer;padding:4px 6px;flex-shrink:0";
-      dayBtn.textContent = dayIdx!==undefined ? DAY_NAMES[dayIdx].substring(0,3) : "dia";
+      var exDays = getDaysForEx(exName); var hasDays = exDays.length > 0;
+      var dayBtn = document.createElement("button"); dayBtn.style.cssText = "background:none;border:none;color:"+(hasDays?"#FF6B35":"#333")+";font-size:11px;font-weight:700;cursor:pointer;padding:4px 6px;flex-shrink:0;max-width:96px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap";
+      dayBtn.textContent = hasDays ? (exDays.length <= 2 ? exDays.map(function(d){ return DAY_NAMES[d].substring(0,3); }).join("·") : exDays.length + " dias") : "dia";
       dayBtn.title = "Asignar dia";
       (function(n){ dayBtn.onclick = function(){ openDayAssign(n); }; })(exName);
       var delBtn = document.createElement("button"); delBtn.style.cssText = "background:none;border:none;color:#FF8B9470;font-size:20px;cursor:pointer;padding:4px 8px"; delBtn.textContent = "x";
@@ -2268,7 +2276,7 @@ function renderEditScreen() {
 
 function addExercise(gName, inputId) {
   var inp = document.getElementById(inputId); var name = inp.value.trim();
-  if (!name) { openLibraryForGroup(gName); return; }
+  if (!name) { openLibraryForAdd(); return; }
   var exs = GROUPS[gName].exercises; for (var i = 0; i < exs.length; i++) { if (exs[i]===name) { alert("Ese ejercicio ya existe."); return; } }
   GROUPS[gName].exercises.push(name); persistGroups(); inp.value = ""; renderEditScreen(); renderHome();
 }
@@ -2277,6 +2285,14 @@ var libTargetGroup = null;
 
 function openLibraryForGroup(gName) {
   libTargetGroup = gName;
+  libActiveFilter = null;
+  document.getElementById("libSearch").value = "";
+  showScreen("libraryScreen");
+}
+// Alta global: abre la biblioteca sin grupo forzado. El ejercicio elegido ira a su
+// grupo muscular real y, al agregarlo, se abre el selector de dias.
+function openLibraryForAdd() {
+  libTargetGroup = null;
   libActiveFilter = null;
   document.getElementById("libSearch").value = "";
   showScreen("libraryScreen");
@@ -2306,7 +2322,10 @@ function isInRoutine(name) {
 }
 
 function addFromLibrary(name, group) {
-  var useGroup = (libTargetGroup && GROUPS[libTargetGroup]) ? libTargetGroup : group;
+  // El ejercicio SIEMPRE se archiva en su grupo muscular real (el de la biblioteca),
+  // sin importar desde que tarjeta se haya abierto la biblioteca. Esto evita que, p.ej.,
+  // un ejercicio de hombros entre en "Piernas" solo porque abriste la biblioteca desde ahi.
+  var useGroup = group;
   var gKeys = Object.keys(GROUPS); var targetGroup = null;
   for (var i = 0; i < gKeys.length; i++) { if (gKeys[i].toLowerCase()===useGroup.toLowerCase()) { targetGroup = gKeys[i]; break; } }
   if (!targetGroup) { var c = LIBRARY[group]?LIBRARY[group].color:GROUP_COLORS[0]; GROUPS[useGroup] = {color:c,exercises:[]}; targetGroup = useGroup; }
@@ -3885,7 +3904,27 @@ function closeSupersetOverlay() { document.getElementById("supersetOverlay").cla
 var DAY_NAMES = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
 var dayAssignments = {};
 try { dayAssignments = JSON.parse(localStorage.getItem("gymDayAssign")||"{}"); } catch(e) {}
+// Migracion a multi-dia: antes cada ejercicio mapeaba a UN indice de dia (number).
+// Ahora mapea a un ARRAY de indices. Convertimos los valores viejos sin perder datos.
+(function migrateDayAssignToArrays(){
+  var changed = false;
+  for (var k in dayAssignments) {
+    if (!dayAssignments.hasOwnProperty(k)) continue;
+    var v = dayAssignments[k];
+    if (typeof v === "number") { dayAssignments[k] = [v]; changed = true; }
+    else if (Array.isArray(v)) {
+      // Normalizar: solo numeros, unicos, ordenados
+      var seen = {}, out = [];
+      for (var i = 0; i < v.length; i++) { var n = v[i]; if (typeof n === "number" && !seen[n]) { seen[n] = 1; out.push(n); } }
+      out.sort(function(a,b){ return a-b; });
+      if (out.length) dayAssignments[k] = out; else { delete dayAssignments[k]; changed = true; }
+    } else { delete dayAssignments[k]; changed = true; } // valor corrupto
+  }
+  if (changed) { try { localStorage.setItem("gymDayAssign", JSON.stringify(dayAssignments)); } catch(e) {} }
+})();
 function persistDayAssign() { safeStore("gymDayAssign", JSON.stringify(dayAssignments)); }
+// Devuelve el array de dias de un ejercicio (siempre array, nunca undefined).
+function getDaysForEx(name) { var v = dayAssignments[name]; return Array.isArray(v) ? v : []; }
 
 var homeView = "all"; // "all" | "days"
 var dayAssignTarget = null;
@@ -3907,30 +3946,45 @@ function getTodayDayIdx() {
   return d === 0 ? 6 : d - 1; // 0=Mon..6=Sun
 }
 
-function openDayAssign(exName) {
-  dayAssignTarget = exName;
-  document.getElementById("dayAssignExName").textContent = exName;
-  var current = dayAssignments[exName];
+function renderDayChips() {
+  var current = getDaysForEx(dayAssignTarget);
   var chips = document.getElementById("dayChips"); chips.innerHTML = "";
   for (var i = 0; i < DAY_NAMES.length; i++) {
     var btn = document.createElement("button");
-    btn.className = "dayChip" + (current === i ? " on" : "");
+    btn.className = "dayChip" + (current.indexOf(i) >= 0 ? " on" : "");
     btn.textContent = DAY_NAMES[i];
-    (function(idx){ btn.onclick = function(){ setDayForEx(dayAssignTarget, idx); }; })(i);
+    (function(idx){ btn.onclick = function(){ toggleDayForEx(dayAssignTarget, idx); }; })(i);
     chips.appendChild(btn);
   }
+}
+function openDayAssign(exName) {
+  dayAssignTarget = exName;
+  document.getElementById("dayAssignExName").textContent = exName;
+  renderDayChips();
   document.getElementById("dayAssignOverlay").classList.add("show");
 }
-function closeDayAssign() { document.getElementById("dayAssignOverlay").classList.remove("show"); }
-function clearDayAssign() {
-  if (dayAssignTarget) { delete dayAssignments[dayAssignTarget]; persistDayAssign(); }
-  closeDayAssign(); checkDayToggleVisibility(); renderExercises();
+function refreshAfterDayChange() {
+  checkDayToggleVisibility(); renderExercises();
   if (document.getElementById("editScreen").classList.contains("active")) renderEditScreen();
 }
-function setDayForEx(exName, dayIdx) {
-  dayAssignments[exName] = dayIdx; persistDayAssign();
-  closeDayAssign(); checkDayToggleVisibility(); renderExercises();
-  if (document.getElementById("editScreen").classList.contains("active")) renderEditScreen();
+function closeDayAssign() {
+  document.getElementById("dayAssignOverlay").classList.remove("show");
+  refreshAfterDayChange();
+}
+function clearDayAssign() {
+  if (dayAssignTarget) { delete dayAssignments[dayAssignTarget]; persistDayAssign(); }
+  closeDayAssign();
+}
+// Multi-select: cada tap agrega o quita un dia; el overlay queda abierto. El refresco
+// pesado (editor/home) se hace al cerrar, no en cada tap, para que sea fluido.
+function toggleDayForEx(exName, dayIdx) {
+  var arr = getDaysForEx(exName).slice();
+  var p = arr.indexOf(dayIdx);
+  if (p >= 0) arr.splice(p, 1); else arr.push(dayIdx);
+  arr.sort(function(a,b){ return a-b; });
+  if (arr.length) dayAssignments[exName] = arr; else delete dayAssignments[exName];
+  persistDayAssign();
+  renderDayChips();
 }
 
 function checkDayToggleVisibility() {
@@ -3955,10 +4009,13 @@ function renderDayView() {
   for (var i = 0; i < allEx.length; i++) {
     var ex = allEx[i];
     if (selectedGroup && ex.group !== selectedGroup) continue;
-    if (dayAssignments[ex.name] !== undefined) {
-      var di = dayAssignments[ex.name];
-      if (!dayBuckets[di]) dayBuckets[di] = [];
-      dayBuckets[di].push(ex);
+    var exDays = getDaysForEx(ex.name);
+    if (exDays.length) {
+      for (var dj = 0; dj < exDays.length; dj++) {
+        var di = exDays[dj];
+        if (!dayBuckets[di]) dayBuckets[di] = [];
+        dayBuckets[di].push(ex);
+      }
     } else {
       unassigned.push(ex);
     }
@@ -4362,7 +4419,7 @@ function openLibDetail(name, group, color, inRoutine) {
   addBtn.style.color = inRoutine ? "#555" : "#000";
   addBtn.textContent = inRoutine ? "Ya esta en la rutina" : "+ Agregar a rutina";
   if (!inRoutine) {
-    addBtn.onclick = function(){ addFromLibrary(name, group); closeLibDetail(); renderLibrary(); };
+    addBtn.onclick = function(){ addFromLibrary(name, group); closeLibDetail(); renderLibrary(); openDayAssign(name); };
   } else { addBtn.onclick = null; }
 
   // Video
@@ -4637,11 +4694,13 @@ renderHome();
 <div class="overlay" id="dayAssignOverlay">
   <div class="dayAssignSheet">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
-      <span style="font-size:17px;font-weight:800;color:#fff">Asignar dia</span>
+      <span style="font-size:17px;font-weight:800;color:#fff">En que dias</span>
       <button onclick="closeDayAssign()" style="background:none;border:none;color:#555;font-size:22px;cursor:pointer">&#10005;</button>
     </div>
-    <div id="dayAssignExName" style="color:#888;font-size:13px;margin-bottom:16px"></div>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px" id="dayChips"></div>
+    <div id="dayAssignExName" style="color:#888;font-size:13px;margin-bottom:4px"></div>
+    <div style="color:#555;font-size:11px;margin-bottom:14px">Toca uno o varios dias</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px" id="dayChips"></div>
+    <button onclick="closeDayAssign()" style="width:100%;background:var(--primary,#4ECDC4);border:none;border-radius:12px;color:#06121a;padding:12px;font-size:14px;font-weight:800;cursor:pointer;margin-bottom:10px">Listo</button>
     <button onclick="clearDayAssign()" style="width:100%;background:none;border:1px solid #2a2a3a;border-radius:12px;color:#555;padding:10px;font-size:13px;cursor:pointer">Sin dia asignado</button>
   </div>
 </div>
