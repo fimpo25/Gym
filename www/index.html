@@ -2208,7 +2208,9 @@ if ("serviceWorker" in navigator) {
 var NativeRest = (function(){
   var C = window.Capacitor;
   var isNative = !!(C && typeof C.isNativePlatform === "function" && C.isNativePlatform() && typeof C.nativePromise === "function");
-  var ID = 4242, CH = "descanso";
+  // El canal "descanso_alarma" lo crea la app nativa (MainActivity) con sonido de ALARMA,
+  // para que suene aunque el celular este en vibrar. Desde JS no se crea.
+  var ID = 4242, CH = "descanso_alarma";
   var permOk = false, exactOk = false, initPromise = null, seq = 0;
   function call(plugin, method, opts) {
     try { return C.nativePromise(plugin, method, opts || {}); } catch(e) { return Promise.reject(e); }
@@ -2218,9 +2220,7 @@ var NativeRest = (function(){
   function init() {
     if (!isNative) return Promise.resolve(false);
     if (initPromise) return initPromise;
-    initPromise = ln("createChannel", { id: CH, name: "Fin de descanso", description: "Aviso cuando termina el descanso entre series", importance: 4, visibility: 1, vibration: true, lights: true, lightColor: "#4ECDC4", sound: "descanso.wav" })
-      .catch(noop)
-      .then(function(){ return ln("checkPermissions"); })
+    initPromise = ln("checkPermissions")
       .then(function(p){ return (p && p.display === "granted") ? p : ln("requestPermissions"); })
       .then(function(p){ permOk = !!(p && p.display === "granted"); return ln("checkExactNotificationSetting"); })
       .then(function(s){ exactOk = !!(s && s.exact_alarm === "granted"); return permOk; })
