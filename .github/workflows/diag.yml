@@ -5,29 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Medir videos
-        shell: python
         run: |
-          import urllib.parse, urllib.request, time, concurrent.futures
+          UA="Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Mobile Safari/537.36"
           BASE="https://pub-1d728663a780452887b21c5b936d69d3.r2.dev/"
-          names=["Back Lever","Jalón Trasnuca con Banda","Extensión de Tríceps con Cuerda","Curl de Bíceps Alterno","Curl de Concentración con Martillo","Ángel de Pared","Almeja de Pecho Sentada","Sentadilla Ciclista"]
-          def get(n, rng=None):
-              url=BASE+urllib.parse.quote(n)+".mp4"; req=urllib.request.Request(url, headers={"Origin":"https://localhost"})
-              if rng: req.add_header("Range", rng)
-              t0=time.time(); r=urllib.request.urlopen(req, timeout=60); ttfb=time.time()-t0; data=r.read(); tot=time.time()-t0
-              return r, data, ttfb, tot
-          for n in names:
-              try:
-                  r,d,ttfb,tot=get(n); h=r.headers
-                  moov=d.find(b"moov"); mdat=d.find(b"mdat")
-                  fast="SI (moov antes de mdat)" if 0<=moov<mdat else "NO (moov al final: no arranca hasta bajar todo)"
-                  print(f"::notice title={n}::{len(d)/1e6:.2f} MB | ttfb {ttfb*1000:.0f} ms | total {tot:.2f}s | {len(d)/1e6/max(tot,1e-3):.1f} MB/s | faststart {fast} | cache-control={h.get('Cache-Control')} | cf-cache={h.get('cf-cache-status')} | ranges={h.get('Accept-Ranges')} | cors={h.get('Access-Control-Allow-Origin')} | {h.get('Content-Type')}")
-              except Exception as e:
-                  print(f"::warning title={n}::ERROR {e}")
-          # segunda pasada: ¿hay cache en el borde?
-          r,d,ttfb,tot=get(names[0]); print(f"::notice title=Repeticion {names[0]}::ttfb {ttfb*1000:.0f} ms total {tot:.2f}s cf-cache={r.headers.get('cf-cache-status')}")
-          # rafaga en paralelo (como la biblioteca al abrir): ¿se frena?
-          t0=time.time()
-          with concurrent.futures.ThreadPoolExecutor(8) as ex: res=list(ex.map(lambda n: get(n)[3], names))
-          print(f"::notice title=Rafaga 8 en paralelo::total {time.time()-t0:.2f}s | cada uno: " + ", ".join(f"{x:.1f}s" for x in res))
-          # rango (como pide el reproductor)
-          r,d,ttfb,tot=get(names[1],"bytes=0-1023"); print(f"::notice title=Pedido por rango::status {r.status} len {len(d)} content-range={r.headers.get('Content-Range')}")
+          enc(){ python3 -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1]))' "$1"; }
+          probe(){ n="$1"; u="$BASE$(enc "$n").mp4"
+            out=$(curl -sS -A "$UA" -H "Origin: https://localhost" -o /tmp/v.mp4 -D /tmp/h.txt -w '%{http_code}|%{size_download}|%{time_starttransfer}|%{time_total}|%{speed_download}' "$u")
+            IFS='|' read code size ttfb tot spd <<<"$out"
+            fs=$(python3 -c "d=open('/tmp/v.mp4','rb').read();m=d.find(b'moov');a=d.find(b'mdat');print('SI' if 0<=m<a else ('NO' if m>=0 else 'sin moov'))")
+            hd=$(grep -iE '^(cache-control|cf-cache-status|access-control-allow-origin|accept-ranges|content-type|server):' /tmp/h.txt | tr -d '\r' | tr '\n' ' ')
+            echo "::notice title=$n::HTTP $code | $(python3 -c "print(round($size/1e6,2))") MB | ttfb ${ttfb}s | total ${tot}s | $(python3 -c "print(round($spd/1e6,2))") MB/s | faststart $fs | $hd"; }
+          for n in "Back Lever" "Jalón Trasnuca con Banda" "Extensión de Tríceps con Cuerda" "Curl de Bíceps Alterno" "Ángel de Pared" "Sentadilla Ciclista"; do probe "$n"; done
+          probe "Back Lever"
+          code=$(curl -sS -o /dev/null -w '%{http_code}' -A "$UA" "$BASE$(enc 'Back Lever').json"); echo "::notice title=Ficha JSON::HTTP $code"
+          code=$(curl -sS -o /dev/null -w '%{http_code}' "$BASE$(enc 'Back Lever').mp4"); echo "::notice title=Sin user-agent de navegador::HTTP $code"
