@@ -1773,6 +1773,7 @@ function getPrevWeekData(name) {
 }
 
 function openEx(name) {
+  prefetchExerciseMedia(name); // video y ficha quedan listos para cuando toques "Ver video"
   var allEx = getAllEx(); var ex = null;
   for (var i = 0; i < allEx.length; i++) { if (allEx[i].name===name) { ex = allEx[i]; break; } }
   if (!ex) return;
@@ -1785,6 +1786,7 @@ function openEx(name) {
     for (var i = 0; i < allEx.length; i++) { if (allEx[i].name===partnerName) { partnerEx = allEx[i]; break; } }
   }
   currentPartnerEx = partnerEx; // null si no es superset
+  if (partnerEx) prefetchExerciseMedia(partnerEx.name);
 
   var wd = gymData[activeWeek]||{}; var fromPrev = false;
   if (partnerEx) {
@@ -4434,14 +4436,77 @@ function getDescSrc(name) {
   return VIDEO_BASE + encodeURIComponent(DESC_ALIAS[name] || mediaName(name)) + '.json';
 }
 
+// -- CACHE DE VIDEOS Y FICHAS -------------------------------------------------
+// Cada video/ficha se descarga UNA vez y queda guardado en el celular (Cache Storage):
+// las siguientes veces se reproduce al instante, incluso sin senal. Los videos de R2
+// tienen el indice al final del archivo (no arrancan mientras bajan) y pesan < 1 MB,
+// asi que bajarlos enteros y reproducirlos desde el celular es mas rapido que streaming.
+var MEDIA_CACHE = "gimnasio-media-v1";
+var _mediaBlobUrls = {};   // url -> blob: URL ya creada en esta sesion
+var _mediaInflight = {};   // url -> Promise<Response|null> (evita bajar dos veces lo mismo)
+function mediaCacheAvailable() { try { return "caches" in window && !!window.caches; } catch(e) { return false; } }
+// Devuelve una Response (desde el celular si ya estaba, si no la baja y la guarda), o null.
+function mediaResponse(url) {
+  if (!mediaCacheAvailable()) return fetch(url).then(function(r){ return r.ok ? r : null; }).catch(function(){ return null; });
+  if (_mediaInflight[url]) return _mediaInflight[url].then(function(r){ return r ? r.clone() : null; });
+  var p = caches.open(MEDIA_CACHE).then(function(c){
+    return c.match(url).then(function(hit){
+      if (hit) return hit;
+      return fetch(url).then(function(r){
+        if (!r.ok) return null;                       // no existe (404): no se guarda
+        return c.put(url, r.clone()).catch(function(){}).then(function(){ return r; });
+      });
+    });
+  }).catch(function(){ return null; });
+  _mediaInflight[url] = p;
+  p.then(function(){ delete _mediaInflight[url]; });
+  return p.then(function(r){ return r ? r.clone() : null; });
+}
+// URL lista para un <video>: blob local si se pudo cachear, o la URL remota como respaldo.
+function cachedMediaUrl(url) {
+  if (_mediaBlobUrls[url]) return Promise.resolve(_mediaBlobUrls[url]);
+  return mediaResponse(url).then(function(r){
+    if (!r) return url;
+    return r.blob().then(function(b){ var u = URL.createObjectURL(b); _mediaBlobUrls[url] = u; return u; });
+  }).catch(function(){ return url; });
+}
+// Asigna el video al elemento (cacheado). Si mientras tanto se cambio/cerro, no hace nada.
+function setCachedVideoSrc(vid, url) {
+  var tok = vid._mediaTok = (vid._mediaTok || 0) + 1;
+  cachedMediaUrl(url).then(function(u){
+    if (vid._mediaTok !== tok) return;
+    vid.src = u;
+    try { var pl = vid.play(); if (pl && pl.catch) pl.catch(function(){}); } catch(e) {}
+  });
+}
+// Precarga en segundo plano (no crea blobs: solo deja el archivo guardado).
+function prefetchMedia(url) { if (url && mediaCacheAvailable()) mediaResponse(url).catch(function(){}); }
+function prefetchExerciseMedia(name) { if (!name) return; prefetchMedia(getVideoSrc(name)); prefetchMedia(getDescSrc(name)); }
+// Al abrir la app: precarga videos y fichas de los ejercicios asignados a HOY, de a uno.
+function prefetchTodayMedia() {
+  try {
+    if (navigator.connection && navigator.connection.saveData) return; // modo ahorro de datos
+    var today = getTodayDayIdx(); var names = [];
+    var all = getAllEx();
+    for (var i = 0; i < all.length; i++) { var d = (typeof getDaysForEx === "function") ? getDaysForEx(all[i].name) : []; if (d.indexOf(today) >= 0) names.push(all[i].name); }
+    var k = 0;
+    (function next(){
+      if (k >= names.length) return;
+      var n = names[k++];
+      Promise.all([mediaResponse(getVideoSrc(n)), mediaResponse(getDescSrc(n))]).then(next, next);
+    })();
+  } catch(e) {}
+}
+setTimeout(prefetchTodayMedia, 2500);
+
 // Carga y parsea el JSON de descripcion. Devuelve null si no existe o hay error.
 // cb(data) se llama con el objeto parseado, o cb(null) si no hay descripcion.
 function fetchExDesc(name, cb) {
   var url = getDescSrc(name);
   if (!url) { cb(null); return; }
-  fetch(url)
+  mediaResponse(url)   // cacheada en el celular (ver CACHE DE VIDEOS Y FICHAS)
     .then(function(r) {
-      if (!r.ok) { cb(null); return; }
+      if (!r) { cb(null); return; }
       return r.json();
     })
     .then(function(data) { cb(data || null); })
@@ -4624,12 +4689,12 @@ function loadExVideo(name) {
     var anyVid = false;
     if (vidA) {
       vidA.onerror = function(){ vidA.style.display = "none"; };
-      if (srcA) { vidA.src = srcA; vidA.style.display = "block"; anyVid = true; try { vidA.play(); } catch(e){} }
+      if (srcA) { setCachedVideoSrc(vidA, srcA); vidA.style.display = "block"; anyVid = true; }
       else { vidA.style.display = "none"; vidA.src = ""; }
     }
     if (vidB) {
       vidB.onerror = function(){ vidB.style.display = "none"; };
-      if (srcB) { vidB.src = srcB; vidB.style.display = "block"; anyVid = true; try { vidB.play(); } catch(e){} }
+      if (srcB) { setCachedVideoSrc(vidB, srcB); vidB.style.display = "block"; anyVid = true; }
       else { vidB.style.display = "none"; vidB.src = ""; }
     }
     single.style.display = "none";
@@ -4639,25 +4704,24 @@ function loadExVideo(name) {
     if (empty) empty.style.display = anyVid ? "none" : "block";
     // Pausar y limpiar el video single para liberar memoria
     var vidSingle = document.getElementById("exVideoEl");
-    if (vidSingle) { try { vidSingle.pause(); } catch(e){} vidSingle.src = ""; }
+    if (vidSingle) { vidSingle._mediaTok = (vidSingle._mediaTok||0)+1; try { vidSingle.pause(); } catch(e){} vidSingle.src = ""; }
     return;
   }
 
   // Modo single (ejercicio sin superset)
   pair.style.display = "none";
   // Pausar los videos del par
-  var vA = document.getElementById("exVideoElA"); if (vA) { try { vA.pause(); } catch(e){} vA.src = ""; }
-  var vB = document.getElementById("exVideoElB"); if (vB) { try { vB.pause(); } catch(e){} vB.src = ""; }
+  var vA = document.getElementById("exVideoElA"); if (vA) { vA._mediaTok = (vA._mediaTok||0)+1; try { vA.pause(); } catch(e){} vA.src = ""; }
+  var vB = document.getElementById("exVideoElB"); if (vB) { vB._mediaTok = (vB._mediaTok||0)+1; try { vB.pause(); } catch(e){} vB.src = ""; }
   var vid = document.getElementById("exVideoEl");
   var src = getVideoSrc(name);
   var empty = document.getElementById("exVideoEmpty");
   if (src) {
     vid.onerror = function() { box.style.display = "none"; if (empty) empty.style.display = "block"; };
-    vid.src = src;
+    setCachedVideoSrc(vid, src);
     single.style.display = "block";
     box.style.display = "block";
     if (empty) empty.style.display = "none";
-    try { vid.play(); } catch(e) {}
   } else {
     box.style.display = "none";
     if (empty) empty.style.display = "block";
@@ -4670,9 +4734,9 @@ function unloadExVideo() {
   var vid = document.getElementById("exVideoEl");
   var vidA = document.getElementById("exVideoElA");
   var vidB = document.getElementById("exVideoElB");
-  if (vid)  { try { vid.pause(); }  catch(e) {} vid.src = ""; }
-  if (vidA) { try { vidA.pause(); } catch(e) {} vidA.src = ""; }
-  if (vidB) { try { vidB.pause(); } catch(e) {} vidB.src = ""; }
+  if (vid)  { vid._mediaTok = (vid._mediaTok||0)+1;   try { vid.pause(); }  catch(e) {} vid.src = ""; }
+  if (vidA) { vidA._mediaTok = (vidA._mediaTok||0)+1; try { vidA.pause(); } catch(e) {} vidA.src = ""; }
+  if (vidB) { vidB._mediaTok = (vidB._mediaTok||0)+1; try { vidB.pause(); } catch(e) {} vidB.src = ""; }
   if (box) box.style.display = "none";
 }
 
