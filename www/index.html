@@ -3078,211 +3078,135 @@ function setBalanceTab(tab) {
 function getGroupZoneColor(group, volObj) {
   var sets = (volObj && volObj[group]) || 0;
   var cls = classifyVolume(sets, group);
-  return cls.color;
+  // Debajo del mantenimiento: musculo apagado, asi solo se encienden los que entrenaste
+  return cls.zone === "under" ? "#2a2c40" : cls.color;
 }
 
-// Construye un SVG con dos siluetas (frente y espalda) con regiones coloreadas
-// segun la zona de volumen alcanzada esta semana.
+// Construye el mapa (frente y espalda) con cada grupo pintado segun su zona de volumen.
 function buildBodyMapSVG(vol) {
-  var cPecho  = getGroupZoneColor("Pecho", vol);
-  var cEspald = getGroupZoneColor("Espalda", vol);
-  var cHombro = getGroupZoneColor("Hombros", vol);
-  var cBiceps = getGroupZoneColor("Biceps", vol);
-  var cTricep = getGroupZoneColor("Triceps", vol);
-  var cAnteb  = getGroupZoneColor("Antebrazos", vol);
-  var cPierna = getGroupZoneColor("Piernas", vol);
-  var cAbs    = getGroupZoneColor("Abdominales", vol);
-  var stroke = "#2a2a3a";
-  var bodyFill = "#1a1a2e";
-  var neutralFill = "#15151f"; // serratos, cadera y zonas no trackeadas
+  return bodyMapSVGFrom({
+    pecho: getGroupZoneColor("Pecho", vol),        espalda: getGroupZoneColor("Espalda", vol),
+    hombros: getGroupZoneColor("Hombros", vol),    biceps: getGroupZoneColor("Biceps", vol),
+    triceps: getGroupZoneColor("Triceps", vol),    antebrazos: getGroupZoneColor("Antebrazos", vol),
+    piernas: getGroupZoneColor("Piernas", vol),    abs: getGroupZoneColor("Abdominales", vol)
+  });
+}
+// Mapa anatomico (frente + espalda), redibujado con formas anatomicas. Se dibuja la mitad izquierda de cada figura
+// y se espeja, asi queda simetrica. c = colores por grupo.
+function bodyMapSVGFrom(c) {
+  var BASE = "#1c1d2c";     // piel/silueta (zonas no rastreadas)
+  var GAP  = "#0d0d1a";     // surcos entre musculos (= fondo de la tarjeta)
+  var N    = BASE;          // partes neutras
 
-  // ViewBox 720x520 para mas resolucion. Frente x=0..360, espalda x=360..720.
-  var svg = '<svg viewBox="0 0 720 520" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">';
+  // Cada figura mide 200 de ancho, centro x=100.
+  function half(parts) {
+    // parts: [[d, fill, opacity?], ...]
+    var out = "";
+    for (var i = 0; i < parts.length; i++) {
+      var p = parts[i];
+      out += '<path d="' + p[0] + '" fill="' + p[1] + '"' + (p[2] ? ' fill-opacity="' + p[2] + '"' : '') + '/>';
+    }
+    return out;
+  }
+  function figure(xOff, parts, center) {
+    var h = half(parts);
+    var g = '<g transform="translate(' + xOff + ',0)">';
+    // Silueta: los mismos trazos engrosados, para unir el cuerpo
+    var sil = h.replace(/fill="[^"]*"/g, 'fill="' + BASE + '"').replace(/ fill-opacity="[^"]*"/g, '');
+    var silG = '<g stroke="' + BASE + '" stroke-width="5" stroke-linejoin="round">' + sil + '</g>';
+    g += silG + '<g transform="translate(200,0) scale(-1,1)">' + silG + '</g>';
+    g += center || "";
+    // Musculos con surco fino
+    var musG = '<g stroke="' + GAP + '" stroke-width="1.6" stroke-linejoin="round">' + h + '</g>';
+    g += musG + '<g transform="translate(200,0) scale(-1,1)">' + musG + '</g>';
+    return g + '</g>';
+  }
 
-  // ===========================================================
-  // FRENTE - centro x=180
-  // ===========================================================
+  // ---------------- FRENTE ----------------
+  var front = [
+    // trapecio superior (Espalda)
+    ["M89 66 C86 72 80 77 66 82 C74 86 84 86 94 82 C92 76 90 71 89 66 Z", c.espalda],
+    // biceps (debajo del deltoide)
+    ["M49 126 C41 138 38 154 38 168 C38 180 41 188 45 193 C51 187 55 176 56 164 C57 150 55 136 52 126 Z", c.biceps],
+    // deltoides (Hombros)
+    ["M64 83 C52 84 43 93 41 106 C40 116 42 126 46 134 C52 128 58 120 62 110 C66 102 70 94 72 88 C70 85 67 84 64 83 Z", c.hombros],
+    // pectoral (Pecho)
+    ["M99 88 C92 86 82 86 74 89 C68 92 64 100 63 110 C62 118 64 124 68 128 C76 133 88 134 99 130 Z", c.pecho],
+    // serrato (neutro)
+    ["M66 130 C70 136 72 144 72 152 L78 150 C77 142 75 136 72 131 Z", N],
+    // oblicuo (Abdominales)
+    ["M74 134 C82 136 86 140 87 148 L87 208 C80 204 74 194 72 182 C70 168 72 150 74 134 Z", c.abs],
+    // recto abdominal: 3 pares + bloque inferior
+    ["M89 134 L99 134 L99 151 L89 151 C89 146 89 140 89 134 Z", c.abs],
+    ["M89 154 L99 154 L99 170 L89 170 Z", c.abs],
+    ["M89 173 L99 173 L99 189 L89 189 Z", c.abs],
+    ["M89 192 L99 192 L99 222 C94 218 91 212 89 206 Z", c.abs],
+    // antebrazo
+    ["M42 197 C35 208 31 222 31 238 C31 250 33 259 36 266 L45 266 C49 254 53 238 54 222 C55 210 53 202 50 197 Z", c.antebrazos],
+    // mano
+    ["M35 270 C31 278 31 288 36 294 C41 296 46 292 47 284 C47 278 46 273 45 270 Z", N],
+    // cadera / pelvis (neutro)
+    ["M72 196 C70 206 68 216 66 226 L99 236 L99 224 C92 220 86 214 84 206 Z", N],
+    // cuadriceps: vasto lateral
+    ["M64 230 C58 254 57 286 60 314 C62 330 67 343 74 350 L80 346 C77 330 76 312 77 294 C77 270 78 252 80 236 Z", c.piernas],
+    // recto femoral
+    ["M80 236 C78 252 77 270 77 294 C76 312 77 330 80 346 L86 350 C89 334 90 316 90 296 C90 272 91 254 91 240 Z", c.piernas, 0.9],
+    // vasto medial + aductores (cara interna)
+    ["M91 240 C91 254 90 272 90 296 C90 316 89 334 86 350 C90 354 94 352 96 344 C99 326 99 300 98 276 C97 262 96 250 96 242 Z", c.piernas],
+    // rodilla
+    ["M76 352 C74 360 76 368 82 372 C88 374 94 370 95 362 C95 356 92 352 88 351 Z", N],
+    // tibial anterior / peroneo
+    ["M74 374 C70 392 69 414 72 436 C73 446 76 454 79 458 C81 440 82 414 82 392 C82 384 81 378 79 375 Z", c.piernas, 0.9],
+    // gemelo (porcion medial visible)
+    ["M85 376 C92 386 96 402 95 420 C94 432 90 442 86 448 C85 428 84 402 85 376 Z", c.piernas],
+    // pie
+    ["M76 462 C72 468 70 476 74 480 C80 483 90 482 94 478 C95 472 92 466 86 462 Z", N]
+  ];
 
-  // Cabeza
-  svg += '<ellipse cx="180" cy="42" rx="26" ry="32" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="1.2"/>';
-  // Cuello (trapezoidal)
-  svg += '<path d="M 167 70 L 193 70 L 198 88 L 162 88 Z" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="1.2"/>';
+  // ---------------- ESPALDA ----------------
+  var back = [
+    // triceps (debajo del deltoide posterior): cabeza larga + lateral
+    ["M48 126 C41 138 38 154 38 168 C38 180 41 188 45 194 C50 188 54 178 55 166 C56 152 55 138 52 126 Z", c.triceps],
+    ["M52 136 C57 148 58 160 56 172 C55 178 53 183 50 186 C49 172 50 154 52 136 Z", c.triceps, 0.82],
+    // deltoides posterior
+    ["M64 84 C52 85 43 94 41 107 C40 117 42 127 46 135 C52 128 57 120 60 112 C63 104 66 96 68 90 Z", c.hombros],
+    // infraespinoso / redondo (sobre el omoplato)
+    ["M68 92 C76 98 84 106 88 118 C86 126 80 130 72 130 C67 128 64 122 63 116 C62 106 64 98 68 92 Z", c.espalda, 0.9],
+    // dorsal ancho (ala desde la axila hacia la cintura)
+    ["M63 126 C70 131 80 133 90 130 C92 150 92 168 91 186 C90 198 89 206 88 214 C80 208 74 197 70 184 C65 168 62 148 63 126 Z", c.espalda],
+    // erectores / lumbares (columna junto a la columna vertebral)
+    ["M94 164 C97 176 99 194 99 212 L99 228 L90 228 C89 214 89 200 90 188 C91 178 92 170 94 164 Z", c.espalda, 0.85],
+    // trapecio (superior + medio + inferior en una pieza)
+    ["M100 62 C96 70 88 76 66 83 C74 90 84 100 90 114 C94 126 97 142 100 158 Z", c.espalda],
+    // antebrazo
+    ["M42 197 C35 208 31 222 31 238 C31 250 33 259 36 266 L45 266 C49 254 53 238 54 222 C55 210 53 202 50 197 Z", c.antebrazos],
+    ["M35 270 C31 278 31 288 36 294 C41 296 46 292 47 284 C47 278 46 273 45 270 Z", N],
+    // gluteo (Piernas)
+    ["M99 228 C90 226 78 226 70 232 C64 240 63 254 66 266 C70 276 80 280 90 279 C95 278 98 276 99 274 Z", c.piernas],
+    // isquios: biceps femoral + semitendinoso
+    ["M66 280 C61 300 61 322 65 340 C67 348 71 354 76 356 C77 336 77 312 79 286 C75 284 70 282 66 280 Z", c.piernas, 0.92],
+    ["M82 286 C80 310 80 334 83 356 L94 354 C97 336 98 312 97 286 C92 288 87 288 82 286 Z", c.piernas],
+    // rodilla posterior
+    ["M76 358 C74 364 77 370 84 371 C90 372 95 368 96 362 C94 358 90 357 86 357 Z", N],
+    // gemelo: cabeza lateral + medial
+    ["M74 373 C67 386 66 404 70 420 C72 428 76 432 80 432 C81 414 81 394 80 375 Z", c.piernas],
+    ["M83 375 C83 394 83 414 84 432 C88 432 92 428 94 420 C97 404 95 386 89 376 Z", c.piernas, 0.9],
+    // soleo / talon
+    ["M76 436 C75 446 77 454 80 460 L88 460 C91 454 92 446 91 436 C86 438 81 438 76 436 Z", c.piernas, 0.75],
+    ["M76 464 C72 470 72 477 76 480 C82 482 90 481 93 477 C93 471 90 466 86 464 Z", N]
+  ];
+  var headNeck = '<path d="M89 56 C89 64 88 71 85 78 L115 78 C112 71 111 64 111 56 Z" fill="' + N + '"/>' +
+                 '<ellipse cx="100" cy="37" rx="18" ry="23" fill="' + N + '" stroke="' + BASE + '" stroke-width="4"/>';
+  // Columna (surco central de la espalda)
+  var spine = '<path d="M100 66 L100 226" stroke="' + GAP + '" stroke-width="1.6"/>';
 
-  // Trapecio (visible desde el frente, por arriba de las claviculas)
-  svg += '<path d="M 162 88 Q 145 92 132 100 L 142 110 Q 165 96 180 95 Q 195 96 218 110 L 228 100 Q 215 92 198 88 Z" fill="'+cEspald+'" stroke="'+stroke+'" stroke-width="1"/>';
-
-  // === HOMBROS (deltoides anterior + lateral, separados por linea) ===
-  // Lateral izquierdo (hombro)
-  svg += '<path d="M 132 100 Q 118 105 108 122 Q 105 138 110 158 L 132 152 Q 138 130 142 110 Z" fill="'+cHombro+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Anterior izquierdo
-  svg += '<path d="M 142 110 Q 138 130 132 152 L 152 165 Q 158 138 162 115 Z" fill="'+cHombro+'" opacity="0.85" stroke="'+stroke+'" stroke-width="1"/>';
-  // Lateral derecho
-  svg += '<path d="M 228 100 Q 242 105 252 122 Q 255 138 250 158 L 228 152 Q 222 130 218 110 Z" fill="'+cHombro+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Anterior derecho
-  svg += '<path d="M 218 110 Q 222 130 228 152 L 208 165 Q 202 138 198 115 Z" fill="'+cHombro+'" opacity="0.85" stroke="'+stroke+'" stroke-width="1"/>';
-
-  // === PECHO (pectorales con division clavicular y esternal) ===
-  // Pectoral izquierdo - cabeza esternal (parte mayor)
-  svg += '<path d="M 162 115 Q 158 138 152 165 L 178 175 L 178 122 Q 170 117 162 115 Z" fill="'+cPecho+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Pectoral izquierdo - cabeza clavicular (banda superior)
-  svg += '<path d="M 162 115 Q 170 117 178 122 L 178 110 Q 170 108 162 110 Z" fill="'+cPecho+'" opacity="0.8" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Pectoral derecho - cabeza esternal
-  svg += '<path d="M 198 115 Q 202 138 208 165 L 182 175 L 182 122 Q 190 117 198 115 Z" fill="'+cPecho+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Pectoral derecho - cabeza clavicular
-  svg += '<path d="M 198 115 Q 190 117 182 122 L 182 110 Q 190 108 198 110 Z" fill="'+cPecho+'" opacity="0.8" stroke="'+stroke+'" stroke-width="0.8"/>';
-
-  // === SERRATOS (visibles a los lados de los pectorales) ===
-  svg += '<path d="M 152 165 L 158 195 L 168 200 L 172 175 Z" fill="'+neutralFill+'" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<path d="M 208 165 L 202 195 L 192 200 L 188 175 Z" fill="'+neutralFill+'" stroke="'+stroke+'" stroke-width="0.6"/>';
-
-  // === ABDOMINALES (recto abdominal con 6-pack) ===
-  // Caja abdominal con division central
-  svg += '<rect x="168" y="178" width="24" height="65" fill="'+cAbs+'" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Linea alba (vertical central)
-  svg += '<line x1="180" y1="178" x2="180" y2="243" stroke="'+stroke+'" stroke-width="0.6"/>';
-  // Lineas horizontales del 6-pack
-  svg += '<line x1="168" y1="195" x2="192" y2="195" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<line x1="168" y1="212" x2="192" y2="212" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<line x1="168" y1="228" x2="192" y2="228" stroke="'+stroke+'" stroke-width="0.6"/>';
-  // Oblicuos (a los costados del abdomen)
-  svg += '<path d="M 168 195 L 158 198 L 156 240 L 168 240 Z" fill="'+cAbs+'" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<path d="M 192 195 L 202 198 L 204 240 L 192 240 Z" fill="'+cAbs+'" stroke="'+stroke+'" stroke-width="0.6"/>';
-
-  // === BICEPS (con braquial visible) ===
-  // Biceps izquierdo (cabeza larga + corta)
-  svg += '<path d="M 110 158 Q 100 175 95 200 L 115 205 Q 120 185 132 152 Z" fill="'+cBiceps+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Braquial izquierdo (banda lateral mas oscura)
-  svg += '<path d="M 110 158 Q 105 178 110 200 L 95 200 Q 100 175 110 158 Z" fill="'+cBiceps+'" opacity="0.75" stroke="'+stroke+'" stroke-width="0.7"/>';
-  // Biceps derecho
-  svg += '<path d="M 250 158 Q 260 175 265 200 L 245 205 Q 240 185 228 152 Z" fill="'+cBiceps+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Braquial derecho
-  svg += '<path d="M 250 158 Q 255 178 250 200 L 265 200 Q 260 175 250 158 Z" fill="'+cBiceps+'" opacity="0.75" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  // === ANTEBRAZOS (con braquiorradial visible) ===
-  // Antebrazo izquierdo
-  svg += '<path d="M 95 200 Q 88 220 92 248 Q 96 265 102 270 L 118 268 Q 116 240 115 205 Z" fill="'+cAnteb+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Antebrazo derecho
-  svg += '<path d="M 265 200 Q 272 220 268 248 Q 264 265 258 270 L 242 268 Q 244 240 245 205 Z" fill="'+cAnteb+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Manos (neutras)
-  svg += '<path d="M 102 270 Q 95 285 105 295 Q 115 290 118 282 Z" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-  svg += '<path d="M 258 270 Q 265 285 255 295 Q 245 290 242 282 Z" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  // === CADERA / CINTURA (zona neutra) ===
-  svg += '<path d="M 156 240 L 204 240 L 210 268 L 150 268 Z" fill="'+neutralFill+'" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Hueso de la cadera (linea de marca)
-  svg += '<line x1="156" y1="245" x2="170" y2="265" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<line x1="204" y1="245" x2="190" y2="265" stroke="'+stroke+'" stroke-width="0.6"/>';
-
-  // === PIERNAS FRENTE (cuadriceps con vasto medial) ===
-  // Cuadriceps izquierdo (vasto lateral + recto femoral)
-  svg += '<path d="M 150 268 Q 145 320 148 380 L 175 385 Q 175 320 178 268 Z" fill="'+cPierna+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Vasto medial izquierdo (pelota interna arriba de la rodilla)
-  svg += '<path d="M 175 360 Q 170 380 175 390 L 180 388 L 180 358 Z" fill="'+cPierna+'" opacity="0.85" stroke="'+stroke+'" stroke-width="0.7"/>';
-  // Cuadriceps derecho
-  svg += '<path d="M 210 268 Q 215 320 212 380 L 185 385 Q 185 320 182 268 Z" fill="'+cPierna+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Vasto medial derecho
-  svg += '<path d="M 185 360 Q 190 380 185 390 L 180 388 L 180 358 Z" fill="'+cPierna+'" opacity="0.85" stroke="'+stroke+'" stroke-width="0.7"/>';
-  // Rodillas (neutras)
-  svg += '<ellipse cx="161" cy="395" rx="13" ry="8" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.8"/>';
-  svg += '<ellipse cx="199" cy="395" rx="13" ry="8" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.8"/>';
-
-  // === GEMELOS FRENTE (tibial anterior visible al costado) ===
-  svg += '<path d="M 148 405 Q 144 440 148 475 Q 152 490 156 495 L 172 490 Q 172 460 172 405 Z" fill="'+cPierna+'" opacity="0.75" stroke="'+stroke+'" stroke-width="1"/>';
-  svg += '<path d="M 212 405 Q 216 440 212 475 Q 208 490 204 495 L 188 490 Q 188 460 188 405 Z" fill="'+cPierna+'" opacity="0.75" stroke="'+stroke+'" stroke-width="1"/>';
-  // Pies (neutros)
-  svg += '<ellipse cx="161" cy="503" rx="14" ry="7" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-  svg += '<ellipse cx="199" cy="503" rx="14" ry="7" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  svg += '<text x="180" y="518" fill="#666" font-size="10" text-anchor="middle" font-weight="700">FRENTE</text>';
-
-  // ===========================================================
-  // ESPALDA - centro x=540
-  // ===========================================================
-
-  // Cabeza
-  svg += '<ellipse cx="540" cy="42" rx="26" ry="32" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="1.2"/>';
-  // Cuello posterior
-  svg += '<path d="M 527 70 L 553 70 L 558 88 L 522 88 Z" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="1.2"/>';
-
-  // === TRAPECIO (3 secciones: superior + medio + inferior) ===
-  // Trapecio superior (yugo de la espalda hasta hombros)
-  svg += '<path d="M 522 88 Q 510 92 492 100 L 510 115 Q 525 100 540 98 Q 555 100 570 115 L 588 100 Q 570 92 558 88 Z" fill="'+cEspald+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Trapecio medio (banda triangular superior central)
-  svg += '<path d="M 510 115 L 540 100 L 570 115 L 565 165 L 515 165 Z" fill="'+cEspald+'" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Trapecio inferior (V invertida hacia abajo)
-  svg += '<path d="M 515 165 L 565 165 L 540 215 Z" fill="'+cEspald+'" opacity="0.85" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  // === DELTOIDE POSTERIOR ===
-  svg += '<path d="M 492 100 Q 478 105 468 122 Q 465 138 470 158 L 492 152 Q 498 130 510 115 Z" fill="'+cHombro+'" opacity="0.9" stroke="'+stroke+'" stroke-width="1"/>';
-  svg += '<path d="M 588 100 Q 602 105 612 122 Q 615 138 610 158 L 588 152 Q 582 130 570 115 Z" fill="'+cHombro+'" opacity="0.9" stroke="'+stroke+'" stroke-width="1"/>';
-
-  // === DORSALES (forma de V/alas) ===
-  // Dorsal izquierdo
-  svg += '<path d="M 515 165 L 502 175 Q 490 195 488 220 L 515 240 L 530 220 L 530 168 Z" fill="'+cEspald+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Dorsal derecho
-  svg += '<path d="M 565 165 L 578 175 Q 590 195 592 220 L 565 240 L 550 220 L 550 168 Z" fill="'+cEspald+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Region lumbar (parte baja, mas suave)
-  svg += '<path d="M 515 240 L 565 240 L 568 268 L 512 268 Z" fill="'+cEspald+'" opacity="0.7" stroke="'+stroke+'" stroke-width="0.8"/>';
-
-  // === REDONDO MAYOR / TERES (entre dorsal y triceps) ===
-  svg += '<path d="M 488 195 Q 485 215 492 220 L 502 215 L 502 195 Z" fill="'+cEspald+'" opacity="0.75" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<path d="M 592 195 Q 595 215 588 220 L 578 215 L 578 195 Z" fill="'+cEspald+'" opacity="0.75" stroke="'+stroke+'" stroke-width="0.6"/>';
-
-  // === TRICEPS (cabeza larga + lateral) ===
-  // Triceps izquierdo - cabeza larga (interna)
-  svg += '<path d="M 470 158 Q 460 175 455 200 L 472 205 Q 478 185 488 158 Z" fill="'+cTricep+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Triceps izquierdo - cabeza lateral
-  svg += '<path d="M 470 158 Q 462 178 470 200 L 455 200 Q 460 175 470 158 Z" fill="'+cTricep+'" opacity="0.8" stroke="'+stroke+'" stroke-width="0.7"/>';
-  // Triceps derecho - cabeza larga
-  svg += '<path d="M 610 158 Q 620 175 625 200 L 608 205 Q 602 185 592 158 Z" fill="'+cTricep+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Triceps derecho - cabeza lateral
-  svg += '<path d="M 610 158 Q 618 178 610 200 L 625 200 Q 620 175 610 158 Z" fill="'+cTricep+'" opacity="0.8" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  // === ANTEBRAZOS ESPALDA ===
-  svg += '<path d="M 455 200 Q 448 220 452 248 Q 456 265 462 270 L 478 268 Q 476 240 475 205 Z" fill="'+cAnteb+'" stroke="'+stroke+'" stroke-width="1"/>';
-  svg += '<path d="M 625 200 Q 632 220 628 248 Q 624 265 618 270 L 602 268 Q 604 240 605 205 Z" fill="'+cAnteb+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Manos posterior
-  svg += '<path d="M 462 270 Q 455 285 465 295 Q 475 290 478 282 Z" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-  svg += '<path d="M 618 270 Q 625 285 615 295 Q 605 290 602 282 Z" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  // === GLUTEOS (parte de Piernas) ===
-  // Gluteo izquierdo
-  svg += '<path d="M 512 268 Q 506 295 510 318 Q 522 328 540 325 L 540 268 Z" fill="'+cPierna+'" stroke="'+stroke+'" stroke-width="1"/>';
-  // Gluteo derecho
-  svg += '<path d="M 568 268 Q 574 295 570 318 Q 558 328 540 325 L 540 268 Z" fill="'+cPierna+'" stroke="'+stroke+'" stroke-width="1"/>';
-
-  // === ISQUIOS (3 cabezas: biceps femoral, semitendinoso, semimembranoso) ===
-  // Pierna izquierda - biceps femoral (lateral)
-  svg += '<path d="M 510 318 Q 506 360 510 395 L 525 395 Q 528 360 525 322 Z" fill="'+cPierna+'" opacity="0.9" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Pierna izquierda - semitendinoso/membranoso (medial)
-  svg += '<path d="M 525 322 Q 528 360 525 395 L 540 395 Q 540 360 540 325 Z" fill="'+cPierna+'" opacity="0.85" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Pierna derecha - biceps femoral
-  svg += '<path d="M 570 318 Q 574 360 570 395 L 555 395 Q 552 360 555 322 Z" fill="'+cPierna+'" opacity="0.9" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Pierna derecha - semitendinoso/membranoso
-  svg += '<path d="M 555 322 Q 552 360 555 395 L 540 395 Q 540 360 540 325 Z" fill="'+cPierna+'" opacity="0.85" stroke="'+stroke+'" stroke-width="0.8"/>';
-  // Hueco poplíteo (rodilla posterior, neutro)
-  svg += '<ellipse cx="521" cy="402" rx="11" ry="5" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-  svg += '<ellipse cx="559" cy="402" rx="11" ry="5" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  // === GEMELOS (gastrocnemio: 2 cabezas + soleo) ===
-  // Gemelo izquierdo - cabeza medial
-  svg += '<path d="M 510 408 Q 506 440 510 475 Q 514 488 518 495 L 528 488 Q 530 460 528 408 Z" fill="'+cPierna+'" stroke="'+stroke+'" stroke-width="0.9"/>';
-  // Gemelo izquierdo - cabeza lateral (mas oscura)
-  svg += '<path d="M 510 408 Q 506 440 510 470 L 514 470 Q 516 440 514 408 Z" fill="'+cPierna+'" opacity="0.8" stroke="'+stroke+'" stroke-width="0.6"/>';
-  // Soleo izquierdo (banda inferior)
-  svg += '<path d="M 514 470 Q 516 485 522 495 L 528 488 Q 526 478 528 470 Z" fill="'+cPierna+'" opacity="0.7" stroke="'+stroke+'" stroke-width="0.5"/>';
-  // Gemelo derecho
-  svg += '<path d="M 570 408 Q 574 440 570 475 Q 566 488 562 495 L 552 488 Q 550 460 552 408 Z" fill="'+cPierna+'" stroke="'+stroke+'" stroke-width="0.9"/>';
-  svg += '<path d="M 570 408 Q 574 440 570 470 L 566 470 Q 564 440 566 408 Z" fill="'+cPierna+'" opacity="0.8" stroke="'+stroke+'" stroke-width="0.6"/>';
-  svg += '<path d="M 566 470 Q 564 485 558 495 L 552 488 Q 554 478 552 470 Z" fill="'+cPierna+'" opacity="0.7" stroke="'+stroke+'" stroke-width="0.5"/>';
-  // Pies posterior
-  svg += '<ellipse cx="521" cy="503" rx="13" ry="6" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-  svg += '<ellipse cx="559" cy="503" rx="13" ry="6" fill="'+bodyFill+'" stroke="'+stroke+'" stroke-width="0.7"/>';
-
-  svg += '<text x="540" y="518" fill="#666" font-size="10" text-anchor="middle" font-weight="700">ESPALDA</text>';
-
-  svg += '</svg>';
-  return svg;
+  var svg = '<svg viewBox="0 0 440 500" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block" role="img" aria-label="Mapa muscular de la semana">';
+  svg += figure(10, front, headNeck);
+  svg += figure(230, back, headNeck);
+  svg += '<g transform="translate(230,0)">' + spine + '</g>';
+  svg += '<text x="110" y="497" fill="#5c5f78" font-size="12" text-anchor="middle" font-family="inherit">Frente</text>';
+  svg += '<text x="330" y="497" fill="#5c5f78" font-size="12" text-anchor="middle" font-family="inherit">Espalda</text>';
+  return svg + '</svg>';
 }
 
 // ============================================================
