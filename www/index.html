@@ -406,6 +406,59 @@ button:focus:not(:focus-visible){outline:none}
 .rmLiveRow{display:grid;grid-template-columns:1fr auto auto;gap:12px;width:100%;align-items:center;text-align:left;background:#15151f;border:1px solid #2a2a3a;border-radius:12px;padding:12px 14px;margin-bottom:8px;color:#a0a3bd;font-size:14px;cursor:pointer;font-variant-numeric:tabular-nums}
 .rmLiveRow.best{border-color:#4ECDC4;color:#e8e8f0}
 .rmLiveE{color:#4ECDC4;font-weight:800}
+
+/* ---- Rutinas ---- */
+#dayViewToggle,#filterScroll,#exerciseList{display:none!important}
+#routinesArea{padding:4px 16px 120px}
+.rtHead{display:flex;align-items:center;justify-content:space-between;margin:6px 0 10px}
+.rtTitle{font-size:20px;font-weight:800}
+.rtNewFolder{border:1px dashed #3a3a52;background:transparent;color:#4ECDC4;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;cursor:pointer}
+.rtEmpty{color:#8585a0;font-size:14px;line-height:1.5;padding:14px 4px}
+.rtFolder{margin-bottom:14px}
+.rtFolderHead{display:flex;align-items:center;gap:4px}
+.rtFolderToggle{flex:1;display:flex;align-items:center;gap:10px;border:none;background:transparent;color:#e8e8f0;padding:8px 2px;cursor:pointer;text-align:left;min-width:0}
+.rtChev{color:#8585a0;font-size:14px;transition:transform .2s var(--ease,ease);display:inline-block}
+.rtFolder.open .rtChev{transform:rotate(90deg)}
+.rtFolderName{font-size:16px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rtCount{color:#5c5f78;font-size:13px;flex-shrink:0}
+.rtCard{background:#0d0d1a;border:1px solid #1a1a2e;border-radius:16px;padding:12px 12px 12px 16px;margin:8px 0}
+.rtCardTop{display:flex;align-items:center;gap:6px}
+.rtName{flex:1;font-size:17px;font-weight:800;color:#fff}
+.rtPreview{color:#8585a0;font-size:13px;line-height:1.45;margin:2px 0 12px;padding-right:8px}
+.rtStart{display:block;width:100%;border:none;border-radius:12px;background:#4ECDC4;color:#06121a;font-size:15px;font-weight:800;padding:13px;cursor:pointer}
+.rtNewRoutine{display:block;width:100%;border:1px dashed #2f3045;background:transparent;color:#8585a0;border-radius:14px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;margin-top:4px}
+.rtLive{display:flex;align-items:center;gap:10px;width:100%;border:1px solid #4ECDC455;background:#4ECDC414;border-radius:14px;padding:12px 14px;margin:4px 0 6px;color:#e8e8f0;font-size:14px;cursor:pointer;text-align:left}
+.rtLiveDot{width:8px;height:8px;border-radius:50%;background:#4ECDC4;flex-shrink:0;animation:rtPulse 1.6s ease-in-out infinite}
+@keyframes rtPulse{50%{opacity:.35}}
+.rtLiveTxt{flex:1}
+.rtLiveGo{color:#4ECDC4;font-weight:800}
+.rtEdRow{display:flex;align-items:center;gap:8px;background:#0d0d1a;border:1px solid #1a1a2e;border-radius:12px;padding:8px 8px 8px 14px;margin-bottom:8px}
+.rtEdName{flex:1;font-size:15px;color:#e8e8f0;line-height:1.3}
+.rtEdBtn{width:38px;height:38px;border:1px solid #2a2a3a;background:transparent;color:#a0a3bd;border-radius:10px;font-size:15px;cursor:pointer}
+.rtEdBtn:disabled{opacity:.25}
+.rtEdBtn.danger{color:#FF8B94}
+.trAddEx{display:block;width:100%;border:1px dashed #3a3a52;background:transparent;color:#4ECDC4;border-radius:14px;padding:13px;font-size:14px;font-weight:700;cursor:pointer;margin:4px 0 10px}
+.trFinish{display:block;width:100%;border:1px solid #FF8B9466;background:#FF8B9412;color:#FF8B94;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer}
+.trFinishTop{border:1px solid #FF8B9466;background:transparent;color:#FF8B94;border-radius:10px;padding:6px 12px;font-size:13px;font-weight:700;cursor:pointer}
+.finBox{padding:0 20px}
+.finStats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0 12px}
+.finStats div{background:#15151f;border:1px solid #2a2a3a;border-radius:12px;padding:10px 8px;text-align:center}
+.finStats b{display:block;font-size:17px;color:#fff;font-variant-numeric:tabular-nums}
+.finStats span{font-size:12px;color:#8585a0}
+.finEx div{display:flex;justify-content:space-between;gap:12px;font-size:14px;color:#a0a3bd;padding:7px 0;border-top:1px solid #1a1a2e}
+.finEx div span:first-child{color:#e8e8f0}
+.libHiddenLink{display:block;margin:18px auto 8px;border:none;background:transparent;color:#8585a0;font-size:13px;text-decoration:underline;cursor:pointer}
+.libHidRow{display:flex;align-items:center;gap:10px;padding:10px 20px;border-top:1px solid #1a1a2e;color:#e8e8f0;font-size:14px}
+.libHidRow span{flex:1}
+.libHidBtn{border:1px solid #4ECDC455;background:transparent;color:#4ECDC4;border-radius:10px;padding:7px 12px;font-size:13px;font-weight:700;cursor:pointer}
+.sesHead{color:#8585a0;font-size:13px;font-weight:600;margin:0 0 8px}
+.sesCard{background:#0d0d1a;border:1px solid #1a1a2e;border-radius:14px;padding:12px 14px;margin-bottom:8px}
+.sesTop{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.sesName{font-size:15px;font-weight:700;color:#fff}
+.sesDate{font-size:12px;color:#8585a0}
+.sesStats{font-size:13px;color:#a0a3bd;margin-top:4px;font-variant-numeric:tabular-nums}
+.appToast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%);background:#1d1e2c;border:1px solid #2f3045;color:#e8e8f0;font-size:14px;padding:12px 18px;border-radius:14px;z-index:3000;box-shadow:0 10px 30px rgba(0,0,0,.5);transition:opacity .35s;max-width:88vw;text-align:center}
+.appToast.out{opacity:0}
 </style>
 </head>
 <body>
@@ -434,11 +487,9 @@ button:focus:not(:focus-visible){outline:none}
     </div>
   <div class="filterScroll" id="filterScroll"></div>
   <div id="exerciseList"></div>
+  <div id="routinesArea"></div>
   <div id="bottomBar">
-    <div style="display:flex;gap:8px">
-      <button class="trainMainBtn" onclick="openTrain()">Entrenar hoy</button>
-      <button class="timerMainBtn" style="width:auto;flex:0 0 auto;padding:16px 20px" onclick="openTimer()" title="Cron&oacute;metro de descanso" aria-label="Cron&oacute;metro de descanso">&#9201;</button>
-    </div>
+    <button class="timerMainBtn" onclick="openTimer()">&#9201; Cron&oacute;metro de descanso</button>
   </div>
 </div>
 
@@ -1665,6 +1716,8 @@ function showScreen(id) {
   if (id === "libraryScreen") { libActiveFilter = null; document.getElementById("libSearch").value = ""; renderLibrary(); }
   if (id === "homeScreen" || id === "editScreen") { libTargetGroup = null; libSubstitute = null; }
   if (id === "trainScreen") renderTrain();
+  if (id === "rtEditScreen") renderRoutineEditor();
+  if (id === "homeScreen") { libAddRoutine = null; }
   if (id === "exHistScreen") return;
   if (id === "wsSummaryScreen") return;
   if (id === "prScreen") renderPRScreen();
@@ -1674,7 +1727,7 @@ function showScreen(id) {
   if (id === "homeScreen") renderHome();
 }
 
-function renderHome() { renderWeekNav(); renderSummary(); renderFilters(); checkDayToggleVisibility(); renderExercises(); renderVolChartInSummary(); }
+function renderHome() { renderWeekNav(); renderSummary(); renderFilters(); checkDayToggleVisibility(); renderExercises(); renderVolChartInSummary(); if (typeof renderRoutinesHome === "function") renderRoutinesHome(); }
 function renderVolChartInSummary() {
   var area = document.getElementById("summaryArea");
   if (!area) return;
@@ -2188,6 +2241,7 @@ function saveExercise() {
       if (s.warmup) clean.warmup = true;
       if (s.modified) clean.modified = true;
       if (s.rest) clean.rest = s.rest;
+      if (s.t) clean.t = s.t;
       if (s.ex === "B") setsB.push(clean); else setsA.push(clean);
     }
     toSave.push({ ex: currentEx, sets: setsA });
@@ -2202,6 +2256,7 @@ function saveExercise() {
       if (s.warmup) clean.warmup = true;
       if (s.modified) clean.modified = true;
       if (s.rest) clean.rest = s.rest;
+      if (s.t) clean.t = s.t;
       filtered.push(clean);
     }
     toSave.push({ ex: currentEx, sets: filtered });
@@ -2479,7 +2534,7 @@ function renderHistory() {
     for (var j = 0; j < exNames.length; j++) { var exName = exNames[j]; var allEx = getAllEx(); var ex = null; for (var k = 0; k < allEx.length; k++) { if (allEx[k].name===exName) { ex = allEx[k]; break; } } var c = ex?ex.color:"#888"; tags += "<span class=\"histTag\" style=\"background:"+c+"20;color:"+c+";border:1px solid "+c+"30;cursor:pointer\" onclick=\"showExHistory('"+exName.replace(/'/g,'\\\\\'')+"')\" >"+exName+" ("+wd[exName].length+"s)</span> "; }
     html += "<div class=\"histCard\" onclick=\"showWeekSummary('"+wk+"')\" style=\"cursor:pointer\"><div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:10px\"><div><div style=\"color:#FF6B35;font-size:11px;letter-spacing:2px;text-transform:uppercase\">"+(wk===todayWk?"Esta semana":"Semana")+"</div><div style=\"color:#fff;font-weight:700;font-size:15px\">"+formatWeek(wk)+"</div></div><div style=\"background:#FF6B3520;color:#FF6B35;border-radius:10px;padding:6px 12px;font-size:14px;font-weight:700\">"+count+" ej.</div></div><div style=\"display:flex;flex-wrap:wrap;gap:6px\">"+tags+"</div></div>";
   }
-  list.innerHTML = html;
+  list.innerHTML = renderSessionsInHistory() + html;
 }
 
 function renderEditScreen() {
@@ -2641,7 +2696,14 @@ function libView() {
     var ex = GROUPS[g].exercises || [];
     for (var e = 0; e < ex.length; e++) if (!inCatalog[ex[e].toLowerCase()]) { out[g].exercises.unshift(ex[e]); out[g].custom[ex[e]] = true; }
   }
+  // Fuera los ejercicios eliminados por vos
+  if (libHidden.length) for (var h in out) out[h].exercises = out[h].exercises.filter(function(n){ return !libIsHidden(n); });
   return out;
+}
+function libIsCatalog(name) {
+  var lk = Object.keys(LIBRARY);
+  for (var i = 0; i < lk.length; i++) if (LIBRARY[lk[i]].exercises.indexOf(name) >= 0) return true;
+  return false;
 }
 function libCreateExercise() {
   var LV = libView(), keys = Object.keys(LV), sel = { g: libActiveFilter && LV[libActiveFilter] ? libActiveFilter : null };
@@ -2658,7 +2720,7 @@ function libCreateExercise() {
     });
     body.appendChild(chips);
     var msg = document.createElement("div"); msg.className = "libCreateMsg"; body.appendChild(msg);
-    var ok = document.createElement("button"); ok.className = "trSheetPrimary"; ok.textContent = "Crear y elegir d\u00edas";
+    var ok = document.createElement("button"); ok.className = "trSheetPrimary"; ok.textContent = "Crear ejercicio";
     ok.onclick = function() {
       var name = inp.value.trim();
       if (!name) { msg.textContent = "Escrib\u00ed el nombre del ejercicio."; inp.focus(); return; }
@@ -2667,7 +2729,8 @@ function libCreateExercise() {
       if (!GROUPS[sel.g]) GROUPS[sel.g] = { color: LV[sel.g].color, exercises: [] };
       GROUPS[sel.g].exercises.push(name); persistGroups();
       closeTrSheet(); renderLibrary(); renderHome();
-      openDayAssign(name);
+      if (libAddRoutine && findRoutine(libAddRoutine.id)) { addToRoutine(libAddRoutine.id, name, sel.g); showToast("Creado y agregado a " + findRoutine(libAddRoutine.id).routine.name); renderLibrary(); }
+      else routinePicker(name, sel.g);
     };
     body.appendChild(ok);
     setTimeout(function(){ inp.focus(); }, 250);
@@ -2715,8 +2778,12 @@ function renderLibrary() {
   var allBtn = document.createElement("button"); allBtn.className = "libFilterBtn"+(!libActiveFilter?" on":""); allBtn.textContent = "Todos"; allBtn.onclick = function(){ libActiveFilter=null; renderLibrary(); }; fDiv.appendChild(allBtn);
   // Show context banner if opened from edit screen
   var banner = document.getElementById("libBanner");
-  if (libSubstitute) {
-    banner.textContent = "Eleg\u00ed el reemplazo de " + libSubstitute.oldName + " (solo el " + TRAIN_DAY_NAMES[libSubstitute.day].toLowerCase() + ")";
+  if (libAddRoutine && findRoutine(libAddRoutine.id)) {
+    banner.textContent = "Agregando a la rutina " + findRoutine(libAddRoutine.id).routine.name + ". Toc\u00e1 un ejercicio y Agregar.";
+    banner.style.cssText = "display:block;background:#4ECDC41a;border:1px solid #4ECDC450;color:#4ECDC4;border-radius:10px;padding:8px 14px;font-size:13px;font-weight:600;margin-bottom:10px";
+  } else if (libSubstitute) {
+    var subR = findRoutine(libSubstitute.routineId);
+    banner.textContent = "Eleg\u00ed el reemplazo de " + libSubstitute.oldName + (subR ? " (en " + subR.routine.name + ")" : "");
     banner.style.cssText = "display:block;background:#4ECDC41a;border:1px solid #4ECDC450;color:#4ECDC4;border-radius:10px;padding:8px 14px;font-size:13px;font-weight:600;margin-bottom:10px";
   } else if (libTargetGroup && GROUPS[libTargetGroup]) {
     var bc = GROUPS[libTargetGroup].color;
@@ -2749,7 +2816,7 @@ function renderLibrary() {
       if (!items.length) { var emptyG = document.createElement("div"); emptyG.className = "libEmptyGroup"; emptyG.textContent = "Sin ejercicios todav\u00eda. Cre\u00e1 uno con \"Nuevo ejercicio\"."; listDiv.appendChild(emptyG); }
     }
     for (var si = 0; si < items.length; si++) {
-      var exName = items[si]; var inRoutine = isInRoutine(exName);
+      var exName = items[si]; var inRoutine = inAnyRoutine(exName);
       var row = document.createElement("div"); row.className = "libItem";
       // Miniatura de video (lazy load)
       var thumbDiv = document.createElement("div"); thumbDiv.className = "libItemThumb";
@@ -2776,12 +2843,16 @@ function renderLibrary() {
       if (libThumbObserver) libThumbObserver.observe(thumbDiv);
     }
   }
+  if (libHidden.length && !query) {
+    var hid = document.createElement("button"); hid.className = "libHiddenLink";
+    hid.textContent = "Ejercicios eliminados (" + libHidden.length + ")"; hid.onclick = libShowHidden; listDiv.appendChild(hid);
+  }
   document.getElementById("libCount").textContent = query||libActiveFilter?(shown+" resultados"):(total+" ejercicios");
 }
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -4180,6 +4251,20 @@ function trainDaysWithExercises() {
   for (var d = 0; d < 7; d++) if (trainExercisesForDay(d).length) days.push(d);
   return days;
 }
+function openRoutine(id) {
+  if (!findRoutine(id)) return;
+  trainRoutineId = id; trainWeek = getWeekKey(new Date()); trainEdit = {};
+  safeStore("gymLastRoutine", id);
+  prefetchRoutineMedia(id);
+  showScreen("trainScreen");
+}
+function prefetchRoutineMedia(id) {
+  try {
+    if (navigator.connection && navigator.connection.saveData) return;
+    var f = findRoutine(id); if (!f) return; var names = f.routine.exercises.slice(), k = 0;
+    (function next(){ if (k >= names.length) return; var n = names[k++]; Promise.all([mediaResponse(getVideoSrc(n)), mediaResponse(getDescSrc(n))]).then(next, next); })();
+  } catch(e) {}
+}
 function openTrain() {
   trainWeek = getWeekKey(new Date());
   var today = getTodayDayIdx(), days = trainDaysWithExercises();
@@ -4231,6 +4316,7 @@ function saveTrainEx(name) {
     var c = { reps: s.reps, weight: s.weight, modified: true };
     if (s.warmup) c.warmup = true;
     if (s.rest) c.rest = s.rest;
+    if (s.t) c.t = s.t;
     clean.push(c);
   }
   if (!gymData[trainWeek]) gymData[trainWeek] = {};
@@ -4249,7 +4335,7 @@ function trainCompleteSet(name, idx) {
   if (!hasVals(s) && s._ph) { s.weight = s._ph.weight; s.reps = s._ph.reps; }
   if (!hasVals(s)) { var inp = document.getElementById("trKg_" + trainKey(name) + "_" + idx); if (inp) inp.focus(); return; }
   var prevPR = s.warmup ? null : getExPR(name);
-  s._saved = true; delete s._ph;
+  s._saved = true; delete s._ph; if (!s.t) s.t = Date.now();
   saveTrainEx(name);
   trainSessionStart();
   var rest = trainSetRest(name, s);
@@ -4291,7 +4377,7 @@ function trainExMenu(ex) {
     trSheetBtn(body, "&#127947;&nbsp; Calculadora 1RM", function(){ trainOpenRM(ex.name); });
     trSheetBtn(body, "&#9998;&nbsp; Nota", function(){ trainNote(ex.name); });
     trSheetBtn(body, "&#8644;&nbsp; Sustituir ejercicio", function(){ startSubstitute(ex.name); });
-    trSheetBtn(body, "&#10005;&nbsp; Quitar de este d&iacute;a", function(){ trainRemoveFromDay(ex.name); }, true);
+    trSheetBtn(body, "&#10005;&nbsp; Quitar de la rutina", function(){ trainRemoveFromRoutine(ex.name); }, true);
   });
 }
 function trainNote(name) {
@@ -4347,14 +4433,11 @@ function trainSetMenu(name, idx) {
     }, true);
   });
 }
-function trainRemoveFromDay(name) {
-  if (!confirm("¿Quitar \"" + name + "\" del " + TRAIN_DAY_NAMES[trainDay].toLowerCase() + "?\n\nSigue en tu rutina y en los otros días. El historial se conserva.")) return;
-  var arr = getDaysForEx(name).filter(function(d){ return d !== trainDay; });
-  if (arr.length) dayAssignments[name] = arr; else delete dayAssignments[name];
-  persistDayAssign();
-  if (dayOrder[trainDay]) { dayOrder[trainDay] = dayOrder[trainDay].filter(function(n){ return n !== name; }); persistDayOrder(); }
-  delete trainEdit[name];
-  renderTrain();
+function trainRemoveFromRoutine(name) {
+  var f = findRoutine(trainRoutineId); if (!f) return;
+  if (!confirm("\u00bfQuitar \"" + name + "\" de la rutina " + f.routine.name + "?\n\nSigue en la biblioteca. El historial se conserva.")) return;
+  var k = f.routine.exercises.indexOf(name); if (k >= 0) f.routine.exercises.splice(k, 1);
+  persistRoutines(); delete trainEdit[name]; renderTrain();
 }
 
 // ---- 1RM con las series que estas haciendo ----
@@ -4373,36 +4456,28 @@ function trainOpenRM(name) {
 // ---- sustituir (solo en el dia mostrado) ----
 var libSubstitute = null;   // { oldName, day }
 function startSubstitute(name) {
-  libSubstitute = { oldName: name, day: trainDay };
+  libSubstitute = { oldName: name, routineId: trainRoutineId }; libAddRoutine = null;
   libTargetGroup = null;
   showScreen("libraryScreen");
 }
 function libBack() {
   if (libSubstitute) { libSubstitute = null; showScreen("trainScreen"); return; }
+  if (libAddRoutine) { var back = libAddRoutine.back; libAddRoutine = null; showScreen(back); return; }
   showScreen("homeScreen");
 }
 function doSubstitute(newName, group) {
   var sub = libSubstitute; if (!sub) return;
-  if (newName !== sub.oldName) {
+  var f = findRoutine(sub.routineId);
+  if (f && newName !== sub.oldName) {
     if (!isInRoutine(newName)) addFromLibrary(newName, group);
-    var d = sub.day;
-    // Mantener el lugar en el orden del dia
-    var current = trainExercisesForDay(d).map(function(e){ return e.name; });
-    var pos = current.indexOf(sub.oldName);
-    var oldDays = getDaysForEx(sub.oldName).filter(function(x){ return x !== d; });
-    if (oldDays.length) dayAssignments[sub.oldName] = oldDays; else delete dayAssignments[sub.oldName];
-    var newDays = getDaysForEx(newName).slice(); if (newDays.indexOf(d) < 0) newDays.push(d);
-    newDays.sort(function(a, b){ return a - b; }); dayAssignments[newName] = newDays;
-    persistDayAssign();
-    current = current.filter(function(n){ return n !== newName; });
-    pos = current.indexOf(sub.oldName);
-    if (pos >= 0) current[pos] = newName; else current.push(newName);
-    dayOrder[d] = current; persistDayOrder();
-    delete trainEdit[sub.oldName];
+    var ex = f.routine.exercises, dup = ex.indexOf(newName);
+    if (dup >= 0) ex.splice(dup, 1);
+    var k = ex.indexOf(sub.oldName);
+    if (k >= 0) ex[k] = newName; else ex.push(newName);   // ocupa su mismo lugar
+    persistRoutines(); delete trainEdit[sub.oldName];
   }
   libSubstitute = null;
   closeLibDetail();
-  trainDay = sub.day;
   showScreen("trainScreen");
 }
 
@@ -4410,7 +4485,7 @@ function doSubstitute(newName, group) {
 function trainSessionStart() {
   var today = new Date().toISOString().split("T")[0], cur = null;
   try { cur = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
-  if (!cur || cur.d !== today) safeStore("gymSessionStart", JSON.stringify({ d: today, t: Date.now() }));
+  if (!cur || cur.d !== today) safeStore("gymSessionStart", JSON.stringify({ d: today, t: Date.now(), routineId: trainRoutineId }));
 }
 function trainSessionText() {
   var cur = null; try { cur = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
@@ -4441,29 +4516,14 @@ function updateTrainTimerPill() {
 // ---- render ----
 function renderTrain() {
   if (!trainWeek) trainWeek = getWeekKey(new Date());
-  if (trainDay === null) trainDay = getTodayDayIdx();
-  var today = getTodayDayIdx();
-  document.getElementById("trDayTitle").textContent = (trainDay === today ? "Hoy, " : "") + TRAIN_DAY_NAMES[trainDay].toLowerCase();
-  // Dias con ejercicios
-  var chips = document.getElementById("trDayChips"); chips.innerHTML = "";
-  var days = trainDaysWithExercises();
-  if (days.indexOf(today) < 0) days.push(today);
-  days.sort(function(a, b){ return a - b; });
-  days.forEach(function(d) {
-    var b = document.createElement("button"); b.className = "trDayChip" + (d === trainDay ? " on" : "");
-    b.textContent = TRAIN_DAY_NAMES[d].slice(0, 3) + (d === today ? " •" : "");
-    b.onclick = function(){ trainDay = d; renderTrain(); };
-    chips.appendChild(b);
-  });
+  var found = findRoutine(trainRoutineId);
+  if (!found) { showScreen("homeScreen"); return; }
+  document.getElementById("trTitle").textContent = found.routine.name;
+  document.getElementById("trDayTitle").textContent = found.folder.name;
+  document.getElementById("trDayChips").style.display = "none";
   var list = document.getElementById("trList"); list.innerHTML = "";
-  var exs = trainExercisesForDay(trainDay);
-  if (!exs.length) {
-    list.innerHTML = "<div class=\"trEmpty\">No hay ejercicios asignados al " + TRAIN_DAY_NAMES[trainDay].toLowerCase() +
-      ".<br>En la biblioteca, abr\u00ed un ejercicio de tu rutina y toc\u00e1 D\u00edas.</div>";
-    var go = document.createElement("button"); go.className = "trSheetPrimary"; go.style.marginTop = "14px";
-    go.textContent = "Abrir la biblioteca"; go.onclick = function(){ showScreen("libraryScreen"); };
-    list.firstChild.appendChild(go);
-  }
+  var exs = found.routine.exercises.map(exInfo);
+  if (!exs.length) list.innerHTML = "<div class=\"trEmpty\">Esta rutina no tiene ejercicios todav\u00eda.</div>";
   var anyPh = false;
   exs.forEach(function(ex) {
     var name = ex.name, key = trainKey(name), sets = getTrainSets(name);
@@ -4514,7 +4574,7 @@ function renderTrain() {
       refreshVol();
       kg.oninput = function(){ s.weight = kg.value.replace(",", "."); refreshVol(); };
       rp.oninput = function(){ s.reps = rp.value; refreshVol(); };
-      var onChange = function(){ if (hasVals(s)) { s._saved = true; delete s._ph; row.classList.add("done"); } saveTrainEx(name); };
+      var onChange = function(){ if (hasVals(s)) { s._saved = true; delete s._ph; if (!s.t) { s.t = Date.now(); trainSessionStart(); } row.classList.add("done"); } saveTrainEx(name); };
       kg.onchange = onChange; rp.onchange = onChange;
       kg.onkeydown = function(e){ if (e.key === "Enter") { e.preventDefault(); rp.focus(); } };
       rp.onkeydown = function(e){ if (e.key === "Enter") { e.preventDefault(); rp.blur(); trainCompleteSet(name, idx); } };
@@ -4526,6 +4586,11 @@ function renderTrain() {
     blk.appendChild(add);
     list.appendChild(blk);
   });
+  var addEx = document.createElement("button"); addEx.className = "trAddEx"; addEx.textContent = "+ Agregar ejercicio a la rutina";
+  addEx.onclick = function(){ openLibraryForRoutine(trainRoutineId, "trainScreen"); };
+  list.appendChild(addEx);
+  var fin = document.createElement("button"); fin.className = "trFinish"; fin.textContent = "Terminar rutina";
+  fin.onclick = trainFinish; list.appendChild(fin);
   document.getElementById("trHint").style.display = anyPh ? "block" : "none";
   // Reloj de sesion
   var clk = document.getElementById("trClock"); clk.textContent = trainSessionText();
@@ -4535,6 +4600,330 @@ function renderTrain() {
     clk.textContent = trainSessionText();
   }, 1000);
   updateTrainTimerPill();
+}
+
+
+// ============================================================
+// CARPETAS Y RUTINAS (reemplazan a los dias de la semana)
+// ============================================================
+// gymRoutines = { folders: [ { id, name, open, routines: [ { id, name, exercises: [nombres] } ] } ] }
+// La primera vez, cada dia armado (lunes, miercoles...) se convierte en una rutina
+// dentro de la carpeta "Mi rutina". Los dias viejos (gymDayAssign) no se borran.
+var _routines = null;
+var trainRoutineId = null;
+function newId() { return "r" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+function persistRoutines() { safeStore("gymRoutines", JSON.stringify(_routines)); }
+function routinesData() {
+  if (_routines) return _routines;
+  try { _routines = JSON.parse(localStorage.getItem("gymRoutines") || "null"); } catch(e) { _routines = null; }
+  if (!_routines || !_routines.folders) {
+    var f = { id: newId(), name: "Mi rutina", open: true, routines: [] };
+    for (var d = 0; d < 7; d++) {
+      var exs = trainExercisesForDay(d).map(function(e){ return e.name; });
+      if (exs.length) f.routines.push({ id: newId(), name: TRAIN_DAY_NAMES[d], exercises: exs });
+    }
+    _routines = { folders: [f] };
+    persistRoutines();
+  }
+  return _routines;
+}
+function findRoutine(id) {
+  var F = routinesData().folders;
+  for (var i = 0; i < F.length; i++) for (var j = 0; j < F[i].routines.length; j++) if (F[i].routines[j].id === id) return { folder: F[i], routine: F[i].routines[j] };
+  return null;
+}
+function findFolder(id) { var F = routinesData().folders; for (var i = 0; i < F.length; i++) if (F[i].id === id) return F[i]; return null; }
+function inAnyRoutine(name) {
+  var F = routinesData().folders;
+  for (var i = 0; i < F.length; i++) for (var j = 0; j < F[i].routines.length; j++) if (F[i].routines[j].exercises.indexOf(name) >= 0) return true;
+  return false;
+}
+function removeFromAllRoutines(name) {
+  var F = routinesData().folders, ch = false;
+  for (var i = 0; i < F.length; i++) for (var j = 0; j < F[i].routines.length; j++) {
+    var ex = F[i].routines[j].exercises, k = ex.indexOf(name); if (k >= 0) { ex.splice(k, 1); ch = true; }
+  }
+  if (ch) persistRoutines();
+}
+function exInfo(name) {
+  var all = getAllEx(); for (var i = 0; i < all.length; i++) if (all[i].name === name) return all[i];
+  return { name: name, group: "", color: "#8585a0" };
+}
+// Agrega un ejercicio a una rutina (y a tu lista de ejercicios si hacia falta).
+function addToRoutine(routineId, name, group) {
+  var f = findRoutine(routineId); if (!f) return false;
+  if (!isInRoutine(name) && group) addFromLibrary(name, group);
+  if (f.routine.exercises.indexOf(name) >= 0) return false;
+  f.routine.exercises.push(name); persistRoutines(); return true;
+}
+
+function showToast(msg) {
+  var t = document.createElement("div"); t.className = "appToast"; t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(function(){ t.classList.add("out"); setTimeout(function(){ if (t.parentNode) t.parentNode.removeChild(t); }, 400); }, 2200);
+}
+// Hoja con un campo de texto
+function askText(title, placeholder, initial, okLabel, cb) {
+  openTrSheet(title, function(body) {
+    var inp = document.createElement("input"); inp.className = "trNoteInput"; inp.placeholder = placeholder; inp.value = initial || ""; inp.style.resize = "none";
+    body.appendChild(inp);
+    var msg = document.createElement("div"); msg.className = "libCreateMsg"; body.appendChild(msg);
+    var ok = document.createElement("button"); ok.className = "trSheetPrimary"; ok.textContent = okLabel;
+    var go = function() { var v = inp.value.trim(); if (!v) { msg.textContent = "Escribí un nombre."; inp.focus(); return; } closeTrSheet(); cb(v); };
+    ok.onclick = go; inp.onkeydown = function(e){ if (e.key === "Enter") { e.preventDefault(); go(); } };
+    body.appendChild(ok);
+    setTimeout(function(){ inp.focus(); inp.select(); }, 250);
+  });
+}
+
+// ---- Inicio: carpetas y rutinas ----
+function renderRoutinesHome() {
+  var area = document.getElementById("routinesArea"); if (!area) return;
+  var data = routinesData(); area.innerHTML = "";
+  // Rutina en curso
+  var ses = trainGetSession();
+  if (ses && ses.routineId && findRoutine(ses.routineId)) {
+    var cur = findRoutine(ses.routineId);
+    var bn = document.createElement("button"); bn.className = "rtLive";
+    bn.innerHTML = "<span class=\"rtLiveDot\"></span><span class=\"rtLiveTxt\">Rutina en curso: <b></b></span><span class=\"rtLiveGo\">Continuar</span>";
+    bn.querySelector("b").textContent = cur.routine.name;
+    bn.onclick = function(){ openRoutine(ses.routineId); };
+    area.appendChild(bn);
+  }
+  var head = document.createElement("div"); head.className = "rtHead";
+  head.innerHTML = "<span class=\"rtTitle\">Rutinas</span>";
+  var nf = document.createElement("button"); nf.className = "rtNewFolder"; nf.textContent = "+ Carpeta";
+  nf.onclick = function(){ askText("Nueva carpeta", "Ej.: Hipertrofia, Fuerza, Vacaciones", "", "Crear carpeta", function(v){ data.folders.push({ id: newId(), name: v, open: true, routines: [] }); persistRoutines(); renderRoutinesHome(); }); };
+  head.appendChild(nf); area.appendChild(head);
+  if (!data.folders.length) {
+    var em = document.createElement("div"); em.className = "rtEmpty"; em.textContent = "Creá una carpeta y adentro tus rutinas."; area.appendChild(em);
+  }
+  data.folders.forEach(function(f) {
+    var box = document.createElement("div"); box.className = "rtFolder" + (f.open ? " open" : "");
+    var fh = document.createElement("div"); fh.className = "rtFolderHead";
+    var tg = document.createElement("button"); tg.className = "rtFolderToggle";
+    tg.innerHTML = "<span class=\"rtChev\">&#9656;</span><span class=\"rtFolderName\"></span><span class=\"rtCount\"></span>";
+    tg.querySelector(".rtFolderName").textContent = f.name;
+    tg.querySelector(".rtCount").textContent = f.routines.length + (f.routines.length === 1 ? " rutina" : " rutinas");
+    tg.onclick = function(){ f.open = !f.open; persistRoutines(); renderRoutinesHome(); };
+    var fm = document.createElement("button"); fm.className = "trMore"; fm.setAttribute("aria-label", "Opciones de la carpeta");
+    fm.innerHTML = "<span></span><span></span><span></span>"; fm.onclick = function(){ folderMenu(f); };
+    fh.appendChild(tg); fh.appendChild(fm); box.appendChild(fh);
+    if (f.open) {
+      f.routines.forEach(function(r) {
+        var c = document.createElement("div"); c.className = "rtCard";
+        var top = document.createElement("div"); top.className = "rtCardTop";
+        var nm = document.createElement("div"); nm.className = "rtName"; nm.textContent = r.name;
+        var rm = document.createElement("button"); rm.className = "trMore"; rm.setAttribute("aria-label", "Opciones de la rutina");
+        rm.innerHTML = "<span></span><span></span><span></span>"; rm.onclick = function(){ routineMenu(f, r); };
+        top.appendChild(nm); top.appendChild(rm); c.appendChild(top);
+        var pv = document.createElement("div"); pv.className = "rtPreview";
+        if (r.exercises.length) {
+          var shown = r.exercises.slice(0, 3).join(", ");
+          pv.textContent = shown + (r.exercises.length > 3 ? " y " + (r.exercises.length - 3) + " más" : "");
+        } else pv.textContent = "Sin ejercicios todavía";
+        c.appendChild(pv);
+        var go = document.createElement("button"); go.className = "rtStart"; go.textContent = r.exercises.length ? "Empezar" : "Agregar ejercicios";
+        go.onclick = function(){ if (r.exercises.length) openRoutine(r.id); else openRoutineEditor(r.id); };
+        c.appendChild(go);
+        box.appendChild(c);
+      });
+      var nr = document.createElement("button"); nr.className = "rtNewRoutine"; nr.textContent = "+ Nueva rutina";
+      nr.onclick = function(){ newRoutineIn(f); };
+      box.appendChild(nr);
+    }
+    area.appendChild(box);
+  });
+}
+function newRoutineIn(f) {
+  askText("Nueva rutina en " + f.name, "Ej.: Empuje, Tirón, Piernas", "", "Crear y agregar ejercicios", function(v) {
+    var r = { id: newId(), name: v, exercises: [] }; f.routines.push(r); f.open = true; persistRoutines();
+    openRoutineEditor(r.id);
+  });
+}
+function folderMenu(f) {
+  openTrSheet(f.name, function(body) {
+    trSheetBtn(body, "+&nbsp; Nueva rutina", function(){ newRoutineIn(f); });
+    trSheetBtn(body, "&#9998;&nbsp; Renombrar carpeta", function(){ askText("Renombrar carpeta", "Nombre", f.name, "Guardar", function(v){ f.name = v; persistRoutines(); renderRoutinesHome(); }); });
+    trSheetBtn(body, "&#10005;&nbsp; Eliminar carpeta", function() {
+      var n = f.routines.length;
+      if (!confirm("¿Eliminar la carpeta \"" + f.name + "\"" + (n ? " y sus " + n + " rutinas" : "") + "?\n\nLos registros de tus entrenamientos se conservan.")) return;
+      var F = routinesData().folders; F.splice(F.indexOf(f), 1); persistRoutines(); renderRoutinesHome();
+    }, true);
+  });
+}
+function routineMenu(f, r) {
+  openTrSheet(r.name, function(body) {
+    if (r.exercises.length) trSheetBtn(body, "&#9654;&nbsp; Empezar", function(){ openRoutine(r.id); });
+    trSheetBtn(body, "&#9776;&nbsp; Editar ejercicios", function(){ openRoutineEditor(r.id); });
+    trSheetBtn(body, "&#9998;&nbsp; Renombrar", function(){ askText("Renombrar rutina", "Nombre", r.name, "Guardar", function(v){ r.name = v; persistRoutines(); renderRoutinesHome(); }); });
+    trSheetBtn(body, "&#10697;&nbsp; Duplicar", function(){ var c = { id: newId(), name: r.name + " (copia)", exercises: r.exercises.slice() }; f.routines.splice(f.routines.indexOf(r) + 1, 0, c); persistRoutines(); renderRoutinesHome(); });
+    if (routinesData().folders.length > 1) trSheetBtn(body, "&#8594;&nbsp; Mover a otra carpeta", function(){ moveRoutine(f, r); });
+    trSheetBtn(body, "&#10005;&nbsp; Eliminar rutina", function() {
+      if (!confirm("¿Eliminar la rutina \"" + r.name + "\"?\n\nLos ejercicios siguen en la biblioteca y tus registros se conservan.")) return;
+      f.routines.splice(f.routines.indexOf(r), 1); persistRoutines(); renderRoutinesHome();
+    }, true);
+  });
+}
+function moveRoutine(f, r) {
+  openTrSheet("Mover \"" + r.name + "\" a", function(body) {
+    routinesData().folders.forEach(function(t) {
+      if (t === f) return;
+      trSheetBtn(body, "&#128193;&nbsp; " + escHtml(t.name), function(){ f.routines.splice(f.routines.indexOf(r), 1); t.routines.push(r); t.open = true; persistRoutines(); renderRoutinesHome(); });
+    });
+  });
+}
+
+// ---- Editor de una rutina ----
+var rtEditId = null;
+function openRoutineEditor(id) { rtEditId = id; showScreen("rtEditScreen"); }
+function renderRoutineEditor() {
+  var f = findRoutine(rtEditId); if (!f) { showScreen("homeScreen"); return; }
+  var r = f.routine;
+  document.getElementById("rtEditName").textContent = r.name;
+  document.getElementById("rtEditFolder").textContent = f.folder.name;
+  var list = document.getElementById("rtEditList"); list.innerHTML = "";
+  if (!r.exercises.length) list.innerHTML = "<div class=\"rtEmpty\">Todavía no hay ejercicios. Agregalos desde la biblioteca.</div>";
+  r.exercises.forEach(function(name, i) {
+    var info = exInfo(name);
+    var row = document.createElement("div"); row.className = "rtEdRow";
+    row.innerHTML = "<span class=\"trDot\" style=\"background:" + info.color + "\"></span><span class=\"rtEdName\"></span>";
+    row.querySelector(".rtEdName").textContent = name;
+    var up = document.createElement("button"); up.className = "rtEdBtn"; up.innerHTML = "&#8593;"; up.disabled = i === 0; up.setAttribute("aria-label", "Subir");
+    up.onclick = function(){ r.exercises.splice(i, 1); r.exercises.splice(i - 1, 0, name); persistRoutines(); renderRoutineEditor(); };
+    var dn = document.createElement("button"); dn.className = "rtEdBtn"; dn.innerHTML = "&#8595;"; dn.disabled = i === r.exercises.length - 1; dn.setAttribute("aria-label", "Bajar");
+    dn.onclick = function(){ r.exercises.splice(i, 1); r.exercises.splice(i + 1, 0, name); persistRoutines(); renderRoutineEditor(); };
+    var rm = document.createElement("button"); rm.className = "rtEdBtn danger"; rm.innerHTML = "&#10005;"; rm.setAttribute("aria-label", "Quitar de la rutina");
+    rm.onclick = function(){ r.exercises.splice(i, 1); persistRoutines(); renderRoutineEditor(); };
+    row.appendChild(up); row.appendChild(dn); row.appendChild(rm); list.appendChild(row);
+  });
+  document.getElementById("rtEditStart").style.display = r.exercises.length ? "block" : "none";
+}
+function rtEditRename() { var f = findRoutine(rtEditId); if (!f) return; askText("Renombrar rutina", "Nombre", f.routine.name, "Guardar", function(v){ f.routine.name = v; persistRoutines(); renderRoutineEditor(); }); }
+
+// ---- Biblioteca en modo "agregar a rutina" ----
+var libAddRoutine = null;   // { id, back }
+function openLibraryForRoutine(id, back) {
+  libAddRoutine = { id: id, back: back || "rtEditScreen" };
+  libSubstitute = null; libTargetGroup = null;
+  showScreen("libraryScreen");
+}
+// Elegir en que rutinas va un ejercicio (desde la ficha de la biblioteca)
+function routinePicker(name, group) {
+  openTrSheet("Rutinas con " + name, function(body) {
+    var F = routinesData().folders, any = false;
+    F.forEach(function(f) {
+      if (!f.routines.length) return;
+      var lab = document.createElement("div"); lab.className = "libCreateLab"; lab.textContent = f.name; body.appendChild(lab);
+      f.routines.forEach(function(r) {
+        any = true;
+        var b = document.createElement("button"); b.className = "trToggle" + (r.exercises.indexOf(name) >= 0 ? " on" : "");
+        b.innerHTML = "<span class=\"trBox\"></span> "; b.appendChild(document.createTextNode(r.name));
+        b.onclick = function() {
+          var k = r.exercises.indexOf(name);
+          if (k >= 0) r.exercises.splice(k, 1); else { if (!isInRoutine(name) && group) addFromLibrary(name, group); r.exercises.push(name); }
+          persistRoutines(); b.classList.toggle("on", k < 0); renderLibrary();
+        };
+        body.appendChild(b);
+      });
+    });
+    if (!any) { var em = document.createElement("div"); em.className = "rtEmpty"; em.textContent = "Todavía no tenés rutinas. Crealas desde el inicio."; body.appendChild(em); }
+  });
+}
+
+// ---- Ejercicios eliminados de la biblioteca ----
+var libHidden = [];
+try { libHidden = JSON.parse(localStorage.getItem("gymLibHidden") || "[]") || []; } catch(e) { libHidden = []; }
+function persistLibHidden() { safeStore("gymLibHidden", JSON.stringify(libHidden)); }
+function libIsHidden(name) { return libHidden.indexOf(name) >= 0; }
+function libDeleteExercise(name, isCustom) {
+  var inR = inAnyRoutine(name);
+  if (!confirm("¿Eliminar \"" + name + "\" de la biblioteca?" + (inR ? "\n\nTambién sale de tus rutinas." : "") + "\nTus registros se conservan" + (isCustom ? "." : " y podés restaurarlo cuando quieras."))) return;
+  var loc = libGroupOf(name); if (loc) { GROUPS[loc.g].exercises.splice(loc.idx, 1); persistGroups(); }
+  removeFromAllRoutines(name);
+  if (!isCustom && !libIsHidden(name)) { libHidden.push(name); persistLibHidden(); }
+  closeLibDetail(); renderLibrary(); renderHome();
+}
+function libShowHidden() {
+  openTrSheet("Ejercicios eliminados", function(body) {
+    if (!libHidden.length) { var em = document.createElement("div"); em.className = "rtEmpty"; em.textContent = "No hay ejercicios eliminados."; body.appendChild(em); return; }
+    libHidden.slice().sort().forEach(function(n) {
+      var row = document.createElement("div"); row.className = "libHidRow";
+      var s = document.createElement("span"); s.textContent = n;
+      var b = document.createElement("button"); b.className = "libHidBtn"; b.textContent = "Restaurar";
+      b.onclick = function(){ libHidden.splice(libHidden.indexOf(n), 1); persistLibHidden(); row.parentNode.removeChild(row); renderLibrary(); };
+      row.appendChild(s); row.appendChild(b); body.appendChild(row);
+    });
+  });
+}
+
+// ---- Sesiones guardadas ----
+function trainGetSession() {
+  var cur = null; try { cur = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
+  if (!cur || cur.d !== new Date().toISOString().split("T")[0]) return null;
+  return cur;
+}
+function loadSessions() { try { return JSON.parse(localStorage.getItem("gymSessions") || "[]") || []; } catch(e) { return []; } }
+function fmtDur(sec) { var h = Math.floor(sec / 3600), m = Math.round(sec % 3600 / 60); return h ? h + " h " + m + " min" : m + " min"; }
+function trainSessionSummary() {
+  var ses = trainGetSession(); var f = findRoutine(trainRoutineId);
+  var out = { start: ses ? ses.t : Date.now(), exercises: [], totalSets: 0, totalVol: 0 };
+  if (!f) return out;
+  var wd = gymData[trainWeek] || {};
+  f.routine.exercises.forEach(function(name) {
+    var sets = (wd[name] || []).filter(function(s){ return s.t && s.t >= out.start; });
+    if (!sets.length) return;
+    var work = 0, warm = 0, vol = 0;
+    sets.forEach(function(s){ if (s.warmup) warm++; else { work++; vol += (parseFloat(s.weight) || 0) * (parseFloat(s.reps) || 0); } });
+    out.exercises.push({ name: name, sets: work, warm: warm, vol: Math.round(vol) });
+    out.totalSets += work; out.totalVol += Math.round(vol);
+  });
+  return out;
+}
+function trainFinish() {
+  var f = findRoutine(trainRoutineId); var ses = trainGetSession();
+  var sum = trainSessionSummary();
+  var dur = ses ? Math.max(0, Math.round((Date.now() - ses.t) / 1000)) : 0;
+  openTrSheet("Terminar rutina", function(body) {
+    var box = document.createElement("div"); box.className = "finBox";
+    if (sum.totalSets || sum.exercises.length) {
+      box.innerHTML = "<div class=\"finStats\"><div><b>" + fmtDur(dur) + "</b><span>Duración</span></div><div><b>" + sum.totalSets + "</b><span>Series</span></div><div><b>" + sum.totalVol.toLocaleString("es-AR") + " kg</b><span>Volumen</span></div></div>" +
+        "<div class=\"finEx\">" + sum.exercises.map(function(e){ return "<div><span>" + escHtml(e.name) + "</span><span>" + e.sets + (e.sets === 1 ? " serie" : " series") + "</span></div>"; }).join("") + "</div>";
+      var ok = document.createElement("button"); ok.className = "trSheetPrimary"; ok.textContent = "Guardar y terminar";
+      ok.onclick = function() {
+        var list = loadSessions();
+        list.push({ id: newId(), start: sum.start, end: Date.now(), dur: dur, routineId: trainRoutineId, routine: f ? f.routine.name : "", folder: f ? f.folder.name : "", exercises: sum.exercises, totalSets: sum.totalSets, totalVol: sum.totalVol });
+        safeStore("gymSessions", JSON.stringify(list));
+        trainEndSession();
+        showToast("Rutina guardada: " + fmtDur(dur) + ", " + sum.totalSets + (sum.totalSets === 1 ? " serie" : " series"));
+      };
+      body.appendChild(box); body.appendChild(ok);
+    } else {
+      box.innerHTML = "<div class=\"rtEmpty\">No registraste series en esta rutina. Si terminás ahora no se guarda ninguna actividad.</div>";
+      var ex = document.createElement("button"); ex.className = "trSheetPrimary"; ex.textContent = "Terminar sin guardar";
+      ex.onclick = function(){ trainEndSession(); };
+      body.appendChild(box); body.appendChild(ex);
+    }
+    var keep = document.createElement("button"); keep.className = "trSheetBtn"; keep.style.textAlign = "center"; keep.textContent = "Seguir entrenando";
+    keep.onclick = closeTrSheet; body.appendChild(keep);
+  });
+}
+function trainEndSession() {
+  closeTrSheet();
+  try { localStorage.removeItem("gymSessionStart"); } catch(e) {}
+  resetTimer(); trainEdit = {};
+  showScreen("homeScreen");
+}
+function renderSessionsInHistory() {
+  var list = loadSessions(); if (!list.length) return "";
+  var h = "<div class=\"sesHead\">Rutinas terminadas</div>";
+  list.slice().reverse().slice(0, 15).forEach(function(s) {
+    var d = new Date(s.start);
+    var fecha = d.toLocaleDateString("es-AR", { weekday: "short", day: "numeric", month: "short" });
+    h += "<div class=\"sesCard\"><div class=\"sesTop\"><span class=\"sesName\">" + escHtml(s.routine || "Entrenamiento") + "</span><span class=\"sesDate\">" + fecha + "</span></div>" +
+      "<div class=\"sesStats\">" + fmtDur(s.dur || 0) + " &nbsp;&middot;&nbsp; " + (s.totalSets || 0) + ((s.totalSets || 0) === 1 ? " serie" : " series") + " &nbsp;&middot;&nbsp; " + (s.totalVol || 0).toLocaleString("es-AR") + " kg</div></div>";
+  });
+  return h + "<div class=\"sesHead\" style=\"margin-top:18px\">Por semana</div>";
 }
 
 
@@ -4914,7 +5303,7 @@ var GUIDE_SECTIONS = [
     icon: "&#9881;",
     items: [
       { icon:"&#9201;", title:"Cronometro de descanso", desc:"Toca el boton teal de la parte inferior para abrir el cronometro. Funciona con pantalla bloqueada y manda una notificacion al terminar. Requiere permiso de notificaciones." },
-      { icon:"&#9654;", title:"Entrenar hoy", desc:"Desde el boton Entrenar hoy del inicio ves los ejercicios del dia con sus series en tabla. Lo de la semana pasada aparece en gris: el tilde lo registra igual y arranca el descanso de esa serie. Toca el tiempo de una serie para cambiar su descanso, el numero de serie para pasarla a calentamiento o eliminarla, y los 3 puntos para ver el video, poner una nota, sustituir el ejercicio o quitarlo de ese dia." },
+      { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
       { icon:"1RM", title:"Calculadora 1RM", desc:"Estima tu maximo de una repeticion a partir de cualquier serie. Muestra multiples formulas y porcentajes utiles (90%, 80%, 70%, 60%). Se accede desde el header o desde el panel de carga de cada ejercicio." },
       { icon:"&#9898;", title:"Balance muscular", desc:"Muestra barras de progreso por grupo muscular con volumen y series realizadas. Avisa que grupos no entrenaste en la semana." },
@@ -4928,7 +5317,7 @@ var GUIDE_SECTIONS = [
     items: [
       { icon:"&#128218;", title:"Biblioteca", desc:"Mas de 130 ejercicios organizados por grupo muscular. Busca por nombre o filtra por grupo. Toca '+ Agregar' para sumar cualquier ejercicio a tu rutina." },
       { icon:"&#128218;", title:"Biblioteca", desc:"Agrega ejercicios del catalogo o crea los tuyos con Nuevo ejercicio y Nuevo grupo. Al abrir un ejercicio de tu rutina podes elegir sus dias, armar una superserie o quitarlo de la rutina." },
-      { icon:"&#128197;", title:"Dias de entrenamiento", desc:"Al agregar o crear un ejercicio elegis en que dias va. Despues lo cambias desde la biblioteca (Dias) o lo sacas de un dia desde Entrenar hoy (Quitar de este dia)." },
+      { icon:"&#128193;", title:"Carpetas", desc:"Agrupa tus rutinas en carpetas (por ejemplo Hipertrofia con Empuje, Tiron y Piernas). Desde los 3 puntos de cada carpeta o rutina podes renombrar, duplicar, mover o eliminar." },
       { icon:"&#128203;", title:"Historial", desc:"Registro de todas las semanas anteriores. Toca una semana para ver su resumen detallado. Desde aca podes Exportar un backup JSON o Importar uno guardado." },
       { icon:"&#128190;", title:"Backup", desc:"En Historial -> Exportar genera un archivo .json con todos tus datos. Guardalo en Drive o donde quieras. Para restaurar, usa Importar y selecciona el archivo." }
     ]
@@ -5075,18 +5464,7 @@ function prefetchMedia(url) { if (url && mediaCacheAvailable()) mediaResponse(ur
 function prefetchExerciseMedia(name) { if (!name) return; prefetchMedia(getVideoSrc(name)); prefetchMedia(getDescSrc(name)); }
 // Al abrir la app: precarga videos y fichas de los ejercicios asignados a HOY, de a uno.
 function prefetchTodayMedia() {
-  try {
-    if (navigator.connection && navigator.connection.saveData) return; // modo ahorro de datos
-    var today = getTodayDayIdx(); var names = [];
-    var all = getAllEx();
-    for (var i = 0; i < all.length; i++) { var d = (typeof getDaysForEx === "function") ? getDaysForEx(all[i].name) : []; if (d.indexOf(today) >= 0) names.push(all[i].name); }
-    var k = 0;
-    (function next(){
-      if (k >= names.length) return;
-      var n = names[k++];
-      Promise.all([mediaResponse(getVideoSrc(n)), mediaResponse(getDescSrc(n))]).then(next, next);
-    })();
-  } catch(e) {}
+  try { var last = localStorage.getItem("gymLastRoutine"); if (last) prefetchRoutineMedia(last); } catch(e) {}
 }
 setTimeout(prefetchTodayMedia, 2500);
 
@@ -5360,7 +5738,7 @@ function openLibDetail(name, group, color, inRoutine) {
   var grpEl = document.getElementById("libDetailGroup");
   grpEl.textContent = group; grpEl.style.color = color;
   var statusEl = document.getElementById("libDetailStatus");
-  statusEl.textContent = inRoutine ? "Ya esta en tu rutina" : "";
+  statusEl.textContent = inRoutine ? "Est\u00e1 en tus rutinas" : "";
   var addBtn = document.getElementById("libDetailAddBtn");
   addBtn.style.background = inRoutine ? "#1a1a2e" : color;
   addBtn.style.color = inRoutine ? "#555" : "#000";
@@ -5369,26 +5747,32 @@ function openLibDetail(name, group, color, inRoutine) {
     addBtn.style.background = color; addBtn.style.color = "#000";
     addBtn.textContent = name === libSubstitute.oldName ? "Es el mismo ejercicio" : "Usar en lugar de " + libSubstitute.oldName;
     addBtn.onclick = name === libSubstitute.oldName ? null : function(){ doSubstitute(name, group); };
-  } else if (!inRoutine) {
-    addBtn.onclick = function(){ addFromLibrary(name, group); closeLibDetail(); renderLibrary(); openDayAssign(name); };
-  } else { addBtn.onclick = null; }
-  // Ejercicio de tu rutina: dias, superserie y quitar (antes en "Editar ejercicios")
+  } else if (libAddRoutine && findRoutine(libAddRoutine.id)) {
+    var tr = findRoutine(libAddRoutine.id).routine, already = tr.exercises.indexOf(name) >= 0;
+    addBtn.style.background = already ? "#1a1a2e" : color; addBtn.style.color = already ? "#555" : "#000";
+    addBtn.textContent = already ? "Ya est\u00e1 en " + tr.name : "Agregar a " + tr.name;
+    addBtn.onclick = already ? null : function(){ addToRoutine(libAddRoutine.id, name, group); closeLibDetail(); renderLibrary(); showToast("Agregado a " + tr.name); };
+  } else {
+    addBtn.style.background = color; addBtn.style.color = "#000";
+    addBtn.textContent = inRoutine ? "Cambiar rutinas" : "+ Agregar a una rutina";
+    addBtn.onclick = function(){ closeLibDetail(); routinePicker(name, group); };
+  }
+  // Gestion: superserie y eliminar de la biblioteca
   var man = document.getElementById("libDetailManage");
   if (man) {
     man.innerHTML = "";
-    var showMan = inRoutine && !libSubstitute;
+    var showMan = !libSubstitute && !libAddRoutine;
     man.style.display = showMan ? "flex" : "none";
     if (showMan) {
-      var days = getDaysForEx(name);
-      var dLabel = days.length ? days.map(function(d){ return DAY_NAMES[d].substring(0,3); }).join(" ") : "Sin d\u00eda";
-      var pName = supersets && supersets[name];
-      [["D\u00edas: " + dLabel, function(){ closeLibDetail(); openDayAssign(name); }],
-       [pName ? "Superserie: " + pName : "Superserie", function(){ closeLibDetail(); openSupersetFor(name); }],
-       ["Quitar de la rutina", function(){ libRemoveFromRoutine(name); }, true]].forEach(function(a) {
+      var acts = [];
+      if (isInRoutine(name)) { var pName = supersets && supersets[name]; acts.push([pName ? "Superserie: " + pName : "Superserie", function(){ closeLibDetail(); openSupersetFor(name); }]); }
+      acts.push(["Eliminar de la biblioteca", function(){ libDeleteExercise(name, !libIsCatalog(name)); }, true]);
+      acts.forEach(function(a) {
         var b = document.createElement("button"); b.className = "libManageBtn" + (a[2] ? " danger" : ""); b.textContent = a[0]; b.onclick = a[1]; man.appendChild(b);
       });
     }
   }
+
 
   // Video
   var area = document.getElementById("libDetailVideoArea");
@@ -5530,8 +5914,8 @@ renderHome();
   <div class="trWrap">
     <div class="trTop">
       <button class="backBtn" onclick="showScreen('homeScreen')" aria-label="Volver">&#8249;</button>
-      <div class="trTitleBox"><div class="trTitle">Entrenar</div><div class="trDayTitle" id="trDayTitle"></div></div>
-      <div class="trClock" id="trClock" title="Tiempo de la sesi&oacute;n"></div>
+      <div class="trTitleBox"><div class="trTitle" id="trTitle">Entrenar</div><div class="trDayTitle" id="trDayTitle"></div></div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><div class="trClock" id="trClock" title="Tiempo de la sesi&oacute;n"></div><button class="trFinishTop" onclick="trainFinish()">Terminar</button></div>
     </div>
     <div class="trDayChips" id="trDayChips"></div>
     <div class="trHint" id="trHint">En gris, lo que hiciste la semana pasada: &#10003; lo registra igual, o escrib&iacute; los valores nuevos.</div>
@@ -5541,6 +5925,19 @@ renderHome();
     <button class="trTimerBtn" onclick="trainAdjustRest(-15)" aria-label="Restar 15 segundos">&minus;</button>
     <div class="trTimerMid" onclick="if(timerDone){resetTimer();}"><div class="trTimerCount" id="trTimerCount"></div><div class="trTimerSub" id="trTimerSub"></div></div>
     <button class="trTimerBtn" onclick="trainAdjustRest(15)" aria-label="Sumar 15 segundos">+</button>
+  </div>
+</div>
+
+<!-- EDITOR DE RUTINA -->
+<div id="rtEditScreen" class="screen">
+  <div class="trWrap">
+    <div class="trTop">
+      <button class="backBtn" onclick="showScreen('homeScreen')" aria-label="Volver">&#8249;</button>
+      <div class="trTitleBox" onclick="rtEditRename()" style="cursor:pointer"><div class="trTitle" id="rtEditName"></div><div class="trDayTitle"><span id="rtEditFolder"></span> &nbsp;&#9998; renombrar</div></div>
+    </div>
+    <div id="rtEditList"></div>
+    <button class="trAddEx" onclick="openLibraryForRoutine(rtEditId,'rtEditScreen')">+ Agregar ejercicios desde la biblioteca</button>
+    <button class="rtStart" id="rtEditStart" style="margin-top:12px" onclick="openRoutine(rtEditId)">Empezar rutina</button>
   </div>
 </div>
 
