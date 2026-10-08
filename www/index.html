@@ -759,6 +759,29 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .alTog{width:46px;height:28px;border-radius:99px;border:1px solid var(--border);background:var(--surface-2);position:relative;cursor:pointer;padding:0}
 .alTog i{position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:var(--text-3);transition:left .15s}
 .alTog.on{background:#22D3EE33;border-color:#22D3EE88}.alTog.on i{left:21px;background:var(--primary)}
+
+/* ---- Mapa muscular detallado ---- */
+.bmTop{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px}
+.bmHint{color:var(--text-3);font-size:12.5px}
+.bmWrap{display:flex;justify-content:center;padding:4px 0}
+.bmSvg{display:block;height:min(62vh,520px);width:auto;max-width:100%}
+.bmSvg path[data-m]{cursor:pointer;transition:fill .15s}
+.bmSvg path.bmSel{stroke:#fff;stroke-width:1.8}
+.bmPanel{margin-top:12px;border-top:1px solid #1B2533;padding-top:12px}
+.bmPTop{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.bmPName{color:#fff;font-size:17px;font-weight:700}
+.bmPGroup{color:var(--text-3);font-size:12.5px;margin-top:2px}
+.bmClose{width:34px;height:34px;border-radius:10px;border:1px solid var(--border);background:var(--surface-2);color:var(--text-2);font-size:14px;cursor:pointer;flex-shrink:0}
+.bmPNum{color:var(--text-2);font-size:13.5px;margin:10px 0 4px;font-variant-numeric:tabular-nums}
+.bmPNum b{color:#fff;font-size:20px}
+.bmPNum span{color:var(--text-3);font-size:12.5px}
+.bmSec{color:var(--text-3);font-size:12.5px;font-weight:600;margin:12px 0 4px}
+.bmEx{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:transparent;border:none;border-top:1px solid #182030;padding:10px 0;color:var(--text);font-size:14px;cursor:pointer}
+.bmEx em{font-style:normal;color:var(--text-3);font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.bmMine{font-style:normal;font-size:10.5px;color:var(--primary);border:1px solid #22D3EE44;border-radius:6px;padding:0 5px;margin-left:4px;white-space:nowrap}
+.bmMore{display:block;margin:8px auto 0;background:transparent;border:none;color:var(--primary);font-size:13px;font-weight:600;cursor:pointer}
+.bmNote{color:#5F6B80;font-size:11.5px;line-height:1.45;margin-top:12px}
+.exdMus{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;border-top:1px solid #182030;padding:12px 0}
 </style>
 </head>
 <body>
@@ -1911,7 +1934,7 @@ function normalizeName(s) {
 
 // Devuelve {agonist, synergists} para un ejercicio, o null si no matchea
 // Usa como fallback el grupo donde esta el ejercicio en GROUPS si el nombre no matchea ningun patron.
-function getExerciseMuscles(exName, groupName) {
+function getExerciseMusclesByPattern(exName, groupName) {
   var n = normalizeName(exName);
   for (var i = 0; i < EXERCISE_PATTERNS.length; i++) {
     var p = EXERCISE_PATTERNS[i];
@@ -3711,7 +3734,8 @@ function renderBalance() {
   var leg = '<div class="balLegend">';
   ["mv", "mev", "mav", "mrv", "over"].forEach(function(z){ leg += '<span><i style="background:' + VOL_ZONES[z].color + '"></i>' + VOL_ZONES[z].name + '</span>'; });
   leg += '<span><i style="background:#222B3B"></i>Sin estímulo</span></div>';
-  mapCard.innerHTML = buildBodyMapSVG(vol) + leg;
+  renderBalanceMap(mapCard, wk, vol);
+  try { muscleSrcEnsure(muscleRelevantNames()); } catch(e) {}
   div.appendChild(mapCard);
 
   // Grupos
@@ -5950,6 +5974,11 @@ function openExData(name, group, fromTrain) {
 function renderExData(body) {
   var c = exDataCtx, m = exMeta(c.name, c.group), h = '<div class="exdWrap">';
   h += '<div class="exdIntro">Valores estimados a partir del nombre del ejercicio. Tocá cualquiera para corregirlo.</div>';
+  var mu = exMuscles(c.name, c.group);
+  if (mu.p) {
+    h += '<div class="exdMus"><span class="exdLab">Músculo principal</span><span class="exdVal">' + MUSCLES[mu.p].name + '</span><span class="exdTag' + (mu.src === "ficha" ? " mine" : "") + '">' + (mu.src === "ficha" ? "ficha" : "estimado") + '</span></div>';
+    h += '<div class="exdMus"><span class="exdLab">Secundarios</span><span class="exdVal" style="text-align:right">' + (mu.s.length ? mu.s.map(function(x){ return MUSCLES[x].name; }).join(", ") : "\u2014") + '</span><span class="exdTag' + (mu.src === "ficha" ? " mine" : "") + '">' + (mu.src === "ficha" ? "ficha" : "estimado") + '</span></div>';
+  }
   ["region", "equipo", "patron", "longitud", "sfr", "demanda"].forEach(function(f) {
     var v = f === "sfr" ? exSfrDots(m.sfr) + (m.sfr ? '<span class="exdSfrN">' + m.sfr + '/5</span>' : "") : escHtml(f === "region" ? (m.region || "—") : exMetaLabel(f, m[f]));
     h += '<button class="exdRow" data-f="' + f + '"><span class="exdLab">' + EXM_FIELDS[f].label + '</span><span class="exdVal">' + v + '</span><span class="exdTag' + (m.edited[f] ? " mine" : "") + '">' + (m.edited[f] ? "tuyo" : "estimado") + '</span></button>';
@@ -5974,7 +6003,7 @@ function renderExData(body) {
     if (c.train && typeof doSubstitute === "function") { libSubstitute = { oldName: c.name, routineId: trainRoutineId }; doSubstitute(a.name, c.group); showToast("Sustituido por " + a.name); }
     else openLibDetail(a.name, c.group, (GROUPS[c.group] || LIBRARY[c.group] || {}).color || "#22D3EE", isInRoutine(a.name));
   }; });
-  var rs = body.querySelector(".exdReset"); if (rs) rs.onclick = function(){ delete exMetaUser[c.name]; persistExMeta(); renderExData(body); };
+  var rs = body.querySelector(".exdReset"); if (rs) rs.onclick = function(){ delete exMetaUser[c.name]; persistExMeta(); _exMusCache = {}; renderExData(body); };
 }
 function exDataPick(f) {
   var c = exDataCtx, m = exMeta(c.name, c.group), body = document.getElementById("trSheetBody"), opts = EXM_FIELDS[f].opts;
@@ -5994,7 +6023,7 @@ function exDataPick(f) {
   body.innerHTML = h;
   body.querySelectorAll(".exdOpt").forEach(function(b){ b.onclick = function() {
     var k = b.getAttribute("data-k"); if (f === "sfr") k = +k;
-    exMetaUser[c.name] = exMetaUser[c.name] || {}; exMetaUser[c.name][f] = k; persistExMeta();
+    exMetaUser[c.name] = exMetaUser[c.name] || {}; exMetaUser[c.name][f] = k; persistExMeta(); _exMusCache = {};
     document.getElementById("trSheetTitle").textContent = c.name; renderExData(body);
   }; });
   body.querySelector(".exdBack").onclick = function(){ document.getElementById("trSheetTitle").textContent = c.name; renderExData(body); };
@@ -6271,6 +6300,359 @@ function renderAlertSettings(div) {
   card.querySelector("#alOn").onclick = function(){ c.on = !c.on; saveAlertCfg(c); renderBalanceSettings(); };
   card.querySelectorAll("[data-k]").forEach(function(b){ b.onclick = function() {
     var k = b.getAttribute("data-k"); c[k] = Math.max(5, Math.min(100, c[k] + (+b.getAttribute("data-d")))); saveAlertCfg(c); renderBalanceSettings();
+  }; });
+}
+
+
+// ============================================================
+// MAPA MUSCULAR DETALLADO (frente / espalda), un musculo por zona tocable
+// ============================================================
+var MUSCLES = {
+  pecho:       { name: "Pectoral",            group: "Pecho" },
+  delt_ant:    { name: "Deltoides anterior",  group: "Hombros" },
+  delt_lat:    { name: "Deltoides lateral",   group: "Hombros" },
+  delt_post:   { name: "Deltoides posterior", group: "Hombros" },
+  biceps:      { name: "Bíceps y braquial", group: "Biceps" },
+  triceps:     { name: "Tríceps",         group: "Triceps" },
+  antebrazo:   { name: "Antebrazo",           group: "Antebrazos" },
+  trapecio:    { name: "Trapecio",            group: "Espalda" },
+  dorsal:      { name: "Dorsal ancho",        group: "Espalda" },
+  esp_media:   { name: "Espalda media (romboides y redondos)", group: "Espalda" },
+  lumbares:    { name: "Lumbares (erectores)", group: "Espalda" },
+  abs:         { name: "Recto abdominal",     group: "Abdominales" },
+  oblicuos:    { name: "Oblicuos",            group: "Abdominales" },
+  cuadriceps:  { name: "Cuádriceps",     group: "Piernas" },
+  aductores:   { name: "Aductores",           group: "Piernas" },
+  gluteos:     { name: "Glúteos",        group: "Piernas" },
+  isquios:     { name: "Isquiotibiales",      group: "Piernas" },
+  gemelos:     { name: "Gemelos y sóleo", group: "Piernas" },
+  tibial:      { name: "Tibial anterior",     group: "Piernas" }
+};
+// Mitad izquierda de cada vista (x <= 100); se espeja para la derecha.
+// Cada pieza: [musculo o null (neutro), path, opacidad opcional]
+var BODY_FRONT = [
+  ["trapecio",  "M88.5 60 C87.5 69 81.5 76.5 66 82.5 C76 84.5 86 85.5 95 86 C91.5 78 89.5 69 88.5 60 Z"],
+  ["delt_lat",  "M66 82.5 C54 82 43.5 90.5 41.3 105.5 C40 117.5 43 128.5 50 138.5 C50.8 124 53 106 58 92.5 C60 88 62.8 85 66 82.5 Z"],
+  ["delt_ant",  "M66 82.5 C72.5 83.6 77.8 86.6 80.5 91.6 C77.4 104 70.8 118.4 58.5 131.5 L50 138.5 C50.8 124 53 106 58 92.5 C60 88 62.8 85 66 82.5 Z"],
+  ["pecho",     "M99.2 87 L99.2 134.5 C92.5 137.2 84.5 136.4 77.5 131.6 C71.5 127.6 65 128.4 58.5 131.5 C70.8 118.4 77.4 104 80.5 91.6 C86.5 88.4 93 87.2 99.2 87 Z"],
+  ["biceps",    "M58.5 131.8 C61.4 145 61.6 161 59.6 175 C58 185.5 53.8 192.6 48.4 197.4 C42.6 191.2 40.2 181.2 40.2 168.6 C40.2 156 43.4 146 50 138.6 Z"],
+  ["antebrazo", "M48.4 197.4 C40.6 207.6 35.4 221 34 236.5 C33.2 249 34.8 259.5 38 268.5 L43.2 268.5 C42.6 253 44.4 236 48.6 221 C50.6 213.6 53.2 205 54.6 199.2 C52.6 198.6 50.4 198 48.4 197.4 Z"],
+  ["antebrazo", "M54.6 199.2 C53.2 205 50.6 213.6 48.6 221 C44.4 236 42.6 253 43.2 268.5 L47.8 268.5 C52 256 55.8 240 57.2 224 C58.2 212 57.6 204 54.6 199.2 Z", 0.84],
+  [null,        "M37 271.5 C32.4 279 31.8 289 36.2 295.6 C41.2 298.2 46.8 293.6 47.8 285 C48.3 279 47.4 274 46 271 Z"],
+  ["oblicuos",  "M58.5 131.8 C65 128.6 71.6 127.8 77.5 131.6 C74.4 140 72.6 150 72.2 160.6 C67 154 62 145 58.5 131.8 Z", 0.78],
+  ["oblicuos",  "M77.5 131.6 C82.6 134.2 86.4 138.4 87.6 143.4 L87.6 212.5 C80.6 209 74.6 201.6 71.6 191 C69.4 178 70.4 165 72.2 160.6 C72.6 150 74.4 140 77.5 131.6 Z"],
+  ["abs",       "M88.6 137.4 L99.2 136.6 L99.2 153 L88.6 153 Z"],
+  ["abs",       "M88.6 155.8 L99.2 155.8 L99.2 172.4 L88.6 172.4 Z"],
+  ["abs",       "M88.6 175.2 L99.2 175.2 L99.2 191.6 L88.6 191.6 Z"],
+  ["abs",       "M88.6 194.4 L99.2 194.4 L99.2 227 C94.4 223 90.8 217 88.6 212.5 Z"],
+  ["_",         "M71.6 191 C74.6 201.6 80.6 209 87.6 212.5 C90 218 94.2 224.6 99.2 229 L99.2 238 L66.4 228.6 C68.6 216 70 203 71.6 191 Z"],
+  ["cuadriceps","M66.4 228.6 C58.8 252 57.6 285 60.4 314 C62.2 330.6 67.4 343.8 74.6 352 L80.2 346.8 C77.2 330 76.2 312 77.2 294 C77.2 270 78 252 79.6 232.4 Z"],
+  ["cuadriceps","M79.6 232.4 C78 252 77.2 270 77.2 294 C76.2 312 77.2 330 80.2 346.8 L85.8 348.8 C88.8 334 89.8 316 89.8 296 C89.8 272 89.6 254 88.6 235.2 Z", 0.88],
+  ["cuadriceps","M89.8 300 C89.8 318 88.8 334 85.8 349.8 C90.8 355.6 95.8 352.4 97.6 343.8 C98.6 331 96.8 315 92.6 303.6 Z"],
+  ["aductores", "M88.6 235.2 C89.6 254 89.8 272 89.8 296 L92.6 303.6 C95.8 295 98 283 98.9 270 C99.4 258 99.4 246 99.2 238 Z"],
+  [null,        "M74.6 352 C72.6 360 74.6 368.6 81.2 372.6 C87.8 374.8 94.4 370.6 95.6 362.4 C95.8 356.4 93.2 352.6 89 351 C84.6 353 79.4 353.6 74.6 352 Z"],
+  ["gemelos",   "M71.4 375.6 C66.4 389 65.8 407.6 69 424 C70.2 430.6 72.4 435 74.8 437.6 C74.2 419 74.8 396.6 76 377.4 Z", 0.86],
+  ["tibial",    "M76 377.4 C74.8 396.6 74.2 419 74.8 437.6 C75.6 446 77.6 453.4 80 459 C82.2 440 83.2 414 83 392 C82.9 384 81.8 378 79.6 375 Z"],
+  ["gemelos",   "M85.2 375.6 C92.6 385.6 96.8 401.6 95.8 420 C94.8 432 90.8 442 86.6 448.6 C85.4 428 84.2 402 85.2 375.6 Z"],
+  [null,        "M76 462 C72 468 70 476 74 480 C80 483 90 482 94 478 C95 472 92 466 86 462 Z"]
+];
+var BODY_BACK = [
+  ["trapecio",  "M100 58 C96 66.5 88.5 74.5 64.5 82 C74.5 89.5 84.5 100 90.5 114 C94.5 126 97.5 142 100 160 Z"],
+  ["delt_post", "M64.5 82 C52.5 82.5 43.5 91.5 41.3 105.5 C40 117.5 43 128.5 50 138.5 C54.2 128 58.4 116.6 62 106.6 C64.2 98.6 66.2 90.6 68.4 85.6 Z"],
+  ["esp_media", "M68.4 85.6 C77 91.6 85 101.6 90.5 114 C86.6 123.6 80.4 128.4 72.4 130 C66.4 128.4 62.4 120.6 62 110.6 C62.4 101 65 92.6 68.4 85.6 Z"],
+  ["dorsal",    "M59.6 127.6 C64.6 129.4 68.2 130.4 72.4 130 C80.4 128.4 86.6 123.6 90.5 114 C93.4 126 94 146 93 166 C92.4 186 91 202 89.6 216.6 C80.6 210.6 73.4 198.6 69.2 184.6 C64.2 168 60 150 59.6 127.6 Z"],
+  ["lumbares",  "M93 166 C96.8 178 99.2 194 99.4 212 L99.4 229.6 L89.8 229.6 C89 220 89.2 210 89.6 200 C90.6 188 91.6 176 93 166 Z"],
+  ["triceps",   "M50 138.5 C42.4 148 39.4 159.6 39.4 171.6 C39.4 182 42.2 190.4 47.4 196.6 C53.2 190.2 57.8 180 59.2 168 C60.4 154.6 59 143 59.6 127.6 C56 131 52.6 134.6 50 138.5 Z"],
+  ["triceps",   "M54.6 140 C58.4 151 59 162 57.4 172.6 C56.4 179 54.4 184 51.4 188.4 C50.4 174 51.4 156 54.6 140 Z", 0.8],
+  ["antebrazo", "M47.4 196.6 C40.2 207.6 35.4 221 34 236.5 C33.2 249 34.8 259.5 38 268.5 L43.2 268.5 C42.6 253 44.4 236 48.6 221 C50.6 213.6 53.2 205 54.6 199.2 C52.2 198.6 49.8 197.6 47.4 196.6 Z", 0.86],
+  ["antebrazo", "M54.6 199.2 C53.2 205 50.6 213.6 48.6 221 C44.4 236 42.6 253 43.2 268.5 L47.8 268.5 C52 256 55.8 240 57.2 224 C58.2 212 57.6 204 54.6 199.2 Z"],
+  [null,        "M37 271.5 C32.4 279 31.8 289 36.2 295.6 C41.2 298.2 46.8 293.6 47.8 285 C48.3 279 47.4 274 46 271 Z"],
+  ["oblicuos",  "M69.2 184.6 C73.4 198.6 80.6 210.6 89.6 216.6 L89.8 229.6 C80.6 228.6 72 230.6 66.4 235 C66 218 66.6 200 69.2 184.6 Z", 0.8],
+  ["gluteos",   "M99.4 229.6 C90 227.8 78 228.4 70 234.4 C63.6 242.4 62.6 255.6 65.6 267.6 C69.6 277.6 79.6 281.6 89.6 280.8 C94.6 280.2 97.8 278 99.4 276 Z"],
+  ["isquios",   "M65.6 270 C60.6 292 60.6 320 64.8 341 C66.8 349.4 70.8 355.4 76 357.6 C77 337.6 77.2 313 79 287 C74 284 69.4 278.6 65.6 270 Z", 0.9],
+  ["isquios",   "M79 287 C80.6 287.2 81.8 284.6 82.6 282 C86.8 282.6 90.6 282.4 94.2 281.4 C95.2 300 95 322 92.2 346 C91.4 350 89.6 354 87.6 357 L83 357.6 C80 335.6 78.6 311 79 287 Z"],
+  ["aductores", "M94.2 281.4 C96.6 280.8 98.2 279.4 99.4 277.8 L99.4 302 C99 318 96.4 336 92.2 346 C95 322 95.2 300 94.2 281.4 Z", 0.85],
+  [null,        "M76 359 C74 365 77 371 84 372 C90 373 95 369 96 363 C94 359 90 358 86 358 Z"],
+  ["gemelos",   "M74 374 C67 387 66 405 70 421 C72 429 76 433 80.2 433.4 C81 415 81 395 80.2 375.6 Z"],
+  ["gemelos",   "M82.8 375.6 C83 395 83 415 84 433.4 C88 433 92 429 94 421 C97 405 95 387 89 377 Z", 0.9],
+  ["gemelos",   "M76 436.4 C75 446 77 455 80 461 L88 461 C91 455 92 446 91 436.4 C86 438.4 81 438.4 76 436.4 Z", 0.72],
+  [null,        "M76 465 C72 471 72 478 76 481 C82 483 90 482 93 478 C93 472 90 467 86 465 Z"]
+];
+// Lineas de detalle (fibras / separaciones) en cada vista
+var BODY_FRONT_LINES = ["M81 96 C87 98.5 93.5 99.5 99 99.5", "M79 107 C86 111 93 113 99 113.5", "M76 118.5 C84 123 92 125 99 125", "M47.5 101 C50 109 54 116 58.5 121", "M36.6 232 C37.6 246 38 256 37.6 265", "M73.6 150 C78.6 152 83 155.6 86.6 160.6", "M72.6 166 C77.6 168 81.6 171.6 86.6 176.6", "M72.6 182 C76.6 184 80.6 188 85.6 193", "M69.6 262 C69.6 290 71.6 318 75.6 340", "M80.6 236 C84 270 87.6 300 92.6 330", "M45 150 C44 160 44.2 172 46 182"];
+var BODY_BACK_LINES = ["M69 138 C75.6 150 81.6 160 86.6 172", "M66.6 156 C71.6 170 77.6 182 84.6 196", "M84 106 C80 113 76 118 69.6 120.6", "M50 100 C54 106 58 110 62.6 112", "M72 300 C72 318 73 334 75 350", "M87.6 300 C87.6 318 87.4 334 86.6 352", "M41.6 230 C42.6 245 42.6 255 41.6 264", "M47 150 C46 162 46.4 172 48.6 182", "M72 248 C78 244 86 243 94 245"];
+
+function bodyFigureSVG(view, fillOf, sel) {
+  var SIL = "#141922", GAP = "#0B1017", BASEM = "#3A4354";
+  var parts = view === "back" ? BODY_BACK : BODY_FRONT, lines = view === "back" ? BODY_BACK_LINES : BODY_FRONT_LINES;
+  function half(mirror) {
+    var silh = "", mus = "", ln = "";
+    parts.forEach(function(p) {
+      silh += '<path d="' + p[1] + '"/>';
+      var c = p[0] === "_" ? BASEM : p[0] ? fillOf(p[0]) : SIL;
+      mus += '<path d="' + p[1] + '" fill="' + c + '"' + (p[2] && p[0] ? ' fill-opacity="' + p[2] + '"' : '') + (p[0] && p[0] !== "_" ? ' data-m="' + p[0] + '"' + (sel === p[0] ? ' class="bmSel"' : '') : '') + '/>';
+    });
+    lines.forEach(function(d){ ln += '<path d="' + d + '"/>'; });
+    var t = mirror ? ' transform="translate(200,0) scale(-1,1)"' : '';
+    return { silh: '<g' + t + '>' + silh + '</g>', mus: '<g' + t + '>' + mus + '</g>', ln: '<g' + t + '>' + ln + '</g>' };
+  }
+  var L = half(false), R = half(true);
+  var head = '<path d="M88 55 C88 64 87 71 84 79 L116 79 C113 71 112 64 112 55 Z" fill="' + SIL + '"/><ellipse cx="100" cy="35" rx="18.5" ry="23.5" fill="' + SIL + '"/>';
+  if (view === "back") head += '<path d="M100 60 L100 160" stroke="' + GAP + '" stroke-width="1.6"/>';
+  var svg = '<svg viewBox="22 6 156 482" xmlns="http://www.w3.org/2000/svg" class="bmSvg" role="img" aria-label="Mapa muscular ' + (view === "back" ? "de espalda" : "de frente") + '">';
+  svg += '<g fill="' + SIL + '" stroke="' + SIL + '" stroke-width="4" stroke-linejoin="round">' + L.silh + R.silh + '</g>' + head;
+  svg += '<g stroke="' + GAP + '" stroke-width="1.1" stroke-linejoin="round">' + L.mus + R.mus + '</g>';
+  svg += '<g fill="none" stroke="' + GAP + '" stroke-width="0.9" stroke-linecap="round" opacity=".55" pointer-events="none">' + L.ln + R.ln + '</g>';
+  if (view === "back") svg += '<path d="M100 160 L100 228" stroke="' + GAP + '" stroke-width="1.6"/>';
+  return svg + '</svg>';
+}
+
+// ============================================================
+// MUSCULOS DE CADA EJERCICIO: principal (suma 1) y secundarios (0,5)
+// Fuente: la ficha del ejercicio (musculo_primario / musculos_secundarios) cuando
+// ya se descargo; si no, una estimacion a partir del nombre.
+// ============================================================
+var muscleSrc = {};
+try { muscleSrc = JSON.parse(localStorage.getItem("gymMuscleSrc") || "{}") || {}; } catch(e) { muscleSrc = {}; }
+var _exMusCache = {};
+function persistMuscleSrc() { safeStore("gymMuscleSrc", JSON.stringify(muscleSrc)); }
+
+// Codigo o nombre de musculo de la ficha -> id del mapa (segun el contexto del ejercicio)
+function muscleFromCode(code, ctx) {
+  var c = String(code || "").toUpperCase().replace(/[\s-]+/g, "_"), n = " " + normalizeName(code) + " ";
+  function shoulder() {
+    var r = normalizeName(ctx.region || "");
+    if (r.indexOf("posterior") >= 0 || r.indexOf("manguito") >= 0 || ctx.patron === "traccion_horizontal" || ctx.patron === "traccion_vertical") return "delt_post";
+    if (r.indexOf("lateral") >= 0 || (ctx.patron === "elevacion" && r.indexOf("anterior") < 0)) return "delt_lat";
+    return "delt_ant";
+  }
+  var T = {
+    CHEST: "pecho", UPPER_CHEST: "pecho", LOWER_CHEST: "pecho", PECTORALS: "pecho", PECS: "pecho",
+    LATS: "dorsal", LATISSIMUS: "dorsal", LATISSIMUS_DORSI: "dorsal",
+    UPPER_BACK: "esp_media", MIDDLE_BACK: "esp_media", RHOMBOIDS: "esp_media", TERES: "esp_media", TERES_MAJOR: "esp_media", INFRASPINATUS: "esp_media",
+    TRAPS: "trapecio", TRAPEZIUS: "trapecio", NECK: "trapecio",
+    LOWER_BACK: "lumbares", ERECTORS: "lumbares", ERECTOR_SPINAE: "lumbares", SPINAL_ERECTORS: "lumbares",
+    FRONT_DELTS: "delt_ant", ANTERIOR_DELTOID: "delt_ant", SIDE_DELTS: "delt_lat", LATERAL_DELTOID: "delt_lat",
+    REAR_DELTS: "delt_post", POSTERIOR_DELTOID: "delt_post", ROTATOR_CUFF: "delt_post",
+    BICEPS: "biceps", BRACHIALIS: "biceps", BRACHIORADIALIS: "antebrazo", FOREARMS: "antebrazo", FOREARM: "antebrazo", GRIP: "antebrazo",
+    TRICEPS: "triceps", ABS: "abs", ABDOMINALS: "abs", CORE: "abs", RECTUS_ABDOMINIS: "abs", HIP_FLEXORS: "abs",
+    OBLIQUES: "oblicuos", SERRATUS: "oblicuos",
+    QUADS: "cuadriceps", QUADRICEPS: "cuadriceps", LEGS: "cuadriceps", HAMSTRINGS: "isquios",
+    GLUTES: "gluteos", GLUTEUS: "gluteos", ABDUCTORS: "gluteos", HIPS: "gluteos", ADDUCTORS: "aductores",
+    CALVES: "gemelos", CALF: "gemelos", SOLEUS: "gemelos", GASTROCNEMIUS: "gemelos", TIBIALIS: "tibial"
+  };
+  if (c === "SHOULDERS" || c === "DELTOIDS" || c === "DELTS") return shoulder();
+  if (c === "BACK") return ctx.patron === "traccion_horizontal" ? "esp_media" : ctx.patron === "bisagra" ? "lumbares" : "dorsal";
+  if (T[c]) return T[c];
+  // Nombres en espanol
+  var K = [["braquiorradial", "antebrazo"], ["antebrazo", "antebrazo"], ["deltoides anterior", "delt_ant"], ["deltoides lateral", "delt_lat"], ["deltoides posterior", "delt_post"],
+    ["manguito", "delt_post"], ["pectoral", "pecho"], ["pecho", "pecho"], ["dorsal", "dorsal"], ["trapecio", "trapecio"], ["cuello", "trapecio"], ["romboide", "esp_media"],
+    ["espalda media", "esp_media"], ["espalda alta", "esp_media"], ["redondo", "esp_media"], ["lumbar", "lumbares"], ["erector", "lumbares"], ["biceps", "biceps"], ["braquial", "biceps"],
+    ["triceps", "triceps"], ["oblicuo", "oblicuos"], ["serrato", "oblicuos"], ["abdominal", "abs"], ["core", "abs"], ["recto", "abs"], ["cuadriceps", "cuadriceps"],
+    ["isquio", "isquios"], ["femoral", "isquios"], ["gluteo", "gluteos"], ["abductor", "gluteos"], ["aductor", "aductores"], ["gemelo", "gemelos"], ["pantorrilla", "gemelos"],
+    ["soleo", "gemelos"], ["tibial", "tibial"]];
+  for (var i = 0; i < K.length; i++) if (n.indexOf(K[i][0]) >= 0) return K[i][1];
+  if (n.indexOf("hombro") >= 0 || n.indexOf("deltoides") >= 0) return shoulder();
+  if (n.indexOf("espalda") >= 0) return ctx.patron === "traccion_horizontal" ? "esp_media" : "dorsal";
+  return null;
+}
+// Estimacion por nombre (cuando todavia no hay ficha)
+function exMusclesGuess(m, name, group) {
+  var n = " " + normalizeName(name) + " ", r = normalizeName(m.region || "");
+  function has() { for (var i = 0; i < arguments.length; i++) if (n.indexOf(arguments[i]) >= 0) return true; return false; }
+  var g = group === "Bíceps" ? "Biceps" : group === "Tríceps" ? "Triceps" : group, P = null, Sx = [];
+  switch (m.patron) {
+    case "empuje_horizontal":
+      if (g === "Triceps" || has("cerrad", "diamante", "jm", "triceps")) { P = "triceps"; Sx = ["pecho", "delt_ant"]; }
+      else if (g === "Hombros") { P = "delt_ant"; Sx = ["triceps", "pecho"]; }
+      else { P = "pecho"; Sx = ["delt_ant", "triceps"]; }
+      break;
+    case "empuje_vertical": P = "delt_ant"; Sx = ["delt_lat", "triceps"]; break;
+    case "apertura": P = "pecho"; Sx = ["delt_ant"]; break;
+    case "traccion_vertical": P = "dorsal"; Sx = has("pullover", "pull over", "brazo recto", "brazos rectos") ? ["triceps"] : ["biceps", "esp_media"]; if (g === "Pecho") { P = "pecho"; Sx = ["dorsal", "triceps"]; } break;
+    case "traccion_horizontal":
+      if (has("face pull", "deltoides posterior")) { P = "delt_post"; Sx = ["esp_media", "trapecio"]; }
+      else if (has("un brazo", "unilateral", "kroc", "meadows")) { P = "dorsal"; Sx = ["esp_media", "biceps", "delt_post"]; }
+      else { P = "esp_media"; Sx = ["dorsal", "delt_post", "biceps"]; }
+      break;
+    case "elevacion":
+      P = r.indexOf("posterior") >= 0 || r.indexOf("manguito") >= 0 ? "delt_post" : r.indexOf("anterior") >= 0 && r.indexOf("lateral") < 0 ? "delt_ant" : "delt_lat";
+      if (has("menton", "remo alto", "remo vertical")) Sx = ["trapecio", "delt_ant"]; else if (P === "delt_post") Sx = ["esp_media"]; else if (P === "delt_lat") Sx = ["trapecio"];
+      break;
+    case "encogimiento": P = "trapecio"; Sx = ["antebrazo"]; break;
+    case "sentadilla": P = "cuadriceps"; Sx = ["gluteos", "aductores"]; if (has("barra", "multipower") && !has("prensa", "hack")) Sx.push("lumbares"); break;
+    case "zancada": P = "cuadriceps"; Sx = ["gluteos", "aductores"]; break;
+    case "bisagra":
+      if (has("hiperextension", "extension de espalda", "extension lumbar", "superman", "jefferson")) { P = "lumbares"; Sx = ["gluteos", "isquios"]; }
+      else if (has("rumano", "piernas rectas", "piernas rigidas", "stiff", "buenos dias", "good morning", "una pierna", "b stance")) { P = "isquios"; Sx = ["gluteos", "lumbares"]; }
+      else { P = "gluteos"; Sx = ["isquios", "lumbares", "cuadriceps", "trapecio"]; }
+      break;
+    case "empuje_cadera": P = "gluteos"; Sx = has("patada") ? [] : ["isquios"]; break;
+    case "ext_rodilla": P = "cuadriceps"; break;
+    case "flex_rodilla": P = "isquios"; Sx = ["gemelos"]; break;
+    case "gemelos": P = "gemelos"; break;
+    case "abd_aduccion": P = (r.indexOf("aductor") >= 0) ? "aductores" : "gluteos"; break;
+    case "flex_codo": P = "biceps"; Sx = ["antebrazo"]; break;
+    case "ext_codo": P = "triceps"; break;
+    case "core_flexion": P = "abs"; Sx = has("colgad", "elevacion de piernas", "elevaciones de piernas", "elevacion de rodillas", "elevaciones de rodillas") ? ["oblicuos", "antebrazo"] : ["oblicuos"]; break;
+    case "core_rotacion": P = "oblicuos"; Sx = ["abs"]; break;
+    case "core_estab": P = "abs"; Sx = ["oblicuos"]; if (has("lateral")) { P = "oblicuos"; Sx = ["abs"]; } break;
+    case "muneca": P = "antebrazo"; if (has("granjero", "paseo", "caminata")) Sx = ["trapecio"]; break;
+    case "explosivo":
+      if (has("salto", "saltos", "pliometr", "zancada", "sentadilla", "box", "burpee")) { P = "cuadriceps"; Sx = ["gluteos", "gemelos"]; }
+      else if (has("swing", "cargada", "clean", "arranque", "snatch", "tiron")) { P = "gluteos"; Sx = ["isquios", "trapecio", "lumbares"]; }
+      else if (has("push press", "jerk", "press")) { P = "delt_ant"; Sx = ["triceps", "cuadriceps"]; }
+      else if (has("lanzamiento", "slam", "balon")) { P = "abs"; Sx = ["delt_ant", "dorsal"]; }
+      break;
+    default:
+      if (r.indexOf("tibial") >= 0) P = "tibial";
+      else if (has("cuello")) P = "trapecio";
+  }
+  if (!P) {   // por grupo, como ultimo recurso
+    var G = { Pecho: "pecho", Espalda: "dorsal", Hombros: "delt_lat", Biceps: "biceps", Triceps: "triceps", Antebrazos: "antebrazo", Abdominales: "abs" };
+    if (m.patron !== "movilidad" && m.patron !== "cardio") P = G[g] || null;
+  }
+  return { p: P, s: Sx.filter(function(x){ return x !== P; }), src: "estimado" };
+}
+function exMuscles(name, group) {
+  if (_exMusCache[name]) return _exMusCache[name];
+  if (!group) group = exGroupOf(name);
+  var m = exMeta(name, group), res = null, src = muscleSrc[name];
+  if (m.patron === "movilidad" || m.patron === "cardio") res = { p: null, s: [], src: "estimado" };
+  else if (src && src.p && src.p.length) {
+    var prim = [], sec = [];
+    src.p.forEach(function(c){ var id = muscleFromCode(c, m); if (id && prim.indexOf(id) < 0) prim.push(id); });
+    (src.s || []).forEach(function(c){ var id = muscleFromCode(c, m); if (id && prim.indexOf(id) < 0 && sec.indexOf(id) < 0) sec.push(id); });
+    if (prim.length) res = { p: prim[0], s: prim.slice(1).concat(sec), src: "ficha" };
+  }
+  if (!res) res = exMusclesGuess(m, name, group);
+  _exMusCache[name] = res;
+  return res;
+}
+// Reemplaza el mapeo por patrones: grupo del musculo principal suma 1, los otros grupos tocados 0,5
+function getExerciseMuscles(exName, groupName) {
+  var m = exMuscles(exName, groupName); if (!m.p) return null;
+  var ag = MUSCLES[m.p].group, syn = [];
+  m.s.forEach(function(id){ var g = MUSCLES[id].group; if (g !== ag && syn.indexOf(g) < 0) syn.push(g); });
+  return { agonist: ag, synergists: syn };
+}
+// Guarda los musculos de una ficha descargada
+function muscleSrcStore(name, data) {
+  if (!name) return;
+  var p = data ? (data.musculo_primario || data.musculo_primario_es || data.musculos) : null, s = data ? (data.musculos_secundarios || data.musculos_secundarios_es || data.musculosSecundarios) : null;
+  if (p && !Array.isArray(p)) p = [p]; if (s && !Array.isArray(s)) s = [s];
+  var prev = JSON.stringify(muscleSrc[name] || null);
+  muscleSrc[name] = p && p.length ? { p: p, s: s || [] } : { x: 1, t: Date.now() };
+  if (JSON.stringify(muscleSrc[name]) !== prev) { delete _exMusCache[name]; persistMuscleSrc(); return true; }
+  return false;
+}
+// Descarga en segundo plano las fichas que faltan (de a una) y avisa al terminar
+var _musQueue = [], _musBusy = false, _musChanged = false;
+function muscleSrcEnsure(names) {
+  names.forEach(function(n) {
+    var c = muscleSrc[n];
+    if (c && (c.p || (c.x && Date.now() - c.t < 3 * 864e5))) return;
+    if (_musQueue.indexOf(n) < 0) _musQueue.push(n);
+  });
+  if (!_musBusy) muscleSrcNext();
+}
+function muscleSrcNext() {
+  var n = _musQueue.shift();
+  if (!n) { _musBusy = false; if (_musChanged) { _musChanged = false; var bs = document.getElementById("balanceScreen"); if (bs && bs.classList.contains("active") && balanceTab === "week") renderBalance(); } return; }
+  _musBusy = true;
+  fetchExDescRaw(n, function(data){ if ((data || navigator.onLine !== false) && muscleSrcStore(n, data)) _musChanged = true; setTimeout(muscleSrcNext, 30); });
+}
+// Ejercicios con series en las ultimas 6 semanas + los de las rutinas
+function muscleRelevantNames() {
+  var out = [], wk = getWeekKey(new Date());
+  for (var i = 0; i < 6; i++) { var wd = gymData[wkAdd(wk, -i)] || {}; Object.keys(wd).forEach(function(n){ if (Array.isArray(wd[n]) && out.indexOf(n) < 0) out.push(n); }); }
+  try { routinesData().folders.forEach(function(f){ f.routines.forEach(function(r){ r.exercises.forEach(function(n){ if (out.indexOf(n) < 0) out.push(n); }); }); }); } catch(e) {}
+  return out;
+}
+setTimeout(function(){ try { muscleSrcEnsure(muscleRelevantNames()); } catch(e) {} }, 4000);
+
+// ---- Series por musculo en una semana ----
+function computeMuscleWeek(wk) {
+  var wd = gymData[wk] || {}, out = {};
+  Object.keys(MUSCLES).forEach(function(id){ out[id] = { sets: 0, p: 0, s: 0, ex: [] }; });
+  Object.keys(wd).forEach(function(name) {
+    var sets = wd[name]; if (!Array.isArray(sets)) return;
+    var n = 0; sets.forEach(function(x){ if (x && !x.warmup && (x.reps || x.weight) && !(x.rir >= 4)) n++; });
+    if (!n) return;
+    var m = exMuscles(name); if (!m.p) return;
+    out[m.p].sets += n; out[m.p].p += n; out[m.p].ex.push({ name: name, n: n, role: "p" });
+    m.s.forEach(function(id){ out[id].sets += n * 0.5; out[id].s += n * 0.5; out[id].ex.push({ name: name, n: n * 0.5, role: "s" }); });
+  });
+  return out;
+}
+
+// ---- Mapa muscular del Balance (tocar un musculo muestra sus ejercicios) ----
+var balanceView = "front", balanceMuscle = null, balanceMuscleAll = false;
+var BM_FRONT_IDS = ["pecho", "delt_ant", "delt_lat", "biceps", "antebrazo", "abs", "oblicuos", "cuadriceps", "aductores", "tibial", "gemelos", "trapecio"];
+function bmExercisesFor(id) {
+  var seen = {}, prim = [], sec = [];
+  var all = []; for (var g in LIBRARY) LIBRARY[g].exercises.forEach(function(n){ all.push([n, g]); });
+  getAllEx().forEach(function(e){ all.push([e.name, e.group]); });
+  all.forEach(function(x) {
+    var n = x[0]; if (seen[n]) return; seen[n] = 1;
+    if (typeof libIsHidden === "function" && libIsHidden(n)) return;
+    var m = exMuscles(n, x[1]); if (!m.p) return;
+    var mine = inAnyRoutine(n), meta = exMeta(n, x[1]);
+    var item = { name: n, group: x[1], mine: mine, src: m.src, sfr: meta.sfr || 0, len: meta.longitud, pat: meta.patron + "|" + meta.equipo };
+    if (m.p === id) prim.push(item); else if (m.s.indexOf(id) >= 0 && mine) sec.push(item);
+  });
+  prim.sort(function(a, b){ return (b.mine - a.mine) || (b.sfr - a.sfr) || ((b.len === "elongacion") - (a.len === "elongacion")) || (a.name < b.name ? -1 : 1); });
+  // Variedad: primero el mejor de cada patron + equipo, despues el resto
+  var first = [], rest = [], used = {};
+  prim.forEach(function(e){ if (e.mine || !used[e.pat]) { used[e.pat] = 1; first.push(e); } else rest.push(e); });
+  return { prim: first.concat(rest), sec: sec };
+}
+function renderBalanceMap(card, wk, vol) {
+  var mus = computeMuscleWeek(wk), BASEM = "#3A4354";
+  function fillOf(id) {
+    var s = mus[id].sets; if (!s) return BASEM;
+    var z = classifyVolume(vol[MUSCLES[id].group] || 0, MUSCLES[id].group).zone, c = z === "under" ? "#66728A" : VOL_ZONES[z].color;
+    return s < 1 ? c + "99" : c;
+  }
+  var h = '<div class="bmTop"><div class="msSeg"><button data-v="front" class="' + (balanceView === "front" ? "on" : "") + '">Frente</button><button data-v="back" class="' + (balanceView === "back" ? "on" : "") + '">Espalda</button></div>' +
+    '<span class="bmHint">Tocá un músculo</span></div>';
+  h += '<div class="bmWrap">' + bodyFigureSVG(balanceView, fillOf, balanceMuscle) + '</div>';
+  h += '<div class="balLegend">';
+  ["mv", "mev", "mav", "mrv", "over"].forEach(function(z){ h += '<span><i style="background:' + VOL_ZONES[z].color + '"></i>' + VOL_ZONES[z].name + '</span>'; });
+  h += '<span><i style="background:#66728A"></i>Debajo del MV</span><span><i style="background:' + BASEM + '"></i>Sin series</span></div>';
+  if (balanceMuscle && MUSCLES[balanceMuscle]) {
+    var id = balanceMuscle, M = MUSCLES[id], mm = mus[id], L = bmExercisesFor(id), z = classifyVolume(vol[M.group] || 0, M.group);
+    h += '<div class="bmPanel"><div class="bmPTop"><div><div class="bmPName">' + M.name + '</div><div class="bmPGroup">Grupo ' + displayGroup(M.group) + ' · <span style="color:' + VOL_ZONES[z.zone].color + '">' + fmtSets(vol[M.group] || 0) + ' series del grupo, ' + VOL_ZONES[z.zone].name.toLowerCase() + '</span></div></div><button class="bmClose" aria-label="Cerrar">✕</button></div>';
+    h += '<div class="bmPNum"><b>' + fmtSets(mm.sets) + '</b> ' + seriesWord(mm.sets) + ' esta semana' + (mm.sets ? ' <span>(' + fmtSets(mm.p) + ' como principal · ' + fmtSets(mm.s) + ' como secundario)</span>' : '') + '</div>';
+    if (mm.ex.length) {
+      h += '<div class="bmSec">Esta semana</div>';
+      mm.ex.sort(function(a, b){ return b.n - a.n; }).forEach(function(e){ h += '<button class="bmEx" data-n="' + escHtml(e.name) + '"><span>' + escHtml(e.name) + '</span><em>' + fmtSets(e.n) + ' · ' + (e.role === "p" ? "principal" : "secundario") + '</em></button>'; });
+    }
+    var list = L.prim.slice(0, balanceMuscleAll ? 30 : 6);
+    if (list.length) {
+      h += '<div class="bmSec">Ejercicios que lo trabajan como principal</div>';
+      list.forEach(function(e){ h += '<button class="bmEx" data-n="' + escHtml(e.name) + '"><span>' + escHtml(e.name) + (e.mine ? ' <i class="bmMine">en tus rutinas</i>' : '') + '</span><em>' + (e.sfr ? 'SFR ' + e.sfr : '') + '</em></button>'; });
+      if (L.prim.length > 6) h += '<button class="bmMore">' + (balanceMuscleAll ? "Ver menos" : "Ver más (" + L.prim.length + ")") + '</button>';
+    }
+    if (L.sec.length) {
+      h += '<div class="bmSec">De tus rutinas, como secundario</div>';
+      L.sec.slice(0, 8).forEach(function(e){ h += '<button class="bmEx" data-n="' + escHtml(e.name) + '"><span>' + escHtml(e.name) + '</span><em>0,5 por serie</em></button>'; });
+    }
+    h += '<div class="bmNote">Los músculos de cada ejercicio salen de su ficha (principal y secundarios); si la ficha todavía no se descargó, se estiman por el nombre.</div></div>';
+  }
+  card.innerHTML = h;
+  card.querySelectorAll("[data-v]").forEach(function(b){ b.onclick = function(){ balanceView = b.getAttribute("data-v"); renderBalanceMap(card, wk, vol); }; });
+  card.querySelector(".bmWrap").onclick = function(ev) {
+    var t = ev.target.closest ? ev.target.closest("[data-m]") : null; if (!t) return;
+    var id = t.getAttribute("data-m"); balanceMuscle = balanceMuscle === id ? null : id; balanceMuscleAll = false;
+    renderBalanceMap(card, wk, vol);
+    if (balanceMuscle) { var pn = card.querySelector(".bmPanel"); if (pn && pn.scrollIntoView) setTimeout(function(){ pn.scrollIntoView({ behavior: "smooth", block: "nearest" }); }, 30); }
+  };
+  var cl = card.querySelector(".bmClose"); if (cl) cl.onclick = function(){ balanceMuscle = null; renderBalanceMap(card, wk, vol); };
+  var mo = card.querySelector(".bmMore"); if (mo) mo.onclick = function(){ balanceMuscleAll = !balanceMuscleAll; renderBalanceMap(card, wk, vol); };
+  card.querySelectorAll(".bmEx").forEach(function(b){ b.onclick = function() {
+    var n = b.getAttribute("data-n"), g = exGroupOf(n), col = (GROUPS[g] || LIBRARY[g] || {}).color || "#22D3EE";
+    openLibDetail(n, g, col, isInRoutine(n));
   }; });
 }
 
@@ -6663,7 +7045,7 @@ var GUIDE_SECTIONS = [
       { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
       { icon:"1RM", title:"Calculadora 1RM", desc:"Estima tu maximo de una repeticion a partir de cualquier serie. Muestra multiples formulas y porcentajes utiles (90%, 80%, 70%, 60%). Se accede desde el header o desde el panel de carga de cada ejercicio." },
-      { icon:"&#9898;", title:"Balance muscular", desc:"Series efectivas por grupo en la semana, comparadas con tus rangos (mantenimiento, mínimo efectivo, óptimo y máximo recuperable). Tocá un grupo para ver qué ejercicios sumaron. En Ajustes cambiás los rangos." },
+      { icon:"&#9898;", title:"Balance muscular", desc:"Series efectivas por grupo en la semana, comparadas con tus rangos (mantenimiento, mínimo efectivo, óptimo y máximo recuperable). En el mapa del cuerpo (frente y espalda) tocá un músculo para ver cuántas series le hiciste y qué ejercicios lo trabajan como principal o secundario. Los músculos de cada ejercicio salen de su ficha. En Ajustes cambiás los rangos." },
       { icon:"&#127942;", title:"Records personales", desc:"Pantalla con el maximo historico de peso, reps y volumen por ejercicio. Cuando superas un record al guardar, aparece una animacion en pantalla." },
       { icon:"&#8679;", title:"Sugerencia de progresion", desc:"Si llevas 2 semanas con el mismo peso maximo en un ejercicio, aparece un banner celeste sugiriendo subir 2.5kg al abrir ese ejercicio." }
     ]
@@ -6828,6 +7210,12 @@ setTimeout(prefetchTodayMedia, 2500);
 // Carga y parsea el JSON de descripcion. Devuelve null si no existe o hay error.
 // cb(data) se llama con el objeto parseado, o cb(null) si no hay descripcion.
 function fetchExDesc(name, cb) {
+  fetchExDescRaw(name, function(data) {
+    if (data || navigator.onLine !== false) { try { if (muscleSrcStore(name, data)) _exMusCache = {}; } catch(e) {} }
+    cb(data);
+  });
+}
+function fetchExDescRaw(name, cb) {
   var url = getDescSrc(name);
   if (!url) { cb(null); return; }
   mediaResponse(url)   // cacheada en el celular (ver CACHE DE VIDEOS Y FICHAS)
