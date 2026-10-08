@@ -409,7 +409,7 @@ button:focus:not(:focus-visible){outline:none}
 
 /* ---- Rutinas ---- */
 #dayViewToggle,#filterScroll,#exerciseList{display:none!important}
-#routinesArea{padding:4px 16px 120px}
+#routinesArea{padding:4px 16px 40px}
 .rtHead{display:flex;align-items:center;justify-content:space-between;margin:6px 0 10px}
 .rtTitle{font-size:20px;font-weight:800}
 .rtNewFolder{border:1px dashed #34425A;background:transparent;color:#22D3EE;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;cursor:pointer}
@@ -481,6 +481,61 @@ input,button,textarea,select{font-family:inherit}
 .rtStart,.trSheetPrimary{color:#04131A}
 /* Brillo ambiental mas frio y sutil */
 body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10),transparent 60%)!important}
+
+/* ---- Tiempos ---- */
+.tmModes{display:flex;gap:6px;overflow-x:auto;padding-bottom:10px;margin-bottom:4px}
+.tmMode{flex-shrink:0;border:1px solid var(--border);background:var(--surface);color:var(--text-2);border-radius:11px;padding:9px 14px;font-size:14px;font-weight:600;cursor:pointer}
+.tmMode.on{border-color:var(--primary);color:var(--primary);background:#22D3EE14}
+.tmMain{background:var(--surface);border:1px solid #182030;border-radius:18px;padding:16px;margin-bottom:16px}
+.tmHelp{color:var(--text-3);font-size:13px;line-height:1.5;margin-bottom:12px}
+.tmStep{display:grid;grid-template-columns:1fr 46px 92px 46px;align-items:center;gap:8px;padding:6px 0;border-top:1px solid #182030}
+.tmStep:first-child{border-top:none}
+.tmStepLab{color:var(--text);font-size:15px;font-weight:600}
+.tmStepBtn{height:46px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);border-radius:12px;font-size:22px;cursor:pointer}
+.tmStepVal{text-align:center;font-size:22px;font-weight:700;color:#fff;font-variant-numeric:tabular-nums;font-stretch:90%}
+.tmTotal{display:flex;justify-content:space-between;align-items:baseline;color:var(--text-3);font-size:14px;border-top:1px solid #182030;padding-top:12px;margin-top:6px}
+.tmTotal b{color:var(--primary);font-size:20px;font-variant-numeric:tabular-nums}
+.tmBig{font-size:76px;font-weight:700;text-align:center;color:#fff;font-variant-numeric:tabular-nums;font-stretch:85%;line-height:1;margin:6px 0 4px}
+.tmBig.urgent{color:var(--energy)}
+.tmBig.done{color:var(--primary);font-size:56px}
+.tmSub{text-align:center;color:var(--text-3);font-size:13px;margin-bottom:14px}
+.tmPresets{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:6px}
+.tmPreset{height:44px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;font-variant-numeric:tabular-nums}
+.tmPreset.on{border-color:var(--primary);color:var(--primary)}
+.tmBtnRow{display:flex;gap:8px;margin-top:14px}
+.tmPrimary{flex:1.6;border:none;border-radius:14px;background:var(--primary);color:#04131A;font-size:16px;font-weight:800;padding:15px;cursor:pointer}
+.tmPrimary.wide{width:100%;margin-top:14px}
+.tmGhost{flex:1;border:1px solid var(--border);background:transparent;color:var(--text);border-radius:14px;font-size:15px;font-weight:700;padding:15px 10px;cursor:pointer}
+.tmLink{display:block;margin:10px auto 0;border:none;background:transparent;color:var(--text-3);font-size:14px;text-decoration:underline;cursor:pointer}
+.tmSecHead{color:var(--text-3);font-size:13px;font-weight:600;margin:4px 2px 8px}
+.tmCard{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid #182030;border-radius:14px;padding:10px 10px 10px 14px;margin-bottom:8px}
+.tmCardInfo{flex:1;min-width:0;cursor:pointer}
+.tmCardName{font-size:16px;font-weight:700;color:#fff}
+.tmCardSub{font-size:12.5px;color:var(--text-3);margin-top:2px}
+.tmPlay{width:46px;height:46px;border:none;border-radius:13px;background:var(--primary);display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0}
+.tmPlay svg{width:20px;height:20px;fill:#04131A}
+#tmSaved{margin-bottom:12px}
+.tmLogRow{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:9px 2px;border-top:1px solid #182030;font-size:14px}
+.tmLogName{color:var(--text);font-weight:600}
+.tmLogWhat{color:var(--text-2);text-align:right;font-variant-numeric:tabular-nums}
+.tmLogWhen{color:var(--text-3);font-size:12px;grid-column:1/-1}
+/* Ejecucion */
+.tmRun{flex-direction:column;align-items:center;text-align:center;padding:10px 0 20px;min-height:72vh;justify-content:center;--k:var(--text)}
+.tmRun[data-kind="work"]{--k:var(--energy)}
+.tmRun[data-kind="rest"]{--k:var(--primary)}
+.tmRun[data-kind="prep"]{--k:#FDE047}
+.tmRun[data-kind="pause"]{--k:var(--text-3)}
+.tmRunName{color:var(--text-3);font-size:14px;font-weight:600}
+.tmRunPhase{color:var(--k);font-size:28px;font-weight:800;font-stretch:88%;margin-top:6px}
+.tmRunBig{color:var(--k);font-size:128px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;font-stretch:80%;margin:6px 0}
+.tmRunInfo{color:var(--text);font-size:20px;font-weight:700;min-height:26px}
+.tmBarWrap{width:100%;height:6px;background:var(--surface-2);border-radius:99px;margin:18px 0 10px;overflow:hidden}
+.tmBar{height:100%;width:0;background:var(--k);border-radius:99px;transition:width .2s linear}
+.tmRunNext{color:var(--text-3);font-size:14px;min-height:20px}
+.tmExtra{width:100%;margin-top:18px;border:2px solid var(--k);background:transparent;color:var(--k);border-radius:18px;font-size:22px;font-weight:800;padding:20px;cursor:pointer}
+.tmRun .tmBtnRow{width:100%}
+.tmStopBtn{flex:1;border:1px solid #FF5C7A66;background:#FF5C7A12;color:#FF5C7A;border-radius:14px;font-size:15px;font-weight:800;padding:15px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){.tmBar{transition:none}}
 </style>
 </head>
 <body>
@@ -497,7 +552,7 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
       <button class="iconBtn" onclick="showScreen('libraryScreen')" title="Biblioteca de ejercicios" aria-label="Biblioteca de ejercicios"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 6.5v11"/><path d="M17.5 6.5v11"/><path d="M3.5 9.2v5.6"/><path d="M20.5 9.2v5.6"/><path d="M6.5 12h11"/></svg></button>
       <button class="iconBtn" onclick="showScreen('prScreen')" title="R&eacute;cords personales" aria-label="R&eacute;cords personales"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 6H5.2a3 3 0 0 0 2.9 4"/><path d="M16 6h2.8a3 3 0 0 1-2.9 4"/><path d="M12 13.2V17"/><path d="M8.5 20.5h7"/><path d="M10 17h4"/></svg></button>
       <button class="iconBtn" onclick="showScreen('historyScreen')" title="Historial" aria-label="Historial"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 12a8.4 8.4 0 1 0 2.5-6"/><path d="M3.2 3.8v4.3h4.3"/><path d="M12 7.6V12l3 2"/></svg></button>
-      <button class="iconBtn" onclick="showScreen('tabataScreen')" title="Tabata e intervalos" aria-label="Tabata e intervalos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 2.8 5.4 13.4h6.1l-1 7.8 8-10.9h-6.2z"/></svg></button>
+      <button class="iconBtn" onclick="showScreen('tabataScreen')" title="Tiempos: descanso, intervalos, EMOM, AMRAP y cron&oacute;metro" aria-label="Tiempos"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13.5" r="7.6"/><path d="M12 13.5V9.6"/><path d="M10 2.8h4"/><path d="M18.5 6.5l1.4-1.4"/></svg></button>
       <button class="iconBtn" onclick="openGuide()" title="Instructivo" aria-label="Instructivo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.4 2.4c-.6.3-1 .8-1 1.5v.6"/><path d="M12 16.9h.01"/></svg></button>
     </div>
     <div class="weekNav" id="weekNav"></div>
@@ -510,9 +565,6 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
   <div class="filterScroll" id="filterScroll"></div>
   <div id="exerciseList"></div>
   <div id="routinesArea"></div>
-  <div id="bottomBar">
-    <button class="timerMainBtn" onclick="openTimer()"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V10"/><path d="M10 2.8h4"/><path d="M18.4 6.6l1.4-1.4"/></svg>Cron&oacute;metro de descanso</button>
-  </div>
 </div>
 
 <!-- HISTORY -->
@@ -1752,7 +1804,7 @@ function showScreen(id) {
   if (id === "wsSummaryScreen") return;
   if (id === "prScreen") renderPRScreen();
   if (id === "balanceScreen") { balanceWeek = activeWeek; setBalanceTab("week"); }
-  if (id === "tabataScreen") { showTabataView("config"); renderTabataConfig(); renderTabataHistory(); }
+  if (id === "tabataScreen") tmRender();
   if (id === "rmScreen") return;
   if (id === "homeScreen") renderHome();
 }
@@ -2436,8 +2488,20 @@ var NativeRest = (function(){
     return call("Filesystem", "writeFile", { path: fileName, data: text, directory: "CACHE", encoding: "utf8" })
       .then(function(r){ return call("Share", "share", { title: "Backup Gimnasio", dialogTitle: "Guardar backup", files: [r.uri] }); });
   }
+  // Varias alarmas a la vez (cambios de fase de intervalos con la pantalla bloqueada)
+  function scheduleMany(items) {
+    if (!isNative || !items.length) return;
+    init().then(function(ok) {
+      if (!ok) return;
+      return ln("schedule", { notifications: items.map(function(it) {
+        return { id: it.id, title: it.title, body: it.body || "", channelId: CH, smallIcon: "ic_stat_timer", iconColor: "#22D3EE",
+                 isExactNotification: exactOk, schedule: { at: new Date(it.at).toISOString(), allowWhileIdle: true } };
+      }) });
+    }).catch(noop);
+  }
+  function cancelMany(ids) { if (!isNative) return; ln("cancel", { notifications: ids.map(function(i){ return { id: i }; }) }).catch(noop); }
   if (isNative) setTimeout(init, 800); // pedir permiso de notificaciones al abrir la app
-  return { isNative: isNative, init: init, schedule: schedule, cancel: cancel, handlesAlarm: handlesAlarm, shareBackup: shareBackup };
+  return { isNative: isNative, init: init, schedule: schedule, cancel: cancel, handlesAlarm: handlesAlarm, shareBackup: shareBackup, scheduleMany: scheduleMany, cancelMany: cancelMany };
 })();
 
 // Programar notificación en el SW (sobrevive a pantalla bloqueada)
@@ -2491,6 +2555,7 @@ function getTimerLeft() { if (!timerRunning||!timerStartedAt) return timerLeft; 
 
 function updateSheetTimer() {
   if (typeof updateTrainTimerPill === "function") updateTrainTimerPill();
+  if (typeof tmUpdateRest === "function") tmUpdateRest();
   var bar = document.getElementById("sheetTimerBar");
   var count = document.getElementById("sheetTimerCount");
   if (!bar || !count) return;
@@ -2882,7 +2947,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -4957,6 +5022,336 @@ function renderSessionsInHistory() {
 }
 
 
+// ============================================================
+// TIEMPOS: descanso, intervalos (Tabata), EMOM, AMRAP y cronometro
+// ============================================================
+// Motor por hora real (no por "tics"): si Android congela la app con la pantalla
+// bloqueada, al volver el reloj sigue exacto. En segundo plano programa una
+// alarma nativa en cada cambio de fase (sale por el canal de alarma del APK).
+var TM_MODES = [
+  { id: "rest", label: "Descanso" },
+  { id: "intervals", label: "Intervalos" },
+  { id: "emom", label: "EMOM" },
+  { id: "amrap", label: "AMRAP" },
+  { id: "stopwatch", label: "Cronómetro" }
+];
+var TM_DEFAULTS = {
+  intervals: { work: 20, rest: 10, rounds: 8, prep: 5 },
+  emom: { every: 60, rounds: 10, prep: 5 },
+  amrap: { minutes: 12, prep: 5 },
+  stopwatch: {}
+};
+var TM_HELP = {
+  rest: "El descanso entre series. Es el mismo reloj que arranca solo al registrar una serie.",
+  intervals: "Trabajo y descanso alternados por rondas. Tabata clásico: 20 s de trabajo y 10 s de descanso, 8 rondas.",
+  emom: "Al empezar cada intervalo hacés las repeticiones pautadas; lo que sobra del intervalo es tu descanso.",
+  amrap: "Todas las rondas que puedas en el tiempo fijado. Tocá +1 ronda cada vez que completes una.",
+  stopwatch: "Cuenta hacia arriba. Para circuitos o series por tiempo; marcá vueltas cuando quieras."
+};
+var tmMode = "intervals";
+var tmCfg = JSON.parse(JSON.stringify(TM_DEFAULTS));
+var tmRun = null;
+var TM_NOTIF_BASE = 5000;
+
+function tmFmt(sec) { sec = Math.max(0, Math.round(sec)); var m = Math.floor(sec / 60), s = sec % 60; return m + ":" + (s < 10 ? "0" : "") + s; }
+function tmFmtLong(ms) { var t = Math.floor(ms / 100), ds = t % 10, s = Math.floor(t / 10) % 60, m = Math.floor(t / 600); return (m < 10 ? "0" : "") + m + ":" + (s < 10 ? "0" : "") + s + "." + ds; }
+
+// Fases de cada modo
+function tmBuildPhases(mode, c) {
+  var ph = [];
+  if (c.prep) ph.push({ kind: "prep", label: "Preparate", secs: c.prep, round: 0 });
+  if (mode === "intervals") {
+    for (var r = 1; r <= c.rounds; r++) {
+      ph.push({ kind: "work", label: "Trabajo", secs: c.work, round: r });
+      if (r < c.rounds && c.rest > 0) ph.push({ kind: "rest", label: "Descanso", secs: c.rest, round: r });
+    }
+  } else if (mode === "emom") {
+    for (var e = 1; e <= c.rounds; e++) ph.push({ kind: "work", label: c.every === 60 ? "Minuto " + e : "Intervalo " + e, secs: c.every, round: e });
+  } else if (mode === "amrap") {
+    ph.push({ kind: "work", label: "AMRAP", secs: c.minutes * 60, round: 1 });
+  }
+  return ph;
+}
+function tmTotal(ph) { var t = 0; for (var i = 0; i < ph.length; i++) t += ph[i].secs; return t; }
+function tmSummary(mode, c) {
+  if (mode === "intervals") return c.work + " s trabajo / " + c.rest + " s descanso, " + c.rounds + " rondas";
+  if (mode === "emom") return "Cada " + tmFmt(c.every) + ", " + c.rounds + " rondas";
+  if (mode === "amrap") return c.minutes + " minutos";
+  return "Cuenta hacia arriba";
+}
+
+// ---- Sonido (un solo AudioContext reutilizado) ----
+var _tmCtx = null;
+function tmBeep(freq, dur, vol, at) {
+  try {
+    if (!_tmCtx) _tmCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (_tmCtx.state === "suspended") _tmCtx.resume();
+    var t0 = _tmCtx.currentTime + (at || 0), o = _tmCtx.createOscillator(), g = _tmCtx.createGain();
+    o.type = "sine"; o.frequency.value = freq; o.connect(g); g.connect(_tmCtx.destination);
+    g.gain.setValueAtTime(vol || 0.35, t0); g.gain.exponentialRampToValueAtTime(0.001, t0 + dur);
+    o.start(t0); o.stop(t0 + dur + 0.02);
+  } catch(e) {}
+}
+function tmVib(p) { if (navigator.vibrate) try { navigator.vibrate(p); } catch(e) {} }
+function tmPhaseSound(kind) {
+  if (kind === "work") { tmBeep(880, 0.35, 0.45); tmVib([200, 80, 200]); }
+  else if (kind === "rest") { tmBeep(440, 0.4, 0.45); tmVib(250); }
+  else if (kind === "end") { tmBeep(880, 0.22, 0.45); tmBeep(660, 0.22, 0.45, 0.25); tmBeep(440, 0.4, 0.45, 0.5); tmVib([300, 100, 300, 100, 500]); }
+}
+
+// ---- Ejecucion ----
+function tmElapsed() { if (!tmRun) return 0; return ((tmRun.pausedAt || Date.now()) - tmRun.startedAt - tmRun.pausedTotal) / 1000; }
+function tmState() {
+  var el = tmElapsed(), ph = tmRun.phases, acc = 0;
+  for (var i = 0; i < ph.length; i++) { if (el < acc + ph[i].secs) return { idx: i, left: acc + ph[i].secs - el, el: el }; acc += ph[i].secs; }
+  return { idx: ph.length, left: 0, el: el };
+}
+function tmStart(mode, cfg, name) {
+  if (tmRun) tmStop(false);
+  try { if (!_tmCtx) _tmCtx = new (window.AudioContext || window.webkitAudioContext)(); _tmCtx.resume(); } catch(e) {}
+  var c = JSON.parse(JSON.stringify(cfg || tmCfg[mode] || {}));
+  tmRun = { mode: mode, cfg: c, name: name || "", phases: tmBuildPhases(mode, c), startedAt: Date.now(), pausedAt: null, pausedTotal: 0,
+            lastIdx: -1, lastSec: -1, rounds: 0, laps: [], timer: null };
+  acquireWakeLock();
+  tmRun.timer = setInterval(tmTick, 200);
+  tmRenderRun(); tmTick();
+}
+function tmTick() {
+  if (!tmRun || tmRun.pausedAt) return;
+  if (tmRun.mode === "stopwatch") { tmUpdateRun(); return; }
+  var st = tmState();
+  if (st.idx >= tmRun.phases.length) { tmFinish(); return; }
+  if (st.idx !== tmRun.lastIdx) {
+    if (tmRun.lastIdx >= 0 || tmRun.phases[st.idx].kind !== "prep") tmPhaseSound(tmRun.phases[st.idx].kind);
+    tmRun.lastIdx = st.idx;
+  }
+  var sec = Math.ceil(st.left);
+  if (sec !== tmRun.lastSec) { if (sec >= 1 && sec <= 3) tmBeep(660, 0.12, 0.3); tmRun.lastSec = sec; }
+  tmUpdateRun(st);
+}
+function tmPause() {
+  if (!tmRun) return;
+  if (tmRun.pausedAt) { tmRun.pausedTotal += Date.now() - tmRun.pausedAt; tmRun.pausedAt = null; acquireWakeLock(); }
+  else { tmRun.pausedAt = Date.now(); tmCancelNative(); }
+  tmUpdateRun();
+}
+function tmFinish() {
+  if (!tmRun) return;
+  var run = tmRun, el = tmElapsed(), st = run.mode === "stopwatch" ? null : tmState();
+  clearInterval(run.timer); tmCancelNative(); releaseWakeLock();
+  tmPhaseSound("end");
+  var done = 0;
+  if (run.mode === "intervals" || run.mode === "emom") { for (var i = 0; i < run.phases.length; i++) if (run.phases[i].kind === "work" && i < st.idx) done++; }
+  var rec = { date: new Date().toISOString(), mode: run.mode, name: run.name, cfg: run.cfg, secs: Math.round(el), rounds: run.mode === "amrap" ? run.rounds : done, laps: run.laps.length };
+  var log = tmLoadLog(); log.push(rec); safeStore("gymTimerLog", JSON.stringify(log.slice(-60)));
+  tmRun = null;
+  tmRender();
+  var label = rec.mode === "amrap" ? rec.rounds + " rondas en " + tmFmt(rec.secs) : rec.mode === "stopwatch" ? tmFmt(rec.secs) + (rec.laps ? ", " + rec.laps + " vueltas" : "") : rec.rounds + " rondas, " + tmFmt(rec.secs);
+  showToast("Terminado: " + label);
+}
+function tmStop(ask) {
+  if (!tmRun) return;
+  if (ask !== false) {
+    if (tmRun.mode !== "stopwatch" && tmElapsed() < 3) { clearInterval(tmRun.timer); tmCancelNative(); releaseWakeLock(); tmRun = null; tmRender(); return; }
+    tmFinish(); return;
+  }
+  clearInterval(tmRun.timer); tmCancelNative(); releaseWakeLock(); tmRun = null;
+}
+function tmAmrapRound() { if (!tmRun || tmRun.pausedAt) return; tmRun.rounds++; tmBeep(990, 0.1, 0.3); tmVib(60); tmUpdateRun(); }
+function tmLap() { if (!tmRun || tmRun.pausedAt) return; tmRun.laps.push(tmElapsed()); tmVib(60); tmUpdateRun(); }
+function tmLoadLog() { try { return JSON.parse(localStorage.getItem("gymTimerLog") || "[]") || []; } catch(e) { return []; } }
+
+// ---- Alarmas nativas en segundo plano (pantalla bloqueada) ----
+function tmScheduleNative() {
+  if (!tmRun || tmRun.pausedAt || tmRun.mode === "stopwatch" || !NativeRest.isNative || !NativeRest.scheduleMany) return;
+  var st = tmState(), base = tmRun.startedAt + tmRun.pausedTotal, acc = 0, items = [];
+  for (var i = 0; i < tmRun.phases.length; i++) {
+    if (i > st.idx) {
+      var p = tmRun.phases[i];
+      items.push({ id: TM_NOTIF_BASE + i, at: base + acc * 1000, title: p.label + (p.round && tmRun.mode !== "amrap" ? " (ronda " + p.round + ")" : ""), body: tmFmt(p.secs) });
+    }
+    acc += tmRun.phases[i].secs;
+  }
+  items.push({ id: TM_NOTIF_BASE + 199, at: base + acc * 1000, title: "Terminado", body: tmRun.name || "Sesión completa" });
+  NativeRest.scheduleMany(items.slice(-60));
+}
+function tmCancelNative() {
+  if (!NativeRest.isNative || !NativeRest.cancelMany) return;
+  var ids = []; for (var i = 0; i < 200; i++) ids.push(TM_NOTIF_BASE + i);
+  NativeRest.cancelMany(ids);
+}
+document.addEventListener("visibilitychange", function() {
+  if (!tmRun) return;
+  if (document.hidden) tmScheduleNative(); else { tmCancelNative(); tmTick(); }
+});
+
+// ---- Guardados ("Mis tiempos") ----
+function tmLoadSaved() { try { return JSON.parse(localStorage.getItem("gymTimers") || "[]") || []; } catch(e) { return []; } }
+function tmPersistSaved(list) { safeStore("gymTimers", JSON.stringify(list)); }
+function tmSaveCurrent() {
+  if (tmMode === "rest" || tmMode === "stopwatch") return;
+  askText("Guardar " + (tmMode === "intervals" ? "intervalos" : tmMode.toUpperCase()), "Ej.: Finisher piernas, Tabata core", "", "Guardar", function(v) {
+    var list = tmLoadSaved(); list.push({ id: newId(), name: v, mode: tmMode, cfg: JSON.parse(JSON.stringify(tmCfg[tmMode])) });
+    tmPersistSaved(list); tmRender(); showToast("Guardado: " + v);
+  });
+}
+function tmSavedMenu(item) {
+  openTrSheet(item.name, function(body) {
+    trSheetBtn(body, "&#9654;&nbsp; Empezar", function(){ tmMode = item.mode; tmCfg[item.mode] = JSON.parse(JSON.stringify(item.cfg)); tmStart(item.mode, item.cfg, item.name); });
+    trSheetBtn(body, "&#9881;&nbsp; Cargar para editar", function(){ tmMode = item.mode; tmCfg[item.mode] = JSON.parse(JSON.stringify(item.cfg)); tmRender(); });
+    trSheetBtn(body, "&#9998;&nbsp; Renombrar", function(){ askText("Renombrar", "Nombre", item.name, "Guardar", function(v){ var l = tmLoadSaved(); l.forEach(function(x){ if (x.id === item.id) x.name = v; }); tmPersistSaved(l); tmRender(); }); });
+    trSheetBtn(body, "&#10005;&nbsp; Eliminar", function(){ if (!confirm("¿Eliminar \"" + item.name + "\"?")) return; tmPersistSaved(tmLoadSaved().filter(function(x){ return x.id !== item.id; })); tmRender(); }, true);
+  });
+}
+
+// ---- Pantalla ----
+function tmStepper(label, key, step, min, max, unit, fmt) {
+  var c = tmCfg[tmMode], row = document.createElement("div"); row.className = "tmStep";
+  var l = document.createElement("span"); l.className = "tmStepLab"; l.textContent = label;
+  var minus = document.createElement("button"); minus.className = "tmStepBtn"; minus.innerHTML = "&minus;"; minus.setAttribute("aria-label", "Menos " + label);
+  var val = document.createElement("span"); val.className = "tmStepVal"; val.textContent = fmt ? fmt(c[key]) : c[key] + (unit || "");
+  var plus = document.createElement("button"); plus.className = "tmStepBtn"; plus.textContent = "+"; plus.setAttribute("aria-label", "Más " + label);
+  minus.onclick = function(){ c[key] = Math.max(min, c[key] - step); tmRender(); };
+  plus.onclick = function(){ c[key] = Math.min(max, c[key] + step); tmRender(); };
+  row.appendChild(l); row.appendChild(minus); row.appendChild(val); row.appendChild(plus);
+  return row;
+}
+function tmRender() {
+  var root = document.getElementById("tmRoot"); if (!root) return;
+  if (tmRun) { tmRenderRun(); return; }
+  document.getElementById("tmRun").style.display = "none";
+  root.style.display = "block";
+  // Modos
+  var modes = document.getElementById("tmModes"); modes.innerHTML = "";
+  TM_MODES.forEach(function(m) {
+    var b = document.createElement("button"); b.className = "tmMode" + (m.id === tmMode ? " on" : ""); b.textContent = m.label;
+    b.onclick = function(){ tmMode = m.id; tmRender(); }; modes.appendChild(b);
+  });
+  document.getElementById("tmHelp").textContent = TM_HELP[tmMode];
+  var panel = document.getElementById("tmPanel"); panel.innerHTML = "";
+  var actions = document.getElementById("tmActions"); actions.innerHTML = "";
+  if (tmMode === "rest") {
+    var big = document.createElement("div"); big.className = "tmBig"; big.id = "tmRestBig"; panel.appendChild(big);
+    var sub = document.createElement("div"); sub.className = "tmSub"; sub.id = "tmRestSub"; panel.appendChild(sub);
+    var pres = document.createElement("div"); pres.className = "tmPresets";
+    [30, 45, 60, 90, 120, 180, 240].forEach(function(v) {
+      var b = document.createElement("button"); b.className = "tmPreset"; b.textContent = tmFmt(v); b.dataset.v = v;
+      b.onclick = function(){ if (timerRunning) return; resetTimer(); timerTotal = v; timerLeft = v; updateTimerUI(); };
+      pres.appendChild(b);
+    });
+    panel.appendChild(pres);
+    var row = document.createElement("div"); row.className = "tmBtnRow";
+    var m15 = document.createElement("button"); m15.className = "tmGhost"; m15.textContent = "−15 s"; m15.onclick = function(){ if (timerRunning) trainAdjustRest(-15); else { timerTotal = Math.max(5, timerTotal - 15); timerLeft = timerTotal; updateTimerUI(); } };
+    var go = document.createElement("button"); go.className = "tmPrimary"; go.id = "tmRestGo"; go.onclick = function(){ if (timerDone) { resetTimer(); } else { toggleTimer(); } };
+    var p15 = document.createElement("button"); p15.className = "tmGhost"; p15.textContent = "+15 s"; p15.onclick = function(){ if (timerRunning) trainAdjustRest(15); else { timerTotal = Math.min(900, timerTotal + 15); timerLeft = timerTotal; updateTimerUI(); } };
+    row.appendChild(m15); row.appendChild(go); row.appendChild(p15); actions.appendChild(row);
+    var rs = document.createElement("button"); rs.className = "tmLink"; rs.textContent = "Reiniciar"; rs.onclick = function(){ resetTimer(); };
+    actions.appendChild(rs);
+    tmUpdateRest();
+  } else if (tmMode === "stopwatch") {
+    var bigS = document.createElement("div"); bigS.className = "tmBig"; bigS.textContent = "00:00.0"; panel.appendChild(bigS);
+    var st = document.createElement("button"); st.className = "tmPrimary wide"; st.textContent = "Empezar"; st.onclick = function(){ tmStart("stopwatch", {}); };
+    actions.appendChild(st);
+  } else {
+    var c = tmCfg[tmMode];
+    if (tmMode === "intervals") {
+      panel.appendChild(tmStepper("Trabajo", "work", 5, 5, 600, " s"));
+      panel.appendChild(tmStepper("Descanso", "rest", 5, 0, 600, " s"));
+      panel.appendChild(tmStepper("Rondas", "rounds", 1, 1, 50, ""));
+    } else if (tmMode === "emom") {
+      panel.appendChild(tmStepper("Cada", "every", 15, 15, 600, "", tmFmt));
+      panel.appendChild(tmStepper("Rondas", "rounds", 1, 1, 60, ""));
+    } else if (tmMode === "amrap") {
+      panel.appendChild(tmStepper("Duración", "minutes", 1, 1, 90, " min"));
+    }
+    panel.appendChild(tmStepper("Preparación", "prep", 5, 0, 30, " s"));
+    var tot = document.createElement("div"); tot.className = "tmTotal";
+    tot.innerHTML = "Duración total <b>" + tmFmt(tmTotal(tmBuildPhases(tmMode, c))) + "</b>";
+    panel.appendChild(tot);
+    var row2 = document.createElement("div"); row2.className = "tmBtnRow";
+    var sv = document.createElement("button"); sv.className = "tmGhost"; sv.textContent = "Guardar"; sv.onclick = tmSaveCurrent;
+    var go2 = document.createElement("button"); go2.className = "tmPrimary"; go2.textContent = "Empezar"; go2.onclick = function(){ tmStart(tmMode, tmCfg[tmMode]); };
+    row2.appendChild(sv); row2.appendChild(go2); actions.appendChild(row2);
+  }
+  // Mis tiempos
+  var saved = tmLoadSaved(), sw = document.getElementById("tmSaved"); sw.innerHTML = "";
+  if (saved.length) {
+    var h = document.createElement("div"); h.className = "tmSecHead"; h.textContent = "Mis tiempos"; sw.appendChild(h);
+    saved.forEach(function(it) {
+      var card = document.createElement("div"); card.className = "tmCard";
+      var info = document.createElement("div"); info.className = "tmCardInfo";
+      var n = document.createElement("div"); n.className = "tmCardName"; n.textContent = it.name;
+      var d = document.createElement("div"); d.className = "tmCardSub"; d.textContent = (it.mode === "intervals" ? "Intervalos" : it.mode.toUpperCase()) + ": " + tmSummary(it.mode, it.cfg) + " (" + tmFmt(tmTotal(tmBuildPhases(it.mode, it.cfg))) + ")";
+      info.appendChild(n); info.appendChild(d); info.onclick = function(){ tmSavedMenu(it); };
+      var play = document.createElement("button"); play.className = "tmPlay"; play.setAttribute("aria-label", "Empezar " + it.name);
+      play.innerHTML = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l10.5-6.5z\"/></svg>";
+      play.onclick = function(){ tmMode = it.mode; tmCfg[it.mode] = JSON.parse(JSON.stringify(it.cfg)); tmStart(it.mode, it.cfg, it.name); };
+      card.appendChild(info); card.appendChild(play); sw.appendChild(card);
+    });
+  }
+  // Historial
+  var log = tmLoadLog().slice(-6).reverse(), hw = document.getElementById("tmLog"); hw.innerHTML = "";
+  if (log.length) {
+    var hh = document.createElement("div"); hh.className = "tmSecHead"; hh.textContent = "Últimas sesiones"; hw.appendChild(hh);
+    log.forEach(function(r) {
+      var d = new Date(r.date), when = d.toLocaleDateString("es-AR", { day: "numeric", month: "short" }) + " " + d.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit" });
+      var what = r.mode === "amrap" ? r.rounds + " rondas" : r.mode === "stopwatch" ? (r.laps ? r.laps + " vueltas" : "Cronómetro") : r.rounds + " rondas";
+      var row = document.createElement("div"); row.className = "tmLogRow";
+      row.innerHTML = "<span class=\"tmLogName\"></span><span class=\"tmLogWhat\"></span><span class=\"tmLogWhen\"></span>";
+      row.querySelector(".tmLogName").textContent = r.name || (r.mode === "intervals" ? "Intervalos" : r.mode === "stopwatch" ? "Cronómetro" : r.mode.toUpperCase());
+      row.querySelector(".tmLogWhat").textContent = what + ", " + tmFmt(r.secs);
+      row.querySelector(".tmLogWhen").textContent = when;
+      hw.appendChild(row);
+    });
+  }
+}
+// Descanso: refresco del reloj grande (lo llama el temporizador general)
+function tmUpdateRest() {
+  var big = document.getElementById("tmRestBig"); if (!big) return;
+  var left = timerDone ? 0 : (timerRunning ? getTimerLeft() : timerLeft);
+  big.textContent = timerDone ? "¡Listo!" : tmFmt(left);
+  big.className = "tmBig" + (timerDone ? " done" : (timerRunning && left <= 10 ? " urgent" : ""));
+  var sub = document.getElementById("tmRestSub"); if (sub) sub.textContent = timerRunning ? "Descanso de " + tmFmt(timerTotal) : (timerDone ? "Descanso terminado" : "Elegí un tiempo y empezá");
+  var go = document.getElementById("tmRestGo"); if (go) go.textContent = timerDone ? "Otra vez" : (timerRunning ? "Pausar" : "Empezar");
+  var pres = document.querySelectorAll("#tmPanel .tmPreset");
+  for (var i = 0; i < pres.length; i++) pres[i].classList.toggle("on", +pres[i].dataset.v === timerTotal);
+}
+function tmRenderRun() {
+  document.getElementById("tmRoot").style.display = "none";
+  var box = document.getElementById("tmRun"); box.style.display = "flex";
+  document.getElementById("tmRunName").textContent = tmRun.name || (TM_MODES.filter(function(m){ return m.id === tmRun.mode; })[0] || {}).label;
+  document.getElementById("tmRunExtra").style.display = (tmRun.mode === "amrap" || tmRun.mode === "stopwatch") ? "block" : "none";
+  document.getElementById("tmRunExtra").textContent = tmRun.mode === "amrap" ? "+1 ronda" : "Vuelta";
+  tmUpdateRun();
+}
+function tmUpdateRun(st) {
+  if (!tmRun) return;
+  var phaseEl = document.getElementById("tmRunPhase"), big = document.getElementById("tmRunBig"), info = document.getElementById("tmRunInfo"), next = document.getElementById("tmRunNext"), bar = document.getElementById("tmRunBar");
+  document.getElementById("tmRunPause").textContent = tmRun.pausedAt ? "Seguir" : "Pausar";
+  var box = document.getElementById("tmRun");
+  if (tmRun.mode === "stopwatch") {
+    var ms = tmElapsed() * 1000;
+    phaseEl.textContent = tmRun.pausedAt ? "En pausa" : "Corriendo"; box.dataset.kind = "work";
+    big.textContent = tmFmtLong(ms); bar.style.width = "0%";
+    info.textContent = tmRun.laps.length ? tmRun.laps.length + (tmRun.laps.length === 1 ? " vuelta" : " vueltas") : "";
+    var laps = tmRun.laps.slice(-4).map(function(t, i, arr){ var k = tmRun.laps.length - arr.length + i, prev = k ? tmRun.laps[k - 1] : 0; return "Vuelta " + (k + 1) + ": " + tmFmt(t - prev); }).reverse();
+    next.textContent = laps.join("   ");
+    return;
+  }
+  st = st || tmState();
+  var p = tmRun.phases[Math.min(st.idx, tmRun.phases.length - 1)], total = tmTotal(tmRun.phases);
+  box.dataset.kind = tmRun.pausedAt ? "pause" : p.kind;
+  phaseEl.textContent = tmRun.pausedAt ? "En pausa" : p.label;
+  big.textContent = tmFmt(Math.ceil(st.left));
+  bar.style.width = Math.min(100, st.el / total * 100) + "%";
+  if (tmRun.mode === "amrap") info.textContent = tmRun.rounds + (tmRun.rounds === 1 ? " ronda" : " rondas");
+  else if (p.round) info.textContent = "Ronda " + p.round + " de " + tmRun.cfg.rounds;
+  else info.textContent = "";
+  var nx = tmRun.phases[st.idx + 1];
+  next.textContent = nx ? "Sigue: " + nx.label + " " + tmFmt(nx.secs) : "Último tramo";
+}
+
+
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
 var dragSrcIdx = null;
@@ -5332,7 +5727,7 @@ var GUIDE_SECTIONS = [
     tab: "Funciones",
     icon: "&#9881;",
     items: [
-      { icon:"&#9201;", title:"Cronometro de descanso", desc:"Toca el boton teal de la parte inferior para abrir el cronometro. Funciona con pantalla bloqueada y manda una notificacion al terminar. Requiere permiso de notificaciones." },
+      { icon:"&#9201;", title:"Tiempos", desc:"Desde el icono de cronometro de arriba: descanso, intervalos (Tabata), EMOM, AMRAP y cronometro con vueltas. Guarda tus configuraciones con nombre en Mis tiempos. Con la pantalla bloqueada suena una alarma en cada cambio de fase." },
       { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
       { icon:"1RM", title:"Calculadora 1RM", desc:"Estima tu maximo de una repeticion a partir de cualquier serie. Muestra multiples formulas y porcentajes utiles (90%, 80%, 70%, 60%). Se accede desde el header o desde el panel de carga de cada ejercicio." },
@@ -5982,92 +6377,38 @@ renderHome();
   </div>
 </div>
 
-<!-- TABATA / INTERVALOS SCREEN -->
+<!-- TIEMPOS: descanso, intervalos, EMOM, AMRAP y cronometro -->
 <div id="tabataScreen" class="screen">
-  <div style="padding:20px 16px 40px;overflow-y:auto;flex:1">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
-      <button class="backBtn" onclick="handleTabataBack()">&#8249;</button>
-      <span style="font-size:20px;font-weight:800;flex:1">Tabata / Intervalos</span>
+  <div class="trWrap">
+    <div class="trTop">
+      <button class="backBtn" onclick="showScreen('homeScreen')" aria-label="Volver">&#8249;</button>
+      <div class="trTitleBox"><div class="trTitle">Tiempos</div><div class="trDayTitle">Descanso, intervalos, EMOM, AMRAP y cron&oacute;metro</div></div>
     </div>
-
-    <!-- CONFIG VIEW -->
-    <div id="tabataConfig">
-      <div style="font-size:13px;color:#888;margin-bottom:14px;line-height:1.5">
-        Pod&eacute;s entrenar con intervalos personalizables. Tabata cl&aacute;sico es 20s trabajo / 10s descanso x 8 rondas.
+    <div id="tmRoot">
+      <div class="tmModes" id="tmModes"></div>
+      <div class="tmMain">
+        <div class="tmHelp" id="tmHelp"></div>
+        <div id="tmPanel"></div>
+        <div id="tmActions"></div>
       </div>
-
-      <div style="background:#0E131C;border:1px solid #182030;border-radius:12px;padding:12px;margin-bottom:12px">
-        <div style="font-size:11px;font-weight:700;color:#888;margin-bottom:10px">PRESETS R&Aacute;PIDOS</div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
-          <button onclick="applyTabataPreset('tabata')" class="tabPreset" style="background:#FFB02020;border:1px solid #FFB02040;color:#FFB020">Tabata cl&aacute;sico<br><span style="font-size:10px;opacity:0.8">20/10 x 8</span></button>
-          <button onclick="applyTabataPreset('emom')" class="tabPreset" style="background:#22D3EE20;border:1px solid #22D3EE40;color:#22D3EE">EMOM<br><span style="font-size:10px;opacity:0.8">60/0 x 10</span></button>
-          <button onclick="applyTabataPreset('hiit')" class="tabPreset" style="background:#FDE04720;border:1px solid #FDE04740;color:#FDE047">HIIT<br><span style="font-size:10px;opacity:0.8">40/20 x 8</span></button>
-          <button onclick="applyTabataPreset('long')" class="tabPreset" style="background:#A78BFA20;border:1px solid #A78BFA40;color:#A78BFA">Largo<br><span style="font-size:10px;opacity:0.8">60/30 x 6</span></button>
-        </div>
-      </div>
-
-      <div style="background:#0E131C;border:1px solid #182030;border-radius:12px;padding:14px;margin-bottom:12px">
-        <div style="font-size:11px;font-weight:700;color:#888;margin-bottom:12px">CONFIGURACI&Oacute;N</div>
-
-        <div class="lmRow">
-          <div class="lmLabel"><span style="color:#FFB020">&#9632;</span> Trabajo (seg)</div>
-          <button class="lmBtn" style="background:#FFB020" onclick="adjustTabata('work',-5)">&minus;</button>
-          <div class="lmVal" id="tabWorkVal">20</div>
-          <button class="lmBtn" style="background:#FFB020" onclick="adjustTabata('work',5)">+</button>
-        </div>
-        <div class="lmRow">
-          <div class="lmLabel"><span style="color:#22D3EE">&#9632;</span> Descanso (seg)</div>
-          <button class="lmBtn" style="background:#22D3EE" onclick="adjustTabata('rest',-5)">&minus;</button>
-          <div class="lmVal" id="tabRestVal">10</div>
-          <button class="lmBtn" style="background:#22D3EE" onclick="adjustTabata('rest',5)">+</button>
-        </div>
-        <div class="lmRow">
-          <div class="lmLabel"><span style="color:#FDE047">&#9632;</span> Rondas</div>
-          <button class="lmBtn" style="background:#FDE047;color:#000" onclick="adjustTabata('rounds',-1)">&minus;</button>
-          <div class="lmVal" id="tabRoundsVal">8</div>
-          <button class="lmBtn" style="background:#FDE047;color:#000" onclick="adjustTabata('rounds',1)">+</button>
-        </div>
-
-        <div style="margin-top:14px;padding-top:14px;border-top:1px solid #182030;display:flex;justify-content:space-between;align-items:center">
-          <span style="color:#888;font-size:12px">Duraci&oacute;n total</span>
-          <span id="tabTotalDuration" style="color:#fff;font-weight:800;font-size:16px">04:00</span>
-        </div>
-      </div>
-
-      <div style="background:#0E131C;border:1px solid #182030;border-radius:12px;padding:12px;margin-bottom:14px">
-        <label style="display:flex;align-items:center;gap:10px;cursor:pointer">
-          <input type="checkbox" id="tabLinkVol" onchange="onTabLinkVolChange()" style="width:18px;height:18px;accent-color:#FFB020;cursor:pointer">
-          <span style="color:#ccc;font-size:13px">Vincular a un ejercicio (cuenta en volumen semanal)</span>
-        </label>
-        <div id="tabVolLink" style="display:none;margin-top:10px">
-          <select id="tabVolExercise" style="width:100%;background:#182030;border:1px solid #253043;color:#ccc;padding:9px 10px;border-radius:8px;font-size:13px;outline:none"></select>
-          <div style="margin-top:6px;font-size:11px;color:#666">Cada ronda completada contar&aacute; como 1 serie del grupo del ejercicio.</div>
-        </div>
-      </div>
-
-      <button onclick="startTabataSession()" style="width:100%;background:#FFB020;color:#000;border:none;border-radius:14px;padding:16px;font-size:16px;font-weight:800;cursor:pointer">Comenzar</button>
-
-      <div id="tabHistoryWrap" style="margin-top:20px"></div>
+      <div id="tmSaved"></div>
+      <div id="tmLog"></div>
     </div>
-
-    <!-- ACTIVE VIEW -->
-    <div id="tabataActive" style="display:none">
-      <div style="text-align:center;padding:30px 10px">
-        <div id="tabPhaseLabel" style="font-size:32px;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;color:#FFB020">PREPARATE</div>
-        <div id="tabCountdown" style="font-size:96px;font-weight:900;color:#fff;line-height:1;margin:20px 0">5</div>
-        <div style="color:#888;font-size:13px;margin-top:20px">RONDA</div>
-        <div id="tabRoundCounter" style="font-size:24px;font-weight:800;color:#ccc;margin-bottom:30px">0 / 8</div>
-        <div style="display:flex;gap:10px;justify-content:center">
-          <button id="tabPauseBtn" onclick="pauseTabata()" style="background:#182030;border:1px solid #253043;color:#fff;padding:12px 20px;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer">Pausar</button>
-          <button onclick="stopTabata()" style="background:#FF5C7A;color:#000;border:none;padding:12px 20px;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer">Terminar</button>
-        </div>
+    <div class="tmRun" id="tmRun" style="display:none">
+      <div class="tmRunName" id="tmRunName"></div>
+      <div class="tmRunPhase" id="tmRunPhase"></div>
+      <div class="tmRunBig" id="tmRunBig"></div>
+      <div class="tmRunInfo" id="tmRunInfo"></div>
+      <div class="tmBarWrap"><div class="tmBar" id="tmRunBar"></div></div>
+      <div class="tmRunNext" id="tmRunNext"></div>
+      <button class="tmExtra" id="tmRunExtra" onclick="if(tmRun){ if(tmRun.mode==='amrap') tmAmrapRound(); else tmLap(); }"></button>
+      <div class="tmBtnRow">
+        <button class="tmGhost" id="tmRunPause" onclick="tmPause()">Pausar</button>
+        <button class="tmStopBtn" onclick="tmStop()">Terminar</button>
       </div>
     </div>
   </div>
 </div>
-<style>
-.tabPreset{padding:10px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;text-align:center;line-height:1.3}
-</style>
 
 <!-- 1RM CALCULATOR SCREEN -->
 <div id="rmScreen" class="screen">
