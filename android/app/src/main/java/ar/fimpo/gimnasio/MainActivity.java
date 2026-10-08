@@ -19,6 +19,7 @@ public class MainActivity extends BridgeActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        registerPlugin(UpdaterPlugin.class);   // actualizaciones desde la app (antes de super.onCreate)
         super.onCreate(savedInstanceState);
         createRestChannel();
     }

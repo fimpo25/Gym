@@ -782,6 +782,23 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .bmMore{display:block;margin:8px auto 0;background:transparent;border:none;color:var(--primary);font-size:13px;font-weight:600;cursor:pointer}
 .bmNote{color:#5F6B80;font-size:11.5px;line-height:1.45;margin-top:12px}
 .exdMus{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;border-top:1px solid #182030;padding:12px 0}
+
+/* ---- Actualizaciones ---- */
+.updCard{background:linear-gradient(160deg,#0F2A24,#0E131C 70%);border:1px solid #34D39955;border-radius:16px;padding:13px 14px;margin:6px 0 12px}
+.updTop{display:flex;align-items:center;gap:8px;color:#fff;font-size:15px}
+.updDot{width:9px;height:9px;border-radius:50%;background:#34D399;box-shadow:0 0 0 3px #34D39933;flex-shrink:0}
+.updVer{margin-left:auto;color:var(--text-3);font-size:12.5px;font-variant-numeric:tabular-nums}
+.updNotes{color:var(--text-2);font-size:13.5px;line-height:1.45;margin-top:6px}
+.updNotes b{color:#fff}
+.updErr{color:#FF5C7A;font-size:12.5px;margin-top:6px}
+.updRow{display:flex;gap:8px;margin-top:10px}
+.updGo{flex:1.4;border:none;border-radius:12px;background:#34D399;color:#04130D;font-size:15px;font-weight:800;padding:12px;cursor:pointer}
+.updLater{flex:1;border:1px solid var(--border);background:transparent;color:var(--text-2);border-radius:12px;font-size:14px;font-weight:600;padding:12px;cursor:pointer}
+.updBar{height:6px;border-radius:99px;background:#131A26;overflow:hidden;margin-top:8px}
+.updBar i{display:block;height:100%;background:#34D399;border-radius:99px;transition:width .3s}
+.updFoot{display:flex;justify-content:center;align-items:center;gap:10px;color:#5F6B80;font-size:12px;margin:22px 0 4px}
+.updFoot:empty{display:none}
+.updCheck{background:transparent;border:none;color:var(--text-3);text-decoration:underline;font-size:12px;cursor:pointer;padding:4px}
 </style>
 </head>
 <body>
@@ -5179,6 +5196,7 @@ function renderRoutinesHome() {
     bn.onclick = function(){ openRoutine(ses.routineId); };
     area.appendChild(bn);
   }
+  area.appendChild(Updater.card());
   area.appendChild(mesoHomeCard());
   var head = document.createElement("div"); head.className = "rtHead";
   head.innerHTML = "<span class=\"rtTitle\">Rutinas</span>";
@@ -5224,6 +5242,7 @@ function renderRoutinesHome() {
     }
     area.appendChild(box);
   });
+  area.appendChild(Updater.footer());
 }
 function newRoutineIn(f) {
   askText("Nueva rutina en " + f.name, "Ej.: Empuje, Tirón, Piernas", "", "Crear y agregar ejercicios", function(v) {
@@ -6656,6 +6675,116 @@ function renderBalanceMap(card, wk, vol) {
   }; });
 }
 
+
+// ============================================================
+// ACTUALIZACIONES DESDE LA APP: consulta la ultima version publicada en GitHub,
+// la baja y abre el instalador de Android (el usuario solo confirma "Instalar").
+// ============================================================
+var Updater = (function() {
+  var C = window.Capacitor, isNative = !!(C && C.isNativePlatform && C.isNativePlatform() && C.nativePromise);
+  var API = "https://api.github.com/repos/fimpo25/Gym/releases/tags/apk";
+  var APK = "https://github.com/fimpo25/Gym/releases/download/apk/gimnasio.apk";
+  var st = { info: null, latest: null, phase: "idle", pct: 0, msg: "", waitingPerm: false, checking: false };
+  function nat(m, o) { return C.nativePromise("Updater", m, o || {}); }
+  function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(e) {} return null; }
+  function available() { return !!(st.info && st.latest && st.latest.build > st.info.versionCode); }
+  function snoozed() { try { var s = JSON.parse(ls("gymUpdSkip") || "null"); return !!(s && st.latest && s.b === st.latest.build && Date.now() - s.t < 864e5); } catch(e) { return false; } }
+  function check(force) {
+    if (!isNative || st.checking || st.phase === "dl") return Promise.resolve(null);
+    st.checking = true;
+    return nat("info").then(function(i) {
+      st.info = i;
+      var cached = null; try { cached = JSON.parse(ls("gymUpdLatest") || "null"); } catch(e) {}
+      if (!force && cached && Date.now() - (+ls("gymUpdCheck") || 0) < 3 * 3600e3) { st.latest = cached; return; }
+      return nat("fetchText", { url: API }).then(function(r) {
+        var j = JSON.parse(r.text), m = /build\s+(\d+)/i.exec(j.name || ""); if (!m) return;
+        var a = (j.assets || []).filter(function(x){ return x.name === "gimnasio.apk"; })[0];
+        st.latest = { build: +m[1], notes: String(j.body || "").split("\n")[0].trim(), size: a ? a.size : 0 };
+        ls("gymUpdLatest", JSON.stringify(st.latest)); ls("gymUpdCheck", String(Date.now()));
+      });
+    }).then(function() {
+      st.checking = false;
+      if (force) { if (available()) { ls("gymUpdSkip", ""); st.phase = "idle"; } else showToast("Tenés la última versión (" + (st.info ? st.info.versionName : "") + ")"); }
+      render(); return available() ? st.latest : null;
+    }).catch(function(e) {
+      st.checking = false;
+      if (force) showToast("No se pudo buscar actualizaciones: revisá la conexión");
+      return null;
+    });
+  }
+  function install() {
+    if (!st.latest) return;
+    st.phase = "dl"; st.pct = 0; st.msg = ""; render();
+    var poll = setInterval(function() {
+      nat("progress").then(function(p){ if (p.total > 0 && st.phase === "dl") { st.pct = Math.min(100, Math.round(p.done / p.total * 100)); render(); } }).catch(function(){});
+    }, 400);
+    nat("downloadAndInstall", { url: APK, size: st.latest.size || 0 }).then(function() {
+      clearInterval(poll); st.phase = "installing"; render();
+    }).catch(function(e) {
+      clearInterval(poll);
+      var msg = (e && e.message) || "";
+      if ((e && e.code === "NO_PERMISSION") || /permiso/i.test(msg)) st.phase = "perm";
+      else { st.phase = "error"; st.msg = msg || "Falló la descarga"; }
+      render();
+    });
+  }
+  function askPerm() { st.waitingPerm = true; nat("openInstallSettings").catch(function(){ st.waitingPerm = false; }); }
+  if (isNative) {
+    document.addEventListener("visibilitychange", function() {
+      if (document.visibilityState !== "visible") return;
+      if (st.waitingPerm) {   // volvio del ajuste del permiso: si lo dio, sigue solo
+        st.waitingPerm = false;
+        nat("info").then(function(i){ st.info = i; if (i.canInstall) install(); else { st.phase = "perm"; render(); } }).catch(function(){});
+      } else if (st.phase === "installing") { st.phase = "idle"; render(); }
+      else check(false);
+    });
+    setTimeout(function(){ check(false); }, 2500);
+  }
+  function btn(cls, txt, fn) { var b = document.createElement("button"); b.className = cls; b.textContent = txt; b.onclick = fn; return b; }
+  function card() {
+    var el = document.createElement("div"); el.id = "updCard";
+    if (!isNative || !available()) return el;
+    if (st.phase === "idle" && snoozed()) return el;
+    el.className = "updCard";
+    var L = st.latest, h = '<div class="updTop"><span class="updDot"></span><b>Nueva versión disponible</b><span class="updVer">' + st.info.versionCode + ' → ' + L.build + '</span></div>';
+    if (st.phase === "idle" || st.phase === "error") {
+      h += L.notes ? '<div class="updNotes">' + escHtml(L.notes) + '</div>' : '';
+      if (st.phase === "error") h += '<div class="updErr">' + escHtml(st.msg) + '</div>';
+      el.innerHTML = h;
+      var row = document.createElement("div"); row.className = "updRow";
+      row.appendChild(btn("updGo", st.phase === "error" ? "Reintentar" : "Actualizar", install));
+      row.appendChild(btn("updLater", "Más tarde", function(){ ls("gymUpdSkip", JSON.stringify({ b: L.build, t: Date.now() })); st.phase = "idle"; render(); }));
+      el.appendChild(row);
+    } else if (st.phase === "dl") {
+      el.innerHTML = h + '<div class="updNotes">Descargando… ' + st.pct + '%</div><div class="updBar"><i style="width:' + st.pct + '%"></i></div>';
+    } else if (st.phase === "perm") {
+      el.innerHTML = h + '<div class="updNotes">Para actualizar desde la app, Android pide que permitas instalar desde Gimnasio (es una sola vez). Activá <b>Permitir de esta fuente</b> y volvé: la descarga sigue sola.</div>';
+      var r2 = document.createElement("div"); r2.className = "updRow";
+      r2.appendChild(btn("updGo", "Abrir el ajuste", askPerm));
+      el.appendChild(r2);
+    } else if (st.phase === "installing") {
+      el.innerHTML = h + '<div class="updNotes">Se abrió el instalador de Android: tocá <b>Instalar</b>. Tus datos se conservan.</div>';
+      var r3 = document.createElement("div"); r3.className = "updRow";
+      r3.appendChild(btn("updLater", "Volver a abrir el instalador", install));
+      el.appendChild(r3);
+    }
+    return el;
+  }
+  function footer() {
+    var el = document.createElement("div"); el.className = "updFoot";
+    if (!isNative) return el;
+    el.innerHTML = '<span>Versión ' + (st.info ? escHtml(String(st.info.versionName)) : "") + '</span>';
+    el.appendChild(btn("updCheck", st.checking ? "Buscando…" : "Buscar actualizaciones", function(){ check(true); render(); }));
+    return el;
+  }
+  function render() {
+    var old = document.getElementById("updCard");
+    if (old && old.parentNode) old.parentNode.replaceChild(card(), old);
+    var f = document.querySelector(".updFoot");
+    if (f && f.parentNode) f.parentNode.replaceChild(footer(), f);
+  }
+  return { isNative: isNative, check: check, card: card, footer: footer, state: st };
+})();
 
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;

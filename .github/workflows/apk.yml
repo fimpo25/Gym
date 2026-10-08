@@ -114,6 +114,7 @@ jobs:
           echo "::notice title=HTML::apk=$H1 www=$H2 $( [ "$H1" = "$H2" ] && echo COINCIDE || echo DISTINTO ) | NativeRest=$(unzip -p $APK assets/public/index.html | grep -c 'var NativeRest')"
           echo "::notice title=Recursos::$(unzip -l $APK | grep -oE 'res/raw/descanso.wav|assets/capacitor.plugins.json' | tr '\n' ' ') | plugins=$(unzip -p $APK assets/capacitor.plugins.json | tr -d ' \n')"
           echo "::notice title=Splash/icono::$(unzip -l $APK | grep -cE 'ic_launcher') iconos, ic_stat_timer=$(unzip -l $APK | grep -c ic_stat_timer)"
+          echo "::notice title=Updater::clases=$(unzip -p $APK 'classes*.dex' | grep -ac 'UpdaterPlugin') permiso=$($AAPT dump permissions $APK | grep -c REQUEST_INSTALL_PACKAGES)"
 
       - uses: actions/upload-artifact@v4
         with:
@@ -125,9 +126,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # La primera linea de las notas es la novedad que muestra la app al ofrecer la actualizacion
+          NOVEDAD="$(git log -1 --pretty=%s)"
+          printf '%s\n\nAPK de Android de Gimnasio. Instalar encima de la version anterior para conservar los datos.\n' "$NOVEDAD" > "$RUNNER_TEMP/notas.txt"
           gh release delete apk --yes --cleanup-tag || true
           gh release create apk gimnasio.apk \
             --target "$GITHUB_SHA" \
             --title "Gimnasio APK (build ${GITHUB_RUN_NUMBER})" \
-            --notes "APK de Android de Gimnasio. Instalar encima de la version anterior para conservar los datos." \
+            --notes-file "$RUNNER_TEMP/notas.txt" \
             --latest=false

@@ -40,4 +40,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- navigator.vibrate() dentro del WebView (registro de series, Tabata) -->
     <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- Abrir el instalador de Android con una version nueva de la app (el usuario confirma) -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 </manifest>
