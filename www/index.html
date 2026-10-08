@@ -660,6 +660,105 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .lmLabel em{font-style:normal;color:#5F6B80;font-size:11.5px}
 .lmBtn{width:40px;height:38px;border-radius:11px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);font-size:19px;font-weight:600}
 .lmVal{min-width:0;font-size:17px;font-weight:700;background:transparent;padding:0;font-variant-numeric:tabular-nums}
+
+/* ---- Datos del ejercicio ---- */
+.exdWrap{padding:0 20px 6px}
+.exdIntro{color:var(--text-3);font-size:12.5px;line-height:1.45;margin:0 0 8px}
+.exdRow{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;width:100%;background:transparent;border:none;border-top:1px solid #182030;padding:12px 0;cursor:pointer;text-align:left;color:var(--text)}
+.exdLab{color:var(--text-3);font-size:13px}
+.exdVal{color:#fff;font-size:14.5px;font-weight:600;text-align:right;display:inline-flex;align-items:center;gap:8px}
+.exdTag{font-size:10.5px;color:#5F6B80;border:1px solid #253043;border-radius:6px;padding:1px 5px}
+.exdTag.mine{color:var(--primary);border-color:#22D3EE55}
+.exdDots{display:inline-flex;gap:3px}.exdDots i{width:9px;height:9px;border-radius:50%;background:#253043}.exdDots i.on{background:var(--primary)}
+.exdSfrN{color:var(--text-3);font-size:12px;font-variant-numeric:tabular-nums}
+.exdNa{color:var(--text-3)}
+.exdTip{background:#22D3EE10;border:1px solid #22D3EE30;border-radius:12px;color:var(--text-2);font-size:13px;line-height:1.45;padding:10px 12px;margin:10px 0 4px}
+.exdHelp{color:var(--text-3);font-size:12px;line-height:1.45;margin:10px 0}
+.exdHelp b{color:var(--text-2)}
+.exdSec{color:var(--text-3);font-size:12.5px;font-weight:600;margin:14px 0 6px}
+.exdAlt{display:block;width:100%;text-align:left;background:var(--surface-2);border:1px solid #1E2838;border-radius:12px;padding:10px 12px;margin-bottom:6px;cursor:pointer}
+.exdAltName{display:block;color:#fff;font-size:14px;font-weight:600}
+.exdAltSub{display:block;color:var(--text-3);font-size:12px;margin-top:2px}
+.exdReset{display:block;margin:12px auto 0;background:transparent;border:none;color:var(--text-3);text-decoration:underline;font-size:13px;cursor:pointer}
+.exdOpt.on{color:var(--primary)}
+.exdWrap .trSheetBtn{padding:14px 2px}
+.libMeta{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px;cursor:pointer}
+.libMeta span{font-size:11.5px;color:var(--text-2);background:var(--surface-2);border:1px solid #1E2838;border-radius:7px;padding:3px 7px}
+.libMeta span.more{color:var(--primary);border-color:#22D3EE44}
+/* ---- Mesociclos ---- */
+.msHome{display:block;width:100%;text-align:left;background:linear-gradient(160deg,#10202A,#0E131C 65%);border:1px solid #1D3340;border-radius:16px;padding:13px 14px;margin:6px 0 12px;cursor:pointer;color:var(--text)}
+.msHome.empty{display:flex;gap:12px;align-items:center;background:var(--surface);border:1px dashed #2B3850}
+.msHome.empty b{color:#fff;font-size:15px}.msHome.empty span span{color:var(--text-3);font-size:12.5px}
+.msHomeIco{width:38px;height:38px;border-radius:11px;background:#22D3EE14;color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.msHomeTop{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.msHomeKick{color:var(--primary);font-size:12.5px;font-weight:700}
+.msHomeRir{color:var(--energy);font-size:13px;font-weight:700;font-variant-numeric:tabular-nums}
+.msHomeTitle{color:#fff;font-size:15px;font-weight:600;margin:4px 0 10px}
+.msSegs{display:flex;gap:4px}
+.msSegs i{flex:1;height:6px;border-radius:99px;background:#1B2533}
+.msSegs i.done{background:#22D3EE88}.msSegs i.cur{background:var(--primary);box-shadow:0 0 0 2px #22D3EE33}
+.msSegs i.dl{background:#7C8DB533}.msSegs i.dl.done,.msSegs i.dl.cur{background:#7C8DB5}
+.balSum .msSegs{margin-top:14px}
+.msKick{color:var(--primary);font-size:12.5px;font-weight:700;margin-bottom:8px}
+.msRange{color:var(--text-3);font-size:12px;margin-top:8px}
+.msIntro{color:var(--text-2);font-size:13.5px;line-height:1.55;margin:0 2px 14px}
+.msIntro b{color:#fff}
+.msSetRow{display:flex;justify-content:space-between;align-items:center;gap:10px;color:var(--text);font-size:15px;font-weight:600}
+.msSetSub{color:var(--text-3);font-size:12.5px;line-height:1.5;margin-top:6px}
+.msSetSub b{color:var(--text-2)}
+.msStep{display:flex;align-items:center;gap:6px}
+.msStep button{width:42px;height:40px;border-radius:11px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);font-size:20px;cursor:pointer}
+.msStep b{min-width:30px;text-align:center;color:#fff;font-size:20px;font-variant-numeric:tabular-nums}
+.msSeg{display:flex;background:var(--surface-2);border:1px solid var(--border);border-radius:11px;padding:3px;gap:2px}
+.msSeg button{border:none;background:transparent;color:var(--text-3);font-size:13px;font-weight:600;padding:8px 10px;border-radius:8px;cursor:pointer;white-space:nowrap}
+.msSeg button.on{background:#22D3EE1F;color:var(--primary)}
+.msSeg.sm button{padding:7px 8px;font-size:12.5px}
+.msSeg button.on.pri{background:#FFB0201F;color:var(--energy)}
+.msSeg button.on.mant{background:#7C8DB52A;color:#AFC0E6}
+.msFocRow{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 0;border-top:1px solid #182030;color:var(--text);font-size:14.5px;font-weight:600}
+.msFocRow:first-child{border-top:none}
+.msTblWrap{background:var(--surface);border:1px solid #182030;border-radius:16px;padding:10px 8px;overflow-x:auto;margin-bottom:6px}
+.msTbl{display:grid;gap:4px;align-items:center;min-width:330px}
+.msTh{color:var(--text-3);font-size:11.5px;font-weight:700;text-align:center}
+.msTh.cur,.msRir.cur{color:var(--primary)}
+.msRowLab{color:var(--text);font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.msF{font-style:normal;font-size:10px;font-weight:800;margin-left:4px;padding:0 4px;border-radius:4px}
+.msF.pri{color:var(--energy);background:#FFB02022}.msF.mant{color:#AFC0E6;background:#7C8DB533}
+.msRir{color:var(--energy);font-size:12px;font-weight:700;text-align:center;font-variant-numeric:tabular-nums}
+.msCell{height:30px;display:flex;align-items:center;justify-content:center;border-radius:7px;background:#131A26;color:var(--text-2);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.msCell.cur{outline:1.5px solid #22D3EE88}
+.msCell.dl{color:#AFC0E6;background:#7C8DB51A}
+.msCell.ok{background:#34D3991F;color:#34D399}.msCell.hi{background:#FFB02014;color:var(--energy)}.msCell.low{background:#FFB02014;color:var(--energy)}
+.msCell b{font-weight:700}.msCell span{color:var(--text-3);font-size:10.5px;font-weight:500}
+.msWkRow{display:grid;grid-template-columns:92px 1fr 62px;gap:10px;align-items:center;padding:6px 0}
+.msWkName{color:var(--text);font-size:13.5px;font-weight:600}
+.msWkBar{height:8px;border-radius:99px;background:#131A26;overflow:hidden}
+.msWkBar i{display:block;height:100%;border-radius:99px;background:var(--primary)}
+.msWkBar i.ok{background:#34D399}.msWkBar i.over{background:#FF5C7A}
+.msWkNum{color:var(--text-3);font-size:12.5px;text-align:right;font-variant-numeric:tabular-nums}
+.msWkNum b{color:#fff;font-size:14px}
+.msNote{color:var(--text-3);font-size:12px;margin:-2px 0 6px 102px}
+.balCard .msNote{margin-left:0}
+.balCard .msWkRow+.msNote{margin-left:102px}
+.tmGhost.wide,.tmStopBtn.wide{display:block;width:100%}
+.msBtn{margin-top:10px}
+.trMeso{display:none;align-items:center;gap:8px;font-size:12.5px;color:var(--text-2);background:#22D3EE0D;border:1px solid #22D3EE33;border-radius:10px;padding:8px 12px;margin-bottom:10px}
+.trMeso b{color:var(--energy)}
+/* ---- Alertas de carga ---- */
+.trJump{margin:0 12px 8px;background:#FFB02012;border:1px solid #FFB02055;border-radius:12px;padding:10px 12px;color:var(--text);font-size:13px;line-height:1.45}
+.trJump b{color:var(--energy)}
+.trJump button{display:block;margin-top:6px;background:transparent;border:none;color:var(--energy);font-weight:700;font-size:13px;padding:2px 0;cursor:pointer}
+.balJump{margin-top:8px;background:#FFB02012;border:1px solid #FFB02044;border-radius:10px;padding:7px 10px;color:var(--text-2);font-size:12.5px;line-height:1.4}
+.balJump b{color:var(--energy)}
+.balTgt{position:absolute;top:-3px;bottom:-3px;width:3px;margin-left:-1.5px;background:#fff;border-radius:2px;box-shadow:0 0 0 1.5px #070A10}
+.balGauge{overflow:visible}
+.balGaugeIn{position:absolute;inset:0;border-radius:99px;overflow:hidden}
+.balCov{display:flex;height:6px;border-radius:99px;overflow:hidden;margin:8px 0 4px;background:#131A26}
+.balCov i{display:block;height:100%}
+.balCovTxt{color:var(--text-3);font-size:12px}
+.alTog{width:46px;height:28px;border-radius:99px;border:1px solid var(--border);background:var(--surface-2);position:relative;cursor:pointer;padding:0}
+.alTog i{position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:var(--text-3);transition:left .15s}
+.alTog.on{background:#22D3EE33;border-color:#22D3EE88}.alTog.on i{left:21px;background:var(--primary)}
 </style>
 </head>
 <body>
@@ -1947,6 +2046,7 @@ function showScreen(id) {
   if (id === "prScreen") renderPRScreen();
   if (id === "balanceScreen") { balanceWeek = activeWeek; setBalanceTab("week"); }
   if (id === "tabataScreen") tmRender();
+  if (id === "mesoScreen") renderMeso();
   if (id === "rmScreen") return;
   if (id === "homeScreen") renderHome();
 }
@@ -1993,7 +2093,7 @@ function renderSummary() {
     var g = gKeys[i]; var exs = GROUPS[g].exercises; var gDone = 0;
     for (var j = 0; j < exs.length; j++) { if (wd[exs[j]] && wd[exs[j]].length>0) gDone++; }
     var c = GROUPS[g].color;
-    chipsHtml += "<span class=\"groupChip\" style=\"background:"+(gDone===exs.length?c+"25":"#182030")+";border:1px solid "+(gDone>0?c+"50":"#253043")+";color:"+(gDone>0?c:"#555")+"\">"+g+" "+gDone+"/"+exs.length+"</span>";
+    chipsHtml += "<span class=\"groupChip\" style=\"background:"+(gDone===exs.length?c+"25":"#182030")+";border:1px solid "+(gDone>0?c+"50":"#253043")+";color:"+(gDone>0?c:"#555")+"\">"+displayGroup(g)+" "+gDone+"/"+exs.length+"</span>";
   }
   // Training days this week: count days with any logged data
   var trainingDays = gymData["trainingDays"]||{};
@@ -2060,7 +2160,7 @@ function renderExercises() {
     for (var k = 0; k < d.exercises.length; k++) { if (wd[d.exercises[k]] && wd[d.exercises[k]].length>0) gDone++; }
     var section = document.createElement("div"); section.className = "groupSection";
     var hdr = document.createElement("div"); hdr.className = "groupHeader";
-    hdr.innerHTML = "<span style=\"color:"+d.color+";font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase\">"+g+"</span><div class=\"groupLine\" style=\"background:"+d.color+"25\"></div><span style=\"color:#555;font-size:12px\">"+gDone+"/"+d.exercises.length+"</span>";
+    hdr.innerHTML = "<span style=\"color:"+d.color+";font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase\">"+displayGroup(g)+"</span><div class=\"groupLine\" style=\"background:"+d.color+"25\"></div><span style=\"color:#555;font-size:12px\">"+gDone+"/"+d.exercises.length+"</span>";
     section.appendChild(hdr);
     for (var ei = 0; ei < d.exercises.length; ei++) {
       var exName = d.exercises[ei]; var logged = wd[exName]||[]; var isDone = logged.length>0; var vol = 0;
@@ -3094,7 +3194,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -3495,7 +3595,7 @@ function showWeekSummary(wk) {
     }
     if (gDone === 0) continue;
     var c = GROUPS[g].color;
-    groupRowsHtml += "<div class=\"wsGroupRow\"><span style=\"color:"+c+";font-size:13px;font-weight:600\">"+g+"</span>"+
+    groupRowsHtml += "<div class=\"wsGroupRow\"><span style=\"color:"+c+";font-size:13px;font-weight:600\">"+displayGroup(g)+"</span>"+
       "<span style=\"color:#888;font-size:12px\">"+gDone+"/"+exs.length+" ej."+(gVol>0?" &middot; "+gVol.toLocaleString("es-AR")+"kg vol.":"")+"</span></div>";
   }
 
@@ -3579,7 +3679,7 @@ function renderBalance() {
     nav.appendChild(btn);
   }
   var div = document.getElementById("balanceContent"); div.innerHTML = "";
-  var vol = computeWeeklyVolume(wk), det = computeWeeklyDetail(wk);
+  var vol = computeWeeklyVolume(wk), det = computeWeeklyDetail(wk), ms = mesoActive(wk), jumps = muscleJumps(wk);
 
   // Resumen
   var total = 0, inOpt = 0, low = [], high = [], anyData = false;
@@ -3597,7 +3697,10 @@ function renderBalance() {
     if (high.length) verdict += '<span class="balWarn">Te pasaste del MRV en ' + high.join(", ") + ".</span> ";
     if (low.length) verdict += "Por debajo del mínimo efectivo: " + low.join(", ") + ".";
     if (!verdict) verdict = "Todos los grupos están en zona de estímulo.";
+    var jk = Object.keys(jumps);
+    if (jk.length) verdict += ' <span class="balWarn" style="color:var(--energy)">Salto de carga en ' + jk.map(displayGroup).join(", ") + '.</span>';
   }
+  if (ms) verdict = '<b style="color:var(--primary)">Mesociclo · semana ' + (ms.i + 1) + ' de ' + mesoWeeks(ms.m) + (ms.deload ? ' (descarga)' : '') + ' · RIR objetivo ' + ms.rir.label + '.</b> La marca blanca en cada barra es el objetivo de series de esta semana.<br>' + verdict;
   sum.innerHTML = '<div class="balSumTop"><div><div class="balSumBig">' + inOpt + '<span>/' + VOLUME_GROUPS.length + '</span></div><div class="balSumLab">grupos en rango óptimo</div></div>' +
     '<div class="balSumSide"><div class="balSumBig sm">' + fmtSets(total) + '</div><div class="balSumLab">series efectivas</div></div></div>' +
     '<div class="balSumTxt">' + verdict + '</div>';
@@ -3621,14 +3724,17 @@ function renderBalance() {
       (nDays ? '<span class="balFreq">' + nDays + (nDays === 1 ? " día" : " días") + '</span>' : "") +
       '<span class="balCount"><b>' + fmtSets(sets) + '</b> ' + seriesWord(sets) + '</span></div>';
     // Medidor: bandas de zona de fondo, banda optima marcada y relleno hasta las series hechas
-    var max = Math.max(l.mrv * 1.2, sets * 1.05, 1);
+    var tgt = ms ? mesoTarget(ms.m, g, ms.i) : null;
+    var max = Math.max(l.mrv * 1.2, sets * 1.05, tgt ? tgt * 1.05 : 0, 1);
     function pct(v) { return (Math.min(v, max) / max * 100).toFixed(2) + "%"; }
     var bands = [[0, l.mv, "under"], [l.mv, l.mev, "mv"], [l.mev, l.mav_min, "mev"], [l.mav_min, l.mav_max, "mav"], [l.mav_max, l.mrv, "mrv"], [l.mrv, max, "over"]];
-    var gauge = '<div class="balGauge">';
+    var gauge = '<div class="balGauge"><div class="balGaugeIn">';
     bands.forEach(function(b){ if (b[1] > b[0]) gauge += '<div class="balBand" style="left:' + pct(b[0]) + ';width:calc(' + pct(b[1]) + ' - ' + pct(b[0]) + ');background:' + VOL_ZONES[b[2]].color + '"></div>'; });
     gauge += '<div class="balOpt" style="left:' + pct(l.mav_min) + ';width:calc(' + pct(l.mav_max) + ' - ' + pct(l.mav_min) + ')"></div>';
     if (sets > 0) gauge += '<div class="balFill" style="width:' + pct(sets) + ';background:' + z.color + '"></div>';
     gauge += '<div class="balMrv" style="left:' + pct(l.mrv) + '"></div></div>';
+    if (tgt !== null) gauge += '<div class="balTgt" style="left:' + pct(tgt) + '"></div>';
+    gauge += '</div>';
     var hint;
     if (cls.zone === "under" || cls.zone === "mv") { var f = l.mev - sets; hint = "Faltan " + fmtSets(f) + " " + seriesWord(f) + " para el MEV"; }
     else if (cls.zone === "mev") { var f2 = l.mav_min - sets; hint = "Faltan " + fmtSets(f2) + " para el óptimo"; }
@@ -3636,10 +3742,19 @@ function renderBalance() {
     else if (cls.zone === "mrv") hint = "Al límite de recuperación";
     else { var x = sets - l.mrv; hint = fmtSets(x) + " " + seriesWord(x) + " sobre el MRV"; }
     var bottom = '<div class="balRowBot"><span class="balZone" style="color:' + (sets > 0 ? z.color : "var(--text-3)") + '">' + z.name + '</span><span>' + hint + '</span></div>' +
-      '<div class="balRef">Óptimo ' + l.mav_min + '–' + l.mav_max + ' · MEV ' + l.mev + ' · MRV ' + l.mrv + '</div>';
+      '<div class="balRef">' + (tgt !== null ? '<b style="color:#fff">Objetivo del mesociclo: ' + tgt + '</b> · ' : '') + 'Óptimo ' + l.mav_min + '–' + l.mav_max + ' · MEV ' + l.mev + ' · MRV ' + l.mrv + '</div>' + (jumps[g] ? '<div class="balJump"><b>Salto de carga:</b> ' + fmtKg(jumps[g].cur) + ' de tonelaje, ' + Math.round(jumps[g].pct) + '% más que tu promedio de las últimas semanas (' + fmtKg(jumps[g].avg) + '). Subí de a poco para cuidar tendones.</div>' : '');
     var detail = "";
     if (info.ex.length && balanceOpen[g]) {
       detail = '<div class="balDet">';
+      var cov = { elongacion: 0, media: 0, acortamiento: 0 }, covT = 0;
+      info.ex.forEach(function(e){ if (e.syn || !e.n) return; var lg = exMeta(e.name).longitud; if (lg && cov.hasOwnProperty(lg)) { cov[lg] += e.n; covT += e.n; } });
+      if (covT) {
+        var CC = { elongacion: "#34D399", media: "#22D3EE", acortamiento: "#7C8DB5" }, CL = { elongacion: "estirado", media: "medio", acortamiento: "contraído" };
+        detail += '<div class="balCovTxt">Dónde cargaron las series: ' + ["elongacion", "media", "acortamiento"].filter(function(k){ return cov[k]; }).map(function(k){ return '<span style="color:' + CC[k] + '">' + fmtSets(cov[k]) + ' ' + CL[k] + '</span>'; }).join(" · ") + '</div><div class="balCov">';
+        ["elongacion", "media", "acortamiento"].forEach(function(k){ if (cov[k]) detail += '<i style="width:' + (cov[k] / covT * 100).toFixed(1) + '%;background:' + CC[k] + '"></i>'; });
+        detail += '</div>';
+        if (!cov.elongacion && covT >= 3) detail += '<div class="balCovTxt">Ninguna serie cargó el músculo estirado: sumar una variante así suele rendir más para hipertrofia.</div>';
+      }
       info.ex.sort(function(a, b){ return b.n - a.n; }).forEach(function(e) {
         detail += '<div class="balDetRow"><span>' + escHtml(e.name) + (e.syn ? ' <em>secundario</em>' : '') + '</span><span>' + fmtSets(e.n) + (e.far ? ' <em>+' + e.far + ' con 4+ RIR</em>' : '') + '</span></div>';
       });
@@ -3916,6 +4031,7 @@ function renderBalanceSettings() {
     '<button onclick="applyLandmarkPreset(\'intermediate\')">Intermedio</button>' +
     '<button onclick="applyLandmarkPreset(\'advanced\')">Avanzado</button></div>';
   div.appendChild(pc);
+  renderAlertSettings(div);
   var rows = [
     { key: "mv",      label: "Mantenimiento",       tag: "MV",  z: "mv" },
     { key: "mev",     label: "Mínimo efectivo", tag: "MEV", z: "mev" },
@@ -4559,6 +4675,7 @@ function trainLastSession(name) {
   best.label = best.dated ? dt.toLocaleDateString("es-AR", { weekday: "short", day: "numeric", month: "short" }) : "semana del " + dt.toLocaleDateString("es-AR", { day: "numeric", month: "short" });
   return best;
 }
+var trainJump = {};   // ejercicio -> aviso de salto de carga de esta sesion
 var trainLast = {};   // ejercicio -> etiqueta de su ultima sesion (para mostrar "Ultima vez: ...")
 function trainPrevWeekSets(name) {
   for (var w = 1; w <= 8; w++) {
@@ -4631,6 +4748,7 @@ function trainCompleteSet(name, idx) {
   if (!hasVals(s) && s._ph) { s.weight = s._ph.weight; s.reps = s._ph.reps; }
   if (!hasVals(s)) { var inp = document.getElementById("trKg_" + trainKey(name) + "_" + idx); if (inp) inp.focus(); return; }
   var prevPR = s.warmup ? null : getExPR(name);
+  if (!s.warmup) { var jmp = loadJumpCheck(name, s.weight); if (jmp && !(trainJump[name] && trainJump[name].w >= jmp.w)) trainJump[name] = jmp; }
   s._saved = true; delete s._ph; if (!s.t) s.t = Date.now();
   saveTrainEx(name);
   trainSessionStart();
@@ -4690,6 +4808,7 @@ function trainExMenu(ex) {
   openTrSheet(ex.name, function(body) {
     trSheetBtn(body, "&#9654;&nbsp; Ver video y descripci&oacute;n", function(){ currentEx = ex; currentPartnerEx = null; openExVideo(); });
     trSheetBtn(body, "&#128200;&nbsp; Progreso e historial", function(){ showExHistory(ex.name, "trainScreen"); });
+    trSheetBtn(body, "&#9638;&nbsp; Datos del ejercicio", function(){ setTimeout(function(){ openExData(ex.name, ex.group, true); }, 30); });
     trSheetBtn(body, "&#127947;&nbsp; Calculadora 1RM", function(){ trainOpenRM(ex.name); });
     trSheetBtn(body, "&#9998;&nbsp; Nota", function(){ trainNote(ex.name); });
     trSheetBtn(body, "&#8644;&nbsp; Sustituir ejercicio", function(){ startSubstitute(ex.name); });
@@ -4837,6 +4956,8 @@ function renderTrain() {
   document.getElementById("trTitle").textContent = found.routine.name;
   document.getElementById("trDayTitle").textContent = found.folder.name;
   document.getElementById("trDayChips").style.display = "none";
+  var msA = mesoActive(trainWeek), msEl = document.getElementById("trMeso");
+  if (msEl) { msEl.style.display = msA ? "flex" : "none"; if (msA) msEl.innerHTML = msA.deload ? "Mesociclo \u00b7 <span>semana de descarga: menos series, cargas livianas</span>" : "Mesociclo \u00b7 semana " + (msA.i + 1) + " de " + mesoWeeks(msA.m) + " \u00b7 RIR objetivo <b>" + msA.rir.label + "</b>"; }
   var list = document.getElementById("trList"); list.innerHTML = "";
   var exs = found.routine.exercises.map(exInfo);
   if (!exs.length) list.innerHTML = "<div class=\"trEmpty\">Esta rutina no tiene ejercicios todav\u00eda.</div>";
@@ -4858,6 +4979,12 @@ function renderTrain() {
     var vt = document.createElement("span"); vt.className = "trExVol"; vt.textContent = volTot > 0 ? Math.round(volTot).toLocaleString("es-AR") + " kg" : "";
     hd.appendChild(ttl); hd.appendChild(vt); hd.appendChild(more); blk.appendChild(hd);
     if (trainLast[name]) { var lv = document.createElement("div"); lv.className = "trExLast"; lv.textContent = "\u00daltima vez: " + trainLast[name]; blk.appendChild(lv); }
+    if (trainJump[name] && !trainJump[name].ok) {
+      var jw = trainJump[name], jb = document.createElement("div"); jb.className = "trJump";
+      jb.innerHTML = "<b>Salto de carga:</b> " + exhFmt(jw.w, "kg") + " es " + Math.round(jw.pct) + "% m\u00e1s que tu m\u00e1ximo reciente (" + exhFmt(jw.base, "kg") + "). Tendones y articulaciones se adaptan m\u00e1s lento que el m\u00fasculo: si la t\u00e9cnica se rompe o molesta, volv\u00e9 al peso anterior.";
+      var jok = document.createElement("button"); jok.textContent = "Entendido"; jok.onclick = function(){ jw.ok = true; renderTrain(); }; jb.appendChild(jok);
+      blk.appendChild(jb);
+    }
     var note = gymData["notes"] && gymData["notes"][name];
     var partner = supersets && supersets[name];
     if (note || partner) {
@@ -5028,6 +5155,7 @@ function renderRoutinesHome() {
     bn.onclick = function(){ openRoutine(ses.routineId); };
     area.appendChild(bn);
   }
+  area.appendChild(mesoHomeCard());
   var head = document.createElement("div"); head.className = "rtHead";
   head.innerHTML = "<span class=\"rtTitle\">Rutinas</span>";
   var nf = document.createElement("button"); nf.className = "rtNewFolder"; nf.textContent = "+ Carpeta";
@@ -5623,6 +5751,530 @@ function tmUpdateRun(st) {
 }
 
 
+// ============================================================
+// DATOS DE CADA EJERCICIO (estimados por nombre; el usuario puede corregirlos)
+// ============================================================
+var EXM_FIELDS = {
+  equipo: { label: "Equipo", opts: { barra: "Barra", mancuerna: "Mancuernas", polea: "Polea", maquina: "Máquina", multipower: "Multipower", kettlebell: "Kettlebell", banda: "Banda", peso_corporal: "Peso corporal", otro: "Otro" } },
+  patron: { label: "Patrón", opts: {
+    empuje_horizontal: "Empuje horizontal", empuje_vertical: "Empuje vertical", traccion_horizontal: "Tracción horizontal", traccion_vertical: "Tracción vertical",
+    apertura: "Apertura de pecho", sentadilla: "Sentadilla", zancada: "Zancada / unilateral", bisagra: "Bisagra de cadera", empuje_cadera: "Empuje de cadera",
+    ext_rodilla: "Extensión de rodilla", flex_rodilla: "Flexión de rodilla", gemelos: "Gemelos", abd_aduccion: "Abducción / aducción",
+    flex_codo: "Flexión de codo", ext_codo: "Extensión de codo", elevacion: "Elevación de hombro", encogimiento: "Encogimiento",
+    core_flexion: "Flexión de tronco", core_rotacion: "Rotación de tronco", core_estab: "Estabilidad de tronco", muneca: "Muñeca y agarre",
+    explosivo: "Explosivo / pliométrico", movilidad: "Movilidad / estiramiento", cardio: "Cardio", otro: "Otro" } },
+  longitud: { label: "Dónde carga", opts: { elongacion: "Con el músculo estirado", media: "En el medio del recorrido", acortamiento: "Con el músculo contraído" } },
+  sfr: { label: "Estímulo / fatiga (SFR)", opts: { 1: "1 · muy bajo", 2: "2 · bajo", 3: "3 · medio", 4: "4 · bueno", 5: "5 · excelente" } },
+  demanda: { label: "Demanda articular", opts: { baja: "Baja", media: "Media", alta: "Alta" } },
+  region: { label: "Zona que trabaja", opts: null }
+};
+var exMetaUser = {};
+try { exMetaUser = JSON.parse(localStorage.getItem("gymExMeta") || "{}") || {}; } catch(e) { exMetaUser = {}; }
+function persistExMeta() { safeStore("gymExMeta", JSON.stringify(exMetaUser)); }
+
+function exMetaGuess(name, group) {
+  var n = " " + normalizeName(name).replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ") + " ";
+  function has() { for (var i = 0; i < arguments.length; i++) if (n.indexOf(arguments[i]) >= 0) return true; return false; }
+  var g = group === "Bíceps" ? "Biceps" : group === "Tríceps" ? "Triceps" : group;
+  var m = {};
+  // ---- equipo
+  m.equipo = has("trx", "anillas", "suspension", "paralelas") ? "peso_corporal"
+    : has("multipower", "smith") ? "multipower"
+    : has("pallof") ? (has("cable", "polea") ? "polea" : "banda")
+    : has("maquina", "contractora", "prensa", "peck", "pendulo", "belt squat", "cinturon", "v squat") ? "maquina"
+    : has("banda", "elastic", "liga ") ? "banda"
+    : has("polea", "cable", "cuerda", "poleas", "jalon", "pulldown", "face pull") ? "polea"
+    : has("kettlebell", "pesa rusa") ? "kettlebell"
+    : has("mancuerna", "mancuernas") ? "mancuerna"
+    : has("barra", "landmine", "pendlay", "trap bar", " ez ", "olimpic", "sentadilla frontal", "zercher", "press de banca", "spoto", "larsen con barra", "cargada", "arranque", "clean", "jerk", "thruster", "rack pull", "hack squat") ? "barra"
+    : has("goblet", "copa") ? "mancuerna"
+    : has("convergente") ? "maquina"
+    : has("balon", "trx", "anillas", "rueda", "disco", "saco", "trineo", "cadena", "bosu", "fitball", "katana", "rodillo", "soga", "cuerda de batalla", "salto a la cuerda") ? (has("trx", "anillas") ? "peso_corporal" : "otro")
+    : "peso_corporal";
+  if (m.equipo === "peso_corporal" && has("peso muerto") && !has("una pierna")) m.equipo = "barra";
+  // ---- patron
+  var p;
+  if (g === "Cardio" || (g !== "Abdominales" && has("eliptic", "bicicleta", "bike", "rowing", "walk ", "caminata en cinta", "caminata cardio", "carrera", "escaladora", "kickboxing", "cinta ", "correr", "trote", "remoergometro", "ergometro", "salto de soga", "salto a la cuerda", "comba", "jumping jack"))) p = "cardio";
+  else if (has("estiramiento", "movilidad", "perro boca", " postura ", "rotacion de cadera", "cobra", " gato", "posicion del", "stretch", "circulos de", "perro hacia arriba", "flexion de tronco", "foam", "respiracion", "balanceo", "circulo de", "oscilante", "rodillo para", " 90 a 90")) p = "movilidad";
+  else if (has("perro de caza", "pajaro perro", "bird dog")) p = "core_estab";
+  else if (has(" tibial ")) p = "otro";
+  else if (has("salto", "saltos", "lanzamiento", "pliometr", "explosiv", "clean", "cargada", "arranque", "snatch", "push press", "jerk", "burpee", "swing", "slam", "box jump", "golpe")) p = "explosivo";
+  else if (has("encogimiento", "shrug") && !has("abdominal", "crunch")) p = "encogimiento";
+  else if (has("cuello") && !has("press")) p = "otro";
+  else if (has("plancha", "toque de hombro", "turkish", "get up") && !has("flexion", "fondos", "pseudo")) p = "core_estab";
+  else if (has("angel de pared")) p = "movilidad";
+  else if (g === "Triceps" && has("extension de triceps", "extensiones de triceps", "press frances", "patada", "rompecraneos", "katana", "tate")) p = "ext_codo";
+  else if (g === "Antebrazos" || (g !== "Abdominales" && has("muneca", "granjero", "colgado", "rodillo de"))) p = (g === "Antebrazos" && has("curl inverso", "curl de biceps", "curl invertido", "curl en polea", "martillo")) ? "flex_codo" : "muneca";
+  else if (g === "Abdominales") p = has("giro", "rotacion", "russian", "ruso", "lenador", "lena", "corte ", "molino", "oblicuo", "pallof", "torsion", "windmill", "limpiaparabrisas", "inclinacion lateral", "crunch lateral", "puente lateral") ? "core_rotacion"
+    : has("plancha", "hueco", "hollow", "pica ", "rueda", "rollout", "dead bug", "bicho muerto", "pajaro perro", "l sit", "sujecion", "carga", "antirrot", "farmer", "paseo", "vacio abdominal") ? "core_estab" : "core_flexion";
+  else if ((g === "Piernas" || has("femoral")) && has("curl femoral", "curl de pierna", "curl de isquio", "isquio", "nordico", "flexion de rodilla", "curl de femoral", "leg curl")) p = "flex_rodilla";
+  else if (g === "Piernas" && has("extension terminal", "extension de cuadriceps", "extension de pierna", "extension de rodilla", "sissy", "leg extension", "extensiones de cuadriceps", "extension de piernas")) p = "ext_rodilla";
+  else if (has("gemelo", "pantorrilla", "talon", "talones", "soleo", "punta de pie", "puntillas", "calf")) p = "gemelos";
+  else if (g === "Piernas" && has("abduccion", "aduccion", "aductor", "abductor", "almeja", "clamshell", "concha", "patada lateral", "caminata lateral", "monster")) p = "abd_aduccion";
+  else if (has("hip thrust", "empuje de cadera", "elevacion de cadera", "patada de burro", "puente", "patada de gluteo", "patada trasera", "patadas de gluteo", "kickback de gluteo", "pull through", "frog pump", "extension de cadera")) p = "empuje_cadera";
+  else if (has("peso muerto", "rumano", "buenos dias", "good morning", "hiperextension", "extension de espalda", "extension lumbar", "jefferson", "stiff", "superman", "bisagra", "rack pull")) p = "bisagra";
+  else if (has("zancada", "estocada", "bulgara", "lunge", "split", "step up", "subida al", "subidas al", "pistol", "unilateral en banco", "patinador", "desplante", "dividida", "cosaca")) p = "zancada";
+  else if (has("sentadilla", "prensa", "squat", "hack", "belt squat")) p = "sentadilla";
+  else if (has("dominada australiana", "remo invertido", "remo australiano")) p = "traccion_horizontal";
+  else if (has("dominada", "jalon", "pull up", "chin up", "pulldown", "pullover", "front lever", "back lever", "muscle up", "trepar", "pull over", "tiron vertical")) p = "traccion_vertical";
+  else if (has("remo", "row", "face pull", "tiron")) p = (has("remo al menton", "remo vertical", "remo alto") && g === "Hombros") ? "elevacion" : "traccion_horizontal";
+  else if (has("apertura", "aperturas", "cruce", "contractora", "peck", "fly", "crossover", "cristo")) p = (g === "Hombros" || has("posterior", "invertid", "reversa", "inversa")) ? "elevacion" : "apertura";
+  else if (has("elevacion lateral", "elevacion frontal", "elevaciones", "elevacion en y", "elevacion y", "powell", "pajaro", "cuban", "lu raise", "elevacion posterior", "rotacion externa", "rotacion interna", "rotacion de hombro", "w raise", "t raise")) p = "elevacion";
+  else if (has("curl") && g !== "Piernas") p = "flex_codo";
+  else if (has("extension de triceps", "extensiones de triceps", "press frances", "rompecraneos", "skull", "patada de triceps", "patadas de triceps", "jalon de triceps", "empuje de triceps", "tate", "katana", "kickback", "extension sobre", "extension por encima", "extension con cuerda", "extension en polea", "pushdown", "extension horizontal", "extension de codo")) p = "ext_codo";
+  else if (has("press militar", "press de hombro", "press de hombros", "press arnold", "press sobre", "press por encima", "press vertical", "flexion en pike", "flexiones en pike", "pino", "parada de manos", "handstand", "press z", "press landmine", "press con landmine", "press bradford", "press tras nuca", "press de pie", "press sentado", "overhead", "trasnuca", "posicion de vertical") || (g === "Hombros" && has("press") && !has("banca", "cubano"))) p = (g === "Hombros" || has("militar", "hombro", "pike", "pino", "parada")) ? "empuje_vertical" : "empuje_horizontal";
+  else if (has("press", "flexion", "flexiones", "fondos", "fondo ", "push up", "dip", "lagartija")) p = has("fondos", "fondo ", "dip") ? "empuje_horizontal" : "empuje_horizontal";
+  else if (g === "Triceps") p = "ext_codo";
+  else if (g === "Biceps") p = "flex_codo";
+  else if (g === "Hombros") p = "elevacion";
+  else if (g === "Pecho") p = "empuje_horizontal";
+  else if (g === "Espalda") p = "traccion_horizontal";
+  else if (g === "Piernas") p = "otro";
+  else p = "otro";
+  m.patron = p;
+  if (m.equipo === "peso_corporal" && ((p === "flex_rodilla" || p === "ext_rodilla") && !has("nordico", "deslizante", "anillas", "sissy", "terminal") || (p === "gemelos" && has("sentad")) || (p === "abd_aduccion" && has("sentad")))) m.equipo = "maquina";
+  if (m.equipo === "peso_corporal" && ["flex_codo", "ext_codo", "elevacion", "apertura", "encogimiento", "muneca"].indexOf(p) >= 0 && !has("trx", "suspension", "anillas", "plancha", "flexion", "colgado", "invertido", "propio peso", "peso corporal", "en el suelo de", "aparato", "dominada")) m.equipo = (p === "muneca" && has("colgado")) ? "peso_corporal" : "mancuerna";
+  // ---- longitud (porcion del recorrido donde mas carga el musculo principal)
+  var L = "media";
+  if (p === "flex_codo") L = has("inclinad", "bayes", "detras", "drag") ? "elongacion" : has("predicador", "scott", "banco scott") ? "elongacion" : has("concentracion", "arana", "spider", "alto", "polea alta", "doble biceps") ? "acortamiento" : "media";
+  else if (p === "ext_codo") L = (has("sentado") && m.equipo !== "polea" && m.equipo !== "maquina") ? "elongacion" : has("sobre la cabeza", "por encima", "encima de la cabeza", "sobre cabeza", "overhead", "frances", "katana", "tras nuca", "detras de la cabeza", "inclinado") ? "elongacion" : has("patada", "kickback", "tate") ? "acortamiento" : has("rompecraneos", "skull", "decubito", "acostado", "supino") ? "elongacion" : "media";
+  else if (p === "apertura") L = has("mancuerna", "mancuernas", "anillas", "bajo a alto") ? "elongacion" : has("cruce", "crossover", "alto a bajo") ? "acortamiento" : "media";
+  else if (p === "empuje_horizontal") L = has("mancuerna", "mancuernas", "deficit", "fondos", "fondo ", "dip", "anillas") ? "elongacion" : "media";
+  else if (p === "empuje_vertical") L = "media";
+  else if (p === "traccion_vertical") L = has("pullover", "pull over") ? "elongacion" : has("lever") ? "media" : "elongacion";
+  else if (p === "traccion_horizontal") L = has("pecho apoyado", "apoyo en pecho", "seal", "kroc", "meadows", "un brazo", "unilateral") ? "elongacion" : has("face pull", "invertid", "australiana") ? "acortamiento" : "media";
+  else if (p === "elevacion") L = has("polea", "cable") && has("lateral", "detras", "inclinad") ? "elongacion" : has("inclinad", "tumbad", "acostad") && has("lateral") ? "elongacion" : "acortamiento";
+  else if (p === "sentadilla") L = has("prensa") ? "media" : "elongacion";
+  else if (p === "zancada") L = "elongacion";
+  else if (p === "bisagra") L = has("hiperextension", "extension de espalda", "superman", "extension lumbar") ? "media" : "elongacion";
+  else if (p === "empuje_cadera") L = "acortamiento";
+  else if (p === "ext_rodilla") L = has("sissy") ? "elongacion" : "acortamiento";
+  else if (p === "flex_rodilla") L = has("sentad", "nordico", " de pie ") ? "elongacion" : "media";
+  else if (p === "gemelos") L = has("sentad") ? "media" : "elongacion";
+  else if (p === "abd_aduccion") L = has("aduccion", "aductor", "copenhague") ? "elongacion" : "acortamiento";
+  else if (p === "encogimiento" || p === "core_flexion") L = has("colgad", "elevacion de piernas", "elevacion de rodillas") ? "media" : "acortamiento";
+  else if (p === "muneca") L = has("colgado", "granjero", "paseo", "caminata", "sostener") ? "media" : "media";
+  m.longitud = (p === "cardio" || p === "movilidad" || p === "explosivo" || p === "core_estab" || p === "otro") ? null : L;
+  // ---- demanda articular
+  var compound = ["empuje_horizontal", "empuje_vertical", "traccion_horizontal", "traccion_vertical", "sentadilla", "zancada", "bisagra"].indexOf(p) >= 0;
+  var D;
+  if (p === "explosivo") D = "alta";
+  else if (p === "cardio" || p === "movilidad") D = "baja";
+  else if (compound && (m.equipo === "barra")) D = (p === "sentadilla" || p === "empuje_vertical" || (p === "bisagra" && !has("rumano", "hiperextension", "extension de espalda"))) ? "alta" : "media";
+  else if (compound && (m.equipo === "mancuerna" || m.equipo === "kettlebell" || m.equipo === "peso_corporal")) D = has("fondos", "fondo ", "dip", "pistol", "muscle up", "lever", "pino", "parada") ? "alta" : "media";
+  else if (compound) D = has("hack", "sentadilla") ? "media" : "baja";
+  else if (p === "ext_codo" && (has("rompecraneos", "skull", "frances") && m.equipo === "barra")) D = "media";
+  else if (p === "flex_rodilla" && has("nordico")) D = "alta";
+  else if (p === "bisagra" || has("jefferson")) D = "media";
+  else D = (m.equipo === "barra" ? "media" : "baja");
+  m.demanda = D;
+  // ---- SFR para hipertrofia (1 a 5)
+  var s;
+  if (p === "cardio" || p === "movilidad") s = null;
+  else if (p === "explosivo") s = 1;
+  else {
+    s = 3;
+    if (m.equipo === "maquina" || m.equipo === "polea" || m.equipo === "multipower") s = 4;
+    if (m.equipo === "banda") s = 2;
+    if (m.equipo === "kettlebell") s = 2;
+    if (m.equipo === "otro") s = 2;
+    if (!compound && p !== "core_estab" && m.equipo !== "banda") s++;
+    if (D === "alta") s--;
+    if (p === "core_estab") s = 2;
+    if (m.longitud === "elongacion" && s < 5 && m.equipo !== "banda") s++;
+    if (has("isometric", "sostenid", "pausa larga", "hold", " en pared", " silla")) s--;
+    if (has("asistid", "negativ", "con banda")) s = Math.min(s, 3);
+    s = Math.max(1, Math.min(5, s));
+  }
+  m.sfr = s;
+  // ---- region
+  var R = null;
+  if (g === "Pecho") R = has("inclinad", "bajo a alto", "de abajo hacia arriba", "superior") ? "Pectoral superior" : has("declinad", "fondos", "fondo ", "dip", "alto a bajo", "inferior") ? "Pectoral inferior" : "Pectoral medio";
+  else if (g === "Espalda") R = p === "encogimiento" ? "Trapecio superior" : p === "bisagra" ? "Erectores espinales" : has("cuello") ? "Cuello" : p === "traccion_vertical" ? "Dorsal ancho" : has("face pull") ? "Deltoides posterior y trapecio" : p === "traccion_horizontal" ? "Dorsal y espalda media" : "Espalda";
+  else if (g === "Hombros") R = p === "encogimiento" ? "Trapecio superior" : has("posterior", "pajaro", "face pull", "invertid", "reversa", "inversa") ? "Deltoides posterior" : has("frontal", "front") ? "Deltoides anterior" : has("lateral", "menton", "remo vertical", "remo alto", "cuban", "y raise", "en y", "powell", "lu raise") ? "Deltoides lateral" : has("rotacion") ? "Manguito rotador" : p === "empuje_vertical" ? "Deltoides anterior y lateral" : "Deltoides";
+  else if (g === "Biceps") R = has("martillo", "inverso", "invertido", "neutro", "zottman") ? "Braquial y braquiorradial" : (m.longitud === "elongacion" && !has("predicador", "scott")) ? "Bíceps, cabeza larga" : has("predicador", "scott", "concentracion", "arana", "spider") ? "Bíceps, cabeza corta" : "Bíceps";
+  else if (g === "Triceps") R = p === "ext_codo" && m.longitud === "elongacion" && !has("rompecraneos", "skull", "decubito", "acostado", "supino") ? "Tríceps, cabeza larga" : p === "ext_codo" ? "Tríceps, cabezas lateral y medial" : "Tríceps completo";
+  else if (g === "Antebrazos") R = has("inverso", "invertid", "extension", "pronacion") ? "Extensores del antebrazo" : has("granjero", "colgado", "paseo", "agarre", "sostener") ? "Agarre" : p === "flex_codo" ? "Braquiorradial" : "Flexores del antebrazo";
+  else if (g === "Abdominales") R = p === "core_rotacion" ? "Oblicuos" : p === "core_estab" ? "Core (estabilidad)" : "Recto abdominal";
+  else if (g === "Piernas") R = has(" tibial ") ? "Tibial anterior" : p === "flex_rodilla" ? "Isquiotibiales" : p === "gemelos" ? (has("sentad") ? "Sóleo" : "Gemelos") : p === "empuje_cadera" ? "Glúteos" : p === "abd_aduccion" ? (has("aduccion", "aductor", "copenhague") ? "Aductores" : "Glúteo medio") : p === "ext_rodilla" ? "Cuádriceps" : p === "bisagra" ? (has("rumano", "stiff", "buenos dias", "good morning", "piernas rigidas") ? "Isquiotibiales y glúteos" : has("hiperextension", "extension de espalda", "jefferson", "superman", "lumbar") ? "Erectores y glúteos" : "Cadena posterior") : p === "zancada" ? "Cuádriceps y glúteos" : p === "sentadilla" ? (has("sumo", "profunda") ? "Cuádriceps, glúteos y aductores" : "Cuádriceps") : null;
+  m.region = R;
+  return m;
+}
+function exMeta(name, group) {
+  if (!group) { var all = getAllEx(); for (var i = 0; i < all.length; i++) if (all[i].name === name) { group = all[i].group; break; } }
+  var m = exMetaGuess(name, group || ""), u = exMetaUser[name] || {};
+  m.edited = {};
+  for (var k in u) { m[k] = u[k]; m.edited[k] = true; }
+  return m;
+}
+function exMetaLabel(field, v) {
+  if (v === null || v === undefined || v === "") return "—";
+  var o = EXM_FIELDS[field].opts; return o && o[v] !== undefined ? o[v] : String(v);
+}
+
+// ---- Ficha de datos (hoja) ----
+var exDataCtx = null;   // { name, group, train }
+function exGroupOf(name) { var all = getAllEx(); for (var i = 0; i < all.length; i++) if (all[i].name === name) return all[i].group; for (var g in LIBRARY) if (LIBRARY[g].exercises.indexOf(name) >= 0) return g; return ""; }
+function exSfrDots(v) {
+  if (!v) return '<span class="exdNa">—</span>';
+  var h = '<span class="exdDots" aria-label="' + v + ' de 5">'; for (var i = 1; i <= 5; i++) h += '<i class="' + (i <= v ? "on" : "") + '"></i>'; return h + '</span>';
+}
+function exMetaChips(m) {
+  var c = [exMetaLabel("equipo", m.equipo), exMetaLabel("patron", m.patron)];
+  if (m.longitud) c.push({ elongacion: "Carga estirado", media: "Carga en el medio", acortamiento: "Carga contraído" }[m.longitud]);
+  if (m.sfr) c.push("SFR " + m.sfr + "/5");
+  c.push("Demanda " + exMetaLabel("demanda", m.demanda).toLowerCase());
+  return c;
+}
+// Alternativas del mismo grupo y patron (o zona) con mejor SFR o menos demanda articular
+function exAlternatives(name, group, max) {
+  var m = exMeta(name, group), out = [], D = { baja: 0, media: 1, alta: 2 }, pool = [];
+  for (var g in LIBRARY) if (g === group) pool = pool.concat(LIBRARY[g].exercises);
+  getAllEx().forEach(function(e){ if (e.group === group && pool.indexOf(e.name) < 0) pool.push(e.name); });
+  pool.forEach(function(n) {
+    if (n === name || (typeof libIsHidden === "function" && libIsHidden(n))) return;
+    var x = exMeta(n, group); if (!x.sfr) return;
+    var same = x.patron === m.patron || (m.region && x.region === m.region);
+    if (!same) return;
+    var better = (x.sfr || 0) > (m.sfr || 0) || D[x.demanda] < D[m.demanda];
+    if (!better || (x.sfr || 0) < (m.sfr || 0)) return;
+    out.push({ name: n, m: x, score: (x.sfr || 0) * 3 - D[x.demanda] + (x.longitud === "elongacion" ? 1 : 0) + (x.patron === m.patron ? 1 : 0) + (m.region && x.region && x.region.split(",")[0] === m.region.split(",")[0] ? 1.5 : 0) + (isInRoutine(n) ? 0.5 : 0) });
+  });
+  out.sort(function(a, b){ return b.score - a.score || (a.name < b.name ? -1 : 1); });
+  return out.slice(0, max || 4);
+}
+function openExData(name, group, fromTrain) {
+  exDataCtx = { name: name, group: group || exGroupOf(name), train: !!fromTrain };
+  openTrSheet(name, renderExData);
+}
+function renderExData(body) {
+  var c = exDataCtx, m = exMeta(c.name, c.group), h = '<div class="exdWrap">';
+  h += '<div class="exdIntro">Valores estimados a partir del nombre del ejercicio. Tocá cualquiera para corregirlo.</div>';
+  ["region", "equipo", "patron", "longitud", "sfr", "demanda"].forEach(function(f) {
+    var v = f === "sfr" ? exSfrDots(m.sfr) + (m.sfr ? '<span class="exdSfrN">' + m.sfr + '/5</span>' : "") : escHtml(f === "region" ? (m.region || "—") : exMetaLabel(f, m[f]));
+    h += '<button class="exdRow" data-f="' + f + '"><span class="exdLab">' + EXM_FIELDS[f].label + '</span><span class="exdVal">' + v + '</span><span class="exdTag' + (m.edited[f] ? " mine" : "") + '">' + (m.edited[f] ? "tuyo" : "estimado") + '</span></button>';
+  });
+  var tips = { elongacion: "Cargar el músculo estirado suele dar igual o más hipertrofia: buena elección como ejercicio base.", acortamiento: "Carga sobre todo con el músculo contraído. Conviene combinarlo con una variante que cargue estirado.", media: "" };
+  if (m.longitud && tips[m.longitud]) h += '<div class="exdTip">' + tips[m.longitud] + '</div>';
+  h += '<div class="exdHelp"><b>SFR</b>: cuánto estímulo da por cada unidad de fatiga. Máquinas, poleas y aislamientos suelen tener más; los básicos pesados con barra, menos, aunque sirven para fuerza.</div>';
+  var alts = exAlternatives(c.name, c.group, 4);
+  if (alts.length) {
+    h += '<div class="exdSec">' + (c.train ? "Alternativas con mejor relación estímulo / fatiga (tocá para sustituir)" : "Alternativas con mejor relación estímulo / fatiga") + '</div>';
+    alts.forEach(function(a, i) {
+      h += '<button class="exdAlt" data-i="' + i + '"><span class="exdAltName">' + escHtml(a.name) + '</span><span class="exdAltSub">SFR ' + a.m.sfr + '/5 · demanda ' + exMetaLabel("demanda", a.m.demanda).toLowerCase() + (a.m.longitud === "elongacion" ? " · carga estirado" : "") + '</span></button>';
+    });
+  }
+  if (Object.keys(m.edited).length) h += '<button class="exdReset">Volver a los valores estimados</button>';
+  h += '</div>';
+  body.innerHTML = h;
+  body.querySelectorAll(".exdRow").forEach(function(b){ b.onclick = function(){ exDataPick(b.getAttribute("data-f")); }; });
+  body.querySelectorAll(".exdAlt").forEach(function(b){ b.onclick = function() {
+    var a = alts[+b.getAttribute("data-i")];
+    closeTrSheet();
+    if (c.train && typeof doSubstitute === "function") { libSubstitute = { oldName: c.name, routineId: trainRoutineId }; doSubstitute(a.name, c.group); showToast("Sustituido por " + a.name); }
+    else openLibDetail(a.name, c.group, (GROUPS[c.group] || LIBRARY[c.group] || {}).color || "#22D3EE", isInRoutine(a.name));
+  }; });
+  var rs = body.querySelector(".exdReset"); if (rs) rs.onclick = function(){ delete exMetaUser[c.name]; persistExMeta(); renderExData(body); };
+}
+function exDataPick(f) {
+  var c = exDataCtx, m = exMeta(c.name, c.group), body = document.getElementById("trSheetBody"), opts = EXM_FIELDS[f].opts;
+  if (f === "region") {
+    opts = {}; var pool = (LIBRARY[c.group] ? LIBRARY[c.group].exercises : []);
+    pool.forEach(function(n){ var r = exMetaGuess(n, c.group).region; if (r) opts[r] = r; });
+    if (m.region) opts[m.region] = m.region;
+  }
+  document.getElementById("trSheetTitle").textContent = EXM_FIELDS[f].label;
+  var h = '<div class="exdWrap">';
+  if (f === "longitud") h += '<div class="exdIntro">En qué parte del recorrido el ejercicio exige más al músculo principal.</div>';
+  Object.keys(opts).forEach(function(k) {
+    var on = String(m[f]) === String(k);
+    h += '<button class="trSheetBtn exdOpt' + (on ? " on" : "") + '" data-k="' + escHtml(k) + '">' + escHtml(opts[k]) + (on ? " ✓" : "") + '</button>';
+  });
+  h += '<button class="trSheetBtn exdBack">‹ Volver</button></div>';
+  body.innerHTML = h;
+  body.querySelectorAll(".exdOpt").forEach(function(b){ b.onclick = function() {
+    var k = b.getAttribute("data-k"); if (f === "sfr") k = +k;
+    exMetaUser[c.name] = exMetaUser[c.name] || {}; exMetaUser[c.name][f] = k; persistExMeta();
+    document.getElementById("trSheetTitle").textContent = c.name; renderExData(body);
+  }; });
+  body.querySelector(".exdBack").onclick = function(){ document.getElementById("trSheetTitle").textContent = c.name; renderExData(body); };
+}
+
+// ============================================================
+// MESOCICLOS: bloque de semanas de carga con rampa de series + semana de descarga
+// ============================================================
+var MESO_FOCUS = { mant: "Mantener", norm: "Normal", pri: "Prioridad" };
+var mesoDraft = null;   // configuracion en edicion
+function mesoGet() { try { var m = JSON.parse(localStorage.getItem("gymMeso") || "null"); return m && m.start ? m : null; } catch(e) { return null; } }
+function mesoSave(m) { if (m) safeStore("gymMeso", JSON.stringify(m)); else { try { localStorage.removeItem("gymMeso"); } catch(e) {} } }
+function mesoHist() { try { return JSON.parse(localStorage.getItem("gymMesoHist") || "[]") || []; } catch(e) { return []; } }
+function wkAdd(wk, n) { var d = wkDate(wk); d.setDate(d.getDate() + 7 * n); return getWeekKey(d); }
+function wkDiff(a, b) { return Math.round((wkDate(b) - wkDate(a)) / 6048e5); }
+function mesoWeeks(m) { return m.acc + 1; }
+function mesoIdx(m, wk) { return wkDiff(m.start, wk || getWeekKey(new Date())); }
+function mesoIsDeload(m, i) { return i === m.acc; }
+// Series objetivo de un grupo en la semana i (0 = primera)
+function mesoTarget(m, g, i) {
+  var L = LANDMARKS[g]; if (!L) return 0;
+  var f = (m.focus && m.focus[g]) || "norm";
+  if (mesoIsDeload(m, i)) return Math.max(1, Math.round((f === "mant" ? L.mv : L.mev) / 2));
+  if (f === "mant") return L.mv;
+  var from = L.mev, to = f === "pri" ? L.mrv : L.mav_max;
+  if (to < from) to = from;
+  var k = m.acc > 1 ? i / (m.acc - 1) : 1;
+  return Math.round(from + (to - from) * k);
+}
+// RIR objetivo de la semana i: arranca en 3 y baja hasta 0-1; la descarga es liviana
+function mesoRir(m, i) {
+  if (mesoIsDeload(m, i)) return { label: "4+", num: 4 };
+  if (i === m.acc - 1) return { label: "0–1", num: 0.5 };
+  var v = m.acc > 1 ? 3 - 2.5 * i / (m.acc - 1) : 2;
+  var r = Math.round(v); return { label: String(r), num: r };
+}
+function mesoActive(wk) {
+  var m = mesoGet(); if (!m || m.endedAt) return null;
+  var i = mesoIdx(m, wk); if (i < 0 || i >= mesoWeeks(m)) return null;
+  return { m: m, i: i, deload: mesoIsDeload(m, i), rir: mesoRir(m, i) };
+}
+function mesoRangeLabel(m) {
+  var a = wkDate(m.start), b = wkDate(wkAdd(m.start, m.acc)); b.setDate(b.getDate() + 6);
+  var o = { day: "numeric", month: "short" }; return a.toLocaleDateString("es-AR", o) + " – " + b.toLocaleDateString("es-AR", o);
+}
+function mesoSegs(m, cur) {
+  var h = '<div class="msSegs">';
+  for (var i = 0; i < mesoWeeks(m); i++) h += '<i class="' + (i < cur ? "done" : i === cur ? "cur" : "") + (mesoIsDeload(m, i) ? " dl" : "") + '"></i>';
+  return h + '</div>';
+}
+
+// ---- Tarjeta en el inicio ----
+function mesoHomeCard() {
+  var m = mesoGet(), el = document.createElement("button"); el.className = "msHome";
+  el.onclick = function(){ showScreen("mesoScreen"); };
+  if (!m) { el.className += " empty"; el.innerHTML = '<span class="msHomeIco">▤</span><span><b>Planificar un mesociclo</b><br><span>Bloque de semanas con series que suben y una descarga al final</span></span>'; return el; }
+  var i = mesoIdx(m);
+  if (i < 0) { el.innerHTML = '<div class="msHomeTop"><span class="msHomeKick">Mesociclo</span><span class="msHomeRir">Empieza el lunes</span></div><div class="msHomeTitle">' + m.acc + ' semanas de carga + descarga</div>' + mesoSegs(m, -1); return el; }
+  if (m.endedAt || i >= mesoWeeks(m)) { el.innerHTML = '<div class="msHomeTop"><span class="msHomeKick">Mesociclo terminado</span></div><div class="msHomeTitle">Ver el resumen y planificar el próximo</div>' + mesoSegs(m, mesoWeeks(m)); return el; }
+  var r = mesoRir(m, i), dl = mesoIsDeload(m, i);
+  el.innerHTML = '<div class="msHomeTop"><span class="msHomeKick">Mesociclo · semana ' + (i + 1) + ' de ' + mesoWeeks(m) + '</span><span class="msHomeRir">RIR ' + r.label + '</span></div>' +
+    '<div class="msHomeTitle">' + (dl ? "Semana de descarga: menos series y cargas livianas" : "Carga: series objetivo de la semana " + (i + 1)) + '</div>' + mesoSegs(m, i);
+  return el;
+}
+
+// ---- Pantalla ----
+function renderMeso() {
+  var root = document.getElementById("msRoot"), m = mesoGet();
+  if (root.parentNode) root.parentNode.scrollTop = 0;
+  if (!m || mesoDraft) { renderMesoSetup(root); return; }
+  var i = mesoIdx(m);
+  if (m.endedAt || i >= mesoWeeks(m)) { renderMesoEnd(root, m); return; }
+  renderMesoActive(root, m, i);
+}
+function mesoTableHtml(m, cur, withDone) {
+  var W = mesoWeeks(m), h = '<div class="msTblWrap"><div class="msTbl" style="grid-template-columns:104px repeat(' + W + ',1fr)"><div></div>';
+  for (var i = 0; i < W; i++) h += '<div class="msTh' + (i === cur ? " cur" : "") + '">' + (mesoIsDeload(m, i) ? "Desc." : "S" + (i + 1)) + '</div>';
+  h += '<div class="msRowLab">RIR</div>';
+  for (var i = 0; i < W; i++) h += '<div class="msRir' + (i === cur ? " cur" : "") + '">' + mesoRir(m, i).label + '</div>';
+  var vols = [];
+  if (withDone) for (var i = 0; i < W; i++) vols.push(i <= cur ? computeWeeklyVolume(wkAdd(m.start, i)) : null);
+  VOLUME_GROUPS.forEach(function(g) {
+    var f = (m.focus && m.focus[g]) || "norm";
+    h += '<div class="msRowLab">' + displayGroup(g) + (f !== "norm" ? '<em class="msF ' + f + '">' + (f === "pri" ? "P" : "M") + '</em>' : "") + '</div>';
+    for (var i = 0; i < W; i++) {
+      var t = mesoTarget(m, g, i), cls = "msCell" + (i === cur ? " cur" : "") + (mesoIsDeload(m, i) ? " dl" : ""), inner = String(t);
+      if (withDone && vols[i]) {
+        var d = vols[i][g] || 0;
+        if (i < cur || d > 0) { cls += d > t + 3 ? " hi" : d >= t - 0.5 ? " ok" : (i < cur ? " low" : ""); inner = '<b>' + fmtSets(d) + '</b><span>/' + t + '</span>'; }
+      }
+      h += '<div class="' + cls + '">' + inner + '</div>';
+    }
+  });
+  return h + '</div></div>';
+}
+function renderMesoSetup(root) {
+  var prev = mesoGet();
+  if (!mesoDraft) mesoDraft = { acc: 5, startNext: false, focus: {} };
+  var d = mesoDraft, fake = { start: d.keepStart || getWeekKey(new Date()), acc: d.acc, focus: d.focus };
+  var h = '<div class="msIntro">Un mesociclo es un bloque de semanas en el que las series de cada músculo arrancan cerca del <b>mínimo efectivo</b> y suben de a poco hacia tu <b>máximo recuperable</b>, mientras el RIR baja de 3 a 0–1. Cierra con una semana de <b>descarga</b> para soltar la fatiga acumulada.</div>';
+  h += '<div class="balCard"><div class="msSetRow"><span>Semanas de carga</span><div class="msStep"><button data-a="acc-">&minus;</button><b>' + d.acc + '</b><button data-a="acc+">+</button></div></div>' +
+    '<div class="msSetSub">+ 1 semana de descarga · ' + (d.acc + 1) + ' semanas en total</div>' +
+    (d.keepStart ? '<div class="msSetSub">Mantiene el inicio: semana del ' + wkDate(d.keepStart).toLocaleDateString("es-AR", { day: "numeric", month: "short" }) + '.</div></div>' :
+    '<div class="msSetRow" style="margin-top:12px"><span>Empieza</span><div class="msSeg"><button data-a="now" class="' + (!d.startNext ? "on" : "") + '">Esta semana</button><button data-a="next" class="' + (d.startNext ? "on" : "") + '">La próxima</button></div></div></div>');
+  h += '<div class="balSecHead">Foco por grupo muscular</div><div class="balCard msFocus">';
+  VOLUME_GROUPS.forEach(function(g) {
+    var f = d.focus[g] || "norm";
+    h += '<div class="msFocRow"><span>' + displayGroup(g) + '</span><div class="msSeg sm">';
+    ["mant", "norm", "pri"].forEach(function(k){ h += '<button data-g="' + g + '" data-k="' + k + '" class="' + (f === k ? "on " + k : "") + '">' + MESO_FOCUS[k] + '</button>'; });
+    h += '</div></div>';
+  });
+  h += '<div class="msSetSub" style="margin-top:8px"><b>Normal</b>: sube del mínimo efectivo al tope del rango óptimo. <b>Prioridad</b>: llega hasta el máximo recuperable (elegí pocos grupos). <b>Mantener</b>: se queda en mantenimiento para liberar recuperación.</div></div>';
+  h += '<div class="balSecHead">Series por semana del plan</div>' + mesoTableHtml(fake, -1, false);
+  h += '<div class="msSetSub">Se calcula con tus rangos de Balance › Ajustes. Durante el bloque, el Balance te muestra el objetivo de cada semana.</div>';
+  h += '<button class="tmPrimary wide" id="msGo">' + (d.keepStart ? "Guardar cambios" : prev ? "Reemplazar el mesociclo actual" : "Empezar mesociclo") + '</button>';
+  if (prev) h += '<button class="tmLink" id="msCancel">Cancelar</button>';
+  root.innerHTML = h;
+  root.querySelectorAll("[data-a]").forEach(function(b){ b.onclick = function() {
+    var a = b.getAttribute("data-a");
+    if (a === "acc-") d.acc = Math.max(3, d.acc - 1); else if (a === "acc+") d.acc = Math.min(8, d.acc + 1);
+    else d.startNext = a === "next";
+    renderMesoSetup(root);
+  }; });
+  root.querySelectorAll("[data-g]").forEach(function(b){ b.onclick = function(){ d.focus[b.getAttribute("data-g")] = b.getAttribute("data-k"); renderMesoSetup(root); }; });
+  document.getElementById("msGo").onclick = function() {
+    var start = d.keepStart || getWeekKey(new Date()); if (d.startNext && !d.keepStart) start = wkAdd(start, 1);
+    var focus = {}; for (var g in d.focus) if (d.focus[g] !== "norm") focus[g] = d.focus[g];
+    mesoSave({ id: newId(), start: start, acc: d.acc, focus: focus, created: Date.now() });
+    mesoDraft = null; renderMeso(); renderHome(); showToast("Mesociclo planificado");
+  };
+  var cc = document.getElementById("msCancel"); if (cc) cc.onclick = function(){ mesoDraft = null; renderMeso(); };
+}
+function renderMesoActive(root, m, i) {
+  var pre = i < 0, ci = pre ? 0 : i, r = mesoRir(m, ci), dl = mesoIsDeload(m, ci), wk = wkAdd(m.start, ci), vol = computeWeeklyVolume(wk);
+  var h = '<div class="balSum"><div class="msKick">' + (pre ? "Empieza la semana que viene" : (dl ? "Semana de descarga" : "Semana de carga")) + '</div>' +
+    '<div class="balSumTop"><div><div class="balSumBig">' + (ci + 1) + '<span>/' + mesoWeeks(m) + '</span></div><div class="balSumLab">semana del mesociclo</div></div>' +
+    '<div class="balSumSide"><div class="balSumBig sm">RIR ' + r.label + '</div><div class="balSumLab">objetivo en las series de trabajo</div></div></div>' + mesoSegs(m, pre ? -1 : ci) +
+    '<div class="balSumTxt">' + (dl ? "Hacé más o menos la mitad de las series, con cargas livianas y lejos del fallo. Es para recuperarte, no para progresar." :
+      ci === m.acc - 1 ? "Última semana de carga: es la más exigente. Cerca del fallo, cuidando la técnica." :
+      "Llevá las series de trabajo a " + r.label + " repeticiones en reserva. Si un día estás cansado, mejor quedarte un poco corto que pasarte.") + '</div>' +
+    '<div class="msRange">' + mesoRangeLabel(m) + '</div></div>';
+  if (!pre) {
+    h += '<div class="balSecHead">Esta semana: hechas / objetivo</div><div class="balCard">';
+    VOLUME_GROUPS.forEach(function(g) {
+      var t = mesoTarget(m, g, ci), dn = vol[g] || 0, pct = t > 0 ? Math.min(100, dn / t * 100) : 0, z = dn >= t - 0.5 ? "ok" : "";
+      h += '<div class="msWkRow"><span class="msWkName">' + displayGroup(g) + '</span><div class="msWkBar"><i class="' + z + '" style="width:' + pct.toFixed(1) + '%"></i></div><span class="msWkNum"><b>' + fmtSets(dn) + '</b>/' + t + '</span></div>';
+    });
+    h += '</div>';
+  }
+  h += '<div class="balSecHead">Plan completo</div>' + mesoTableHtml(m, pre ? -1 : ci, true);
+  h += '<div class="msSetSub">P = prioridad · M = mantener. En verde, las semanas en las que llegaste al objetivo; en ámbar, las que quedaste corto o te pasaste por más de 3 series.</div>';
+  h += '<button class="tmGhost wide msBtn" id="msEdit">Rehacer el plan</button><button class="tmStopBtn wide msBtn" id="msEnd">Terminar el mesociclo ahora</button>';
+  root.innerHTML = h;
+  document.getElementById("msEdit").onclick = function(){ mesoDraft = { acc: m.acc, startNext: false, keepStart: m.start, focus: JSON.parse(JSON.stringify(m.focus || {})) }; renderMeso(); };
+  document.getElementById("msEnd").onclick = function() {
+    if (!confirm("¿Terminar el mesociclo? Vas a ver el resumen de lo que hiciste hasta ahora.")) return;
+    if (mesoIdx(m) < 0) { mesoSave(null); mesoDraft = null; renderMeso(); return; }
+    m.endedAt = getWeekKey(new Date()); mesoSave(m); renderMeso(); renderHome();
+  };
+}
+// Resumen del bloque: series hechas vs plan por grupo y cambios de fuerza (1RM estimado)
+function mesoSummary(m) {
+  var W = m.endedAt ? Math.max(1, Math.min(m.acc, mesoIdx(m, m.endedAt) + 1)) : m.acc, groups = [], vols = [];
+  for (var i = 0; i < W; i++) vols.push(computeWeeklyVolume(wkAdd(m.start, i)));
+  VOLUME_GROUPS.forEach(function(g) {
+    var plan = 0, done = 0, over = 0;
+    for (var i = 0; i < W; i++) { plan += mesoTarget(m, g, i); var dn = vols[i][g] || 0; done += dn; if (dn > LANDMARKS[g].mrv) over++; }
+    groups.push({ g: g, plan: plan / W, done: done / W, adh: plan > 0 ? done / plan : 1, over: over });
+  });
+  var lastWk = wkAdd(m.start, W - 1), lifts = [];
+  getAllEx().forEach(function(e) {
+    var S = exSessions(e.name).filter(function(s){ var w = getWeekKey(s.date); return w >= m.start && w <= lastWk && s.rm > 0; });
+    if (S.length < 2) return;
+    var a = S[0].rm, b = S[S.length - 1].rm; lifts.push({ name: e.name, a: a, b: b, pct: (b - a) / a * 100 });
+  });
+  lifts.sort(function(x, y){ return y.pct - x.pct; });
+  return { weeks: W, groups: groups, lifts: lifts };
+}
+function renderMesoEnd(root, m) {
+  var s = mesoSummary(m), up = s.lifts.filter(function(l){ return l.pct > 0.5; }).length, down = s.lifts.filter(function(l){ return l.pct < -0.5; }).length;
+  var h = '<div class="balSum"><div class="msKick">Mesociclo terminado</div><div class="balSumTop"><div><div class="balSumBig">' + s.weeks + '<span> sem.</span></div><div class="balSumLab">de carga</div></div>' +
+    '<div class="balSumSide"><div class="balSumBig sm">' + up + '<span>/' + s.lifts.length + '</span></div><div class="balSumLab">ejercicios con más 1RM estimado</div></div></div>' +
+    '<div class="msRange">' + mesoRangeLabel(m) + '</div></div>';
+  h += '<div class="balSecHead">Series por semana: hechas vs plan (promedio)</div><div class="balCard">';
+  s.groups.forEach(function(x) {
+    var note = x.over ? "pasaste el MRV " + x.over + (x.over === 1 ? " semana" : " semanas") : x.adh >= 0.9 ? "cumpliste el plan" : x.adh >= 0.6 ? "un poco por debajo" : "bastante por debajo";
+    h += '<div class="msWkRow"><span class="msWkName">' + displayGroup(x.g) + '</span><div class="msWkBar"><i class="' + (x.adh >= 0.9 && !x.over ? "ok" : x.over ? "over" : "") + '" style="width:' + Math.min(100, x.adh * 100).toFixed(1) + '%"></i></div><span class="msWkNum"><b>' + fmtSets(x.done) + '</b>/' + fmtSets(x.plan) + '</span></div><div class="msNote">' + note + '</div>';
+  });
+  h += '</div>';
+  if (s.lifts.length) {
+    h += '<div class="balSecHead">Fuerza: 1RM estimado al inicio y al final</div><div class="balCard">';
+    s.lifts.slice(0, 8).forEach(function(l) {
+      h += '<div class="balDetRow"><span>' + escHtml(l.name) + '</span><span>' + exhFmt(l.a, "kg") + ' → <b class="' + (l.pct > 0.5 ? "exhUp" : l.pct < -0.5 ? "exhDown" : "") + '">' + exhFmt(l.b, "kg") + '</b></span></div>';
+    });
+    if (down) h += '<div class="msNote">' + down + (down === 1 ? " ejercicio bajó" : " ejercicios bajaron") + ': si coincide con mucho volumen, puede ser fatiga acumulada.</div>';
+    h += '</div>';
+  }
+  h += '<div class="balNote">Para el próximo bloque: si cumpliste el plan y te recuperaste bien, podés subir 1 o 2 series el mínimo efectivo de esos grupos en Balance › Ajustes. Si no llegaste o terminaste muy cansado, repetí los mismos rangos.</div>';
+  h += '<button class="tmPrimary wide" id="msNext">Planificar el próximo mesociclo</button>';
+  root.innerHTML = h;
+  document.getElementById("msNext").onclick = function() {
+    var hist = mesoHist(); var sm = mesoSummary(m);
+    hist.push({ start: m.start, acc: m.acc, focus: m.focus, weeks: sm.weeks, groups: sm.groups.map(function(x){ return { g: x.g, plan: Math.round(x.plan * 10) / 10, done: Math.round(x.done * 10) / 10 }; }) });
+    safeStore("gymMesoHist", JSON.stringify(hist.slice(-20)));
+    mesoSave(null); mesoDraft = { acc: m.acc, startNext: false, focus: JSON.parse(JSON.stringify(m.focus || {})) };
+    renderMeso();
+  };
+}
+
+// ============================================================
+// ALERTAS DE SALTO DE CARGA (tendones y articulaciones se adaptan mas lento que el musculo)
+// ============================================================
+var ALERT_DEF = { on: true, exPct: 10, musclePct: 30 };
+function alertCfg() {
+  var c = {}; try { c = JSON.parse(localStorage.getItem("gymAlertCfg") || "{}") || {}; } catch(e) {}
+  for (var k in ALERT_DEF) if (c[k] === undefined) c[k] = ALERT_DEF[k];
+  return c;
+}
+function saveAlertCfg(c) { safeStore("gymAlertCfg", JSON.stringify(c)); }
+// Peso de trabajo maximo en las ultimas 3 sesiones antes de hoy
+function recentMaxWeight(name) {
+  var today = localDay(), S = exSessions(name).filter(function(s){ return !(s.dated && s.key === today); });
+  S = S.slice(-3); var mx = 0; S.forEach(function(s){ if (s.peso > mx) mx = s.peso; });
+  return { max: mx, n: S.length };
+}
+// Devuelve el aviso si el peso salta mas del umbral sobre el maximo reciente (y mas de 2,5 kg)
+function loadJumpCheck(name, weight) {
+  var c = alertCfg(); if (!c.on) return null;
+  var w = parseFloat(weight) || 0; if (w <= 0) return null;
+  var r = recentMaxWeight(name); if (!r.n || r.max <= 0) return null;
+  var pct = (w - r.max) / r.max * 100;
+  if (pct > c.exPct && w - r.max > 2.5) return { w: w, base: r.max, pct: pct };
+  return null;
+}
+// Tonelaje semanal efectivo por grupo (kg x reps; principal 1, secundarios 0,5)
+function weeklyTonnage(wk) {
+  var wd = gymData[wk] || {}, out = {}, nameToGroup = {};
+  VOLUME_GROUPS.forEach(function(g){ out[g] = 0; });
+  getAllEx().forEach(function(e){ nameToGroup[e.name] = e.group; });
+  Object.keys(wd).forEach(function(n) {
+    var sets = wd[n]; if (!Array.isArray(sets)) return;
+    var m = getExerciseMuscles(n, nameToGroup[n]); if (!m) return;
+    var t = 0;
+    sets.forEach(function(x){ if (!x || x.warmup || x.rir >= 4) return; t += (parseFloat(x.weight) || 0) * (parseFloat(x.reps) || 0); });
+    if (!t) return;
+    if (out.hasOwnProperty(m.agonist)) out[m.agonist] += t;
+    m.synergists.forEach(function(s){ if (out.hasOwnProperty(s)) out[s] += t * 0.5; });
+  });
+  return out;
+}
+// Grupos cuyo tonelaje de la semana supera el promedio de las 4 anteriores (con al menos 2 con datos)
+function muscleJumps(wk) {
+  var c = alertCfg(), res = {}; if (!c.on) return res;
+  var cur = weeklyTonnage(wk), prev = [];
+  for (var i = 1; i <= 4; i++) prev.push(weeklyTonnage(wkAdd(wk, -i)));
+  var dl = mesoActive(wkAdd(wk, -1));   // la semana despues de una descarga sube siempre: no se compara contra la descarga
+  VOLUME_GROUPS.forEach(function(g) {
+    var vals = prev.map(function(p){ return p[g]; }).filter(function(v, i){ return v > 0 && !(i === 0 && dl && dl.deload); });
+    if (vals.length < 2 || !cur[g]) return;
+    var avg = vals.reduce(function(a, b){ return a + b; }, 0) / vals.length, pct = (cur[g] - avg) / avg * 100;
+    if (pct > c.musclePct) res[g] = { pct: pct, cur: cur[g], avg: avg };
+  });
+  return res;
+}
+function fmtKg(v) { return Math.round(v).toLocaleString("es-AR") + " kg"; }
+function renderAlertSettings(div) {
+  var c = alertCfg(), card = document.createElement("div"); card.className = "balCard";
+  card.innerHTML = '<div class="balSetName">Alertas de salto de carga</div>' +
+    '<div class="msSetSub" style="margin:2px 0 8px">Tendones y articulaciones se adaptan más lento que el músculo. La app te avisa (sin bloquear nada) cuando la carga sube de golpe.</div>' +
+    '<div class="lmRow"><div class="lmLabel">Avisos activados</div><span></span><button class="alTog' + (c.on ? " on" : "") + '" id="alOn" aria-pressed="' + c.on + '"><i></i></button><span></span></div>' +
+    '<div class="lmRow"><div class="lmLabel">Peso de un ejercicio sobre tu máximo reciente</div><button class="lmBtn" data-k="exPct" data-d="-5">&minus;</button><div class="lmVal">' + c.exPct + '%</div><button class="lmBtn" data-k="exPct" data-d="5">+</button></div>' +
+    '<div class="lmRow"><div class="lmLabel">Tonelaje semanal de un grupo sobre su promedio</div><button class="lmBtn" data-k="musclePct" data-d="-5">&minus;</button><div class="lmVal">' + c.musclePct + '%</div><button class="lmBtn" data-k="musclePct" data-d="5">+</button></div>';
+  div.appendChild(card);
+  card.querySelector("#alOn").onclick = function(){ c.on = !c.on; saveAlertCfg(c); renderBalanceSettings(); };
+  card.querySelectorAll("[data-k]").forEach(function(b){ b.onclick = function() {
+    var k = b.getAttribute("data-k"); c[k] = Math.max(5, Math.min(100, c[k] + (+b.getAttribute("data-d")))); saveAlertCfg(c); renderBalanceSettings();
+  }; });
+}
+
+
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
 var dragSrcIdx = null;
@@ -6004,6 +6656,9 @@ var GUIDE_SECTIONS = [
     icon: "&#9881;",
     items: [
       { icon:"&#9201;", title:"Tiempos", desc:"Desde el icono de cronometro de arriba: descanso, intervalos (Tabata), EMOM, AMRAP y cronometro con vueltas. Guarda tus configuraciones con nombre en Mis tiempos. Con la pantalla bloqueada suena una alarma en cada cambio de fase." },
+      { icon:"&#9636;", title:"Mesociclos", desc:"Desde la tarjeta Mesociclo del inicio planificás un bloque de 3 a 8 semanas de carga más una de descarga. Elegís el foco de cada grupo (mantener, normal o prioridad) y la app sube las series semana a semana desde el mínimo efectivo y baja el RIR de 3 a 0–1. El Balance marca el objetivo de cada semana y al terminar ves un resumen con lo que hiciste y cómo cambió tu fuerza." },
+      { icon:"&#9638;", title:"Datos del ejercicio", desc:"Cada ejercicio tiene equipo, patrón de movimiento, zona que trabaja, dónde carga el músculo (estirado, medio o contraído), relación estímulo/fatiga (SFR) y demanda articular. Son estimados a partir del nombre y los podés corregir. Además sugiere alternativas con mejor SFR. Están en la biblioteca y en los 3 puntos de cada ejercicio." },
+      { icon:"&#9888;", title:"Alertas de salto de carga", desc:"Si registrás un peso mucho mayor que tu máximo reciente, o el tonelaje semanal de un grupo sube de golpe respecto de tus últimas semanas, aparece un aviso (no bloquea nada). Los umbrales se cambian en Balance › Ajustes." },
       { icon:"RIR", title:"RIR (reps en reserva)", desc:"Al tocar ✓ en una serie de trabajo aparece ¿Cuántas reps te quedaban?: 0 es al fallo, 4+ es lejos del fallo. Las series con 4+ RIR no cuentan como volumen efectivo en el Balance." },
       { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
@@ -6438,9 +7093,16 @@ function closeExVideo() {
 function openLibDetail(name, group, color, inRoutine) {
   document.getElementById("libDetailName").textContent = name;
   var grpEl = document.getElementById("libDetailGroup");
-  grpEl.textContent = group; grpEl.style.color = color;
+  grpEl.textContent = displayGroup(group); grpEl.style.color = color;
   var statusEl = document.getElementById("libDetailStatus");
   statusEl.textContent = inRoutine ? "Est\u00e1 en tus rutinas" : "";
+  var metaEl = document.getElementById("libDetailMeta");
+  if (metaEl) {
+    var mm = exMeta(name, group); metaEl.innerHTML = "";
+    exMetaChips(mm).forEach(function(t){ var sp = document.createElement("span"); sp.textContent = t; metaEl.appendChild(sp); });
+    var more = document.createElement("span"); more.className = "more"; more.textContent = "Ver datos \u203a"; metaEl.appendChild(more);
+    metaEl.onclick = function(){ openExData(name, group, false); };
+  }
   var addBtn = document.getElementById("libDetailAddBtn");
   addBtn.style.background = inRoutine ? "#182030" : color;
   addBtn.style.color = inRoutine ? "#555" : "#000";
@@ -6623,6 +7285,7 @@ renderHome();
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><div class="trClock" id="trClock" title="Tiempo de la sesi&oacute;n"></div><button class="trFinishTop" onclick="trainFinish()">Terminar</button></div>
     </div>
     <div class="trDayChips" id="trDayChips"></div>
+    <div class="trMeso" id="trMeso"></div>
     <div class="trHint" id="trHint">En gris, lo que hiciste la &uacute;ltima vez: &#10003; lo registra igual, o escrib&iacute; los valores nuevos.</div>
     <div id="trList"></div>
   </div>
@@ -6654,6 +7317,17 @@ renderHome();
       <button class="sheetClose" onclick="closeTrSheet()">&#10005;</button>
     </div>
     <div id="trSheetBody" style="overflow-y:auto"></div>
+  </div>
+</div>
+
+<!-- MESOCICLO -->
+<div id="mesoScreen" class="screen">
+  <div style="padding:20px 16px 40px;overflow-y:auto;flex:1">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+      <button class="backBtn" onclick="mesoDraft=null;showScreen('homeScreen')" aria-label="Volver">&#8249;</button>
+      <span style="font-size:20px;font-weight:800;flex:1">Mesociclo</span>
+    </div>
+    <div id="msRoot"></div>
   </div>
 </div>
 
@@ -6773,6 +7447,7 @@ renderHome();
       <div id="libDetailGroup" style="font-size:12px;font-weight:600;margin-bottom:4px"></div>
       <div id="libDetailName" style="color:#fff;font-size:18px;font-weight:800;line-height:1.2;margin-bottom:2px"></div>
       <div id="libDetailStatus" style="font-size:12px;color:#555"></div>
+      <div class="libMeta" id="libDetailMeta"></div>
     </div>
     <div id="libDetailDesc" style="padding:0 16px 4px;overflow-y:auto;max-height:220px"></div>
     <div class="libManage" id="libDetailManage" style="display:none"></div>
