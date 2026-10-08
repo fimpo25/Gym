@@ -536,6 +536,21 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .tmRun .tmBtnRow{width:100%}
 .tmStopBtn{flex:1;border:1px solid #FF5C7A66;background:#FF5C7A12;color:#FF5C7A;border-radius:14px;font-size:15px;font-weight:800;padding:15px;cursor:pointer}
 @media (prefers-reduced-motion:reduce){.tmBar{transition:none}}
+
+/* ---- Superseries ---- */
+.rtEdRow.ssTop,.trEx.ssTop{border-left:3px solid var(--primary);border-bottom-left-radius:4px;border-bottom-right-radius:4px;margin-bottom:0}
+.rtEdRow.ssBot,.trEx.ssBot{border-left:3px solid var(--primary);border-top-left-radius:4px;border-top-right-radius:4px}
+.trEx.ssTop{margin-bottom:0}
+.trEx.ssTop + .trEx.ssBot{margin-top:2px}
+.ssCon{display:flex;justify-content:center;margin:-2px 0 6px}
+.ssCon.on{margin:0;padding:0 0 0 0;border-left:3px solid var(--primary);background:var(--surface)}
+.ssConBtn{border:1px dashed var(--border);background:transparent;color:var(--text-3);border-radius:10px;padding:5px 12px;font-size:12.5px;font-weight:600;cursor:pointer}
+.ssCon.on .ssConBtn{border:none;color:var(--primary);width:100%;display:flex;align-items:center;justify-content:center;gap:8px;padding:6px 10px}
+.ssChain{font-size:14px}
+.ssSep{margin-left:auto;color:var(--text-3);font-weight:600;text-decoration:underline}
+.ssFar{display:flex;align-items:center;gap:10px;justify-content:space-between;color:var(--energy);font-size:12.5px;margin:-4px 2px 8px 6px}
+.ssFarBtn{border:1px solid #FFB02066;background:transparent;color:var(--energy);border-radius:9px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0}
+.trEx.ssFlash{box-shadow:0 0 0 2px var(--primary)}
 </style>
 </head>
 <body>
@@ -4433,13 +4448,22 @@ function trainCompleteSet(name, idx) {
   s._saved = true; delete s._ph; if (!s.t) s.t = Date.now();
   saveTrainEx(name);
   trainSessionStart();
-  var rest = trainSetRest(name, s);
-  resetTimer(); timerTotal = rest; timerLeft = rest; timerDone = false; autoStartTimer();
+  // Superserie: tras el primer ejercicio no hay descanso; se pasa al segundo.
+  var fr = findRoutine(trainRoutineId), rxs = fr ? fr.routine.exercises : [], pIdx = supersets[name] ? rxs.indexOf(supersets[name]) : -1;
+  var goPartner = pIdx >= 0 && pIdx === rxs.indexOf(name) + 1;
+  if (!goPartner) {
+    var rest = trainSetRest(name, s);
+    resetTimer(); timerTotal = rest; timerLeft = rest; timerDone = false; autoStartTimer();
+  }
   if (!s.warmup) {
     var w = parseFloat(s.weight) || 0, r = parseFloat(s.reps) || 0;
     if (w * r > 0 && (!prevPR || w > prevPR.maxWeight || r > prevPR.maxReps || w * r > prevPR.maxVol)) setTimeout(function(){ showPRToast(name); }, 150);
   }
   renderTrain();
+  if (goPartner) {
+    var pb = document.querySelector('.trEx[data-ex="' + supersets[name].replace(/"/g, '\\"') + '"]');
+    if (pb) { pb.scrollIntoView({ behavior: "smooth", block: "center" }); pb.classList.add("ssFlash"); setTimeout(function(){ pb.classList.remove("ssFlash"); }, 900); }
+  }
 }
 function trainAddSet(name) {
   var sets = getTrainSets(name), last = sets[sets.length - 1];
@@ -4622,7 +4646,10 @@ function renderTrain() {
   var anyPh = false;
   exs.forEach(function(ex) {
     var name = ex.name, key = trainKey(name), sets = getTrainSets(name);
-    var blk = document.createElement("div"); blk.className = "trEx";
+    var blk = document.createElement("div"); blk.className = "trEx"; blk.dataset.ex = name;
+    var rx = found.routine.exercises, myI = rx.indexOf(name), pt = supersets[name];
+    if (pt && rx[myI + 1] === pt) blk.classList.add("ssTop");
+    if (pt && rx[myI - 1] === pt) blk.classList.add("ssBot");
     // Encabezado
     var hd = document.createElement("div"); hd.className = "trExHead";
     var ttl = document.createElement("div"); ttl.className = "trExTitle";
@@ -4891,6 +4918,34 @@ function renderRoutineEditor() {
     var rm = document.createElement("button"); rm.className = "rtEdBtn danger"; rm.innerHTML = "&#10005;"; rm.setAttribute("aria-label", "Quitar de la rutina");
     rm.onclick = function(){ r.exercises.splice(i, 1); persistRoutines(); renderRoutineEditor(); };
     row.appendChild(up); row.appendChild(dn); row.appendChild(rm); list.appendChild(row);
+    var prev = r.exercises[i - 1], next = r.exercises[i + 1], partner = supersets[name];
+    if (partner && partner === next) row.classList.add("ssTop");
+    if (partner && partner === prev) row.classList.add("ssBot");
+    // Superserie con un ejercicio que no esta al lado: ofrecer juntarlos
+    if (partner && partner !== next && partner !== prev && r.exercises.indexOf(partner) >= 0) {
+      var far = document.createElement("div"); far.className = "ssFar";
+      far.appendChild(document.createTextNode("Superserie con " + partner + " (no est\u00e1 al lado)"));
+      var jn = document.createElement("button"); jn.className = "ssFarBtn"; jn.textContent = "Juntar";
+      jn.onclick = function(){ var k = r.exercises.indexOf(partner); r.exercises.splice(k, 1); var me = r.exercises.indexOf(name); r.exercises.splice(me + 1, 0, partner); persistRoutines(); renderRoutineEditor(); };
+      far.appendChild(jn); list.appendChild(far);
+    }
+    // Conector con el siguiente
+    if (next) {
+      var con = document.createElement("div"); con.className = "ssCon" + (partner === next ? " on" : "");
+      var cb = document.createElement("button"); cb.className = "ssConBtn";
+      if (partner === next) {
+        cb.innerHTML = "<span class=\"ssChain\">&#8645;</span> Superserie <span class=\"ssSep\">Separar</span>";
+        cb.onclick = function(){ ssUnlink(name); renderRoutineEditor(); };
+      } else {
+        cb.innerHTML = "+ Unir en superserie";
+        cb.onclick = function(){
+          var busy = [name, next].filter(function(n){ return supersets[n]; });
+          if (busy.length && !confirm(busy.map(function(n){ return n + " ya est\u00e1 en superserie con " + supersets[n]; }).join("\n") + "\n\n\u00bfUnir igual? La superserie anterior se deshace.")) return;
+          ssLink(name, next); renderRoutineEditor();
+        };
+      }
+      con.appendChild(cb); list.appendChild(con);
+    }
   });
   document.getElementById("rtEditStart").style.display = r.exercises.length ? "block" : "none";
 }
@@ -5481,9 +5536,14 @@ function openSupersetFor(exName) {
 }
 
 function setSupersetPair(a, b) {
-  supersets[a] = b; supersets[b] = a;
-  persistSupersets(); closeSupersetOverlay(); renderExercises();
+  ssLink(a, b); closeSupersetOverlay(); renderExercises();
 }
+// Une a y b; si alguno ya estaba en otra superserie, esa se deshace primero.
+function ssLink(a, b) {
+  [a, b].forEach(function(n){ var o = supersets[n]; if (o) { if (supersets[o] === n) delete supersets[o]; delete supersets[n]; } });
+  supersets[a] = b; supersets[b] = a; persistSupersets();
+}
+function ssUnlink(a) { var b = supersets[a]; delete supersets[a]; if (b && supersets[b] === a) delete supersets[b]; persistSupersets(); }
 function removeSupersetPair(a) {
   var b = supersets[a];
   delete supersets[a]; if (b) delete supersets[b];
