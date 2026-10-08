@@ -5348,7 +5348,7 @@ function tmUpdateRun(st) {
   else if (p.round) info.textContent = "Ronda " + p.round + " de " + tmRun.cfg.rounds;
   else info.textContent = "";
   var nx = tmRun.phases[st.idx + 1];
-  next.textContent = nx ? "Sigue: " + nx.label + " " + tmFmt(nx.secs) : "Último tramo";
+  next.textContent = tmRun.mode === "amrap" ? "" : (nx ? "Sigue: " + nx.label + " " + tmFmt(nx.secs) : "Último tramo");
 }
 
 
