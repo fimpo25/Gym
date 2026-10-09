@@ -836,6 +836,17 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .trAddRow .trAdd{border-top:none;margin-top:0;flex:1;width:auto;white-space:nowrap}
 .trAddRow .trAddW{flex:0 0 auto;color:var(--energy);text-align:right;padding-right:16px}
 .trSetLab small{display:block;font-size:9.5px;font-weight:700;color:var(--energy);opacity:.85;line-height:1;margin-top:1px}
+
+/* ---- Rutina en curso ---- */
+.liveBar{position:fixed;left:12px;right:12px;bottom:14px;z-index:70;display:flex;align-items:center;gap:10px;border:1px solid #22D3EE66;background:#0F1B24F2;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:16px;padding:11px 14px;color:var(--text);cursor:pointer;text-align:left;box-shadow:0 12px 32px rgba(0,0,0,.55);max-width:480px;margin:0 auto}
+.liveDot{width:9px;height:9px;border-radius:50%;background:var(--primary);flex-shrink:0;animation:rtPulse 1.6s ease-in-out infinite}
+.liveInfo{flex:1;min-width:0;display:flex;flex-direction:column}
+.liveName{font-size:14px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.liveTime{font-size:12.5px;color:var(--text-3);font-variant-numeric:tabular-nums}
+.liveRest{font-size:13px;font-weight:700;color:var(--primary);font-variant-numeric:tabular-nums;white-space:nowrap}
+.liveRest.urgent{color:var(--energy)}
+.liveGo{font-size:13.5px;font-weight:800;color:var(--primary)}
+body.hasLive .screen.active{padding-bottom:78px}
 </style>
 </head>
 <body>
@@ -2128,7 +2139,38 @@ function showScreen(id) {
   if (id === "fvScreen") { renderFV(); return; }
   if (id === "rmScreen") return;
   if (id === "homeScreen") renderHome();
+  if (typeof updateLiveBar === "function") updateLiveBar();
+  navSync(id);
 }
+// ---- Boton "atras" de Android: vuelve dentro de la app (cierra hojas o va a la pantalla anterior) en vez de salir ----
+var _navSkip = false;
+function navSync(id) {
+  try {
+    if (id !== "homeScreen") { if (!(history.state && history.state.gym)) history.pushState({ gym: 1 }, ""); }
+    else if (history.state && history.state.gym) { _navSkip = true; history.back(); }
+  } catch(e) {}
+}
+function closeTopOverlay() {
+  var ov = document.querySelectorAll(".overlay.show, .supersetOverlay.show, .libDetailOverlay.show, .guideOverlay.show");
+  if (ov.length) {
+    var top = ov[ov.length - 1];
+    if (top.id === "libDetailOverlay" && typeof closeLibDetail === "function") closeLibDetail();
+    else if (top.id === "exVideoOverlay" && typeof closeExVideo === "function") closeExVideo();
+    else top.classList.remove("show");
+    return true;
+  }
+  var d = document.getElementById("exDescOverlay");
+  if (d && d.style.display && d.style.display !== "none") { if (typeof closeExDesc === "function") closeExDesc(); else d.style.display = "none"; return true; }
+  return false;
+}
+window.addEventListener("popstate", function() {
+  if (_navSkip) { _navSkip = false; return; }
+  var act = document.querySelector(".screen.active");
+  if (closeTopOverlay()) { if (act && act.id !== "homeScreen") history.pushState({ gym: 1 }, ""); return; }
+  if (!act || act.id === "homeScreen") return;
+  var back = act.querySelector(".backBtn");
+  if (back) back.click(); else showScreen("homeScreen");
+});
 
 function renderHome() { renderWeekNav(); renderSummary(); renderFilters(); checkDayToggleVisibility(); renderExercises(); renderVolChartInSummary(); if (typeof renderRoutinesHome === "function") renderRoutinesHome(); }
 function renderVolChartInSummary() {
@@ -4769,12 +4811,32 @@ function trainDaysWithExercises() {
   for (var d = 0; d < 7; d++) if (trainExercisesForDay(d).length) days.push(d);
   return days;
 }
-function openRoutine(id) {
+function openRoutine(id, force) {
   if (!findRoutine(id)) return;
-  trainRoutineId = id; trainWeek = getWeekKey(new Date()); trainEdit = {};
+  var ses = trainGetSession();
+  if (!force && ses && ses.routineId && ses.routineId !== id && findRoutine(ses.routineId)) { routineSwitchSheet(ses, id); return; }
+  var same = trainRoutineId === id && ses && ses.routineId === id;
+  trainRoutineId = id; trainWeek = getWeekKey(new Date());
+  if (!same) trainEdit = {};   // si volves a la rutina en curso, lo que tipeaste sigue ahi
   safeStore("gymLastRoutine", id);
+  trainSessionStart();
   prefetchRoutineMedia(id);
   showScreen("trainScreen");
+}
+function routineSwitchSheet(ses, newId) {
+  var cur = findRoutine(ses.routineId).routine, nu = findRoutine(newId).routine;
+  openTrSheet("Ten\u00e9s una rutina en curso", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<div class="exdIntro"><b style="color:#fff">' + escHtml(cur.name) + '</b> lleva ' + fmtDur(Math.floor((Date.now() - ses.t) / 1000)) + '. Para empezar <b style="color:#fff">' + escHtml(nu.name) + '</b> primero se guarda y termina la que est\u00e1 en curso.</div>';
+    body.appendChild(w);
+    trSheetBtn(body, "\u25B6&nbsp; Continuar " + escHtml(cur.name), function(){ openRoutine(ses.routineId, true); });
+    trSheetBtn(body, "\u2713&nbsp; Guardar " + escHtml(cur.name) + " y empezar " + escHtml(nu.name), function() {
+      trainRoutineId = ses.routineId; trainWeek = getWeekKey(new Date(ses.t));
+      trainSaveSession(); try { localStorage.removeItem("gymSessionStart"); } catch(e) {}
+      resetTimer(); trainEdit = {};
+      openRoutine(newId, true);
+    });
+  });
 }
 function prefetchRoutineMedia(id) {
   try {
@@ -5100,16 +5162,15 @@ function doSubstitute(newName, group) {
 }
 
 // ---- reloj de sesion y descanso flotante ----
+var SESSION_MAX_MS = 16 * 3600e3;   // una rutina abierta mas de 16 h se considera abandonada
 function trainSessionStart() {
-  var today = localDay(), cur = null;
-  try { cur = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
-  if (!cur || cur.d !== today) safeStore("gymSessionStart", JSON.stringify({ d: today, t: Date.now(), routineId: trainRoutineId }));
+  if (trainGetSession()) return;
+  safeStore("gymSessionStart", JSON.stringify({ d: localDay(), t: Date.now(), routineId: trainRoutineId }));
 }
+function fmtClock(sec) { var h = Math.floor(sec / 3600), m = Math.floor(sec % 3600 / 60), ss = sec % 60; return (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m + ":" + (ss < 10 ? "0" : "") + ss; }
 function trainSessionText() {
-  var cur = null; try { cur = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
-  if (!cur || cur.d !== localDay()) return "";
-  var s = Math.floor((Date.now() - cur.t) / 1000), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), ss = s % 60;
-  return (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m + ":" + (ss < 10 ? "0" : "") + ss;
+  var cur = trainGetSession(); if (!cur) return "";
+  return fmtClock(Math.max(0, Math.floor((Date.now() - cur.t) / 1000)));
 }
 function trainAdjustRest(delta) {
   if (!timerRunning) return;
@@ -5345,16 +5406,7 @@ function askText(title, placeholder, initial, okLabel, cb) {
 function renderRoutinesHome() {
   var area = document.getElementById("routinesArea"); if (!area) return;
   var data = routinesData(); area.innerHTML = "";
-  // Rutina en curso
-  var ses = trainGetSession();
-  if (ses && ses.routineId && findRoutine(ses.routineId)) {
-    var cur = findRoutine(ses.routineId);
-    var bn = document.createElement("button"); bn.className = "rtLive";
-    bn.innerHTML = "<span class=\"rtLiveDot\"></span><span class=\"rtLiveTxt\">Rutina en curso: <b></b></span><span class=\"rtLiveGo\">Continuar</span>";
-    bn.querySelector("b").textContent = cur.routine.name;
-    bn.onclick = function(){ openRoutine(ses.routineId); };
-    area.appendChild(bn);
-  }
+  // La rutina en curso se muestra en la barra flotante de abajo (liveBar)
   area.appendChild(Updater.card());
   area.appendChild(mesoHomeCard());
   var head = document.createElement("div"); head.className = "rtHead";
@@ -5556,7 +5608,7 @@ function libShowHidden() {
 // ---- Sesiones guardadas ----
 function trainGetSession() {
   var cur = null; try { cur = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
-  if (!cur || cur.d !== localDay()) return null;
+  if (!cur || !cur.t || Date.now() - cur.t > SESSION_MAX_MS) return null;
   return cur;
 }
 function loadSessions() { try { return JSON.parse(localStorage.getItem("gymSessions") || "[]") || []; } catch(e) { return []; } }
@@ -5587,9 +5639,7 @@ function trainFinish() {
         "<div class=\"finEx\">" + sum.exercises.map(function(e){ return "<div><span>" + escHtml(e.name) + "</span><span>" + e.sets + (e.sets === 1 ? " serie" : " series") + "</span></div>"; }).join("") + "</div>";
       var ok = document.createElement("button"); ok.className = "trSheetPrimary"; ok.textContent = "Guardar y terminar";
       ok.onclick = function() {
-        var list = loadSessions();
-        list.push({ id: newId(), start: sum.start, end: Date.now(), dur: dur, routineId: trainRoutineId, routine: f ? f.routine.name : "", folder: f ? f.folder.name : "", exercises: sum.exercises, totalSets: sum.totalSets, totalVol: sum.totalVol });
-        safeStore("gymSessions", JSON.stringify(list));
+        trainSaveSession();
         trainEndSession();
         showToast("Rutina guardada: " + fmtDur(dur) + ", " + sum.totalSets + (sum.totalSets === 1 ? " serie" : " series"));
       };
@@ -5604,12 +5654,39 @@ function trainFinish() {
     keep.onclick = closeTrSheet; body.appendChild(keep);
   });
 }
+// Guarda la rutina terminada (duracion desde que la empezaste) en el historial
+function trainSaveSession() {
+  var f = findRoutine(trainRoutineId), ses = trainGetSession(), sum = trainSessionSummary();
+  var dur = ses ? Math.max(0, Math.round((Date.now() - ses.t) / 1000)) : 0;
+  if (!sum.totalSets && !sum.exercises.length) return null;
+  var list = loadSessions(), rec = { id: newId(), start: ses ? ses.t : sum.start, end: Date.now(), dur: dur, routineId: trainRoutineId, routine: f ? f.routine.name : "", folder: f ? f.folder.name : "", exercises: sum.exercises, totalSets: sum.totalSets, totalVol: sum.totalVol };
+  list.push(rec); safeStore("gymSessions", JSON.stringify(list));
+  return rec;
+}
 function trainEndSession() {
   closeTrSheet();
   try { localStorage.removeItem("gymSessionStart"); } catch(e) {}
   resetTimer(); trainEdit = {};
   showScreen("homeScreen");
+  updateLiveBar();
 }
+function updateLiveBar() {
+  var bar = document.getElementById("liveBar"); if (!bar) return;
+  var ses = trainGetSession(), f = ses && ses.routineId ? findRoutine(ses.routineId) : null;
+  var act = document.querySelector(".screen.active"), onTrain = act && act.id === "trainScreen";
+  var show = !!(f && !onTrain);
+  bar.style.display = show ? "flex" : "none";
+  document.body.classList.toggle("hasLive", show);
+  if (!show) return;
+  var rest = "";
+  if (timerRunning) { var left = getTimerLeft(); rest = left > 0 ? "Descanso " + fmtRest(left) : "\u00a1Descanso terminado!"; }
+  else if (timerDone) rest = "\u00a1Descanso terminado!";
+  document.getElementById("liveName").textContent = f.routine.name;
+  document.getElementById("liveTime").textContent = trainSessionText();
+  var r = document.getElementById("liveRest"); r.textContent = rest; r.style.display = rest ? "" : "none";
+  r.className = "liveRest" + (timerDone || (timerRunning && getTimerLeft() <= 10) ? " urgent" : "");
+}
+setInterval(updateLiveBar, 1000);
 function renderSessionsInHistory() {
   var list = loadSessions(); if (!list.length) return "";
   var h = "<div class=\"sesHead\">Rutinas terminadas</div>";
@@ -7668,7 +7745,7 @@ var GUIDE_SECTIONS = [
       { icon:"&#10024;", title:"Consultar a Claude", desc:"Con el icono de destello de arriba (o en los 3 puntos de un ejercicio › Preguntar a Claude) elegís una pregunta o escribís la tuya. La app arma un resumen de tus datos (volumen por grupo, mesociclo, rutinas y últimas sesiones) y lo compartís con la app de Claude, donde recibís la respuesta. Si preferís, Copiar lo deja listo para pegar." },
       { icon:"C", title:"Calentamiento automático", desc:"En cada ejercicio, + Calentamiento agrega dos series de aproximación antes de las de trabajo: la primera al 45% y la segunda al 65% del peso que venís trabajando (lo que escribiste hoy, lo sugerido o la última vez), redondeado al disco o mancuerna más cercano. Si agregás una tercera, va al 80%. ✓ las registra tal cual." },
       { icon:"RIR", title:"RIR (reps en reserva)", desc:"Al tocar ✓ en una serie de trabajo aparece ¿Cuántas reps te quedaban?: 0 es al fallo, 4+ es lejos del fallo. Las series con 4+ RIR no cuentan como volumen efectivo en el Balance." },
-      { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
+      { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armás carpetas y adentro tus rutinas. Al tocar Empezar arranca el reloj de la rutina. Podés salir y moverte por toda la app: la rutina sigue en curso y abajo aparece una barra con el tiempo y el descanso; tocándola volvés. Lo que escribiste y no registraste se mantiene. Terminar guarda la rutina con su duración en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
       { icon:"1RM", title:"Calculadora 1RM", desc:"Estima tu maximo de una repeticion a partir de cualquier serie. Muestra multiples formulas y porcentajes utiles (90%, 80%, 70%, 60%). Se accede desde el header o desde el panel de carga de cada ejercicio." },
       { icon:"&#9898;", title:"Balance muscular", desc:"Series efectivas por grupo en la semana, comparadas con tus rangos (mantenimiento, mínimo efectivo, óptimo y máximo recuperable). En el mapa del cuerpo (frente y espalda) tocá un músculo para ver cuántas series le hiciste y qué ejercicios lo trabajan como principal o secundario. Los músculos de cada ejercicio salen de su ficha. En Ajustes cambiás los rangos." },
@@ -8289,6 +8366,14 @@ renderHome();
   </div>
 </div>
 
+
+<!-- RUTINA EN CURSO (visible en las otras pantallas) -->
+<button class="liveBar" id="liveBar" style="display:none" onclick="var s=trainGetSession(); if (s && s.routineId) openRoutine(s.routineId, true);">
+  <span class="liveDot"></span>
+  <span class="liveInfo"><span class="liveName" id="liveName"></span><span class="liveTime" id="liveTime"></span></span>
+  <span class="liveRest" id="liveRest"></span>
+  <span class="liveGo">Volver</span>
+</button>
 
 <!-- ENTRENAR HOY -->
 <div id="trainScreen" class="screen">
