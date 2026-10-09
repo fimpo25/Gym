@@ -799,6 +799,32 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .updFoot{display:flex;justify-content:center;align-items:center;gap:10px;color:#5F6B80;font-size:12px;margin:22px 0 4px}
 .updFoot:empty{display:none}
 .updCheck{background:transparent;border:none;color:var(--text-3);text-decoration:underline;font-size:12px;cursor:pointer;padding:4px}
+
+/* ---- Progresion, zonas y fuerza/volumen ---- */
+.trSug{display:flex;gap:10px;margin:0 12px 8px;background:#22D3EE0D;border:1px solid #22D3EE2E;border-radius:12px;padding:9px 11px}
+.trSug.up{background:#34D39910;border-color:#34D39940}
+.trSug.calib{background:#FFB0200D;border-color:#FFB02038}
+.trSugIco{width:26px;height:26px;border-radius:8px;background:#22D3EE1F;color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;flex-shrink:0}
+.trSug.up .trSugIco{background:#34D39922;color:#34D399}
+.trSug.calib .trSugIco{background:#FFB02022;color:var(--energy)}
+.trSugTxt{color:#fff;font-size:13.5px;font-weight:600;line-height:1.35}
+.trSugWhy{color:var(--text-3);font-size:12px;line-height:1.4;margin-top:2px;font-weight:400}
+.trSugStall{color:var(--energy);font-size:12px;margin-top:4px;font-weight:400}
+.zmSeg{margin:4px 0 6px}.zmSeg button{flex:1}
+.zmTbl{display:grid;grid-template-columns:1fr auto;gap:6px 12px;margin:10px 0 4px;font-size:13.5px;color:var(--text)}
+.zmTbl div:nth-child(even){color:var(--text-2);text-align:right;font-variant-numeric:tabular-nums}
+.zmTbl i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:7px}
+.balFV{display:block;width:100%;margin-top:10px;background:var(--surface-2);border:1px solid #22D3EE40;color:var(--primary);border-radius:11px;padding:10px;font-size:13.5px;font-weight:700;cursor:pointer}
+.fvPer{margin-bottom:12px}
+.fvHead{display:flex;justify-content:space-between;align-items:baseline;gap:8px;color:var(--text-3);font-size:12.5px;font-weight:600;margin-bottom:4px}
+.fvHead #fvRead{font-weight:400;font-variant-numeric:tabular-nums}.fvHead #fvRead b{color:#fff}
+#fvIdx,#fvSets{cursor:pointer;touch-action:manipulation}
+#fvIdx svg,#fvSets svg{display:block}
+.fvZRow{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:8px 0;border-top:1px solid #182030;font-size:13.5px;color:var(--text)}
+.fvZRow:first-child{border-top:none}
+.fvZName i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:7px}
+.fvZN{color:var(--text-3);font-size:12px}
+.fvZRow b{font-variant-numeric:tabular-nums;font-size:13.5px;min-width:86px;text-align:right}
 </style>
 </head>
 <body>
@@ -1875,7 +1901,7 @@ try { var sl = localStorage.getItem("gymLandmarks"); LANDMARKS = sl ? JSON.parse
 for (var _vg = 0; _vg < VOLUME_GROUPS.length; _vg++) {
   if (!LANDMARKS[VOLUME_GROUPS[_vg]]) LANDMARKS[VOLUME_GROUPS[_vg]] = JSON.parse(JSON.stringify(DEFAULT_LANDMARKS[VOLUME_GROUPS[_vg]]));
 }
-function persistLandmarks() { safeStore("gymLandmarks", JSON.stringify(LANDMARKS)); }
+function persistLandmarks() { safeStore("gymLandmarks", JSON.stringify(typeof LANDMARKS_RP !== "undefined" ? LANDMARKS_RP : LANDMARKS)); }
 
 // Mapeo ejercicio -> { agonist: grupo, synergists: [grupos] }
 // Se usa matching por palabras clave en el nombre del ejercicio (case-insensitive, sin acentos).
@@ -2084,9 +2110,10 @@ function showScreen(id) {
   if (id === "exHistScreen") return;
   if (id === "wsSummaryScreen") return;
   if (id === "prScreen") renderPRScreen();
-  if (id === "balanceScreen") { balanceWeek = activeWeek; setBalanceTab("week"); }
+  if (id === "balanceScreen") { var fvb = window._fvBack; window._fvBack = false; if (!fvb) balanceWeek = activeWeek; setBalanceTab(fvb ? balanceTab : "week"); }
   if (id === "tabataScreen") tmRender();
   if (id === "mesoScreen") renderMeso();
+  if (id === "fvScreen") { renderFV(); return; }
   if (id === "rmScreen") return;
   if (id === "homeScreen") renderHome();
 }
@@ -3234,7 +3261,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -3680,6 +3707,55 @@ var VOL_ZONES = {
   mrv:   { name: "Cerca del límite",    short: "Límite", color: "#FFB020" },
   over:  { name: "Sobre el MRV",             short: "Exceso",   color: "#FF5C7A" }
 };
+// ---- Modo de zonas: por musculo (Israetel / RP, editable) o segun la investigacion (iguales para todos) ----
+var LANDMARKS_RP = LANDMARKS;
+var LANDMARKS_INV_ONE = { mv: 2, mev: 4, mav_min: 10, mav_max: 20, mrv: 30 };
+var ZONE_NAMES = {
+  rp:  { under: "Debajo del mantenimiento", mv: "Mantenimiento", mev: "Mínimo efectivo", mav: "Rango óptimo", mrv: "Cerca del límite", over: "Sobre el MRV" },
+  inv: { under: "Muy bajo", mv: "Mantenimiento", mev: "Crecimiento", mav: "Alto y productivo", mrv: "Muy alto", over: "Más allá de lo estudiado" }
+};
+function zoneMode() { try { return localStorage.getItem("gymZoneMode") === "inv" ? "inv" : "rp"; } catch(e) { return "rp"; } }
+function applyZoneMode() {
+  var m = zoneMode();
+  if (m === "inv") { LANDMARKS = {}; VOLUME_GROUPS.forEach(function(g){ LANDMARKS[g] = JSON.parse(JSON.stringify(LANDMARKS_INV_ONE)); }); }
+  else LANDMARKS = LANDMARKS_RP;
+  for (var z in ZONE_NAMES[m]) VOL_ZONES[z].name = ZONE_NAMES[m][z];
+}
+function setZoneMode(m) { safeStore("gymZoneMode", m); applyZoneMode(); }
+// Textos del Balance segun el modo
+function zoneTxt(key, a, b) {
+  var inv = zoneMode() === "inv";
+  switch (key) {
+    case "inOpt": return inv ? "grupos con volumen alto y productivo" : "grupos en rango óptimo";
+    case "low": return inv ? "Con menos de 4 series (por debajo de lo que hace crecer): " : "Por debajo del mínimo efectivo: ";
+    case "allOk": return inv ? "Todos los grupos tienen volumen de crecimiento o más." : "Todos los grupos están en zona de estímulo.";
+    case "toMev": return inv ? "Faltan " + fmtSets(a) + " " + seriesWord(a) + " para crecer" : "Faltan " + fmtSets(a) + " " + seriesWord(a) + " para el MEV";
+    case "toMav": return inv ? "Faltan " + fmtSets(a) + " para volumen alto" : "Faltan " + fmtSets(a) + " para el óptimo";
+    case "mav": return inv ? "La franja con más respaldo para crecer" : "Buen estímulo de crecimiento";
+    case "mrv": return inv ? "Puede seguir sumando: vigilá la recuperación" : "Al límite de recuperación";
+    case "over": return inv ? "Hay pocos estudios con tanto volumen" : fmtSets(a) + " " + seriesWord(a) + " sobre el MRV";
+    case "ref": return inv ? "Crecimiento desde 4 · alto 10–20 · muy alto hasta 30" : "Óptimo " + a.mav_min + "–" + a.mav_max + " · MEV " + a.mev + " · MRV " + a.mrv;
+    case "warn": return inv ? "Más de 30 series en " : "Te pasaste del MRV en ";
+  }
+  return "";
+}
+function renderZoneModeCard(div) {
+  var m = zoneMode(), card = document.createElement("div"); card.className = "balCard";
+  var h = '<div class="balSetName">Zonas de volumen</div><div class="msSeg zmSeg"><button data-z="rp" class="' + (m === "rp" ? "on" : "") + '">Por músculo</button><button data-z="inv" class="' + (m === "inv" ? "on" : "") + '">Según la investigación</button></div>';
+  if (m === "rp") h += '<div class="msSetSub">Rangos de Israetel / Renaissance Periodization: distintos para cada músculo y ajustables abajo (mantenimiento, mínimo efectivo, óptimo y máximo recuperable).</div>';
+  else {
+    h += '<div class="msSetSub">Los mismos rangos para todos los grupos y niveles, según los estudios de dosis y respuesta: con pocas series ya hay crecimiento, y el músculo sigue respondiendo al subir el volumen, aunque cada serie extra aporta un poco menos.</div>';
+    h += '<div class="zmTbl">';
+    [["under", "menos de 2"], ["mv", "2 a 3"], ["mev", "4 a 9"], ["mav", "10 a 20"], ["mrv", "21 a 30"], ["over", "más de 30"]].forEach(function(r) {
+      h += '<div><i style="background:' + VOL_ZONES[r[0]].color + '"></i>' + ZONE_NAMES.inv[r[0]] + '</div><div>' + r[1] + ' series</div>';
+    });
+    h += '</div><div class="msSetSub"><b>Fuentes</b>: Schoenfeld, Ogborn y Krieger (2017), <i>J Sports Sci</i>; Baz-Valle y col. (2022), <i>J Hum Kinet</i>; Pelland y col. (2024), metarregresión en SportRxiv (preprint). Siguen contando solo las series de trabajo con 0 a 3 RIR.</div>';
+  }
+  card.innerHTML = h; div.appendChild(card);
+  card.querySelectorAll("[data-z]").forEach(function(b){ b.onclick = function(){ setZoneMode(b.getAttribute("data-z")); renderBalanceSettings(); }; });
+}
+
+applyZoneMode();
 var balanceWeek = null;
 var balanceOpen = {};   // grupo -> detalle desplegado
 function fmtSets(n) { return (Math.round(n * 2) / 2).toLocaleString("es-AR"); }
@@ -3734,14 +3810,14 @@ function renderBalance() {
   if (!anyData) verdict = wk === curWk ? "Todavía no registraste series esta semana." : "No hay series registradas en esa semana.";
   else {
     verdict = "";
-    if (high.length) verdict += '<span class="balWarn">Te pasaste del MRV en ' + high.join(", ") + ".</span> ";
-    if (low.length) verdict += "Por debajo del mínimo efectivo: " + low.join(", ") + ".";
-    if (!verdict) verdict = "Todos los grupos están en zona de estímulo.";
+    if (high.length) verdict += '<span class="balWarn">' + zoneTxt("warn") + high.join(", ") + ".</span> ";
+    if (low.length) verdict += zoneTxt("low") + low.join(", ") + ".";
+    if (!verdict) verdict = zoneTxt("allOk");
     var jk = Object.keys(jumps);
     if (jk.length) verdict += ' <span class="balWarn" style="color:var(--energy)">Salto de carga en ' + jk.map(displayGroup).join(", ") + '.</span>';
   }
   if (ms) verdict = '<b style="color:var(--primary)">Mesociclo · semana ' + (ms.i + 1) + ' de ' + mesoWeeks(ms.m) + (ms.deload ? ' (descarga)' : '') + ' · RIR objetivo ' + ms.rir.label + '.</b> La marca blanca en cada barra es el objetivo de series de esta semana.<br>' + verdict;
-  sum.innerHTML = '<div class="balSumTop"><div><div class="balSumBig">' + inOpt + '<span>/' + VOLUME_GROUPS.length + '</span></div><div class="balSumLab">grupos en rango óptimo</div></div>' +
+  sum.innerHTML = '<div class="balSumTop"><div><div class="balSumBig">' + inOpt + '<span>/' + VOLUME_GROUPS.length + '</span></div><div class="balSumLab">' + zoneTxt("inOpt") + '</div></div>' +
     '<div class="balSumSide"><div class="balSumBig sm">' + fmtSets(total) + '</div><div class="balSumLab">series efectivas</div></div></div>' +
     '<div class="balSumTxt">' + verdict + '</div>';
   div.appendChild(sum);
@@ -3777,13 +3853,13 @@ function renderBalance() {
     if (tgt !== null) gauge += '<div class="balTgt" style="left:' + pct(tgt) + '"></div>';
     gauge += '</div>';
     var hint;
-    if (cls.zone === "under" || cls.zone === "mv") { var f = l.mev - sets; hint = "Faltan " + fmtSets(f) + " " + seriesWord(f) + " para el MEV"; }
-    else if (cls.zone === "mev") { var f2 = l.mav_min - sets; hint = "Faltan " + fmtSets(f2) + " para el óptimo"; }
-    else if (cls.zone === "mav") hint = "Buen estímulo de crecimiento";
-    else if (cls.zone === "mrv") hint = "Al límite de recuperación";
-    else { var x = sets - l.mrv; hint = fmtSets(x) + " " + seriesWord(x) + " sobre el MRV"; }
+    if (cls.zone === "under" || cls.zone === "mv") { var f = l.mev - sets; hint = zoneTxt("toMev", f); }
+    else if (cls.zone === "mev") { var f2 = l.mav_min - sets; hint = zoneTxt("toMav", f2); }
+    else if (cls.zone === "mav") hint = zoneTxt("mav");
+    else if (cls.zone === "mrv") hint = zoneTxt("mrv");
+    else { var x = sets - l.mrv; hint = zoneTxt("over", x); }
     var bottom = '<div class="balRowBot"><span class="balZone" style="color:' + (sets > 0 ? z.color : "var(--text-3)") + '">' + z.name + '</span><span>' + hint + '</span></div>' +
-      '<div class="balRef">' + (tgt !== null ? '<b style="color:#fff">Objetivo del mesociclo: ' + tgt + '</b> · ' : '') + 'Óptimo ' + l.mav_min + '–' + l.mav_max + ' · MEV ' + l.mev + ' · MRV ' + l.mrv + '</div>' + (jumps[g] ? '<div class="balJump"><b>Salto de carga:</b> ' + fmtKg(jumps[g].cur) + ' de tonelaje, ' + Math.round(jumps[g].pct) + '% más que tu promedio de las últimas semanas (' + fmtKg(jumps[g].avg) + '). Subí de a poco para cuidar tendones.</div>' : '');
+      '<div class="balRef">' + (tgt !== null ? '<b style="color:#fff">Objetivo del mesociclo: ' + tgt + '</b> · ' : '') + zoneTxt("ref", l) + '</div>' + (jumps[g] ? '<div class="balJump"><b>Salto de carga:</b> ' + fmtKg(jumps[g].cur) + ' de tonelaje, ' + Math.round(jumps[g].pct) + '% más que tu promedio de las últimas semanas (' + fmtKg(jumps[g].avg) + '). Subí de a poco para cuidar tendones.</div>' : '');
     var detail = "";
     if (info.ex.length && balanceOpen[g]) {
       detail = '<div class="balDet">';
@@ -3801,8 +3877,9 @@ function renderBalance() {
       });
       detail += '</div>';
     }
+    if (balanceOpen[g]) detail += '<button class="balFV" data-fv="' + g + '">Fuerza y volumen de ' + displayGroup(g) + ' \u203a</button>';
     row.innerHTML = top + gauge + bottom + detail + (info.ex.length ? '<div class="balMore">' + (balanceOpen[g] ? "Ocultar ejercicios" : "Ver ejercicios (" + info.ex.length + ")") + '</div>' : "");
-    if (info.ex.length) row.onclick = function(){ balanceOpen[g] = !balanceOpen[g]; renderBalance(); };
+    if (info.ex.length) row.onclick = function(ev){ if (ev.target.closest && ev.target.closest(".balFV")) { window._fvBack = true; openFV(g); return; } balanceOpen[g] = !balanceOpen[g]; renderBalance(); };
     div.appendChild(row);
   });
 
@@ -4041,7 +4118,7 @@ var LANDMARK_LEVEL_NAMES = { beginner: "principiante", intermediate: "intermedio
 function applyLandmarkPreset(lvl) {
   if (!LANDMARK_PRESETS[lvl]) return;
   if (!confirm("Esto reemplaza tus rangos por los valores de nivel " + LANDMARK_LEVEL_NAMES[lvl] + ". ¿Seguir?")) return;
-  LANDMARKS = JSON.parse(JSON.stringify(LANDMARK_PRESETS[lvl]));
+  LANDMARKS_RP = LANDMARKS = JSON.parse(JSON.stringify(LANDMARK_PRESETS[lvl]));
   persistLandmarks();
   renderBalanceSettings();
 }
@@ -4066,6 +4143,8 @@ function renderBalanceSettings() {
   var intro = document.createElement("div"); intro.className = "balIntro";
   intro.textContent = "Cada persona tolera y responde a un volumen distinto. Ajustá los rangos de series semanales de cada grupo; son un punto de partida, no una regla.";
   div.appendChild(intro);
+  renderZoneModeCard(div);
+  if (zoneMode() === "inv") { renderAlertSettings(div); return; }
   var pc = document.createElement("div"); pc.className = "balCard";
   pc.innerHTML = '<div class="balSetHead">Valores por nivel</div><div class="balPresets">' +
     '<button onclick="applyLandmarkPreset(\'beginner\')">Principiante</button>' +
@@ -4717,6 +4796,7 @@ function trainLastSession(name) {
   return best;
 }
 var trainJump = {};   // ejercicio -> aviso de salto de carga de esta sesion
+var trainSug = {};    // ejercicio -> sugerencia de progresion para hoy
 var trainLast = {};   // ejercicio -> etiqueta de su ultima sesion (para mostrar "Ultima vez: ...")
 function trainPrevWeekSets(name) {
   for (var w = 1; w <= 8; w++) {
@@ -4731,6 +4811,7 @@ function getTrainSets(name) {
   var today = localDay(), wd = gymData[trainWeek] || {}, sets;
   var mine = (wd[name] || []).filter(function(x){ return setDay(x) === today; });
   delete trainLast[name];
+  try { trainSug[name] = progSuggest(name); } catch(e) { delete trainSug[name]; }
   if (mine.length) {
     sets = JSON.parse(JSON.stringify(mine));
     for (var i = 0; i < sets.length; i++) { delete sets[i].done; sets[i]._saved = true; }
@@ -4747,6 +4828,18 @@ function getTrainSets(name) {
         sets.push(x);
       }
     } else sets = [{ reps: "", weight: "" }];
+    // En gris va la sugerencia de hoy (peso y reps) en lugar de lo de la ultima vez
+    var sg = trainSug[name];
+    if (sg && sg.sets && sets.length && sets[0]._ph !== undefined) {
+      var wi = 0, keep = [];
+      sets.forEach(function(x) {
+        if (x.warmup) { keep.push(x); return; }
+        var t = sg.sets[wi++];
+        if (!t) { if (sg.mode !== "deload") keep.push(x); return; }
+        x._ph.weight = t.weight; x._ph.reps = String(t.reps); delete x._ph.rir; keep.push(x);
+      });
+      sets = keep;
+    }
   }
   trainEdit[name] = sets;
   return sets;
@@ -4849,6 +4942,8 @@ function trainExMenu(ex) {
   openTrSheet(ex.name, function(body) {
     trSheetBtn(body, "&#9654;&nbsp; Ver video y descripci&oacute;n", function(){ currentEx = ex; currentPartnerEx = null; openExVideo(); });
     trSheetBtn(body, "&#128200;&nbsp; Progreso e historial", function(){ showExHistory(ex.name, "trainScreen"); });
+    var rr = repRange(ex.name);
+    trSheetBtn(body, "&#8645;&nbsp; Rango de repeticiones (" + rr[0] + "&ndash;" + rr[1] + ")", function(){ setTimeout(function(){ trainRepRangeSheet(ex.name); }, 30); });
     trSheetBtn(body, "&#9638;&nbsp; Datos del ejercicio", function(){ setTimeout(function(){ openExData(ex.name, ex.group, true); }, 30); });
     trSheetBtn(body, "&#127947;&nbsp; Calculadora 1RM", function(){ trainOpenRM(ex.name); });
     trSheetBtn(body, "&#9998;&nbsp; Nota", function(){ trainNote(ex.name); });
@@ -5020,6 +5115,12 @@ function renderTrain() {
     var vt = document.createElement("span"); vt.className = "trExVol"; vt.textContent = volTot > 0 ? Math.round(volTot).toLocaleString("es-AR") + " kg" : "";
     hd.appendChild(ttl); hd.appendChild(vt); hd.appendChild(more); blk.appendChild(hd);
     if (trainLast[name]) { var lv = document.createElement("div"); lv.className = "trExLast"; lv.textContent = "\u00daltima vez: " + trainLast[name]; blk.appendChild(lv); }
+    if (trainSug[name]) {
+      var sg2 = trainSug[name], sgb = document.createElement("div"); sgb.className = "trSug " + sg2.mode;
+      var ico = { up: "\u2197", reps: "+1", hold: "=", down: "\u2198", calib: "\u25CE", deload: "\u2193" }[sg2.mode] || "\u2197";
+      sgb.innerHTML = '<span class="trSugIco">' + ico + '</span><div><div class="trSugTxt">' + escHtml(sg2.text) + '</div><div class="trSugWhy">' + escHtml(sg2.why) + '</div>' + (sg2.stall ? '<div class="trSugStall">' + escHtml(sg2.stall) + '</div>' : '') + '</div>';
+      blk.appendChild(sgb);
+    }
     if (trainJump[name] && !trainJump[name].ok) {
       var jw = trainJump[name], jb = document.createElement("div"); jb.className = "trJump";
       jb.innerHTML = "<b>Salto de carga:</b> " + exhFmt(jw.w, "kg") + " es " + Math.round(jw.pct) + "% m\u00e1s que tu m\u00e1ximo reciente (" + exhFmt(jw.base, "kg") + "). Tendones y articulaciones se adaptan m\u00e1s lento que el m\u00fasculo: si la t\u00e9cnica se rompe o molesta, volv\u00e9 al peso anterior.";
@@ -6657,6 +6758,7 @@ function renderBalanceMap(card, wk, vol) {
       h += '<div class="bmSec">De tus rutinas, como secundario</div>';
       L.sec.slice(0, 8).forEach(function(e){ h += '<button class="bmEx" data-n="' + escHtml(e.name) + '"><span>' + escHtml(e.name) + '</span><em>0,5 por serie</em></button>'; });
     }
+    h += '<button class="balFV" data-fvg="' + M.group + '">Fuerza y volumen de ' + displayGroup(M.group) + ' \u203a</button>';
     h += '<div class="bmNote">Los músculos de cada ejercicio salen de su ficha (principal y secundarios); si la ficha todavía no se descargó, se estiman por el nombre.</div></div>';
   }
   card.innerHTML = h;
@@ -6668,6 +6770,7 @@ function renderBalanceMap(card, wk, vol) {
     if (balanceMuscle) { var pn = card.querySelector(".bmPanel"); if (pn && pn.scrollIntoView) setTimeout(function(){ pn.scrollIntoView({ behavior: "smooth", block: "nearest" }); }, 30); }
   };
   var cl = card.querySelector(".bmClose"); if (cl) cl.onclick = function(){ balanceMuscle = null; renderBalanceMap(card, wk, vol); };
+  var fvb = card.querySelector("[data-fvg]"); if (fvb) fvb.onclick = function(){ window._fvBack = true; openFV(fvb.getAttribute("data-fvg")); };
   var mo = card.querySelector(".bmMore"); if (mo) mo.onclick = function(){ balanceMuscleAll = !balanceMuscleAll; renderBalanceMap(card, wk, vol); };
   card.querySelectorAll(".bmEx").forEach(function(b){ b.onclick = function() {
     var n = b.getAttribute("data-n"), g = exGroupOf(n), col = (GROUPS[g] || LIBRARY[g] || {}).color || "#22D3EE";
@@ -6785,6 +6888,223 @@ var Updater = (function() {
   }
   return { isNative: isNative, check: check, card: card, footer: footer, state: st };
 })();
+
+// ============================================================
+// PROGRESION: doble progresion con rango de repeticiones y RIR objetivo
+// ============================================================
+var repRanges = {};
+try { repRanges = JSON.parse(localStorage.getItem("gymRepRange") || "{}") || {}; } catch(e) { repRanges = {}; }
+var REP_RANGE_OPTS = [[4, 6], [6, 8], [6, 10], [8, 12], [10, 15], [12, 20], [15, 25]];
+function repRangeAuto(name) {
+  var m = exMeta(name), comp = ["empuje_horizontal", "empuje_vertical", "traccion_horizontal", "traccion_vertical", "sentadilla", "zancada", "bisagra"].indexOf(m.patron) >= 0;
+  if (["core_flexion", "core_rotacion", "core_estab", "gemelos", "abd_aduccion", "muneca"].indexOf(m.patron) >= 0) return [12, 20];
+  if (comp && (m.equipo === "barra" || m.equipo === "multipower")) return [6, 10];
+  if (comp && m.equipo === "peso_corporal" && exSessions(name).some(function(s){ return s.peso >= 20; })) return [6, 10];
+  if (comp) return [8, 12];
+  return [10, 15];
+}
+function repRange(name) { var r = repRanges[name]; return r && r.length === 2 ? r : repRangeAuto(name); }
+function weightStep(name, w) {
+  var e = exMeta(name).equipo;
+  if (e === "banda") return 0;
+  if (e === "peso_corporal") return w > 0 ? (w < 20 ? 1.25 : 2.5) : 0;   // con lastre o mal clasificado: se sube de a poco
+  if (e === "mancuerna") return w < 10 ? 1 : 2;
+  if (e === "kettlebell") return 4;
+  return w < 20 ? 1.25 : 2.5;
+}
+function roundStep(w, step) { return step ? Math.round(w / step) * step : w; }
+function fmtW(w) { return (Math.round(w * 100) / 100).toLocaleString("es-AR"); }
+// Sugerencia para la proxima sesion: { mode, text, why, sets: [{weight, reps}] (series de trabajo) }
+function progSuggest(name) {
+  var R = repRange(name), lo = R[0], hi = R[1];
+  var ms = mesoActive(trainWeek || getWeekKey(new Date())), tRir = ms ? ms.rir.num : 2, tRirTxt = ms ? ms.rir.label : "2";
+  var last = trainLastSession(name);
+  var work = last ? last.sets.filter(function(x){ return !x.warmup && (parseFloat(x.reps) || 0) > 0; }) : [];
+  if (!work.length) return { mode: "calib", text: "Calibración: elegí un peso con el que llegues a " + lo + "–" + hi + " reps dejando " + tRirTxt + " en reserva.", why: "Con esa primera serie la app conoce tu punto de partida y desde ahí te va sugiriendo.", sets: null };
+  var wTop = 0; work.forEach(function(x){ var w = parseFloat(x.weight) || 0; if (w > wTop) wTop = w; });
+  var top = work.filter(function(x){ return (parseFloat(x.weight) || 0) === wTop; });
+  var reps = top.map(function(x){ return parseFloat(x.reps) || 0; }), minR = Math.min.apply(null, reps), maxR = Math.max.apply(null, reps);
+  var rirs = top.filter(function(x){ return x.rir !== undefined && x.rir !== null; }).map(function(x){ return x.rir; });
+  var avgRir = rirs.length ? rirs.reduce(function(a, b){ return a + b; }, 0) / rirs.length : null;
+  var step = weightStep(name, wTop), out = { sets: [] }, nW = wTop, nR;
+  if (ms && ms.deload) {
+    nW = roundStep(wTop * 0.9, step || 1);
+    out.mode = "deload"; out.text = "Descarga: " + (wTop ? fmtW(nW) + " kg" : "peso corporal") + " × " + lo + " reps, la mitad de las series, lejos del fallo.";
+    out.why = "Semana de descarga del mesociclo: es para recuperarte.";
+    work.forEach(function(x, i){ if (i < Math.ceil(work.length / 2)) out.sets.push({ weight: wTop ? String(nW) : "", reps: lo }); });
+    return out;
+  }
+  var allTop = minR >= hi, easy = avgRir !== null && avgRir >= tRir + 2 && minR >= lo, heavy = maxR < lo - 1 || (avgRir !== null && avgRir <= 0 && minR < lo);
+  if (wTop === 0 || step === 0) {   // peso corporal o banda: se progresa en reps
+    if (allTop) { out.mode = "up"; out.text = "Llegaste a " + hi + " reps en todas: sumá lastre o pasá a una variante más difícil."; out.why = "Al tope del rango de " + lo + "–" + hi + "."; nR = function(){ return hi; }; }
+    else { out.mode = "reps"; out.text = "Sumá 1 rep por serie (hasta " + hi + ")."; out.why = "Doble progresión: primero reps, después carga."; nR = function(r){ return Math.min(hi, r + 1); }; }
+  } else if (allTop || easy) {
+    nW = wTop + step; out.mode = "up";
+    out.text = "Subí a " + fmtW(nW) + " kg y apuntá a " + lo + "–" + hi + " reps.";
+    out.why = allTop ? "Llegaste al tope del rango (" + hi + " reps) en todas las series con " + fmtW(wTop) + " kg." : "Te sobraban reps (RIR " + (Math.round(avgRir * 10) / 10).toLocaleString("es-AR") + " de promedio, el objetivo es " + tRirTxt + ").";
+    nR = function(){ return lo; };
+  } else if (heavy) {
+    var down = minR < lo - 2 && step ? roundStep(wTop - step, step) : wTop;
+    nW = down; out.mode = down < wTop ? "down" : "hold";
+    out.text = down < wTop ? "Bajá a " + fmtW(down) + " kg y buscá llegar a " + lo + " reps." : "Mantené " + fmtW(wTop) + " kg hasta llegar a " + lo + " reps en todas.";
+    out.why = "La última vez quedaste por debajo del rango (" + lo + "–" + hi + ")" + (avgRir === 0 ? " y al fallo" : "") + ".";
+    nR = function(r){ return Math.max(lo, Math.min(hi, r + 1)); };
+  } else {
+    out.mode = "reps";
+    out.text = "Mismo peso (" + fmtW(wTop) + " kg) y 1 rep más por serie, hasta " + hi + ".";
+    out.why = "Dentro del rango " + lo + "–" + hi + ": cuando llegues a " + hi + " en todas, subís el peso.";
+    nR = function(r){ return Math.min(hi, r + 1); };
+  }
+  work.forEach(function(x) {
+    var w = parseFloat(x.weight) || 0, r = parseFloat(x.reps) || 0;
+    var sw = (out.mode === "up" || out.mode === "down" || out.mode === "hold") && w === wTop ? nW : w;
+    out.sets.push({ weight: w || wTop ? String(Math.round(sw * 100) / 100) : "", reps: w === wTop || out.mode === "reps" ? nR(r) : r });
+  });
+  // Estancamiento: 3 sesiones seguidas sin mejorar el 1RM estimado
+  var S = exSessions(name).filter(function(s){ return !(s.dated && s.key === localDay()); }).slice(-4);
+  if (S.length >= 4 && S[3].rm > 0 && S[3].rm <= S[0].rm && S[2].rm <= S[0].rm && S[1].rm <= S[0].rm) out.stall = "Hace 3 sesiones que no mejora: probá una variante (Datos del ejercicio) o revisá descanso, sueño y comida.";
+  if (avgRir === null && out.mode !== "calib") out.why += " Anotá el RIR para afinar la sugerencia.";
+  return out;
+}
+function trainRepRangeSheet(name) {
+  openTrSheet("Rango de repeticiones", function(body) {
+    var cur = repRanges[name], auto = repRangeAuto(name);
+    var intro = document.createElement("div"); intro.className = "exdWrap"; intro.innerHTML = '<div class="exdIntro">' + escHtml(name) + ': la sugerencia sube el peso cuando llegás al tope del rango en todas las series.</div>'; body.appendChild(intro);
+    trSheetBtn(body, "Automático (" + auto[0] + "–" + auto[1] + ")" + (!cur ? " ✓" : ""), function(){ delete repRanges[name]; safeStore("gymRepRange", JSON.stringify(repRanges)); delete trainEdit[name]; renderTrain(); });
+    REP_RANGE_OPTS.forEach(function(o) {
+      var on = cur && cur[0] === o[0] && cur[1] === o[1];
+      trSheetBtn(body, o[0] + "–" + o[1] + " reps" + (on ? " ✓" : ""), function(){ repRanges[name] = o; safeStore("gymRepRange", JSON.stringify(repRanges)); delete trainEdit[name]; renderTrain(); });
+    });
+  });
+}
+
+// ============================================================
+// FUERZA Y VOLUMEN: indice de fuerza (1RM estimado) de un grupo junto a sus series semanales
+// ============================================================
+var fvGroup = null, fvPeriod = 26, fvSel = null;
+function openFV(g) { fvGroup = g; fvSel = null; showScreen("fvScreen"); }
+function fvWeekE1rm(wk, name) {
+  var arr = gymData[wk] && gymData[wk][name], best = 0; if (!arr) return 0;
+  arr.forEach(function(x){ if (!x || x.warmup) return; var w = parseFloat(x.weight) || 0, r = parseFloat(x.reps) || 0; if (r > 0 && r <= 15) { var e = epley(w, r); if (e > best) best = e; } });
+  return best;
+}
+function fvData(g, weeksBack) {
+  var cur = getWeekKey(new Date()), first = cur;
+  if (weeksBack) first = wkAdd(cur, -(weeksBack - 1));
+  else { Object.keys(gymData).forEach(function(k){ if (/^\d{4}-\d{2}-\d{2}$/.test(k) && k < first && Object.keys(gymData[k] || {}).length) first = k; }); }
+  var weeks = []; for (var w = first; w <= cur; w = wkAdd(w, 1)) weeks.push(w);
+  var exNames = {};
+  weeks.forEach(function(w){ Object.keys(gymData[w] || {}).forEach(function(n){ if (Array.isArray(gymData[w][n])) { var m = getExerciseMuscles(n); if (m && m.agonist === g) exNames[n] = 1; } }); });
+  var base = {}, lastV = {}, rows = weeks.map(function(w) {
+    var vals = [];
+    Object.keys(exNames).forEach(function(n) {
+      var e = fvWeekE1rm(w, n); if (!e) return;
+      if (!base[n]) base[n] = e;
+      lastV[n] = e; vals.push(e / base[n] * 100);
+    });
+    var sets = computeWeeklyVolume(w)[g] || 0;
+    return { wk: w, sets: sets, zone: classifyVolume(sets, g).zone, idx: vals.length ? vals.reduce(function(a, b){ return a + b; }, 0) / vals.length : null };
+  });
+  // Ganancia de fuerza por semana segun la zona de volumen de esa semana
+  var byZone = {};
+  for (var i = 0; i < rows.length - 1; i++) {
+    if (rows[i].idx === null || rows[i + 1].idx === null || !rows[i].sets) continue;
+    var z = rows[i].zone; byZone[z] = byZone[z] || { n: 0, sum: 0 };
+    byZone[z].n++; byZone[z].sum += rows[i + 1].idx - rows[i].idx;
+  }
+  var lifts = Object.keys(exNames).filter(function(n){ return base[n] && lastV[n]; }).map(function(n){ return { name: n, a: base[n], b: lastV[n], pct: (lastV[n] - base[n]) / base[n] * 100 }; });
+  lifts.sort(function(a, b){ return b.pct - a.pct; });
+  return { rows: rows, byZone: byZone, lifts: lifts };
+}
+function renderFV() {
+  var g = fvGroup, root = document.getElementById("fvRoot"); if (!g) return;
+  document.getElementById("fvTitle").textContent = displayGroup(g);
+  var D = fvData(g, fvPeriod), R = D.rows, withIdx = R.filter(function(r){ return r.idx !== null; });
+  var h = '<div class="exhTabs fvPer">';
+  [[13, "3 meses"], [26, "6 meses"], [52, "1 año"], [0, "Todo"]].forEach(function(o){ h += '<button class="exhTab' + (fvPeriod === o[0] ? " on" : "") + '" data-p="' + o[0] + '">' + o[1] + '</button>'; });
+  h += '</div>';
+  if (withIdx.length < 2) {
+    root.innerHTML = h + '<div class="exhEmpty">Todavía hay pocos datos de ' + displayGroup(g) + ' en este período.<br>Con 2 semanas o más de registros vas a ver cómo se mueve tu fuerza según el volumen.</div>';
+    fvBind(root); return;
+  }
+  var lastIdx = withIdx[withIdx.length - 1].idx, chg = lastIdx - 100;
+  h += '<div class="balSum"><div class="balSumTop"><div><div class="balSumBig">' + (chg >= 0 ? "+" : "−") + (Math.round(Math.abs(chg) * 10) / 10).toLocaleString("es-AR") + '<span>%</span></div><div class="balSumLab">índice de fuerza en el período</div></div>' +
+    '<div class="balSumSide"><div class="balSumBig sm">' + fmtSets(R.reduce(function(a, r){ return a + r.sets; }, 0) / R.length) + '</div><div class="balSumLab">series por semana (promedio)</div></div></div>' +
+    '<div class="balSumTxt">El índice promedia el 1RM estimado de cada ejercicio de ' + displayGroup(g) + ' contra su primer registro del período (100 = punto de partida).</div></div>';
+  h += '<div class="balCard"><div class="fvHead"><span>Índice de fuerza</span><span id="fvRead"></span></div><div id="fvIdx"></div>';
+  h += '<div class="fvHead" style="margin-top:12px"><span>Series por semana</span></div><div id="fvSets"></div><div class="balLegend">';
+  ["mv", "mev", "mav", "mrv", "over"].forEach(function(z){ h += '<span><i style="background:' + VOL_ZONES[z].color + '"></i>' + VOL_ZONES[z].name + '</span>'; });
+  h += '</div></div>';
+  // Ganancia por zona
+  var zs = ["under", "mv", "mev", "mav", "mrv", "over"].filter(function(z){ return D.byZone[z]; });
+  if (zs.length) {
+    var best = null; zs.forEach(function(z){ var v = D.byZone[z].sum / D.byZone[z].n; if (D.byZone[z].n >= 3 && (best === null || v > best.v)) best = { z: z, v: v }; });
+    h += '<div class="balSecHead">Ganancia de fuerza según el volumen de la semana</div><div class="balCard">';
+    zs.forEach(function(z) {
+      var b = D.byZone[z], v = b.sum / b.n;
+      h += '<div class="fvZRow"><span class="fvZName"><i style="background:' + VOL_ZONES[z].color + '"></i>' + VOL_ZONES[z].name + '</span><span class="fvZN">' + b.n + (b.n === 1 ? " sem." : " sem.") + '</span><b class="' + (v > 0.05 ? "exhUp" : v < -0.05 ? "exhDown" : "") + '">' + (v >= 0 ? "+" : "−") + (Math.round(Math.abs(v) * 100) / 100).toLocaleString("es-AR") + '% / sem</b></div>';
+    });
+    h += '<div class="msNote" style="margin-top:8px">' + (best ? "Con tus datos, tu fuerza en " + displayGroup(g) + " creció más rápido en las semanas de <b>" + VOL_ZONES[best.z].name.toLowerCase() + "</b>. " : "Todavía hay pocas semanas por zona para sacar conclusiones (hacen falta 3 o más). ") + "Es una correlación con tus registros, no una prueba: la fuerza también depende del descanso, la técnica y la experiencia.</div></div>";
+  }
+  if (D.lifts.length) {
+    h += '<div class="balSecHead">Ejercicios que más impulsan tu progreso</div><div class="balCard">';
+    D.lifts.slice(0, 6).forEach(function(l) {
+      h += '<button class="bmEx" data-n="' + escHtml(l.name) + '"><span>' + escHtml(l.name) + '</span><em>' + exhFmt(l.a, "kg") + ' → <b class="' + (l.pct > 0.5 ? "exhUp" : l.pct < -0.5 ? "exhDown" : "") + '">' + exhFmt(l.b, "kg") + '</b></em></button>';
+    });
+    h += '</div>';
+  }
+  root.innerHTML = h;
+  fvBind(root);
+  fvCharts(R);
+}
+function fvBind(root) {
+  root.querySelectorAll("[data-p]").forEach(function(b){ b.onclick = function(){ fvPeriod = +b.getAttribute("data-p"); fvSel = null; renderFV(); }; });
+  root.querySelectorAll(".bmEx").forEach(function(b){ b.onclick = function(){ showExHistory(b.getAttribute("data-n"), "fvScreen"); }; });
+}
+// Dos graficos con el mismo eje X (semanas): linea del indice y barras de series. Nunca doble eje Y.
+function fvCharts(R) {
+  var box = document.getElementById("fvIdx"), W = Math.max(280, (box.clientWidth || 340)), L = 40, Rr = 10, n = R.length;
+  function X(i) { return n === 1 ? L + (W - L - Rr) / 2 : L + i * (W - L - Rr) / (n - 1); }
+  var sel = fvSel === null ? (function(){ for (var i = n - 1; i >= 0; i--) if (R[i].idx !== null) return i; return n - 1; })() : fvSel;
+  // Indice
+  var H = 150, T = 10, B = 8, vals = R.filter(function(r){ return r.idx !== null; }).map(function(r){ return r.idx; });
+  var lo = Math.min.apply(null, vals.concat([100])), hi = Math.max.apply(null, vals.concat([100])), step = exhNiceStep(Math.max(hi - lo, 2));
+  lo = Math.floor(lo / step) * step; hi = Math.ceil(hi / step) * step;
+  function Y(v) { return T + (1 - (v - lo) / (hi - lo)) * (H - T - B); }
+  var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" height="' + H + '" role="img" aria-label="Índice de fuerza por semana">';
+  for (var v = lo; v <= hi + step / 2; v += step) { var y = Y(v).toFixed(1); s += '<line x1="' + L + '" x2="' + (W - Rr) + '" y1="' + y + '" y2="' + y + '" stroke="' + (v === 100 ? "#34425A" : "#1B2433") + '" stroke-width="1"' + (v === 100 ? ' stroke-dasharray="4 3"' : '') + '/><text x="' + (L - 7) + '" y="' + (+y + 4) + '" text-anchor="end" class="exhAx">' + v + '</text>'; }
+  var path = "", pen = false;
+  R.forEach(function(r, i){ if (r.idx === null) { pen = false; return; } path += (pen ? " L" : " M") + X(i).toFixed(1) + "," + Y(r.idx).toFixed(1); pen = true; });
+  s += '<path d="' + path + '" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
+  R.forEach(function(r, i){ if (r.idx !== null) s += '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(r.idx).toFixed(1) + '" r="' + (i === sel ? 5 : 3) + '" fill="' + (i === sel ? "#fff" : "#22D3EE") + '" stroke="#0E131C" stroke-width="2"/>'; });
+  s += '<line x1="' + X(sel).toFixed(1) + '" x2="' + X(sel).toFixed(1) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="#ffffff33" stroke-dasharray="3 3"/></svg>';
+  box.innerHTML = s;
+  // Series
+  var sb = document.getElementById("fvSets"), H2 = 120, B2 = 20, mx = Math.max.apply(null, R.map(function(r){ return r.sets; }).concat([LANDMARKS[fvGroup].mav_max]));
+  var bw = Math.max(3, Math.min(18, (W - L - Rr) / Math.max(n, 1) - 2));
+  function Y2(v) { return T + (1 - v / mx) * (H2 - T - B2); }
+  var s2 = '<svg viewBox="0 0 ' + W + ' ' + H2 + '" width="100%" height="' + H2 + '" role="img" aria-label="Series por semana">';
+  var l = LANDMARKS[fvGroup];
+  [l.mev, l.mav_max].forEach(function(v){ var y = Y2(v).toFixed(1); s2 += '<line x1="' + L + '" x2="' + (W - Rr) + '" y1="' + y + '" y2="' + y + '" stroke="#1B2433"/><text x="' + (L - 7) + '" y="' + (+y + 4) + '" text-anchor="end" class="exhAx">' + v + '</text>'; });
+  R.forEach(function(r, i) {
+    if (!r.sets) return;
+    var x = X(i) - bw / 2, y = Y2(r.sets), h2 = (H2 - B2) - y;
+    s2 += '<path d="M' + x.toFixed(1) + ',' + (H2 - B2) + ' V' + (y + Math.min(4, h2)).toFixed(1) + ' Q' + x.toFixed(1) + ',' + y.toFixed(1) + ' ' + (x + Math.min(4, bw / 2)).toFixed(1) + ',' + y.toFixed(1) + ' H' + (x + bw - Math.min(4, bw / 2)).toFixed(1) + ' Q' + (x + bw).toFixed(1) + ',' + y.toFixed(1) + ' ' + (x + bw).toFixed(1) + ',' + (y + Math.min(4, h2)).toFixed(1) + ' V' + (H2 - B2) + ' Z" fill="' + VOL_ZONES[r.zone].color + '"' + (i === sel ? '' : ' fill-opacity=".8"') + '/>';
+  });
+  var o = { day: "numeric", month: "short" };
+  s2 += '<text x="' + L + '" y="' + (H2 - 4) + '" class="exhAx">' + wkDate(R[0].wk).toLocaleDateString("es-AR", o) + '</text><text x="' + (W - Rr) + '" y="' + (H2 - 4) + '" text-anchor="end" class="exhAx">' + wkDate(R[n - 1].wk).toLocaleDateString("es-AR", o) + '</text>';
+  s2 += '<line x1="' + X(sel).toFixed(1) + '" x2="' + X(sel).toFixed(1) + '" y1="' + T + '" y2="' + (H2 - B2) + '" stroke="#ffffff33" stroke-dasharray="3 3"/></svg>';
+  sb.innerHTML = s2;
+  var r = R[sel], rd = document.getElementById("fvRead");
+  rd.innerHTML = 'Sem. del ' + wkDate(r.wk).toLocaleDateString("es-AR", o) + ': <b>' + (r.idx === null ? "sin registro" : (Math.round(r.idx * 10) / 10).toLocaleString("es-AR")) + '</b> · ' + fmtSets(r.sets) + ' series';
+  [box, sb].forEach(function(el) {
+    el.onclick = function(ev) {
+      var rc = el.getBoundingClientRect(), px = (ev.clientX - rc.left) / rc.width * W, k = 0, dm = 1e9;
+      for (var j = 0; j < n; j++) { var d = Math.abs(X(j) - px); if (d < dm) { dm = d; k = j; } }
+      fvSel = k; fvCharts(R);
+    };
+  });
+}
 
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
@@ -7170,6 +7490,9 @@ var GUIDE_SECTIONS = [
       { icon:"&#9636;", title:"Mesociclos", desc:"Desde la tarjeta Mesociclo del inicio planificás un bloque de 3 a 8 semanas de carga más una de descarga. Elegís el foco de cada grupo (mantener, normal o prioridad) y la app sube las series semana a semana desde el mínimo efectivo y baja el RIR de 3 a 0–1. El Balance marca el objetivo de cada semana y al terminar ves un resumen con lo que hiciste y cómo cambió tu fuerza." },
       { icon:"&#9638;", title:"Datos del ejercicio", desc:"Cada ejercicio tiene equipo, patrón de movimiento, zona que trabaja, dónde carga el músculo (estirado, medio o contraído), relación estímulo/fatiga (SFR) y demanda articular. Son estimados a partir del nombre y los podés corregir. Además sugiere alternativas con mejor SFR. Están en la biblioteca y en los 3 puntos de cada ejercicio." },
       { icon:"&#9888;", title:"Alertas de salto de carga", desc:"Si registrás un peso mucho mayor que tu máximo reciente, o el tonelaje semanal de un grupo sube de golpe respecto de tus últimas semanas, aparece un aviso (no bloquea nada). Los umbrales se cambian en Balance › Ajustes." },
+      { icon:"&#8599;", title:"Progresión sugerida", desc:"En cada ejercicio de la rutina aparece qué hacer hoy, según la última vez y tu rango de repeticiones: subir el peso cuando llegaste al tope del rango en todas las series (o te sobraban reps), sumar una rep, mantener o bajar. Lo sugerido queda en gris, así ✓ lo registra directo. Los ejercicios nuevos arrancan con una calibración. El rango se cambia en los 3 puntos › Rango de repeticiones." },
+      { icon:"&#128170;", title:"Fuerza y volumen", desc:"En el Balance, al abrir un grupo (o tocar un músculo del mapa), Fuerza y volumen muestra tu índice de fuerza (1RM estimado) semana a semana junto a las series, cuánto creció tu fuerza según la zona de volumen y qué ejercicios más te hicieron progresar. Elegís 3 meses, 6 meses, 1 año o todo." },
+      { icon:"&#128300;", title:"Zonas según la investigación", desc:"En Balance › Ajustes podés elegir entre los rangos por músculo (Israetel / RP, editables) o los mismos rangos para todos según los estudios de dosis y respuesta: crecimiento desde 4 series semanales y volumen alto y productivo entre 10 y 20." },
       { icon:"RIR", title:"RIR (reps en reserva)", desc:"Al tocar ✓ en una serie de trabajo aparece ¿Cuántas reps te quedaban?: 0 es al fallo, 4+ es lejos del fallo. Las series con 4+ RIR no cuentan como volumen efectivo en el Balance." },
       { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
@@ -7803,7 +8126,7 @@ renderHome();
     </div>
     <div class="trDayChips" id="trDayChips"></div>
     <div class="trMeso" id="trMeso"></div>
-    <div class="trHint" id="trHint">En gris, lo que hiciste la &uacute;ltima vez: &#10003; lo registra igual, o escrib&iacute; los valores nuevos.</div>
+    <div class="trHint" id="trHint">En gris, lo sugerido para hoy: &#10003; lo registra igual, o escrib&iacute; lo que hiciste.</div>
     <div id="trList"></div>
   </div>
   <div class="trTimerPill" id="trTimerPill">
@@ -7834,6 +8157,17 @@ renderHome();
       <button class="sheetClose" onclick="closeTrSheet()">&#10005;</button>
     </div>
     <div id="trSheetBody" style="overflow-y:auto"></div>
+  </div>
+</div>
+
+<!-- FUERZA Y VOLUMEN -->
+<div id="fvScreen" class="screen">
+  <div style="padding:20px 16px 40px;overflow-y:auto;flex:1">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+      <button class="backBtn" onclick="showScreen('balanceScreen')" aria-label="Volver">&#8249;</button>
+      <div style="flex:1"><div style="font-size:12.5px;color:var(--text-3);font-weight:600">Fuerza y volumen</div><div id="fvTitle" style="font-size:20px;font-weight:800"></div></div>
+    </div>
+    <div id="fvRoot"></div>
   </div>
 </div>
 
