@@ -831,6 +831,11 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .aiFree textarea{width:100%;box-sizing:border-box;background:var(--surface-2);border:1px solid var(--border);border-radius:12px;color:var(--text);font:inherit;font-size:15px;padding:10px 12px;resize:vertical;min-height:72px}
 .aiFree textarea:focus{outline:none;border-color:var(--primary)}
 .iconBtn.ai svg{stroke:var(--energy)}
+
+.trAddRow{display:flex;border-top:1px solid #182030;margin-top:4px}
+.trAddRow .trAdd{border-top:none;margin-top:0;flex:1;width:auto;white-space:nowrap}
+.trAddRow .trAddW{flex:0 0 auto;color:var(--energy);text-align:right;padding-right:16px}
+.trSetLab small{display:block;font-size:9.5px;font-weight:700;color:var(--energy);opacity:.85;line-height:1;margin-top:1px}
 </style>
 </head>
 <body>
@@ -4921,6 +4926,40 @@ function trainAddSet(name) {
   }
   sets.push(s); renderTrain();
 }
+// ---- Calentamiento: 1.a serie al 45% y 2.a al 65% del peso de trabajo (una 3.a, al 80%) ----
+var WARM_PCTS = [0.45, 0.65, 0.8], WARM_REPS = ["8", "5", "3"];
+function trainWorkWeight(name, sets) {
+  var i, s;
+  for (i = 0; i < sets.length; i++) { s = sets[i]; if (!s.warmup && parseFloat(s.weight) > 0) return parseFloat(s.weight); }
+  for (i = 0; i < sets.length; i++) { s = sets[i]; if (!s.warmup && s._ph && parseFloat(s._ph.weight) > 0) return parseFloat(s._ph.weight); }
+  var sg = trainSug[name]; if (sg && sg.sets && sg.sets[0] && parseFloat(sg.sets[0].weight) > 0) return parseFloat(sg.sets[0].weight);
+  var last = trainLastSession(name), mx = 0;
+  if (last) last.sets.forEach(function(x){ if (!x.warmup) mx = Math.max(mx, parseFloat(x.weight) || 0); });
+  return mx;
+}
+function trainApplyWarmPh(name, sets) {
+  var W = trainWorkWeight(name, sets), step = W ? (weightStep(name, W) || 1) : 1, k = 0;
+  sets.forEach(function(s) {
+    if (!s.warmup) return;
+    var pct = WARM_PCTS[Math.min(k, WARM_PCTS.length - 1)], reps = WARM_REPS[Math.min(k, WARM_REPS.length - 1)]; k++;
+    s._wpct = Math.round(pct * 100);
+    if (hasVals(s) || !W) return;
+    s._ph = s._ph || {};
+    s._ph.weight = String(Math.max(step, roundStep(W * pct, step)));
+    if (!s._ph.reps) s._ph.reps = reps;
+    delete s._ph.rir;
+  });
+  return W;
+}
+function trainAddWarmup(name) {
+  var sets = getTrainSets(name), firstWork = 0, nWarm = 0;
+  while (firstWork < sets.length && sets[firstWork].warmup) { firstWork++; nWarm++; }
+  var add = nWarm ? 1 : 2, rest = trainDefaultRest(name, true), news = [];
+  for (var i = 0; i < add; i++) { var x = { reps: "", weight: "", warmup: true }; if (rest) x.rest = rest; news.push(x); }
+  // Si la primera serie esta vacia y sin sugerencia, se reemplaza en vez de sumar
+  sets.splice.apply(sets, [firstWork, 0].concat(news));
+  renderTrain();
+}
 function trainKey(name) { var h = 0; for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) | 0; return "e" + (h >>> 0).toString(36); }
 
 // ---- RIR (repeticiones en reserva) ----
@@ -5147,12 +5186,13 @@ function renderTrain() {
     th.innerHTML = "<span>Serie</span><span class=\"trKgH\">Kg &times; Reps</span><span>Descanso</span><span title=\"Repeticiones en reserva\">RIR</span><span></span>";
     blk.appendChild(th);
     var workN = 0;
+    trainApplyWarmPh(name, sets);
     sets.forEach(function(s, idx) {
       if (s._ph && !hasVals(s)) anyPh = true;
       var done = s._saved && hasVals(s);
       var row = document.createElement("div"); row.className = "trRow" + (done ? " done" : "") + (s.warmup ? " warm" : "");
       var lab = document.createElement("button"); lab.className = "trSetLab";
-      lab.textContent = s.warmup ? "C" : String(++workN);
+      if (s.warmup) lab.innerHTML = "C" + (s._wpct ? "<small>" + s._wpct + "%</small>" : ""); else lab.textContent = String(++workN);
       lab.onclick = function(){ trainSetMenu(name, idx); };
       var cell = document.createElement("div"); cell.className = "trKgReps";
       var kg = document.createElement("input"); kg.className = "trIn"; kg.id = "trKg_" + key + "_" + idx;
@@ -5177,7 +5217,13 @@ function renderTrain() {
         var t = 0; sets.forEach(function(x){ if (!x.warmup && hasVals(x)) t += (parseFloat(x.weight) || 0) * (parseFloat(x.reps) || 0); });
         vt.textContent = t > 0 ? Math.round(t).toLocaleString("es-AR") + " kg" : "";
       }
-      kg.oninput = function(){ s.weight = kg.value.replace(",", "."); refreshVol(); };
+      kg.oninput = function(){
+        s.weight = kg.value.replace(",", "."); refreshVol();
+        if (!s.warmup) {   // el calentamiento se recalcula con el peso de trabajo que vas escribiendo
+          trainApplyWarmPh(name, sets);
+          sets.forEach(function(w, j){ if (w.warmup && !hasVals(w) && w._ph) { var el = document.getElementById("trKg_" + key + "_" + j); if (el) el.placeholder = w._ph.weight; } });
+        }
+      };
       rp.oninput = function(){ s.reps = rp.value; refreshVol(); };
       var onChange = function(){ if (hasVals(s)) { s._saved = true; delete s._ph; if (!s.t) { s.t = Date.now(); trainSessionStart(); } row.classList.add("done"); } saveTrainEx(name); };
       kg.onchange = onChange; rp.onchange = onChange;
@@ -5196,9 +5242,13 @@ function renderTrain() {
         blk.appendChild(strip);
       }
     });
+    var addRow = document.createElement("div"); addRow.className = "trAddRow";
     var add = document.createElement("button"); add.className = "trAdd"; add.textContent = "+ Agregar serie";
     add.onclick = function(){ trainAddSet(name); };
-    blk.appendChild(add);
+    var addW = document.createElement("button"); addW.className = "trAdd trAddW"; addW.textContent = "+ Calentamiento";
+    addW.onclick = function(){ trainAddWarmup(name); };
+    addRow.appendChild(add); addRow.appendChild(addW);
+    blk.appendChild(addRow);
     list.appendChild(blk);
   });
   var addEx = document.createElement("button"); addEx.className = "trAddEx"; addEx.textContent = "+ Agregar ejercicio a la rutina";
@@ -7616,6 +7666,7 @@ var GUIDE_SECTIONS = [
       { icon:"&#128170;", title:"Fuerza y volumen", desc:"En el Balance, al abrir un grupo (o tocar un músculo del mapa), Fuerza y volumen muestra tu índice de fuerza (1RM estimado) semana a semana junto a las series, cuánto creció tu fuerza según la zona de volumen y qué ejercicios más te hicieron progresar. Elegís 3 meses, 6 meses, 1 año o todo." },
       { icon:"&#128300;", title:"Zonas según la investigación", desc:"En Balance › Ajustes podés elegir entre los rangos por músculo (Israetel / RP, editables) o los mismos rangos para todos según los estudios de dosis y respuesta: crecimiento desde 4 series semanales y volumen alto y productivo entre 10 y 20." },
       { icon:"&#10024;", title:"Consultar a Claude", desc:"Con el icono de destello de arriba (o en los 3 puntos de un ejercicio › Preguntar a Claude) elegís una pregunta o escribís la tuya. La app arma un resumen de tus datos (volumen por grupo, mesociclo, rutinas y últimas sesiones) y lo compartís con la app de Claude, donde recibís la respuesta. Si preferís, Copiar lo deja listo para pegar." },
+      { icon:"C", title:"Calentamiento automático", desc:"En cada ejercicio, + Calentamiento agrega dos series de aproximación antes de las de trabajo: la primera al 45% y la segunda al 65% del peso que venís trabajando (lo que escribiste hoy, lo sugerido o la última vez), redondeado al disco o mancuerna más cercano. Si agregás una tercera, va al 80%. ✓ las registra tal cual." },
       { icon:"RIR", title:"RIR (reps en reserva)", desc:"Al tocar ✓ en una serie de trabajo aparece ¿Cuántas reps te quedaban?: 0 es al fallo, 4+ es lejos del fallo. Las series con 4+ RIR no cuentan como volumen efectivo en el Balance." },
       { icon:"&#9654;", title:"Rutinas", desc:"En el inicio armas carpetas y adentro tus rutinas. Cada rutina tiene Empezar: ahi cargas las series en tabla, lo de la semana pasada aparece en gris y el tilde lo registra. Con Terminar rutina se cierra el reloj y la sesion queda guardada en el Historial." },
       { icon:"&#8679;", title:"Tiempo de descanso por ejercicio", desc:"En el panel de carga aparecen botones 30s, 60s, 90s... Selecciona el tiempo y toca 'Guardar' para que ese ejercicio siempre abra con ese tiempo de descanso." },
