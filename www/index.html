@@ -847,6 +847,15 @@ body::before{background:radial-gradient(120% 60% at 50% -10%,rgba(34,211,238,.10
 .liveRest.urgent{color:var(--energy)}
 .liveGo{font-size:13.5px;font-weight:800;color:var(--primary)}
 body.hasLive .screen.active{padding-bottom:78px}
+
+/* ---- Revision de la alarma ---- */
+.alRow{display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid #182030}
+.alRow:first-child{border-top:none}
+.alIco{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0}
+.alIco.ok{background:#34D39922;color:#34D399}.alIco.bad{background:#FFB02022;color:var(--energy)}
+.alTxt{flex:1;min-width:0;display:flex;flex-direction:column;font-size:14px;color:var(--text)}
+.alTxt b{font-weight:600}.alTxt span{color:var(--text-3);font-size:12.5px;margin-top:1px}
+.alFix{border:1px solid #FFB02066;background:transparent;color:var(--energy);border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;cursor:pointer;flex-shrink:0}
 </style>
 </head>
 <body>
@@ -2134,7 +2143,7 @@ function showScreen(id) {
   if (id === "wsSummaryScreen") return;
   if (id === "prScreen") renderPRScreen();
   if (id === "balanceScreen") { var fvb = window._fvBack; window._fvBack = false; if (!fvb) balanceWeek = activeWeek; setBalanceTab(fvb ? balanceTab : "week"); }
-  if (id === "tabataScreen") tmRender();
+  if (id === "tabataScreen") { tmRender(); renderAlarmCheck(); }
   if (id === "mesoScreen") renderMeso();
   if (id === "fvScreen") { renderFV(); return; }
   if (id === "rmScreen") return;
@@ -2807,14 +2816,15 @@ var NativeRest = (function(){
     try { return C.nativePromise(plugin, method, opts || {}); } catch(e) { return Promise.reject(e); }
   }
   function ln(method, opts) { return call("LocalNotifications", method, opts); }
+  function ra(method, opts) { return call("RestAlarm", method, opts); }   // setAlarmClock (nativo, sin limite de Doze)
   function noop(){}
   function init() {
     if (!isNative) return Promise.resolve(false);
     if (initPromise) return initPromise;
     initPromise = ln("checkPermissions")
       .then(function(p){ return (p && p.display === "granted") ? p : ln("requestPermissions"); })
-      .then(function(p){ permOk = !!(p && p.display === "granted"); return ln("checkExactNotificationSetting"); })
-      .then(function(s){ exactOk = !!(s && s.exact_alarm === "granted"); return permOk; })
+      .then(function(p){ permOk = !!(p && p.display === "granted"); return ra("status").catch(function(){ return ln("checkExactNotificationSetting").then(function(x){ return { exact: !!(x && x.exact_alarm === "granted") }; }); }); })
+      .then(function(s){ exactOk = !!(s && s.exact); return permOk; })
       .catch(function(){ return permOk; });
     return initPromise;
   }
@@ -2825,14 +2835,34 @@ var NativeRest = (function(){
     if (asked) return;
     try { localStorage.setItem("gymExactAsked", "1"); } catch(e) {}
     if (confirm("Para que la alarma de descanso suene en el segundo exacto con la pantalla bloqueada, activa \"Alarmas y recordatorios\" para Gimnasio.\n\n¿Abrir el ajuste ahora?")) {
-      ln("changeExactNotificationSetting").then(function(s){ exactOk = !!(s && s.exact_alarm === "granted"); }).catch(noop);
+      ra("openExact").catch(function(){ return ln("changeExactNotificationSetting"); }).catch(noop);
     }
+  }
+  // Pide UNA vez sacar la optimizacion de bateria (algunas marcas frenan las alarmas igual)
+  function askBatteryOnce() {
+    var asked = false; try { asked = localStorage.getItem("gymBattAsked") === "1"; } catch(e) {}
+    if (asked) return;
+    ra("status").then(function(st) {
+      if (!st || st.battery) return;
+      try { localStorage.setItem("gymBattAsked", "1"); } catch(e) {}
+      if (confirm("Para que ninguna alarma de descanso falle con la pantalla bloqueada, permití que Gimnasio funcione sin restricciones de batería.\n\n¿Abrir el ajuste ahora?")) ra("openBattery").catch(noop);
+    }).catch(noop);
   }
   function schedule(ms) {
     if (!isNative) return;
     var my = ++seq; var at = Date.now() + ms;
     init().then(function(ok){
       if (!ok || my !== seq) return;
+      return ra("schedule", { id: ID, at: at, title: "Descanso terminado", body: "Ya podés empezar la siguiente serie" }).then(function(r) {
+        exactOk = !!(r && r.exact);
+        if (!exactOk) askExactOnce(); else askBatteryOnce();
+        if (my !== seq) ra("cancel", { id: ID }).catch(noop);   // se pauso/reseteo mientras tanto
+      }, function() { return scheduleLegacy(my, at); });
+    }).catch(noop);
+  }
+  // Respaldo con el plugin de notificaciones (por si el componente nativo no estuviera)
+  function scheduleLegacy(my, at) {
+    return Promise.resolve().then(function(){
       return ln("checkExactNotificationSetting").then(function(s){ exactOk = !!(s && s.exact_alarm === "granted"); }).catch(noop).then(function(){
         if (!exactOk) askExactOnce();
         return ln("cancel", { notifications: [{ id: ID }] }).catch(noop);
@@ -2847,9 +2877,12 @@ var NativeRest = (function(){
       });
     }).catch(noop);
   }
-  function cancel() { if (!isNative) return; seq++; ln("cancel", { notifications: [{ id: ID }] }).catch(noop); }
+  function cancel() { if (!isNative) return; seq++; ra("cancel", { id: ID }).catch(noop); ln("cancel", { notifications: [{ id: ID }] }).catch(noop); }
   // true = el aviso de fin de descanso lo da la notificacion nativa (no hace falta beep web)
   function handlesAlarm() { return isNative && permOk && exactOk; }
+  function status() { return isNative ? ra("status") : Promise.reject(); }
+  function open(which) { return ra(which); }
+  function test(sec) { return init().then(function(){ return ra("schedule", { id: 4243, at: Date.now() + sec * 1000, title: "Prueba de alarma", body: "Si escuchaste esto con la pantalla bloqueada, la alarma funciona" }); }); }
   // Backup: guarda el JSON en el celular y abre el menu de compartir (Drive, WhatsApp, mail...)
   function shareBackup(fileName, text) {
     return call("Filesystem", "writeFile", { path: fileName, data: text, directory: "CACHE", encoding: "utf8" })
@@ -2860,15 +2893,15 @@ var NativeRest = (function(){
     if (!isNative || !items.length) return;
     init().then(function(ok) {
       if (!ok) return;
-      return ln("schedule", { notifications: items.map(function(it) {
+      return ra("scheduleMany", { items: items.map(function(it){ return { id: it.id, at: it.at, title: it.title, body: it.body || "" }; }) }).catch(function(){ return ln("schedule", { notifications: items.map(function(it) {
         return { id: it.id, title: it.title, body: it.body || "", channelId: CH, smallIcon: "ic_stat_timer", iconColor: "#22D3EE",
                  isExactNotification: exactOk, schedule: { at: new Date(it.at).toISOString(), allowWhileIdle: true } };
-      }) });
+      }) }); });
     }).catch(noop);
   }
-  function cancelMany(ids) { if (!isNative) return; ln("cancel", { notifications: ids.map(function(i){ return { id: i }; }) }).catch(noop); }
+  function cancelMany(ids) { if (!isNative) return; ra("cancel", { ids: ids }).catch(noop); ln("cancel", { notifications: ids.map(function(i){ return { id: i }; }) }).catch(noop); }
   if (isNative) setTimeout(init, 800); // pedir permiso de notificaciones al abrir la app
-  return { isNative: isNative, init: init, schedule: schedule, cancel: cancel, handlesAlarm: handlesAlarm, shareBackup: shareBackup, scheduleMany: scheduleMany, cancelMany: cancelMany };
+  return { isNative: isNative, init: init, schedule: schedule, cancel: cancel, handlesAlarm: handlesAlarm, shareBackup: shareBackup, scheduleMany: scheduleMany, cancelMany: cancelMany, status: status, open: open, test: test };
 })();
 
 // Programar notificación en el SW (sobrevive a pantalla bloqueada)
@@ -7355,6 +7388,30 @@ function openAISheet(focusEx) {
   });
 }
 
+// ---- Revisar la alarma con la pantalla bloqueada (Tiempos) ----
+function renderAlarmCheck() {
+  var box = document.getElementById("tmAlarm"); if (!box) return;
+  if (!NativeRest.isNative) { box.innerHTML = ""; return; }
+  NativeRest.status().then(function(st) {
+    var rows = [
+      ["notifications", "Notificaciones permitidas", st.notifications && st.channel, "openNotifications", st.notifications ? "El canal \u00abFin de descanso\u00bb tiene que tener sonido" : "Activ\u00e1 las notificaciones de Gimnasio"],
+      ["exact", "Alarmas exactas", st.exact, "openExact", "Activ\u00e1 \u00abAlarmas y recordatorios\u00bb"],
+      ["battery", "Bater\u00eda sin restricciones", st.battery, "openBattery", "Eleg\u00ed \u00abSin restricciones\u00bb o \u00abNo optimizar\u00bb"]
+    ];
+    var h = '<div class="tmSecHead">Alarma con la pantalla bloqueada</div><div class="tmMain alChk">';
+    rows.forEach(function(r) {
+      h += '<div class="alRow"><span class="alIco ' + (r[2] ? "ok" : "bad") + '">' + (r[2] ? "\u2713" : "!") + '</span><div class="alTxt"><b>' + r[1] + '</b>' + (r[2] ? "" : '<span>' + r[4] + '</span>') + '</div>' + (r[2] ? "" : '<button class="alFix" data-o="' + r[3] + '">Arreglar</button>') + '</div>';
+    });
+    var mk = String(st.maker || "").toLowerCase();
+    if (/xiaomi|redmi|poco|huawei|honor|oppo|realme|vivo|oneplus|samsung/.test(mk)) h += '<div class="msSetSub">En celulares ' + escHtml(String(st.maker).charAt(0).toUpperCase() + String(st.maker).slice(1)) + ' adem\u00e1s conviene dejar Gimnasio con \u00abInicio autom\u00e1tico\u00bb permitido y fuera de las apps \u00aben suspensi\u00f3n\u00bb (Ajustes \u203a Bater\u00eda).</div>';
+    h += '<button class="tmPrimary wide" id="alTest">Probar: suena en 10 segundos</button><div class="msSetSub" style="text-align:center">Toc\u00e1, bloque\u00e1 la pantalla y esper\u00e1.</div></div>';
+    box.innerHTML = h;
+    box.querySelectorAll("[data-o]").forEach(function(b){ b.onclick = function(){ NativeRest.open(b.getAttribute("data-o")).catch(function(){}); }; });
+    box.querySelector("#alTest").onclick = function(){ NativeRest.test(10).then(function(){ showToast("Alarma de prueba en 10 s: bloque\u00e1 la pantalla"); }, function(){ showToast("No se pudo programar la prueba"); }); };
+  }).catch(function(){ box.innerHTML = ""; });
+}
+document.addEventListener("visibilitychange", function(){ if (document.visibilityState === "visible") { var t = document.getElementById("tabataScreen"); if (t && t.classList.contains("active")) renderAlarmCheck(); } });
+
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
 var dragSrcIdx = null;
@@ -8457,6 +8514,7 @@ renderHome();
       </div>
       <div id="tmSaved"></div>
       <div id="tmLog"></div>
+      <div id="tmAlarm"></div>
     </div>
     <div class="tmRun" id="tmRun" style="display:none">
       <div class="tmRunName" id="tmRunName"></div>

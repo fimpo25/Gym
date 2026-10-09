@@ -4,6 +4,7 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.media.AudioAttributes;
 import android.net.Uri;
 import android.os.Build;
@@ -20,8 +21,9 @@ public class MainActivity extends BridgeActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         registerPlugin(UpdaterPlugin.class);   // actualizaciones desde la app (antes de super.onCreate)
+        registerPlugin(RestAlarmPlugin.class); // alarma de descanso con setAlarmClock
         super.onCreate(savedInstanceState);
-        createRestChannel();
+        createRestChannel(this);
     }
 
     /**
@@ -30,9 +32,9 @@ public class MainActivity extends BridgeActivity {
      * que es lo predeterminado). Un canal de notificacion comun se silencia en esos modos.
      * Android no deja cambiar el sonido de un canal ya creado, por eso es un id nuevo.
      */
-    private void createRestChannel() {
+    public static void createRestChannel(Context ctx) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return;
-        NotificationManager nm = getSystemService(NotificationManager.class);
+        NotificationManager nm = ctx.getSystemService(NotificationManager.class);
         if (nm == null) return;
         if (nm.getNotificationChannel(OLD_REST_CHANNEL) != null) nm.deleteNotificationChannel(OLD_REST_CHANNEL);
         if (nm.getNotificationChannel(REST_CHANNEL) != null) return;
@@ -40,7 +42,7 @@ public class MainActivity extends BridgeActivity {
         NotificationChannel ch = new NotificationChannel(REST_CHANNEL, "Fin de descanso", NotificationManager.IMPORTANCE_HIGH);
         ch.setDescription("Alarma al terminar el descanso entre series. Suena aunque el celular este en vibrar.");
         // URI por id de recurso (no por nombre): no depende de como se empaqueten los recursos.
-        Uri sound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + getPackageName() + "/" + R.raw.descanso);
+        Uri sound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + ctx.getPackageName() + "/" + R.raw.descanso);
         AudioAttributes attrs = new AudioAttributes.Builder()
                 .setUsage(AudioAttributes.USAGE_ALARM)
                 .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
