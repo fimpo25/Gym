@@ -5704,6 +5704,13 @@ function trainFinish() {
         showToast("Rutina guardada: " + fmtDur(dur) + ", " + sum.totalSets + (sum.totalSets === 1 ? " serie" : " series"));
       };
       body.appendChild(box); body.appendChild(ok);
+      var disc = document.createElement("button"); disc.className = "trSheetBtn danger"; disc.style.textAlign = "center"; disc.textContent = "Terminar sin guardar";
+      disc.onclick = function() {
+        var n = trainSessionSetCount();
+        if (!confirm("¿Terminar sin guardar?\n\n" + (n === 1 ? "Se borra la serie que registraste" : "Se borran las " + n + " series que registraste") + " en esta rutina y no queda en el historial. No se puede deshacer.")) return;
+        trainDiscardSession(); trainEndSession(); showToast("Rutina descartada");
+      };
+      body.appendChild(disc);
     } else {
       box.innerHTML = "<div class=\"rtEmpty\">No registraste series en esta rutina. Si terminás ahora no se guarda ninguna actividad.</div>";
       var ex = document.createElement("button"); ex.className = "trSheetPrimary"; ex.textContent = "Terminar sin guardar";
@@ -5713,6 +5720,31 @@ function trainFinish() {
     var keep = document.createElement("button"); keep.className = "trSheetBtn"; keep.style.textAlign = "center"; keep.textContent = "Seguir entrenando";
     keep.onclick = closeTrSheet; body.appendChild(keep);
   });
+}
+// Series registradas desde que empezo la rutina en curso (todas las semanas que abarque)
+function trainSessionSets(fn) {
+  var ses = trainGetSession(); if (!ses) return;
+  var w0 = getWeekKey(new Date(ses.t)), w1 = getWeekKey(new Date());
+  for (var w = w0; w <= w1; w = wkAdd(w, 1)) {
+    var wd = gymData[w]; if (!wd) continue;
+    Object.keys(wd).forEach(function(n){ if (Array.isArray(wd[n])) fn(w, n, wd[n], ses.t); });
+  }
+}
+function trainSessionSetCount() { var c = 0; trainSessionSets(function(w, n, arr, t0){ arr.forEach(function(x){ if (x && x.t && x.t >= t0) c++; }); }); return c; }
+// Terminar sin guardar: borra lo registrado en esta rutina (los registros de otros dias quedan)
+function trainDiscardSession() {
+  var touchedDays = {};
+  trainSessionSets(function(w, n, arr, t0) {
+    var keep = arr.filter(function(x){ if (x && x.t && x.t >= t0) { touchedDays[setDay(x)] = 1; return false; } return true; });
+    if (keep.length !== arr.length) { if (keep.length) gymData[w][n] = keep; else delete gymData[w][n]; }
+  });
+  // El dia deja de contar como entrenado si ya no le queda ninguna serie
+  Object.keys(touchedDays).forEach(function(d) {
+    var any = false;
+    Object.keys(gymData).forEach(function(w){ if (!/^\d{4}-\d{2}-\d{2}$/.test(w)) return; var wd = gymData[w] || {}; Object.keys(wd).forEach(function(n){ if (Array.isArray(wd[n]) && wd[n].some(function(x){ return setDay(x) === d; })) any = true; }); });
+    if (!any && gymData.trainingDays) delete gymData.trainingDays[d];
+  });
+  persist();
 }
 // Guarda la rutina terminada (duracion desde que la empezaste) en el historial
 function trainSaveSession() {
