@@ -856,6 +856,12 @@ body.hasLive .screen.active{padding-bottom:78px}
 .alTxt{flex:1;min-width:0;display:flex;flex-direction:column;font-size:14px;color:var(--text)}
 .alTxt b{font-weight:600}.alTxt span{color:var(--text-3);font-size:12.5px;margin-top:1px}
 .alFix{border:1px solid #FFB02066;background:transparent;color:var(--energy);border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;cursor:pointer;flex-shrink:0}
+
+.rtSortRow{display:flex;align-items:center;gap:8px;padding:10px 10px 10px 16px}
+.rtSortRow .rtName{flex:1;min-width:0}
+.rtFolder.sorting .rtSortRow{border-color:#22D3EE44}
+.rtSortHint{color:var(--text-3);font-size:12.5px;margin:2px 4px 2px}
+.rtSortDone{border:none;background:var(--primary);color:#04131A;border-radius:10px;padding:8px 14px;font-size:13.5px;font-weight:800;cursor:pointer}
 </style>
 </head>
 <body>
@@ -5460,8 +5466,22 @@ function renderRoutinesHome() {
     tg.onclick = function(){ f.open = !f.open; persistRoutines(); renderRoutinesHome(); };
     var fm = document.createElement("button"); fm.className = "trMore"; fm.setAttribute("aria-label", "Opciones de la carpeta");
     fm.innerHTML = "<span></span><span></span><span></span>"; fm.onclick = function(){ folderMenu(f); };
+    var sorting = rtReorderFolder === f.id && f.open;
+    if (sorting) { box.className += " sorting"; fm = document.createElement("button"); fm.className = "rtSortDone"; fm.textContent = "Listo"; fm.onclick = function(){ rtReorderFolder = null; renderRoutinesHome(); }; }
     fh.appendChild(tg); fh.appendChild(fm); box.appendChild(fh);
-    if (f.open) {
+    if (sorting) {
+      var hint = document.createElement("div"); hint.className = "rtSortHint"; hint.textContent = "Mov\u00e9 las rutinas con las flechas y toc\u00e1 Listo.";
+      box.appendChild(hint);
+      f.routines.forEach(function(r, i) {
+        var c = document.createElement("div"); c.className = "rtCard rtSortRow";
+        var nm = document.createElement("div"); nm.className = "rtName"; nm.textContent = r.name;
+        var up = document.createElement("button"); up.className = "rtEdBtn"; up.innerHTML = "&#8593;"; up.disabled = i === 0; up.setAttribute("aria-label", "Subir");
+        up.onclick = function(){ moveRoutineInFolder(f, i, -1); };
+        var dn = document.createElement("button"); dn.className = "rtEdBtn"; dn.innerHTML = "&#8595;"; dn.disabled = i === f.routines.length - 1; dn.setAttribute("aria-label", "Bajar");
+        dn.onclick = function(){ moveRoutineInFolder(f, i, 1); };
+        c.appendChild(nm); c.appendChild(up); c.appendChild(dn); box.appendChild(c);
+      });
+    } else if (f.open) {
       f.routines.forEach(function(r) {
         var c = document.createElement("div"); c.className = "rtCard";
         var top = document.createElement("div"); top.className = "rtCardTop";
@@ -5488,6 +5508,11 @@ function renderRoutinesHome() {
   });
   area.appendChild(Updater.footer());
 }
+var rtReorderFolder = null;   // carpeta en modo "Ordenar rutinas"
+function moveRoutineInFolder(f, i, d) {
+  var j = i + d; if (j < 0 || j >= f.routines.length) return;
+  var r = f.routines.splice(i, 1)[0]; f.routines.splice(j, 0, r); persistRoutines(); renderRoutinesHome();
+}
 function newRoutineIn(f) {
   askText("Nueva rutina en " + f.name, "Ej.: Empuje, Tirón, Piernas", "", "Crear y agregar ejercicios", function(v) {
     var r = { id: newId(), name: v, exercises: [] }; f.routines.push(r); f.open = true; persistRoutines();
@@ -5497,6 +5522,7 @@ function newRoutineIn(f) {
 function folderMenu(f) {
   openTrSheet(f.name, function(body) {
     trSheetBtn(body, "+&nbsp; Nueva rutina", function(){ newRoutineIn(f); });
+    if (f.routines.length > 1) trSheetBtn(body, "&#8645;&nbsp; Ordenar rutinas", function(){ rtReorderFolder = f.id; f.open = true; persistRoutines(); renderRoutinesHome(); });
     trSheetBtn(body, "&#9998;&nbsp; Renombrar carpeta", function(){ askText("Renombrar carpeta", "Nombre", f.name, "Guardar", function(v){ f.name = v; persistRoutines(); renderRoutinesHome(); }); });
     trSheetBtn(body, "&#10005;&nbsp; Eliminar carpeta", function() {
       var n = f.routines.length;
@@ -5511,6 +5537,7 @@ function routineMenu(f, r) {
     trSheetBtn(body, "&#9776;&nbsp; Editar ejercicios", function(){ openRoutineEditor(r.id); });
     trSheetBtn(body, "&#9998;&nbsp; Renombrar", function(){ askText("Renombrar rutina", "Nombre", r.name, "Guardar", function(v){ r.name = v; persistRoutines(); renderRoutinesHome(); }); });
     trSheetBtn(body, "&#10697;&nbsp; Duplicar", function(){ var c = { id: newId(), name: r.name + " (copia)", exercises: r.exercises.slice() }; f.routines.splice(f.routines.indexOf(r) + 1, 0, c); persistRoutines(); renderRoutinesHome(); });
+    if (f.routines.length > 1) trSheetBtn(body, "&#8645;&nbsp; Ordenar las rutinas de " + escHtml(f.name), function(){ rtReorderFolder = f.id; f.open = true; persistRoutines(); renderRoutinesHome(); });
     if (routinesData().folders.length > 1) trSheetBtn(body, "&#8594;&nbsp; Mover a otra carpeta", function(){ moveRoutine(f, r); });
     trSheetBtn(body, "&#10005;&nbsp; Eliminar rutina", function() {
       if (!confirm("¿Eliminar la rutina \"" + r.name + "\"?\n\nLos ejercicios siguen en la biblioteca y tus registros se conservan.")) return;
@@ -7816,7 +7843,7 @@ var GUIDE_SECTIONS = [
     items: [
       { icon:"&#128218;", title:"Biblioteca", desc:"Mas de 130 ejercicios organizados por grupo muscular. Busca por nombre o filtra por grupo. Toca '+ Agregar' para sumar cualquier ejercicio a tu rutina." },
       { icon:"&#128218;", title:"Biblioteca", desc:"Agrega ejercicios del catalogo o crea los tuyos con Nuevo ejercicio y Nuevo grupo. Al abrir un ejercicio de tu rutina podes elegir sus dias, armar una superserie o quitarlo de la rutina." },
-      { icon:"&#128193;", title:"Carpetas", desc:"Agrupa tus rutinas en carpetas (por ejemplo Hipertrofia con Empuje, Tiron y Piernas). Desde los 3 puntos de cada carpeta o rutina podes renombrar, duplicar, mover o eliminar." },
+      { icon:"&#128193;", title:"Carpetas", desc:"Agrupá tus rutinas en carpetas (por ejemplo Hipertrofia con Empuje, Tirón y Piernas). En los 3 puntos de la carpeta, Ordenar rutinas te deja cambiar el orden con flechas. Desde los 3 puntos de una rutina podés renombrarla, duplicarla, ordenarla o moverla a otra carpeta." },
       { icon:"&#128203;", title:"Historial", desc:"Registro de todas las semanas anteriores. Toca una semana para ver su resumen detallado. Desde aca podes Exportar un backup JSON o Importar uno guardado." },
       { icon:"&#128190;", title:"Backup", desc:"En Historial -> Exportar genera un archivo .json con todos tus datos. Guardalo en Drive o donde quieras. Para restaurar, usa Importar y selecciona el archivo." }
     ]
