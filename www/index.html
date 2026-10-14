@@ -4968,7 +4968,7 @@ function hasVals(s) { return s.reps !== "" || s.weight !== ""; }
 function saveTrainEx(name) {
   var sets = trainEdit[name] || [], clean = [], today = localDay(), days = {}; days[today] = 1;
   for (var i = 0; i < sets.length; i++) {
-    var x = sets[i]; if (!hasVals(x)) continue;
+    var x = sets[i]; if (!hasVals(x) || !x._saved) continue;   // solo las confirmadas con el tilde
     var c = { reps: x.reps, weight: x.weight, modified: true, d: x.d || today };
     if (x.warmup) c.warmup = true;
     if (x.rest) c.rest = x.rest;
@@ -4988,11 +4988,24 @@ function saveTrainEx(name) {
   persist();
 }
 
+// Tocar el tilde azul: la serie deja de estar registrada (los valores quedan para corregir)
+function trainUndoSet(name, idx) {
+  var sets = getTrainSets(name), s = sets[idx]; if (!s) return;
+  delete s._saved; delete s.t; delete s.rir;
+  if (trainRirOpen && trainRirOpen.name === name && trainRirOpen.idx === idx) trainRirOpen = null;
+  saveTrainEx(name); renderTrain();
+  showToast("Serie dada de baja");
+}
 // Registrar una serie (boton ✓): completa con lo de la semana pasada si estaba vacia,
 // guarda, arranca el descanso de ESA serie y avisa si es record.
 function trainCompleteSet(name, idx) {
   var sets = getTrainSets(name), s = sets[idx]; if (!s) return;
-  if (!hasVals(s) && s._ph) { s.weight = s._ph.weight; s.reps = s._ph.reps; }
+  if (s._saved && hasVals(s)) { trainUndoSet(name, idx); return; }
+  // Lo que no escribiste se completa con lo sugerido en gris (peso y reps por separado)
+  if (s._ph) {
+    if ((s.weight === "" || s.weight === undefined) && s._ph.weight) s.weight = String(s._ph.weight);
+    if ((s.reps === "" || s.reps === undefined) && s._ph.reps) s.reps = String(s._ph.reps);
+  }
   if (!hasVals(s)) { var inp = document.getElementById("trKg_" + trainKey(name) + "_" + idx); if (inp) inp.focus(); return; }
   var prevPR = s.warmup ? null : getExPR(name);
   if (!s.warmup) { var jmp = loadJumpCheck(name, s.weight); if (jmp && !(trainJump[name] && trainJump[name].w >= jmp.w)) trainJump[name] = jmp; }
@@ -5313,6 +5326,7 @@ function renderTrain() {
       }
       var ok = document.createElement("button"); ok.className = "trOk"; ok.setAttribute("aria-label", "Registrar serie");
       ok.innerHTML = "&#10003;"; ok.onclick = function(){ trainCompleteSet(name, idx); };
+      if (done) ok.setAttribute("aria-label", "Dar de baja la serie");
       function refreshVol() {
         var t = 0; sets.forEach(function(x){ if (!x.warmup && hasVals(x)) t += (parseFloat(x.weight) || 0) * (parseFloat(x.reps) || 0); });
         vt.textContent = t > 0 ? Math.round(t).toLocaleString("es-AR") + " kg" : "";
@@ -5325,10 +5339,10 @@ function renderTrain() {
         }
       };
       rp.oninput = function(){ s.reps = rp.value; refreshVol(); };
-      var onChange = function(){ if (hasVals(s)) { s._saved = true; delete s._ph; if (!s.t) { s.t = Date.now(); trainSessionStart(); } row.classList.add("done"); } saveTrainEx(name); };
+      var onChange = function(){ if (s._saved) saveTrainEx(name); };   // registrar es solo con el tilde
       kg.onchange = onChange; rp.onchange = onChange;
       kg.onkeydown = function(e){ if (e.key === "Enter") { e.preventDefault(); rp.focus(); } };
-      rp.onkeydown = function(e){ if (e.key === "Enter") { e.preventDefault(); rp.blur(); trainCompleteSet(name, idx); } };
+      rp.onkeydown = function(e){ if (e.key === "Enter") { e.preventDefault(); rp.blur(); if (!s._saved) trainCompleteSet(name, idx); } };
       row.appendChild(lab); row.appendChild(cell); row.appendChild(rest); row.appendChild(rirB); row.appendChild(ok);
       blk.appendChild(row);
       // Selector de RIR (se abre solo al registrar una serie de trabajo; opcional)
@@ -8501,7 +8515,7 @@ renderHome();
     </div>
     <div class="trDayChips" id="trDayChips"></div>
     <div class="trMeso" id="trMeso"></div>
-    <div class="trHint" id="trHint">En gris, lo sugerido para hoy: &#10003; lo registra igual, o escrib&iacute; lo que hiciste.</div>
+    <div class="trHint" id="trHint">En gris, lo sugerido para hoy. La serie se registra al tocar &#10003;: toma lo que escribiste y completa lo dem&aacute;s con lo sugerido. Si toc&aacute;s el &#10003; azul, la serie se da de baja.</div>
     <div id="trList"></div>
   </div>
   <div class="trTimerPill" id="trTimerPill">
