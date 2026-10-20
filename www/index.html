@@ -907,11 +907,26 @@ body.hasLive .screen.active{padding-bottom:78px}
 .rtItemMid span{font-size:12.5px;color:var(--text-3)}
 .rtItemGo{color:var(--text-3);font-size:22px}
 .rtDate{font-size:14px;color:var(--text-2);margin:12px 0 2px}
-.rtSplit{display:flex;align-items:center;gap:10px;padding:5px 0;font-variant-numeric:tabular-nums}
-.rtSplitK{width:46px;font-size:13px;color:var(--text-3)}
-.rtSplitBar{flex:1;height:8px;background:#1B2533;border-radius:99px;overflow:hidden}
-.rtSplitBar i{display:block;height:100%;background:var(--primary);border-radius:99px}
-.rtSplitV{width:58px;text-align:right;font-size:14px;font-weight:600}
+.rtStats{padding:4px 14px}
+.rtStat{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid #182030;font-size:14.5px}
+.rtStat:last-child{border-bottom:none}
+.rtStat span{color:var(--text-2)}
+.rtStat b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.rtNote{font-size:12px;color:var(--text-3);line-height:1.45;margin:-2px 2px 14px}
+.rtSplits{background:var(--surface);border:1px solid #182030;border-radius:14px;overflow:hidden;margin-bottom:14px}
+.rtSplitH,.rtSplit{display:grid;grid-template-columns:1fr 1fr}
+.rtSplitH{padding:9px 14px;font-size:12px;font-weight:700;color:var(--text-3);text-transform:uppercase;letter-spacing:.5px}
+.rtSplitH span:last-child{text-align:center}
+.rtSplit{border-top:1px solid #182030;font-variant-numeric:tabular-nums}
+.rtSplitD{position:relative;display:flex;justify-content:flex-end;align-items:center;padding:13px 16px 13px 0;border-right:1px dashed #2A3649}
+.rtSplitD i{position:absolute;left:0;top:0;bottom:0;background:#22D3EE2E}
+.rtSplitD b{position:relative;font-size:15px}
+.rtSplitV{display:flex;align-items:center;justify-content:center;gap:10px;padding:13px 8px}
+.rtSplitV em{font-style:normal;font-size:18px;width:22px;text-align:center}
+.rtSplitV b{font-size:15px;min-width:52px}
+.rtKgRow{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:transparent;border:1px solid #182030;border-radius:12px;color:var(--text-2);font-size:13.5px;padding:11px 14px;margin-bottom:14px;cursor:pointer}
+.rtKgRow b{color:var(--primary)}
+.rtKgIn{width:100%;font-size:18px;padding:12px;margin:8px 0}
 .rtDel{width:100%;margin-top:8px;border:1px solid #F8717155;background:transparent;color:#FCA5A5;border-radius:12px;font-size:14px;font-weight:600;padding:12px;cursor:pointer}
 </style>
 </head>
@@ -3407,7 +3422,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymBodyKg"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -7655,6 +7670,33 @@ function rtSplits(rows) {
   if (rest >= 50) out.push([Math.round(rest), Math.round(tm - lastT)]);
   return out;
 }
+// Velocidad maxima (m/s): la mas alta sostenida durante al menos 5 s (evita los saltos del GPS)
+function rtVmax(rows, cap) {
+  var best = 0, j = 0;
+  for (var i = 0; i < rows.length - 1; i++) {
+    if (j <= i) j = i + 1;
+    while (j < rows.length && rows[j][3] === rows[i][3] && rows[j][2] - rows[i][2] < 5000) j++;
+    if (j >= rows.length || rows[j][3] !== rows[i][3]) continue;
+    var v = rtDist(rows[i], rows[j]) / ((rows[j][2] - rows[i][2]) / 1000);
+    if (v > best && v <= cap) best = v;
+  }
+  return best;
+}
+// Calorias estimadas: MET segun la velocidad x peso x horas (es una estimacion)
+function rtInterp(tbl, v) {
+  if (v <= tbl[0][0]) return tbl[0][1];
+  for (var i = 1; i < tbl.length; i++) if (v <= tbl[i][0]) return tbl[i - 1][1] + (tbl[i][1] - tbl[i - 1][1]) * (v - tbl[i - 1][0]) / (tbl[i][0] - tbl[i - 1][0]);
+  return tbl[tbl.length - 1][1];
+}
+function rtKcal(mode, distM, durS, kg) {
+  if (!(distM > 0) || !(durS > 0)) return 0;
+  var v = distM / durS * 3.6, met;
+  if (mode === "bici") met = rtInterp([[8, 3.5], [16, 6], [19, 8], [22, 10], [26, 12], [32, 15]], v);
+  else if (mode === "correr" && v >= 7) met = 1.03 * v;
+  else met = rtInterp([[2.5, 2], [3.2, 2.8], [4, 3], [4.8, 3.5], [5.6, 4.3], [6.4, 5], [7.2, 6.5]], v);
+  return Math.round(met * kg * durS / 3600);
+}
+function rtKg() { var v = 0; try { v = parseFloat(localStorage.getItem("gymBodyKg")); } catch(e) {} return v > 25 && v < 300 ? v : 0; }
 // ---- formatos ----
 function rtKm(m) { return (m / 1000).toLocaleString("es-AR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
 function rtClock(sec) { sec = Math.max(0, Math.round(sec)); var h = Math.floor(sec / 3600), m = Math.floor(sec % 3600 / 60), s = sec % 60; return (h ? h + ":" + (m < 10 ? "0" : "") : "") + m + ":" + (s < 10 ? "0" : "") + s; }
@@ -7673,7 +7715,7 @@ var RouteGps = (function() {
   var native = !!(C && typeof C.isNativePlatform === "function" && C.isNativePlatform() && typeof C.nativePromise === "function");
   function call(m, o) { try { return C.nativePromise("Route", m, o || {}); } catch(e) { return Promise.reject(e); } }
   // --- motor en JS (navegador): mismas reglas que el servicio nativo ---
-  var W = { state: "idle", mode: "correr", maxV: 9, startedAt: 0, accMs: 0, runSince: 0, dist: 0, gain: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0 }, watchId = null;
+  var W = { state: "idle", mode: "correr", maxV: 9, startedAt: 0, accMs: 0, runSince: 0, dist: 0, gain: 0, loss: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0 }, watchId = null;
   function wElapsed() { return W.accMs + (W.state === "running" ? Date.now() - W.runSince : 0); }
   function wFix(p) {
     var c = p.coords; W.fixAcc = c.accuracy == null ? 99 : c.accuracy; W.fixAt = Date.now(); W.lat = c.latitude; W.lon = c.longitude;
@@ -7689,7 +7731,7 @@ var RouteGps = (function() {
     if (alt != null) {
       if (W.refAlt == null) W.refAlt = alt;
       else if (alt - W.refAlt >= 4) { W.gain += alt - W.refAlt; W.refAlt = alt; }
-      else if (W.refAlt - alt >= 4) W.refAlt = alt;
+      else if (W.refAlt - alt >= 4) { W.loss += W.refAlt - alt; W.refAlt = alt; }
     }
     var row = [c.latitude, c.longitude, t, W.seg, alt || 0]; W.pts.push(row); W.last = row;
   }
@@ -7703,17 +7745,17 @@ var RouteGps = (function() {
       });
     },
     start: function(mode, maxV) {
-      W = { state: "running", mode: mode, maxV: maxV, startedAt: Date.now(), accMs: 0, runSince: Date.now(), dist: 0, gain: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0 };
+      W = { state: "running", mode: mode, maxV: maxV, startedAt: Date.now(), accMs: 0, runSince: Date.now(), dist: 0, gain: 0, loss: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0 };
       wWatch(); return Promise.resolve();
     },
     pause: function() { if (W.state === "running") { W.accMs += Date.now() - W.runSince; W.state = "paused"; W.last = null; W.seg++; wUnwatch(); } return Promise.resolve(); },
     resume: function() { if (W.state === "paused") { W.runSince = Date.now(); W.state = "running"; wWatch(); } return Promise.resolve(); },
     status: function() {
-      return Promise.resolve({ state: W.state, mode: W.mode, startedAt: W.startedAt, elapsed: wElapsed(), dist: W.dist, gain: W.gain, count: W.pts.length, fixAcc: W.fixAcc, fixAgo: W.fixAt ? Date.now() - W.fixAt : -1, lat: W.lat, lon: W.lon, gps: true, granted: true });
+      return Promise.resolve({ state: W.state, mode: W.mode, startedAt: W.startedAt, elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, count: W.pts.length, fixAcc: W.fixAcc, fixAgo: W.fixAt ? Date.now() - W.fixAt : -1, lat: W.lat, lon: W.lon, gps: true, granted: true });
     },
     points: function(from) { return Promise.resolve({ points: W.pts.slice(from || 0) }); },
     stop: function() {
-      var r = { mode: W.mode, startedAt: W.startedAt, endedAt: Date.now(), elapsed: wElapsed(), dist: W.dist, gain: W.gain, points: W.pts.slice() };
+      var r = { mode: W.mode, startedAt: W.startedAt, endedAt: Date.now(), elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, points: W.pts.slice() };
       wUnwatch(); W.state = "idle"; W.pts = []; return Promise.resolve(r);
     },
     discard: function() { wUnwatch(); W.state = "idle"; W.pts = []; return Promise.resolve(); }
@@ -7841,6 +7883,8 @@ function rtIdle(root) {
   var h = '<div class="msSeg rtModes">' + Object.keys(ROUTE_MODES).map(function(k) { return '<button data-m="' + k + '" class="' + (RT.mode === k ? "on" : "") + '">' + ROUTE_MODES[k].ic + "&nbsp; " + ROUTE_MODES[k].name + "</button>"; }).join("") + "</div>";
   h += '<button class="rtStart" id="rtStartBtn">Iniciar ' + ROUTE_MODES[RT.mode].name.toLowerCase() + '</button>';
   h += '<div class="rtHint">' + (RouteGps.native ? "Graba con la pantalla bloqueada: vas a ver el tiempo y los km en la notificación. No suma series al Balance." : "En el navegador solo graba con esta pantalla abierta. No suma series al Balance.") + "</div>";
+  var kgv = rtKg();
+  h += '<button class="rtKgRow" id="rtKgBtn"><span>Tu peso (para calcular calorías)</span><b>' + (kgv ? String(kgv).replace(".", ",") + " kg" : "Cargar") + '</b></button>';
   var now = new Date(), mo = routes.filter(function(r) { var d = new Date(r.start); return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth(); });
   if (mo.length) {
     var tk = 0, tt = 0; mo.forEach(function(r) { tk += r.dist; tt += r.dur; });
@@ -7856,7 +7900,20 @@ function rtIdle(root) {
   root.innerHTML = h;
   root.querySelectorAll(".rtModes button").forEach(function(b) { b.onclick = function() { RT.mode = b.getAttribute("data-m"); safeStore("gymRouteMode", RT.mode); rtIdle(root); }; });
   root.querySelector("#rtStartBtn").onclick = rtStart;
+  root.querySelector("#rtKgBtn").onclick = function() { rtKgSheet(root); };
   root.querySelectorAll(".rtItem").forEach(function(b) { b.onclick = function() { routeSetView("detail", b.getAttribute("data-id")); }; });
+}
+function rtKgSheet(root) {
+  openTrSheet("Tu peso", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<div class="exdIntro">Se usa solo para estimar las calorías de los recorridos. Queda en tu celular.</div><input id="rtKgIn" class="setInput rtKgIn" type="text" inputmode="decimal" placeholder="Ej.: 75" value="' + (rtKg() || "") + '"><div class="updRow"><button class="updGo" id="rtKgOk">Guardar</button></div>';
+    body.appendChild(w);
+    w.querySelector("#rtKgOk").onclick = function() {
+      var v = parseFloat(String(w.querySelector("#rtKgIn").value).replace(",", "."));
+      if (!(v > 25 && v < 300)) { showToast("Poné un peso entre 25 y 300 kg"); return; }
+      safeStore("gymBodyKg", String(v)); closeTrSheet(); rtIdle(root);
+    };
+  });
 }
 function rtStart() {
   if (RT.busy) return; RT.busy = true;
@@ -7932,8 +7989,8 @@ function rtSave() {
     if (!r || !(r.dist >= 30)) { showToast("El recorrido fue muy corto: no se guardó"); routeRender(); return; }
     var rows = r.points || [], segs = [], cur = null, pts = [];
     rows.forEach(function(p) { if (p[3] !== cur) { segs.push([]); cur = p[3]; } segs[segs.length - 1].push([p[0], p[1]]); });
-    var rec = { id: "r" + r.startedAt, mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain),
-      splits: rtSplits(rows), poly: segs.filter(function(s) { return s.length > 1; }).map(function(s) { return plEnc(rtSimplify(s, 3)); }) };
+    var rec = { id: "r" + r.startedAt, mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain), loss: Math.round(r.loss || 0),
+      vmax: Math.round(rtVmax(rows, (ROUTE_MODES[r.mode] || ROUTE_MODES.correr).maxV) * 100) / 100, splits: rtSplits(rows), poly: segs.filter(function(s) { return s.length > 1; }).map(function(s) { return plEnc(rtSimplify(s, 3)); }) };
     routes.push(rec); persistRoutes();
     showToast("Recorrido guardado");
     routeSetView("detail", rec.id);
@@ -7948,13 +8005,24 @@ function rtDetail(root) {
   var h = '<div class="rtMap" id="rtMap"></div>';
   h += '<div class="rtDate">' + M.ic + " " + M.name + " &middot; " + d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" }) + " &middot; " + d.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit" }) + "</div>";
   h += '<div class="rtGrid"><div class="rtCell"><b>' + rtKm(r.dist) + '</b><span>km</span></div><div class="rtCell"><b>' + rtClock(r.dur) + '</b><span>tiempo</span></div><div class="rtCell"><b>' + rtRate(r.mode, r.dist, r.dur) + '</b><span>' + rtRateUnit(r.mode) + ' prom.</span></div></div>';
-  if (r.gain >= 1) h += '<div class="rtSig">Desnivel acumulado aprox. +' + r.gain + " m (el GPS mide la altura con poca precisión)</div>";
+  var kg = rtKg(), kcal = rtKcal(r.mode, r.dist, r.dur, kg || 70);
+  var rows = [["Velocidad promedio", rtSpeed(r.dist / Math.max(1, r.dur)) + " km/h"]];
+  if (r.vmax > 0) rows.push(["Velocidad máxima", rtSpeed(r.vmax) + " km/h"]);
+  rows.push(["Paso promedio", rtPace(r.dur / (r.dist / 1000)) + " min/km"]);
+  rows.push(["Calorías (estimadas)", kcal + " kcal" + (kg ? "" : " · con 70 kg")]);
+  if (r.gain != null) rows.push(["Altitud hacia arriba", Math.round(r.gain) + " m"]);
+  if (r.loss != null) rows.push(["Altitud hacia abajo", Math.round(r.loss) + " m"]);
+  h += '<div class="balCard rtStats">' + rows.map(function(x) { return '<div class="rtStat"><span>' + x[0] + "</span><b>" + x[1] + "</b></div>"; }).join("") + '</div>';
+  h += '<div class="rtNote">La altura medida con GPS es poco precisa: el desnivel es aproximado. Las calorías son una estimación según la velocidad y tu peso' + (kg ? "" : " (cargalo en Recorridos &rsaquo; Tu peso)") + ".</div>";
   if (r.splits && r.splits.length) {
-    var best = 1e9; r.splits.forEach(function(s) { if (s[0] >= 1000 && s[1] < best) best = s[1]; });
-    h += '<div class="exdSec">Parciales por kilómetro</div><div class="balCard rtSplits">';
-    r.splits.forEach(function(s, i) {
-      var pace = s[1] / (s[0] / 1000), w = best < 1e9 ? Math.max(18, Math.min(100, Math.round(best / pace * 100))) : 60;
-      h += '<div class="rtSplit"><span class="rtSplitK">' + (s[0] >= 1000 ? i + 1 : rtKm(s[0]).replace(",00", "") + " km") + '</span><span class="rtSplitBar"><i style="width:' + w + '%"></i></span><span class="rtSplitV">' + rtRate(r.mode, s[0], s[1]) + "</span></div>";
+    var full = r.splits.filter(function(x) { return x[0] >= 1000; }), fast = -1, slow = -1;
+    if (full.length >= 2) {
+      var pf = 1e9, ps = 0; r.splits.forEach(function(x, k) { if (x[0] < 1000) return; if (x[1] < pf) { pf = x[1]; fast = k; } if (x[1] > ps) { ps = x[1]; slow = k; } });
+      if (pf === ps) fast = slow = -1;
+    }
+    h += '<div class="exdSec">Parciales por kilómetro</div><div class="rtSplits"><div class="rtSplitH"><span>Distancia</span><span>' + (ROUTE_MODES[r.mode].speed ? "Velocidad" : "Paso") + '</span></div>';
+    r.splits.forEach(function(x, k) {
+      h += '<div class="rtSplit"><span class="rtSplitD"><i style="width:' + Math.min(100, Math.round(x[0] / 10)) + '%"></i><b>' + rtKm(x[0]) + '</b></span><span class="rtSplitV"><em>' + (k === fast ? "&#128007;" : k === slow ? "&#128034;" : "") + "</em><b>" + rtRate(r.mode, x[0], x[1]) + "</b></span></div>";
     });
     h += "</div>";
   }

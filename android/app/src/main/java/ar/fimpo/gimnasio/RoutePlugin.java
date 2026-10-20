@@ -96,6 +96,7 @@ public class RoutePlugin extends Plugin {
             r.put("elapsed", RouteTrack.elapsedMs());
             r.put("dist", RouteTrack.dist);
             r.put("gain", RouteTrack.gain);
+            r.put("loss", RouteTrack.loss);
             r.put("count", RouteTrack.pts.size());
             r.put("fixAcc", RouteTrack.fixAcc);
             r.put("fixAgo", RouteTrack.fixAt == 0 ? -1 : System.currentTimeMillis() - RouteTrack.fixAt);
@@ -133,6 +134,7 @@ public class RoutePlugin extends Plugin {
             r.put("elapsed", f[3]);
             r.put("dist", f[4]);
             r.put("gain", f[5]);
+            r.put("loss", f[7]);
             JSArray arr = new JSArray();
             @SuppressWarnings("unchecked") ArrayList<double[]> pts = (ArrayList<double[]>) f[6];
             for (double[] p : pts) arr.put(row(p));

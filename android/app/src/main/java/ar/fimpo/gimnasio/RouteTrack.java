@@ -24,7 +24,7 @@ final class RouteTrack {
     static String mode = "correr";
     static double maxSpeed = 9;          // m/s: por encima se considera un salto del GPS
     static long startedAt = 0, accMs = 0, runSince = 0;
-    static double dist = 0, gain = 0, refAlt = Double.NaN;
+    static double dist = 0, gain = 0, loss = 0, refAlt = Double.NaN;
     static int seg = 0, rejects = 0;
     static double[] last = null;         // ultimo punto aceptado del tramo
     static final ArrayList<double[]> pts = new ArrayList<>();   // lat, lon, t, tramo, alt, precision
@@ -44,7 +44,7 @@ final class RouteTrack {
         synchronized (LOCK) {
             state = "running"; mode = m; maxSpeed = maxV;
             startedAt = System.currentTimeMillis(); accMs = 0; runSince = startedAt;
-            dist = 0; gain = 0; refAlt = Double.NaN; seg = 0; rejects = 0; last = null;
+            dist = 0; gain = 0; loss = 0; refAlt = Double.NaN; seg = 0; rejects = 0; last = null;
             pts.clear(); fixAcc = -1; fixAt = 0;
             try { new File(ctx.getFilesDir(), FILE).delete(); } catch (Exception e) { /* nada */ }
             save(ctx);
@@ -73,7 +73,7 @@ final class RouteTrack {
     static Object[] finish(Context ctx) {
         synchronized (LOCK) {
             if ("running".equals(state)) accMs += System.currentTimeMillis() - runSince;
-            Object[] r = new Object[] { mode, startedAt, System.currentTimeMillis(), accMs, dist, gain, new ArrayList<>(pts) };
+            Object[] r = new Object[] { mode, startedAt, System.currentTimeMillis(), accMs, dist, gain, new ArrayList<>(pts), loss };
             clear(ctx);
             return r;
         }
@@ -81,7 +81,7 @@ final class RouteTrack {
 
     static void clear(Context ctx) {
         synchronized (LOCK) {
-            state = "idle"; accMs = 0; dist = 0; gain = 0; seg = 0; last = null; refAlt = Double.NaN; rejects = 0;
+            state = "idle"; accMs = 0; dist = 0; gain = 0; loss = 0; seg = 0; last = null; refAlt = Double.NaN; rejects = 0;
             pts.clear();
             try { new File(ctx.getFilesDir(), FILE).delete(); } catch (Exception e) { /* nada */ }
             ctx.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit().clear().apply();
@@ -115,7 +115,7 @@ final class RouteTrack {
             if (!Double.isNaN(alt)) {                      // desnivel con histeresis de 4 m
                 if (Double.isNaN(refAlt)) refAlt = alt;
                 else if (alt - refAlt >= 4) { gain += alt - refAlt; refAlt = alt; }
-                else if (refAlt - alt >= 4) refAlt = alt;
+                else if (refAlt - alt >= 4) { loss += refAlt - alt; refAlt = alt; }
             }
             double[] p = new double[] { l.getLatitude(), l.getLongitude(), t, seg, Double.isNaN(alt) ? 0 : alt, fixAcc };
             pts.add(p); last = p;
@@ -132,7 +132,7 @@ final class RouteTrack {
         ctx.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit()
                 .putString("state", state).putString("mode", mode).putFloat("maxSpeed", (float) maxSpeed)
                 .putLong("startedAt", startedAt).putLong("accMs", accMs).putLong("runSince", runSince)
-                .putFloat("dist", (float) dist).putFloat("gain", (float) gain).putInt("seg", seg).apply();
+                .putFloat("dist", (float) dist).putFloat("gain", (float) gain).putFloat("loss", (float) loss).putInt("seg", seg).apply();
     }
 
     /** Si la app se cerro con un recorrido en curso, lo recupera (queda en pausa). */
@@ -145,7 +145,7 @@ final class RouteTrack {
             mode = sp.getString("mode", "correr"); maxSpeed = sp.getFloat("maxSpeed", 9);
             startedAt = sp.getLong("startedAt", 0); accMs = sp.getLong("accMs", 0);
             if ("running".equals(st)) accMs += Math.max(0, System.currentTimeMillis() - sp.getLong("runSince", System.currentTimeMillis()));
-            dist = sp.getFloat("dist", 0); gain = sp.getFloat("gain", 0); seg = sp.getInt("seg", 0) + 1;
+            dist = sp.getFloat("dist", 0); gain = sp.getFloat("gain", 0); loss = sp.getFloat("loss", 0); seg = sp.getInt("seg", 0) + 1;
             last = null; rejects = 0; refAlt = Double.NaN; pts.clear();
             try {
                 BufferedReader br = new BufferedReader(new FileReader(new File(ctx.getFilesDir(), FILE)));
