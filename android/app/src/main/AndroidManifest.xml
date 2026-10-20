@@ -27,6 +27,9 @@
         <!-- Fin de descanso programado con AlarmManager.setAlarmClock -->
         <receiver android:name=".RestAlarmReceiver" android:exported="false" />
 
+        <!-- Recorridos con GPS: servicio en primer plano de tipo ubicacion -->
+        <service android:name=".RouteService" android:exported="false" android:foregroundServiceType="location" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -50,4 +53,10 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- Para ofrecer quitar la optimizacion de bateria (algunas marcas frenan las alarmas) -->
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!-- Recorridos con GPS (caminar, correr, bici) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
 </manifest>

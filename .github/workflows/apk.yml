@@ -115,6 +115,7 @@ jobs:
           echo "::notice title=Recursos::$(unzip -l $APK | grep -oE 'res/raw/descanso.wav|assets/capacitor.plugins.json' | tr '\n' ' ') | plugins=$(unzip -p $APK assets/capacitor.plugins.json | tr -d ' \n')"
           echo "::notice title=Splash/icono::$(unzip -l $APK | grep -cE 'ic_launcher') iconos, ic_stat_timer=$(unzip -l $APK | grep -c ic_stat_timer)"
           echo "::notice title=Updater::clases=$(unzip -p $APK 'classes*.dex' | grep -ac 'UpdaterPlugin') permiso=$($AAPT dump permissions $APK | grep -c REQUEST_INSTALL_PACKAGES)"
+          echo "::notice title=Ruta::clases=$(unzip -p $APK 'classes*.dex' | grep -ac 'RouteService') gps=$($AAPT dump permissions $APK | grep -c ACCESS_FINE_LOCATION)"
 
       - uses: actions/upload-artifact@v4
         with:

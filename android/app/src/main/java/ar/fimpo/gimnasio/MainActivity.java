@@ -22,6 +22,7 @@ public class MainActivity extends BridgeActivity {
     public void onCreate(Bundle savedInstanceState) {
         registerPlugin(UpdaterPlugin.class);   // actualizaciones desde la app (antes de super.onCreate)
         registerPlugin(RestAlarmPlugin.class); // alarma de descanso con setAlarmClock
+        registerPlugin(RoutePlugin.class);     // recorridos con GPS
         super.onCreate(savedInstanceState);
         createRestChannel(this);
     }
