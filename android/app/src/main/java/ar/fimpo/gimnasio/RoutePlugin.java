@@ -105,7 +105,22 @@ public class RoutePlugin extends Plugin {
         }
         r.put("gps", gpsOn());
         r.put("granted", getPermissionState("location") == PermissionState.GRANTED);
+        r.put("notif", androidx.core.app.NotificationManagerCompat.from(getContext()).areNotificationsEnabled());
         call.resolve(r);
+    }
+
+    /** Abre los ajustes de notificaciones de la app. */
+    @PluginMethod
+    public void openNotif(PluginCall call) {
+        try {
+            Intent i = new Intent(android.provider.Settings.ACTION_APP_NOTIFICATION_SETTINGS);
+            i.putExtra(android.provider.Settings.EXTRA_APP_PACKAGE, getContext().getPackageName());
+            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            getContext().startActivity(i);
+            call.resolve();
+        } catch (Exception e) {
+            call.reject("No se pudo abrir el ajuste: " + e.getMessage());
+        }
     }
 
     /** Puntos desde el indice "from": [[lat, lon, t, tramo, alt], ...] */

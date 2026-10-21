@@ -162,6 +162,31 @@ final class RouteTrack {
         }
     }
 
+    /** Velocidad actual (m/s): ultimos ~80 m o 40 s del mismo tramo; 0 si esta quieto o sin senal. */
+    static double curSpeed() {
+        synchronized (LOCK) {
+            int n = pts.size();
+            if (!"running".equals(state) || n < 2) return 0;
+            double[] e = pts.get(n - 1);
+            if (System.currentTimeMillis() - e[2] > 20000) return 0;
+            double d = 0; int i = n - 1; float[] r = new float[1];
+            while (i > 0 && pts.get(i - 1)[3] == e[3] && d < 80 && e[2] - pts.get(i - 1)[2] < 40000) {
+                double[] a = pts.get(i - 1), b = pts.get(i);
+                Location.distanceBetween(a[0], a[1], b[0], b[1], r);
+                d += r[0]; i--;
+            }
+            double dt = (e[2] - pts.get(i)[2]) / 1000.0;
+            return (d >= 15 && dt > 0) ? d / dt : 0;
+        }
+    }
+
+    /** "5:52 /km" o "24,3 km/h" a partir de una velocidad en m/s. */
+    static String rate(String m, double v) {
+        if ("bici".equals(m)) return String.format(Locale.US, "%.1f km/h", v * 3.6).replace('.', ',');
+        if (v <= 0.2) return "--:-- /km";
+        return clock((long) (1000.0 / v * 1000)) + " /km";
+    }
+
     static String clock(long ms) {
         long s = ms / 1000, h = s / 3600, m = (s % 3600) / 60;
         return h > 0 ? String.format(Locale.US, "%d:%02d:%02d", h, m, s % 60) : String.format(Locale.US, "%d:%02d", m, s % 60);

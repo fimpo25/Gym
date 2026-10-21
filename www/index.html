@@ -882,6 +882,7 @@ body.hasLive .screen.active{padding-bottom:78px}
 .rtTime{font-size:64px;font-weight:700;text-align:center;color:#fff;font-variant-numeric:tabular-nums;font-stretch:85%;line-height:1;margin:14px 0 2px}
 .rtState{text-align:center;font-size:13px;color:var(--text-3);margin-bottom:4px}
 .rtSig{font-size:12.5px;color:var(--text-3);text-align:center;line-height:1.45;margin:6px 0 12px}
+.rtWarn{width:100%;border:1px solid #FFB02066;background:#FFB02014;color:var(--energy);border-radius:12px;font-size:13px;line-height:1.4;padding:11px 14px;margin:0 0 12px;text-align:left;cursor:pointer}
 .rtBtns{display:flex;gap:10px}
 .rtBtn{flex:1;border:1px solid var(--border-strong);background:var(--surface-2);color:var(--text);border-radius:14px;font-size:16px;font-weight:700;padding:16px;cursor:pointer}
 .rtBtn.resume{background:var(--primary);color:#001014;border-color:var(--primary)}
@@ -7770,7 +7771,8 @@ var RouteGps = (function() {
     status: function() { return call("status"); },
     points: function(from) { return call("points", { from: from || 0 }); },
     stop: function() { return call("stop"); },
-    discard: function() { return call("discard"); }
+    discard: function() { return call("discard"); },
+    openNotif: function() { return call("openNotif"); }
   };
 })();
 
@@ -7933,10 +7935,12 @@ function rtLive(root, st) {
     root.innerHTML = '<div class="rtMap" id="rtMap"></div><div class="rtTime" id="rtTime">0:00</div><div class="rtState" id="rtStateTxt"></div>' +
       '<div class="rtGrid"><div class="rtCell"><b id="rtDist">0,00</b><span>km</span></div><div class="rtCell"><b id="rtNow">--:--</b><span id="rtNowL"></span></div><div class="rtCell"><b id="rtAvg">--:--</b><span id="rtAvgL"></span></div></div>' +
       '<div class="rtSig" id="rtSig"></div>' +
+      '<button class="rtWarn" id="rtNotif" style="display:none">Las notificaciones están apagadas: no vas a ver el avance con la pantalla bloqueada. Tocá para activarlas.</button>' +
       '<div class="rtBtns"><button class="rtBtn" id="rtPause"></button><button class="rtBtn stop" id="rtStop">Terminar</button></div>';
     RT.map = new RtMap(root.querySelector("#rtMap"), true);
     root.querySelector("#rtPause").onclick = function() { (RT.st && RT.st.state === "paused" ? RouteGps.resume() : RouteGps.pause()).then(function() { routeRender(); }); };
     root.querySelector("#rtStop").onclick = rtFinish;
+    root.querySelector("#rtNotif").onclick = function() { if (RouteGps.openNotif) RouteGps.openNotif().catch(function() {}); };
   }
   function $(id) { return root.querySelector("#" + id); }
   $("rtTime").textContent = rtClock(st.elapsed / 1000);
@@ -7951,6 +7955,7 @@ function rtLive(root, st) {
   else if (st.count === 0) msg = "Buscando señal GPS… salí a cielo abierto para que enganche más rápido.";
   else msg = (st.fixAgo > 8000 ? "Sin señal GPS desde hace unos segundos. " : "") + "Señal ±" + Math.round(st.fixAcc > 0 ? st.fixAcc : 0) + " m" + (st.gain >= 1 ? " · Desnivel +" + Math.round(st.gain) + " m" : "");
   $("rtSig").textContent = msg;
+  $("rtNotif").style.display = (RouteGps.native && st.notif === false) ? "block" : "none";
   $("rtStateTxt").textContent = (M.name) + (st.state === "paused" ? " · en pausa" : "");
   // puntos nuevos
   var after = function() {

@@ -26,7 +26,8 @@ import java.util.Locale;
  */
 public class RouteService extends Service implements LocationListener {
 
-    static final String CHANNEL = "recorrido";
+    static final String CHANNEL = "recorrido_v2";
+    private static final String OLD_CHANNEL = "recorrido";
     static final int NID = 7001;
     static final String A_START = "ar.fimpo.gimnasio.RUTA_START";
     static final String A_PAUSE = "ar.fimpo.gimnasio.RUTA_PAUSE";
@@ -40,7 +41,7 @@ public class RouteService extends Service implements LocationListener {
     private final Runnable tick = new Runnable() {
         @Override public void run() {
             notifyNow();
-            handler.postDelayed(this, 3000);
+            handler.postDelayed(this, 1000);
         }
     };
 
@@ -50,6 +51,8 @@ public class RouteService extends Service implements LocationListener {
     public int onStartCommand(Intent intent, int flags, int startId) {
         createChannel(this);
         String action = intent == null ? null : intent.getAction();
+        if (A_PAUSE.equals(action)) RouteTrack.pause(this);      // tambien llegan desde el boton de la notificacion
+        else if (A_RESUME.equals(action)) RouteTrack.resume(this);
         if (intent == null) {                       // Android reinicio el servicio tras cerrarlo
             RouteTrack.restore(this);
             if ("idle".equals(RouteTrack.state)) { stopSelf(); return START_NOT_STICKY; }
@@ -117,10 +120,15 @@ public class RouteService extends Service implements LocationListener {
     }
 
     private Notification buildNotification() {
-        double km; long ms; String st, mode;
-        synchronized (RouteTrack.LOCK) { km = RouteTrack.dist / 1000.0; ms = RouteTrack.elapsedMs(); st = RouteTrack.state; mode = RouteTrack.mode; }
-        String title = modeLabel(mode) + ("paused".equals(st) ? " (en pausa)" : "");
-        String text = String.format(Locale.US, "%.2f km · %s", km, RouteTrack.clock(ms)).replace('.', ',');
+        double km, dist; long ms; String st, mode;
+        synchronized (RouteTrack.LOCK) { dist = RouteTrack.dist; km = dist / 1000.0; ms = RouteTrack.elapsedMs(); st = RouteTrack.state; mode = RouteTrack.mode; }
+        boolean paused = "paused".equals(st);
+        String kmTxt = String.format(Locale.US, "%.2f km", km).replace('.', ',');
+        String now = paused ? "en pausa" : RouteTrack.rate(mode, RouteTrack.curSpeed());
+        double avgV = ms > 0 ? dist / (ms / 1000.0) : 0;
+        String title = modeLabel(mode) + " · " + RouteTrack.clock(ms) + (paused ? " (en pausa)" : "");
+        String text = kmTxt + " · " + now;
+        String big = kmTxt + " en " + RouteTrack.clock(ms) + "\nAhora: " + now + "\nPromedio: " + RouteTrack.rate(mode, avgV);
         Intent open = getPackageManager().getLaunchIntentForPackage(getPackageName());
         PendingIntent pi = open == null ? null : PendingIntent.getActivity(this, 7001, open, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
         NotificationCompat.Builder b = new NotificationCompat.Builder(this, CHANNEL)
@@ -128,20 +136,31 @@ public class RouteService extends Service implements LocationListener {
                 .setColor(0xFF22D3EE)
                 .setContentTitle(title)
                 .setContentText(text)
+                .setStyle(new NotificationCompat.BigTextStyle().bigText(big))
                 .setOngoing(true)
                 .setOnlyAlertOnce(true)
                 .setSilent(true)
                 .setCategory(NotificationCompat.CATEGORY_SERVICE)
                 .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
         if (pi != null) b.setContentIntent(pi);
+        Intent act = new Intent(this, RouteService.class).setAction(paused ? A_RESUME : A_PAUSE);
+        int fl = PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE;
+        PendingIntent api = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O ? PendingIntent.getForegroundService(this, 7002, act, fl) : PendingIntent.getService(this, 7002, act, fl);
+        b.addAction(R.drawable.ic_stat_timer, paused ? "Seguir" : "Pausar", api);
         return b.build();
     }
 
     static void createChannel(Context ctx) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return;
         NotificationManager nm = ctx.getSystemService(NotificationManager.class);
-        if (nm == null || nm.getNotificationChannel(CHANNEL) != null) return;
-        NotificationChannel ch = new NotificationChannel(CHANNEL, "Recorrido en curso", NotificationManager.IMPORTANCE_LOW);
+        if (nm == null) return;
+        if (nm.getNotificationChannel(OLD_CHANNEL) != null) nm.deleteNotificationChannel(OLD_CHANNEL);
+        if (nm.getNotificationChannel(CHANNEL) != null) return;
+        // Importancia normal pero sin sonido ni vibracion: se ve en la pantalla de bloqueo (la "baja" suele ocultarse alli)
+        NotificationChannel ch = new NotificationChannel(CHANNEL, "Recorrido en curso", NotificationManager.IMPORTANCE_DEFAULT);
+        ch.setSound(null, null);
+        ch.enableVibration(false);
+        ch.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
         ch.setDescription("Muestra el tiempo y la distancia mientras grabas un recorrido con GPS.");
         ch.setShowBadge(false);
         nm.createNotificationChannel(ch);
