@@ -929,16 +929,98 @@ body.hasLive .screen.active{padding-bottom:78px}
 .rtKgRow b{color:var(--primary)}
 .rtKgIn{width:100%;font-size:18px;padding:12px;margin:8px 0}
 .rtDel{width:100%;margin-top:8px;border:1px solid #F8717155;background:transparent;color:#FCA5A5;border-radius:12px;font-size:14px;font-weight:600;padding:12px;cursor:pointer}
+
+/* ---- Entrada ---- */
+.lnWrap{padding:28px 16px 40px;display:flex;flex-direction:column;min-height:100vh}
+.lnDate{font-size:13px;color:var(--energy);letter-spacing:.5px}
+.lnDate::first-letter{text-transform:uppercase}
+.lnTitle{font-size:28px;font-weight:800;color:#fff;margin:4px 0 18px;font-stretch:88%}
+.lnCard{display:flex;align-items:center;gap:16px;width:100%;text-align:left;background:var(--surface);border:1px solid #182030;border-radius:20px;padding:20px 18px;margin-bottom:12px;color:var(--text);cursor:pointer;min-height:104px;transition:border-color .2s,transform .1s}
+.lnCard:active{transform:scale(.99);border-color:var(--primary)}
+.lnIc{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.lnIc svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.lnCard.gym .lnIc{background:#FFB0201A;color:var(--energy)}
+.lnCard.stretch .lnIc{background:#A78BFA1F;color:#C4B5FD}
+.lnCard.route .lnIc{background:#22D3EE1A;color:var(--primary)}
+.lnMid{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.lnMid b{font-size:20px;font-weight:800}
+.lnMid span{font-size:13px;color:var(--text-3);line-height:1.35}
+.lnGo{color:var(--text-3);font-size:26px}
+.lnGo em{font-style:normal;font-size:13px;font-weight:700;color:#04130D;background:#34D399;border-radius:99px;padding:6px 12px}
+.lnCard.live{border-color:#34D39966;background:linear-gradient(160deg,#0F2A24,#0E131C 70%)}
+.lnCard.live .lnMid span{color:#A7F3D0}
+.lnFoot{display:flex;gap:8px;margin-top:auto;padding-top:18px}
+.lnFoot button{flex:1;border:1px solid var(--border);background:transparent;color:var(--text-2);border-radius:12px;font-size:13px;font-weight:600;padding:11px 8px;cursor:pointer}
+.homeTop{display:flex;align-items:center;gap:12px}
+/* ---- Estiramiento ---- */
+.stZones{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.stZones span{font-size:12px;border:1px solid var(--border);border-radius:99px;padding:4px 10px;color:var(--text-2)}
+.stZones span.ok{border-color:#A78BFA88;color:#C4B5FD;background:#A78BFA14}
+.stHint{font-size:12.5px;color:var(--text-3);line-height:1.45;margin-top:10px}
+.stProg,.stStepRow{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:var(--surface);border:1px solid #182030;border-radius:14px;padding:13px 14px;margin-bottom:8px;color:var(--text);cursor:pointer}
+.stProg:active,.stStepRow:active{border-color:#A78BFA}
+.stProgMid{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.stProgMid b{font-size:15.5px}
+.stProgMid span{font-size:12.5px;color:var(--text-3);line-height:1.35}
+.stNew{width:100%;border:1px dashed #A78BFA66;background:transparent;color:#C4B5FD;border-radius:14px;font-size:14.5px;font-weight:700;padding:13px;cursor:pointer;margin-bottom:8px}
+.stResume{width:100%;border:1px solid #34D39966;background:#34D3991A;color:#A7F3D0;border-radius:14px;font-size:14px;font-weight:700;padding:13px;margin-bottom:12px;cursor:pointer;text-align:left}
+.stHead{margin-bottom:12px}
+.stHeadName{font-size:22px;font-weight:800;color:#fff}
+.stHeadSub{font-size:13px;color:var(--text-3);margin-top:4px;line-height:1.4}
+.stSteps{padding:6px}
+.stSteps .stStepRow{background:transparent;border:none;border-bottom:1px solid #182030;border-radius:0;margin:0}
+.stSteps .stStepRow:last-child{border-bottom:none}
+.stNum{width:26px;height:26px;border-radius:50%;background:#A78BFA22;color:#C4B5FD;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.stName{width:100%;font-size:17px;padding:12px}
+.stEdRow{background:var(--surface);border:1px solid #182030;border-radius:14px;padding:11px 12px;margin-bottom:8px}
+.stEdTop{display:flex;align-items:center;gap:8px}
+.stEdTop b{flex:1;font-size:14.5px;min-width:0}
+.stEdTop button{width:34px;height:34px;border-radius:9px;border:1px solid var(--border);background:var(--surface-2);color:var(--text-2);font-size:16px;cursor:pointer;flex-shrink:0}
+.stEdCtl{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.stStepper{display:inline-flex;align-items:center;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.stStepper button{width:36px;height:36px;border:none;background:var(--surface-2);color:var(--text);font-size:18px;cursor:pointer}
+.stStepper b{min-width:68px;text-align:center;font-size:13.5px;font-variant-numeric:tabular-nums}
+.stTog{height:38px;border-radius:10px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-size:13px;font-weight:600;padding:0 12px;cursor:pointer}
+.stTog.on{border-color:#A78BFA88;color:#C4B5FD;background:#A78BFA14}
+.stSearch{width:100%;font-size:15px;padding:11px;margin-bottom:6px}
+.stPick{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.stPick span{font-size:11.5px;color:var(--text-3);font-weight:500}
+.stPlay{padding:20px 16px 30px;display:flex;flex-direction:column;flex:1}
+.stBar{display:flex;gap:4px;margin:2px 0 12px}
+.stBar i{flex:1;height:6px;border-radius:99px;background:#1B2533}
+.stBar i.done{background:#A78BFA88}.stBar i.cur{background:#C4B5FD}
+.stVid{position:relative;width:100%;aspect-ratio:16/10;border-radius:16px;overflow:hidden;background:#0B111B;border:1px solid #182030}
+.stVid video{width:100%;height:100%;object-fit:contain;background:#000}
+.stNoVid{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:var(--text-3);font-size:14px}
+.stEx{font-size:21px;font-weight:800;color:#fff;text-align:center;margin:14px 0 4px;line-height:1.2}
+.stSub{text-align:center;font-size:15px;font-weight:600;color:var(--text-2)}
+.stSub.hold{color:#C4B5FD}.stSub.switch{color:var(--energy)}.stSub.prep{color:var(--text-3)}
+.stClock{font-size:80px;font-weight:700;text-align:center;color:#fff;font-variant-numeric:tabular-nums;font-stretch:85%;line-height:1;margin:8px 0 4px}
+.stClock.prep{color:var(--text-3)}.stClock.switch{color:var(--energy)}.stClock.paused{opacity:.45}
+.stNext{text-align:center;font-size:13px;color:var(--text-3);margin-bottom:16px}
+.stCtl{display:flex;gap:10px;margin-top:auto}
+.stCtl button{flex:1;height:58px;border-radius:16px;border:1px solid var(--border-strong);background:var(--surface-2);color:var(--text);font-size:20px;cursor:pointer}
+.stCtl button.main{flex:2;font-size:17px;font-weight:800;background:#A78BFA;border-color:#A78BFA;color:#120B24}
+.stCtl button.main.on{background:var(--surface-2);color:#C4B5FD;border-color:#A78BFA}
+.stDone{text-align:center;padding-top:40px}
+.stDoneIc{width:84px;height:84px;margin:0 auto 14px;border-radius:50%;background:#A78BFA22;color:#C4B5FD;font-size:42px;display:flex;align-items:center;justify-content:center}
+.stDoneT{font-size:28px;font-weight:800;color:#fff}
 </style>
 </head>
 <body>
 
 <!-- HOME -->
-<div id="homeScreen" class="screen active">
+<!-- ENTRADA -->
+<div id="launchScreen" class="screen active">
+  <div class="lnWrap" id="launchRoot"></div>
+</div>
+
+<div id="homeScreen" class="screen">
   <div id="homeHeader">
-    <div class="headerRow">
-      <div class="weekLabel">Semana activa</div>
-      <div class="weekTitle" id="weekTitleText"></div>
+    <div class="headerRow homeTop">
+      <button class="backBtn" onclick="showScreen('launchScreen')" aria-label="Inicio">&#8249;</button>
+      <div><div class="weekLabel">Gimnasio &middot; semana activa</div>
+      <div class="weekTitle" id="weekTitleText"></div></div>
     </div>
     <div class="headerBtns">
       <button class="iconBtn" onclick="showScreen('balanceScreen')" title="Balance muscular" aria-label="Balance muscular"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.1"/><path d="M5 8.6h14"/><path d="M12 8.6v5.6"/><path d="M12 14.2l-3.4 7"/><path d="M12 14.2l3.4 7"/></svg></button>
@@ -946,7 +1028,6 @@ body.hasLive .screen.active{padding-bottom:78px}
       <button class="iconBtn" onclick="showScreen('prScreen')" title="R&eacute;cords personales" aria-label="R&eacute;cords personales"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 6H5.2a3 3 0 0 0 2.9 4"/><path d="M16 6h2.8a3 3 0 0 1-2.9 4"/><path d="M12 13.2V17"/><path d="M8.5 20.5h7"/><path d="M10 17h4"/></svg></button>
       <button class="iconBtn" onclick="showScreen('historyScreen')" title="Historial" aria-label="Historial"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 12a8.4 8.4 0 1 0 2.5-6"/><path d="M3.2 3.8v4.3h4.3"/><path d="M12 7.6V12l3 2"/></svg></button>
       <button class="iconBtn" onclick="showScreen('tabataScreen')" title="Tiempos: descanso, intervalos, EMOM, AMRAP y cron&oacute;metro" aria-label="Tiempos"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13.5" r="7.6"/><path d="M12 13.5V9.6"/><path d="M10 2.8h4"/><path d="M18.5 6.5l1.4-1.4"/></svg></button>
-      <button class="iconBtn" id="routeBtn" onclick="showScreen('routeScreen')" title="Recorridos con GPS: caminar, correr y bici" aria-label="Recorridos con GPS"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/></svg><i class="recDot"></i></button>
       <button class="iconBtn ai" onclick="openAISheet()" title="Consultar a Claude" aria-label="Consultar a Claude"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></button>
       <button class="iconBtn" onclick="openGuide()" title="Instructivo" aria-label="Instructivo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.4 2.4c-.6.3-1 .8-1 1.5v.6"/><path d="M12 16.9h.01"/></svg></button>
     </div>
@@ -2219,6 +2300,8 @@ function showScreen(id) {
   if (id === "balanceScreen") { var fvb = window._fvBack; window._fvBack = false; if (!fvb) balanceWeek = activeWeek; setBalanceTab(fvb ? balanceTab : "week"); }
   if (id === "tabataScreen") { tmRender(); renderAlarmCheck(); }
   if (id === "routeScreen") routeEnter();
+  if (id === "stretchScreen") stEnter();
+  if (id === "launchScreen") renderLaunch();
   if (id === "mesoScreen") renderMeso();
   if (id === "fvScreen") { renderFV(); return; }
   if (id === "rmScreen") return;
@@ -2230,7 +2313,7 @@ function showScreen(id) {
 var _navSkip = false;
 function navSync(id) {
   try {
-    if (id !== "homeScreen") { if (!(history.state && history.state.gym)) history.pushState({ gym: 1 }, ""); }
+    if (id !== "launchScreen") { if (!(history.state && history.state.gym)) history.pushState({ gym: 1 }, ""); }
     else if (history.state && history.state.gym) { _navSkip = true; history.back(); }
   } catch(e) {}
 }
@@ -2250,10 +2333,10 @@ function closeTopOverlay() {
 window.addEventListener("popstate", function() {
   if (_navSkip) { _navSkip = false; return; }
   var act = document.querySelector(".screen.active");
-  if (closeTopOverlay()) { if (act && act.id !== "homeScreen") history.pushState({ gym: 1 }, ""); return; }
-  if (!act || act.id === "homeScreen") return;
+  if (closeTopOverlay()) { if (act && act.id !== "launchScreen") history.pushState({ gym: 1 }, ""); return; }
+  if (!act || act.id === "launchScreen") return;
   var back = act.querySelector(".backBtn");
-  if (back) back.click(); else showScreen("homeScreen");
+  if (back) back.click(); else showScreen(act.id === "homeScreen" ? "launchScreen" : "homeScreen");
 });
 
 function renderHome() { renderWeekNav(); renderSummary(); renderFilters(); checkDayToggleVisibility(); renderExercises(); renderVolChartInSummary(); if (typeof renderRoutinesHome === "function") renderRoutinesHome(); }
@@ -3423,7 +3506,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymBodyKg"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymBodyKg","gymStretch"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -5529,7 +5612,6 @@ function renderRoutinesHome() {
   var area = document.getElementById("routinesArea"); if (!area) return;
   var data = routinesData(); area.innerHTML = "";
   // La rutina en curso se muestra en la barra flotante de abajo (liveBar)
-  area.appendChild(Updater.card());
   area.appendChild(mesoHomeCard());
   var head = document.createElement("div"); head.className = "rtHead";
   head.innerHTML = "<span class=\"rtTitle\">Rutinas</span>";
@@ -5589,7 +5671,6 @@ function renderRoutinesHome() {
     }
     area.appendChild(box);
   });
-  area.appendChild(Updater.footer());
 }
 var rtReorderFolder = null;   // carpeta en modo "Ordenar rutinas"
 function moveRoutineInFolder(f, i, d) {
@@ -5848,7 +5929,7 @@ function trainEndSession() {
 function updateLiveBar() {
   var bar = document.getElementById("liveBar"); if (!bar) return;
   var ses = trainGetSession(), f = ses && ses.routineId ? findRoutine(ses.routineId) : null;
-  var act = document.querySelector(".screen.active"), onTrain = act && act.id === "trainScreen";
+  var act = document.querySelector(".screen.active"), onTrain = act && (act.id === "trainScreen" || act.id === "launchScreen" || act.id === "stPlayScreen");
   var show = !!(f && !onTrain);
   bar.style.display = show ? "flex" : "none";
   document.body.classList.toggle("hasLive", show);
@@ -7858,7 +7939,7 @@ function routeSetView(v, id) {
 }
 function routeBack() {
   if (RT.view !== "main") { RT.view = "main"; RT.built = ""; routeRender(); return; }
-  showScreen("homeScreen");
+  showScreen("launchScreen");
 }
 function routeRender() {
   var root = document.getElementById("routeRoot"), title = document.getElementById("routeTitle");
@@ -8045,6 +8126,428 @@ function rtDetail(root) {
 }
 document.addEventListener("visibilitychange", function() { if (!document.hidden && RouteGps.native) { routePing(); if (routeIsActive() && RT.view === "main") routeRender(); } });
 setTimeout(function() { try { routePing(); } catch(e) {} }, 1500);
+
+// ============================================================
+// ESTIRAMIENTO: programas guiados con video, tiempo por lado y avisos. Seccion aparte:
+// no suma series al Balance. Antes de entrenar: movilidad dinamica; despues: estatico.
+// ============================================================
+var ST_ZONES = { hombros: "Hombros", pecho: "Pecho", espalda: "Espalda", brazos: "Brazos", core: "Abdomen", cadera: "Cadera", gluteos: "Glúteos", aductores: "Aductores", cuadriceps: "Cuádriceps", isquios: "Isquios y gemelos" };
+// ejercicio de la biblioteca -> [zona, tipo ("d" dinamico / "e" estatico), por lado (1/0), segundos sugeridos]
+var ST_INFO = {
+  "Gato-Vaca": ["espalda", "d", 0, 40], "Círculos de Cadera": ["cadera", "d", 0, 30], "Balanceo de Piernas": ["cadera", "d", 1, 30],
+  "Balanceo Lateral de Piernas": ["aductores", "d", 1, 30], "Rana Oscilante": ["aductores", "d", 0, 40], "Estiramiento Medio Rana Oscilante": ["aductores", "d", 1, 30],
+  "Círculos de Brazos": ["hombros", "d", 0, 30], "Círculo de Brazo": ["hombros", "d", 1, 20], "Ángel de Pared": ["hombros", "d", 0, 40],
+  "Estiramiento Dinámico de Hombros con Banda": ["hombros", "d", 0, 40],
+  "Estiramiento en Zancada": ["cadera", "e", 1, 30], "Postura del Lagarto": ["cadera", "e", 1, 40], "Estiramiento 90 a 90": ["cadera", "e", 1, 40],
+  "Postura Bebé Feliz": ["cadera", "e", 0, 40], "Estiramiento de Cuádriceps Medio Arrodillado": ["cuadriceps", "e", 1, 30],
+  "Estiramiento de Cuádriceps de Pie": ["cuadriceps", "e", 1, 30], "Estiramiento de Cuádriceps Acostado": ["cuadriceps", "e", 1, 30], "Estiramiento de Cuádriceps Acostado de Lado": ["cuadriceps", "e", 1, 30],
+  "Estiramiento de Isquiotibial Arrodillado": ["isquios", "e", 1, 30], "Estiramiento de Isquiotibial Sentado a Una Pierna": ["isquios", "e", 1, 30],
+  "Flexión de Tronco de Pie": ["isquios", "e", 0, 30], "Flexión de Tronco hacia Adelante Sentado": ["isquios", "e", 0, 30],
+  "Perro Boca Abajo": ["isquios", "e", 0, 30], "Perro Boca Abajo de Pie": ["isquios", "e", 0, 30],
+  "Estiramiento Mariposa": ["aductores", "e", 0, 40], "Estiramiento Mariposa Inclinado hacia Adelante": ["aductores", "e", 0, 40], "Postura Mariposa Acostada": ["aductores", "e", 0, 60],
+  "Postura de la Paloma": ["gluteos", "e", 1, 45], "Estiramiento de Figura 4 Sentado": ["gluteos", "e", 1, 30], "Estiramiento de Figura 4 en Silla": ["gluteos", "e", 1, 30],
+  "Estiramiento Rodilla al Pecho": ["gluteos", "e", 1, 30], "Estiramiento de Rodilla al Pecho Acostado": ["gluteos", "e", 1, 30],
+  "Postura del Niño": ["espalda", "e", 0, 45], "Estiramiento Lateral de Dorsal de Pie": ["espalda", "e", 1, 30], "Estiramiento de Rotación de Espalda Arrodillado": ["espalda", "e", 1, 30],
+  "Perro Hacia Arriba": ["core", "e", 0, 30], "Flexión Cobra": ["core", "e", 0, 30],
+  "Estiramiento de Pecho en el Marco de la Puerta": ["pecho", "e", 0, 30], "Estiramiento de Pecho con Brazo Flexionado": ["pecho", "e", 1, 30], "Estiramiento de Pecho con Codos Abiertos": ["pecho", "e", 0, 30],
+  "Postura del Cangrejo": ["pecho", "e", 0, 30], "Estiramiento de Deltoides Posterior": ["hombros", "e", 1, 30], "Estiramiento de Tríceps por Encima de la Cabeza": ["brazos", "e", 1, 30]
+};
+function stS(ex, t, sides, rounds) { var i = ST_INFO[ex] || []; return { ex: ex, t: t || i[3] || 30, sides: sides == null ? (i[2] ? 2 : 1) : sides, rounds: rounds || 1 }; }
+var ST_BUILTIN = [
+  { id: "b_pre_leg", kind: "previa", name: "Movilidad previa: piernas", steps: [stS("Gato-Vaca"), stS("Círculos de Cadera"), stS("Balanceo de Piernas"), stS("Balanceo Lateral de Piernas"), stS("Rana Oscilante"), stS("Estiramiento en Zancada", 20)] },
+  { id: "b_pre_up", kind: "previa", name: "Movilidad previa: torso", steps: [stS("Círculos de Brazos"), stS("Estiramiento Dinámico de Hombros con Banda"), stS("Ángel de Pared"), stS("Gato-Vaca"), stS("Estiramiento de Rotación de Espalda Arrodillado", 20)] },
+  { id: "b_pre_run", kind: "previa", name: "Antes de correr", steps: [stS("Balanceo de Piernas"), stS("Balanceo Lateral de Piernas"), stS("Círculos de Cadera"), stS("Estiramiento en Zancada", 20), stS("Rana Oscilante", 30)] },
+  { id: "b_post_leg", kind: "post", name: "Estirar después: piernas", steps: [stS("Estiramiento de Cuádriceps de Pie", 30, 2, 2), stS("Estiramiento de Isquiotibial Sentado a Una Pierna", 30, 2, 2), stS("Postura de la Paloma"), stS("Estiramiento Mariposa"), stS("Estiramiento de Cuádriceps Medio Arrodillado"), stS("Perro Boca Abajo")] },
+  { id: "b_post_up", kind: "post", name: "Estirar después: torso", steps: [stS("Estiramiento de Pecho en el Marco de la Puerta", 30, 1, 2), stS("Estiramiento Lateral de Dorsal de Pie"), stS("Estiramiento de Deltoides Posterior"), stS("Estiramiento de Tríceps por Encima de la Cabeza"), stS("Postura del Niño")] },
+  { id: "b_post_run", kind: "post", name: "Después de correr o caminar", steps: [stS("Estiramiento de Cuádriceps de Pie"), stS("Estiramiento de Isquiotibial Arrodillado"), stS("Perro Boca Abajo", 45), stS("Estiramiento de Figura 4 en Silla"), stS("Postura del Lagarto", 30)] },
+  { id: "b_desk", kind: "libre", name: "Cadera y espalda (día de escritorio)", steps: [stS("Gato-Vaca"), stS("Estiramiento 90 a 90"), stS("Postura del Lagarto"), stS("Estiramiento de Figura 4 Sentado"), stS("Estiramiento de Rodilla al Pecho Acostado"), stS("Postura del Niño", 60), stS("Perro Hacia Arriba")] }
+];
+var ST_KINDS = { previa: "Antes de entrenar: movilidad dinámica", post: "Después de entrenar: estiramiento estático", libre: "Otros", mio: "Mis programas" };
+
+var stData = { progs: [], log: [] };
+try { var _sd = JSON.parse(localStorage.getItem("gymStretch") || "null"); if (_sd && Array.isArray(_sd.progs)) stData = { progs: _sd.progs, log: Array.isArray(_sd.log) ? _sd.log : [] }; } catch(e) {}
+function stPersist() { safeStore("gymStretch", JSON.stringify(stData)); }
+function stAllProgs() { return ST_BUILTIN.concat(stData.progs); }
+function stFind(id) { var r = null; stAllProgs().forEach(function(p) { if (p.id === id) r = p; }); return r; }
+function stZoneOf(ex) {
+  if (ST_INFO[ex]) return ST_INFO[ex][0];
+  var n = normalizeName(ex);
+  var K = [["cuadriceps", "cuadriceps"], ["isquio", "isquios"], ["gemelo", "isquios"], ["pantorrilla", "isquios"], ["gluteo", "gluteos"], ["piriforme", "gluteos"], ["aductor", "aductores"], ["mariposa", "aductores"],
+    ["cadera", "cadera"], ["psoas", "cadera"], ["pecho", "pecho"], ["pectoral", "pecho"], ["dorsal", "espalda"], ["espalda", "espalda"], ["lumbar", "espalda"], ["hombro", "hombros"], ["deltoides", "hombros"],
+    ["cuello", "hombros"], ["triceps", "brazos"], ["biceps", "brazos"], ["muneca", "brazos"], ["antebrazo", "brazos"], ["abdom", "core"]];
+  for (var i = 0; i < K.length; i++) if (n.indexOf(K[i][0]) >= 0) return K[i][1];
+  return "espalda";
+}
+function stIsDyn(ex) { return !!(ST_INFO[ex] && ST_INFO[ex][1] === "d"); }
+// Fases: preparacion (muestra el siguiente), mantener, cambio de lado
+function stPhases(p) {
+  var ph = [];
+  p.steps.forEach(function(s, i) {
+    ph.push({ k: "prep", secs: i === 0 ? 5 : 8, step: i });
+    for (var r = 1; r <= (s.rounds || 1); r++) for (var sd = 1; sd <= (s.sides || 1); sd++) {
+      if (r > 1 || sd > 1) ph.push({ k: "switch", secs: 5, step: i, side: s.sides === 2 ? sd : 0, round: r });
+      ph.push({ k: "hold", secs: s.t, step: i, side: s.sides === 2 ? sd : 0, round: r });
+    }
+  });
+  return ph;
+}
+function stDur(p) { return stPhases(p).reduce(function(a, x) { return a + x.secs; }, 0); }
+function stMin(sec) { var m = Math.round(sec / 60); return (m < 1 ? "<1" : m) + " min"; }
+function stStepTxt(s) { return s.t + " s" + (s.sides === 2 ? " por lado" : "") + (s.rounds > 1 ? " · " + s.rounds + " vueltas" : "") + (stIsDyn(s.ex) ? " · continuo" : ""); }
+function stZonesTxt(p) { var z = []; p.steps.forEach(function(s) { var k = ST_ZONES[stZoneOf(s.ex)]; if (z.indexOf(k) < 0) z.push(k); }); return z.join(", "); }
+function stSideName(n) { return n === 1 ? "Lado derecho" : n === 2 ? "Lado izquierdo" : ""; }
+function stWeekStart() { var d = new Date(); d.setHours(0, 0, 0, 0); var wd = (d.getDay() + 6) % 7; d.setDate(d.getDate() - wd); return d.getTime(); }
+function stWeekStats() {
+  var t0 = stWeekStart(), out = { secs: 0, n: 0, zones: {} };
+  stData.log.forEach(function(l) { if (l.d < t0) return; out.n++; out.secs += l.secs || 0; for (var z in (l.hold || {})) out.zones[z] = (out.zones[z] || 0) + l.hold[z]; });
+  return out;
+}
+function stDayLabel(ts) {
+  var d = new Date(ts), t = new Date(); t.setHours(0, 0, 0, 0); var diff = Math.round((t.getTime() - new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()) / 864e5);
+  return diff === 0 ? "hoy" : diff === 1 ? "ayer" : d.toLocaleDateString("es-AR", { weekday: "short", day: "numeric", month: "short" });
+}
+
+// ---- pantalla principal de la seccion ----
+var ST = { view: "main", pid: null, draft: null };
+function stEnter() { ST.view = "main"; stRender(); }
+function stBack() {
+  if (ST.view === "edit") { ST.view = ST.draft && ST.draft.id && stFind(ST.draft.id) ? "prog" : "main"; if (ST.view === "prog") ST.pid = ST.draft.id; ST.draft = null; stRender(); return; }
+  if (ST.view === "prog") { ST.view = "main"; stRender(); return; }
+  showScreen("launchScreen");
+}
+function stSetView(v) { ST.view = v; try { history.pushState({ gym: 1 }, ""); } catch(e) {} stRender(); window.scrollTo(0, 0); }
+function stRender() {
+  var root = document.getElementById("stRoot"), title = document.getElementById("stTitle");
+  if (!root) return;
+  if (ST.view === "prog") { title.textContent = "Programa"; stRenderProg(root); return; }
+  if (ST.view === "edit") { title.textContent = ST.draft && ST.draft.id ? "Editar programa" : "Nuevo programa"; stRenderEdit(root); return; }
+  title.textContent = "Estiramiento";
+  var w = stWeekStats(), h = "";
+  if (SP && SP.p) h += '<button class="stResume" id="stResume">Programa en curso: ' + escHtml(SP.p.name) + ' &middot; volver &#8250;</button>';
+  h += '<div class="balCard"><div class="balSetName">Esta semana</div><div class="rtGrid"><div class="rtCell"><b>' + Math.round(w.secs / 60) + '</b><span>minutos</span></div><div class="rtCell"><b>' + w.n + '</b><span>sesiones</span></div><div class="rtCell"><b>' + Object.keys(w.zones).length + '</b><span>zonas</span></div></div>';
+  var zk = Object.keys(ST_ZONES).filter(function(z) { return w.zones[z]; });
+  if (zk.length) h += '<div class="stZones">' + zk.map(function(z) { var m = w.zones[z] / 60; return '<span class="' + (m >= 5 ? "ok" : "") + '">' + ST_ZONES[z] + " " + (m < 1 ? "<1" : Math.round(m)) + "'</span>"; }).join("") + "</div>";
+  h += '<div class="stHint">Para ganar flexibilidad sirve más la constancia que la intensidad: unos 5 minutos por semana en cada zona, repartidos. Antes de entrenar conviene la movilidad dinámica; el estiramiento estático, después o en otro momento.</div></div>';
+  ["previa", "post", "libre", "mio"].forEach(function(k) {
+    var list = k === "mio" ? stData.progs : ST_BUILTIN.filter(function(p) { return p.kind === k; });
+    if (k === "mio" || list.length) h += '<div class="exdSec">' + ST_KINDS[k] + "</div>";
+    list.forEach(function(p) { h += '<button class="stProg" data-id="' + p.id + '"><span class="stProgMid"><b>' + escHtml(p.name) + '</b><span>' + stMin(stDur(p)) + " &middot; " + p.steps.length + " ejercicios &middot; " + stZonesTxt(p) + '</span></span><span class="rtItemGo">&#8250;</span></button>'; });
+    if (k === "mio") h += '<button class="stNew" id="stNew">+ Crear programa</button>';
+  });
+  var last = stData.log.slice(-8).reverse();
+  if (last.length) {
+    h += '<div class="exdSec">Últimas sesiones</div><div class="balCard stLog">';
+    last.forEach(function(l) { h += '<div class="rtStat"><span>' + escHtml(l.name) + ' &middot; ' + stDayLabel(l.d) + "</span><b>" + stMin(l.secs) + "</b></div>"; });
+    h += "</div>";
+  }
+  root.innerHTML = h;
+  root.querySelectorAll(".stProg").forEach(function(b) { b.onclick = function() { ST.pid = b.getAttribute("data-id"); stSetView("prog"); }; });
+  root.querySelector("#stNew").onclick = function() { ST.draft = { id: null, name: "", steps: [] }; stSetView("edit"); };
+  var rs = root.querySelector("#stResume"); if (rs) rs.onclick = function() { showScreen("stPlayScreen"); };
+}
+function stRenderProg(root) {
+  var p = stFind(ST.pid); if (!p) { ST.view = "main"; stRender(); return; }
+  var mine = !ST_BUILTIN.some(function(b) { return b.id === p.id; });
+  var h = '<div class="stHead"><div class="stHeadName">' + escHtml(p.name) + '</div><div class="stHeadSub">' + stMin(stDur(p)) + " &middot; " + p.steps.length + " ejercicios &middot; " + stZonesTxt(p) + "</div></div>";
+  h += '<button class="rtStart" id="stGo">Empezar</button>';
+  h += '<div class="balCard stSteps">';
+  p.steps.forEach(function(s, i) { h += '<button class="stStepRow" data-i="' + i + '"><span class="stNum">' + (i + 1) + '</span><span class="stProgMid"><b>' + escHtml(s.ex) + "</b><span>" + stStepTxt(s) + " &middot; " + ST_ZONES[stZoneOf(s.ex)] + '</span></span><span class="rtItemGo">&#9654;</span></button>'; });
+  h += '</div><div class="stHint">Tocá un ejercicio para ver el video y cómo hacerlo. Entre ejercicios hay unos segundos para acomodarte, y otros 5 para cambiar de lado.</div>';
+  h += '<div class="rtBtns"><button class="rtBtn" id="stEdit">' + (mine ? "Editar" : "Copiar y editar") + "</button>" + (mine ? '<button class="rtBtn stop" id="stDel">Eliminar</button>' : "") + "</div>";
+  root.innerHTML = h;
+  root.querySelector("#stGo").onclick = function() { stPlay(p); };
+  root.querySelectorAll(".stStepRow").forEach(function(b) { b.onclick = function() { var ex = p.steps[+b.getAttribute("data-i")].ex, g = exGroupOf(ex) || "Piernas"; openLibDetail(ex, g, (GROUPS[g] || LIBRARY[g] || {}).color || "#22D3EE", false); }; });
+  root.querySelector("#stEdit").onclick = function() {
+    ST.draft = JSON.parse(JSON.stringify(p));
+    if (!mine) { ST.draft.id = null; ST.draft.name = p.name + " (mío)"; }
+    stSetView("edit");
+  };
+  var del = root.querySelector("#stDel");
+  if (del) del.onclick = function() { openTrSheet("Eliminar programa", function(body) {
+    trSheetBtn(body, "Sí, eliminar " + escHtml(p.name), function() { stData.progs = stData.progs.filter(function(x) { return x.id !== p.id; }); stPersist(); ST.view = "main"; stRender(); }, true);
+    trSheetBtn(body, "Cancelar", function() {});
+  }); };
+}
+// ---- editor ----
+function stRenderEdit(root) {
+  var d = ST.draft, h = '<input class="setInput stName" id="stName" type="text" placeholder="Nombre del programa" value="' + escHtml(d.name || "") + '">';
+  h += '<div class="stHeadSub" style="margin:8px 2px 12px">' + (d.steps.length ? stMin(stDur(d)) + " en total" : "Agregá estiramientos de la biblioteca") + "</div>";
+  d.steps.forEach(function(s, i) {
+    h += '<div class="stEdRow" data-i="' + i + '"><div class="stEdTop"><span class="stNum">' + (i + 1) + '</span><b>' + escHtml(s.ex) + '</b><button data-a="up" aria-label="Subir">&#8593;</button><button data-a="dn" aria-label="Bajar">&#8595;</button><button data-a="del" aria-label="Quitar">&times;</button></div>';
+    h += '<div class="stEdCtl"><span class="stStepper"><button data-a="t-">&minus;</button><b>' + s.t + ' s</b><button data-a="t+">+</button></span><button data-a="sd" class="stTog' + (s.sides === 2 ? " on" : "") + '">' + (s.sides === 2 ? "Por lado" : "Un solo lado") + '</button><span class="stStepper"><button data-a="r-">&minus;</button><b>' + s.rounds + (s.rounds > 1 ? " vueltas" : " vuelta") + '</b><button data-a="r+">+</button></span></div></div>';
+  });
+  h += '<button class="stNew" id="stAdd">+ Agregar estiramiento</button>';
+  h += '<div class="rtBtns" style="margin-top:14px"><button class="rtBtn resume" id="stSave">Guardar programa</button></div>';
+  root.innerHTML = h;
+  var nm = root.querySelector("#stName"); nm.oninput = function() { d.name = nm.value; };
+  root.querySelectorAll(".stEdRow button").forEach(function(b) { b.onclick = function() {
+    var i = +b.closest(".stEdRow").getAttribute("data-i"), s = d.steps[i], a = b.getAttribute("data-a");
+    if (a === "up" && i > 0) { d.steps.splice(i, 1); d.steps.splice(i - 1, 0, s); }
+    else if (a === "dn" && i < d.steps.length - 1) { d.steps.splice(i, 1); d.steps.splice(i + 1, 0, s); }
+    else if (a === "del") d.steps.splice(i, 1);
+    else if (a === "t-") s.t = Math.max(10, s.t - 5);
+    else if (a === "t+") s.t = Math.min(180, s.t + 5);
+    else if (a === "sd") s.sides = s.sides === 2 ? 1 : 2;
+    else if (a === "r-") s.rounds = Math.max(1, s.rounds - 1);
+    else if (a === "r+") s.rounds = Math.min(5, s.rounds + 1);
+    stRenderEdit(root);
+  }; });
+  root.querySelector("#stAdd").onclick = function() { stPicker(function(ex) { d.steps.push(stS(ex)); stRenderEdit(root); }); };
+  root.querySelector("#stSave").onclick = function() {
+    d.name = (d.name || "").trim();
+    if (!d.name) { showToast("Ponele un nombre al programa"); nm.focus(); return; }
+    if (!d.steps.length) { showToast("Agregá al menos un estiramiento"); return; }
+    if (!d.id) { d.id = "u" + Date.now(); d.kind = "mio"; stData.progs.push(d); }
+    else stData.progs = stData.progs.map(function(x) { return x.id === d.id ? d : x; });
+    stPersist(); ST.pid = d.id; ST.draft = null; ST.view = "prog"; stRender(); showToast("Programa guardado");
+  };
+}
+function stPicker(onPick) {
+  openTrSheet("Agregar estiramiento", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<input class="setInput stSearch" id="stQ" type="text" placeholder="Buscar (también en toda la biblioteca)"><div id="stPickList"></div>';
+    body.appendChild(w);
+    var list = w.querySelector("#stPickList"), q = w.querySelector("#stQ");
+    function item(ex, sub) { var b = document.createElement("button"); b.className = "trSheetBtn stPick"; b.innerHTML = escHtml(ex) + '<span>' + sub + "</span>"; b.onclick = function() { closeTrSheet(); onPick(ex); }; list.appendChild(b); }
+    function draw() {
+      list.innerHTML = ""; var t = normalizeName(q.value || "");
+      Object.keys(ST_ZONES).forEach(function(z) {
+        var exs = Object.keys(ST_INFO).filter(function(ex) { return ST_INFO[ex][0] === z && (!t || normalizeName(ex).indexOf(t) >= 0); });
+        if (!exs.length) return;
+        var hd = document.createElement("div"); hd.className = "exdSec"; hd.textContent = ST_ZONES[z]; list.appendChild(hd);
+        exs.forEach(function(ex) { item(ex, (ST_INFO[ex][1] === "d" ? "dinámico" : "estático") + (ST_INFO[ex][2] ? " · por lado" : "")); });
+      });
+      if (t.length >= 3) {
+        var more = [];
+        Object.keys(LIBRARY).forEach(function(g) { (LIBRARY[g].exercises || []).forEach(function(ex) { if (!ST_INFO[ex] && normalizeName(ex).indexOf(t) >= 0 && more.indexOf(ex) < 0) more.push(ex); }); });
+        if (more.length) { var hd = document.createElement("div"); hd.className = "exdSec"; hd.textContent = "Otros ejercicios de la biblioteca"; list.appendChild(hd); more.slice(0, 25).forEach(function(ex) { item(ex, ST_ZONES[stZoneOf(ex)]); }); }
+      }
+      if (!list.children.length) list.innerHTML = '<div class="rtEmpty">No hay ejercicios con ese nombre.</div>';
+    }
+    q.oninput = draw; draw();
+  });
+}
+
+// ---- reproductor guiado ----
+var SP = null, ST_NOTIF_BASE = 5600;
+function spElapsed() { return SP ? SP.base + (SP.paused ? 0 : (Date.now() - SP.runSince) / 1000) : 0; }
+function spState() {
+  var el = spElapsed(), acc = 0;
+  for (var i = 0; i < SP.ph.length; i++) { if (el < acc + SP.ph[i].secs) return { idx: i, left: acc + SP.ph[i].secs - el, start: acc }; acc += SP.ph[i].secs; }
+  return { idx: SP.ph.length, left: 0, start: acc };
+}
+function spStartOf(i) { var a = 0; for (var k = 0; k < i; k++) a += SP.ph[k].secs; return a; }
+function stPlay(p) {
+  if (SP) spStop(false);
+  try { if (!_tmCtx) _tmCtx = new (window.AudioContext || window.webkitAudioContext)(); _tmCtx.resume(); } catch(e) {}
+  SP = { p: JSON.parse(JSON.stringify(p)), ph: stPhases(p), base: 0, runSince: Date.now(), paused: false, lastIdx: -1, lastSec: -1, lastEl: 0, hold: {}, started: Date.now(), timer: null, vidEx: null };
+  acquireWakeLock();
+  document.getElementById("stpDone").style.display = "none"; document.getElementById("stpMain").style.display = "";
+  showScreen("stPlayScreen");
+  SP.timer = setInterval(spTick, 200); spTick();
+}
+function spTick() {
+  if (!SP || SP.done) return;
+  var el = spElapsed(), st = spState();
+  // credito de tiempo estirando (solo lo realmente hecho, no lo salteado)
+  if (!SP.paused && el > SP.lastEl) {
+    var a = SP.lastEl, acc = 0;
+    for (var i = 0; i < SP.ph.length && acc < el; i++) {
+      var p0 = acc, p1 = acc + SP.ph[i].secs; acc = p1;
+      if (SP.ph[i].k !== "hold") continue;
+      var ov = Math.min(el, p1) - Math.max(a, p0);
+      if (ov > 0) { var z = stZoneOf(SP.p.steps[SP.ph[i].step].ex); SP.hold[z] = (SP.hold[z] || 0) + ov; }
+    }
+  }
+  SP.lastEl = el;
+  if (st.idx >= SP.ph.length) { spFinish(); return; }
+  if (st.idx !== SP.lastIdx) {
+    var k = SP.ph[st.idx].k;
+    if (k === "hold") tmPhaseSound("work"); else if (k === "switch") tmPhaseSound("rest"); else if (SP.lastIdx >= 0) { tmBeep(520, 0.25, 0.35); tmVib(120); }
+    SP.lastIdx = st.idx;
+  }
+  var sec = Math.ceil(st.left);
+  if (sec !== SP.lastSec) { if (sec >= 1 && sec <= 3 && !SP.paused) tmBeep(660, 0.12, 0.3); SP.lastSec = sec; }
+  spRender(st);
+}
+function spRender(st) {
+  var ph = SP.ph[st.idx], s = SP.p.steps[ph.step], next = null;
+  for (var i = st.idx + 1; i < SP.ph.length; i++) if (SP.ph[i].step !== ph.step) { next = SP.p.steps[SP.ph[i].step]; break; }
+  function $(id) { return document.getElementById(id); }
+  $("stpName").textContent = SP.p.name;
+  $("stpProg").textContent = "Ejercicio " + (ph.step + 1) + " de " + SP.p.steps.length + " · quedan " + rtClock(Math.max(0, stDur(SP.p) - spElapsed()));
+  var bar = ""; SP.p.steps.forEach(function(x, i) { bar += '<i class="' + (i < ph.step ? "done" : i === ph.step ? "cur" : "") + '"></i>'; }); $("stpBar").innerHTML = bar;
+  $("stpEx").textContent = s.ex;
+  var sub = ph.k === "prep" ? (ph.step === 0 ? "Preparate" : "Siguiente ejercicio: acomodate") : ph.k === "switch" ? (ph.side ? "Cambiá de lado" : "Vuelta " + ph.round + ": volvé a la posición") : (stSideName(ph.side) || (stIsDyn(s.ex) ? "Movimiento continuo" : "Mantené la posición"));
+  if (ph.k === "hold" && s.rounds > 1) sub += " · vuelta " + ph.round + " de " + s.rounds;
+  $("stpSub").textContent = sub;
+  $("stpSub").className = "stSub " + ph.k;
+  $("stpClock").textContent = rtClock(Math.ceil(st.left));
+  $("stpClock").className = "stClock " + ph.k + (SP.paused ? " paused" : "");
+  $("stpNext").textContent = next ? "Después: " + next.ex : "Último ejercicio";
+  $("stpPause").textContent = SP.paused ? "Seguir" : "Pausar";
+  $("stpPause").classList.toggle("on", SP.paused);
+  if (SP.vidEx !== s.ex) {
+    SP.vidEx = s.ex;
+    var box = $("stpVid"), src = getVideoSrc(s.ex);
+    box.innerHTML = "";
+    if (src) {
+      var v = document.createElement("video"); v.muted = true; v.loop = true; v.autoplay = true; v.setAttribute("playsinline", ""); v.setAttribute("muted", ""); v.preload = "auto"; v.src = src;
+      v.onerror = function() { box.innerHTML = '<div class="stNoVid">' + escHtml(s.ex) + "</div>"; };
+      box.appendChild(v); try { var pr = v.play(); if (pr && pr.catch) pr.catch(function() {}); } catch(e) {}
+    } else box.innerHTML = '<div class="stNoVid">' + escHtml(s.ex) + "</div>";
+  }
+}
+function spPause() {
+  if (!SP || SP.done) return;
+  if (SP.paused) { SP.runSince = Date.now(); SP.paused = false; acquireWakeLock(); }
+  else { SP.base = spElapsed(); SP.paused = true; spCancelNative(); }
+  SP.lastEl = spElapsed(); spTick();
+}
+function spJump(dir) {
+  if (!SP || SP.done) return;
+  var st = spState(), i = st.idx;
+  if (dir > 0) i = Math.min(SP.ph.length, i + 1);
+  else i = (spElapsed() - st.start > 2) ? i : Math.max(0, i - 1);
+  SP.base = spStartOf(i) + 0.01; SP.runSince = Date.now(); SP.lastEl = SP.base; SP.lastIdx = -2;
+  spTick();
+}
+function spRecord() {
+  var secs = Math.round(Math.min(spElapsed(), stDur(SP.p))), hold = {}, tot = 0;
+  for (var z in SP.hold) { hold[z] = Math.round(SP.hold[z]); tot += hold[z]; }
+  if (tot < 20) return null;
+  var rec = { d: SP.started, pid: SP.p.id, name: SP.p.name, secs: secs, hold: hold };
+  stData.log.push(rec); stData.log = stData.log.slice(-300); stPersist();
+  return rec;
+}
+function spFinish() {
+  if (!SP || SP.done) return;
+  clearInterval(SP.timer); spCancelNative(); releaseWakeLock(); tmPhaseSound("end");
+  SP.done = true; var rec = spRecord();
+  try { var v = document.querySelector("#stpVid video"); if (v) v.pause(); } catch(e) {}
+  var d = document.getElementById("stpDone");
+  var h = '<div class="stDoneIc">&#10003;</div><div class="stDoneT">¡Listo!</div><div class="stHeadSub">' + escHtml(SP.p.name) + " &middot; " + rtClock(Math.min(spElapsed(), stDur(SP.p))) + "</div>";
+  if (rec) h += '<div class="stZones" style="justify-content:center;margin:14px 0">' + Object.keys(rec.hold).map(function(z) { return "<span>" + ST_ZONES[z] + " " + rtClock(rec.hold[z]) + "</span>"; }).join("") + "</div>";
+  h += '<button class="rtStart" id="stpBackBtn">Volver</button>';
+  d.innerHTML = h; d.style.display = ""; document.getElementById("stpMain").style.display = "none";
+  d.querySelector("#stpBackBtn").onclick = function() { SP = null; ST.view = "main"; showScreen("stretchScreen"); };
+}
+function spStop(save) {
+  if (!SP) return;
+  clearInterval(SP.timer); spCancelNative(); releaseWakeLock();
+  try { var v = document.querySelector("#stpVid video"); if (v) { v.pause(); v.removeAttribute("src"); } } catch(e) {}
+  var rec = save ? spRecord() : null;
+  SP = null;
+  return rec;
+}
+function stPlayBack() {
+  if (!SP || SP.done) { SP = null; ST.view = "main"; showScreen("stretchScreen"); return; }
+  openTrSheet("¿Terminar el programa?", function(body) {
+    trSheetBtn(body, "Seguir estirando", function() {});
+    trSheetBtn(body, "Terminar y guardar lo hecho", function() { var r = spStop(true); ST.view = "main"; showScreen("stretchScreen"); showToast(r ? "Guardado: " + stMin(r.secs) : "Muy corto: no se guardó"); });
+    trSheetBtn(body, "Salir sin guardar", function() { spStop(false); ST.view = "main"; showScreen("stretchScreen"); }, true);
+  });
+}
+// Avisos con la pantalla bloqueada (usa la alarma nativa)
+function spScheduleNative() {
+  if (!SP || SP.paused || SP.done || !NativeRest.isNative || !NativeRest.scheduleMany) return;
+  var st = spState(), base = Date.now() - spElapsed() * 1000, acc = 0, items = [];
+  for (var i = 0; i < SP.ph.length; i++) {
+    var p = SP.ph[i], s = SP.p.steps[p.step];
+    if (i > st.idx && p.k !== "prep") items.push({ id: ST_NOTIF_BASE + (i % 190), at: base + acc * 1000, title: p.k === "switch" ? (p.side ? "Cambiá de lado" : "Otra vuelta") : (stSideName(p.side) ? stSideName(p.side) + ": " : "") + s.ex, body: rtClock(p.secs) });
+    else if (i > st.idx && p.k === "prep") items.push({ id: ST_NOTIF_BASE + (i % 190), at: base + acc * 1000, title: "Siguiente: " + s.ex, body: "Acomodate" });
+    acc += p.secs;
+  }
+  items.push({ id: ST_NOTIF_BASE + 199, at: base + acc * 1000, title: "Programa terminado", body: SP.p.name });
+  NativeRest.scheduleMany(items.slice(0, 60));
+}
+function spCancelNative() {
+  if (!NativeRest.isNative || !NativeRest.cancelMany) return;
+  var ids = []; for (var i = 0; i < 200; i++) ids.push(ST_NOTIF_BASE + i);
+  NativeRest.cancelMany(ids);
+}
+document.addEventListener("visibilitychange", function() {
+  if (!SP || SP.done) return;
+  if (document.hidden) spScheduleNative(); else { spCancelNative(); spTick(); }
+});
+
+// ============================================================
+// ENTRADA: tres caminos (Gimnasio, Estiramiento, Recorridos) con su estado de un vistazo.
+// Si hay algo en curso (rutina, recorrido o programa de estiramiento) la app abre directo ahi.
+// ============================================================
+var _launchTimer = null;
+function launchGymInfo() {
+  var ses = trainGetSession();
+  if (ses && ses.routineId) {
+    var f = null; try { f = findRoutine(ses.routineId); } catch(e) {}
+    return { live: true, txt: "Rutina en curso" + (f && f.routine ? ": " + f.routine.name : "") + " · " + rtClock((Date.now() - ses.t) / 1000), go: "Seguir" };
+  }
+  var td = gymData.trainingDays || {}, wk = getWeekKey(new Date()), n = 0;
+  for (var i = 0; i < 7; i++) { var d = new Date(wk); d.setDate(d.getDate() + i); if (td[d.toISOString().split("T")[0]]) n++; }
+  return { live: false, txt: "Esta semana: " + n + (weeklyGoal ? " de " + weeklyGoal : "") + (n === 1 ? " día" : " días") + " entrenados" };
+}
+function launchStretchInfo() {
+  if (SP && SP.p && !SP.done) return { live: true, txt: "En curso: " + SP.p.name, go: "Volver" };
+  var w = stWeekStats(), last = stData.log[stData.log.length - 1];
+  if (!last) return { live: false, txt: "Programas guiados con video, antes y después de entrenar" };
+  return { live: false, txt: "Esta semana: " + Math.round(w.secs / 60) + " min · último: " + last.name + ", " + stDayLabel(last.d) };
+}
+function launchRouteInfo() {
+  var st = RT.st;
+  if (st && st.state && st.state !== "idle") return { live: true, txt: (st.state === "paused" ? "En pausa" : "Grabando") + " · " + rtKm(st.dist || 0) + " km · " + rtClock((st.elapsed || 0) / 1000), go: "Ver" };
+  var now = new Date(), mo = routes.filter(function(r) { var d = new Date(r.start); return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth(); });
+  if (!mo.length) return { live: false, txt: routes.length ? "Este mes todavía no grabaste recorridos" : "Caminar, correr o bici con GPS y mapa" };
+  var km = 0; mo.forEach(function(r) { km += r.dist; });
+  return { live: false, txt: "Este mes: " + rtKm(km) + " km en " + mo.length + (mo.length === 1 ? " recorrido" : " recorridos") };
+}
+var LAUNCH_CARDS = [
+  { id: "gym", title: "Gimnasio", ic: '<path d="M6.5 6.5v11"/><path d="M17.5 6.5v11"/><path d="M3.5 9v6"/><path d="M20.5 9v6"/><path d="M6.5 12h11"/>', info: launchGymInfo },
+  { id: "stretch", title: "Estiramiento", ic: '<circle cx="12" cy="4.5" r="2"/><path d="M12 7v6"/><path d="M12 13l-4 7"/><path d="M12 13l5 3.5"/><path d="M5 9.5l7-1.5 6.5-3"/>', info: launchStretchInfo },
+  { id: "route", title: "Recorridos", ic: '<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/>', info: launchRouteInfo }
+];
+function renderLaunch() {
+  var root = document.getElementById("launchRoot"); if (!root) return;
+  var d = new Date(), h = '<div class="lnDate">' + d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" }) + '</div><div class="lnTitle">¿Qué hacemos hoy?</div><div id="lnUpd"></div>';
+  LAUNCH_CARDS.forEach(function(c) {
+    var inf = c.info();
+    h += '<button class="lnCard ' + c.id + (inf.live ? " live" : "") + '" data-c="' + c.id + '"><span class="lnIc"><svg viewBox="0 0 24 24" aria-hidden="true">' + c.ic + '</svg></span><span class="lnMid"><b>' + c.title + '</b><span id="lnInfo_' + c.id + '">' + escHtml(inf.txt) + '</span></span><span class="lnGo">' + (inf.live ? '<em>' + inf.go + '</em>' : "&#8250;") + "</span></button>";
+  });
+  h += '<div class="lnFoot"><button id="lnGuide">Instructivo</button><button id="lnBackup">Copia de seguridad</button></div><div id="lnVer"></div>';
+  root.innerHTML = h;
+  root.querySelector("#lnUpd").appendChild(Updater.card());
+  root.querySelector("#lnVer").appendChild(Updater.footer());
+  root.querySelectorAll(".lnCard").forEach(function(b) { b.onclick = function() { launchGo(b.getAttribute("data-c")); }; });
+  root.querySelector("#lnGuide").onclick = function() { openGuide(); };
+  root.querySelector("#lnBackup").onclick = function() { openTrSheet("Copia de seguridad", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap"; w.innerHTML = '<div class="exdIntro">Un archivo con todos tus datos: entrenamientos, rutinas, estiramientos y recorridos. Guardalo en Drive o donde quieras.</div>'; body.appendChild(w);
+    trSheetBtn(body, "Exportar (guardar copia)", function() { exportData(); });
+    trSheetBtn(body, "Importar (restaurar una copia)", function() { triggerImport(); });
+  }); };
+  if (!_launchTimer) _launchTimer = setInterval(function() {
+    var s = document.getElementById("launchScreen");
+    if (!s || !s.classList.contains("active")) { clearInterval(_launchTimer); _launchTimer = null; return; }
+    LAUNCH_CARDS.forEach(function(c) { var el = document.getElementById("lnInfo_" + c.id), inf = c.info(); if (el && el.textContent !== inf.txt) el.textContent = inf.txt; });
+  }, 1000);
+  if (RouteGps.native) routePing();
+}
+function launchGo(id) {
+  if (id === "gym") { var ses = trainGetSession(); if (ses && ses.routineId && findRoutine(ses.routineId)) { showScreen("homeScreen"); openRoutine(ses.routineId, true); } else showScreen("homeScreen"); }
+  else if (id === "stretch") showScreen(SP && SP.p && !SP.done ? "stPlayScreen" : "stretchScreen");
+  else showScreen("routeScreen");
+}
+// Al abrir la app: directo a lo que este en curso
+function launchInit() {
+  try {
+    var ses = trainGetSession();
+    if (ses && ses.routineId && findRoutine(ses.routineId)) { launchGo("gym"); return; }
+  } catch(e) {}
+  showScreen("launchScreen");
+  RouteGps.status().then(function(st) {
+    RT.st = st; updateRouteDot();
+    var a = document.querySelector(".screen.active");
+    if (st && st.state && st.state !== "idle" && a && a.id === "launchScreen") showScreen("routeScreen");
+  }).catch(function() {});
+}
 
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
@@ -8989,6 +9492,8 @@ function closeExDesc() {
 }
 
 renderHome();
+// las pantallas de rutina estan mas abajo en el HTML: arrancar cuando ya existen
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", launchInit); else launchInit();
 </script>
 
 <!-- EXERCISE HISTORY SCREEN -->
@@ -9058,6 +9563,35 @@ renderHome();
   </div>
 </div>
 
+
+<!-- ESTIRAMIENTO -->
+<div id="stretchScreen" class="screen">
+  <div style="padding:20px 16px 40px;overflow-y:auto;flex:1">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+      <button class="backBtn" onclick="stBack()" aria-label="Volver">&#8249;</button>
+      <span style="font-size:20px;font-weight:800;flex:1" id="stTitle">Estiramiento</span>
+    </div>
+    <div id="stRoot"></div>
+  </div>
+</div>
+<div id="stPlayScreen" class="screen">
+  <div class="stPlay">
+    <div class="trTop">
+      <button class="backBtn" onclick="stPlayBack()" aria-label="Volver">&#8249;</button>
+      <div class="trTitleBox"><div class="trTitle" id="stpName"></div><div class="trDayTitle" id="stpProg"></div></div>
+    </div>
+    <div id="stpMain">
+      <div class="stBar" id="stpBar"></div>
+      <div class="stVid" id="stpVid"></div>
+      <div class="stEx" id="stpEx"></div>
+      <div class="stSub" id="stpSub"></div>
+      <div class="stClock" id="stpClock"></div>
+      <div class="stNext" id="stpNext"></div>
+      <div class="stCtl"><button onclick="spJump(-1)" aria-label="Anterior">&#9198;</button><button class="main" id="stpPause" onclick="spPause()">Pausar</button><button onclick="spJump(1)" aria-label="Siguiente">&#9197;</button></div>
+    </div>
+    <div id="stpDone" class="stDone" style="display:none"></div>
+  </div>
+</div>
 
 <!-- RECORRIDOS CON GPS -->
 <div id="routeScreen" class="screen">
