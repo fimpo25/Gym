@@ -1005,6 +1005,16 @@ body.hasLive .screen.active{padding-bottom:78px}
 .stDone{text-align:center;padding-top:40px}
 .stDoneIc{width:84px;height:84px;margin:0 auto 14px;border-radius:50%;background:#A78BFA22;color:#C4B5FD;font-size:42px;display:flex;align-items:center;justify-content:center}
 .stDoneT{font-size:28px;font-weight:800;color:#fff}
+
+.stSugCard{display:flex;align-items:center;gap:10px;background:linear-gradient(160deg,#1E1636,#0E131C 75%);border:1px solid #A78BFA55;border-radius:14px;padding:11px 12px;margin-bottom:12px}
+.stSugIc{font-size:22px}
+.stSugMid{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.stSugMid b{font-size:14px;color:#E9E3FF}
+.stSugMid span{font-size:12.5px;color:#B9AEE0}
+.stSugGo{border:none;border-radius:10px;background:#A78BFA;color:#120B24;font-weight:800;font-size:13.5px;padding:9px 12px;cursor:pointer}
+.stSugX{width:34px;height:34px;border-radius:9px;border:1px solid #3A3160;background:transparent;color:#B9AEE0;font-size:18px;cursor:pointer}
+.stSugRow{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:#A78BFA14;border:1px solid #A78BFA55;border-radius:12px;color:#D8CFFF;font-size:13.5px;padding:11px 14px;margin:0 0 12px;cursor:pointer}
+.stSugRow b{color:#C4B5FD}
 </style>
 </head>
 <body>
@@ -2263,9 +2273,44 @@ function getAllEx() {
   return arr;
 }
 
-function getWeekKey(date) { var d = new Date(date); d.setHours(0,0,0,0); d.setDate(d.getDate()-d.getDay()+1); return d.toISOString().split("T")[0]; }
+// Semana de lunes a domingo (antes el domingo caia en la semana siguiente)
+// Ojo: new Date("AAAA-MM-DD") es medianoche UTC (en Argentina, la noche anterior): se toma como esa fecha.
+function getWeekKey(date) {
+  var d;
+  if (typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date)) d = new Date(date + "T12:00:00");
+  else {
+    d = new Date(date); var ms = d.getTime();
+    if (ms % 3600000 === 0 && [23, 0, 1].indexOf(d.getUTCHours()) >= 0) { var u = new Date(ms + 7200000); d = new Date(u.getUTCFullYear(), u.getUTCMonth(), u.getUTCDate(), 12); }
+  }
+  d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+  return d.getFullYear() + "-" + (d.getMonth() < 9 ? "0" : "") + (d.getMonth() + 1) + "-" + (d.getDate() < 10 ? "0" : "") + d.getDate();
+}
 function formatWeek(wk) { var s = new Date(wk + "T12:00:00"), e = new Date(wk + "T12:00:00"); e.setDate(e.getDate()+6); var o = {day:"numeric",month:"short"}; return s.toLocaleDateString("es-AR",o)+" - "+e.toLocaleDateString("es-AR",o); }
 
+(function weekFixSundays() {
+  try {
+    if (localStorage.getItem("gymWeekFix1")) return;
+    var moved = 0;
+    Object.keys(gymData).forEach(function(wk) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(wk)) return;
+      var wd = gymData[wk]; if (!wd || typeof wd !== "object") return;
+      Object.keys(wd).forEach(function(ex) {
+        var arr = wd[ex]; if (!Array.isArray(arr)) return;
+        var keep = [];
+        arr.forEach(function(x) {
+          var day = x && typeof x.d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(x.d) ? x.d : null;
+          var right = day ? getWeekKey(new Date(day + "T12:00:00")) : wk;
+          if (right === wk) { keep.push(x); return; }
+          gymData[right] = gymData[right] || {}; gymData[right][ex] = gymData[right][ex] || [];
+          gymData[right][ex].push(x); moved++;
+        });
+        if (keep.length !== arr.length) { if (keep.length) wd[ex] = keep; else delete wd[ex]; }
+      });
+    });
+    if (moved) persist();
+    localStorage.setItem("gymWeekFix1", String(moved));
+  } catch(e) {}
+})();
 var activeWeek = getWeekKey(new Date());
 
 var weeklyGoal = 0;
@@ -2302,6 +2347,7 @@ function showScreen(id) {
   if (id === "routeScreen") routeEnter();
   if (id === "stretchScreen") stEnter();
   if (id === "launchScreen") renderLaunch();
+  if (id === "homeScreen" || id === "stretchScreen" || id === "routeScreen") { try { localStorage.setItem("gymLastSec", id); } catch(e) {} }
   if (id === "mesoScreen") renderMeso();
   if (id === "fvScreen") { renderFV(); return; }
   if (id === "rmScreen") return;
@@ -3506,7 +3552,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymBodyKg","gymStretch"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymBodyKg","gymStretch","gymStretchSug","gymOpenAt"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -5407,6 +5453,7 @@ function renderTrain() {
   var msA = mesoActive(trainWeek), msEl = document.getElementById("trMeso");
   if (msEl) { msEl.style.display = msA ? "flex" : "none"; if (msA) msEl.innerHTML = msA.deload ? "Mesociclo \u00b7 <span>semana de descarga: menos series, cargas livianas</span>" : "Mesociclo \u00b7 semana " + (msA.i + 1) + " de " + mesoWeeks(msA.m) + " \u00b7 RIR objetivo <b>" + msA.rir.label + "</b>"; }
   var list = document.getElementById("trList"); list.innerHTML = "";
+  try { var stc = stTrainSugEl(found); if (stc) list.appendChild(stc); } catch(e) {}
   var exs = found.routine.exercises.map(exInfo);
   if (!exs.length) list.innerHTML = "<div class=\"trEmpty\">Esta rutina no tiene ejercicios todav\u00eda.</div>";
   var anyPh = false;
@@ -5863,8 +5910,10 @@ function trainFinish() {
         "<div class=\"finEx\">" + sum.exercises.map(function(e){ return "<div><span>" + escHtml(e.name) + "</span><span>" + e.sets + (e.sets === 1 ? " serie" : " series") + "</span></div>"; }).join("") + "</div>";
       var ok = document.createElement("button"); ok.className = "trSheetPrimary"; ok.textContent = "Guardar y terminar";
       ok.onclick = function() {
+        var fexs = f ? f.routine.exercises.slice() : [], ft0 = ses ? ses.t : Date.now();
         trainSaveSession();
         trainEndSession();
+        try { stOfferAfterTrain(fexs, ft0); } catch(e) {}
         showToast("Rutina guardada: " + fmtDur(dur) + ", " + sum.totalSets + (sum.totalSets === 1 ? " serie" : " series"));
       };
       body.appendChild(box); body.appendChild(ok);
@@ -7965,6 +8014,8 @@ function rtIdle(root) {
   RT.built = "idle"; RT.pts = []; RT.map = null;
   var h = '<div class="msSeg rtModes">' + Object.keys(ROUTE_MODES).map(function(k) { return '<button data-m="' + k + '" class="' + (RT.mode === k ? "on" : "") + '">' + ROUTE_MODES[k].ic + "&nbsp; " + ROUTE_MODES[k].name + "</button>"; }).join("") + "</div>";
   h += '<button class="rtStart" id="rtStartBtn">Iniciar ' + ROUTE_MODES[RT.mode].name.toLowerCase() + '</button>';
+  var rpre = stSugOn() ? stRouteProg(RT.mode, "pre") : null;
+  if (rpre) h += '<button class="stSugRow" id="rtPre"><span>&#129496; Antes: ' + escHtml(rpre.name) + " &middot; " + stMin(stDur(rpre)) + '</span><b>&#9654;</b></button>';
   h += '<div class="rtHint">' + (RouteGps.native ? "Graba con la pantalla bloqueada: vas a ver el tiempo y los km en la notificación. No suma series al Balance." : "En el navegador solo graba con esta pantalla abierta. No suma series al Balance.") + "</div>";
   var kgv = rtKg();
   h += '<button class="rtKgRow" id="rtKgBtn"><span>Tu peso (para calcular calorías)</span><b>' + (kgv ? String(kgv).replace(".", ",") + " kg" : "Cargar") + '</b></button>';
@@ -7984,6 +8035,7 @@ function rtIdle(root) {
   root.querySelectorAll(".rtModes button").forEach(function(b) { b.onclick = function() { RT.mode = b.getAttribute("data-m"); safeStore("gymRouteMode", RT.mode); rtIdle(root); }; });
   root.querySelector("#rtStartBtn").onclick = rtStart;
   root.querySelector("#rtKgBtn").onclick = function() { rtKgSheet(root); };
+  var rpb = root.querySelector("#rtPre"); if (rpb) rpb.onclick = function() { stPlay(rpre, "routeScreen"); };
   root.querySelectorAll(".rtItem").forEach(function(b) { b.onclick = function() { routeSetView("detail", b.getAttribute("data-id")); }; });
 }
 function rtKgSheet(root) {
@@ -8112,11 +8164,14 @@ function rtDetail(root) {
     });
     h += "</div>";
   }
+  var rpost = stSugOn() && Date.now() - (r.end || 0) < 3 * 3600e3 ? stRouteProg(r.mode, "post") : null;
+  if (rpost && !stDidSince(r.end, "post")) h += '<button class="stSugRow" id="rtPost"><span>&#129496; Estirar ahora: ' + escHtml(rpost.name) + " &middot; " + stMin(stDur(rpost)) + '</span><b>&#9654;</b></button>';
   h += '<button class="rtDel" id="rtDel">Eliminar recorrido</button>';
   root.innerHTML = h;
   var segs = (r.poly || []).map(plDec);
   RT.map = new RtMap(root.querySelector("#rtMap"), false);
   requestAnimationFrame(function() { RT.map.draw(segs, null); });
+  var rpp = root.querySelector("#rtPost"); if (rpp) rpp.onclick = function() { stPlay(rpost, "routeScreen"); };
   root.querySelector("#rtDel").onclick = function() {
     openTrSheet("Eliminar recorrido", function(body) {
       trSheetBtn(body, "Sí, eliminar", function() { routes = routes.filter(function(x) { return x.id !== r.id; }); persistRoutes(); RT.view = "main"; RT.built = ""; routeRender(); }, true);
@@ -8228,6 +8283,7 @@ function stRender() {
   var zk = Object.keys(ST_ZONES).filter(function(z) { return w.zones[z]; });
   if (zk.length) h += '<div class="stZones">' + zk.map(function(z) { var m = w.zones[z] / 60; return '<span class="' + (m >= 5 ? "ok" : "") + '">' + ST_ZONES[z] + " " + (m < 1 ? "<1" : Math.round(m)) + "'</span>"; }).join("") + "</div>";
   h += '<div class="stHint">Para ganar flexibilidad sirve más la constancia que la intensidad: unos 5 minutos por semana en cada zona, repartidos. Antes de entrenar conviene la movilidad dinámica; el estiramiento estático, después o en otro momento.</div></div>';
+  h += '<button class="rtKgRow" id="stSugTog"><span>Sugerir estiramientos al empezar y terminar rutinas y recorridos</span><b>' + (stSugOn() ? "Sí" : "No") + "</b></button>";
   ["previa", "post", "libre", "mio"].forEach(function(k) {
     var list = k === "mio" ? stData.progs : ST_BUILTIN.filter(function(p) { return p.kind === k; });
     if (k === "mio" || list.length) h += '<div class="exdSec">' + ST_KINDS[k] + "</div>";
@@ -8244,6 +8300,7 @@ function stRender() {
   root.querySelectorAll(".stProg").forEach(function(b) { b.onclick = function() { ST.pid = b.getAttribute("data-id"); stSetView("prog"); }; });
   root.querySelector("#stNew").onclick = function() { ST.draft = { id: null, name: "", steps: [] }; stSetView("edit"); };
   var rs = root.querySelector("#stResume"); if (rs) rs.onclick = function() { showScreen("stPlayScreen"); };
+  root.querySelector("#stSugTog").onclick = function() { safeStore("gymStretchSug", stSugOn() ? "0" : "1"); stRender(); };
 }
 function stRenderProg(root) {
   var p = stFind(ST.pid); if (!p) { ST.view = "main"; stRender(); return; }
@@ -8337,10 +8394,10 @@ function spState() {
   return { idx: SP.ph.length, left: 0, start: acc };
 }
 function spStartOf(i) { var a = 0; for (var k = 0; k < i; k++) a += SP.ph[k].secs; return a; }
-function stPlay(p) {
+function stPlay(p, ret) {
   if (SP) spStop(false);
   try { if (!_tmCtx) _tmCtx = new (window.AudioContext || window.webkitAudioContext)(); _tmCtx.resume(); } catch(e) {}
-  SP = { p: JSON.parse(JSON.stringify(p)), ph: stPhases(p), base: 0, runSince: Date.now(), paused: false, lastIdx: -1, lastSec: -1, lastEl: 0, hold: {}, started: Date.now(), timer: null, vidEx: null };
+  SP = { ret: ret || null, p: JSON.parse(JSON.stringify(p)), ph: stPhases(p), base: 0, runSince: Date.now(), paused: false, lastIdx: -1, lastSec: -1, lastEl: 0, hold: {}, started: Date.now(), timer: null, vidEx: null };
   acquireWakeLock();
   document.getElementById("stpDone").style.display = "none"; document.getElementById("stpMain").style.display = "";
   showScreen("stPlayScreen");
@@ -8430,7 +8487,9 @@ function spFinish() {
   if (rec) h += '<div class="stZones" style="justify-content:center;margin:14px 0">' + Object.keys(rec.hold).map(function(z) { return "<span>" + ST_ZONES[z] + " " + rtClock(rec.hold[z]) + "</span>"; }).join("") + "</div>";
   h += '<button class="rtStart" id="stpBackBtn">Volver</button>';
   d.innerHTML = h; d.style.display = ""; document.getElementById("stpMain").style.display = "none";
-  d.querySelector("#stpBackBtn").onclick = function() { SP = null; ST.view = "main"; showScreen("stretchScreen"); };
+  var ret = SP.ret;
+  d.querySelector("#stpBackBtn").textContent = ret === "trainScreen" ? "Volver a la rutina" : ret === "routeScreen" ? "Volver a recorridos" : "Volver";
+  d.querySelector("#stpBackBtn").onclick = function() { SP = null; ST.view = "main"; showScreen(ret || "stretchScreen"); };
 }
 function spStop(save) {
   if (!SP) return;
@@ -8441,13 +8500,50 @@ function spStop(save) {
   return rec;
 }
 function stPlayBack() {
-  if (!SP || SP.done) { SP = null; ST.view = "main"; showScreen("stretchScreen"); return; }
+  var ret = (SP && SP.ret) || "stretchScreen";
+  if (!SP || SP.done) { SP = null; ST.view = "main"; showScreen(ret); return; }
   openTrSheet("¿Terminar el programa?", function(body) {
     trSheetBtn(body, "Seguir estirando", function() {});
-    trSheetBtn(body, "Terminar y guardar lo hecho", function() { var r = spStop(true); ST.view = "main"; showScreen("stretchScreen"); showToast(r ? "Guardado: " + stMin(r.secs) : "Muy corto: no se guardó"); });
-    trSheetBtn(body, "Salir sin guardar", function() { spStop(false); ST.view = "main"; showScreen("stretchScreen"); }, true);
+    trSheetBtn(body, "Terminar y guardar lo hecho", function() { var r = spStop(true); ST.view = "main"; showScreen(ret); showToast(r ? "Guardado: " + stMin(r.secs) : "Muy corto: no se guardó"); });
+    trSheetBtn(body, "Salir sin guardar", function() { spStop(false); ST.view = "main"; showScreen(ret); }, true);
   });
 }
+// ---- sugerencias de estiramiento en rutinas y recorridos (se pueden apagar) ----
+function stSugOn() { try { return localStorage.getItem("gymStretchSug") !== "0"; } catch(e) { return true; } }
+var _stSugHidden = {};
+function stLegsRoutine(exs) {
+  var legs = 0, n = 0;
+  exs.forEach(function(name) { var m = null; try { m = getExerciseMuscles(name); } catch(e) {} if (!m) return; n++; if (m.agonist === "Piernas") legs++; });
+  return n > 0 && legs * 2 >= n;
+}
+function stDidSince(t0, kind) { return stData.log.some(function(l) { if (l.d < t0) return false; var p = stFind(l.pid); return !kind || (p && p.kind === kind); }); }
+// Tarjeta al empezar una rutina (antes de la primera serie)
+function stTrainSugEl(found) {
+  var ses = trainGetSession();
+  if (!stSugOn() || !ses || ses.routineId !== found.routine.id || _stSugHidden[ses.t] || stDidSince(ses.t, "previa")) return null;
+  try { if (trainSessionSetCount() > 0) return null; } catch(e) {}
+  var p = stFind(stLegsRoutine(found.routine.exercises) ? "b_pre_leg" : "b_pre_up"); if (!p) return null;
+  var el = document.createElement("div"); el.className = "stSugCard";
+  el.innerHTML = '<span class="stSugIc">&#129496;</span><div class="stSugMid"><b>Antes de arrancar</b><span>' + escHtml(p.name) + " &middot; " + stMin(stDur(p)) + '</span></div><button class="stSugGo">Empezar</button><button class="stSugX" aria-label="Ahora no">&times;</button>';
+  el.querySelector(".stSugGo").onclick = function() { stPlay(p, "trainScreen"); };
+  el.querySelector(".stSugX").onclick = function() { _stSugHidden[ses.t] = 1; el.remove(); };
+  return el;
+}
+// Al guardar la rutina: ofrecer el estiramiento final
+function stOfferAfterTrain(exs, t0) {
+  if (!stSugOn() || stDidSince(t0, "post")) return;
+  var p = stFind(stLegsRoutine(exs) ? "b_post_leg" : "b_post_up"); if (!p) return;
+  setTimeout(function() {
+    openTrSheet("¿Estirás ahora?", function(body) {
+      var w = document.createElement("div"); w.className = "exdWrap"; w.innerHTML = '<div class="exdIntro">Después de entrenar es buen momento para el estiramiento estático: ' + escHtml(p.name) + " (" + stMin(stDur(p)) + ").</div>"; body.appendChild(w);
+      trSheetBtn(body, "&#129496;&nbsp; Empezar " + escHtml(p.name), function() { stPlay(p, "homeScreen"); });
+      trSheetBtn(body, "Ahora no", function() {});
+      trSheetBtn(body, "No sugerir más (se activa en Estiramiento)", function() { safeStore("gymStretchSug", "0"); showToast("Listo: no te sugiero más estiramientos"); });
+    });
+  }, 350);
+}
+// Recorridos: antes (pantalla de inicio) y despues (al guardar)
+function stRouteProg(mode, when) { return stFind(when === "pre" ? (mode === "bici" ? "b_pre_leg" : "b_pre_run") : (mode === "bici" ? "b_post_leg" : "b_post_run")); }
 // Avisos con la pantalla bloqueada (usa la alarma nativa)
 function spScheduleNative() {
   if (!SP || SP.paused || SP.done || !NativeRest.isNative || !NativeRest.scheduleMany) return;
@@ -8512,12 +8608,19 @@ function renderLaunch() {
     var inf = c.info();
     h += '<button class="lnCard ' + c.id + (inf.live ? " live" : "") + '" data-c="' + c.id + '"><span class="lnIc"><svg viewBox="0 0 24 24" aria-hidden="true">' + c.ic + '</svg></span><span class="lnMid"><b>' + c.title + '</b><span id="lnInfo_' + c.id + '">' + escHtml(inf.txt) + '</span></span><span class="lnGo">' + (inf.live ? '<em>' + inf.go + '</em>' : "&#8250;") + "</span></button>";
   });
-  h += '<div class="lnFoot"><button id="lnGuide">Instructivo</button><button id="lnBackup">Copia de seguridad</button></div><div id="lnVer"></div>';
+  h += '<div class="lnFoot"><button id="lnGuide">Instructivo</button><button id="lnBackup">Copia de seguridad</button><button id="lnOpen">Al abrir</button></div><div id="lnVer"></div>';
   root.innerHTML = h;
   root.querySelector("#lnUpd").appendChild(Updater.card());
   root.querySelector("#lnVer").appendChild(Updater.footer());
   root.querySelectorAll(".lnCard").forEach(function(b) { b.onclick = function() { launchGo(b.getAttribute("data-c")); }; });
   root.querySelector("#lnGuide").onclick = function() { openGuide(); };
+  root.querySelector("#lnOpen").onclick = function() { openTrSheet("Al abrir la app", function(body) {
+    var cur = ""; try { cur = localStorage.getItem("gymOpenAt") || ""; } catch(e) {}
+    var w = document.createElement("div"); w.className = "exdWrap"; w.innerHTML = '<div class="exdIntro">Si hay una rutina en curso o un recorrido grabando, la app abre siempre ahí.</div>'; body.appendChild(w);
+    [["", "Esta entrada (recomendado)"], ["gym", "Gimnasio"], ["last", "La última sección que usé"]].forEach(function(o) {
+      trSheetBtn(body, o[1] + (cur === o[0] ? " &#10003;" : ""), function() { safeStore("gymOpenAt", o[0]); showToast("Al abrir: " + o[1].replace(" (recomendado)", "")); });
+    });
+  }); };
   root.querySelector("#lnBackup").onclick = function() { openTrSheet("Copia de seguridad", function(body) {
     var w = document.createElement("div"); w.className = "exdWrap"; w.innerHTML = '<div class="exdIntro">Un archivo con todos tus datos: entrenamientos, rutinas, estiramientos y recorridos. Guardalo en Drive o donde quieras.</div>'; body.appendChild(w);
     trSheetBtn(body, "Exportar (guardar copia)", function() { exportData(); });
@@ -8541,11 +8644,14 @@ function launchInit() {
     var ses = trainGetSession();
     if (ses && ses.routineId && findRoutine(ses.routineId)) { launchGo("gym"); return; }
   } catch(e) {}
-  showScreen("launchScreen");
+  var pref = "", last = "";
+  try { pref = localStorage.getItem("gymOpenAt") || ""; last = localStorage.getItem("gymLastSec") || ""; } catch(e) {}
+  var to = pref === "gym" ? "homeScreen" : pref === "last" && /^(homeScreen|stretchScreen|routeScreen)$/.test(last) ? last : "launchScreen";
+  showScreen(to);
   RouteGps.status().then(function(st) {
     RT.st = st; updateRouteDot();
     var a = document.querySelector(".screen.active");
-    if (st && st.state && st.state !== "idle" && a && a.id === "launchScreen") showScreen("routeScreen");
+    if (st && st.state && st.state !== "idle" && a && a.id !== "routeScreen" && a.id !== "trainScreen") showScreen("routeScreen");
   }).catch(function() {});
 }
 
@@ -8903,6 +9009,17 @@ function renderDayView() {
 // INSTRUCTIVO
 var GUIDE_SECTIONS = [
   {
+    tab: "Entrada",
+    icon: "&#9776;",
+    items: [
+      { icon:"&#9776;", title:"Tres caminos", desc:"Al abrir la app elegís Gimnasio, Estiramiento o Recorridos. Cada tarjeta muestra cómo venís: días entrenados en la semana, minutos de estiramiento y km del mes. Si hay una rutina en curso o un recorrido grabando, la app abre directo ahí. En 'Al abrir' podés hacer que arranque siempre en Gimnasio o en la última sección que usaste." },
+      { icon:"&#129496;", title:"Estiramiento", desc:"Programas guiados con video: movilidad dinámica para antes de entrenar y estiramiento estático para después. El reproductor marca el lado, cuenta el tiempo y avisa con sonido y vibración (también con la pantalla bloqueada). Podés armar tus programas eligiendo estiramientos de la biblioteca y ajustar segundos, lados y vueltas. No suma series al Balance." },
+      { icon:"&#128161;", title:"Sugerencias", desc:"Al empezar una rutina aparece arriba la movilidad previa que corresponde (piernas o torso), y al guardarla te ofrece el estiramiento final. En Recorridos, lo mismo antes y después de caminar, correr o andar en bici. Se apagan en Estiramiento." },
+      { icon:"&#128205;", title:"Recorridos", desc:"Caminar, correr o bici con GPS: mapa del trazado, tiempo, distancia, ritmo, parciales por km, velocidad máxima, calorías y desnivel. Sigue grabando con la pantalla bloqueada y muestra el avance en la notificación, con botón para pausar." },
+      { icon:"&#128190;", title:"Copia de seguridad", desc:"Desde la entrada, 'Copia de seguridad' guarda un archivo con todos tus datos (entrenamientos, rutinas, estiramientos y recorridos) o restaura uno." }
+    ]
+  },
+  {
     tab: "Inicio",
     icon: "&#127968;",
     items: [
@@ -8955,7 +9072,7 @@ var GUIDE_SECTIONS = [
       { icon:"&#128218;", title:"Biblioteca", desc:"Agrega ejercicios del catalogo o crea los tuyos con Nuevo ejercicio y Nuevo grupo. Al abrir un ejercicio de tu rutina podes elegir sus dias, armar una superserie o quitarlo de la rutina." },
       { icon:"&#128193;", title:"Carpetas", desc:"Agrupá tus rutinas en carpetas (por ejemplo Hipertrofia con Empuje, Tirón y Piernas). En los 3 puntos de la carpeta, Ordenar rutinas te deja cambiar el orden con flechas. Desde los 3 puntos de una rutina podés renombrarla, duplicarla, ordenarla o moverla a otra carpeta." },
       { icon:"&#128203;", title:"Historial", desc:"Registro de todas las semanas anteriores. Toca una semana para ver su resumen detallado. Desde aca podes Exportar un backup JSON o Importar uno guardado." },
-      { icon:"&#128190;", title:"Backup", desc:"En Historial -> Exportar genera un archivo .json con todos tus datos. Guardalo en Drive o donde quieras. Para restaurar, usa Importar y selecciona el archivo." }
+      { icon:"&#128190;", title:"Backup", desc:"Desde la entrada (Copia de seguridad) o en Historial -> Exportar se genera un archivo .json con todos tus datos. Guardalo en Drive o donde quieras. Para restaurar, usa Importar y selecciona el archivo." }
     ]
   }
 ];
