@@ -870,10 +870,10 @@ body.hasLive .screen.active{padding-bottom:78px}
 @keyframes recPulse{0%,100%{opacity:1}50%{opacity:.35}}
 .rtModes{margin-bottom:12px}
 .rtModes button{flex:1}
-.rtStart{width:100%;border:none;border-radius:16px;background:var(--primary);color:#001014;font-size:18px;font-weight:800;padding:18px;margin:4px 0 8px;cursor:pointer}
-.rtStart:active{transform:scale(.99)}
+.bigGo{width:100%;border:none;border-radius:16px;background:var(--primary);color:#001014;font-size:18px;font-weight:800;padding:18px;margin:4px 0 8px;cursor:pointer}
+.bigGo:active{transform:scale(.99)}
 .rtHint{font-size:12.5px;color:var(--text-3);line-height:1.45;margin-bottom:16px}
-.rtEmpty{font-size:13.5px;color:var(--text-3);text-align:center;padding:26px 10px}
+.rtNone{font-size:13.5px;color:var(--text-3);text-align:center;padding:26px 10px}
 .rtGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}
 .rtCell{background:var(--surface);border:1px solid #182030;border-radius:14px;padding:11px 6px;text-align:center;min-width:0}
 .rtCell b{display:block;font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;color:#fff;white-space:nowrap}
@@ -1015,6 +1015,19 @@ body.hasLive .screen.active{padding-bottom:78px}
 .stSugX{width:34px;height:34px;border-radius:9px;border:1px solid #3A3160;background:transparent;color:#B9AEE0;font-size:18px;cursor:pointer}
 .stSugRow{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:#A78BFA14;border:1px solid #A78BFA55;border-radius:12px;color:#D8CFFF;font-size:13.5px;padding:11px 14px;margin:0 0 12px;cursor:pointer}
 .stSugRow b{color:#C4B5FD}
+
+.ctInfo{font-size:13px;color:var(--text-2);background:#22D3EE0F;border:1px solid #22D3EE33;border-radius:12px;padding:10px 12px;margin:6px 0 4px;line-height:1.45}
+.ctInfo b{color:#fff}
+.ctSub{font-size:11.5px;color:var(--text-3);margin-top:4px}
+.ctDay{color:var(--primary)}
+.ctName{font-size:14px;font-weight:600;color:var(--text-2)}
+.ctTag{display:inline-block;font-size:11px;font-weight:700;border-radius:99px;padding:2px 8px;vertical-align:2px;margin-left:4px}
+.ctTag.next{background:#22D3EE22;color:var(--primary)}
+.ctTag.done{background:#34D39922;color:#6EE7B7}
+.ctTag.live{background:#FFB02022;color:var(--energy)}
+.rtCard.ctNext{border-color:#22D3EE77;box-shadow:0 0 0 1px #22D3EE33 inset}
+.rtCard.ctDone{opacity:.72}
+.rtCard.ctDone .rtStart{background:#182030;color:var(--text-2)}
 </style>
 </head>
 <body>
@@ -5447,7 +5460,7 @@ function renderTrain() {
   if (!trainWeek) trainWeek = getWeekKey(new Date());
   var found = findRoutine(trainRoutineId);
   if (!found) { showScreen("homeScreen"); return; }
-  document.getElementById("trTitle").textContent = found.routine.name;
+  document.getElementById("trTitle").textContent = routineTitle(found.routine.id);
   document.getElementById("trDayTitle").textContent = found.folder.name;
   document.getElementById("trDayChips").style.display = "none";
   var msA = mesoActive(trainWeek), msEl = document.getElementById("trMeso");
@@ -5663,7 +5676,10 @@ function renderRoutinesHome() {
   var head = document.createElement("div"); head.className = "rtHead";
   head.innerHTML = "<span class=\"rtTitle\">Rutinas</span>";
   var nf = document.createElement("button"); nf.className = "rtNewFolder"; nf.textContent = "+ Carpeta";
-  nf.onclick = function(){ askText("Nueva carpeta", "Ej.: Hipertrofia, Fuerza, Vacaciones", "", "Crear carpeta", function(v){ data.folders.push({ id: newId(), name: v, open: true, routines: [] }); persistRoutines(); renderRoutinesHome(); }); };
+  nf.onclick = function(){ openTrSheet("Nueva carpeta", function(body) {
+    trSheetBtn(body, "&#128193;&nbsp; Carpeta de rutinas", function(){ setTimeout(function(){ askText("Nueva carpeta", "Ej.: Hipertrofia, Fuerza, Vacaciones", "", "Crear carpeta", function(v){ data.folders.push({ id: newId(), name: v, open: true, routines: [] }); persistRoutines(); renderRoutinesHome(); }); }, 30); });
+    trSheetBtn(body, "&#128260;&nbsp; Entrenamiento continuo (días que rotan)", function(){ setTimeout(newContFolder, 30); });
+  }); };
   head.appendChild(nf); area.appendChild(head);
   if (!data.folders.length) {
     var em = document.createElement("div"); em.className = "rtEmpty"; em.textContent = "Creá una carpeta y adentro tus rutinas."; area.appendChild(em);
@@ -5674,7 +5690,7 @@ function renderRoutinesHome() {
     var tg = document.createElement("button"); tg.className = "rtFolderToggle";
     tg.innerHTML = "<span class=\"rtChev\">&#9656;</span><span class=\"rtFolderName\"></span><span class=\"rtCount\"></span>";
     tg.querySelector(".rtFolderName").textContent = f.name;
-    tg.querySelector(".rtCount").textContent = f.routines.length + (f.routines.length === 1 ? " rutina" : " rutinas");
+    tg.querySelector(".rtCount").textContent = f.routines.length + (f.routines.length === 1 ? " rutina" : " rutinas") + (f.cont ? " · rotación" : "");
     tg.onclick = function(){ f.open = !f.open; persistRoutines(); renderRoutinesHome(); };
     var fm = document.createElement("button"); fm.className = "trMore"; fm.setAttribute("aria-label", "Opciones de la carpeta");
     fm.innerHTML = "<span></span><span></span><span></span>"; fm.onclick = function(){ folderMenu(f); };
@@ -5694,10 +5710,24 @@ function renderRoutinesHome() {
         c.appendChild(nm); c.appendChild(up); c.appendChild(dn); box.appendChild(c);
       });
     } else if (f.open) {
-      f.routines.forEach(function(r) {
+      var cst = f.cont ? contState(f) : null, list = f.routines.slice(), live = trainGetSession();
+      if (cst) {
+        list.sort(function(a, b) { return cst.label[a.id] - cst.label[b.id]; });
+        var nx = findRoutine(cst.next), info = document.createElement("div"); info.className = "ctInfo";
+        info.innerHTML = "<b>Esta semana:</b> " + cst.weekCount + (cst.weekCount === 1 ? " rutina hecha" : " rutinas hechas") + (nx ? " &middot; sigue <b>Día " + cst.label[cst.next] + "</b> (" + escHtml(nx.routine.name) + ")" : "") +
+          '<div class="ctSub">Los días se renumeran cada lunes: el Día 1 es la rutina que sigue a la última que hiciste. El orden de la rotación es el de la carpeta.</div>';
+        box.appendChild(info);
+      }
+      list.forEach(function(r) {
         var c = document.createElement("div"); c.className = "rtCard";
         var top = document.createElement("div"); top.className = "rtCardTop";
         var nm = document.createElement("div"); nm.className = "rtName"; nm.textContent = r.name;
+        if (cst) {
+          var isNext = cst.next === r.id, isLive = live && live.routineId === r.id, dn = cst.done[r.id];
+          c.className += isNext ? " ctNext" : dn ? " ctDone" : "";
+          nm.innerHTML = '<span class="ctDay">Día ' + cst.label[r.id] + '</span> <span class="ctName">' + escHtml(r.name) + "</span>" +
+            (isLive ? ' <span class="ctTag live">En curso</span>' : dn ? ' <span class="ctTag done">&#10003; Hecha' + (dn > 1 ? " ×" + dn : "") + "</span>" : isNext ? ' <span class="ctTag next">Siguiente</span>' : "");
+        }
         var rm = document.createElement("button"); rm.className = "trMore"; rm.setAttribute("aria-label", "Opciones de la rutina");
         rm.innerHTML = "<span></span><span></span><span></span>"; rm.onclick = function(){ routineMenu(f, r); };
         top.appendChild(nm); top.appendChild(rm); c.appendChild(top);
@@ -5720,6 +5750,46 @@ function renderRoutinesHome() {
   });
 }
 var rtReorderFolder = null;   // carpeta en modo "Ordenar rutinas"
+// ============================================================
+// ENTRENAMIENTO CONTINUO: carpeta con rutinas en rotacion. Cada semana (lunes a domingo) empieza en
+// "Dia 1" con la rutina que sigue a la ultima que guardaste; el orden de la carpeta es el de la rotacion.
+// ============================================================
+function contWeekStart() { var d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); }
+function contState(f) {
+  var ids = f.routines.map(function(r) { return r.id; }), N = ids.length;
+  if (!N) return null;
+  var ses = loadSessions().filter(function(x) { return ids.indexOf(x.routineId) >= 0; }).sort(function(a, b) { return (a.end || a.start) - (b.end || b.start); });
+  var w0 = contWeekStart(), before = null, week = [];
+  ses.forEach(function(x) { if ((x.end || x.start) < w0) before = x; else week.push(x); });
+  var start = before ? (ids.indexOf(before.routineId) + 1) % N : 0;
+  var last = ses.length ? ses[ses.length - 1] : null;
+  var next = last ? (ids.indexOf(last.routineId) + 1) % N : start;
+  var label = {}, done = {};
+  ids.forEach(function(id, i) { label[id] = ((i - start + N) % N) + 1; });
+  week.forEach(function(x) { done[x.routineId] = (done[x.routineId] || 0) + 1; });
+  return { N: N, start: start, next: ids[next], label: label, done: done, weekCount: week.length };
+}
+// "Dia 2 · Rutina B" si la rutina es de un entrenamiento continuo; si no, su nombre
+function routineTitle(id) {
+  var f = findRoutine(id); if (!f) return "";
+  if (!f.folder.cont) return f.routine.name;
+  var st = contState(f.folder); return st ? "Día " + st.label[id] + " · " + f.routine.name : f.routine.name;
+}
+function newContFolder() {
+  openTrSheet("Entrenamiento continuo", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<div class="exdIntro">Un conjunto de rutinas que se van rotando. Cada semana arranca en <b>Día 1</b> con la rutina que te toca a continuación de la última que hiciste, aunque la semana anterior no hayas completado todas. ¿Cuántas rutinas tiene?</div>';
+    body.appendChild(w);
+    [2, 3, 4, 5, 6, 7].forEach(function(n) {
+      trSheetBtn(body, n + " rutinas" + (n === 5 ? " (por ejemplo, de lunes a viernes)" : ""), function() {
+        var f = { id: newId(), name: "Entrenamiento continuo", open: true, cont: true, routines: [] };
+        for (var i = 0; i < n; i++) f.routines.push({ id: newId(), name: "Rutina " + String.fromCharCode(65 + i), exercises: [] });
+        routinesData().folders.push(f); persistRoutines(); renderRoutinesHome();
+        showToast("Creado: agregá los ejercicios de cada rutina");
+      });
+    });
+  });
+}
 function moveRoutineInFolder(f, i, d) {
   var j = i + d; if (j < 0 || j >= f.routines.length) return;
   var r = f.routines.splice(i, 1)[0]; f.routines.splice(j, 0, r); persistRoutines(); renderRoutinesHome();
@@ -5735,6 +5805,7 @@ function folderMenu(f) {
     trSheetBtn(body, "+&nbsp; Nueva rutina", function(){ newRoutineIn(f); });
     if (f.routines.length > 1) trSheetBtn(body, "&#8645;&nbsp; Ordenar rutinas", function(){ rtReorderFolder = f.id; f.open = true; persistRoutines(); renderRoutinesHome(); });
     trSheetBtn(body, "&#9998;&nbsp; Renombrar carpeta", function(){ askText("Renombrar carpeta", "Nombre", f.name, "Guardar", function(v){ f.name = v; persistRoutines(); renderRoutinesHome(); }); });
+    trSheetBtn(body, f.cont ? "&#128193;&nbsp; Quitar la rotación (carpeta común)" : "&#128260;&nbsp; Usar como entrenamiento continuo", function(){ f.cont = !f.cont; persistRoutines(); renderRoutinesHome(); showToast(f.cont ? "Ahora las rutinas rotan por días" : "Carpeta común"); });
     trSheetBtn(body, "&#10005;&nbsp; Eliminar carpeta", function() {
       var n = f.routines.length;
       if (!confirm("¿Eliminar la carpeta \"" + f.name + "\"" + (n ? " y sus " + n + " rutinas" : "") + "?\n\nLos registros de tus entrenamientos se conservan.")) return;
@@ -5964,7 +6035,7 @@ function trainSaveSession() {
   var f = findRoutine(trainRoutineId), ses = trainGetSession(), sum = trainSessionSummary();
   var dur = ses ? Math.max(0, Math.round((Date.now() - ses.t) / 1000)) : 0;
   if (!sum.totalSets && !sum.exercises.length) return null;
-  var list = loadSessions(), rec = { id: newId(), start: ses ? ses.t : sum.start, end: Date.now(), dur: dur, routineId: trainRoutineId, routine: f ? f.routine.name : "", folder: f ? f.folder.name : "", exercises: sum.exercises, totalSets: sum.totalSets, totalVol: sum.totalVol };
+  var list = loadSessions(), rec = { id: newId(), start: ses ? ses.t : sum.start, end: Date.now(), dur: dur, routineId: trainRoutineId, routine: f ? routineTitle(trainRoutineId) : "", folder: f ? f.folder.name : "", exercises: sum.exercises, totalSets: sum.totalSets, totalVol: sum.totalVol };
   list.push(rec); safeStore("gymSessions", JSON.stringify(list));
   return rec;
 }
@@ -5986,7 +6057,7 @@ function updateLiveBar() {
   var rest = "";
   if (timerRunning) { var left = getTimerLeft(); rest = left > 0 ? "Descanso " + fmtRest(left) : "\u00a1Descanso terminado!"; }
   else if (timerDone) rest = "\u00a1Descanso terminado!";
-  document.getElementById("liveName").textContent = f.routine.name;
+  document.getElementById("liveName").textContent = routineTitle(f.routine.id);
   document.getElementById("liveTime").textContent = trainSessionText();
   var r = document.getElementById("liveRest"); r.textContent = rest; r.style.display = rest ? "" : "none";
   r.className = "liveRest" + (timerDone || (timerRunning && getTimerLeft() <= 10) ? " urgent" : "");
@@ -8013,7 +8084,7 @@ function routePing() { RouteGps.status().then(function(st) { RT.st = st; updateR
 function rtIdle(root) {
   RT.built = "idle"; RT.pts = []; RT.map = null;
   var h = '<div class="msSeg rtModes">' + Object.keys(ROUTE_MODES).map(function(k) { return '<button data-m="' + k + '" class="' + (RT.mode === k ? "on" : "") + '">' + ROUTE_MODES[k].ic + "&nbsp; " + ROUTE_MODES[k].name + "</button>"; }).join("") + "</div>";
-  h += '<button class="rtStart" id="rtStartBtn">Iniciar ' + ROUTE_MODES[RT.mode].name.toLowerCase() + '</button>';
+  h += '<button class="bigGo" id="rtStartBtn">Iniciar ' + ROUTE_MODES[RT.mode].name.toLowerCase() + '</button>';
   var rpre = stSugOn() ? stRouteProg(RT.mode, "pre") : null;
   if (rpre) h += '<button class="stSugRow" id="rtPre"><span>&#129496; Antes: ' + escHtml(rpre.name) + " &middot; " + stMin(stDur(rpre)) + '</span><b>&#9654;</b></button>';
   h += '<div class="rtHint">' + (RouteGps.native ? "Graba con la pantalla bloqueada: vas a ver el tiempo y los km en la notificación. No suma series al Balance." : "En el navegador solo graba con esta pantalla abierta. No suma series al Balance.") + "</div>";
@@ -8030,7 +8101,7 @@ function rtIdle(root) {
       var d = new Date(r.start), M = ROUTE_MODES[r.mode] || ROUTE_MODES.correr;
       h += '<button class="rtItem" data-id="' + r.id + '"><span class="rtItemIc">' + M.ic + '</span><span class="rtItemMid"><b>' + rtKm(r.dist) + ' km</b><span>' + d.toLocaleDateString("es-AR", { weekday: "short", day: "numeric", month: "short" }) + " &middot; " + rtClock(r.dur) + " &middot; " + rtRate(r.mode, r.dist, r.dur) + " " + rtRateUnit(r.mode) + '</span></span><span class="rtItemGo">&#8250;</span></button>';
     });
-  } else h += '<div class="rtEmpty">Todavía no grabaste recorridos. Elegí la actividad y tocá Iniciar.</div>';
+  } else h += '<div class="rtNone">Todavía no grabaste recorridos. Elegí la actividad y tocá Iniciar.</div>';
   root.innerHTML = h;
   root.querySelectorAll(".rtModes button").forEach(function(b) { b.onclick = function() { RT.mode = b.getAttribute("data-m"); safeStore("gymRouteMode", RT.mode); rtIdle(root); }; });
   root.querySelector("#rtStartBtn").onclick = rtStart;
@@ -8306,7 +8377,7 @@ function stRenderProg(root) {
   var p = stFind(ST.pid); if (!p) { ST.view = "main"; stRender(); return; }
   var mine = !ST_BUILTIN.some(function(b) { return b.id === p.id; });
   var h = '<div class="stHead"><div class="stHeadName">' + escHtml(p.name) + '</div><div class="stHeadSub">' + stMin(stDur(p)) + " &middot; " + p.steps.length + " ejercicios &middot; " + stZonesTxt(p) + "</div></div>";
-  h += '<button class="rtStart" id="stGo">Empezar</button>';
+  h += '<button class="bigGo" id="stGo">Empezar</button>';
   h += '<div class="balCard stSteps">';
   p.steps.forEach(function(s, i) { h += '<button class="stStepRow" data-i="' + i + '"><span class="stNum">' + (i + 1) + '</span><span class="stProgMid"><b>' + escHtml(s.ex) + "</b><span>" + stStepTxt(s) + " &middot; " + ST_ZONES[stZoneOf(s.ex)] + '</span></span><span class="rtItemGo">&#9654;</span></button>'; });
   h += '</div><div class="stHint">Tocá un ejercicio para ver el video y cómo hacerlo. Entre ejercicios hay unos segundos para acomodarte, y otros 5 para cambiar de lado.</div>';
@@ -8379,7 +8450,7 @@ function stPicker(onPick) {
         Object.keys(LIBRARY).forEach(function(g) { (LIBRARY[g].exercises || []).forEach(function(ex) { if (!ST_INFO[ex] && normalizeName(ex).indexOf(t) >= 0 && more.indexOf(ex) < 0) more.push(ex); }); });
         if (more.length) { var hd = document.createElement("div"); hd.className = "exdSec"; hd.textContent = "Otros ejercicios de la biblioteca"; list.appendChild(hd); more.slice(0, 25).forEach(function(ex) { item(ex, ST_ZONES[stZoneOf(ex)]); }); }
       }
-      if (!list.children.length) list.innerHTML = '<div class="rtEmpty">No hay ejercicios con ese nombre.</div>';
+      if (!list.children.length) list.innerHTML = '<div class="rtNone">No hay ejercicios con ese nombre.</div>';
     }
     q.oninput = draw; draw();
   });
@@ -8485,7 +8556,7 @@ function spFinish() {
   var d = document.getElementById("stpDone");
   var h = '<div class="stDoneIc">&#10003;</div><div class="stDoneT">¡Listo!</div><div class="stHeadSub">' + escHtml(SP.p.name) + " &middot; " + rtClock(Math.min(spElapsed(), stDur(SP.p))) + "</div>";
   if (rec) h += '<div class="stZones" style="justify-content:center;margin:14px 0">' + Object.keys(rec.hold).map(function(z) { return "<span>" + ST_ZONES[z] + " " + rtClock(rec.hold[z]) + "</span>"; }).join("") + "</div>";
-  h += '<button class="rtStart" id="stpBackBtn">Volver</button>';
+  h += '<button class="bigGo" id="stpBackBtn">Volver</button>';
   d.innerHTML = h; d.style.display = ""; document.getElementById("stpMain").style.display = "none";
   var ret = SP.ret;
   d.querySelector("#stpBackBtn").textContent = ret === "trainScreen" ? "Volver a la rutina" : ret === "routeScreen" ? "Volver a recorridos" : "Volver";
@@ -8576,7 +8647,7 @@ function launchGymInfo() {
   var ses = trainGetSession();
   if (ses && ses.routineId) {
     var f = null; try { f = findRoutine(ses.routineId); } catch(e) {}
-    return { live: true, txt: "Rutina en curso" + (f && f.routine ? ": " + f.routine.name : "") + " · " + rtClock((Date.now() - ses.t) / 1000), go: "Seguir" };
+    return { live: true, txt: "Rutina en curso" + (f && f.routine ? ": " + routineTitle(f.routine.id) : "") + " · " + rtClock((Date.now() - ses.t) / 1000), go: "Seguir" };
   }
   var td = gymData.trainingDays || {}, wk = getWeekKey(new Date()), n = 0;
   for (var i = 0; i < 7; i++) { var d = new Date(wk); d.setDate(d.getDate() + i); if (td[d.toISOString().split("T")[0]]) n++; }
