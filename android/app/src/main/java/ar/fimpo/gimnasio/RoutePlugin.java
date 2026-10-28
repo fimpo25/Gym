@@ -102,7 +102,9 @@ public class RoutePlugin extends Plugin {
             r.put("fixAgo", RouteTrack.fixAt == 0 ? -1 : System.currentTimeMillis() - RouteTrack.fixAt);
             r.put("lat", RouteTrack.curLat);
             r.put("lon", RouteTrack.curLon);
+            r.put("acceptAgo", RouteTrack.lastAcceptAt == 0 ? -1 : System.currentTimeMillis() - RouteTrack.lastAcceptAt);
         }
+        r.put("diag", RouteTrack.diag());
         r.put("gps", gpsOn());
         r.put("granted", getPermissionState("location") == PermissionState.GRANTED);
         r.put("notif", androidx.core.app.NotificationManagerCompat.from(getContext()).areNotificationsEnabled());
@@ -126,12 +128,15 @@ public class RoutePlugin extends Plugin {
     /** Puntos desde el indice "from": [[lat, lon, t, tramo, alt], ...] */
     @PluginMethod
     public void points(PluginCall call) {
-        int from = call.getInt("from", 0);
-        JSArray arr = new JSArray();
+        int from = call.getInt("from", 0), max = call.getInt("max", 1500);
+        JSArray arr = new JSArray(); int total;
         synchronized (RouteTrack.LOCK) {
-            for (int i = Math.max(0, from); i < RouteTrack.pts.size(); i++) arr.put(row(RouteTrack.pts.get(i)));
+            total = RouteTrack.pts.size();
+            for (int i = Math.max(0, from); i < total && arr.length() < max; i++) arr.put(row(RouteTrack.pts.get(i)));
         }
         JSObject r = new JSObject();
+        r.put("from", from);
+        r.put("total", total);
         r.put("points", arr);
         call.resolve(r);
     }
@@ -140,6 +145,7 @@ public class RoutePlugin extends Plugin {
     @PluginMethod
     public void stop(PluginCall call) {
         try {
+            String dg = RouteTrack.diag();
             Object[] f = RouteTrack.finish(getContext());
             send(RouteService.A_STOP);
             JSObject r = new JSObject();
@@ -150,6 +156,7 @@ public class RoutePlugin extends Plugin {
             r.put("dist", f[4]);
             r.put("gain", f[5]);
             r.put("loss", f[7]);
+            r.put("diag", dg);
             JSArray arr = new JSArray();
             @SuppressWarnings("unchecked") ArrayList<double[]> pts = (ArrayList<double[]>) f[6];
             for (double[] p : pts) arr.put(row(p));

@@ -3,6 +3,8 @@ package ar.fimpo.gimnasio;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.location.Location;
+import android.os.Build;
+import android.os.SystemClock;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -31,6 +33,10 @@ final class RouteTrack {
     // Ultima senal recibida (aunque no se haya contado)
     static double fixAcc = -1, curLat = 0, curLon = 0;
     static long fixAt = 0;
+    // Diagnostico: senales recibidas, aceptadas y descartadas por motivo
+    static int nFix = 0, nAcc = 0, rAcc = 0, rSpeed = 0, rStill = 0, rTime = 0, nForced = 0;
+    static long lastAcceptAt = 0;
+    static double lastMono = -1;           // reloj monotono (ms) del ultimo punto aceptado
 
     private RouteTrack() {}
 
@@ -46,8 +52,15 @@ final class RouteTrack {
             startedAt = System.currentTimeMillis(); accMs = 0; runSince = startedAt;
             dist = 0; gain = 0; loss = 0; refAlt = Double.NaN; seg = 0; rejects = 0; last = null;
             pts.clear(); fixAcc = -1; fixAt = 0;
+            nFix = nAcc = rAcc = rSpeed = rStill = rTime = nForced = 0; lastAcceptAt = 0; lastMono = -1;
             try { new File(ctx.getFilesDir(), FILE).delete(); } catch (Exception e) { /* nada */ }
             save(ctx);
+        }
+    }
+
+    static String diag() {
+        synchronized (LOCK) {
+            return "senales " + nFix + " · puntos " + nAcc + " · descartadas: precision " + rAcc + ", saltos " + rSpeed + ", quieto " + rStill + ", hora " + rTime + " · forzados " + nForced;
         }
     }
 
@@ -94,21 +107,30 @@ final class RouteTrack {
             fixAt = System.currentTimeMillis();
             curLat = l.getLatitude(); curLon = l.getLongitude();
             if (!"running".equals(state)) return;
-            if (fixAcc > 35) return;                       // senal pobre
-            double t = l.getTime();
+            nFix++;
+            if (fixAcc > 35) { rAcc++; return; }           // senal pobre
+            // Tiempo con el reloj monotono del celular (la hora que trae el GPS puede saltar o venir corrida)
+            long nowWall = System.currentTimeMillis(), nowMono = SystemClock.elapsedRealtime();
+            double mono = Build.VERSION.SDK_INT >= 17 && l.getElapsedRealtimeNanos() > 0 ? l.getElapsedRealtimeNanos() / 1e6 : nowMono;
+            if (mono > nowMono || nowMono - mono > 60000) mono = nowMono;
+            double t = nowWall - (nowMono - mono);         // hora del celular en que se tomo la senal
             double alt = l.hasAltitude() ? l.getAltitude() : Double.NaN;
             if (last != null) {
                 float[] r = new float[1];
                 Location.distanceBetween(last[0], last[1], l.getLatitude(), l.getLongitude(), r);
-                double d = r[0], dt = (t - last[2]) / 1000.0;
-                if (dt <= 0) return;
+                double d = r[0], dt = (lastMono >= 0 ? mono - lastMono : t - last[2]) / 1000.0;
+                if (dt <= 0) { rTime++; return; }
                 double v = d / dt;
+                // Nunca quedarse trabado: si hace 20 s que no entra un punto, la senal es buena y te moviste, se toma
+                boolean stuck = nowWall - lastAcceptAt > 20000 && fixAcc <= 20 && d >= 15;
                 if (v > maxSpeed) {                        // salto imposible: se ignora; si se repite, se reengancha
-                    if (++rejects < 5) return;
+                    if (++rejects < 5 && !stuck) { rSpeed++; return; }
+                    if (stuck) nForced++;
                     rejects = 0; seg++; last = null;
                 } else {
                     rejects = 0;
-                    if (d < 3 || v < 0.3) return;          // quieto: ruido del GPS
+                    if ((d < 3 || v < 0.3) && !stuck) { rStill++; return; }   // quieto: ruido del GPS
+                    if (stuck && (d < 3 || v < 0.3)) nForced++;
                     dist += d;
                 }
             }
@@ -118,7 +140,7 @@ final class RouteTrack {
                 else if (refAlt - alt >= 4) { loss += refAlt - alt; refAlt = alt; }
             }
             double[] p = new double[] { l.getLatitude(), l.getLongitude(), t, seg, Double.isNaN(alt) ? 0 : alt, fixAcc };
-            pts.add(p); last = p;
+            pts.add(p); last = p; lastMono = mono; lastAcceptAt = nowWall; nAcc++;
             try {
                 FileOutputStream fo = new FileOutputStream(new File(ctx.getFilesDir(), FILE), true);
                 fo.write(String.format(Locale.US, "%.6f,%.6f,%d,%d,%.1f,%.1f\n", p[0], p[1], (long) p[2], (int) p[3], p[4], p[5]).getBytes("UTF-8"));
@@ -146,7 +168,7 @@ final class RouteTrack {
             startedAt = sp.getLong("startedAt", 0); accMs = sp.getLong("accMs", 0);
             if ("running".equals(st)) accMs += Math.max(0, System.currentTimeMillis() - sp.getLong("runSince", System.currentTimeMillis()));
             dist = sp.getFloat("dist", 0); gain = sp.getFloat("gain", 0); loss = sp.getFloat("loss", 0); seg = sp.getInt("seg", 0) + 1;
-            last = null; rejects = 0; refAlt = Double.NaN; pts.clear();
+            last = null; lastMono = -1; rejects = 0; refAlt = Double.NaN; pts.clear();
             try {
                 BufferedReader br = new BufferedReader(new FileReader(new File(ctx.getFilesDir(), FILE)));
                 String ln;

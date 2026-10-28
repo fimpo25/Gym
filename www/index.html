@@ -899,6 +899,9 @@ body.hasLive .screen.active{padding-bottom:78px}
 @keyframes rmPulse{0%{transform:scale(.5);opacity:1}100%{transform:scale(1.6);opacity:0}}
 .rmAttr{position:absolute;left:6px;bottom:5px;font-size:10px;color:#B7C2D3;background:#070A10B3;padding:1px 6px;border-radius:5px}
 .rmZoom{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:6px}
+.rmZoom .rmFit{font-size:17px}
+.rtMap.fitAll .rmFit{border-color:var(--primary);color:var(--primary)}
+.rtDiag{font-size:11.5px;color:var(--text-3);text-align:center;line-height:1.4;margin:-6px 0 12px;font-variant-numeric:tabular-nums}
 .rmZoom button{width:38px;height:38px;border-radius:10px;border:1px solid var(--border-strong);background:#0E131CE6;color:var(--text);font-size:20px;font-weight:700;cursor:pointer}
 .rtItem{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:var(--surface);border:1px solid #182030;border-radius:14px;padding:12px 14px;margin-bottom:8px;color:var(--text);cursor:pointer}
 .rtItem:active{border-color:var(--primary)}
@@ -7955,7 +7958,7 @@ var RouteGps = (function() {
     status: function() {
       return Promise.resolve({ state: W.state, mode: W.mode, startedAt: W.startedAt, elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, count: W.pts.length, fixAcc: W.fixAcc, fixAgo: W.fixAt ? Date.now() - W.fixAt : -1, lat: W.lat, lon: W.lon, gps: true, granted: true });
     },
-    points: function(from) { return Promise.resolve({ points: W.pts.slice(from || 0) }); },
+    points: function(from, max) { var f = from || 0; return Promise.resolve({ from: f, total: W.pts.length, points: W.pts.slice(f, f + (max || 1500)) }); },
     stop: function() {
       var r = { mode: W.mode, startedAt: W.startedAt, endedAt: Date.now(), elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, points: W.pts.slice() };
       wUnwatch(); W.state = "idle"; W.pts = []; return Promise.resolve(r);
@@ -7970,7 +7973,7 @@ var RouteGps = (function() {
     pause: function() { return call("pause"); },
     resume: function() { return call("resume"); },
     status: function() { return call("status"); },
-    points: function(from) { return call("points", { from: from || 0 }); },
+    points: function(from, max) { return call("points", { from: from || 0, max: max || 1500 }); },
     stop: function() { return call("stop"); },
     discard: function() { return call("discard"); },
     openNotif: function() { return call("openNotif"); }
@@ -7981,9 +7984,9 @@ var RouteGps = (function() {
 function RtMap(el, live) {
   var me = this;
   me.el = el; me.live = !!live; me.z = 16; me.tiles = {}; me.last = null;
-  el.innerHTML = '<div class="rmTiles"></div><svg class="rmSvg"></svg><div class="rmAttr">&copy; OpenStreetMap</div>' + (live ? '<div class="rmZoom"><button data-d="1" aria-label="Acercar">+</button><button data-d="-1" aria-label="Alejar">&minus;</button></div>' : "");
+  el.innerHTML = '<div class="rmTiles"></div><svg class="rmSvg"></svg><div class="rmAttr">&copy; OpenStreetMap</div>' + (live ? '<div class="rmZoom"><button data-d="1" aria-label="Acercar">+</button><button data-d="-1" aria-label="Alejar">&minus;</button><button data-d="0" aria-label="Ver todo el recorrido" class="rmFit">&#10530;</button></div>' : "");
   me.tl = el.querySelector(".rmTiles"); me.svg = el.querySelector(".rmSvg");
-  if (live) el.querySelectorAll(".rmZoom button").forEach(function(b) { b.onclick = function() { me.z = Math.max(13, Math.min(18, me.z + (+b.getAttribute("data-d")))); if (me.last) me.draw(me.last[0], me.last[1]); }; });
+  if (live) el.querySelectorAll(".rmZoom button").forEach(function(b) { b.onclick = function() { var dd = +b.getAttribute("data-d"); if (dd === 0) me.fit = !me.fit; else { me.fit = false; me.z = Math.max(13, Math.min(18, me.z + dd)); } el.classList.toggle("fitAll", !!me.fit); if (me.last) me.draw(me.last[0], me.last[1]); }; });
 }
 RtMap.prototype.draw = function(segs, cur) {
   var me = this, el = me.el, W = el.clientWidth, H = el.clientHeight;
@@ -7993,7 +7996,8 @@ RtMap.prototype.draw = function(segs, cur) {
   function gy(lat, z) { var s = Math.sin(lat * Math.PI / 180); return (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * 256 * Math.pow(2, z); }
   var all = []; segs.forEach(function(s) { s.forEach(function(p) { all.push(p); }); });
   var cx0, cy0, zf;
-  if (me.live) {
+  if (me.live && me.fit && cur) all.push(cur);
+  if (me.live && !(me.fit && all.length > 1)) {
     var c = cur || all[all.length - 1] || [-32.95, -60.65];
     zf = me.z; cx0 = gx(c[1], 0); cy0 = gy(c[0], 0);
   } else if (all.length) {
@@ -8138,7 +8142,7 @@ function rtLive(root, st) {
     RT.built = "live"; RT.pts = [];
     root.innerHTML = '<div class="rtMap" id="rtMap"></div><div class="rtTime" id="rtTime">0:00</div><div class="rtState" id="rtStateTxt"></div>' +
       '<div class="rtGrid"><div class="rtCell"><b id="rtDist">0,00</b><span>km</span></div><div class="rtCell"><b id="rtNow">--:--</b><span id="rtNowL"></span></div><div class="rtCell"><b id="rtAvg">--:--</b><span id="rtAvgL"></span></div></div>' +
-      '<div class="rtSig" id="rtSig"></div>' +
+      '<div class="rtSig" id="rtSig"></div><div class="rtDiag" id="rtDiag" style="display:none"></div>' +
       '<button class="rtWarn" id="rtNotif" style="display:none">Las notificaciones están apagadas: no vas a ver el avance con la pantalla bloqueada. Tocá para activarlas.</button>' +
       '<div class="rtBtns"><button class="rtBtn" id="rtPause"></button><button class="rtBtn stop" id="rtStop">Terminar</button></div>';
     RT.map = new RtMap(root.querySelector("#rtMap"), true);
@@ -8158,11 +8162,15 @@ function rtLive(root, st) {
   else if (st.state === "paused") msg = "En pausa";
   else if (st.count === 0) msg = "Buscando señal GPS… salí a cielo abierto para que enganche más rápido.";
   else msg = (st.fixAgo > 8000 ? "Sin señal GPS desde hace unos segundos. " : "") + "Señal ±" + Math.round(st.fixAcc > 0 ? st.fixAcc : 0) + " m" + (st.gain >= 1 ? " · Desnivel +" + Math.round(st.gain) + " m" : "");
+  if (st.state === "running" && st.count > 0 && st.acceptAgo > 30000 && st.fixAgo >= 0 && st.fixAgo < 8000) msg += " · Hace " + Math.round(st.acceptAgo / 1000) + " s que no suma puntos (si estás quieto es normal)";
   $("rtSig").textContent = msg;
+  $("rtSig").onclick = function() { var dg = $("rtDiag"); dg.style.display = dg.style.display === "none" ? "" : "none"; };
+  $("rtDiag").textContent = "Diagnóstico: " + (st.diag || "") + " · en pantalla " + RT.pts.length + "/" + st.count + (RT.err ? " · error: " + RT.err : "");
   $("rtNotif").style.display = (RouteGps.native && st.notif === false) ? "block" : "none";
   $("rtStateTxt").textContent = (M.name) + (st.state === "paused" ? " · en pausa" : "");
   // puntos nuevos
   var after = function() {
+    try {
     RT.map.draw(rtSegs(), st.lat && st.count ? [st.lat, st.lon] : null);
     var n = RT.pts.length;   // ritmo actual: ultimos ~80 m o 40 s del mismo tramo
     var cur = "--:--"; if (sp) cur = "0,0";
@@ -8170,12 +8178,22 @@ function rtLive(root, st) {
       var e = RT.pts[n - 1], d = 0, i = n - 1;
       while (i > 0 && RT.pts[i - 1][3] === e[3] && d < 80 && (e[2] - RT.pts[i - 1][2]) < 40000) { d += rtDist(RT.pts[i - 1], RT.pts[i]); i--; }
       var dt = (e[2] - RT.pts[i][2]) / 1000;
-      if (d >= 15 && dt > 0 && (Date.now() - e[2]) < 20000) cur = rtRate(st.mode, d, dt);
+      var fresh = st.acceptAgo != null && st.acceptAgo >= 0 ? st.acceptAgo < 20000 : (Date.now() - e[2]) < 20000;
+      if (d >= 15 && dt > 0 && fresh) cur = rtRate(st.mode, d, dt);
     }
     $("rtNow").textContent = cur;
+    } catch(err) { RT.err = String(err && err.message || err); }
   };
-  if (st.count > RT.pts.length) {
-    RouteGps.points(RT.pts.length).then(function(r) { (r.points || []).forEach(function(p) { RT.pts.push(p); }); after(); });
+  if (st.count < RT.pts.length) RT.pts = [];          // el servicio empezo de nuevo: recargar
+  if (st.count > RT.pts.length && !(RT.loading && Date.now() - RT.loadingAt < 10000)) {
+    RT.loading = true; RT.loadingAt = Date.now();
+    var from = RT.pts.length;
+    RouteGps.points(from, 1500).then(function(r) {
+      RT.loading = false;
+      if (r && r.from != null && r.from !== RT.pts.length) return;   // respuesta vieja
+      (r && r.points || []).forEach(function(p) { RT.pts.push(p); });
+      after();
+    }).catch(function(e) { RT.loading = false; RT.err = "puntos: " + String(e && e.message || e); after(); });
   } else after();
 }
 function rtFinish() {
@@ -8198,7 +8216,7 @@ function rtSave() {
     if (!r || !(r.dist >= 30)) { showToast("El recorrido fue muy corto: no se guardó"); routeRender(); return; }
     var rows = r.points || [], segs = [], cur = null, pts = [];
     rows.forEach(function(p) { if (p[3] !== cur) { segs.push([]); cur = p[3]; } segs[segs.length - 1].push([p[0], p[1]]); });
-    var rec = { id: "r" + r.startedAt, mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain), loss: Math.round(r.loss || 0),
+    var rec = { id: "r" + r.startedAt, diag: r.diag || "", mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain), loss: Math.round(r.loss || 0),
       vmax: Math.round(rtVmax(rows, (ROUTE_MODES[r.mode] || ROUTE_MODES.correr).maxV) * 100) / 100, splits: rtSplits(rows), poly: segs.filter(function(s) { return s.length > 1; }).map(function(s) { return plEnc(rtSimplify(s, 3)); }) };
     routes.push(rec); persistRoutes();
     showToast("Recorrido guardado");
