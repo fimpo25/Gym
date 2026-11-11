@@ -7,9 +7,11 @@ android {
         applicationId "ar.fimpo.gimnasio"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        // En GitHub Actions cada compilacion sube el versionCode, asi el APK nuevo
-        // se instala encima del anterior (conservando los datos).
-        versionCode((System.getenv("GITHUB_RUN_NUMBER") ?: "1") as Integer)
+        // En GitHub Actions cada compilacion sube el versionCode (numero de compilacion x 10), asi el APK
+        // nuevo se instala encima del anterior conservando los datos. Los codigos intermedios (x10 + 5, + 6)
+        // son de las "versiones anteriores restauradas": Android no deja instalar un codigo menor encima.
+        // El workflow reemplaza estas dos lineas cuando recompila una version anterior.
+        versionCode(Math.max(1, ((System.getenv("GITHUB_RUN_NUMBER") ?: "0") as Integer) * 10))
         versionName "1." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {

@@ -1031,6 +1031,13 @@ body.hasLive .screen.active{padding-bottom:78px}
 .rtCard.ctNext{border-color:#22D3EE77;box-shadow:0 0 0 1px #22D3EE33 inset}
 .rtCard.ctDone{opacity:.72}
 .rtCard.ctDone .rtStart{background:#182030;color:var(--text-2)}
+
+/* ---- Copias y versiones ---- */
+.lnFoot button{position:relative}
+.lnFoot button.due::after{content:"";position:absolute;top:7px;right:9px;width:8px;height:8px;border-radius:50%;background:var(--energy)}
+.bkStat{margin-bottom:8px}
+.updFoot{flex-wrap:wrap}
+.updOld{display:block;font-size:12px;font-weight:500;color:var(--text-3);margin-top:3px;line-height:1.35}
 </style>
 </head>
 <body>
@@ -3583,7 +3590,7 @@ function exportData() {
   var fname = "gimnasio_backup_"+new Date().toISOString().split("T")[0]+".json";
   if (NativeRest.isNative) {
     // Dentro del APK no hay descargas: se guarda el archivo y se abre el menu de compartir.
-    NativeRest.shareBackup(fname, json).catch(function(e){
+    NativeRest.shareBackup(fname, json).then(function(){ bkLs("gymLastExport", String(Date.now())); }).catch(function(e){
       var msg = (e && e.message) ? e.message : String(e||"");
       if (!/cancel/i.test(msg)) alert("No se pudo exportar el backup.");
     });
@@ -3591,6 +3598,7 @@ function exportData() {
   }
   var blob = new Blob([json],{type:"application/json"}); var url = URL.createObjectURL(blob);
   var a = document.createElement("a"); a.href = url; a.download = fname; a.click(); URL.revokeObjectURL(url);
+  bkLs("gymLastExport", String(Date.now()));
 }
 var pendingImport = null;
 function triggerImport() { document.getElementById("importInput").value = ""; document.getElementById("importInput").click(); }
@@ -3598,7 +3606,15 @@ function importData(event) {
   var file = event.target.files[0]; if (!file) return;
   var reader = new FileReader(); reader.onload = function(e) { try { var parsed = JSON.parse(e.target.result); if (typeof parsed!=="object"||Array.isArray(parsed)) throw new Error("invalid"); pendingImport = parsed; document.getElementById("importOverlay").classList.add("show"); } catch(err) { alert("Archivo no valido."); } }; reader.readAsText(file);
 }
+// Antes de pisar los datos se guarda un resguardo de lo actual (se restaura desde Copia de seguridad)
 function confirmImport() {
+  if (!pendingImport) return;
+  if (!bkHasData()) { applyImport(); return; }
+  bkSnapshot("importar").then(applyImport, function() {
+    if (confirm("No se pudo guardar un resguardo de tus datos actuales antes de importar. \u00bfImportar igual?")) applyImport();
+  });
+}
+function applyImport() {
   if (!pendingImport) return;
   if (pendingImport.app === "gimnasio" && pendingImport.data && typeof pendingImport.data === "object") {
     // Backup completo (v2): restaurar cada clave tal cual y recargar para rearmar todo el estado.
@@ -6040,6 +6056,7 @@ function trainSaveSession() {
   if (!sum.totalSets && !sum.exercises.length) return null;
   var list = loadSessions(), rec = { id: newId(), start: ses ? ses.t : sum.start, end: Date.now(), dur: dur, routineId: trainRoutineId, routine: f ? routineTitle(trainRoutineId) : "", folder: f ? f.folder.name : "", exercises: sum.exercises, totalSets: sum.totalSets, totalVol: sum.totalVol };
   list.push(rec); safeStore("gymSessions", JSON.stringify(list));
+  setTimeout(function() { autoBackup("sesion"); }, 1500);
   return rec;
 }
 function trainEndSession() {
@@ -7358,8 +7375,28 @@ function renderBalanceMap(card, wk, vol) {
 var Updater = (function() {
   var C = window.Capacitor, isNative = !!(C && C.isNativePlatform && C.isNativePlatform() && C.nativePromise);
   var API = "https://api.github.com/repos/fimpo25/Gym/releases/tags/apk";
-  var APK = "https://github.com/fimpo25/Gym/releases/download/apk/gimnasio.apk";
-  var st = { info: null, latest: null, phase: "idle", pct: 0, msg: "", waitingPerm: false, checking: false };
+  var REL = "https://github.com/fimpo25/Gym/releases/download/apk/";
+  // rb: version anterior elegida para volver (null = actualizacion normal)
+  var st = { info: null, latest: null, phase: "idle", pct: 0, msg: "", waitingPerm: false, checking: false, rb: null };
+  // El release trae: titulo "Gimnasio APK 1.34 (build 340)", la novedad en la primera linea de las notas y,
+  // en un comentario, las versiones anteriores recompiladas con un codigo mayor (Android no deja instalar uno menor).
+  function parseRelease(j) {
+    var m = /build\s+(\d+)/i.exec(j.name || ""); if (!m) return null;
+    var nm = /APK\s+(\d+(?:\.\d+)+)/i.exec(j.name || ""), sizes = {};
+    (j.assets || []).forEach(function(x){ sizes[x.name] = x.size; });
+    var body = String(j.body || ""), meta = null, mm = /<!--\s*versiones\s+(\{.*\})\s*-->/.exec(body);
+    if (mm) { try { meta = JSON.parse(mm[1]); } catch(e) { meta = null; } }
+    var prev = ((meta && meta.anteriores) || []).filter(function(p){ return p && p.asset && sizes[p.asset] && +p.build > 0; })
+      .map(function(p){ return { build: +p.build, name: String(p.name || ""), notes: String(p.novedad || ""), asset: String(p.asset), size: sizes[p.asset] }; });
+    return { build: +m[1], name: nm ? nm[1] : "1." + m[1], notes: body.split("\n")[0].trim(), size: sizes["gimnasio.apk"] || 0, prev: prev };
+  }
+  function localName() { return st.info ? String(st.info.versionName || "") : ""; }
+  // Versiones anteriores a las que se puede volver desde la instalada
+  function older() {
+    if (!st.info || !st.latest) return [];
+    var base = localName().split(" ")[0];
+    return (st.latest.prev || []).filter(function(p){ return p.build > st.info.versionCode && p.name !== base; });
+  }
   function nat(m, o) { return C.nativePromise("Updater", m, o || {}); }
   function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(e) {} return null; }
   function available() { return !!(st.info && st.latest && st.latest.build > st.info.versionCode); }
@@ -7372,9 +7409,8 @@ var Updater = (function() {
       var cached = null; try { cached = JSON.parse(ls("gymUpdLatest") || "null"); } catch(e) {}
       if (!force && cached && Date.now() - (+ls("gymUpdCheck") || 0) < 3 * 3600e3) { st.latest = cached; return; }
       return nat("fetchText", { url: API }).then(function(r) {
-        var j = JSON.parse(r.text), m = /build\s+(\d+)/i.exec(j.name || ""); if (!m) return;
-        var a = (j.assets || []).filter(function(x){ return x.name === "gimnasio.apk"; })[0];
-        st.latest = { build: +m[1], notes: String(j.body || "").split("\n")[0].trim(), size: a ? a.size : 0 };
+        var L = parseRelease(JSON.parse(r.text)); if (!L) return;
+        st.latest = L;
         ls("gymUpdLatest", JSON.stringify(st.latest)); ls("gymUpdCheck", String(Date.now()));
       });
     }).then(function() {
@@ -7389,11 +7425,13 @@ var Updater = (function() {
   }
   function install() {
     if (!st.latest) return;
+    var tg = st.rb ? { url: REL + st.rb.asset, size: st.rb.size } : { url: REL + "gimnasio.apk", size: st.latest.size };
+    try { autoBackup("sesion"); } catch(e) {}     // copia de los datos antes de instalar
     st.phase = "dl"; st.pct = 0; st.msg = ""; render();
     var poll = setInterval(function() {
       nat("progress").then(function(p){ if (p.total > 0 && st.phase === "dl") { st.pct = Math.min(100, Math.round(p.done / p.total * 100)); render(); } }).catch(function(){});
     }, 400);
-    nat("downloadAndInstall", { url: APK, size: st.latest.size || 0 }).then(function() {
+    nat("downloadAndInstall", { url: tg.url, size: tg.size || 0 }).then(function() {
       clearInterval(poll); st.phase = "installing"; render();
     }).catch(function(e) {
       clearInterval(poll);
@@ -7410,7 +7448,7 @@ var Updater = (function() {
       if (st.waitingPerm) {   // volvio del ajuste del permiso: si lo dio, sigue solo
         st.waitingPerm = false;
         nat("info").then(function(i){ st.info = i; if (i.canInstall) install(); else { st.phase = "perm"; render(); } }).catch(function(){});
-      } else if (st.phase === "installing") { st.phase = "idle"; render(); }
+      } else if (st.phase === "installing") { st.phase = "idle"; st.rb = null; render(); }
       else check(false);
     });
     setTimeout(function(){ check(false); }, 2500);
@@ -7418,17 +7456,18 @@ var Updater = (function() {
   function btn(cls, txt, fn) { var b = document.createElement("button"); b.className = cls; b.textContent = txt; b.onclick = fn; return b; }
   function card() {
     var el = document.createElement("div"); el.id = "updCard";
-    if (!isNative || !available()) return el;
-    if (st.phase === "idle" && snoozed()) return el;
+    if (!isNative || !st.info || !st.latest || (!available() && !st.rb)) return el;
+    if (!st.rb && st.phase === "idle" && snoozed()) return el;
     el.className = "updCard";
-    var L = st.latest, h = '<div class="updTop"><span class="updDot"></span><b>Nueva versión disponible</b><span class="updVer">' + st.info.versionCode + ' → ' + L.build + '</span></div>';
+    var L = st.rb || st.latest, h = '<div class="updTop"><span class="updDot"></span><b>' + (st.rb ? "Volver a la versión anterior" : "Nueva versión disponible") + '</b><span class="updVer">' + escHtml(localName()) + ' → ' + escHtml(L.name || String(L.build)) + '</span></div>';
     if (st.phase === "idle" || st.phase === "error") {
       h += L.notes ? '<div class="updNotes">' + escHtml(L.notes) + '</div>' : '';
       if (st.phase === "error") h += '<div class="updErr">' + escHtml(st.msg) + '</div>';
       el.innerHTML = h;
       var row = document.createElement("div"); row.className = "updRow";
-      row.appendChild(btn("updGo", st.phase === "error" ? "Reintentar" : "Actualizar", install));
-      row.appendChild(btn("updLater", "Más tarde", function(){ ls("gymUpdSkip", JSON.stringify({ b: L.build, t: Date.now() })); st.phase = "idle"; render(); }));
+      row.appendChild(btn("updGo", st.phase === "error" ? "Reintentar" : st.rb ? "Instalar" : "Actualizar", install));
+      if (st.rb) row.appendChild(btn("updLater", "Cancelar", function(){ st.rb = null; st.phase = "idle"; render(); }));
+      else row.appendChild(btn("updLater", "Más tarde", function(){ ls("gymUpdSkip", JSON.stringify({ b: L.build, t: Date.now() })); st.phase = "idle"; render(); }));
       el.appendChild(row);
     } else if (st.phase === "dl") {
       el.innerHTML = h + '<div class="updNotes">Descargando… ' + st.pct + '%</div><div class="updBar"><i style="width:' + st.pct + '%"></i></div>';
@@ -7450,7 +7489,19 @@ var Updater = (function() {
     if (!isNative) return el;
     el.innerHTML = '<span>Versión ' + (st.info ? escHtml(String(st.info.versionName)) : "") + '</span>';
     el.appendChild(btn("updCheck", st.checking ? "Buscando…" : "Buscar actualizaciones", function(){ check(true); render(); }));
+    if (older().length && st.phase !== "dl") el.appendChild(btn("updCheck updBack", "Volver a una versión anterior", rollbackSheet));
     return el;
+  }
+  function rollbackSheet() {
+    openTrSheet("Volver a una versión anterior", function(body) {
+      var w = document.createElement("div"); w.className = "exdWrap";
+      w.innerHTML = '<div class="exdIntro">Se instala encima de la actual y tus datos se conservan (antes se guarda una copia). Cuando publique una versión nueva, te va a aparecer como actualización.</div>';
+      body.appendChild(w);
+      older().forEach(function(p) {
+        trSheetBtn(body, "Volver a la " + escHtml(p.name) + (p.notes ? '<span class="updOld">' + escHtml(p.notes) + "</span>" : ""), function(){ st.rb = p; st.phase = "idle"; render(); window.scrollTo(0, 0); });
+      });
+      trSheetBtn(body, "Cancelar", function() {});
+    });
   }
   function render() {
     var old = document.getElementById("updCard");
@@ -7458,7 +7509,7 @@ var Updater = (function() {
     var f = document.querySelector(".updFoot");
     if (f && f.parentNode) f.parentNode.replaceChild(footer(), f);
   }
-  return { isNative: isNative, check: check, card: card, footer: footer, state: st };
+  return { isNative: isNative, check: check, card: card, footer: footer, state: st, parseRelease: parseRelease, older: older };
 })();
 
 // ============================================================
@@ -8218,7 +8269,7 @@ function rtSave() {
     rows.forEach(function(p) { if (p[3] !== cur) { segs.push([]); cur = p[3]; } segs[segs.length - 1].push([p[0], p[1]]); });
     var rec = { id: "r" + r.startedAt, diag: r.diag || "", mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain), loss: Math.round(r.loss || 0),
       vmax: Math.round(rtVmax(rows, (ROUTE_MODES[r.mode] || ROUTE_MODES.correr).maxV) * 100) / 100, splits: rtSplits(rows), poly: segs.filter(function(s) { return s.length > 1; }).map(function(s) { return plEnc(rtSimplify(s, 3)); }) };
-    routes.push(rec); persistRoutes();
+    routes.push(rec); persistRoutes(); setTimeout(function() { autoBackup("sesion"); }, 1500);
     showToast("Recorrido guardado");
     routeSetView("detail", rec.id);
   }).catch(function() { showToast("No se pudo terminar el recorrido"); });
@@ -8563,7 +8614,7 @@ function spRecord() {
   for (var z in SP.hold) { hold[z] = Math.round(SP.hold[z]); tot += hold[z]; }
   if (tot < 20) return null;
   var rec = { d: SP.started, pid: SP.p.id, name: SP.p.name, secs: secs, hold: hold };
-  stData.log.push(rec); stData.log = stData.log.slice(-300); stPersist();
+  stData.log.push(rec); stData.log = stData.log.slice(-300); stPersist(); setTimeout(function() { autoBackup("sesion"); }, 1500);
   return rec;
 }
 function spFinish() {
@@ -8697,7 +8748,7 @@ function renderLaunch() {
     var inf = c.info();
     h += '<button class="lnCard ' + c.id + (inf.live ? " live" : "") + '" data-c="' + c.id + '"><span class="lnIc"><svg viewBox="0 0 24 24" aria-hidden="true">' + c.ic + '</svg></span><span class="lnMid"><b>' + c.title + '</b><span id="lnInfo_' + c.id + '">' + escHtml(inf.txt) + '</span></span><span class="lnGo">' + (inf.live ? '<em>' + inf.go + '</em>' : "&#8250;") + "</span></button>";
   });
-  h += '<div class="lnFoot"><button id="lnGuide">Instructivo</button><button id="lnBackup">Copia de seguridad</button><button id="lnOpen">Al abrir</button></div><div id="lnVer"></div>';
+  h += '<div class="lnFoot"><button id="lnGuide">Instructivo</button><button id="lnBackup">Copias</button><button id="lnOpen">Al abrir</button></div><div id="lnVer"></div>';
   root.innerHTML = h;
   root.querySelector("#lnUpd").appendChild(Updater.card());
   root.querySelector("#lnVer").appendChild(Updater.footer());
@@ -8710,11 +8761,8 @@ function renderLaunch() {
       trSheetBtn(body, o[1] + (cur === o[0] ? " &#10003;" : ""), function() { safeStore("gymOpenAt", o[0]); showToast("Al abrir: " + o[1].replace(" (recomendado)", "")); });
     });
   }); };
-  root.querySelector("#lnBackup").onclick = function() { openTrSheet("Copia de seguridad", function(body) {
-    var w = document.createElement("div"); w.className = "exdWrap"; w.innerHTML = '<div class="exdIntro">Un archivo con todos tus datos: entrenamientos, rutinas, estiramientos y recorridos. Guardalo en Drive o donde quieras.</div>'; body.appendChild(w);
-    trSheetBtn(body, "Exportar (guardar copia)", function() { exportData(); });
-    trSheetBtn(body, "Importar (restaurar una copia)", function() { triggerImport(); });
-  }); };
+  root.querySelector("#lnBackup").onclick = openBackupSheet;
+  root.querySelector("#lnBackup").classList.toggle("due", bkExportDue());
   if (!_launchTimer) _launchTimer = setInterval(function() {
     var s = document.getElementById("launchScreen");
     if (!s || !s.classList.contains("active")) { clearInterval(_launchTimer); _launchTimer = null; return; }
@@ -8743,6 +8791,146 @@ function launchInit() {
     if (st && st.state && st.state !== "idle" && a && a.id !== "routeScreen" && a.id !== "trainScreen") showScreen("routeScreen");
   }).catch(function() {});
 }
+
+// ============================================================
+// COPIAS AUTOMATICAS: un archivo con todos los datos, guardado solo cuando hay cambios.
+// En el APK van a Documentos/Gimnasio (sobreviven a desinstalar la app); en el navegador,
+// al almacenamiento del propio navegador. Antes de importar se guarda un resguardo.
+// ============================================================
+var AUTO_BK_KEEP = 7, PRE_BK_KEEP = 3;
+var BackupStore = (function() {
+  var C = window.Capacitor, native = !!(C && typeof C.isNativePlatform === "function" && C.isNativePlatform() && typeof C.nativePromise === "function");
+  function call(m, o) { try { return C.nativePromise("Backup", m, o || {}); } catch(e) { return Promise.reject(e); } }
+  if (native) return {
+    native: true,
+    save: function(name, text) { return call("save", { name: name, text: text }); },
+    list: function() { return call("list").then(function(r) { return { items: (r && r.items) || [], where: (r && r.where) || "Documentos/Gimnasio" }; }); },
+    read: function(id) { return call("read", { id: id }).then(function(r) { return r.text; }); },
+    remove: function(id) { return call("remove", { id: id }); }
+  };
+  var CN = "gimnasio-copias", PRE = "/__copias/";
+  function open() { return ("caches" in window) ? caches.open(CN) : Promise.reject(new Error("este navegador no permite guardar copias")); }
+  return {
+    native: false,
+    save: function(name, text) {
+      return open().then(function(c) { return c.put(PRE + encodeURIComponent(name), new Response(text, { headers: { "content-type": "application/json", "x-fecha": String(Date.now()), "x-bytes": String(text.length) } })); })
+        .then(function() { return { id: name, name: name, size: text.length, where: "este navegador" }; });
+    },
+    list: function() {
+      return open().then(function(c) { return c.keys().then(function(keys) { return Promise.all(keys.map(function(k) { return c.match(k).then(function(r) {
+        var n = decodeURIComponent(k.url.split(PRE)[1] || ""); return { id: n, name: n, size: +(r.headers.get("x-bytes") || 0), date: +(r.headers.get("x-fecha") || 0) };
+      }); })); }); }).then(function(items) { return { items: items, where: "este navegador" }; });
+    },
+    read: function(id) { return open().then(function(c) { return c.match(PRE + encodeURIComponent(id)); }).then(function(r) { if (!r) throw new Error("esa copia ya no existe"); return r.text(); }); },
+    remove: function(id) { return open().then(function(c) { return c.delete(PRE + encodeURIComponent(id)); }); }
+  };
+})();
+function bkLs(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(e) {} return null; }
+function bkOn() { return bkLs("gymBkAuto") !== "0"; }
+function bkStamp() { var d = new Date(Date.now()); function p(n) { return (n < 10 ? "0" : "") + n; } return localDay(d.getTime()) + "_" + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds()); }
+// Huella de los datos: cambia si cambia cualquier cosa que entra en la copia
+function bkSignature() {
+  var h = 5381, n = 0;
+  for (var i = 0; i < BACKUP_KEYS.length; i++) {
+    var v = bkLs(BACKUP_KEYS[i]) || ""; n += v.length;
+    for (var j = 0; j < v.length; j++) h = ((h << 5) + h + v.charCodeAt(j)) | 0;
+  }
+  return n + ":" + h;
+}
+function bkHasData() {
+  try {
+    for (var k in gymData) if (/^\d{4}-\d{2}-\d{2}$/.test(k) && gymData[k] && Object.keys(gymData[k]).length) return true;
+    if (routes.length || stData.log.length || stData.progs.length) return true;
+    var f = routinesData().folders; for (var i = 0; i < f.length; i++) for (var j = 0; j < f[i].routines.length; j++) if (f[i].routines[j].exercises.length) return true;
+  } catch(e) {}
+  return false;
+}
+function bkSorted(items, prefix) { return items.filter(function(x) { return x.name.indexOf(prefix) === 0; }).sort(function(a, b) { return a.name < b.name ? 1 : a.name > b.name ? -1 : 0; }); }
+function bkPrune() {
+  return BackupStore.list().then(function(L) {
+    var del = bkSorted(L.items, "gimnasio_auto_").slice(AUTO_BK_KEEP).concat(bkSorted(L.items, "gimnasio_antes_").slice(PRE_BK_KEEP));
+    return Promise.all(del.map(function(x) { return BackupStore.remove(x.id).catch(function() {}); }));
+  }).catch(function() {});
+}
+var _bkBusy = false;
+// motivo: "abrir" (al abrir o salir de la app: a lo sumo una por dia) o "sesion" (al guardar una rutina, un recorrido o un estiramiento)
+function autoBackup(motivo, force) {
+  if (_bkBusy || (!force && !bkOn()) || !bkHasData()) return Promise.resolve(null);
+  var sig = bkSignature();
+  if (!force) {
+    if (sig === bkLs("gymBkSig")) return Promise.resolve(null);
+    if (motivo === "abrir" && Date.now() - (+bkLs("gymBkAt") || 0) < 20 * 3600e3) return Promise.resolve(null);
+  }
+  _bkBusy = true;
+  var name = "gimnasio_auto_" + bkStamp() + ".json";
+  return BackupStore.save(name, JSON.stringify(buildFullBackup())).then(function(r) {
+    bkLs("gymBkAt", String(Date.now())); bkLs("gymBkSig", sig); bkLs("gymBkErr", ""); bkLs("gymBkWhere", (r && r.where) || "");
+    return bkPrune();
+  }).then(function() { _bkBusy = false; return name; }, function(e) { _bkBusy = false; bkLs("gymBkErr", String((e && e.message) || e || "error")); return null; });
+}
+// Resguardo de lo que hay ahora, antes de pisarlo (importar o restaurar)
+function bkSnapshot(tag) {
+  return BackupStore.save("gimnasio_antes_de_" + tag + "_" + bkStamp() + ".json", JSON.stringify(buildFullBackup())).then(function(r) { bkPrune(); return r; });
+}
+function bkAgo(ts) {
+  if (!ts) return "Nunca";
+  var d = new Date(ts), t0 = new Date(); t0.setHours(0, 0, 0, 0);
+  var days = Math.round((t0.getTime() - new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime()) / 864e5);
+  var hm = d.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit", hour12: false });
+  return days <= 0 ? "Hoy " + hm : days === 1 ? "Ayer " + hm : "Hace " + days + " días";
+}
+function bkExportDue() { var ex = +bkLs("gymLastExport") || 0; return bkHasData() && Date.now() - ex > 30 * 864e5; }
+function bkLabel(x) {
+  var m = /^gimnasio_(auto|antes_de_([a-z]+))_(\d{4})-(\d{2})-(\d{2})_(\d{2})(\d{2})/.exec(x.name), kind = "Copia", when = "";
+  if (m) {
+    kind = m[1] === "auto" ? "Automática" : "Antes de " + m[2];
+    when = new Date(+m[3], +m[4] - 1, +m[5], +m[6], +m[7]).toLocaleDateString("es-AR", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", hour12: false });
+  }
+  return kind + " · " + when + (x.size ? " · " + Math.max(1, Math.round(x.size / 1024)) + " KB" : "");
+}
+function bkRestore(x) {
+  BackupStore.read(x.id).then(function(text) {
+    var p = JSON.parse(text);
+    if (!(p && p.app === "gimnasio" && p.data && typeof p.data === "object")) throw new Error("formato");
+    pendingImport = p; confirmImport();
+  }).catch(function() { showToast("No se pudo leer esa copia"); });
+}
+function openBackupList() {
+  openTrSheet("Copias guardadas", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap"; w.innerHTML = '<div class="exdIntro">Buscando copias…</div>'; body.appendChild(w);
+    BackupStore.list().then(function(L) {
+      var items = bkSorted(L.items, "gimnasio_");
+      if (!items.length) { w.innerHTML = '<div class="exdIntro">Todavía no hay copias guardadas. Se crea una sola cuando guardás una rutina, un recorrido o un estiramiento.</div>'; return; }
+      w.innerHTML = '<div class="exdIntro">Están en <b>' + escHtml(L.where) + '</b>. Tocá una para restaurarla: antes se guarda un resguardo de lo que tenés ahora.</div>';
+      items.forEach(function(x) {
+        trSheetBtn(body, escHtml(bkLabel(x)), function() { setTimeout(function() {
+          openTrSheet("¿Restaurar esta copia?", function(b2) {
+            var w2 = document.createElement("div"); w2.className = "exdWrap"; w2.innerHTML = '<div class="exdIntro">' + escHtml(bkLabel(x)) + '. Tus datos actuales se reemplazan por los de esa copia y la app se recarga.</div>'; b2.appendChild(w2);
+            trSheetBtn(b2, "Sí, restaurar", function() { bkRestore(x); }, true);
+            trSheetBtn(b2, "Cancelar", function() {});
+          });
+        }, 30); });
+      });
+    }).catch(function(e) { w.innerHTML = '<div class="updErr">No se pudieron leer las copias: ' + escHtml(String((e && e.message) || e)) + '</div>'; });
+  });
+}
+function openBackupSheet() {
+  openTrSheet("Copia de seguridad", function(body) {
+    var at = +bkLs("gymBkAt") || 0, err = bkLs("gymBkErr"), ex = +bkLs("gymLastExport") || 0, where = bkLs("gymBkWhere") || (BackupStore.native ? "Documentos/Gimnasio" : "este navegador");
+    var w = document.createElement("div"); w.className = "exdWrap";
+    var h = '<div class="balCard rtStats bkStat"><div class="rtStat"><span>Copia automática</span><b>' + (!bkOn() ? "Apagada" : at ? bkAgo(at) : "Todavía no hay") + '</b></div><div class="rtStat"><span>Copia fuera del celular</span><b>' + bkAgo(ex) + '</b></div></div>';
+    if (err && bkOn()) h += '<div class="updErr">La última copia automática falló: ' + escHtml(err) + '</div>';
+    h += '<div class="rtNote">La copia automática se guarda sola en <b>' + escHtml(where) + '</b> cada vez que guardás una rutina, un recorrido o un estiramiento' + (BackupStore.native ? ", y sigue ahí aunque desinstales la app" : "") + '. No te cubre si perdés el celular: cada tanto tocá Exportar y guardala en Drive.</div>';
+    w.innerHTML = h; body.appendChild(w);
+    trSheetBtn(body, "Exportar (compartir o guardar en Drive)", function() { exportData(); });
+    trSheetBtn(body, "Importar un archivo", function() { triggerImport(); });
+    trSheetBtn(body, "Ver y restaurar copias guardadas", function() { setTimeout(openBackupList, 30); });
+    trSheetBtn(body, "Hacer una copia ahora", function() { autoBackup("sesion", true).then(function(n) { showToast(n ? "Copia guardada en " + (bkLs("gymBkWhere") || where) : "No se pudo guardar la copia" + (bkHasData() ? "" : ": todavía no hay datos")); }); });
+    trSheetBtn(body, "Copia automática: " + (bkOn() ? "Sí" : "No") + " (tocá para cambiar)", function() { bkLs("gymBkAuto", bkOn() ? "0" : "1"); showToast("Copia automática " + (bkOn() ? "activada" : "apagada")); });
+  });
+}
+document.addEventListener("visibilitychange", function() { if (document.hidden) autoBackup("abrir"); });
+setTimeout(function() { autoBackup("abrir"); }, 4000);
 
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
@@ -9105,7 +9293,8 @@ var GUIDE_SECTIONS = [
       { icon:"&#129496;", title:"Estiramiento", desc:"Programas guiados con video: movilidad dinámica para antes de entrenar y estiramiento estático para después. El reproductor marca el lado, cuenta el tiempo y avisa con sonido y vibración (también con la pantalla bloqueada). Podés armar tus programas eligiendo estiramientos de la biblioteca y ajustar segundos, lados y vueltas. No suma series al Balance." },
       { icon:"&#128161;", title:"Sugerencias", desc:"Al empezar una rutina aparece arriba la movilidad previa que corresponde (piernas o torso), y al guardarla te ofrece el estiramiento final. En Recorridos, lo mismo antes y después de caminar, correr o andar en bici. Se apagan en Estiramiento." },
       { icon:"&#128205;", title:"Recorridos", desc:"Caminar, correr o bici con GPS: mapa del trazado, tiempo, distancia, ritmo, parciales por km, velocidad máxima, calorías y desnivel. Sigue grabando con la pantalla bloqueada y muestra el avance en la notificación, con botón para pausar." },
-      { icon:"&#128190;", title:"Copia de seguridad", desc:"Desde la entrada, 'Copia de seguridad' guarda un archivo con todos tus datos (entrenamientos, rutinas, estiramientos y recorridos) o restaura uno." }
+      { icon:"&#128190;", title:"Copia de seguridad", desc:"La app guarda sola una copia de todos tus datos (entrenamientos, rutinas, estiramientos y recorridos) cada vez que terminás una rutina, un recorrido o un estiramiento, en Documentos/Gimnasio del celular. En la entrada, 'Copias' muestra cuándo fue la última, deja restaurar cualquiera y exportar una a Drive. Antes de importar se guarda un resguardo de lo que tenías." },
+      { icon:"&#8617;", title:"Volver a una versión anterior", desc:"Si una versión nueva trae un problema, en la entrada (abajo) aparece 'Volver a una versión anterior': se instala encima y los datos se conservan." }
     ]
   },
   {

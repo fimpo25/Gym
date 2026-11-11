@@ -1,0 +1,7 @@
+{
+  "name": "gimnasio-pruebas",
+  "private": true,
+  "description": "Pruebas automaticas de la app (se corren antes de publicar cada version)",
+  "scripts": { "test": "node correr.js" },
+  "dependencies": { "playwright-core": "1.63.0" }
+}

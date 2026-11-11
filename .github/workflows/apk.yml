@@ -1,5 +1,9 @@
 name: Compilar APK
 
+# Cada push a la rama android: 1) corre las pruebas de la app, 2) compila el APK firmado,
+# 3) recompila las dos versiones anteriores (para poder volver a ellas desde la app) y
+# 4) publica todo en el release "apk". Si las pruebas fallan no se publica nada.
+
 on:
   push:
     branches: [android]
@@ -13,7 +17,52 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  pruebas:
+    name: Pruebas de la app
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Correr las pruebas
+        working-directory: tests
+        run: |
+          npm install --no-audit --no-fund
+          node correr.js
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: pruebas-capturas
+          path: tests/salida
+          retention-days: 7
+          if-no-files-found: ignore
+
+  plan:
+    name: Versiones anteriores a recompilar
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      hay: ${{ steps.plan.outputs.hay }}
+      matriz: ${{ steps.plan.outputs.matriz }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Leer el release publicado
+        id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/releases/tags/apk" > "$RUNNER_TEMP/release.json" 2>/dev/null || echo '{}' > "$RUNNER_TEMP/release.json"
+          python3 .github/scripts/versiones.py plan "$RUNNER_TEMP/release.json"
+
   build:
+    name: APK de esta version
+    needs: pruebas
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -57,22 +106,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: steps.key.outputs.ok != 'true'
         with:
-          name: gimnasio-debug-apk
+          name: debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
           retention-days: 7
-
-      - name: Inspeccionar APK
-        if: steps.key.outputs.ok != 'true'
-        run: |
-          APK=$(ls android/app/build/outputs/apk/*/*.apk 2>/dev/null | head -1)
-          [ -z "$APK" ] && { echo "::warning::No hay APK para inspeccionar"; exit 0; }
-          BT=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1); AAPT="$ANDROID_HOME/build-tools/$BT/aapt2"
-          echo "::notice title=APK::$(basename $APK) $(du -h $APK | cut -f1) | $($AAPT dump badging $APK | head -1)"
-          echo "::notice title=Permisos::$($AAPT dump permissions $APK | grep -o "name='[^']*'" | sed "s/name='android.permission.//;s/'//" | tr '\n' ' ')"
-          H1=$(unzip -p $APK assets/public/index.html | sha256sum | cut -c1-16); H2=$(sha256sum www/index.html | cut -c1-16)
-          echo "::notice title=HTML::apk=$H1 www=$H2 $( [ "$H1" = "$H2" ] && echo COINCIDE || echo DISTINTO ) | NativeRest=$(unzip -p $APK assets/public/index.html | grep -c 'var NativeRest')"
-          echo "::notice title=Recursos::$(unzip -l $APK | grep -oE 'res/raw/descanso.wav|assets/capacitor.plugins.json' | tr '\n' ' ') | plugins=$(unzip -p $APK assets/capacitor.plugins.json | tr -d ' \n')"
-          echo "::notice title=Splash/icono::$(unzip -l $APK | grep -cE 'ic_launcher') iconos, ic_stat_timer=$(unzip -l $APK | grep -c ic_stat_timer)"
 
       - name: Falta el secreto de firma
         if: steps.key.outputs.ok != 'true'
@@ -103,36 +139,128 @@ jobs:
           ls -la gimnasio.apk
 
       - name: Inspeccionar APK firmado
-        if: steps.key.outputs.ok == 'true'
         run: |
-          APK=$(ls android/app/build/outputs/apk/*/*.apk 2>/dev/null | head -1)
-          [ -z "$APK" ] && { echo "::warning::No hay APK para inspeccionar"; exit 0; }
+          APK=gimnasio.apk
           BT=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1); AAPT="$ANDROID_HOME/build-tools/$BT/aapt2"
-          echo "::notice title=APK::$(basename $APK) $(du -h $APK | cut -f1) | $($AAPT dump badging $APK | head -1)"
+          echo "::notice title=APK::$(du -h $APK | cut -f1) | $($AAPT dump badging $APK | head -1)"
           echo "::notice title=Permisos::$($AAPT dump permissions $APK | grep -o "name='[^']*'" | sed "s/name='android.permission.//;s/'//" | tr '\n' ' ')"
           H1=$(unzip -p $APK assets/public/index.html | sha256sum | cut -c1-16); H2=$(sha256sum www/index.html | cut -c1-16)
-          echo "::notice title=HTML::apk=$H1 www=$H2 $( [ "$H1" = "$H2" ] && echo COINCIDE || echo DISTINTO ) | NativeRest=$(unzip -p $APK assets/public/index.html | grep -c 'var NativeRest')"
-          echo "::notice title=Recursos::$(unzip -l $APK | grep -oE 'res/raw/descanso.wav|assets/capacitor.plugins.json' | tr '\n' ' ') | plugins=$(unzip -p $APK assets/capacitor.plugins.json | tr -d ' \n')"
-          echo "::notice title=Splash/icono::$(unzip -l $APK | grep -cE 'ic_launcher') iconos, ic_stat_timer=$(unzip -l $APK | grep -c ic_stat_timer)"
-          echo "::notice title=Updater::clases=$(unzip -p $APK 'classes*.dex' | grep -ac 'UpdaterPlugin') permiso=$($AAPT dump permissions $APK | grep -c REQUEST_INSTALL_PACKAGES)"
-          echo "::notice title=Ruta::clases=$(unzip -p $APK 'classes*.dex' | grep -ac 'RouteService') gps=$($AAPT dump permissions $APK | grep -c ACCESS_FINE_LOCATION)"
+          echo "::notice title=HTML::apk=$H1 www=$H2 $( [ "$H1" = "$H2" ] && echo COINCIDE || echo DISTINTO )"
+          echo "::notice title=Nativo::Updater=$(unzip -p $APK 'classes*.dex' | grep -ac 'UpdaterPlugin') Ruta=$(unzip -p $APK 'classes*.dex' | grep -ac 'RouteService') Copias=$(unzip -p $APK 'classes*.dex' | grep -ac 'BackupPlugin') gps=$($AAPT dump permissions $APK | grep -c ACCESS_FINE_LOCATION) instalar=$($AAPT dump permissions $APK | grep -c REQUEST_INSTALL_PACKAGES)"
+          [ "$H1" = "$H2" ] || { echo "::error::El HTML dentro del APK no es el del repositorio"; exit 1; }
 
       - uses: actions/upload-artifact@v4
         with:
-          name: gimnasio-apk
+          name: apk-actual
           path: gimnasio.apk
           retention-days: 30
 
-      - name: Publicar en el release "apk"
+  anterior:
+    name: Version anterior ${{ matrix.v.name }}
+    needs: [pruebas, plan]
+    if: needs.plan.outputs.hay == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    continue-on-error: true      # si falla, igual se publica la version nueva (sin esta anterior)
+    strategy:
+      fail-fast: false
+      matrix:
+        v: ${{ fromJSON(needs.plan.outputs.matriz) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ matrix.v.sha }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Instalar dependencias y sincronizar Capacitor
+        run: |
+          npm ci
+          npx cap sync android
+
+      - name: Poner el codigo de version de "restaurada"
+        env:
+          BUILD: ${{ matrix.v.build }}
+          NOMBRE: ${{ matrix.v.name }}
+        run: |
+          case "$BUILD" in ''|*[!0-9]*) echo "::error::codigo invalido"; exit 1;; esac
+          case "$NOMBRE" in *[!0-9.]*|'') echo "::error::nombre invalido"; exit 1;; esac
+          sed -i -E "s/^([[:space:]]*)versionCode.*/\1versionCode ${BUILD}/; s/^([[:space:]]*)versionName.*/\1versionName \"${NOMBRE} (restaurada)\"/" android/app/build.gradle
+          grep -nE "^[[:space:]]*version(Code|Name)" android/app/build.gradle
+
+      - name: Descifrar keystore
+        env:
+          PW: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in signing/gimnasio-release.p12.enc -out "$RUNNER_TEMP/release.p12" -pass env:PW
+
+      - name: Compilar APK firmado
+        working-directory: android
+        env:
+          KEYSTORE_PATH: ${{ runner.temp }}/release.p12
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: gimnasio
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: Verificar firma y codigo
+        env:
+          BUILD: ${{ matrix.v.build }}
+          ASSET: ${{ matrix.v.asset }}
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk "$ASSET"
+          BT=$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1)
+          "$ANDROID_HOME/build-tools/$BT/apksigner" verify "$ASSET"
+          INFO=$("$ANDROID_HOME/build-tools/$BT/aapt2" dump badging "$ASSET" | head -1)
+          echo "::notice title=Anterior::$ASSET | $INFO"
+          echo "$INFO" | grep -q "versionCode='${BUILD}'" || { echo "::error::El APK no quedo con el codigo ${BUILD}"; exit 1; }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apk-anterior-${{ matrix.v.idx }}
+          path: ${{ matrix.v.asset }}
+          retention-days: 30
+
+  publicar:
+    name: Publicar en el release "apk"
+    needs: [build, plan, anterior]
+    if: ${{ !cancelled() && needs.build.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: apk-*
+          path: apks
+          merge-multiple: true
+
+      - name: Publicar
         env:
           GH_TOKEN: ${{ github.token }}
+          MATRIZ: ${{ needs.plan.outputs.matriz }}
         run: |
+          ls -la apks
+          [ -f apks/gimnasio.apk ] || { echo "::error::Falta gimnasio.apk"; exit 1; }
           # La primera linea de las notas es la novedad que muestra la app al ofrecer la actualizacion
-          NOVEDAD="$(git log -1 --pretty=%s)"
-          printf '%s\n\nAPK de Android de Gimnasio. Instalar encima de la version anterior para conservar los datos.\n' "$NOVEDAD" > "$RUNNER_TEMP/notas.txt"
+          export NOVEDAD="$(git log -1 --pretty=%s)"
+          printf '%s' "${MATRIZ:-[]}" > "$RUNNER_TEMP/plan.json"
+          python3 .github/scripts/versiones.py notas "$RUNNER_TEMP/plan.json" apks > "$RUNNER_TEMP/notas.txt"
+          cat "$RUNNER_TEMP/notas.txt"
           gh release delete apk --yes --cleanup-tag || true
-          gh release create apk gimnasio.apk \
+          gh release create apk apks/*.apk \
             --target "$GITHUB_SHA" \
-            --title "Gimnasio APK (build ${GITHUB_RUN_NUMBER})" \
+            --title "Gimnasio APK 1.${GITHUB_RUN_NUMBER} (build ${GITHUB_RUN_NUMBER}0)" \
             --notes-file "$RUNNER_TEMP/notas.txt" \
             --latest=false
+          echo "::notice title=Publicado::1.${GITHUB_RUN_NUMBER} (codigo ${GITHUB_RUN_NUMBER}0) con $(ls apks | wc -l) archivo(s): $(ls apks | tr '\n' ' ')"
