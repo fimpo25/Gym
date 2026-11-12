@@ -337,6 +337,110 @@ module.exports = [
     },
   },
   {
+    nombre: "fechas: entrenar un domingo a las 22:30 cuenta ese día y esa semana (no el lunes)",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina);
+      // se adelanta el reloj hasta el proximo domingo a las 22:30 de Argentina (lunes 01:30 UTC)
+      await t.ev(() => { const real = new Date(), d = new Date(real.getTime()); d.setDate(d.getDate() + ((7 - d.getDay()) % 7)); d.setHours(22, 30, 0, 0); window.__off += d.getTime() - real.getTime(); });
+      const antes = await t.ev(() => ({ dia: new Date().getDay(), hora: new Date().getHours(), utc: new Date().toISOString().slice(0, 10), local: localDay() }));
+      t.ok(antes.dia === 0 && antes.hora === 22 && antes.utc !== antes.local, "reloj en domingo de noche (en UTC ya es lunes)");
+      await t.ev(() => { showScreen("homeScreen"); openRoutine("rB"); }); await t.espera(300);
+      await registrarSerie(t, 100, 5);
+      await t.ev(() => trainFinish()); await t.espera(250);
+      await t.page.locator("#trSheetBody .trSheetPrimary").click(); await t.espera(400);
+      const r = await t.ev(() => { const wk = getWeekKey(new Date()), dias = weekDays(wk); return { ultimoDia: dias[6] === localDay(), serieEnSemana: (gymData[wk].Sentadilla || []).length, marcado: Object.keys(gymData.trainingDays), hoy: localDay(), entrenados: daysTrained(wk), siguiente: daysTrained(wkAdd(wk, 1)), racha: calcStreak(), entrada: launchGymInfo().txt, lunesEsLunes: wkDate(wk).getDay() }; });
+      t.igual([r.ultimoDia, r.serieEnSemana, r.marcado, r.entrenados, r.siguiente, r.lunesEsLunes], [true, 1, [r.hoy], 1, 0, 1], "día y semana locales");
+      t.ok(/Esta semana: 1 /.test(r.entrada), "la entrada cuenta 1 día: " + r.entrada);
+    },
+  },
+  {
+    nombre: "nombres: los ejercicios de cardio en inglés pasan a español sin perder historial, rutinas ni video",
+    correr: async (t) => {
+      await t.abrir(() => {
+        if (localStorage.getItem("__s")) return; localStorage.setItem("__s", "1");
+        localStorage.setItem("gymData", JSON.stringify({ "2026-11-02": { "Rowing": [{ reps: "1", weight: "0", d: "2026-11-03", t: 1 }], "Máquina de Remo": [{ reps: "2", weight: "0", d: "2026-11-04", t: 2 }], "Press de Banca": [{ reps: "8", weight: "80", d: "2026-11-03", t: 3, rir: 2 }] }, notes: { "Stationary Bike Run": "nivel 8" } }));
+        localStorage.setItem("gymRoutines", JSON.stringify({ folders: [{ id: "f", name: "Rowing", open: true, routines: [{ id: "r", name: "Cardio", exercises: ["Elliptical Machine Walk", "Elíptica", "Press de Banca", "Bicycle Recline Walk"] }] }] }));
+        localStorage.setItem("gymRepRange", JSON.stringify({ "Walk Elliptical Cross Trainer": [10, 15] }));
+      });
+      const r = await t.ev(() => {
+        const todos = []; Object.keys(LIBRARY).forEach((g) => (LIBRARY[g].exercises || []).forEach((n) => todos.push(n)));
+        const ingles = todos.filter((n) => /\b(Walk|Run|Bike|Bicycle|Rowing|Machine|Trainer)\b/.test(n));
+        return { ingles, cardio: LIBRARY.Cardio.exercises.slice().sort(), remo: gymData["2026-11-02"]["Máquina de Remo"].map((x) => x.reps).sort(), viejo: gymData["2026-11-02"].Rowing === undefined, banca: gymData["2026-11-02"]["Press de Banca"].length,
+          nota: gymData.notes["Bicicleta Fija"], carpeta: routinesData().folders[0].name, rutina: findRoutine("r").routine.exercises, rango: repRange("Elíptica con Brazos"),
+          videos: ["Elíptica", "Elíptica con Brazos", "Bicicleta Fija", "Bicicleta Reclinada", "Máquina de Remo"].map((n) => decodeURIComponent(getVideoSrc(n).split("/").pop())),
+          sinVolumen: exMuscles("Bicicleta Fija").p === null && exMuscles("Elíptica").src === "revisado" };
+      });
+      t.igual(r, { ingles: [], cardio: ["Bicicleta Fija", "Bicicleta Reclinada", "Elíptica", "Elíptica con Brazos", "Máquina de Remo"], remo: ["1", "2"], viejo: true, banca: 1, nota: "nivel 8", carpeta: "Rowing",
+        rutina: ["Elíptica", "Press de Banca", "Bicicleta Reclinada"], rango: [10, 15],
+        videos: ["Elíptica.mp4", "Elíptica.mp4", "Bicicleta Estacionaria.mp4", "Bicycle Recline Walk.mp4", "Máquina de Remo.mp4"], sinVolumen: true }, "migración de nombres");
+    },
+  },
+  {
+    nombre: "inicio del gimnasio: series de la semana contra el objetivo, sin restos del sistema viejo",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina);
+      await t.ev(() => { const wk = getWeekKey(new Date()), hoy = localDay(); gymData[wk] = { "Press de Banca": [1, 2, 3, 4].map((i) => ({ reps: "8", weight: "80", d: hoy, t: i, rir: 2 })) }; gymData.trainingDays = {}; gymData.trainingDays[hoy] = 1; persist(); showScreen("homeScreen"); });
+      await t.espera(300);
+      const r = await t.ev(() => { const T = weekTargets(getWeekKey(new Date())), pe = T.filter((x) => x.g === "Pecho")[0];
+        return { grupos: T.length, pecho: pe.sets + "/" + pe.target, objetivoPecho: pe.target === LANDMARKS.Pecho.mav_min, celdas: document.querySelectorAll("#summaryArea .wkCell").length, texto: document.getElementById("summaryArea").innerText.replace(/\n+/g, " | "),
+          viejo: ["exerciseList", "filterScroll", "dayViewToggle", "exOverlay", "editScreen", "dayAssignOverlay"].filter((id) => document.getElementById(id)), funcionesViejas: ["renderExercises", "openEx", "saveExercise", "renderEditScreen"].filter((f) => typeof window[f] === "function") }; });
+      t.igual([r.grupos, r.pecho, r.objetivoPecho, r.celdas, r.viejo, r.funcionesViejas], [8, "4/" + r.pecho.split("/")[1], true, 8, [], []], "tarjeta de series");
+      t.ok(/Series de esta semana/i.test(r.texto) && /Días esta semana/i.test(r.texto) && !/0\/22|Progreso semanal/.test(r.texto), "textos de la tarjeta: " + r.texto.slice(0, 200));
+      await t.page.click("#wkGoBal"); await t.espera(250);
+      t.igual(await t.pantalla(), "balanceScreen", "el título lleva al Balance");
+      // con mesociclo, el objetivo es el del mesociclo
+      const m = await t.ev(() => { const wk = getWeekKey(new Date()); safeStore("gymMeso", JSON.stringify({ id: "m1", start: wk, acc: 4, focus: {} })); try { mesoCache = null; } catch (e) {} const ma = mesoActive(wk); return ma ? { obj: weekTargets(wk).filter((x) => x.g === "Pecho")[0].target, esperado: mesoTarget(ma.m, "Pecho", ma.i) } : null; });
+      if (m) t.igual(m.obj, m.esperado, "objetivo del mesociclo");
+    },
+  },
+  {
+    nombre: "estiramiento sin señal: el reproductor pide el video a la copia guardada en el celular",
+    correr: async (t) => {
+      await t.abrir();
+      const r = await t.ev(async () => {
+        const pedidos = []; const orig = window.setCachedVideoSrc; window.setCachedVideoSrc = function (v, url) { pedidos.push(decodeURIComponent(url.split("/").pop())); };
+        stPlay(stFind("b_pre_leg")); await new Promise((ok) => setTimeout(ok, 400));
+        const directo = !!document.querySelector("#stpVid video[src]"); spStop(false); window.setCachedVideoSrc = orig;
+        return { pedidos, directo, precarga: typeof stPrefetch === "function" };
+      });
+      t.igual(r, { pedidos: ["Gato-Vaca.mp4"], directo: false, precarga: true }, "video del reproductor por la caché");
+    },
+  },
+  {
+    nombre: "menús: los 3 puntos del ejercicio, la biblioteca, el editor de rutina y el resumen semanal funcionan",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina);
+      await t.ev(() => { const wk = getWeekKey(new Date()), hoy = localDay(); gymData[wk] = { "Press de Banca": [1, 2, 3].map((i) => ({ reps: "8", weight: "80", d: hoy, t: i, rir: 2 })) }; gymData.trainingDays = {}; gymData.trainingDays[hoy] = 1; persist(); showScreen("homeScreen"); openRoutine("rA"); });
+      await t.espera(300);
+      const menu = async (texto) => { await t.ev(() => trainExMenu(exInfo("Press de Banca"))); await t.espera(200); await t.page.locator("#trSheetBody button", { hasText: texto }).first().click(); await t.espera(350); };
+      await menu("Ver video"); t.ok(await t.ev(() => document.getElementById("exVideoOverlay").classList.contains("show") || document.getElementById("exDescOverlay").style.display !== "none"), "video y descripción");
+      await t.ev(() => { closeTopOverlay(); closeTopOverlay(); }); await t.espera(150);
+      await menu("Calculadora 1RM"); t.igual(await t.pantalla(), "rmScreen", "calculadora 1RM");
+      await t.ev(() => handleRMBack()); await t.espera(250); t.igual(await t.pantalla(), "trainScreen", "volver de la calculadora");
+      await menu("Progreso e historial"); t.igual(await t.pantalla(), "exHistScreen", "progreso");
+      await t.ev(() => history.back()); await t.espera(300);
+      await menu("Datos del ejercicio"); t.ok(/Músculo principal/.test(await t.page.locator("#trSheetBody").innerText()), "datos del ejercicio"); await t.ev(() => closeTrSheet());
+      await menu("Nota"); await t.page.locator("#trSheetBody textarea").fill("agarre neutro"); await t.page.locator("#trSheetBody button", { hasText: /Guardar/ }).first().click(); await t.espera(200);
+      t.igual(await t.ev(() => gymData.notes["Press de Banca"]), "agarre neutro", "nota guardada");
+      await menu("Rango de repeticiones"); await t.page.locator("#trSheetBody button", { hasText: "8–12" }).click(); await t.espera(200);
+      t.igual(await t.ev(() => repRange("Press de Banca")), [8, 12], "rango de repeticiones");
+      // biblioteca: detalle de un ejercicio y agregarlo a una rutina
+      await t.ev(() => { showScreen("libraryScreen"); }); await t.espera(300);
+      await t.ev(() => openLibDetail("Curl con Barra", "Biceps", "#34D399", false)); await t.espera(400);
+      t.igual(await t.ev(() => document.getElementById("libDetailName").textContent), "Curl con Barra", "detalle de la biblioteca");
+      await t.ev(() => { try { closeLibDetail(); } catch (e) {} });
+      // editor de rutina y superserie
+      await t.ev(() => { showScreen("homeScreen"); openRoutineEditor("rA"); }); await t.espera(300);
+      t.igual(await t.pantalla(), "rtEditScreen", "editor de rutina");
+      await t.page.locator("button", { hasText: "Unir en superserie" }).first().click(); await t.espera(250);
+      t.igual(await t.ev(() => supersets["Press de Banca"]), "Encogimientos de Hombros con Mancuernas", "superserie armada");
+      // resumen semanal
+      await t.ev(() => { showScreen("homeScreen"); showWeekSummary(getWeekKey(new Date())); }); await t.espera(300);
+      t.igual(await t.pantalla(), "wsSummaryScreen", "resumen semanal");
+      t.ok(/Días entrenados/i.test(await t.page.locator("#wsSummaryScreen").innerText()), "resumen con días entrenados");
+    },
+  },
+  {
     nombre: "pantallas principales: Balance, biblioteca, historial, récords, tiempos y mesociclo abren sin errores",
     correr: async (t) => {
       await t.abrir(sembrarRutina);

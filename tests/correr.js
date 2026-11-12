@@ -46,7 +46,12 @@ async function main() {
     await ctx.route(/tile\.openstreetmap\.org/, (r) => r.fulfill({ status: 200, contentType: "image/png", body: PNG }));
     await ctx.route(/r2\.dev|api\.github\.com|fonts\.g/, (r) => r.abort());
     // Reloj adelantable (window.__off, en ms) y datos iniciales por prueba
-    await ctx.addInitScript(() => { window.__off = window.__off || 0; const real = Date.now.bind(Date); Date.now = () => real() + window.__off; });
+    await ctx.addInitScript(() => {
+      if (window.__relojPuesto) return; window.__relojPuesto = true; window.__off = window.__off || 0;
+      const Real = Date;
+      class Reloj extends Real { constructor(...a) { if (a.length === 0) super(Real.now() + window.__off); else super(...a); } static now() { return Real.now() + window.__off; } }
+      window.Date = Reloj;
+    });
     const page = await ctx.newPage();
     page.on("pageerror", (e) => { if (!/no supported source|play\(\) request|NotSupportedError/.test(e.message)) errores.push(e.message); });
     page.on("dialog", (d) => d.accept());
