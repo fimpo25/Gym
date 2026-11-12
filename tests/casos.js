@@ -26,6 +26,7 @@ function apkSimulado(cfg) {
       if (metodo === "read") return N.archivos[o.id] ? Promise.resolve({ text: N.archivos[o.id].text }) : Promise.reject(new Error("no existe"));
       if (metodo === "remove") { delete N.archivos[o.id]; return Promise.resolve({}); }
     }
+    if (plugin === "Share") { N.compartido = o; return Promise.resolve({}); }
     if (plugin === "Route" && metodo === "status") return Promise.resolve(cfg.ruta || { state: "idle", gps: true, granted: true, count: 0 });
     if (plugin === "Route" && metodo === "points") return Promise.resolve({ points: [], from: 0, total: 0 });
     return Promise.resolve({});
@@ -38,6 +39,25 @@ function gpsSimulado() {
   navigator.geolocation.watchPosition = (ok) => { cb = ok; return 1; };
   navigator.geolocation.clearWatch = () => { cb = null; };
   window.__fix = (lat, lon, acc, alt) => { if (cb) cb({ coords: { latitude: lat, longitude: lon, accuracy: acc || 8, altitude: alt == null ? null : alt }, timestamp: Date.now() }); };
+}
+
+// Adelanta el reloj hasta el proximo dia de la semana indicado (0 = domingo) a esa hora de Argentina
+async function irA(t, diaSemana, hora) {
+  await t.ev(([dw, h]) => { const real = new Date(), d = new Date(real.getTime()); d.setDate(d.getDate() + ((dw - d.getDay() + 7) % 7)); d.setHours(h, 0, 0, 0); if (d.getTime() <= real.getTime()) d.setDate(d.getDate() + 7); window.__off += d.getTime() - real.getTime(); }, [diaSemana, hora]);
+}
+// Dentro de la pagina: carga "semanas" semanas de historial. plan(i) devuelve, para la semana de hace i semanas
+// (0 = la actual), una lista de [ejercicio, diaDeLaSemana(0 = lunes), series, peso, reps, rir]
+function sembrarHistorial(semanas, planTxt) {
+  const plan = new Function("i", "return (" + planTxt + ")(i)"), cur = getWeekKey(new Date());
+  for (let i = semanas - 1; i >= 0; i--) {
+    const wk = wkAdd(cur, -i), dias = weekDays(wk); gymData[wk] = gymData[wk] || {};
+    (plan(i) || []).forEach(([ej, dia, n, peso, reps, rir]) => {
+      const base = wkDate(wk).getTime() + dia * 864e5;
+      for (let k = 0; k < n; k++) (gymData[wk][ej] = gymData[wk][ej] || []).push({ reps: String(reps), weight: String(peso), d: dias[dia], t: base + k, rir: rir === undefined ? 2 : rir });
+      gymData.trainingDays = gymData.trainingDays || {}; gymData.trainingDays[dias[dia]] = 1;
+    });
+  }
+  persist();
 }
 
 // Registra una serie en el primer ejercicio de la rutina abierta: escribe peso y reps y toca el tilde
@@ -438,6 +458,98 @@ module.exports = [
       await t.ev(() => { showScreen("homeScreen"); showWeekSummary(getWeekKey(new Date())); }); await t.espera(300);
       t.igual(await t.pantalla(), "wsSummaryScreen", "resumen semanal");
       t.ok(/Días entrenados/i.test(await t.page.locator("#wsSummaryScreen").innerText()), "resumen con días entrenados");
+    },
+  },
+  {
+    nombre: "descarga: avisa cuando cae el rendimiento, y la semana de descarga baja series y peso",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina); await irA(t, 3, 10);     // miercoles
+      // caso sano: 5 semanas subiendo -> sin aviso
+      let r = await t.ev((sem) => { eval("window.sembrarHistorial=" + sem); sembrarHistorial(5, "(i) => i === 0 ? [] : [['Press de Banca', 0, 3, 100 - i * 2.5, 8], ['Sentadilla', 2, 3, 120 - i * 2.5, 6], ['Remo con Barra', 4, 3, 80 - i * 2.5, 8]]"); const c = deloadCheck(); return { sug: c.suggest, sem: c.weeks, drops: c.drops.length }; }, sembrarHistorial.toString());
+      t.igual(r, { sug: false, sem: 4, drops: 0 }, "progresando: no sugiere descarga");
+      // 9 semanas de carga y en las dos ultimas cae el 1RM estimado en los tres ejercicios
+      r = await t.ev(() => { Object.keys(gymData).forEach((k) => { if (/^\d{4}-/.test(k)) delete gymData[k]; }); _dlMemo = null;
+        sembrarHistorial(10, "(i) => i === 0 ? [] : [['Press de Banca', 0, 3, i <= 2 ? 92.5 : 110 - i * 2.5, i <= 2 ? 7 : 8], ['Sentadilla', 2, 3, i <= 2 ? 115 : 135 - i * 2.5, 6], ['Remo con Barra', 4, 3, i <= 2 ? 70 : 90 - i * 2.5, 8]]");
+        const c = deloadCheck(); showScreen("homeScreen"); return { sug: c.suggest, sem: c.weeks, drops: c.drops.map((d) => d.name).sort(), seguidos: c.tracked, motivos: c.reasons.join(" || "), tarjeta: !!document.querySelector(".dlCard") }; });
+      t.igual([r.sug, r.sem, r.drops, r.seguidos, r.tarjeta], [true, 9, ["Press de Banca", "Remo con Barra", "Sentadilla"], 3, true], "sugiere descarga: " + r.motivos);
+      t.ok(/Bajó el 1RM estimado en 3 de 3/.test(r.motivos) && /9 semanas seguidas/.test(r.motivos), "motivos: " + r.motivos);
+      await t.page.click("#dlGo"); await t.espera(300);
+      r = await t.ev(() => { const cur = getWeekKey(new Date()), s = progSuggest("Press de Banca"), T = weekTargets(cur).filter((x) => x.g === "Pecho")[0]; return { manual: dlManual() === cur, modo: s.mode, series: s.sets.length, peso: s.sets[0].weight, objetivo: T.target, mitadMev: Math.max(1, Math.round(LANDMARKS.Pecho.mev / 2)), tarjeta: (document.querySelector(".dlCard.on") || {}).innerText || "", activo: deloadCheck().active }; });
+      t.igual([r.manual, r.modo, r.series, r.peso, r.objetivo === r.mitadMev, r.activo], [true, "deload", 2, "82.5", true, true], "semana de descarga en curso");
+      t.ok(/Semana de descarga/.test(r.tarjeta), "tarjeta de descarga en curso");
+      await t.page.click("#dlCancel"); await t.espera(300);
+      t.igual(await t.ev(() => [dlManual(), progSuggest("Press de Banca").mode !== "deload", !!document.querySelector("#dlGo")]), ["", true, true], "cancelar la descarga");
+      await t.page.click("#dlNo"); await t.espera(200);
+      t.igual(await t.ev(() => { showScreen("homeScreen"); return [!!document.querySelector(".dlCard"), deloadCheck().snoozed]; }), [false, true], "'Ahora no' la pospone");
+      // recien hecha una descarga no vuelve a sugerir
+      t.igual(await t.ev(() => { localStorage.removeItem("gymDeloadSnooze"); localStorage.setItem("gymDeloadWk", wkAdd(getWeekKey(new Date()), -1)); _dlMemo = null; return deloadCheck().suggest; }), false, "después de una descarga no insiste");
+    },
+  },
+  {
+    nombre: "Balance: frecuencia por grupo con los días de la semana y equilibrio empuje/tracción",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina); await irA(t, 6, 12);     // sabado
+      const r = await t.ev((sem) => { eval("window.sembrarHistorial=" + sem);
+        sembrarHistorial(3, "(i) => i === 0 ? [['Press de Banca', 0, 4, 80, 8], ['Press de Banca', 3, 3, 80, 8], ['Remo con Barra', 1, 3, 70, 8], ['Sentadilla', 0, 12, 100, 6], ['Curl Femoral Acostado', 2, 2, 40, 10], ['Press de Banca', 4, 2, 80, 8, 5]] : [['Press de Banca', 0, 6, 80, 8], ['Remo con Barra', 1, 6, 70, 8]]");
+        const wk = getWeekKey(new Date()), F = weekFrequency(wk), W = weekPatterns(wk);
+        return { patrones: [exMeta("Press de Banca").patron, exMeta("Remo con Barra").patron], pecho: F.Pecho.p.join(","), pechoDias: F.Pecho.days, triceps: F.Triceps.days + "/" + F.Triceps.s.join(","), piernasMax: F.Piernas.maxDay, push: W.push, pull: W.pull, eh: W.eh, quad: W.quad, ham: W.ham, veredicto: balVerdict(W.push, W.pull).c }; }, sembrarHistorial.toString());
+      t.igual(r, { patrones: ["empuje_horizontal", "traccion_horizontal"], pecho: "4,0,0,3,0,0,0", pechoDias: 2, triceps: "0/2,0,0,1.5,0,0,0", piernasMax: 12, push: 7, pull: 3, eh: 7, quad: 12, ham: 2, veredicto: "warn" }, "frecuencia y patrones (las series con 4+ RIR no cuentan)");
+      await t.ev(() => { balanceWeek = null; showScreen("balanceScreen"); }); await t.espera(300);
+      const txt = await t.page.locator(".fqCard").innerText();
+      t.ok(/Frecuencia por grupo/i.test(txt) && /2 días/.test(txt) && /solo secundario/.test(txt) && /12 series en un solo día/.test(txt), "tarjeta de frecuencia: " + txt.slice(0, 160).replace(/\n+/g, " | "));
+      t.ok(/menos tracción que empuje/.test(txt) && /Promedio de las 2 semanas anteriores: 6 de empuje y 6 de tracción/.test(txt) && /Poco trabajo de isquios/.test(txt), "equilibrio: " + txt.slice(-420).replace(/\n+/g, " | "));
+      t.igual(await t.page.locator(".fqRow .fqDots i.p").count() >= 5, true, "puntos de los días");
+    },
+  },
+  {
+    nombre: "máquina ocupada: la alternativa vale solo por hoy y la rutina vuelve a quedar como estaba",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina);
+      await t.ev(() => { const wk = wkAdd(getWeekKey(new Date()), -1); gymData[wk] = { "Press Inclinado con Mancuernas": [{ reps: "10", weight: "30", d: weekDays(wk)[1], t: 1, rir: 2 }] }; persist(); showScreen("homeScreen"); openRoutine("rA"); });
+      await t.espera(300);
+      const alts = await t.ev(() => machineAlternatives("Press de Banca", 6).map((a) => ({ n: a.name, p: exMuscles(a.name).p, conocido: a.known, patron: a.m.patron })));
+      t.ok(alts.length >= 4 && alts.every((a) => a.p === "pecho") && !alts.some((a) => a.n === "Press de Banca" || a.n === "Encogimientos de Hombros con Mancuernas"), "alternativas del mismo músculo y fuera de la rutina");
+      t.igual([alts[0].n, alts[0].conocido, alts[0].patron], ["Press Inclinado con Mancuernas", true, "empuje_horizontal"], "primero la que ya conocés, mismo patrón y otro equipo");
+      await t.ev(() => trainExMenu(exInfo("Press de Banca"))); await t.espera(200);
+      await t.page.locator("#trSheetBody button", { hasText: "Máquina ocupada" }).click(); await t.espera(350);
+      t.ok(/última vez 30 kg × 10/.test(await t.page.locator("#trSheetBody").innerText()), "muestra la última marca");
+      await t.page.locator("#trSheetBody button", { hasText: "Press Inclinado con Mancuernas" }).first().click(); await t.espera(350);
+      let r = await t.ev(() => ({ rutina: findRoutine("rA").routine.exercises, cartel: (document.querySelector(".trSwap") || {}).textContent, primero: document.querySelector(".trEx .trExName").textContent }));
+      t.igual(r, { rutina: ["Press Inclinado con Mancuernas", "Encogimientos de Hombros con Mancuernas"], cartel: "Hoy en lugar de Press de Banca", primero: "Press Inclinado con Mancuernas" }, "reemplazo por hoy");
+      await registrarSerie(t, 32, 10);
+      await t.ev(() => trainFinish()); await t.espera(250);
+      await t.page.locator("#trSheetBody .trSheetPrimary").click(); await t.espera(400);
+      r = await t.ev(() => ({ rutina: findRoutine("rA").routine.exercises, serie: (gymData[getWeekKey(new Date())]["Press Inclinado con Mancuernas"] || []).map((x) => x.weight), pendiente: localStorage.getItem("gymSwaps") }));
+      t.igual(r, { rutina: ["Press de Banca", "Encogimientos de Hombros con Mancuernas"], serie: ["32"], pendiente: null }, "al terminar, la rutina vuelve a ser la original y la serie queda en el ejercicio que hiciste");
+      // con series ya hechas en el original, la alternativa se agrega despues; y si la app se cierra, se deshace al abrir
+      await t.ev(() => { openRoutine("rA"); }); await t.espera(300); await registrarSerie(t, 80, 8);
+      r = await t.ev(() => { machineSwap("Press de Banca", "Press con Mancuernas"); const a = findRoutine("rA").routine.exercises.slice(); machineSwap("Encogimientos de Hombros con Mancuernas", "Encogimiento de Hombros con Barra"); const b = findRoutine("rA").routine.exercises.slice(); machineUndo("Encogimiento de Hombros con Barra", false); const c = findRoutine("rA").routine.exercises.slice(); localStorage.removeItem("gymSessionStart"); return { a, b, c }; });
+      t.igual(r, { a: ["Press de Banca", "Press con Mancuernas", "Encogimientos de Hombros con Mancuernas"], b: ["Press de Banca", "Press con Mancuernas", "Encogimiento de Hombros con Barra"], c: ["Press de Banca", "Press con Mancuernas", "Encogimientos de Hombros con Mancuernas"] }, "agregar después y volver atrás");
+      await t.page.reload(); await t.page.waitForFunction(() => typeof launchInit === "function"); await t.espera(300);
+      t.igual(await t.ev(() => [findRoutine("rA").routine.exercises, localStorage.getItem("gymSwaps")]), [["Press de Banca", "Encogimientos de Hombros con Mancuernas"], null], "sin sesión en curso, el cambio se deshace al abrir la app");
+    },
+  },
+  {
+    nombre: "resumen semanal: queda listo el domingo a la tarde y se envía a Claude con los datos de la semana",
+    correr: async (t) => {
+      await t.page.addInitScript(apkSimulado, { code: 350, name: "1.35", release: { name: "x" } });
+      await t.abrir(sembrarRutina); await irA(t, 0, 19);     // domingo 19 h
+      const r = await t.ev((sem) => { eval("window.sembrarHistorial=" + sem);
+        sembrarHistorial(3, "(i) => [['Press de Banca', 0, 3, 80 - i * 2.5, 8], ['Remo con Barra', 2, 3, 70, 8], ['Sentadilla', 4, 3, 100, 6]]");
+        routes.push({ id: "r1", mode: "correr", start: Date.now() - 2 * 864e5, end: Date.now() - 2 * 864e5 + 18e5, dur: 1800, dist: 5000, gain: 0, splits: [], poly: [] }); persistRoutes();
+        localStorage.setItem("gymSessions", JSON.stringify([{ id: "s1", start: Date.now() - 6 * 864e5 + 3600e3, end: Date.now() - 6 * 864e5 + 7200e3, dur: 3600, routineId: "rA", routine: "Empuje", totalSets: 3 }]));
+        const cur = getWeekKey(new Date()); showScreen("launchScreen");
+        return { lista: weeklyDue() === cur, tarjeta: (document.querySelector(".wkRep") || {}).innerText || "", texto: weeklyReport(cur) }; }, sembrarHistorial.toString());
+      t.ok(r.lista && /Tu resumen de la semana está listo/.test(r.tarjeta) && /3 días y 9 series efectivas/.test(r.tarjeta), "tarjeta en la entrada: " + r.tarjeta.replace(/\n+/g, " | "));
+      for (const trozo of [/Resumen de mi semana de entrenamiento/, /Días entrenados: 3/, /Rutinas terminadas: Empuje/, /Pecho: 3 \(objetivo \d+ · .* · 1 día · antes 3\)/, /Empuje 3 series \(3 horizontal, 0 vertical\) · Tracción 3/, /• Press de Banca: 80kg×8 RIR2, 80kg×8 RIR2, 80kg×8 RIR2 → 1RM est\. [\d,]+ kg \(\+[\d,]+ %\), mejor marca/, /Recorridos: correr 5,00 km en 30:00/])
+        t.ok(trozo.test(r.texto), "el resumen incluye " + trozo + "\n" + r.texto);
+      await t.page.locator(".wkRepGo").click(); await t.espera(300);
+      const e = await t.ev(() => ({ compartido: (__nat.compartido || {}).text || "", hecho: localStorage.getItem("gymWeeklyDone") === getWeekKey(new Date()), tarjeta: !!document.querySelector(".wkRep"), otraVez: weeklyDue() }));
+      t.ok(/Sos mi entrenador personal/.test(e.compartido) && /Analizá mi semana/.test(e.compartido) && /Series efectivas por grupo/.test(e.compartido), "se comparte con la pregunta y el resumen");
+      t.igual([e.hecho, e.tarjeta, e.otraVez], [true, false, null], "una vez enviado, no vuelve a aparecer");
+      // el miercoles siguiente, el resumen pendiente es el de la semana anterior (si no se envio)
+      await irA(t, 3, 9);
+      t.igual(await t.ev(() => { const cur = getWeekKey(new Date()), ant = wkAdd(cur, -1); const yaEnviada = weeklyDue(); localStorage.removeItem("gymWeeklyDone"); return [yaEnviada, weeklyDue() === ant, weekHasData(cur)]; }), [null, true, false], "entre semana se ofrece la semana anterior");
     },
   },
   {

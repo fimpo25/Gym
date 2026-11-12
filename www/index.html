@@ -410,6 +410,7 @@ button:focus:not(:focus-visible){outline:none}
 /* ---- Rutinas ---- */
 #dayViewToggle,#filterScroll,#exerciseList{display:none!important}
 #routinesArea{padding:4px 16px 40px}
+#dlSlot{padding:0 16px}
 .rtHead{display:flex;align-items:center;justify-content:space-between;margin:6px 0 10px}
 .rtTitle{font-size:20px;font-weight:800}
 .rtNewFolder{border:1px dashed #34425A;background:transparent;color:#22D3EE;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;cursor:pointer}
@@ -1058,6 +1059,50 @@ body.hasLive .screen.active{padding-bottom:78px}
 .goalStatus.done{color:var(--primary);font-weight:600}
 .wkFoot{margin-top:12px;padding-top:12px;border-top:1px solid #182030;display:flex;align-items:center;justify-content:space-between}
 .wkSum{background:#182030;border:1px solid #253043;border-radius:10px;color:var(--text-2);font-size:12px;padding:8px 12px;cursor:pointer}
+
+/* ---- Entrenador: descarga, frecuencia, maquina ocupada, resumen semanal ---- */
+.dlCard{background:linear-gradient(160deg,#241C0C,#0E131C 70%);border:1px solid #FFB02055;border-radius:16px;padding:14px;margin:6px 0 12px}
+.dlCard.on{background:linear-gradient(160deg,#16203A,#0E131C 70%);border-color:#60A5FA66}
+.dlTop{display:flex;align-items:center;gap:10px;font-size:15px;color:#fff;line-height:1.3}
+.dlIc{font-size:20px}
+.dlList{margin:10px 0 6px;padding-left:18px;font-size:13px;color:var(--text-2);line-height:1.45}
+.dlList li{margin-bottom:5px}
+.dlTxt{font-size:12.5px;color:var(--text-3);line-height:1.45;margin-top:6px}
+.dlBtns{display:flex;gap:8px;margin-top:12px}
+.dlBtns button{flex:1;border-radius:12px;font-size:14px;font-weight:700;padding:12px 10px;cursor:pointer}
+.dlGo{border:none;background:var(--energy);color:#1a1200}
+.dlNo{border:1px solid var(--border-strong);background:transparent;color:var(--text-2)}
+.fqHead,.fqRow{display:grid;grid-template-columns:minmax(0,1fr) 150px 94px;align-items:center;gap:8px}
+.fqHead{margin-top:10px}
+.fqRow{padding:6px 0;border-top:1px solid #182030}
+.fqName{font-size:13.5px;color:var(--text)}
+.fqN{font-size:12px;color:var(--text-3);text-align:right;white-space:nowrap}
+.fqDots{display:grid;grid-template-columns:repeat(7,18px);gap:4px;justify-items:center}
+.fqHead .fqDots i{font-style:normal;font-size:10.5px;color:var(--text-3)}
+.fqRow .fqDots i{width:15px;height:15px;border-radius:50%;background:#182030;box-sizing:border-box}
+.fqRow .fqDots i.p,.fqLegend i.p{background:var(--primary)}
+.fqRow .fqDots i.s,.fqLegend i.s{background:transparent;border:2px solid #22D3EE77}
+.fqLegend{display:flex;gap:14px;font-size:11.5px;color:var(--text-3);margin-top:10px}
+.fqLegend span{display:flex;align-items:center;gap:6px}
+.fqLegend i{width:11px;height:11px;border-radius:50%;display:inline-block;box-sizing:border-box}
+.fqWarn{font-size:12.5px;color:var(--energy);line-height:1.45;margin-top:10px}
+.fqNote{font-size:11.5px;color:var(--text-3);line-height:1.45;margin-top:10px}
+.eqRow{display:flex;justify-content:space-between;font-size:13px;color:var(--text-2);margin-top:8px}
+.eqRow b{color:#fff;font-size:15px;font-variant-numeric:tabular-nums}
+.eqBar{display:flex;height:8px;border-radius:99px;overflow:hidden;margin-top:6px;background:#182030;gap:2px}
+.eqBar i{display:block;height:100%;background:var(--energy)}
+.eqBar i.b{background:var(--primary)}
+.eqSub{font-size:11.5px;color:var(--text-3);line-height:1.45;margin-top:6px}
+.eqVerdict{font-size:13px;color:var(--text-2);margin-top:8px;line-height:1.4}
+.eqVerdict.warn{color:var(--energy)}
+.eqVerdict.ok{color:#6EE7B7}
+.trSwap{font-size:12px;color:var(--energy);margin:-2px 0 6px 18px}
+.wkRep{display:flex;align-items:center;gap:10px;background:linear-gradient(160deg,#221A33,#0E131C 75%);border:1px solid #FFB02044;border-radius:16px;padding:12px 12px 12px 14px;margin-bottom:12px}
+.wkRepTxt{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.wkRepTxt b{font-size:14.5px;color:#fff}
+.wkRepTxt span{font-size:12px;color:var(--text-3);line-height:1.35}
+.wkRepGo{border:none;border-radius:10px;background:var(--energy);color:#1a1200;font-weight:800;font-size:13px;padding:10px 11px;cursor:pointer;white-space:nowrap}
+.wkRepX{width:34px;height:34px;border-radius:9px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-size:18px;cursor:pointer;flex-shrink:0}
 </style>
 </head>
 <body>
@@ -1086,6 +1131,7 @@ body.hasLive .screen.active{padding-bottom:78px}
     </div>
     <div class="weekNav" id="weekNav"></div>
   </div>
+  <div id="dlSlot"></div>
   <div id="summaryArea"></div>
   <div id="routinesArea"></div>
 </div>
@@ -2394,7 +2440,7 @@ function weekTargets(wk) {
   var vol = computeWeeklyVolume(wk), ma = mesoActive(wk);
   return VOLUME_GROUPS.map(function(g) {
     var sets = vol[g] || 0, L = LANDMARKS[g] || {}, cz = classifyVolume(sets, g);
-    var target = ma ? mesoTarget(ma.m, g, ma.i) : (L.mav_min || 10);
+    var target = ma ? mesoTarget(ma.m, g, ma.i) : dlManual() === wk ? Math.max(1, Math.round((L.mev || 4) / 2)) : (L.mav_min || 10);
     return { g: g, sets: sets, target: target, zone: cz.zone, color: cz.color, ok: sets >= target && cz.zone !== "over" };
   });
 }
@@ -2407,7 +2453,7 @@ function renderSummary() {
     var pct = x.target > 0 ? Math.min(100, Math.round(x.sets / x.target * 100)) : 0;
     h += '<div class="wkCell' + (x.sets ? "" : " empty") + '"><div class="wkRow"><span>' + displayGroup(x.g) + '</span><b' + (x.zone === "over" ? ' class="over"' : "") + '>' + fmtSets(x.sets) + '<i> / ' + x.target + '</i></b></div><div class="wkBar"><i style="width:' + pct + '%;background:' + x.color + '"></i></div></div>';
   });
-  h += '</div><div class="wkNote">' + (ma ? "Objetivo del mesociclo: semana " + (ma.i + 1) + " de " + mesoWeeks(ma.m) + (ma.deload ? " (descarga)" : "") : zoneMode() === "inv" ? "Objetivo: 10 series efectivas por grupo (volumen alto)" : "Objetivo: el mínimo del rango óptimo de cada grupo") + '. Cuentan las series de trabajo con 0 a 3 RIR.</div>';
+  h += '</div><div class="wkNote">' + (ma ? "Objetivo del mesociclo: semana " + (ma.i + 1) + " de " + mesoWeeks(ma.m) + (ma.deload ? " (descarga)" : "") : dlManual() === activeWeek ? "Semana de descarga: el objetivo es la mitad del mínimo efectivo" : zoneMode() === "inv" ? "Objetivo: 10 series efectivas por grupo (volumen alto)" : "Objetivo: el mínimo del rango óptimo de cada grupo") + '. Cuentan las series de trabajo con 0 a 3 RIR.</div>';
   // Días entrenados contra la meta
   var days = daysTrained(activeWeek);
   h += '<div class="goalRow"><span class="goalLabel">Días esta semana</span><div class="goalDays">';
@@ -3570,6 +3616,7 @@ function renderBalance() {
     div.appendChild(row);
   });
 
+  try { renderBalanceExtra(div, wk); } catch(e) {}
   var note = document.createElement("div"); note.className = "balNote";
   note.innerHTML = "Cuentan las series de trabajo con 0 a 3 repeticiones en reserva (RIR). No suman las de calentamiento ni las que registraste con 4+ RIR. " +
     "Cada serie de un ejercicio suma 1 al músculo principal y 0,5 a los secundarios. «Días» es cuántos días distintos entrenaste ese grupo en la semana: repartir las series en 2 o 3 días rinde más que hacerlas todas juntas.";
@@ -3931,6 +3978,7 @@ function openRoutine(id, force) {
   if (!same) trainEdit = {};   // si volves a la rutina en curso, lo que tipeaste sigue ahi
   safeStore("gymLastRoutine", id);
   trainSessionStart();
+  try { swapsCheck(); } catch(e) {}
   prefetchRoutineMedia(id);
   showScreen("trainScreen");
 }
@@ -3961,7 +4009,7 @@ function prefetchRoutineMedia(id) {
 function trainLastSession(name) {
   var today = localDay(), best = null;
   for (var w = 0; w <= 12; w++) {
-    var d = new Date(trainWeek || getWeekKey(new Date())); d.setDate(d.getDate() - w * 7); var wk = getWeekKey(d);
+    var wk = wkAdd(trainWeek || getWeekKey(new Date()), -w);
     var arr = gymData[wk] && gymData[wk][name]; if (!arr || !arr.length) continue;
     var groups = {};
     for (var i = 0; i < arr.length; i++) { var k = setDay(arr[i]) || ("w" + wk); if (k === today) continue; (groups[k] = groups[k] || []).push(arr[i]); }
@@ -4166,6 +4214,12 @@ function trainExMenu(ex) {
     trSheetBtn(body, "&#10024;&nbsp; Preguntar a Claude", function(){ setTimeout(function(){ openAISheet(ex.name); }, 30); });
     trSheetBtn(body, "&#127947;&nbsp; Calculadora 1RM", function(){ trainOpenRM(ex.name); });
     trSheetBtn(body, "&#9998;&nbsp; Nota", function(){ trainNote(ex.name); });
+    var swc = swapOf(ex.name);
+    if (swc) {
+      trSheetBtn(body, "&#8617;&nbsp; Volver a " + escHtml(swc.orig), function(){ machineUndo(ex.name, false); });
+      trSheetBtn(body, "&#10003;&nbsp; Dejar este ejercicio en la rutina", function(){ machineUndo(ex.name, true); });
+    }
+    trSheetBtn(body, "&#9203;&nbsp; M\u00e1quina ocupada: alternativas", function(){ setTimeout(function(){ machineSheet(ex.name); }, 30); });
     trSheetBtn(body, "&#8644;&nbsp; Sustituir ejercicio", function(){ startSubstitute(ex.name); });
     trSheetBtn(body, "&#10005;&nbsp; Quitar de la rutina", function(){ trainRemoveFromRoutine(ex.name); }, true);
   });
@@ -4311,7 +4365,8 @@ function renderTrain() {
   document.getElementById("trDayTitle").textContent = found.folder.name;
   document.getElementById("trDayChips").style.display = "none";
   var msA = mesoActive(trainWeek), msEl = document.getElementById("trMeso");
-  if (msEl) { msEl.style.display = msA ? "flex" : "none"; if (msA) msEl.innerHTML = msA.deload ? "Mesociclo \u00b7 <span>semana de descarga: menos series, cargas livianas</span>" : "Mesociclo \u00b7 semana " + (msA.i + 1) + " de " + mesoWeeks(msA.m) + " \u00b7 RIR objetivo <b>" + msA.rir.label + "</b>"; }
+  if (msEl && !msA && dlManual() === trainWeek) { msEl.style.display = "flex"; msEl.innerHTML = "<b>Semana de descarga</b> \u00b7 <span>menos series, cargas livianas y lejos del fallo</span>"; }
+  else if (msEl) { msEl.style.display = msA ? "flex" : "none"; if (msA) msEl.innerHTML = msA.deload ? "Mesociclo \u00b7 <span>semana de descarga: menos series, cargas livianas</span>" : "Mesociclo \u00b7 semana " + (msA.i + 1) + " de " + mesoWeeks(msA.m) + " \u00b7 RIR objetivo <b>" + msA.rir.label + "</b>"; }
   var list = document.getElementById("trList"); list.innerHTML = "";
   try { var stc = stTrainSugEl(found); if (stc) list.appendChild(stc); } catch(e) {}
   var exs = found.routine.exercises.map(exInfo);
@@ -4333,6 +4388,8 @@ function renderTrain() {
     var volTot = 0; sets.forEach(function(x){ if (!x.warmup && hasVals(x)) volTot += (parseFloat(x.weight) || 0) * (parseFloat(x.reps) || 0); });
     var vt = document.createElement("span"); vt.className = "trExVol"; vt.textContent = volTot > 0 ? Math.round(volTot).toLocaleString("es-AR") + " kg" : "";
     hd.appendChild(ttl); hd.appendChild(vt); hd.appendChild(more); blk.appendChild(hd);
+    var swp = swapOf(name);
+    if (swp) { var sv = document.createElement("div"); sv.className = "trSwap"; sv.textContent = (swp.mode === "insert" ? "Agregado hoy después de " : "Hoy en lugar de ") + swp.orig; blk.appendChild(sv); }
     if (trainLast[name]) { var lv = document.createElement("div"); lv.className = "trExLast"; lv.textContent = "\u00daltima vez: " + trainLast[name]; blk.appendChild(lv); }
     if (trainSug[name]) {
       var sg2 = trainSug[name], sgb = document.createElement("div"); sgb.className = "trSug " + sg2.mode;
@@ -4518,6 +4575,7 @@ function renderRoutinesHome() {
   var area = document.getElementById("routinesArea"); if (!area) return;
   var data = routinesData(); area.innerHTML = "";
   // La rutina en curso se muestra en la barra flotante de abajo (liveBar)
+  try { var dls = document.getElementById("dlSlot"), dlc = deloadHomeCard(); if (dls) { dls.innerHTML = ""; if (dlc) dls.appendChild(dlc); } } catch(e) {}
   area.appendChild(mesoHomeCard());
   var head = document.createElement("div"); head.className = "rtHead";
   head.innerHTML = "<span class=\"rtTitle\">Rutinas</span>";
@@ -4888,6 +4946,7 @@ function trainSaveSession() {
 }
 function trainEndSession() {
   closeTrSheet();
+  try { swapsRestore(); } catch(e) {}     // los cambios de "maquina ocupada" valen solo por la sesion
   try { localStorage.removeItem("gymSessionStart"); } catch(e) {}
   resetTimer(); trainEdit = {};
   showScreen("homeScreen");
@@ -5786,7 +5845,7 @@ function muscleJumps(wk) {
   var c = alertCfg(), res = {}; if (!c.on) return res;
   var cur = weeklyTonnage(wk), prev = [];
   for (var i = 1; i <= 4; i++) prev.push(weeklyTonnage(wkAdd(wk, -i)));
-  var dl = mesoActive(wkAdd(wk, -1));   // la semana despues de una descarga sube siempre: no se compara contra la descarga
+  var dl = { deload: isDeloadWeek(wkAdd(wk, -1)) };   // la semana despues de una descarga sube siempre: no se compara contra la descarga
   VOLUME_GROUPS.forEach(function(g) {
     var vals = prev.map(function(p){ return p[g]; }).filter(function(v, i){ return v > 0 && !(i === 0 && dl && dl.deload); });
     if (vals.length < 2 || !cur[g]) return;
@@ -6377,10 +6436,11 @@ function progSuggest(name) {
   var rirs = top.filter(function(x){ return x.rir !== undefined && x.rir !== null; }).map(function(x){ return x.rir; });
   var avgRir = rirs.length ? rirs.reduce(function(a, b){ return a + b; }, 0) / rirs.length : null;
   var step = weightStep(name, wTop), out = { sets: [] }, nW = wTop, nR;
-  if (ms && ms.deload) {
+  var dlNow = (ms && ms.deload) || dlManual() === (trainWeek || getWeekKey(new Date()));
+  if (dlNow) {
     nW = roundStep(wTop * 0.9, step || 1);
     out.mode = "deload"; out.text = "Descarga: " + (wTop ? fmtW(nW) + " kg" : "peso corporal") + " × " + lo + " reps, la mitad de las series, lejos del fallo.";
-    out.why = "Semana de descarga del mesociclo: es para recuperarte.";
+    out.why = ms && ms.deload ? "Semana de descarga del mesociclo: es para recuperarte." : "Semana de descarga: es para recuperarte.";
     work.forEach(function(x, i){ if (i < Math.ceil(work.length / 2)) out.sets.push({ weight: wTop ? String(nW) : "", reps: lo }); });
     return out;
   }
@@ -6626,10 +6686,14 @@ function aiSummary(focusEx) {
   // Alertas
   var jm = muscleJumps(wk), jk = Object.keys(jm);
   if (jk.length) L.push("\n## Alertas\nSalto de tonelaje semanal en: " + jk.map(function(g){ return displayGroup(g) + " (+" + Math.round(jm[g].pct) + "%)"; }).join(", "));
+  try { var dc = deloadCheck(); if (dc.reasons.length) L.push("\n## Señales de fatiga" + (dc.suggest ? " (la app sugiere una semana de descarga)" : "") + "\n" + dc.reasons.join("\n")); } catch(e) {}
   return L.join("\n");
 }
 function aiShare(question, focusEx) {
-  var text = "Sos mi entrenador personal y respondés en español rioplatense, basado en evidencia y siendo honesto con lo que no se sabe.\n\n" + question + "\n\n---\n" + aiSummary(focusEx);
+  return aiShareText("Sos mi entrenador personal y respondés en español rioplatense, basado en evidencia y siendo honesto con lo que no se sabe.\n\n" + question + "\n\n---\n" + aiSummary(focusEx));
+}
+// Comparte un texto con la app de Claude (o lo copia si no se puede compartir)
+function aiShareText(text) {
   var C = window.Capacitor, isNative = !!(C && C.isNativePlatform && C.isNativePlatform() && C.nativePromise);
   if (isNative) {
     C.nativePromise("Share", "share", { title: "Consulta para Claude", text: text, dialogTitle: "Elegí Claude" }).catch(function(e){
@@ -6661,6 +6725,11 @@ function openAISheet(focusEx) {
       { label: "Estoy estancado, ¿qué cambio?", q: "Estoy estancado en " + focusEx + ". ¿Qué cambiarías? Variantes, rango de reps, volumen o técnica." },
       { label: "¿Lo reemplazo por otro?", q: "¿Conviene reemplazar " + focusEx + " por otro ejercicio con mejor relación estímulo/fatiga? Dame opciones y por qué." }
     ] : AI_PRESETS;
+    if (!focusEx) {
+      var cw = getWeekKey(new Date()), lw = wkAdd(cw, -1);
+      if (weekHasData(cw)) trSheetBtn(body, "&#128197;&nbsp; Resumen de esta semana", function(){ weeklySend(cw); });
+      if (weekHasData(lw)) trSheetBtn(body, "&#128197;&nbsp; Resumen de la semana pasada", function(){ weeklySend(lw); });
+    }
     presets.forEach(function(p){ trSheetBtn(body, "✨&nbsp; " + escHtml(p.label), function(){ aiShare(p.q, focusEx); }); });
     var free = document.createElement("div"); free.className = "exdWrap aiFree";
     free.innerHTML = '<div class="exdSec">O escribí tu pregunta</div><textarea id="aiQ" rows="3" placeholder="Ej.: ¿Me conviene entrenar piernas 2 veces por semana?"></textarea><div class="updRow"><button class="updGo" id="aiSend">Enviar a Claude</button><button class="updLater" id="aiCopyBtn">Copiar</button></div>';
@@ -7575,7 +7644,7 @@ var LAUNCH_CARDS = [
 ];
 function renderLaunch() {
   var root = document.getElementById("launchRoot"); if (!root) return;
-  var d = new Date(), h = '<div class="lnDate">' + d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" }) + '</div><div class="lnTitle">¿Qué hacemos hoy?</div><div id="lnUpd"></div>';
+  var d = new Date(), h = '<div class="lnDate">' + d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" }) + '</div><div class="lnTitle">¿Qué hacemos hoy?</div><div id="lnUpd"></div><div id="lnWeekly"></div>';
   LAUNCH_CARDS.forEach(function(c) {
     var inf = c.info();
     h += '<button class="lnCard ' + c.id + (inf.live ? " live" : "") + '" data-c="' + c.id + '"><span class="lnIc"><svg viewBox="0 0 24 24" aria-hidden="true">' + c.ic + '</svg></span><span class="lnMid"><b>' + c.title + '</b><span id="lnInfo_' + c.id + '">' + escHtml(inf.txt) + '</span></span><span class="lnGo">' + (inf.live ? '<em>' + inf.go + '</em>' : "&#8250;") + "</span></button>";
@@ -7583,6 +7652,7 @@ function renderLaunch() {
   h += '<div class="lnFoot"><button id="lnGuide">Instructivo</button><button id="lnBackup">Copias</button><button id="lnOpen">Al abrir</button></div><div id="lnVer"></div>';
   root.innerHTML = h;
   root.querySelector("#lnUpd").appendChild(Updater.card());
+  try { var wkc = weeklyCardEl(); if (wkc) root.querySelector("#lnWeekly").appendChild(wkc); } catch(e) {}
   root.querySelector("#lnVer").appendChild(Updater.footer());
   root.querySelectorAll(".lnCard").forEach(function(b) { b.onclick = function() { launchGo(b.getAttribute("data-c")); }; });
   root.querySelector("#lnGuide").onclick = function() { openGuide(); };
@@ -7764,6 +7834,310 @@ function openBackupSheet() {
 document.addEventListener("visibilitychange", function() { if (document.hidden) autoBackup("abrir"); });
 setTimeout(function() { autoBackup("abrir"); }, 4000);
 
+// ============================================================
+// ENTRENADOR: aviso de descarga, frecuencia y equilibrio, "maquina ocupada" y resumen semanal.
+// Todo son sugerencias calculadas con tus propios registros: nada bloquea ni cambia datos solo.
+// ============================================================
+function effSet(x) { return !!(x && !x.warmup && (x.reps || x.weight) && !(x.rir >= 4)); }
+function weekRawSets(wk) {
+  var wd = gymData[wk] || {}, n = 0;
+  for (var name in wd) { var arr = wd[name]; if (Array.isArray(arr)) for (var i = 0; i < arr.length; i++) if (effSet(arr[i])) n++; }
+  return n;
+}
+
+// ---------- 1) Semana de descarga ----------
+// Descarga "a mano" (fuera de un mesociclo): se guarda la semana en que la haces.
+function dlManual() { return bkLs("gymDeloadWk") || ""; }
+function isDeloadWeek(wk) { var ma = mesoActive(wk); return !!(ma && ma.deload) || dlManual() === wk; }
+var _dlMemo = null;
+// Señales de fatiga acumulada. Devuelve { suggest, score, reasons, drops, tracked, weeks, active, snoozed }
+function deloadCheck() {
+  if (_dlMemo && Date.now() - _dlMemo.t < 15000 && _dlMemo.len === (bkLs("gymData") || "").length) return _dlMemo.res;
+  var cur = getWeekKey(new Date()), out = { suggest: false, score: 0, reasons: [], drops: [], tracked: 0, weeks: 0, active: false, snoozed: false };
+  function done() { _dlMemo = { t: Date.now(), len: (bkLs("gymData") || "").length, res: out }; return out; }
+  if (isDeloadWeek(cur)) { out.active = true; return done(); }
+  var hist = []; for (var i = 0; i < 12; i++) { var wk = wkAdd(cur, -i); hist.push({ wk: wk, sets: weekRawSets(wk), dl: isDeloadWeek(wk) }); }
+  var trained = hist.filter(function(h) { return h.sets > 0 && !h.dl; }).map(function(h) { return h.sets; }).sort(function(a, b) { return a - b; });
+  if (trained.length < 4 || hist[1].dl || hist[2].dl) return done();     // poco historial, o descargaste hace nada
+  var med = trained[Math.floor(trained.length / 2)];
+  // Semanas seguidas de carga (una semana "liviana", con menos del 60 % de lo habitual, corta la cuenta)
+  for (var k = (hist[0].sets >= med * 0.6 ? 0 : 1); k < hist.length; k++) { if (hist[k].dl || hist[k].sets < med * 0.6) break; out.weeks++; }
+  // Rendimiento: 1RM estimado de las dos ultimas sesiones por debajo (3 % o mas) del mejor de las anteriores
+  var names = {}, cutoff = Date.now() - 21 * 864e5;
+  hist.slice(0, 4).forEach(function(h) { var wd = gymData[h.wk] || {}; for (var n in wd) if (Array.isArray(wd[n])) names[n] = 1; });
+  Object.keys(names).forEach(function(name) {
+    var S = exSessions(name).filter(function(s) { return s.dated && s.rm > 0 && !isDeloadWeek(getWeekKey(s.date)); }).slice(-6);
+    if (S.length < 4 || S[S.length - 1].date.getTime() < cutoff) return;
+    out.tracked++;
+    var ref = Math.max.apply(null, S.slice(0, -2).map(function(s) { return s.rm; })), a = S[S.length - 1].rm, b = S[S.length - 2].rm;
+    if (a < ref * 0.97 && b < ref * 0.97) out.drops.push({ name: name, pct: (a / ref - 1) * 100 });
+  });
+  out.drops.sort(function(a, b) { return a.pct - b.pct; });
+  var D = out.drops.length, perf = D >= 2 && D / out.tracked >= 0.3, strong = D >= 3 && D / out.tracked >= 0.5;
+  // Volumen cerca del limite dos semanas seguidas
+  var v1 = computeWeeklyVolume(hist[1].wk), v2 = computeWeeklyVolume(hist[2].wk), lim = [], over = false;
+  VOLUME_GROUPS.forEach(function(g) {
+    var z1 = classifyVolume(v1[g] || 0, g).zone, z2 = classifyVolume(v2[g] || 0, g).zone;
+    if ((z1 === "mrv" || z1 === "over") && (z2 === "mrv" || z2 === "over")) { lim.push(displayGroup(g)); if (z1 === "over" && z2 === "over") over = true; }
+  });
+  var volHigh = lim.length >= 2 || over;
+  // Esfuerzo: RIR promedio de las ultimas dos semanas
+  var rs = 0, rn = 0;
+  [hist[0].wk, hist[1].wk].forEach(function(wk) { var wd = gymData[wk] || {}; for (var n in wd) if (Array.isArray(wd[n])) wd[n].forEach(function(x) { if (effSet(x) && x.rir !== undefined && x.rir !== null) { rs += x.rir; rn++; } }); });
+  var hard = rn >= 12 && rs / rn <= 0.7;
+  out.score = (strong ? 3 : perf ? 2 : 0) + (volHigh ? 1 : 0) + (hard ? 1 : 0) + (out.weeks >= 8 ? 2 : out.weeks >= 6 ? 1 : 0);
+  if (perf) out.reasons.push("Bajó el 1RM estimado en " + D + " de " + out.tracked + " ejercicios en las dos últimas sesiones: " + out.drops.slice(0, 3).map(function(d) { return d.name + " (" + Math.round(d.pct) + " %)"; }).join(", ") + (D > 3 ? " y " + (D - 3) + " más" : "") + ".");
+  if (volHigh) out.reasons.push(lim.join(", ") + (lim.length === 1 ? " lleva" : " llevan") + " dos semanas seguidas " + (over ? "por encima del límite" : "cerca del límite") + " de volumen.");
+  if (hard) out.reasons.push("Venís entrenando casi siempre al fallo (RIR promedio " + (Math.round(rs / rn * 10) / 10).toLocaleString("es-AR") + " en las últimas dos semanas).");
+  if (out.weeks >= 6) out.reasons.push("Llevás " + out.weeks + " semanas seguidas de carga sin una semana liviana.");
+  out.suggest = out.score >= 3;
+  out.snoozed = (+bkLs("gymDeloadSnooze") || 0) > Date.now();
+  return done();
+}
+function deloadStart() { bkLs("gymDeloadWk", getWeekKey(new Date())); _dlMemo = null; trainSug = {}; showToast("Semana de descarga: la app te sugiere menos series y cargas livianas"); renderHome(); }
+function deloadCancel() { try { localStorage.removeItem("gymDeloadWk"); } catch(e) {} _dlMemo = null; trainSug = {}; renderHome(); }
+function deloadHomeCard() {
+  var cur = getWeekKey(new Date()), el = document.createElement("div");
+  if (dlManual() === cur) {
+    el.className = "dlCard on";
+    el.innerHTML = '<div class="dlTop"><span class="dlIc">&#128164;</span><b>Semana de descarga</b></div><div class="dlTxt">En cada ejercicio la app te sugiere la mitad de las series, un 10 % menos de peso y lejos del fallo. El lunes vuelve todo a lo normal.</div><div class="dlBtns"><button class="dlNo" id="dlCancel">Cancelar la descarga</button></div>';
+    el.querySelector("#dlCancel").onclick = deloadCancel;
+    return el;
+  }
+  var c = deloadCheck(); if (!c.suggest || c.snoozed) return null;
+  var ma = mesoActive(cur);
+  el.className = "dlCard";
+  el.innerHTML = '<div class="dlTop"><span class="dlIc">&#128164;</span><b>Puede ser momento de una semana de descarga</b></div><ul class="dlList">' + c.reasons.map(function(r) { return "<li>" + escHtml(r) + "</li>"; }).join("") + '</ul>' +
+    '<div class="dlTxt">' + (ma ? "Tu mesociclo tiene la descarga más adelante: podés adelantarla. " : "") + 'Es una sugerencia: el bajón también puede venir de dormir o comer mal, o de una mala semana.</div>' +
+    '<div class="dlBtns"><button class="dlGo" id="dlGo">Hacer descarga esta semana</button><button class="dlNo" id="dlNo">Ahora no</button></div>';
+  el.querySelector("#dlGo").onclick = deloadStart;
+  el.querySelector("#dlNo").onclick = function() { bkLs("gymDeloadSnooze", String(Date.now() + 10 * 864e5)); _dlMemo = null; el.remove(); };
+  return el;
+}
+
+// ---------- 2) Frecuencia por musculo y equilibrio empuje / traccion ----------
+// Por grupo: series por dia de la semana (principal = 1, secundario = 0,5)
+function weekFrequency(wk) {
+  var wd = gymData[wk] || {}, days = weekDays(wk), out = {};
+  VOLUME_GROUPS.forEach(function(g) { out[g] = { p: [0, 0, 0, 0, 0, 0, 0], s: [0, 0, 0, 0, 0, 0, 0], days: 0, maxDay: 0 }; });
+  Object.keys(wd).forEach(function(name) {
+    var arr = wd[name]; if (!Array.isArray(arr)) return;
+    var m = getExerciseMuscles(name, exGroupOf(name)); if (!m) return;
+    arr.forEach(function(x) {
+      if (!effSet(x)) return; var i = days.indexOf(setDay(x)); if (i < 0) return;
+      if (out[m.agonist]) out[m.agonist].p[i] += 1;
+      m.synergists.forEach(function(sg) { if (out[sg]) out[sg].s[i] += 0.5; });
+    });
+  });
+  VOLUME_GROUPS.forEach(function(g) { for (var i = 0; i < 7; i++) { var t = out[g].p[i] + out[g].s[i]; if (out[g].p[i] > 0) out[g].days++; if (t > out[g].maxDay) out[g].maxDay = t; } });
+  return out;
+}
+// Series efectivas por patron de movimiento, y cuadriceps frente a isquios
+function weekPatterns(wk) {
+  var wd = gymData[wk] || {}, P = { empuje_horizontal: 0, empuje_vertical: 0, traccion_horizontal: 0, traccion_vertical: 0 };
+  Object.keys(wd).forEach(function(name) {
+    var arr = wd[name]; if (!Array.isArray(arr)) return;
+    var n = 0; arr.forEach(function(x) { if (effSet(x)) n++; }); if (!n) return;
+    var pt = exMeta(name).patron; if (P.hasOwnProperty(pt)) P[pt] += n;
+  });
+  var mus = computeMuscleWeek(wk);
+  return { eh: P.empuje_horizontal, ev: P.empuje_vertical, th: P.traccion_horizontal, tv: P.traccion_vertical, push: P.empuje_horizontal + P.empuje_vertical, pull: P.traccion_horizontal + P.traccion_vertical, quad: mus.cuadriceps.sets, ham: mus.isquios.sets };
+}
+function balVerdict(push, pull) {
+  if (push + pull < 6) return { t: "Pocas series todavía para comparar.", c: "" };
+  if (pull < push * 0.8) return { t: "Hay menos tracción que empuje: sumá remos o jalones.", c: "warn" };
+  if (push < pull * 0.5) return { t: "Mucha más tracción que empuje. No suele ser un problema, salvo que quieras priorizar pecho u hombros.", c: "" };
+  return { t: "Empuje y tracción están parejos.", c: "ok" };
+}
+function renderBalanceExtra(div, wk) {
+  var F = weekFrequency(wk), W = weekPatterns(wk), card = document.createElement("div"); card.className = "balCard fqCard";
+  var withData = VOLUME_GROUPS.filter(function(g) { return F[g].days > 0 || F[g].maxDay > 0; });
+  if (!withData.length) return;
+  var L = ["L", "M", "M", "J", "V", "S", "D"], h = '<div class="balSetName">Frecuencia por grupo</div><div class="fqHead"><span></span><span class="fqDots">' + L.map(function(x) { return "<i>" + x + "</i>"; }).join("") + '</span><span></span></div>';
+  var warn = [];
+  withData.forEach(function(g) {
+    var f = F[g];
+    h += '<div class="fqRow"><span class="fqName">' + displayGroup(g) + '</span><span class="fqDots">';
+    for (var i = 0; i < 7; i++) h += '<i class="' + (f.p[i] > 0 ? "p" : f.s[i] > 0 ? "s" : "") + '"' + (f.p[i] + f.s[i] > 0 ? ' title="' + fmtSets(f.p[i] + f.s[i]) + ' series"' : "") + "></i>";
+    h += '</span><span class="fqN">' + (f.days ? f.days + (f.days === 1 ? " día" : " días") : "solo secundario") + "</span></div>";
+    if (f.maxDay > 10) warn.push(displayGroup(g) + ": " + fmtSets(f.maxDay) + " series en un solo día");
+  });
+  h += '<div class="fqLegend"><span><i class="p"></i>Trabajo directo</span><span><i class="s"></i>Solo como secundario</span></div>';
+  if (warn.length) h += '<div class="fqWarn">' + warn.join(" · ") + ". Con tantas series juntas las últimas salen cansadas: repartidas en dos días suelen rendir más.</div>";
+  h += '<div class="fqNote">Con el mismo volumen semanal, entrenar un grupo una, dos o tres veces por semana rinde parecido. La frecuencia sirve para repartir las series y hacerlas más descansado.</div>';
+  // Equilibrio
+  var avg = { push: 0, pull: 0, n: 0 };
+  for (var k = 1; k <= 4; k++) { var p = weekPatterns(wkAdd(wk, -k)); if (p.push + p.pull > 0) { avg.push += p.push; avg.pull += p.pull; avg.n++; } }
+  function bar(a, b, la, lb) {
+    var t = a + b, pa = t ? Math.round(a / t * 100) : 50;
+    return '<div class="eqRow"><span><b>' + fmtSets(a) + "</b> " + la + '</span><span>' + lb + " <b>" + fmtSets(b) + '</b></span></div><div class="eqBar"><i style="width:' + pa + '%"></i><i class="b" style="width:' + (100 - pa) + '%"></i></div>';
+  }
+  h += '<div class="balSetName" style="margin-top:16px">Equilibrio</div>';
+  if (W.push + W.pull > 0) {
+    var v = balVerdict(W.push, W.pull);
+    h += bar(W.push, W.pull, "empuje", "tracción") + '<div class="eqSub">Empuje: ' + fmtSets(W.eh) + " horizontal y " + fmtSets(W.ev) + " vertical · Tracción: " + fmtSets(W.th) + " horizontal y " + fmtSets(W.tv) + ' vertical</div><div class="eqVerdict ' + v.c + '">' + v.t + "</div>";
+    if (avg.n >= 2) h += '<div class="eqSub">Promedio de las ' + avg.n + " semanas anteriores: " + fmtSets(avg.push / avg.n) + " de empuje y " + fmtSets(avg.pull / avg.n) + " de tracción.</div>";
+  } else h += '<div class="eqSub">Esta semana no hay series de empuje ni de tracción.</div>';
+  if (W.quad + W.ham > 0) {
+    h += '<div style="height:10px"></div>' + bar(W.quad, W.ham, "cuádriceps", "isquios");
+    if (W.quad >= 4 && W.ham < W.quad * 0.5) h += '<div class="eqVerdict warn">Poco trabajo de isquios frente a cuádriceps: sumá un curl femoral o un peso muerto rumano.</div>';
+  }
+  h += '<div class="fqNote">Son reglas prácticas para no descompensarte, no una ley: el objetivo puede justificar un desbalance.</div>';
+  card.innerHTML = h; div.appendChild(card);
+}
+
+// ---------- 3) Maquina ocupada: alternativas equivalentes, solo por hoy ----------
+// El cambio se hace en la rutina y se deshace solo cuando termina la sesion.
+function swapsGet() { try { var v = JSON.parse(localStorage.getItem("gymSwaps") || "null"); return v && Array.isArray(v.list) ? v : null; } catch(e) { return null; } }
+function swapsSet(v) { try { if (v && v.list.length) localStorage.setItem("gymSwaps", JSON.stringify(v)); else localStorage.removeItem("gymSwaps"); } catch(e) {} }
+function swapsRestore() {
+  var sw = swapsGet(); if (!sw) return;
+  var f = findRoutine(sw.routineId);
+  if (f) {
+    var ex = f.routine.exercises;
+    sw.list.slice().reverse().forEach(function(c) {
+      var i = ex.indexOf(c.alt); if (i < 0) return;
+      if (c.mode === "insert" || ex.indexOf(c.orig) >= 0) ex.splice(i, 1); else ex[i] = c.orig;
+    });
+    persistRoutines();
+  }
+  swapsSet(null);
+}
+// Si la sesion de esos cambios ya no esta en curso, se deshacen (por ejemplo, si se cerro la app)
+function swapsCheck() { var sw = swapsGet(); if (!sw) return; var ses = trainGetSession(); if (!ses || ses.routineId !== sw.routineId || ses.t !== sw.t) swapsRestore(); }
+function swapOf(name) { var sw = swapsGet(); if (!sw || sw.routineId !== trainRoutineId) return null; for (var i = 0; i < sw.list.length; i++) if (sw.list[i].alt === name) return sw.list[i]; return null; }
+function todaySaved(name) { var arr = (gymData[trainWeek || getWeekKey(new Date())] || {})[name] || [], d = localDay(), n = 0; arr.forEach(function(x) { if (setDay(x) === d) n++; }); return n; }
+function machineSwap(orig, alt) {
+  var f = findRoutine(trainRoutineId); if (!f) return;
+  var ses = trainGetSession(), sw = swapsGet(), t = ses ? ses.t : 0;
+  if (!sw || sw.routineId !== trainRoutineId || sw.t !== t) { swapsRestore(); sw = { routineId: trainRoutineId, t: t, list: [] }; }
+  var ex = f.routine.exercises, i = ex.indexOf(orig); if (i < 0 || ex.indexOf(alt) >= 0) return;
+  if (!isInRoutine(alt)) addFromLibrary(alt, exGroupOf(alt) || exGroupOf(orig));
+  var prev = swapOf(orig);
+  if (todaySaved(orig) > 0) { ex.splice(i + 1, 0, alt); sw.list.push({ orig: orig, alt: alt, mode: "insert" }); }   // ya hiciste series: queda, y la alternativa va despues
+  else if (prev && prev.mode !== "insert") { ex[i] = alt; sw.list.forEach(function(c) { if (c.alt === orig) c.alt = alt; }); }
+  else { ex[i] = alt; sw.list.push({ orig: orig, alt: alt, mode: "replace" }); }
+  persistRoutines(); swapsSet(sw); delete trainEdit[orig]; renderTrain();
+  showToast("Hoy hacés " + alt + ". Tu rutina vuelve a la normalidad al terminar.");
+}
+function machineUndo(alt, keep) {
+  var sw = swapsGet(), c = swapOf(alt), f = findRoutine(trainRoutineId); if (!sw || !c || !f) return;
+  if (!keep) { var ex = f.routine.exercises, i = ex.indexOf(alt); if (i >= 0) { if (c.mode === "insert" || ex.indexOf(c.orig) >= 0) ex.splice(i, 1); else ex[i] = c.orig; } persistRoutines(); delete trainEdit[alt]; }
+  sw.list = sw.list.filter(function(x) { return x.alt !== alt; }); swapsSet(sw); renderTrain();
+  showToast(keep ? alt + " queda en la rutina" : "Volviste a " + c.orig);
+}
+// Ejercicios que trabajan el mismo musculo principal; primero mismo patron, otro equipo y los que ya conoces
+function machineAlternatives(name, max) {
+  var g0 = exGroupOf(name), m = exMeta(name, g0), mu = exMuscles(name, g0), f = findRoutine(trainRoutineId), inR = f ? f.routine.exercises : [];
+  if (!mu.p) return [];
+  var known = {}; Object.keys(gymData).forEach(function(wk) { if (/^\d{4}-/.test(wk)) for (var n in gymData[wk]) known[n] = 1; });
+  var seen = {}, out = [], reg0 = m.region ? m.region.split(",")[0] : "";
+  function consider(n, g) {
+    if (seen[n] || n === name) return; seen[n] = 1;
+    if (inR.indexOf(n) >= 0 || libIsHidden(n)) return;
+    var mm = exMuscles(n, g); if (mm.p !== mu.p) return;
+    var x = exMeta(n, g); if (x.patron === "movilidad" || x.patron === "cardio") return;
+    var score = (x.patron === m.patron ? 5 : 0) + (x.equipo !== m.equipo ? 2 : 0) + (x.sfr || 0) * 0.8 + (x.longitud === m.longitud ? 1 : 0) + (known[n] ? 3 : 0) + (reg0 && x.region && x.region.split(",")[0] === reg0 ? 1 : 0) - (x.demanda === "alta" ? 1 : 0);
+    out.push({ name: n, group: g, m: x, score: score, known: !!known[n] });
+  }
+  for (var g in LIBRARY) (LIBRARY[g].exercises || []).forEach(function(n) { consider(n, g); });
+  getAllEx().forEach(function(e) { consider(e.name, e.group); });
+  out.sort(function(a, b) { return b.score - a.score || (a.name < b.name ? -1 : 1); });
+  return out.slice(0, max || 6);
+}
+function machineSheet(name) {
+  var mu = exMuscles(name), alts = machineAlternatives(name, 6), c = swapOf(name);
+  openTrSheet("Máquina ocupada", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<div class="exdIntro">Alternativas a <b>' + escHtml(name) + "</b>" + (mu.p ? " para " + MUSCLES[mu.p].name.toLowerCase() : "") + ". El cambio vale solo por hoy: al terminar, tu rutina queda como estaba" + (todaySaved(name) > 0 ? " (como ya registraste series, la alternativa se agrega después)" : "") + ".</div>";
+    body.appendChild(w);
+    if (!alts.length) { var e = document.createElement("div"); e.className = "exdWrap"; e.innerHTML = '<div class="exdIntro">No encontré ejercicios equivalentes en la biblioteca.</div>'; body.appendChild(e); }
+    alts.forEach(function(a) {
+      var sub = exMetaLabel("equipo", a.m.equipo) + (a.m.sfr ? " · SFR " + a.m.sfr + "/5" : "");
+      if (a.known) { var S = exSessions(a.name), l = S[S.length - 1]; if (l && l.best) sub += " · última vez " + exhFmt(parseFloat(l.best.weight) || 0, "kg") + " × " + l.best.reps; }
+      else sub += " · sin historial";
+      trSheetBtn(body, escHtml(a.name) + '<span class="updOld">' + escHtml(sub) + "</span>", function() { machineSwap(name, a.name); });
+    });
+    if (c) trSheetBtn(body, "&#8617;&nbsp; Volver a " + escHtml(c.orig), function() { machineUndo(name, false); });
+    trSheetBtn(body, "Buscar otro en la biblioteca (cambio permanente)", function() { startSubstitute(name); });
+  });
+}
+
+// ---------- 4) Resumen semanal para mandar a Claude ----------
+function weeklyReport(wk) {
+  var L = [], days = weekDays(wk), a = wkDate(wk), b = wkDate(wk); b.setDate(b.getDate() + 6);
+  var o = { day: "numeric", month: "long" }, prev = wkAdd(wk, -1);
+  L.push("Resumen de mi semana de entrenamiento, del " + a.toLocaleDateString("es-AR", o) + " al " + b.toLocaleDateString("es-AR", o) + " (app Gimnasio).");
+  L.push("Series efectivas = series de trabajo con 0–3 RIR. El músculo principal suma 1 serie y los secundarios 0,5. C = calentamiento, PC = peso corporal.");
+  var ses = loadSessions().filter(function(s) { var d = localDay(s.end || s.start); return days.indexOf(d) >= 0; });
+  L.push("\n## Constancia");
+  L.push("Días entrenados: " + daysTrained(wk) + (weeklyGoal ? " (meta: " + weeklyGoal + ")" : "") + ". Semana anterior: " + daysTrained(prev) + ".");
+  if (ses.length) L.push("Rutinas terminadas: " + ses.map(function(s) { return (s.routine || "rutina") + " (" + new Date(s.end || s.start).toLocaleDateString("es-AR", { weekday: "short" }) + (s.dur ? ", " + Math.round(s.dur / 60) + " min" : "") + ")"; }).join(", ") + ".");
+  var ma = mesoActive(wk);
+  if (ma) L.push("Mesociclo: semana " + (ma.i + 1) + " de " + mesoWeeks(ma.m) + (ma.deload ? " (descarga)" : "") + ", RIR objetivo " + ma.rir.label + ".");
+  else if (dlManual() === wk) L.push("Fue una semana de descarga.");
+  // Volumen
+  var T = weekTargets(wk), vp = computeWeeklyVolume(prev), F = weekFrequency(wk);
+  L.push("\n## Series efectivas por grupo (objetivo · zona · días con trabajo directo · semana anterior)");
+  T.forEach(function(x) { L.push(displayGroup(x.g) + ": " + fmtSets(x.sets) + " (objetivo " + x.target + " · " + VOL_ZONES[x.zone].name.toLowerCase() + " · " + F[x.g].days + (F[x.g].days === 1 ? " día" : " días") + " · antes " + fmtSets(vp[x.g] || 0) + ")"); });
+  var W = weekPatterns(wk);
+  L.push("\n## Equilibrio");
+  L.push("Empuje " + fmtSets(W.push) + " series (" + fmtSets(W.eh) + " horizontal, " + fmtSets(W.ev) + " vertical) · Tracción " + fmtSets(W.pull) + " (" + fmtSets(W.th) + " horizontal, " + fmtSets(W.tv) + " vertical) · Cuádriceps " + fmtSets(W.quad) + " · Isquios " + fmtSets(W.ham) + ".");
+  // Ejercicios
+  var wd = gymData[wk] || {}, names = Object.keys(wd).filter(function(n) { return Array.isArray(wd[n]) && wd[n].length; });
+  if (names.length) {
+    L.push("\n## Ejercicios de la semana (series; 1RM estimado frente a la sesión anterior)");
+    names.forEach(function(n) {
+      var S = exSessions(n), inWk = S.filter(function(s) { return days.indexOf(s.key) >= 0 || s.key === wk; }), before = S.filter(function(s) { return s.key < days[0]; });
+      if (!inWk.length) return;
+      var last = inWk[inWk.length - 1], pv = before[before.length - 1], best = before.length ? Math.max.apply(null, before.map(function(s) { return s.rm; })) : 0;
+      var line = "• " + n + ": " + inWk.map(function(s) { return s.sets.map(aiSetStr).join(", "); }).join(" | ");
+      if (last.rm && pv && pv.rm) line += " → 1RM est. " + aiNum(last.rm) + " kg (" + (last.rm >= pv.rm ? "+" : "") + aiNum((last.rm / pv.rm - 1) * 100) + " %)" + (best && last.rm > best ? ", mejor marca" : "");
+      else if (last.rm) line += " → 1RM est. " + aiNum(last.rm) + " kg (primera vez)";
+      L.push(line);
+    });
+  }
+  // Fatiga
+  var jm = muscleJumps(wk), jk = Object.keys(jm), dc = deloadCheck();
+  if (jk.length || dc.reasons.length) {
+    L.push("\n## Señales a mirar");
+    if (jk.length) L.push("Salto de tonelaje semanal en: " + jk.map(function(g) { return displayGroup(g) + " (+" + Math.round(jm[g].pct) + " %)"; }).join(", ") + ".");
+    dc.reasons.forEach(function(r) { L.push(r); });
+    if (dc.suggest) L.push("La app sugiere una semana de descarga.");
+  }
+  // Estiramiento y recorridos
+  var t0 = wkDate(wk); t0.setHours(0, 0, 0, 0); var t1 = t0.getTime() + 7 * 864e5;
+  var st = stData.log.filter(function(l) { return l.d >= t0.getTime() && l.d < t1; }), rt = routes.filter(function(r) { return r.start >= t0.getTime() && r.start < t1; });
+  if (st.length || rt.length) {
+    L.push("\n## Estiramiento y recorridos");
+    if (st.length) L.push("Estiramiento: " + st.length + (st.length === 1 ? " sesión, " : " sesiones, ") + Math.round(st.reduce(function(s, l) { return s + (l.secs || 0); }, 0) / 60) + " min.");
+    if (rt.length) L.push("Recorridos: " + rt.map(function(r) { return (ROUTE_MODES[r.mode] || ROUTE_MODES.correr).name.toLowerCase() + " " + rtKm(r.dist) + " km en " + rtClock(r.dur); }).join("; ") + ".");
+  }
+  return L.join("\n");
+}
+var WEEKLY_Q = "Analizá mi semana de entrenamiento: qué estuvo bien, qué me preocuparía y qué ajustarías para la semana que viene (series por grupo, pesos o reps objetivo de los ejercicios principales y si conviene una descarga). Sé concreto.";
+function weeklyText(wk) { return "Sos mi entrenador personal y respondés en español rioplatense, basado en evidencia y siendo honesto con lo que no se sabe.\n\n" + WEEKLY_Q + "\n\n---\n" + weeklyReport(wk); }
+function weekHasData(wk) {
+  if (weekRawSets(wk) > 0) return true;
+  var t0 = wkDate(wk); t0.setHours(0, 0, 0, 0); var a = t0.getTime(), b = a + 7 * 864e5;
+  return routes.some(function(r) { return r.start >= a && r.start < b; }) || stData.log.some(function(l) { return l.d >= a && l.d < b; });
+}
+// Semana cuyo resumen esta listo: la actual desde el domingo a las 18 h; si no, la anterior
+function weeklyDue() {
+  var now = new Date(), cur = getWeekKey(now), wk = (now.getDay() === 0 && now.getHours() >= 18) ? cur : wkAdd(cur, -1);
+  if (bkLs("gymWeeklyDone") === wk || !weekHasData(wk)) return null;
+  return wk;
+}
+function weeklySend(wk) { bkLs("gymWeeklyDone", wk); return aiShareText(weeklyText(wk)); }
+function weeklyCardEl() {
+  var wk = weeklyDue(); if (!wk) return null;
+  var el = document.createElement("div"); el.className = "wkRep";
+  el.innerHTML = '<div class="wkRepTxt"><b>Tu resumen de la semana está listo</b><span>' + formatWeek(wk) + ": " + daysTrained(wk) + (daysTrained(wk) === 1 ? " día" : " días") + " y " + fmtSets(weekRawSets(wk)) + ' series efectivas</span></div><button class="wkRepGo">&#10024; Enviar a Claude</button><button class="wkRepX" aria-label="Descartar">&times;</button>';
+  el.querySelector(".wkRepGo").onclick = function() { weeklySend(wk); el.remove(); };
+  el.querySelector(".wkRepX").onclick = function() { bkLs("gymWeeklyDone", wk); el.remove(); };
+  return el;
+}
+
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
 var dragSrcIdx = null;
@@ -7939,6 +8313,10 @@ var GUIDE_SECTIONS = [
       { icon:"&#9888;", title:"Alertas de salto de carga", desc:"Si registrás un peso mucho mayor que tu máximo reciente, o el tonelaje semanal de un grupo sube de golpe respecto de tus últimas semanas, aparece un aviso (no bloquea nada). Los umbrales se cambian en Balance › Ajustes." },
       { icon:"&#8599;", title:"Progresión sugerida", desc:"En cada ejercicio de la rutina aparece qué hacer hoy, según la última vez y tu rango de repeticiones: subir el peso cuando llegaste al tope del rango en todas las series (o te sobraban reps), sumar una rep, mantener o bajar. Lo sugerido queda en gris, así ✓ lo registra directo. Los ejercicios nuevos arrancan con una calibración. El rango se cambia en los 3 puntos › Rango de repeticiones." },
       { icon:"&#128170;", title:"Fuerza y volumen", desc:"En el Balance, al abrir un grupo (o tocar un músculo del mapa), Fuerza y volumen muestra tu índice de fuerza (1RM estimado) semana a semana junto a las series, cuánto creció tu fuerza según la zona de volumen y qué ejercicios más te hicieron progresar. Elegís 3 meses, 6 meses, 1 año o todo." },
+      { icon:"&#128164;", title:"Aviso de descarga", desc:"Si en varios ejercicios baja tu 1RM estimado dos sesiones seguidas, o venís con mucho volumen, muchas series al fallo o muchas semanas sin aflojar, en el inicio aparece la sugerencia de una semana de descarga con los motivos. Si la aceptás, esa semana la app te sugiere la mitad de las series y un 10 % menos de peso. Es una sugerencia: se puede posponer o cancelar." },
+      { icon:"&#128197;", title:"Frecuencia y equilibrio", desc:"Al final del Balance: qué días de la semana trabajaste cada grupo (directo o solo como secundario) y la comparación entre empuje y tracción y entre cuádriceps e isquios, con el promedio de las semanas anteriores." },
+      { icon:"&#9203;", title:"Máquina ocupada", desc:"En los 3 puntos de un ejercicio, dentro de la rutina: alternativas que trabajan el mismo músculo, primero las del mismo patrón, con otro equipo y las que ya conocés (muestra tu última marca). El cambio vale solo por hoy; al terminar, la rutina queda como estaba." },
+      { icon:"&#128232;", title:"Resumen semanal", desc:"Desde el domingo a la tarde, en la entrada aparece el resumen de la semana listo para enviar a Claude: días, series por grupo contra el objetivo, frecuencia, equilibrio, cada ejercicio con su progreso, señales de fatiga, estiramiento y recorridos. También está en Consultar a Claude." },
       { icon:"&#128300;", title:"Zonas según la investigación", desc:"En Balance › Ajustes podés elegir entre los rangos por músculo (Israetel / RP, editables) o los mismos rangos para todos según los estudios de dosis y respuesta: crecimiento desde 4 series semanales y volumen alto y productivo entre 10 y 20." },
       { icon:"&#10024;", title:"Consultar a Claude", desc:"Con el icono de destello de arriba (o en los 3 puntos de un ejercicio › Preguntar a Claude) elegís una pregunta o escribís la tuya. La app arma un resumen de tus datos (volumen por grupo, mesociclo, rutinas y últimas sesiones) y lo compartís con la app de Claude, donde recibís la respuesta. Si preferís, Copiar lo deja listo para pegar." },
       { icon:"C", title:"Calentamiento automático", desc:"En cada ejercicio, + Calentamiento agrega dos series de aproximación antes de las de trabajo: la primera al 45% y la segunda al 65% del peso que venís trabajando (lo que escribiste hoy, lo sugerido o la última vez), redondeado al disco o mancuerna más cercano. Si agregás una tercera, va al 80%. ✓ las registra tal cual." },
@@ -8472,6 +8850,7 @@ function closeExDesc() {
 
 renderHome();
 // las pantallas de rutina estan mas abajo en el HTML: arrancar cuando ya existen
+try { swapsCheck(); } catch(e) {}
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", launchInit); else launchInit();
 </script>
 
