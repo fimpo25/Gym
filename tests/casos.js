@@ -73,12 +73,12 @@ async function registrarSerie(t, peso, reps) {
 
 module.exports = [
   {
-    nombre: "arranque: abre en la entrada, sin errores, y se llega a las tres secciones",
+    nombre: "arranque: abre en la entrada, sin errores, y se llega a las cuatro secciones",
     correr: async (t) => {
       await t.abrir();
       t.igual(await t.pantalla(), "launchScreen", "pantalla inicial");
-      t.igual(await t.page.locator(".lnCard").count(), 3, "tarjetas de la entrada");
-      for (const [tarjeta, pantalla] of [["gym", "homeScreen"], ["stretch", "stretchScreen"], ["route", "routeScreen"]]) {
+      t.igual(await t.page.locator(".lnCard").count(), 4, "tarjetas de la entrada (gimnasio, estiramiento, recorridos y cuerpo)");
+      for (const [tarjeta, pantalla] of [["gym", "homeScreen"], ["stretch", "stretchScreen"], ["route", "routeScreen"], ["body", "bodyScreen"]]) {
         await t.page.click(".lnCard." + tarjeta); await t.espera(250);
         t.igual(await t.pantalla(), pantalla, "tarjeta " + tarjeta);
         await t.ev(() => history.back()); await t.espera(300);      // boton atras de Android
@@ -550,6 +550,140 @@ module.exports = [
       // el miercoles siguiente, el resumen pendiente es el de la semana anterior (si no se envio)
       await irA(t, 3, 9);
       t.igual(await t.ev(() => { const cur = getWeekKey(new Date()), ant = wkAdd(cur, -1); const yaEnviada = weeklyDue(); localStorage.removeItem("gymWeeklyDone"); return [yaEnviada, weeklyDue() === ant, weekHasData(cur)]; }), [null, true, false], "entre semana se ofrece la semana anterior");
+    },
+  },
+  {
+    nombre: "recorrido: pausa automática al frenar, aviso por km, récords y GPX",
+    correr: async (t) => {
+      await t.abrir(gpsSimulado);
+      await t.ev(() => { localStorage.setItem("gymStretchSug", "0"); localStorage.setItem("gymRouteOpts", JSON.stringify({ autoPause: true, voice: true })); });
+      await t.page.click(".lnCard.route"); await t.espera(300);
+      t.ok(/Pausa automática al frenar\s*Sí/i.test(await t.page.locator("#rtAutoBtn").innerText()) && /voz en cada km\s*Sí/i.test(await t.page.locator("#rtVoiceBtn").innerText()), "opciones en la pantalla de recorridos");
+      await t.page.locator(".rtModes button", { hasText: "Correr" }).click();
+      await t.page.click("#rtStartBtn"); await t.espera(500);
+      // 300 s a 4 m/s (1,2 km)
+      await t.ev(() => { window.__lat = -32.9442; for (let i = 0; i < 300; i++) { window.__off += 1000; window.__lat += 4 / 110540; window.__fix(window.__lat, -60.6505, 8, 20); } });
+      await t.espera(1300);
+      let st = await t.ev(() => RouteGps.status());
+      t.cerca(st.dist, 1196, 15, "distancia de la primera parte");
+      t.ok(/Kilómetro 1\. Tiempo, 4 minutos 1\d segundos\. Último kilómetro, 4 minutos 1\d segundos\./.test(await t.ev(() => RT.lastSpeech || "")), "aviso del km 1: " + await t.ev(() => RT.lastSpeech));
+      // 40 s quieto en un semáforo: se pausa solo y el tiempo no corre
+      await t.ev(() => { for (let i = 0; i < 40; i++) { window.__off += 1000; window.__fix(window.__lat, -60.6505, 8, 20); } });
+      await t.espera(1300);
+      st = await t.ev(() => RouteGps.status());
+      t.igual(st.autoPaused, true, "pausa automática"); t.cerca(st.elapsed / 1000, 300, 3, "el tiempo quieto no cuenta");
+      t.ok(/pausa automática/i.test(await t.page.locator("#rtStateTxt").innerText()), "la pantalla avisa la pausa automática");
+      // vuelve a correr 250 s
+      await t.ev(() => { for (let i = 0; i < 250; i++) { window.__off += 1000; window.__lat += 4 / 110540; window.__fix(window.__lat, -60.6505, 8, 20); } });
+      await t.espera(1300);
+      st = await t.ev(() => RouteGps.status());
+      t.igual(st.autoPaused, false, "sigue solo al moverse");
+      t.cerca(st.elapsed / 1000, 547, 5, "tiempo total en movimiento"); t.cerca(st.dist, 2196, 20, "distancia total");
+      t.ok(/^Kilómetro 2\./.test(await t.ev(() => RT.lastSpeech || "")), "aviso del km 2");
+      await t.page.click("#rtStop"); await t.espera(250);
+      await t.page.locator("#trSheetBody button", { hasText: "Guardar recorrido" }).click(); await t.espera(600);
+      const r = await t.ev(() => { const x = routes[routes.length - 1]; return { pausas: x.autoPauses, dur: x.dur, mejor1: x.best[1000], parcial1: x.splits[0][1], parcial2: x.splits[1][1], tm: x.tm.length === x.poly.length && x.tm[0].length === plDec(x.poly[0]).length, gpx: rtGpx(x) }; });
+      t.igual(r.pausas, 1, "una pausa automática guardada"); t.cerca(r.dur, 547, 5, "duración guardada");
+      t.cerca(r.mejor1, 250, 3, "mejor km"); t.cerca(r.parcial2, 250, 6, "el parcial con el semáforo no cuenta el tiempo parado"); t.ok(r.tm, "tiempos guardados para el GPX");
+      const g = await t.ev((x) => { const d = new DOMParser().parseFromString(x, "application/xml"), pts = [...d.getElementsByTagName("trkpt")], tms = pts.map((p) => Date.parse(p.getElementsByTagName("time")[0].textContent));
+        return { error: !!d.getElementsByTagName("parsererror").length, segs: d.getElementsByTagName("trkseg").length, pts: pts.length, ordenado: tms.every((v, i) => !i || v >= tms[i - 1]), tipo: d.getElementsByTagName("type")[0].textContent, dur: (tms[tms.length - 1] - tms[0]) / 1000 }; }, r.gpx);
+      t.igual([g.error, g.segs >= 1, g.pts > 3, g.ordenado, g.tipo], [false, true, true, true, "running"], "GPX válido con tiempos");
+      t.ok(g.dur > 540 && g.dur < 600, "el GPX tiene los tiempos reales (" + g.dur + " s)");
+      const det = await t.page.locator("#routeRoot").innerText();
+      t.ok(/Mejores tramos/i.test(det) && /Pausas automáticas\s*1 vez/.test(det), "detalle con mejores tramos y pausas");
+      await t.page.click("#rtGpx"); await t.espera(200);
+      t.ok(await t.ev(() => !!(RT.lastGpx && /^recorrido_correr_.*\.gpx$/.test(RT.lastGpx.name))), "exportar GPX arma el archivo");
+      // récords: un recorrido viejo (solo parciales) más lento y uno nuevo más rápido
+      const rec = await t.ev(() => {
+        routes.push({ id: "rviejo", mode: "correr", start: Date.now() - 20 * 864e5, end: 0, dur: 1600, dist: 5200, splits: [[1000, 330], [1000, 320], [1000, 300], [1000, 310], [1000, 340], [200, 60]], poly: [] });
+        const a = rtRecords("correr"), viejo = rtBestOf(routes[routes.length - 1]);
+        return { r1: a[1000].s, id1: a[1000].id, r5: a[5000].s, id5: a[5000].id, viejo1: viejo[1000], viejo5: viejo[5000], viejo10: viejo[10000] || 0 };
+      });
+      t.igual([rec.id1 !== "rviejo", rec.r5, rec.id5, rec.viejo1, rec.viejo5, rec.viejo10], [true, 1600, "rviejo", 300, 1600, 0], "récords por distancia (los viejos, con los parciales)");
+      await t.ev(() => routeBack()); await t.espera(400);
+      const card = await t.page.locator(".rcCard").innerText();
+      t.ok(/Récords: correr/i.test(card) && /1 km/.test(card) && /5 km/.test(card), "tarjeta de récords: " + card.replace(/\n+/g, " | "));
+      // tramo más rápido dentro de un recorrido (cálculo)
+      const be = await t.ev(() => { const rows = []; let lat = -32.9, tt = 0; for (let i = 0; i <= 3000; i += 10) { rows.push([lat + i / 110540, -60.6, tt * 1000, 0, 0]); tt += (i >= 1000 && i < 2000) ? 2.5 : 4; } return rtBestEfforts(rows); });
+      t.cerca(be[1000], 250, 2, "el km más rápido sale del medio del recorrido");
+    },
+  },
+  {
+    nombre: "estiramiento: sección de yoga y ejercicios propios con link de YouTube",
+    correr: async (t) => {
+      await t.abrir();
+      await t.page.click(".lnCard.stretch"); await t.espera(300);
+      const txt = await t.page.locator("#stRoot").innerText();
+      t.ok(/Yoga/.test(txt) && /Yoga suave para la mañana/.test(txt) && /Yoga para antes de dormir/.test(txt), "sección de yoga");
+      t.igual(await t.ev(() => ST_YOGA.every((p) => p.steps.every((s) => !!stExInfo(s.ex) && (stExInfo(s.ex).video ? typeof MUSCLE_TABLE[s.ex] !== "undefined" : !!stExInfo(s.ex).how)))), true, "cada postura tiene video o explicación");
+      await t.page.locator(".stProg", { hasText: "Yoga de pie" }).click(); await t.espera(300);
+      t.ok(/Guerrero I\s*40 s \(≈ 8 resp\.\) por lado/.test(await t.page.locator("#stRoot").innerText()), "muestra segundos y respiraciones");
+      await t.page.click("#stGo"); await t.espera(300);
+      await t.ev(() => spJump(1)); await t.ev(() => spJump(1)); await t.ev(() => spJump(1)); await t.espera(300);   // prep, montaña, prep -> guerrero I
+      const vid = await t.page.locator("#stpVid").innerText();
+      t.ok(/Guerrero I/.test(vid) && /Paso largo adelante/.test(vid), "postura sin video: muestra la explicación");
+      t.ok(/≈ 8 respiraciones/.test(await t.page.locator("#stpSub").innerText()), "el reproductor cuenta respiraciones");
+      await t.ev(() => { spStop(false); showScreen("stretchScreen"); }); await t.espera(300);
+      // ejercicio propio
+      await t.page.click("#stMyEx"); await t.espera(250);
+      await t.page.locator("#trSheetBody button", { hasText: "Crear ejercicio" }).click(); await t.espera(300);
+      await t.page.fill("#sxName", "Estiramiento de Cuello Lateral");
+      await t.page.locator("#sxZone button", { hasText: "Hombros" }).click(); await t.page.click("#sxSides");
+      await t.page.fill("#sxHow", "Inclinar la cabeza hacia el hombro sin levantar el otro.");
+      await t.page.fill("#sxYt", "youtube.com/watch?v=abc"); await t.page.click("#sxSave"); await t.espera(150);
+      t.ok(/https/.test(await t.page.locator("#sxMsg").innerText()), "avisa si el link no es válido");
+      await t.page.fill("#sxName", "Postura del Niño"); await t.page.fill("#sxYt", "https://youtu.be/abc123"); await t.page.click("#sxSave"); await t.espera(150);
+      t.ok(/Ya hay un ejercicio/.test(await t.page.locator("#sxMsg").innerText()), "no deja repetir un nombre de la biblioteca");
+      await t.page.fill("#sxName", "Estiramiento de Cuello Lateral"); await t.page.click("#sxSave"); await t.espera(300);
+      let c = await t.ev(() => stData.ex[0]);
+      t.igual([c.name, c.zone, c.sides, c.t, c.yt], ["Estiramiento de Cuello Lateral", "hombros", 1, 30, "https://youtu.be/abc123"], "ejercicio propio guardado");
+      // programa con el ejercicio propio
+      await t.page.click("#stNew"); await t.espera(250);
+      await t.page.fill("#stName", "Cuello y hombros");
+      await t.page.click("#stAdd"); await t.espera(250);
+      t.ok(/Mis ejercicios/.test(await t.page.locator("#trSheetBody").innerText()), "el buscador muestra mis ejercicios");
+      await t.page.locator("#trSheetBody .stPick", { hasText: "Estiramiento de Cuello Lateral" }).click(); await t.espera(250);
+      await t.page.click("#stSave"); await t.espera(300);
+      t.ok(/Estiramiento de Cuello Lateral\s*30 s por lado · Hombros · sin video/.test(await t.page.locator("#stRoot").innerText()), "el programa muestra el ejercicio propio");
+      await t.page.click("#stGo"); await t.espera(300); await t.ev(() => spJump(1)); await t.espera(250);
+      t.igual(await t.page.locator("#stpVid a.stYt").getAttribute("href"), "https://youtu.be/abc123", "el reproductor ofrece el link de YouTube");
+      await t.ev(() => { spStop(false); showScreen("stretchScreen"); }); await t.espera(300);
+      // renombrar actualiza el programa; no se borra si está en uso
+      await t.ev(() => stExEditor(stData.ex[0])); await t.espera(250);
+      await t.page.fill("#sxName", "Cuello lateral"); await t.page.click("#sxSave"); await t.espera(250);
+      t.igual(await t.ev(() => stData.progs[0].steps[0].ex), "Cuello lateral", "renombrar actualiza los programas");
+      await t.ev(() => stExEditor(stData.ex[0])); await t.espera(250); await t.page.click("#sxDel"); await t.espera(150);
+      t.ok(/Cuello y hombros/.test(await t.page.locator("#sxMsg").innerText()) && await t.ev(() => stData.ex.length === 1), "no se borra si está en un programa");
+      t.ok(await t.ev(() => JSON.parse(localStorage.getItem("gymStretch")).ex.length === 1 && BACKUP_KEYS.indexOf("gymStretch") >= 0), "queda guardado y entra en la copia");
+    },
+  },
+  {
+    nombre: "cuerpo: peso y medidas con tendencia; el último peso se usa para las calorías",
+    correr: async (t) => {
+      await t.abrir(); await irA(t, 3, 9);
+      await t.page.click(".lnCard.body"); await t.espera(300);
+      t.igual(await t.pantalla(), "bodyScreen", "abre Cuerpo");
+      await t.page.click("#bdAdd"); await t.espera(250);
+      await t.page.fill('#trSheetBody input[data-k="kg"]', "500"); await t.page.click("#bdSave"); await t.espera(150);
+      t.ok(/entre 25 y 300/.test(await t.page.locator("#bdMsg").innerText()), "valida el peso");
+      await t.page.fill('#trSheetBody input[data-k="kg"]', "80,4"); await t.page.fill('#trSheetBody input[data-k="cintura"]', "86"); await t.page.click("#bdSave"); await t.espera(300);
+      t.igual(await t.ev(() => [bodyData.log.length, bodyData.log[0].kg, bodyData.log[0].cintura, localStorage.getItem("gymBodyKg"), rtKg()]), [1, 80.4, 86, "80.4", 80.4], "registro guardado y peso para las calorías");
+      // 5 semanas subiendo 0,3 kg por semana con ruido de ±0,4
+      const r = await t.ev(() => {
+        bodyData.log = [];
+        for (let i = 35; i >= 0; i -= 1) { if (i % 2 && i > 3) continue; const ruido = [0.4, -0.3, 0.1, -0.4, 0.2][i % 5]; const e = { d: localDay(Date.now() - i * 864e5), kg: Math.round((78 + (35 - i) * 0.3 / 7 + ruido) * 10) / 10, t: 1 }; if (i % 7 === 0) { e.cintura = 85 + (35 - i) / 35; e.brazo = 36 + (35 - i) / 70; } bodyData.log.push(e); }
+        bodyPersist(); bodyRender();
+        const tr = bodyTrend("kg"); return { semana: tr.perWeek, dias: tr.days, card: launchBodyInfo().txt, rep: weeklyReport(getWeekKey(new Date())) };
+      });
+      t.cerca(r.semana, 0.3, 0.12, "tendencia por semana"); t.igual(r.dias, 26, "ventana de 4 semanas (el registro más viejo dentro de los 28 días)");
+      t.ok(/kg · tendencia \+0,\d kg\/sem/.test(r.card), "tarjeta de la entrada: " + r.card);
+      t.ok(/## Cuerpo\nPeso: [\d,]+ kg, promedio de 7 días [\d,]+ kg \(tendencia \+0,\d kg por semana/.test(r.rep), "el resumen semanal incluye el peso");
+      const pant = await t.page.locator("#bodyRoot").innerText();
+      t.ok(/Promedio de 7 días/.test(pant) && /Tendencia: \+0,\d kg\/semana/.test(pant) && /Cintura\s*86 cm\s*\+0,8\s*\+0,8/.test(pant.replace(/\n/g, " ")), "pantalla con promedio, tendencia y medidas: " + pant.slice(0, 300).replace(/\n+/g, " | "));
+      t.igual(await t.page.locator(".bdChart .bdDot").count() > 10, true, "gráfico");
+      await t.page.locator(".bdItem").first().click(); await t.espera(250);
+      await t.page.click("#bdDel"); await t.espera(250);
+      t.igual(await t.ev(() => bodyData.log.length), 19, "borrar un registro (eran 20)");
     },
   },
   {

@@ -21,7 +21,8 @@ import java.util.ArrayList;
     name = "Route",
     permissions = {
         @Permission(strings = { Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION }, alias = "location"),
-        @Permission(strings = { Manifest.permission.POST_NOTIFICATIONS }, alias = "notif")
+        @Permission(strings = { Manifest.permission.POST_NOTIFICATIONS }, alias = "notif"),
+        @Permission(strings = { Manifest.permission.ACTIVITY_RECOGNITION }, alias = "activity")
     }
 )
 public class RoutePlugin extends Plugin {
@@ -43,14 +44,18 @@ public class RoutePlugin extends Plugin {
         JSObject r = new JSObject();
         r.put("granted", getPermissionState("location") == PermissionState.GRANTED);
         r.put("gps", gpsOn());
+        r.put("steps", android.os.Build.VERSION.SDK_INT < 29 || getPermissionState("activity") == PermissionState.GRANTED);
         return r;
     }
 
     /** Pide el permiso de ubicacion (y el de notificaciones, para ver el aviso fijo). */
     @PluginMethod
     public void ask(PluginCall call) {
-        if (getPermissionState("location") == PermissionState.GRANTED) { call.resolve(permState()); return; }
-        requestPermissionForAliases(new String[] { "location", "notif" }, call, "askDone");
+        boolean wantSteps = call.getBoolean("steps", false) && android.os.Build.VERSION.SDK_INT >= 29;
+        boolean stepsOk = !wantSteps || getPermissionState("activity") == PermissionState.GRANTED;
+        if (getPermissionState("location") == PermissionState.GRANTED && stepsOk) { call.resolve(permState()); return; }
+        if (getPermissionState("location") == PermissionState.GRANTED) { requestPermissionForAliases(new String[] { "activity" }, call, "askDone"); return; }
+        requestPermissionForAliases(wantSteps ? new String[] { "location", "notif", "activity" } : new String[] { "location", "notif" }, call, "askDone");
     }
 
     @PermissionCallback
@@ -62,7 +67,7 @@ public class RoutePlugin extends Plugin {
     public void start(PluginCall call) {
         if (getPermissionState("location") != PermissionState.GRANTED) { call.reject("Falta el permiso de ubicacion", "NO_PERMISSION"); return; }
         try {
-            RouteTrack.begin(getContext(), call.getString("mode", "correr"), call.getDouble("maxSpeed", 9.0));
+            RouteTrack.begin(getContext(), call.getString("mode", "correr"), call.getDouble("maxSpeed", 9.0), call.getBoolean("autoPause", false), call.getBoolean("voice", false));
             send(RouteService.A_START);
             call.resolve();
         } catch (Exception e) {
@@ -74,6 +79,20 @@ public class RoutePlugin extends Plugin {
     public void pause(PluginCall call) {
         RouteTrack.pause(getContext());
         send(RouteService.A_PAUSE);
+        call.resolve();
+    }
+
+    /** Cambia las opciones a mitad del recorrido. */
+    @PluginMethod
+    public void setOpts(PluginCall call) {
+        synchronized (RouteTrack.LOCK) {
+            if (call.hasOption("autoPause")) {
+                RouteTrack.autoOn = call.getBoolean("autoPause", false);
+                if (!RouteTrack.autoOn && RouteTrack.autoPaused) { RouteTrack.autoPaused = false; RouteTrack.runSince = System.currentTimeMillis(); RouteTrack.lastMoveAt = RouteTrack.runSince; }
+            }
+            if (call.hasOption("voice")) { RouteTrack.voiceOn = call.getBoolean("voice", false); RouteTrack.kmSpoken = RouteTrack.kmDone; }
+            RouteTrack.save(getContext());
+        }
         call.resolve();
     }
 
@@ -103,6 +122,11 @@ public class RoutePlugin extends Plugin {
             r.put("lat", RouteTrack.curLat);
             r.put("lon", RouteTrack.curLon);
             r.put("acceptAgo", RouteTrack.lastAcceptAt == 0 ? -1 : System.currentTimeMillis() - RouteTrack.lastAcceptAt);
+            r.put("autoPaused", RouteTrack.autoPaused);
+            r.put("autoPause", RouteTrack.autoOn);
+            r.put("voice", RouteTrack.voiceOn);
+            r.put("steps", RouteTrack.steps);
+            r.put("kmDone", RouteTrack.kmDone);
         }
         r.put("diag", RouteTrack.diag());
         r.put("gps", gpsOn());
@@ -156,6 +180,8 @@ public class RoutePlugin extends Plugin {
             r.put("dist", f[4]);
             r.put("gain", f[5]);
             r.put("loss", f[7]);
+            r.put("steps", f[8]);
+            r.put("autoPauses", f[9]);
             r.put("diag", dg);
             JSArray arr = new JSArray();
             @SuppressWarnings("unchecked") ArrayList<double[]> pts = (ArrayList<double[]>) f[6];

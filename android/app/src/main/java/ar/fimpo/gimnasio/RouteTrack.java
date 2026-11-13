@@ -37,19 +37,31 @@ final class RouteTrack {
     static int nFix = 0, nAcc = 0, rAcc = 0, rSpeed = 0, rStill = 0, rTime = 0, nForced = 0;
     static long lastAcceptAt = 0;
     static double lastMono = -1;           // reloj monotono (ms) del ultimo punto aceptado
+    // Opciones: pausa automatica al frenar y aviso por voz en cada kilometro
+    static boolean autoOn = false, voiceOn = false, autoPaused = false;
+    static long lastMoveAt = 0;            // ultima vez que sumo distancia (hora del celular)
+    static double[] anchor = null;         // donde quedo en pausa automatica
+    static int nAuto = 0;                  // veces que se pauso solo
+    // Pasos (sensor del celular)
+    static int steps = 0;
+    static float stepPrev = -1;
+    // Kilometros cumplidos y tiempo en cada uno (para el aviso por voz)
+    static int kmDone = 0, kmSpoken = 0;
+    static long kmPrevMs = 0, kmLastMs = 0;
 
     private RouteTrack() {}
 
     static long elapsedMs() {
         synchronized (LOCK) {
-            return accMs + ("running".equals(state) ? System.currentTimeMillis() - runSince : 0);
+            return accMs + ("running".equals(state) && !autoPaused ? Math.max(0, System.currentTimeMillis() - runSince) : 0);
         }
     }
 
-    static void begin(Context ctx, String m, double maxV) {
+    static void begin(Context ctx, String m, double maxV, boolean auto, boolean voice) {
         synchronized (LOCK) {
-            state = "running"; mode = m; maxSpeed = maxV;
-            startedAt = System.currentTimeMillis(); accMs = 0; runSince = startedAt;
+            state = "running"; mode = m; maxSpeed = maxV; autoOn = auto; voiceOn = voice; autoPaused = false; anchor = null; nAuto = 0;
+            steps = 0; stepPrev = -1; kmDone = 0; kmSpoken = 0; kmPrevMs = 0; kmLastMs = 0;
+            startedAt = System.currentTimeMillis(); accMs = 0; runSince = startedAt; lastMoveAt = startedAt;
             dist = 0; gain = 0; loss = 0; refAlt = Double.NaN; seg = 0; rejects = 0; last = null;
             pts.clear(); fixAcc = -1; fixAt = 0;
             nFix = nAcc = rAcc = rSpeed = rStill = rTime = nForced = 0; lastAcceptAt = 0; lastMono = -1;
@@ -67,8 +79,8 @@ final class RouteTrack {
     static void pause(Context ctx) {
         synchronized (LOCK) {
             if (!"running".equals(state)) return;
-            accMs += System.currentTimeMillis() - runSince;
-            state = "paused"; last = null; rejects = 0; seg++;
+            if (!autoPaused) accMs += Math.max(0, System.currentTimeMillis() - runSince);
+            state = "paused"; last = null; rejects = 0; seg++; autoPaused = false; anchor = null; stepPrev = -1;
             save(ctx);
         }
     }
@@ -76,8 +88,8 @@ final class RouteTrack {
     static void resume(Context ctx) {
         synchronized (LOCK) {
             if (!"paused".equals(state)) return;
-            runSince = System.currentTimeMillis();
-            state = "running"; last = null;
+            runSince = System.currentTimeMillis(); lastMoveAt = runSince;
+            state = "running"; last = null; autoPaused = false; anchor = null;
             save(ctx);
         }
     }
@@ -85,8 +97,8 @@ final class RouteTrack {
     /** Termina: devuelve el resultado y deja todo en blanco. */
     static Object[] finish(Context ctx) {
         synchronized (LOCK) {
-            if ("running".equals(state)) accMs += System.currentTimeMillis() - runSince;
-            Object[] r = new Object[] { mode, startedAt, System.currentTimeMillis(), accMs, dist, gain, new ArrayList<>(pts), loss };
+            if ("running".equals(state) && !autoPaused) accMs += Math.max(0, System.currentTimeMillis() - runSince);
+            Object[] r = new Object[] { mode, startedAt, System.currentTimeMillis(), accMs, dist, gain, new ArrayList<>(pts), loss, steps, nAuto };
             clear(ctx);
             return r;
         }
@@ -95,6 +107,7 @@ final class RouteTrack {
     static void clear(Context ctx) {
         synchronized (LOCK) {
             state = "idle"; accMs = 0; dist = 0; gain = 0; loss = 0; seg = 0; last = null; refAlt = Double.NaN; rejects = 0;
+            autoPaused = false; anchor = null; steps = 0; stepPrev = -1; kmDone = 0; kmSpoken = 0;
             pts.clear();
             try { new File(ctx.getFilesDir(), FILE).delete(); } catch (Exception e) { /* nada */ }
             ctx.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit().clear().apply();
@@ -115,6 +128,15 @@ final class RouteTrack {
             if (mono > nowMono || nowMono - mono > 60000) mono = nowMono;
             double t = nowWall - (nowMono - mono);         // hora del celular en que se tomo la senal
             double alt = l.hasAltitude() ? l.getAltitude() : Double.NaN;
+            if (autoPaused) {
+                // En pausa automatica: se sigue solo cuando te alejaste 12 m del lugar donde frenaste
+                float[] r0 = new float[1];
+                if (anchor != null) Location.distanceBetween(anchor[0], anchor[1], l.getLatitude(), l.getLongitude(), r0);
+                if (fixAcc > 25 || (anchor != null && r0[0] < 12)) { rStill++; return; }
+                autoPaused = false; runSince = nowWall; lastMoveAt = nowWall; rejects = 0;
+                if (last != null && anchor != null && last[3] == seg) addDist(r0[0]);
+                last = null;                               // el punto nuevo arranca sin sumar otra vez
+            }
             if (last != null) {
                 float[] r = new float[1];
                 Location.distanceBetween(last[0], last[1], l.getLatitude(), l.getLongitude(), r);
@@ -131,7 +153,7 @@ final class RouteTrack {
                     rejects = 0;
                     if ((d < 3 || v < 0.3) && !stuck) { rStill++; return; }   // quieto: ruido del GPS
                     if (stuck && (d < 3 || v < 0.3)) nForced++;
-                    dist += d;
+                    addDist(d); lastMoveAt = nowWall;
                 }
             }
             if (!Double.isNaN(alt)) {                      // desnivel con histeresis de 4 m
@@ -150,11 +172,71 @@ final class RouteTrack {
         }
     }
 
+    /** Suma distancia y anota el tiempo de cada kilometro cumplido. */
+    private static void addDist(double d) {
+        int before = (int) (dist / 1000);
+        dist += d;
+        int after = (int) (dist / 1000);
+        if (after > before) {
+            long now = accMs + ("running".equals(state) && !autoPaused ? Math.max(0, System.currentTimeMillis() - runSince) : 0);
+            kmPrevMs = kmLastMs; kmLastMs = now; kmDone = after;
+        }
+    }
+
+    /** Pausa automatica: con buena senal y sin moverse un rato, el tiempo deja de correr. */
+    static boolean autoCheck(Context ctx) {
+        synchronized (LOCK) {
+            if (!autoOn || autoPaused || !"running".equals(state)) return false;
+            long now = System.currentTimeMillis(), lim = "bici".equals(mode) ? 8000 : 10000;
+            if (fixAt == 0 || now - fixAt > 6000 || fixAcc > 25) return false;     // sin senal no se sabe si frenaste
+            if (now - lastMoveAt < lim) return false;
+            accMs += Math.max(0, lastMoveAt - runSince);   // el tiempo quieto no cuenta
+            autoPaused = true; nAuto++;
+            anchor = new double[] { curLat, curLon };
+            save(ctx);
+            return true;
+        }
+    }
+
+    /** Pasos: el sensor da un total desde que se prendio el celular; se suma la diferencia. */
+    static void onStep(Context ctx, float v) {
+        synchronized (LOCK) {
+            if (!"running".equals(state)) { stepPrev = -1; return; }
+            if (stepPrev < 0 || v < stepPrev) { stepPrev = v; return; }
+            float d = v - stepPrev; stepPrev = v;
+            if (d > 0 && d < 5000) steps += (int) d;
+        }
+    }
+
+    /** Texto para decir en voz alta si hay un kilometro nuevo, o null. */
+    static String kmAnnouncement() {
+        synchronized (LOCK) {
+            if (!voiceOn || kmDone <= kmSpoken) return null;
+            kmSpoken = kmDone;
+            long lap = kmLastMs - kmPrevMs;
+            String t = "Kilómetro " + kmDone + ". Tiempo, " + spoken(kmLastMs) + ".";
+            if ("bici".equals(mode)) t += " Último kilómetro a " + Math.round(3600000.0 / Math.max(1, lap)) + " kilómetros por hora.";
+            else t += " Último kilómetro, " + spoken(lap) + ".";
+            return t;
+        }
+    }
+
+    static String spoken(long ms) {
+        long s = Math.round(ms / 1000.0), h = s / 3600, m = (s % 3600) / 60, ss = s % 60;
+        StringBuilder b = new StringBuilder();
+        if (h > 0) b.append(h).append(h == 1 ? " hora " : " horas ");
+        if (m > 0 || h > 0) b.append(m).append(m == 1 ? " minuto " : " minutos ");
+        b.append(ss).append(ss == 1 ? " segundo" : " segundos");
+        return b.toString().trim();
+    }
+
     static void save(Context ctx) {
         ctx.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit()
                 .putString("state", state).putString("mode", mode).putFloat("maxSpeed", (float) maxSpeed)
                 .putLong("startedAt", startedAt).putLong("accMs", accMs).putLong("runSince", runSince)
-                .putFloat("dist", (float) dist).putFloat("gain", (float) gain).putFloat("loss", (float) loss).putInt("seg", seg).apply();
+                .putFloat("dist", (float) dist).putFloat("gain", (float) gain).putFloat("loss", (float) loss).putInt("seg", seg)
+                .putBoolean("autoOn", autoOn).putBoolean("voiceOn", voiceOn).putBoolean("autoPaused", autoPaused).putInt("steps", steps)
+                .putInt("kmDone", kmDone).putLong("kmLastMs", kmLastMs).putLong("kmPrevMs", kmPrevMs).putInt("nAuto", nAuto).apply();
     }
 
     /** Si la app se cerro con un recorrido en curso, lo recupera (queda en pausa). */
@@ -166,7 +248,10 @@ final class RouteTrack {
             if ("idle".equals(st)) return false;
             mode = sp.getString("mode", "correr"); maxSpeed = sp.getFloat("maxSpeed", 9);
             startedAt = sp.getLong("startedAt", 0); accMs = sp.getLong("accMs", 0);
-            if ("running".equals(st)) accMs += Math.max(0, System.currentTimeMillis() - sp.getLong("runSince", System.currentTimeMillis()));
+            if ("running".equals(st) && !sp.getBoolean("autoPaused", false)) accMs += Math.max(0, System.currentTimeMillis() - sp.getLong("runSince", System.currentTimeMillis()));
+            autoOn = sp.getBoolean("autoOn", false); voiceOn = sp.getBoolean("voiceOn", false); autoPaused = false; anchor = null;
+            steps = sp.getInt("steps", 0); stepPrev = -1; nAuto = sp.getInt("nAuto", 0);
+            kmDone = sp.getInt("kmDone", 0); kmSpoken = kmDone; kmLastMs = sp.getLong("kmLastMs", 0); kmPrevMs = sp.getLong("kmPrevMs", 0);
             dist = sp.getFloat("dist", 0); gain = sp.getFloat("gain", 0); loss = sp.getFloat("loss", 0); seg = sp.getInt("seg", 0) + 1;
             last = null; lastMono = -1; rejects = 0; refAlt = Double.NaN; pts.clear();
             try {
@@ -188,7 +273,7 @@ final class RouteTrack {
     static double curSpeed() {
         synchronized (LOCK) {
             int n = pts.size();
-            if (!"running".equals(state) || n < 2) return 0;
+            if (!"running".equals(state) || autoPaused || n < 2) return 0;
             double[] e = pts.get(n - 1);
             if (System.currentTimeMillis() - e[2] > 20000) return 0;
             double d = 0; int i = n - 1; float[] r = new float[1];

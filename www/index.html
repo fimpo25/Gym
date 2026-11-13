@@ -946,6 +946,10 @@ body.hasLive .screen.active{padding-bottom:78px}
 .lnCard.gym .lnIc{background:#FFB0201A;color:var(--energy)}
 .lnCard.stretch .lnIc{background:#A78BFA1F;color:#C4B5FD}
 .lnCard.route .lnIc{background:#22D3EE1A;color:var(--primary)}
+.lnCard.body{min-height:84px;padding:14px 18px}
+.lnCard.body .lnIc{background:#34D3991A;color:#6EE7B7;width:46px;height:46px}
+.lnCard.body .lnIc svg{width:25px;height:25px}
+.lnCard.body .lnMid b{font-size:17px}
 .lnMid{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
 .lnMid b{font-size:20px;font-weight:800}
 .lnMid span{font-size:13px;color:var(--text-3);line-height:1.35}
@@ -1103,6 +1107,61 @@ body.hasLive .screen.active{padding-bottom:78px}
 .wkRepTxt span{font-size:12px;color:var(--text-3);line-height:1.35}
 .wkRepGo{border:none;border-radius:10px;background:var(--energy);color:#1a1200;font-weight:800;font-size:13px;padding:10px 11px;cursor:pointer;white-space:nowrap}
 .wkRepX{width:34px;height:34px;border-radius:9px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-size:18px;cursor:pointer;flex-shrink:0}
+
+/* ---- Recorridos: opciones, récords, GPX ---- */
+.rtOpts{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 2px}
+.rtOpts button{border:1px solid var(--border);background:transparent;color:var(--text-3);border-radius:99px;font-size:12.5px;font-weight:600;padding:7px 12px;cursor:pointer}
+.rtOpts button.on{border-color:#22D3EE77;color:var(--primary);background:#22D3EE12}
+.rtOpts span{margin-left:auto;font-size:13px;color:var(--text-2);font-variant-numeric:tabular-nums}
+.rtState.auto{color:var(--energy)}
+.rcCard{margin-top:12px}
+.rcRow{display:grid;grid-template-columns:56px 1fr auto;grid-template-rows:auto auto;column-gap:10px;width:100%;text-align:left;background:transparent;border:none;border-top:1px solid #182030;padding:10px 0;color:var(--text);cursor:pointer}
+.rcD{grid-row:1/3;align-self:center;font-weight:800;font-size:15px;color:var(--energy)}
+.rcRow b{font-size:17px;font-variant-numeric:tabular-nums}
+.rcP{font-size:12px;color:var(--text-3)}
+.rcW{grid-column:3;grid-row:1/3;align-self:center;font-size:12px;color:var(--text-3)}
+.rcBadge{font-style:normal;font-size:11px;color:var(--energy);margin-left:4px}
+.rtGpx{width:100%;margin-top:14px;border:1px solid #22D3EE55;background:transparent;color:var(--primary);border-radius:14px;font-size:14.5px;font-weight:700;padding:13px;cursor:pointer}
+/* ---- Estiramiento: ejercicios propios y yoga ---- */
+.stNoVid.stHow{flex-direction:column;gap:10px;align-items:flex-start;justify-content:center;text-align:left;padding:16px 18px;overflow-y:auto}
+.stNoVid.stHow b{color:#fff;font-size:16px}
+.stNoVid.stHow span{color:var(--text-2);font-size:13.5px;line-height:1.5}
+.stYt{display:inline-block;margin-top:6px;border:1px solid #F8717177;color:#FCA5A5;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;text-decoration:none}
+.stHowTxt{font-size:14px;color:var(--text-2);line-height:1.55;margin:10px 0}
+.stExLbl{font-size:12px;color:var(--text-3);margin:12px 2px 6px}
+.stZonePick{display:flex;flex-wrap:wrap;gap:6px}
+.stZonePick button{border:1px solid var(--border);background:transparent;color:var(--text-3);border-radius:99px;font-size:12.5px;padding:7px 11px;cursor:pointer}
+.stZonePick button.on{border-color:#A78BFA88;color:#C4B5FD;background:#A78BFA14}
+.stPickSub{display:block;font-size:11.5px;color:var(--text-3);font-weight:500;margin-top:2px}
+.stExEd textarea.trNoteInput{width:100%;box-sizing:border-box;margin:0;display:block}
+.stYogaHint{margin:-2px 0 10px}
+/* ---- Cuerpo ---- */
+.bdBig{display:flex;align-items:baseline;gap:8px;margin-top:6px}
+.bdBig b{font-size:40px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums;letter-spacing:-.5px}
+.bdBig span{font-size:13px;color:var(--text-3)}
+.bdSub{font-size:13px;color:var(--text-2);line-height:1.5;margin:4px 0 12px}
+.bdSub b{color:#fff}.bdSub b.up{color:#6EE7B7}.bdSub b.dn{color:#FCA5A5}
+.bdRange{margin-bottom:10px}
+.bdChart{width:100%;height:150px;display:block}
+.bdGrid{stroke:#182030;stroke-width:1}
+.bdAx{fill:var(--text-3);font-size:10px}
+.bdDot{fill:#6EE7B755}
+.bdLine{fill:none;stroke:#34D399;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.bdLegend{display:flex;gap:16px;font-size:11.5px;color:var(--text-3);margin-top:6px}
+.bdLegend span{display:flex;align-items:center;gap:6px}
+.bdLegend i.dot{width:7px;height:7px;border-radius:50%;background:#6EE7B788}
+.bdLegend i.line{width:16px;height:3px;border-radius:2px;background:#34D399}
+.bdMRow{display:grid;grid-template-columns:1.2fr 1fr .9fr .9fr;gap:6px;align-items:center;padding:8px 0;border-top:1px solid #182030;font-size:13.5px}
+.bdMRow b{color:#fff;font-variant-numeric:tabular-nums}
+.bdMRow em{font-style:normal;color:var(--text-2);font-variant-numeric:tabular-nums;text-align:right}
+.bdMHead{border-top:none;font-size:11px;color:var(--text-3)}
+.bdMHead span:not(:first-child){text-align:right}
+.bdMHead span:nth-child(2){text-align:left}
+.bdFRow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:6px 0}
+.bdFRow span{font-size:14px;color:var(--text)}
+.bdFRow i{font-style:normal;color:var(--text-3);font-size:12px}
+.bdFRow input{width:130px;text-align:center}
+.bdFRow input[type=date]{width:170px}
 </style>
 </head>
 <body>
@@ -2372,6 +2431,7 @@ function showScreen(id) {
   if (id === "tabataScreen") { tmRender(); renderAlarmCheck(); }
   if (id === "routeScreen") routeEnter();
   if (id === "stretchScreen") stEnter();
+  if (id === "bodyScreen") bodyRender();
   if (id === "launchScreen") renderLaunch();
   if (id === "homeScreen" || id === "stretchScreen" || id === "routeScreen") { try { localStorage.setItem("gymLastSec", id); } catch(e) {} }
   if (id === "mesoScreen") renderMeso();
@@ -3000,7 +3060,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymBodyKg","gymStretch","gymStretchSug","gymOpenAt"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymRouteOpts","gymBody","gymBodyKg","gymStretch","gymStretchSug","gymOpenAt"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -6848,6 +6908,16 @@ function rtKcal(mode, distM, durS, kg) {
   else met = rtInterp([[2.5, 2], [3.2, 2.8], [4, 3], [4.8, 3.5], [5.6, 4.3], [6.4, 5], [7.2, 6.5]], v);
   return Math.round(met * kg * durS / 3600);
 }
+// Opciones de los recorridos: pausa automatica (si) y aviso por voz (no)
+function rtOpts() { var o = {}; try { o = JSON.parse(localStorage.getItem("gymRouteOpts") || "{}") || {}; } catch(e) {} return { autoPause: o.autoPause !== false, voice: !!o.voice }; }
+function rtSetOpt(k, v) { var o = rtOpts(); o[k] = v; safeStore("gymRouteOpts", JSON.stringify(o)); }
+// Lo que dice la voz en cada km
+function rtKmSpeech(mode, km, totalMs, lapMs) {
+  function sp(ms) { var s = Math.round(ms / 1000), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = s % 60, o = [];
+    if (h) o.push(h + (h === 1 ? " hora" : " horas")); if (m || h) o.push(m + (m === 1 ? " minuto" : " minutos")); o.push(x + (x === 1 ? " segundo" : " segundos")); return o.join(" "); }
+  var t = "Kilómetro " + km + ". Tiempo, " + sp(totalMs) + ".";
+  return t + (mode === "bici" ? " Último kilómetro a " + Math.round(3600000 / Math.max(1, lapMs)) + " kilómetros por hora." : " Último kilómetro, " + sp(lapMs) + ".");
+}
 function rtKg() { var v = 0; try { v = parseFloat(localStorage.getItem("gymBodyKg")); } catch(e) {} return v > 25 && v < 300 ? v : 0; }
 // ---- formatos ----
 function rtKm(m) { return (m / 1000).toLocaleString("es-AR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
@@ -6868,17 +6938,37 @@ var RouteGps = (function() {
   function call(m, o) { try { return C.nativePromise("Route", m, o || {}); } catch(e) { return Promise.reject(e); } }
   // --- motor en JS (navegador): mismas reglas que el servicio nativo ---
   var W = { state: "idle", mode: "correr", maxV: 9, startedAt: 0, accMs: 0, runSince: 0, dist: 0, gain: 0, loss: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0 }, watchId = null;
-  function wElapsed() { return W.accMs + (W.state === "running" ? Date.now() - W.runSince : 0); }
+  function wElapsed() { return W.accMs + (W.state === "running" && !W.autoP ? Math.max(0, Date.now() - W.runSince) : 0); }
+  function wAdd(d) {   // suma distancia y anota el tiempo de cada km cumplido
+    var b = Math.floor(W.dist / 1000); W.dist += d; var a = Math.floor(W.dist / 1000);
+    if (a > b) { W.kmPrevMs = W.kmLastMs; W.kmLastMs = wElapsed(); W.kmDone = a; }
+  }
+  // Pausa automatica: con buena senal y sin moverte 10 s (8 en bici), el tiempo deja de correr
+  function wAutoCheck() {
+    if (!W.auto || W.autoP || W.state !== "running") return;
+    var now = Date.now(), lim = W.mode === "bici" ? 8000 : 10000;
+    if (!W.fixAt || now - W.fixAt > 6000 || W.fixAcc > 25 || now - W.lastMove < lim) return;
+    W.accMs += Math.max(0, W.lastMove - W.runSince); W.autoP = true; W.nAuto++; W.anchor = [W.lat, W.lon];
+  }
   function wFix(p) {
     var c = p.coords; W.fixAcc = c.accuracy == null ? 99 : c.accuracy; W.fixAt = Date.now(); W.lat = c.latitude; W.lon = c.longitude;
-    if (W.state !== "running" || W.fixAcc > 35) return;
+    if (W.state !== "running") return;
+    wAutoCheck();
+    if (W.fixAcc > 35) return;
     var t = p.timestamp, alt = c.altitude;
+    if (W.autoP) {   // se sigue cuando te alejaste 12 m de donde frenaste
+      var da = W.anchor ? rtDist(W.anchor, [c.latitude, c.longitude]) : 99;
+      if (W.fixAcc > 25 || da < 12) return;
+      W.autoP = false; W.runSince = Date.now(); W.lastMove = W.runSince; W.rej = 0;
+      if (W.last && W.anchor) wAdd(da);
+      W.last = null;
+    }
     if (W.last) {
       var d = rtDist(W.last, [c.latitude, c.longitude]), dt = (t - W.last[2]) / 1000;
       if (dt <= 0) return;
       var v = d / dt;
       if (v > W.maxV) { if (++W.rej < 5) return; W.rej = 0; W.seg++; W.last = null; }
-      else { W.rej = 0; if (d < 3 || v < 0.3) return; W.dist += d; }
+      else { W.rej = 0; if (d < 3 || v < 0.3) return; wAdd(d); W.lastMove = Date.now(); }
     }
     if (alt != null) {
       if (W.refAlt == null) W.refAlt = alt;
@@ -6896,27 +6986,37 @@ var RouteGps = (function() {
         navigator.geolocation.getCurrentPosition(function() { res({ granted: true, gps: true }); }, function(e) { res({ granted: false, gps: true }); }, { timeout: 15000 });
       });
     },
-    start: function(mode, maxV) {
-      W = { state: "running", mode: mode, maxV: maxV, startedAt: Date.now(), accMs: 0, runSince: Date.now(), dist: 0, gain: 0, loss: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0 };
+    start: function(mode, maxV, o) {
+      o = o || {};
+      W = { state: "running", mode: mode, maxV: maxV, startedAt: Date.now(), accMs: 0, runSince: Date.now(), dist: 0, gain: 0, loss: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0,
+        auto: !!o.autoPause, voice: !!o.voice, autoP: false, anchor: null, lastMove: Date.now(), nAuto: 0, steps: 0, kmDone: 0, kmPrevMs: 0, kmLastMs: 0 };
       wWatch(); return Promise.resolve();
     },
-    pause: function() { if (W.state === "running") { W.accMs += Date.now() - W.runSince; W.state = "paused"; W.last = null; W.seg++; wUnwatch(); } return Promise.resolve(); },
-    resume: function() { if (W.state === "paused") { W.runSince = Date.now(); W.state = "running"; wWatch(); } return Promise.resolve(); },
+    pause: function() { if (W.state === "running") { if (!W.autoP) W.accMs += Math.max(0, Date.now() - W.runSince); W.autoP = false; W.state = "paused"; W.last = null; W.seg++; wUnwatch(); } return Promise.resolve(); },
+    resume: function() { if (W.state === "paused") { W.runSince = Date.now(); W.lastMove = W.runSince; W.state = "running"; wWatch(); } return Promise.resolve(); },
+    setOpts: function(o) {
+      if ("autoPause" in o) { W.auto = !!o.autoPause; if (!W.auto && W.autoP) { W.autoP = false; W.runSince = W.lastMove = Date.now(); } }
+      if ("voice" in o) W.voice = !!o.voice;
+      return Promise.resolve();
+    },
     status: function() {
-      return Promise.resolve({ state: W.state, mode: W.mode, startedAt: W.startedAt, elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, count: W.pts.length, fixAcc: W.fixAcc, fixAgo: W.fixAt ? Date.now() - W.fixAt : -1, lat: W.lat, lon: W.lon, gps: true, granted: true });
+      wAutoCheck();
+      return Promise.resolve({ state: W.state, mode: W.mode, startedAt: W.startedAt, elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, count: W.pts.length, fixAcc: W.fixAcc, fixAgo: W.fixAt ? Date.now() - W.fixAt : -1, lat: W.lat, lon: W.lon, gps: true, granted: true,
+        autoPaused: !!W.autoP, autoPause: !!W.auto, voice: !!W.voice, steps: 0, kmDone: W.kmDone || 0, kmLastMs: W.kmLastMs || 0, kmPrevMs: W.kmPrevMs || 0 });
     },
     points: function(from, max) { var f = from || 0; return Promise.resolve({ from: f, total: W.pts.length, points: W.pts.slice(f, f + (max || 1500)) }); },
     stop: function() {
-      var r = { mode: W.mode, startedAt: W.startedAt, endedAt: Date.now(), elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, points: W.pts.slice() };
+      var r = { mode: W.mode, startedAt: W.startedAt, endedAt: Date.now(), elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, points: W.pts.slice(), steps: 0, autoPauses: W.nAuto || 0 };
       wUnwatch(); W.state = "idle"; W.pts = []; return Promise.resolve(r);
     },
     discard: function() { wUnwatch(); W.state = "idle"; W.pts = []; return Promise.resolve(); }
   };
-  if (!native) return { native: false, ask: web.ask, start: web.start, pause: web.pause, resume: web.resume, status: web.status, points: web.points, stop: web.stop, discard: web.discard };
+  if (!native) return { native: false, ask: web.ask, start: web.start, pause: web.pause, resume: web.resume, setOpts: web.setOpts, status: web.status, points: web.points, stop: web.stop, discard: web.discard };
   return {
     native: true,
-    ask: function() { return call("ask"); },
-    start: function(mode, maxV) { return call("start", { mode: mode, maxSpeed: maxV }); },
+    ask: function(o) { return call("ask", o || {}); },
+    start: function(mode, maxV, o) { o = o || {}; return call("start", { mode: mode, maxSpeed: maxV, autoPause: !!o.autoPause, voice: !!o.voice }); },
+    setOpts: function(o) { return call("setOpts", o); },
     pause: function() { return call("pause"); },
     resume: function() { return call("resume"); },
     status: function() { return call("status"); },
@@ -7039,8 +7139,11 @@ function rtIdle(root) {
   var rpre = stSugOn() ? stRouteProg(RT.mode, "pre") : null;
   if (rpre) h += '<button class="stSugRow" id="rtPre"><span>&#129496; Antes: ' + escHtml(rpre.name) + " &middot; " + stMin(stDur(rpre)) + '</span><b>&#9654;</b></button>';
   h += '<div class="rtHint">' + (RouteGps.native ? "Graba con la pantalla bloqueada: vas a ver el tiempo y los km en la notificación. No suma series al Balance." : "En el navegador solo graba con esta pantalla abierta. No suma series al Balance.") + "</div>";
-  var kgv = rtKg();
+  var op = rtOpts(), kgv = rtKg();
+  h += '<button class="rtKgRow" id="rtAutoBtn"><span>Pausa automática al frenar</span><b>' + (op.autoPause ? "Sí" : "No") + '</b></button>';
+  h += '<button class="rtKgRow" id="rtVoiceBtn"><span>Aviso por voz en cada km</span><b>' + (op.voice ? "Sí" : "No") + '</b></button>';
   h += '<button class="rtKgRow" id="rtKgBtn"><span>Tu peso (para calcular calorías)</span><b>' + (kgv ? String(kgv).replace(".", ",") + " kg" : "Cargar") + '</b></button>';
+  h += rtRecordsHtml(RT.mode);
   var now = new Date(), mo = routes.filter(function(r) { var d = new Date(r.start); return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth(); });
   if (mo.length) {
     var tk = 0, tt = 0; mo.forEach(function(r) { tk += r.dist; tt += r.dur; });
@@ -7056,29 +7159,20 @@ function rtIdle(root) {
   root.innerHTML = h;
   root.querySelectorAll(".rtModes button").forEach(function(b) { b.onclick = function() { RT.mode = b.getAttribute("data-m"); safeStore("gymRouteMode", RT.mode); rtIdle(root); }; });
   root.querySelector("#rtStartBtn").onclick = rtStart;
-  root.querySelector("#rtKgBtn").onclick = function() { rtKgSheet(root); };
+  root.querySelector("#rtKgBtn").onclick = function() { bodyOpen("routeScreen"); };
+  root.querySelector("#rtAutoBtn").onclick = function() { rtSetOpt("autoPause", !rtOpts().autoPause); rtIdle(root); };
+  root.querySelector("#rtVoiceBtn").onclick = function() { var on = !rtOpts().voice; rtSetOpt("voice", on); rtIdle(root); if (on) showToast(RouteGps.native ? "Te aviso cada km aunque la pantalla esté bloqueada" : "En el navegador solo habla con esta pantalla abierta"); };
+  root.querySelectorAll(".rcRow[data-id]").forEach(function(b) { b.onclick = function() { routeSetView("detail", b.getAttribute("data-id")); }; });
   var rpb = root.querySelector("#rtPre"); if (rpb) rpb.onclick = function() { stPlay(rpre, "routeScreen"); };
   root.querySelectorAll(".rtItem").forEach(function(b) { b.onclick = function() { routeSetView("detail", b.getAttribute("data-id")); }; });
 }
-function rtKgSheet(root) {
-  openTrSheet("Tu peso", function(body) {
-    var w = document.createElement("div"); w.className = "exdWrap";
-    w.innerHTML = '<div class="exdIntro">Se usa solo para estimar las calorías de los recorridos. Queda en tu celular.</div><input id="rtKgIn" class="setInput rtKgIn" type="text" inputmode="decimal" placeholder="Ej.: 75" value="' + (rtKg() || "") + '"><div class="updRow"><button class="updGo" id="rtKgOk">Guardar</button></div>';
-    body.appendChild(w);
-    w.querySelector("#rtKgOk").onclick = function() {
-      var v = parseFloat(String(w.querySelector("#rtKgIn").value).replace(",", "."));
-      if (!(v > 25 && v < 300)) { showToast("Poné un peso entre 25 y 300 kg"); return; }
-      safeStore("gymBodyKg", String(v)); closeTrSheet(); rtIdle(root);
-    };
-  });
-}
 function rtStart() {
   if (RT.busy) return; RT.busy = true;
-  RouteGps.ask().then(function(p) {
+  RouteGps.ask({ steps: RT.mode !== "bici" }).then(function(p) {
     if (!p || !p.granted) { showToast("Sin el permiso de ubicación no puedo grabar el recorrido"); throw "x"; }
     if (p.gps === false) { showToast("Activá la ubicación (GPS) del celular"); throw "x"; }
-    return RouteGps.start(RT.mode, ROUTE_MODES[RT.mode].maxV);
-  }).then(function() { RT.busy = false; RT.pts = []; RT.built = ""; routeRender(); routeStartPoll(); })
+    return RouteGps.start(RT.mode, ROUTE_MODES[RT.mode].maxV, rtOpts());
+  }).then(function() { RT.busy = false; RT.pts = []; RT.built = ""; RT.kmSaid = 0; routeRender(); routeStartPoll(); })
     .catch(function(e) { RT.busy = false; if (e !== "x") showToast("No se pudo iniciar el recorrido"); });
 }
 
@@ -7089,12 +7183,15 @@ function rtLive(root, st) {
     RT.built = "live"; RT.pts = [];
     root.innerHTML = '<div class="rtMap" id="rtMap"></div><div class="rtTime" id="rtTime">0:00</div><div class="rtState" id="rtStateTxt"></div>' +
       '<div class="rtGrid"><div class="rtCell"><b id="rtDist">0,00</b><span>km</span></div><div class="rtCell"><b id="rtNow">--:--</b><span id="rtNowL"></span></div><div class="rtCell"><b id="rtAvg">--:--</b><span id="rtAvgL"></span></div></div>' +
+      '<div class="rtOpts"><button id="rtOAuto"></button><button id="rtOVoice"></button><span id="rtSteps"></span></div>' +
       '<div class="rtSig" id="rtSig"></div><div class="rtDiag" id="rtDiag" style="display:none"></div>' +
       '<button class="rtWarn" id="rtNotif" style="display:none">Las notificaciones están apagadas: no vas a ver el avance con la pantalla bloqueada. Tocá para activarlas.</button>' +
       '<div class="rtBtns"><button class="rtBtn" id="rtPause"></button><button class="rtBtn stop" id="rtStop">Terminar</button></div>';
     RT.map = new RtMap(root.querySelector("#rtMap"), true);
     root.querySelector("#rtPause").onclick = function() { (RT.st && RT.st.state === "paused" ? RouteGps.resume() : RouteGps.pause()).then(function() { routeRender(); }); };
     root.querySelector("#rtStop").onclick = rtFinish;
+    root.querySelector("#rtOAuto").onclick = function() { var on = !(RT.st && RT.st.autoPause); rtSetOpt("autoPause", on); RouteGps.setOpts({ autoPause: on }).then(function() { routeRender(); }); };
+    root.querySelector("#rtOVoice").onclick = function() { var on = !(RT.st && RT.st.voice); rtSetOpt("voice", on); RT.kmSaid = RT.st ? RT.st.kmDone || 0 : 0; RouteGps.setOpts({ voice: on }).then(function() { routeRender(); }); };
     root.querySelector("#rtNotif").onclick = function() { if (RouteGps.openNotif) RouteGps.openNotif().catch(function() {}); };
   }
   function $(id) { return root.querySelector("#" + id); }
@@ -7114,7 +7211,16 @@ function rtLive(root, st) {
   $("rtSig").onclick = function() { var dg = $("rtDiag"); dg.style.display = dg.style.display === "none" ? "" : "none"; };
   $("rtDiag").textContent = "Diagnóstico: " + (st.diag || "") + " · en pantalla " + RT.pts.length + "/" + st.count + (RT.err ? " · error: " + RT.err : "");
   $("rtNotif").style.display = (RouteGps.native && st.notif === false) ? "block" : "none";
-  $("rtStateTxt").textContent = (M.name) + (st.state === "paused" ? " · en pausa" : "");
+  $("rtStateTxt").textContent = (M.name) + (st.state === "paused" ? " · en pausa" : st.autoPaused ? " · pausa automática: sigue cuando te movés" : "");
+  $("rtStateTxt").classList.toggle("auto", !!st.autoPaused && st.state === "running");
+  $("rtOAuto").textContent = "Pausa automática: " + (st.autoPause ? "sí" : "no"); $("rtOAuto").classList.toggle("on", !!st.autoPause);
+  $("rtOVoice").innerHTML = "Voz por km: " + (st.voice ? "sí" : "no"); $("rtOVoice").classList.toggle("on", !!st.voice);
+  $("rtSteps").textContent = st.steps > 0 && st.mode !== "bici" ? st.steps.toLocaleString("es-AR") + " pasos" : "";
+  // En el navegador la voz la da la pantalla (en el APK, el servicio aunque este bloqueada)
+  if (!RouteGps.native && st.voice && st.kmDone > (RT.kmSaid || 0)) {
+    RT.kmSaid = st.kmDone; RT.lastSpeech = rtKmSpeech(st.mode, st.kmDone, st.kmLastMs, st.kmLastMs - st.kmPrevMs);
+    try { var u = new SpeechSynthesisUtterance(RT.lastSpeech); u.lang = "es-AR"; window.speechSynthesis.speak(u); } catch(e) {}
+  }
   // puntos nuevos
   var after = function() {
     try {
@@ -7161,12 +7267,12 @@ function rtSave() {
   RouteGps.stop().then(function(r) {
     RT.built = ""; RT.st = null; updateRouteDot();
     if (!r || !(r.dist >= 30)) { showToast("El recorrido fue muy corto: no se guardó"); routeRender(); return; }
-    var rows = r.points || [], segs = [], cur = null, pts = [];
-    rows.forEach(function(p) { if (p[3] !== cur) { segs.push([]); cur = p[3]; } segs[segs.length - 1].push([p[0], p[1]]); });
-    var rec = { id: "r" + r.startedAt, diag: r.diag || "", mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain), loss: Math.round(r.loss || 0),
-      vmax: Math.round(rtVmax(rows, (ROUTE_MODES[r.mode] || ROUTE_MODES.correr).maxV) * 100) / 100, splits: rtSplits(rows), poly: segs.filter(function(s) { return s.length > 1; }).map(function(s) { return plEnc(rtSimplify(s, 3)); }) };
+    var rec = rtBuildRecord(r);
+    var prev = rtRecords(rec.mode);
     routes.push(rec); persistRoutes(); setTimeout(function() { autoBackup("sesion"); }, 1500);
-    showToast("Recorrido guardado");
+    var nuevos = RT_REC_DISTS.filter(function(L) { return rec.best && rec.best[L] && prev[L] && rec.best[L] < prev[L].s; });
+    rec.newRec = nuevos; persistRoutes();
+    showToast(nuevos.length ? "\u{1F3C6} Nuevo récord de " + nuevos.map(rtRecName).join(" y ") : "Recorrido guardado");
     routeSetView("detail", rec.id);
   }).catch(function() { showToast("No se pudo terminar el recorrido"); });
 }
@@ -7184,9 +7290,17 @@ function rtDetail(root) {
   if (r.vmax > 0) rows.push(["Velocidad máxima", rtSpeed(r.vmax) + " km/h"]);
   rows.push(["Paso promedio", rtPace(r.dur / (r.dist / 1000)) + " min/km"]);
   rows.push(["Calorías (estimadas)", kcal + " kcal" + (kg ? "" : " · con 70 kg")]);
+  if (r.steps > 0 && r.mode !== "bici") { rows.push(["Pasos", r.steps.toLocaleString("es-AR")]); rows.push(["Cadencia", Math.round(r.steps / Math.max(1, r.dur / 60)) + " pasos/min"]); }
+  if (r.autoPauses > 0) rows.push(["Pausas automáticas", r.autoPauses + (r.autoPauses === 1 ? " vez" : " veces")]);
   if (r.gain != null) rows.push(["Altitud hacia arriba", Math.round(r.gain) + " m"]);
   if (r.loss != null) rows.push(["Altitud hacia abajo", Math.round(r.loss) + " m"]);
   h += '<div class="balCard rtStats">' + rows.map(function(x) { return '<div class="rtStat"><span>' + x[0] + "</span><b>" + x[1] + "</b></div>"; }).join("") + '</div>';
+  var bst = rtBestOf(r), bk = RT_REC_DISTS.filter(function(L) { return bst[L]; });
+  if (bk.length) {
+    var recs = rtRecords(r.mode);
+    h += '<div class="exdSec">Mejores tramos</div><div class="balCard rtStats">' + bk.map(function(L) { var isR = recs[L] && recs[L].id === r.id;
+      return '<div class="rtStat"><span>' + rtRecName(L) + (isR ? ' <em class="rcBadge">&#127942; récord</em>' : "") + "</span><b>" + rtClock(bst[L]) + " &middot; " + rtRate(r.mode, L, bst[L]) + " " + rtRateUnit(r.mode) + "</b></div>"; }).join("") + "</div>";
+  }
   h += '<div class="rtNote">La altura medida con GPS es poco precisa: el desnivel es aproximado. Las calorías son una estimación según la velocidad y tu peso' + (kg ? "" : " (cargalo en Recorridos &rsaquo; Tu peso)") + ".</div>";
   if (r.splits && r.splits.length) {
     var full = r.splits.filter(function(x) { return x[0] >= 1000; }), fast = -1, slow = -1;
@@ -7202,8 +7316,10 @@ function rtDetail(root) {
   }
   var rpost = stSugOn() && Date.now() - (r.end || 0) < 3 * 3600e3 ? stRouteProg(r.mode, "post") : null;
   if (rpost && !stDidSince(r.end, "post")) h += '<button class="stSugRow" id="rtPost"><span>&#129496; Estirar ahora: ' + escHtml(rpost.name) + " &middot; " + stMin(stDur(rpost)) + '</span><b>&#9654;</b></button>';
+  h += '<button class="rtGpx" id="rtGpx">Exportar GPX</button>';
   h += '<button class="rtDel" id="rtDel">Eliminar recorrido</button>';
   root.innerHTML = h;
+  root.querySelector("#rtGpx").onclick = function() { rtExportGpx(r); };
   var segs = (r.poly || []).map(plDec);
   RT.map = new RtMap(root.querySelector("#rtMap"), false);
   requestAnimationFrame(function() { RT.map.draw(segs, null); });
@@ -7215,6 +7331,121 @@ function rtDetail(root) {
     });
   };
 }
+// ---- guardado: arma el registro del recorrido a partir de los puntos ----
+function rtBuildRecord(r) {
+  var rows = (r.points || []).map(function(p) { return p.slice(); });
+  // Con pausa automatica, un hueco largo sin moverse es tiempo parado: se corta el tramo para no contarlo
+  var bump = 0;
+  for (var i = 0; i < rows.length; i++) {
+    if (i && r.autoPauses > 0 && rows[i][3] + bump === rows[i - 1][3]) {
+      var dt = (rows[i][2] - rows[i - 1][2]) / 1000, d = rtDist(rows[i - 1], rows[i]);
+      if (dt > 15 && d / dt < 0.6) bump++;
+    }
+    rows[i][3] += bump;
+  }
+  var segs = [], cur = null;
+  rows.forEach(function(p) { if (p[3] !== cur) { segs.push([]); cur = p[3]; } segs[segs.length - 1].push(p); });
+  segs = segs.filter(function(s) { return s.length > 1; });
+  var t0 = r.startedAt, poly = [], tm = [], el = [];
+  segs.forEach(function(s) {
+    var k = rtSimplify(s, 3), lt = 0, la = 0;
+    poly.push(plEnc(k));
+    tm.push(k.map(function(p) { var v = Math.round((p[2] - t0) / 1000), o = v - lt; lt = v; return o; }));
+    el.push(k.map(function(p) { var v = Math.round(p[4] || 0), o = v - la; la = v; return o; }));
+  });
+  return { id: "r" + r.startedAt, diag: r.diag || "", mode: r.mode, start: r.startedAt, end: r.endedAt, dur: Math.round(r.elapsed / 1000), dist: Math.round(r.dist), gain: Math.round(r.gain), loss: Math.round(r.loss || 0),
+    vmax: Math.round(rtVmax(rows, (ROUTE_MODES[r.mode] || ROUTE_MODES.correr).maxV) * 100) / 100, splits: rtSplits(rows), poly: poly, tm: tm, el: el,
+    steps: Math.max(0, Math.round(r.steps || 0)), autoPauses: r.autoPauses || 0, best: rtBestEfforts(rows) };
+}
+
+// ---- récords: el tramo más rápido de 1, 5 y 10 km dentro de cualquier recorrido ----
+var RT_REC_DISTS = [1000, 5000, 10000];
+function rtRecName(L) { return (L / 1000) + " km"; }
+function rtBestEfforts(rows) {
+  var D = [0], T = [0];
+  for (var i = 1; i < rows.length; i++) {
+    var same = rows[i][3] === rows[i - 1][3], d = same ? rtDist(rows[i - 1], rows[i]) : 0, dt = same ? (rows[i][2] - rows[i - 1][2]) / 1000 : 0;
+    D.push(D[i - 1] + d); T.push(T[i - 1] + Math.max(0, dt));
+  }
+  var out = {};
+  RT_REC_DISTS.forEach(function(L) {
+    if (D[D.length - 1] < L) return;
+    var best = Infinity, a = 0;
+    for (var j = 1; j < D.length; j++) {
+      if (D[j] < L) continue;
+      while (a + 1 < j && D[j] - D[a + 1] >= L) a++;
+      var need = D[j] - L, seg = D[a + 1] - D[a], f = seg > 0 ? (need - D[a]) / seg : 0;   // donde empieza exactamente el tramo
+      var tStart = T[a] + (T[a + 1] - T[a]) * Math.max(0, Math.min(1, f)), dur = T[j] - tStart;
+      if (dur > 0 && dur < best) best = dur;
+    }
+    if (isFinite(best)) out[L] = Math.round(best);
+  });
+  return out;
+}
+// Mejores tramos de un recorrido (los viejos, a partir de los parciales por km)
+function rtBestOf(r) {
+  if (r.best) return r.best;
+  var full = (r.splits || []).filter(function(x) { return x[0] >= 1000; }).map(function(x) { return x[1]; }), out = {};
+  RT_REC_DISTS.forEach(function(L) {
+    var k = L / 1000; if (full.length < k) return;
+    var best = Infinity; for (var i = 0; i + k <= full.length; i++) { var s = 0; for (var j = i; j < i + k; j++) s += full[j]; if (s < best) best = s; }
+    out[L] = best;
+  });
+  return out;
+}
+// Récord por distancia para una actividad: { 1000: { s, id, start }, ... }
+function rtRecords(mode) {
+  var out = {};
+  routes.forEach(function(r) {
+    if (r.mode !== mode) return;
+    var b = rtBestOf(r);
+    RT_REC_DISTS.forEach(function(L) { if (b[L] > 0 && (!out[L] || b[L] < out[L].s)) out[L] = { s: b[L], id: r.id, start: r.start }; });
+  });
+  return out;
+}
+function rtRecordsHtml(mode) {
+  var rec = rtRecords(mode), ks = RT_REC_DISTS.filter(function(L) { return rec[L]; });
+  if (!ks.length) return "";
+  return '<div class="balCard rcCard"><div class="balSetName">&#127942; Récords: ' + ROUTE_MODES[mode].name.toLowerCase() + "</div>" + ks.map(function(L) {
+    var x = rec[L];
+    return '<button class="rcRow" data-id="' + x.id + '"><span class="rcD">' + rtRecName(L) + '</span><b>' + rtClock(x.s) + '</b><span class="rcP">' + rtRate(mode, L, x.s) + " " + rtRateUnit(mode) + '</span><span class="rcW">' + new Date(x.start).toLocaleDateString("es-AR", { day: "numeric", month: "short", year: "2-digit" }) + "</span></button>";
+  }).join("") + '<div class="rtNote">El tramo más rápido de esa distancia dentro de cualquier recorrido.</div></div>';
+}
+
+// ---- GPX: para pasar el recorrido a Strava, Google Earth u otra app ----
+function rtGpx(r) {
+  function iso(ms) { return new Date(ms).toISOString().replace(/\.\d{3}Z$/, "Z"); }
+  var M = ROUTE_MODES[r.mode] || ROUTE_MODES.correr, type = r.mode === "bici" ? "cycling" : r.mode === "caminar" ? "walking" : "running";
+  var name = M.name + " " + new Date(r.start).toLocaleDateString("es-AR");
+  var x = '<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="Gimnasio" xmlns="http://www.topografix.com/GPX/1/1">\n<metadata><name>' + escHtml(name) + "</name><time>" + iso(r.start) + "</time></metadata>\n<trk><name>" + escHtml(name) + "</name><type>" + type + "</type>\n";
+  (r.poly || []).forEach(function(enc, si) {
+    var pts = plDec(enc), tm = r.tm && r.tm[si], el = r.el && r.el[si], at = 0, ev = 0;
+    x += "<trkseg>\n";
+    pts.forEach(function(p, i) {
+      x += '<trkpt lat="' + p[0].toFixed(5) + '" lon="' + p[1].toFixed(5) + '">';
+      if (el && el[i] != null) { ev += el[i]; if (ev) x += "<ele>" + ev + "</ele>"; }
+      if (tm && tm[i] != null) { at += tm[i]; x += "<time>" + iso(r.start + at * 1000) + "</time>"; }
+      x += "</trkpt>\n";
+    });
+    x += "</trkseg>\n";
+  });
+  return x + "</trk>\n</gpx>\n";
+}
+function rtExportGpx(r) {
+  var txt = rtGpx(r), d = new Date(r.start), name = "recorrido_" + r.mode + "_" + localDay(r.start) + "_" + ("0" + d.getHours()).slice(-2) + ("0" + d.getMinutes()).slice(-2) + ".gpx";
+  RT.lastGpx = { name: name, text: txt };
+  var C = window.Capacitor;
+  if (C && C.isNativePlatform && C.isNativePlatform() && C.nativePromise) {
+    C.nativePromise("Filesystem", "writeFile", { path: name, data: txt, directory: "CACHE", encoding: "utf8" })
+      .then(function(w) { return C.nativePromise("Share", "share", { title: name, dialogTitle: "Exportar GPX", files: [w.uri] }); })
+      .catch(function(e) { if (!/cancel/i.test((e && e.message) || "")) showToast("No se pudo exportar el GPX"); });
+    return;
+  }
+  try {
+    var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([txt], { type: "application/gpx+xml" })); a.download = name;
+    document.body.appendChild(a); a.click(); setTimeout(function() { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  } catch(e) { showToast("No se pudo exportar el GPX"); }
+}
 document.addEventListener("visibilitychange", function() { if (!document.hidden && RouteGps.native) { routePing(); if (routeIsActive() && RT.view === "main") routeRender(); } });
 setTimeout(function() { try { routePing(); } catch(e) {} }, 1500);
 
@@ -7222,7 +7453,7 @@ setTimeout(function() { try { routePing(); } catch(e) {} }, 1500);
 // ESTIRAMIENTO: programas guiados con video, tiempo por lado y avisos. Seccion aparte:
 // no suma series al Balance. Antes de entrenar: movilidad dinamica; despues: estatico.
 // ============================================================
-var ST_ZONES = { hombros: "Hombros", pecho: "Pecho", espalda: "Espalda", brazos: "Brazos", core: "Abdomen", cadera: "Cadera", gluteos: "Glúteos", aductores: "Aductores", cuadriceps: "Cuádriceps", isquios: "Isquios y gemelos" };
+var ST_ZONES = { todo: "Cuerpo entero", hombros: "Hombros", pecho: "Pecho", espalda: "Espalda", brazos: "Brazos", core: "Abdomen", cadera: "Cadera", gluteos: "Glúteos", aductores: "Aductores", cuadriceps: "Cuádriceps", isquios: "Isquios y gemelos" };
 // ejercicio de la biblioteca -> [zona, tipo ("d" dinamico / "e" estatico), por lado (1/0), segundos sugeridos]
 var ST_INFO = {
   "Gato-Vaca": ["espalda", "d", 0, 40], "Círculos de Cadera": ["cadera", "d", 0, 30], "Balanceo de Piernas": ["cadera", "d", 1, 30],
@@ -7241,9 +7472,29 @@ var ST_INFO = {
   "Postura del Niño": ["espalda", "e", 0, 45], "Estiramiento Lateral de Dorsal de Pie": ["espalda", "e", 1, 30], "Estiramiento de Rotación de Espalda Arrodillado": ["espalda", "e", 1, 30],
   "Perro Hacia Arriba": ["core", "e", 0, 30], "Flexión Cobra": ["core", "e", 0, 30],
   "Estiramiento de Pecho en el Marco de la Puerta": ["pecho", "e", 0, 30], "Estiramiento de Pecho con Brazo Flexionado": ["pecho", "e", 1, 30], "Estiramiento de Pecho con Codos Abiertos": ["pecho", "e", 0, 30],
-  "Postura del Cangrejo": ["pecho", "e", 0, 30], "Estiramiento de Deltoides Posterior": ["hombros", "e", 1, 30], "Estiramiento de Tríceps por Encima de la Cabeza": ["brazos", "e", 1, 30]
+  "Postura del Cangrejo": ["pecho", "e", 0, 30], "Estiramiento de Deltoides Posterior": ["hombros", "e", 1, 30], "Estiramiento de Tríceps por Encima de la Cabeza": ["brazos", "e", 1, 30],
+  "Torsión Espinal Supina": ["espalda", "e", 1, 45], "Sentadilla Profunda a Pliegue Amplio": ["cadera", "e", 0, 40]
 };
-function stS(ex, t, sides, rounds) { var i = ST_INFO[ex] || []; return { ex: ex, t: t || i[3] || 30, sides: sides == null ? (i[2] ? 2 : 1) : sides, rounds: rounds || 1 }; }
+// Posturas de yoga que no están en la biblioteca de videos: se guían con la explicación
+// [zona, tipo, por lado, segundos, cómo hacerla]
+var ST_EXTRA = {
+  "Postura de la Montaña": ["todo", "e", 0, 30, "De pie, pies juntos o al ancho de cadera, peso repartido. Alargá la columna, hombros lejos de las orejas, brazos al costado. Respirá lento por la nariz."],
+  "Guerrero I": ["cadera", "e", 1, 40, "Paso largo adelante, rodilla de adelante flexionada sobre el tobillo y el pie de atrás girado unos 45°. Cadera mirando al frente y brazos arriba. Estira el flexor de cadera de la pierna de atrás."],
+  "Guerrero II": ["aductores", "e", 1, 40, "Piernas bien abiertas, pie de adelante al frente y el de atrás perpendicular. Flexioná la rodilla de adelante sobre el tobillo, brazos en cruz a la altura de los hombros y mirada sobre la mano de adelante."],
+  "Triángulo": ["isquios", "e", 1, 30, "Piernas abiertas y rectas, pie de adelante al frente. Llevá el torso hacia adelante y bajá la mano a la tibia o a un bloque; el otro brazo hacia arriba. Pecho abierto, sin redondear la espalda."],
+  "Postura del Árbol": ["todo", "e", 1, 30, "Parado en una pierna, apoyá la planta del otro pie en el tobillo, la pantorrilla o el muslo (nunca sobre la rodilla). Manos al pecho o arriba y la mirada fija en un punto."],
+  "Piernas en la Pared": ["isquios", "e", 0, 90, "Acostado boca arriba con la cola cerca de la pared y las piernas apoyadas hacia arriba. Brazos relajados. Respirá lento y soltá el peso."],
+  "Postura del Cadáver": ["todo", "e", 0, 120, "Acostado boca arriba, piernas y brazos sueltos, palmas hacia arriba. Cerrá los ojos y respirá lento; aflojá la cara, la mandíbula y los hombros."]
+};
+// Datos de cualquier estiramiento: biblioteca, posturas de yoga o ejercicio propio
+function stExInfo(ex) {
+  var i = ST_INFO[ex]; if (i) return { zone: i[0], dyn: i[1] === "d", sides: i[2], t: i[3], how: "", yt: "", video: true };
+  i = ST_EXTRA[ex]; if (i) return { zone: i[0], dyn: i[1] === "d", sides: i[2], t: i[3], how: i[4], yt: "", video: false, yoga: true };
+  var c = stCustom(ex); if (c) return { zone: c.zone, dyn: c.kind === "d", sides: c.sides ? 1 : 0, t: c.t, how: c.how || "", yt: c.yt || "", video: false, mine: true };
+  return null;
+}
+function stCustom(ex) { var r = null; ((typeof stData !== "undefined" && stData.ex) || []).forEach(function(c) { if (c.name === ex) r = c; }); return r; }
+function stS(ex, t, sides, rounds) { var i = stExInfo(ex) || {}; return { ex: ex, t: t || i.t || 30, sides: sides == null ? (i.sides ? 2 : 1) : sides, rounds: rounds || 1 }; }
 var ST_BUILTIN = [
   { id: "b_pre_leg", kind: "previa", name: "Movilidad previa: piernas", steps: [stS("Gato-Vaca"), stS("Círculos de Cadera"), stS("Balanceo de Piernas"), stS("Balanceo Lateral de Piernas"), stS("Rana Oscilante"), stS("Estiramiento en Zancada", 20)] },
   { id: "b_pre_up", kind: "previa", name: "Movilidad previa: torso", steps: [stS("Círculos de Brazos"), stS("Estiramiento Dinámico de Hombros con Banda"), stS("Ángel de Pared"), stS("Gato-Vaca"), stS("Estiramiento de Rotación de Espalda Arrodillado", 20)] },
@@ -7253,15 +7504,23 @@ var ST_BUILTIN = [
   { id: "b_post_run", kind: "post", name: "Después de correr o caminar", steps: [stS("Estiramiento de Cuádriceps de Pie"), stS("Estiramiento de Isquiotibial Arrodillado"), stS("Perro Boca Abajo", 45), stS("Estiramiento de Figura 4 en Silla"), stS("Postura del Lagarto", 30)] },
   { id: "b_desk", kind: "libre", name: "Cadera y espalda (día de escritorio)", steps: [stS("Gato-Vaca"), stS("Estiramiento 90 a 90"), stS("Postura del Lagarto"), stS("Estiramiento de Figura 4 Sentado"), stS("Estiramiento de Rodilla al Pecho Acostado"), stS("Postura del Niño", 60), stS("Perro Hacia Arriba")] }
 ];
-var ST_KINDS = { previa: "Antes de entrenar: movilidad dinámica", post: "Después de entrenar: estiramiento estático", libre: "Otros", mio: "Mis programas" };
+// Yoga: secuencias suaves. Los tiempos van en segundos (una respiración lenta son unos 5 s)
+var ST_YOGA = [
+  { id: "y_saludo", kind: "yoga", name: "Yoga suave para la mañana", steps: [stS("Postura de la Montaña", 30), stS("Gato-Vaca", 40), stS("Perro Boca Abajo", 40), stS("Flexión Cobra", 30), stS("Postura del Niño", 40), stS("Perro Boca Abajo", 40), stS("Sentadilla Profunda a Pliegue Amplio", 40), stS("Postura de la Montaña", 20)] },
+  { id: "y_pie", kind: "yoga", name: "Yoga de pie: piernas y equilibrio", steps: [stS("Postura de la Montaña", 30), stS("Guerrero I"), stS("Guerrero II"), stS("Triángulo"), stS("Postura del Árbol"), stS("Perro Boca Abajo", 40), stS("Postura del Niño", 45)] },
+  { id: "y_cadera", kind: "yoga", name: "Yoga para la cadera", steps: [stS("Gato-Vaca", 40), stS("Postura del Lagarto", 45), stS("Postura de la Paloma", 60), stS("Estiramiento 90 a 90", 45), stS("Postura Bebé Feliz", 45), stS("Postura Mariposa Acostada", 60), stS("Torsión Espinal Supina", 45), stS("Postura del Cadáver", 90)] },
+  { id: "y_noche", kind: "yoga", name: "Yoga para antes de dormir", steps: [stS("Postura del Niño", 60), stS("Gato-Vaca", 40), stS("Torsión Espinal Supina", 45), stS("Postura Bebé Feliz", 45), stS("Postura Mariposa Acostada", 60), stS("Piernas en la Pared", 120), stS("Postura del Cadáver", 180)] }
+];
+var ST_KINDS = { previa: "Antes de entrenar: movilidad dinámica", post: "Después de entrenar: estiramiento estático", yoga: "Yoga", libre: "Otros", mio: "Mis programas" };
+function stIsBuiltin(id) { return ST_BUILTIN.concat(ST_YOGA).some(function(b) { return b.id === id; }); }
 
-var stData = { progs: [], log: [] };
-try { var _sd = JSON.parse(localStorage.getItem("gymStretch") || "null"); if (_sd && Array.isArray(_sd.progs)) stData = { progs: _sd.progs, log: Array.isArray(_sd.log) ? _sd.log : [] }; } catch(e) {}
+var stData = { progs: [], log: [], ex: [] };
+try { var _sd = JSON.parse(localStorage.getItem("gymStretch") || "null"); if (_sd && Array.isArray(_sd.progs)) stData = { progs: _sd.progs, log: Array.isArray(_sd.log) ? _sd.log : [], ex: Array.isArray(_sd.ex) ? _sd.ex : [] }; } catch(e) {}
 function stPersist() { safeStore("gymStretch", JSON.stringify(stData)); }
-function stAllProgs() { return ST_BUILTIN.concat(stData.progs); }
+function stAllProgs() { return ST_BUILTIN.concat(ST_YOGA, stData.progs); }
 function stFind(id) { var r = null; stAllProgs().forEach(function(p) { if (p.id === id) r = p; }); return r; }
 function stZoneOf(ex) {
-  if (ST_INFO[ex]) return ST_INFO[ex][0];
+  var inf = stExInfo(ex); if (inf) return inf.zone;
   var n = normalizeName(ex);
   var K = [["cuadriceps", "cuadriceps"], ["isquio", "isquios"], ["gemelo", "isquios"], ["pantorrilla", "isquios"], ["gluteo", "gluteos"], ["piriforme", "gluteos"], ["aductor", "aductores"], ["mariposa", "aductores"],
     ["cadera", "cadera"], ["psoas", "cadera"], ["pecho", "pecho"], ["pectoral", "pecho"], ["dorsal", "espalda"], ["espalda", "espalda"], ["lumbar", "espalda"], ["hombro", "hombros"], ["deltoides", "hombros"],
@@ -7269,7 +7528,9 @@ function stZoneOf(ex) {
   for (var i = 0; i < K.length; i++) if (n.indexOf(K[i][0]) >= 0) return K[i][1];
   return "espalda";
 }
-function stIsDyn(ex) { return !!(ST_INFO[ex] && ST_INFO[ex][1] === "d"); }
+function stIsDyn(ex) { var i = stExInfo(ex); return !!(i && i.dyn); }
+function stIsYoga(p) { return !!(p && (p.kind === "yoga" || p.steps.some(function(s) { return !!ST_EXTRA[s.ex]; }))); }
+function stBreaths(t) { return Math.max(1, Math.round(t / 5)); }
 // Fases: preparacion (muestra el siguiente), mantener, cambio de lado
 function stPhases(p) {
   var ph = [];
@@ -7284,7 +7545,7 @@ function stPhases(p) {
 }
 function stDur(p) { return stPhases(p).reduce(function(a, x) { return a + x.secs; }, 0); }
 function stMin(sec) { var m = Math.round(sec / 60); return (m < 1 ? "<1" : m) + " min"; }
-function stStepTxt(s) { return s.t + " s" + (s.sides === 2 ? " por lado" : "") + (s.rounds > 1 ? " · " + s.rounds + " vueltas" : "") + (stIsDyn(s.ex) ? " · continuo" : ""); }
+function stStepTxt(s, yoga) { return s.t + " s" + (yoga && !stIsDyn(s.ex) ? " (≈ " + stBreaths(s.t) + " resp.)" : "") + (s.sides === 2 ? " por lado" : "") + (s.rounds > 1 ? " · " + s.rounds + " vueltas" : "") + (stIsDyn(s.ex) ? " · continuo" : ""); }
 function stZonesTxt(p) { var z = []; p.steps.forEach(function(s) { var k = ST_ZONES[stZoneOf(s.ex)]; if (z.indexOf(k) < 0) z.push(k); }); return z.join(", "); }
 function stSideName(n) { return n === 1 ? "Lado derecho" : n === 2 ? "Lado izquierdo" : ""; }
 function stWeekStart() { var d = new Date(); d.setHours(0, 0, 0, 0); var wd = (d.getDay() + 6) % 7; d.setDate(d.getDate() - wd); return d.getTime(); }
@@ -7320,11 +7581,12 @@ function stRender() {
   if (zk.length) h += '<div class="stZones">' + zk.map(function(z) { var m = w.zones[z] / 60; return '<span class="' + (m >= 5 ? "ok" : "") + '">' + ST_ZONES[z] + " " + (m < 1 ? "<1" : Math.round(m)) + "'</span>"; }).join("") + "</div>";
   h += '<div class="stHint">Para ganar flexibilidad sirve más la constancia que la intensidad: unos 5 minutos por semana en cada zona, repartidos. Antes de entrenar conviene la movilidad dinámica; el estiramiento estático, después o en otro momento.</div></div>';
   h += '<button class="rtKgRow" id="stSugTog"><span>Sugerir estiramientos al empezar y terminar rutinas y recorridos</span><b>' + (stSugOn() ? "Sí" : "No") + "</b></button>";
-  ["previa", "post", "libre", "mio"].forEach(function(k) {
-    var list = k === "mio" ? stData.progs : ST_BUILTIN.filter(function(p) { return p.kind === k; });
-    if (k === "mio" || list.length) h += '<div class="exdSec">' + ST_KINDS[k] + "</div>";
+  ["previa", "post", "yoga", "libre", "mio"].forEach(function(k) {
+    var list = k === "mio" ? stData.progs : ST_BUILTIN.concat(ST_YOGA).filter(function(p) { return p.kind === k; });
+    if (k === "yoga") h += '<div class="exdSec">' + ST_KINDS[k] + '</div><div class="stHint stYogaHint">Secuencias suaves de posturas sostenidas. Los tiempos van en segundos; una respiración lenta son unos 5. Las posturas sin video se guían con la explicación.</div>';
+    if (k !== "yoga" && (k === "mio" || list.length)) h += '<div class="exdSec">' + ST_KINDS[k] + "</div>";
     list.forEach(function(p) { h += '<button class="stProg" data-id="' + p.id + '"><span class="stProgMid"><b>' + escHtml(p.name) + '</b><span>' + stMin(stDur(p)) + " &middot; " + p.steps.length + " ejercicios &middot; " + stZonesTxt(p) + '</span></span><span class="rtItemGo">&#8250;</span></button>'; });
-    if (k === "mio") h += '<button class="stNew" id="stNew">+ Crear programa</button>';
+    if (k === "mio") h += '<button class="stNew" id="stNew">+ Crear programa</button><button class="rtKgRow" id="stMyEx"><span>Mis ejercicios de estiramiento</span><b>' + (stData.ex.length ? stData.ex.length : "Crear") + " &#8250;</b></button>";
   });
   var last = stData.log.slice(-8).reverse();
   if (last.length) {
@@ -7335,22 +7597,23 @@ function stRender() {
   root.innerHTML = h;
   root.querySelectorAll(".stProg").forEach(function(b) { b.onclick = function() { ST.pid = b.getAttribute("data-id"); stSetView("prog"); }; });
   root.querySelector("#stNew").onclick = function() { ST.draft = { id: null, name: "", steps: [] }; stSetView("edit"); };
+  root.querySelector("#stMyEx").onclick = stMyExSheet;
   var rs = root.querySelector("#stResume"); if (rs) rs.onclick = function() { showScreen("stPlayScreen"); };
   root.querySelector("#stSugTog").onclick = function() { safeStore("gymStretchSug", stSugOn() ? "0" : "1"); stRender(); };
 }
 function stRenderProg(root) {
   var p = stFind(ST.pid); if (!p) { ST.view = "main"; stRender(); return; }
-  var mine = !ST_BUILTIN.some(function(b) { return b.id === p.id; });
+  var mine = !stIsBuiltin(p.id), yoga = stIsYoga(p);
   var h = '<div class="stHead"><div class="stHeadName">' + escHtml(p.name) + '</div><div class="stHeadSub">' + stMin(stDur(p)) + " &middot; " + p.steps.length + " ejercicios &middot; " + stZonesTxt(p) + "</div></div>";
   h += '<button class="bigGo" id="stGo">Empezar</button>';
   h += '<div class="balCard stSteps">';
-  p.steps.forEach(function(s, i) { h += '<button class="stStepRow" data-i="' + i + '"><span class="stNum">' + (i + 1) + '</span><span class="stProgMid"><b>' + escHtml(s.ex) + "</b><span>" + stStepTxt(s) + " &middot; " + ST_ZONES[stZoneOf(s.ex)] + '</span></span><span class="rtItemGo">&#9654;</span></button>'; });
+  p.steps.forEach(function(s, i) { h += '<button class="stStepRow" data-i="' + i + '"><span class="stNum">' + (i + 1) + '</span><span class="stProgMid"><b>' + escHtml(s.ex) + "</b><span>" + stStepTxt(s, yoga) + " &middot; " + ST_ZONES[stZoneOf(s.ex)] + (stExInfo(s.ex) && !stExInfo(s.ex).video ? " &middot; sin video" : "") + '</span></span><span class="rtItemGo">&#9654;</span></button>'; });
   h += '</div><div class="stHint">Tocá un ejercicio para ver el video y cómo hacerlo. Entre ejercicios hay unos segundos para acomodarte, y otros 5 para cambiar de lado.</div>';
   h += '<div class="rtBtns"><button class="rtBtn" id="stEdit">' + (mine ? "Editar" : "Copiar y editar") + "</button>" + (mine ? '<button class="rtBtn stop" id="stDel">Eliminar</button>' : "") + "</div>";
   root.innerHTML = h;
   root.querySelector("#stGo").onclick = function() { stPlay(p); };
   stPrefetch(p);
-  root.querySelectorAll(".stStepRow").forEach(function(b) { b.onclick = function() { var ex = p.steps[+b.getAttribute("data-i")].ex, g = exGroupOf(ex) || "Piernas"; openLibDetail(ex, g, (GROUPS[g] || LIBRARY[g] || {}).color || "#22D3EE", false); }; });
+  root.querySelectorAll(".stStepRow").forEach(function(b) { b.onclick = function() { var ex = p.steps[+b.getAttribute("data-i")].ex; stShowEx(ex); }; });
   root.querySelector("#stEdit").onclick = function() {
     ST.draft = JSON.parse(JSON.stringify(p));
     if (!mine) { ST.draft.id = null; ST.draft.name = p.name + " (mío)"; }
@@ -7379,8 +7642,8 @@ function stRenderEdit(root) {
     if (a === "up" && i > 0) { d.steps.splice(i, 1); d.steps.splice(i - 1, 0, s); }
     else if (a === "dn" && i < d.steps.length - 1) { d.steps.splice(i, 1); d.steps.splice(i + 1, 0, s); }
     else if (a === "del") d.steps.splice(i, 1);
-    else if (a === "t-") s.t = Math.max(10, s.t - 5);
-    else if (a === "t+") s.t = Math.min(180, s.t + 5);
+    else if (a === "t-") s.t = Math.max(10, s.t - (s.t > 60 ? 15 : 5));
+    else if (a === "t+") s.t = Math.min(300, s.t + (s.t >= 60 ? 15 : 5));
     else if (a === "sd") s.sides = s.sides === 2 ? 1 : 2;
     else if (a === "r-") s.rounds = Math.max(1, s.rounds - 1);
     else if (a === "r+") s.rounds = Math.min(5, s.rounds + 1);
@@ -7399,12 +7662,17 @@ function stRenderEdit(root) {
 function stPicker(onPick) {
   openTrSheet("Agregar estiramiento", function(body) {
     var w = document.createElement("div"); w.className = "exdWrap";
-    w.innerHTML = '<input class="setInput stSearch" id="stQ" type="text" placeholder="Buscar (también en toda la biblioteca)"><div id="stPickList"></div>';
+    w.innerHTML = '<input class="setInput stSearch" id="stQ" type="text" placeholder="Buscar (también en toda la biblioteca)"><button class="stNew" id="stPickNew">+ Crear un ejercicio propio</button><div id="stPickList"></div>';
     body.appendChild(w);
     var list = w.querySelector("#stPickList"), q = w.querySelector("#stQ");
+    w.querySelector("#stPickNew").onclick = function() { closeTrSheet(); setTimeout(function() { stExEditor(null, function(name) { onPick(name); }); }, 30); };
     function item(ex, sub) { var b = document.createElement("button"); b.className = "trSheetBtn stPick"; b.innerHTML = escHtml(ex) + '<span>' + sub + "</span>"; b.onclick = function() { closeTrSheet(); onPick(ex); }; list.appendChild(b); }
     function draw() {
       list.innerHTML = ""; var t = normalizeName(q.value || "");
+      function sec(title, exs, sub) { if (!exs.length) return; var hd = document.createElement("div"); hd.className = "exdSec"; hd.textContent = title; list.appendChild(hd); exs.forEach(function(ex) { item(ex, sub(ex)); }); }
+      var match = function(ex) { return !t || normalizeName(ex).indexOf(t) >= 0; };
+      sec("Mis ejercicios", stData.ex.map(function(c) { return c.name; }).filter(match), function(ex) { var c = stCustom(ex); return ST_ZONES[c.zone] + (c.sides ? " · por lado" : "") + (c.yt ? " · con link" : ""); });
+      sec("Yoga (sin video, con explicación)", Object.keys(ST_EXTRA).filter(match), function(ex) { return ST_ZONES[ST_EXTRA[ex][0]] + (ST_EXTRA[ex][2] ? " · por lado" : ""); });
       Object.keys(ST_ZONES).forEach(function(z) {
         var exs = Object.keys(ST_INFO).filter(function(ex) { return ST_INFO[ex][0] === z && (!t || normalizeName(ex).indexOf(t) >= 0); });
         if (!exs.length) return;
@@ -7422,6 +7690,69 @@ function stPicker(onPick) {
   });
 }
 
+// ---- ver un estiramiento: video de la biblioteca, o explicación y link si es propio o de yoga ----
+function stShowEx(ex) {
+  var inf = stExInfo(ex);
+  if (!inf || inf.video) { var g = exGroupOf(ex) || "Piernas"; openLibDetail(ex, g, (GROUPS[g] || LIBRARY[g] || {}).color || "#22D3EE", false); return; }
+  openTrSheet(ex, function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<div class="exdIntro">' + ST_ZONES[inf.zone] + " &middot; " + (inf.dyn ? "dinámico" : "estático") + (inf.sides ? " &middot; por lado" : "") + " &middot; " + inf.t + " s</div>" +
+      (inf.how ? '<div class="stHowTxt">' + escHtml(inf.how) + "</div>" : '<div class="stHowTxt">Sin explicación.</div>') +
+      (inf.yt ? '<a class="stYt" href="' + escHtml(inf.yt) + '" target="_blank" rel="noopener">&#9654; Ver en YouTube</a>' : "");
+    body.appendChild(w);
+    if (inf.mine) trSheetBtn(body, "Editar ejercicio", function() { setTimeout(function() { stExEditor(stCustom(ex)); }, 30); });
+  });
+}
+function stMyExSheet() {
+  openTrSheet("Mis ejercicios de estiramiento", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    w.innerHTML = '<div class="exdIntro">Ejercicios propios para sumar a tus programas: con nombre, zona, tiempo, cómo hacerlo y, si querés, un link de YouTube.</div>';
+    body.appendChild(w);
+    trSheetBtn(body, "+ Crear ejercicio", function() { setTimeout(function() { stExEditor(null); }, 30); });
+    stData.ex.forEach(function(c) { trSheetBtn(body, escHtml(c.name) + ' <span class="stPickSub">' + ST_ZONES[c.zone] + " &middot; " + c.t + " s" + (c.yt ? " &middot; con link" : "") + "</span>", function() { setTimeout(function() { stExEditor(c); }, 30); }); });
+  });
+}
+function stYtOk(u) { return /^https?:\/\/\S+\.\S+/i.test(u || ""); }
+// Crear o editar un ejercicio propio. onDone(nombre) al guardar uno nuevo
+function stExEditor(c, onDone) {
+  var d = c ? JSON.parse(JSON.stringify(c)) : { name: "", zone: "espalda", kind: "e", sides: 0, t: 30, how: "", yt: "" }, old = c ? c.name : null;
+  openTrSheet(c ? "Editar ejercicio" : "Nuevo ejercicio", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap stExEd";
+    w.innerHTML = '<input class="setInput" id="sxName" type="text" placeholder="Nombre (ej.: Estiramiento de cuello)" value="' + escHtml(d.name) + '">' +
+      '<div class="stExLbl">Zona</div><div class="stZonePick" id="sxZone">' + Object.keys(ST_ZONES).map(function(z) { return '<button data-z="' + z + '" class="' + (d.zone === z ? "on" : "") + '">' + ST_ZONES[z] + "</button>"; }).join("") + "</div>" +
+      '<div class="stEdCtl" style="margin-top:10px"><button class="stTog' + (d.kind === "d" ? " on" : "") + '" id="sxKind">' + (d.kind === "d" ? "Dinámico" : "Estático") + '</button><button class="stTog' + (d.sides ? " on" : "") + '" id="sxSides">' + (d.sides ? "Por lado" : "Un solo lado") + '</button><span class="stStepper"><button id="sxTm">&minus;</button><b id="sxT">' + d.t + ' s</b><button id="sxTp">+</button></span></div>' +
+      '<div class="stExLbl">Cómo se hace (opcional)</div><textarea class="trNoteInput" id="sxHow" rows="3" placeholder="Posición, qué tenés que sentir, errores a evitar">' + escHtml(d.how || "") + "</textarea>" +
+      '<div class="stExLbl">Link de YouTube (opcional)</div><input class="setInput" id="sxYt" type="url" inputmode="url" placeholder="https://youtu.be/..." value="' + escHtml(d.yt || "") + '">' +
+      '<div class="libCreateMsg" id="sxMsg"></div><div class="rtBtns"><button class="rtBtn resume" id="sxSave">Guardar</button>' + (c ? '<button class="rtBtn stop" id="sxDel">Eliminar</button>' : "") + "</div>";
+    body.appendChild(w);
+    function $(id) { return w.querySelector("#" + id); }
+    w.querySelectorAll("#sxZone button").forEach(function(b) { b.onclick = function() { d.zone = b.getAttribute("data-z"); w.querySelectorAll("#sxZone button").forEach(function(x) { x.classList.toggle("on", x === b); }); }; });
+    $("sxKind").onclick = function() { d.kind = d.kind === "d" ? "e" : "d"; this.textContent = d.kind === "d" ? "Dinámico" : "Estático"; this.classList.toggle("on", d.kind === "d"); };
+    $("sxSides").onclick = function() { d.sides = d.sides ? 0 : 1; this.textContent = d.sides ? "Por lado" : "Un solo lado"; this.classList.toggle("on", !!d.sides); };
+    $("sxTm").onclick = function() { d.t = Math.max(10, d.t - (d.t > 60 ? 15 : 5)); $("sxT").textContent = d.t + " s"; };
+    $("sxTp").onclick = function() { d.t = Math.min(300, d.t + (d.t >= 60 ? 15 : 5)); $("sxT").textContent = d.t + " s"; };
+    $("sxSave").onclick = function() {
+      var nm = $("sxName").value.trim().replace(/\s+/g, " "), yt = $("sxYt").value.trim(), msg = $("sxMsg");
+      if (!nm) { msg.textContent = "Poné un nombre."; return; }
+      var taken = (nm !== old) && (ST_INFO[nm] || ST_EXTRA[nm] || stCustom(nm) || exGroupOf(nm));
+      if (taken) { msg.textContent = "Ya hay un ejercicio con ese nombre."; return; }
+      if (yt && !stYtOk(yt)) { msg.textContent = "El link tiene que empezar con https://"; return; }
+      d.name = nm; d.yt = yt; d.how = $("sxHow").value.trim();
+      if (c) {
+        stData.ex = stData.ex.map(function(x) { return x.name === old ? d : x; });
+        if (old !== nm) stData.progs.forEach(function(p) { p.steps.forEach(function(st) { if (st.ex === old) st.ex = nm; }); });
+      } else stData.ex.push(d);
+      stPersist(); closeTrSheet(); showToast(c ? "Ejercicio guardado" : "Ejercicio creado");
+      if (!c && onDone) onDone(nm); else if (document.getElementById("stretchScreen").classList.contains("active")) stRender();
+    };
+    if (c) $("sxDel").onclick = function() {
+      var used = stData.progs.filter(function(p) { return p.steps.some(function(st) { return st.ex === old; }); });
+      if (used.length) { $("sxMsg").textContent = "Está en " + used.map(function(p) { return p.name; }).join(", ") + ": sacalo de ese programa primero."; return; }
+      stData.ex = stData.ex.filter(function(x) { return x.name !== old; }); stPersist(); closeTrSheet(); showToast("Ejercicio eliminado"); stRender();
+    };
+  });
+}
+
 // ---- reproductor guiado ----
 var SP = null, ST_NOTIF_BASE = 5600;
 function spElapsed() { return SP ? SP.base + (SP.paused ? 0 : (Date.now() - SP.runSince) / 1000) : 0; }
@@ -7433,7 +7764,7 @@ function spState() {
 function spStartOf(i) { var a = 0; for (var k = 0; k < i; k++) a += SP.ph[k].secs; return a; }
 // Deja guardados los videos del programa (de a uno) para poder hacerlo despues sin señal
 function stPrefetch(p) {
-  var urls = []; p.steps.forEach(function(st) { var u = getVideoSrc(st.ex); if (u && urls.indexOf(u) < 0) urls.push(u); });
+  var urls = []; p.steps.forEach(function(st) { var inf = stExInfo(st.ex); if (inf && !inf.video) return; var u = getVideoSrc(st.ex); if (u && urls.indexOf(u) < 0) urls.push(u); });
   (function next() { var u = urls.shift(); if (!u || !mediaCacheAvailable()) return; mediaResponse(u).then(next, next); })();
 }
 function stPlay(p, ret) {
@@ -7479,6 +7810,7 @@ function spRender(st) {
   $("stpEx").textContent = s.ex;
   var sub = ph.k === "prep" ? (ph.step === 0 ? "Preparate" : "Siguiente ejercicio: acomodate") : ph.k === "switch" ? (ph.side ? "Cambiá de lado" : "Vuelta " + ph.round + ": volvé a la posición") : (stSideName(ph.side) || (stIsDyn(s.ex) ? "Movimiento continuo" : "Mantené la posición"));
   if (ph.k === "hold" && s.rounds > 1) sub += " · vuelta " + ph.round + " de " + s.rounds;
+  if (ph.k === "hold" && stIsYoga(SP.p) && !stIsDyn(s.ex)) sub += " · ≈ " + stBreaths(s.t) + " respiraciones";
   $("stpSub").textContent = sub;
   $("stpSub").className = "stSub " + ph.k;
   $("stpClock").textContent = rtClock(Math.ceil(st.left));
@@ -7488,9 +7820,11 @@ function spRender(st) {
   $("stpPause").classList.toggle("on", SP.paused);
   if (SP.vidEx !== s.ex) {
     SP.vidEx = s.ex;
-    var box = $("stpVid"), src = getVideoSrc(s.ex);
+    var box = $("stpVid"), inf = stExInfo(s.ex), src = inf && !inf.video ? null : getVideoSrc(s.ex);
     box.innerHTML = "";
-    if (src) {
+    if (!src && inf && (inf.how || inf.yt)) {
+      box.innerHTML = '<div class="stNoVid stHow"><b>' + escHtml(s.ex) + "</b>" + (inf.how ? "<span>" + escHtml(inf.how) + "</span>" : "") + (inf.yt ? '<a class="stYt" href="' + escHtml(inf.yt) + '" target="_blank" rel="noopener">&#9654; Ver en YouTube</a>' : "") + "</div>";
+    } else if (src) {
       var v = document.createElement("video"); v.muted = true; v.loop = true; v.autoplay = true; v.setAttribute("playsinline", ""); v.setAttribute("muted", ""); v.preload = "auto";
       v.onerror = function() { box.innerHTML = '<div class="stNoVid">' + escHtml(s.ex) + "</div>"; };
       box.appendChild(v); setCachedVideoSrc(v, src);   // guardado en el celular: se ve sin señal
@@ -7640,7 +7974,8 @@ function launchRouteInfo() {
 var LAUNCH_CARDS = [
   { id: "gym", title: "Gimnasio", ic: '<path d="M6.5 6.5v11"/><path d="M17.5 6.5v11"/><path d="M3.5 9v6"/><path d="M20.5 9v6"/><path d="M6.5 12h11"/>', info: launchGymInfo },
   { id: "stretch", title: "Estiramiento", ic: '<circle cx="12" cy="4.5" r="2"/><path d="M12 7v6"/><path d="M12 13l-4 7"/><path d="M12 13l5 3.5"/><path d="M5 9.5l7-1.5 6.5-3"/>', info: launchStretchInfo },
-  { id: "route", title: "Recorridos", ic: '<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/>', info: launchRouteInfo }
+  { id: "route", title: "Recorridos", ic: '<circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/>', info: launchRouteInfo },
+  { id: "body", title: "Cuerpo", ic: '<path d="M5 20l1.6-10.5A2 2 0 0 1 8.6 7.8h6.8a2 2 0 0 1 2 1.7L19 20z"/><path d="M12 11.5l2-2"/><circle cx="12" cy="12.5" r="1"/>', info: launchBodyInfo }
 ];
 function renderLaunch() {
   var root = document.getElementById("launchRoot"); if (!root) return;
@@ -7675,6 +8010,7 @@ function renderLaunch() {
 function launchGo(id) {
   if (id === "gym") { var ses = trainGetSession(); if (ses && ses.routineId && findRoutine(ses.routineId)) { showScreen("homeScreen"); openRoutine(ses.routineId, true); } else showScreen("homeScreen"); }
   else if (id === "stretch") showScreen(SP && SP.p && !SP.done ? "stPlayScreen" : "stretchScreen");
+  else if (id === "body") bodyOpen("launchScreen");
   else showScreen("routeScreen");
 }
 // Al abrir la app: directo a lo que este en curso
@@ -8108,6 +8444,10 @@ function weeklyReport(wk) {
   // Estiramiento y recorridos
   var t0 = wkDate(wk); t0.setHours(0, 0, 0, 0); var t1 = t0.getTime() + 7 * 864e5;
   var st = stData.log.filter(function(l) { return l.d >= t0.getTime() && l.d < t1; }), rt = routes.filter(function(r) { return r.start >= t0.getTime() && r.start < t1; });
+  try {   // peso: el ultimo registro hasta el fin de esa semana, si es reciente
+    var wEnd = wkDate(wk).getTime() + 7 * 864e5, bser = bodySeries("kg").filter(function(x) { return x.t < wEnd; }), bkg = bser[bser.length - 1], btr = bodyTrend("kg");
+    if (bkg && wEnd - bkg.t < 21 * 864e5) L.push("\n## Cuerpo\nPeso: " + bodyNum(bkg.v) + " kg, promedio de 7 días " + bodyNum(bodyAvg7(bser, bkg.t)) + " kg" + (btr ? " (tendencia " + bodySigned(btr.perWeek, "kg") + " por semana, " + bodySigned(btr.pct, "%") + ")" : "") + ".");
+  } catch(e) {}
   if (st.length || rt.length) {
     L.push("\n## Estiramiento y recorridos");
     if (st.length) L.push("Estiramiento: " + st.length + (st.length === 1 ? " sesión, " : " sesiones, ") + Math.round(st.reduce(function(s, l) { return s + (l.secs || 0); }, 0) / 60) + " min.");
@@ -8136,6 +8476,151 @@ function weeklyCardEl() {
   el.querySelector(".wkRepGo").onclick = function() { weeklySend(wk); el.remove(); };
   el.querySelector(".wkRepX").onclick = function() { bkLs("gymWeeklyDone", wk); el.remove(); };
   return el;
+}
+
+
+// ============================================================
+// CUERPO: peso y medidas con tendencia. El peso del dia varia por agua y comida:
+// lo que importa es el promedio de 7 dias y cuanto cambia por semana.
+// ============================================================
+var BODY_FIELDS = [
+  { k: "kg", name: "Peso", u: "kg", min: 25, max: 300 },
+  { k: "cintura", name: "Cintura", u: "cm", min: 30, max: 250 },
+  { k: "cadera", name: "Cadera", u: "cm", min: 30, max: 250 },
+  { k: "pecho", name: "Pecho", u: "cm", min: 30, max: 250 },
+  { k: "brazo", name: "Brazo", u: "cm", min: 10, max: 100 },
+  { k: "muslo", name: "Muslo", u: "cm", min: 20, max: 150 },
+  { k: "grasa", name: "Grasa corporal", u: "%", min: 2, max: 70 }
+];
+var bodyData = { log: [] };
+try { var _bd = JSON.parse(localStorage.getItem("gymBody") || "null"); if (_bd && Array.isArray(_bd.log)) bodyData = { log: _bd.log }; } catch(e) {}
+var BODY = { ret: "launchScreen", range: 90 };
+function bodyPersist() {
+  bodyData.log.sort(function(a, b) { return a.d < b.d ? -1 : a.d > b.d ? 1 : 0; });
+  safeStore("gymBody", JSON.stringify(bodyData));
+  var kg = bodyLast("kg"); if (kg) safeStore("gymBodyKg", String(kg.v));   // el ultimo peso se usa para las calorias
+}
+function bodyNum(v) { return (Math.round(v * 10) / 10).toLocaleString("es-AR", { maximumFractionDigits: 1 }); }
+function bodySigned(v, u) { var r = Math.round(v * 10) / 10; return (r > 0 ? "+" : r < 0 ? "−" : "±") + bodyNum(Math.abs(r)) + (u ? " " + u : ""); }
+function bodyDayMs(d) { var p = d.split("-"); return new Date(+p[0], +p[1] - 1, +p[2], 12).getTime(); }
+function bodySeries(k) { return bodyData.log.filter(function(e) { return e[k] > 0; }).map(function(e) { return { d: e.d, t: bodyDayMs(e.d), v: e[k] }; }); }
+function bodyLast(k) { var s = bodySeries(k); return s.length ? s[s.length - 1] : null; }
+// Promedio de los registros de los 7 dias que terminan en t
+function bodyAvg7(ser, t) { var a = ser.filter(function(x) { return x.t <= t && x.t > t - 7 * 864e5; }); if (!a.length) return null; return a.reduce(function(s, x) { return s + x.v; }, 0) / a.length; }
+// Tendencia: pendiente (por semana) de la recta que mejor ajusta los registros de los ultimos "dias"
+function bodyTrend(k, dias) {
+  var ser = bodySeries(k); if (ser.length < 3) return null;
+  var tEnd = ser[ser.length - 1].t, pts = ser.filter(function(x) { return x.t > tEnd - (dias || 28) * 864e5; });
+  if (pts.length < 3 || (pts[pts.length - 1].t - pts[0].t) < 6 * 864e5) return null;
+  var n = pts.length, mx = 0, my = 0; pts.forEach(function(p) { mx += p.t; my += p.v; }); mx /= n; my /= n;
+  var num = 0, den = 0; pts.forEach(function(p) { num += (p.t - mx) * (p.v - my); den += (p.t - mx) * (p.t - mx); });
+  if (!den) return null;
+  var perWeek = num / den * 7 * 864e5;
+  return { perWeek: perWeek, pct: my ? perWeek / my * 100 : 0, n: n, days: Math.round((pts[pts.length - 1].t - pts[0].t) / 864e5) };
+}
+// Valor de hace ~30 dias (el registro mas cercano entre 21 y 45 dias antes del ultimo)
+function bodyAgo(k, dias) {
+  var ser = bodySeries(k); if (ser.length < 2) return null;
+  var last = ser[ser.length - 1], target = last.t - dias * 864e5, best = null;
+  ser.forEach(function(x) { if (x === last) return; var dd = Math.abs(x.t - target); if (dd <= dias * 0.5 * 864e5 && (!best || dd < Math.abs(best.t - target))) best = x; });
+  return best;
+}
+function launchBodyInfo() {
+  var kg = bodyLast("kg"), tr = bodyTrend("kg");
+  if (!kg) return { live: false, txt: "Peso y medidas con tendencia" };
+  return { live: false, txt: bodyNum(kg.v) + " kg" + (tr ? " · tendencia " + bodySigned(tr.perWeek, "kg") + "/sem" : " · " + stDayLabel(kg.t)) };
+}
+function bodyOpen(ret) { BODY.ret = ret || "launchScreen"; showScreen("bodyScreen"); }
+function bodyBack() { showScreen(BODY.ret || "launchScreen"); }
+
+// Grafico del peso: puntos de cada dia y linea del promedio de 7 dias
+function bodyChart(range) {
+  var ser = bodySeries("kg"); if (ser.length < 2) return "";
+  var tEnd = ser[ser.length - 1].t, t0 = range ? tEnd - range * 864e5 : ser[0].t, pts = ser.filter(function(x) { return x.t >= t0; });
+  if (pts.length < 2) pts = ser.slice(-2);
+  t0 = pts[0].t;
+  var W = 340, H = 150, P = { l: 34, r: 8, t: 10, b: 20 }, lo = 1e9, hi = -1e9;
+  var avg = pts.map(function(p) { return { t: p.t, v: bodyAvg7(ser, p.t) }; });
+  pts.concat(avg).forEach(function(p) { if (p.v < lo) lo = p.v; if (p.v > hi) hi = p.v; });
+  var pad = Math.max(0.5, (hi - lo) * 0.15); lo -= pad; hi += pad;
+  var span = Math.max(1, tEnd - t0);
+  function x(t) { return P.l + (t - t0) / span * (W - P.l - P.r); }
+  function y(v) { return P.t + (hi - v) / (hi - lo) * (H - P.t - P.b); }
+  var g = "";
+  for (var i = 0; i <= 3; i++) { var v = lo + (hi - lo) * i / 3; g += '<line x1="' + P.l + '" x2="' + (W - P.r) + '" y1="' + y(v).toFixed(1) + '" y2="' + y(v).toFixed(1) + '" class="bdGrid"/><text x="' + (P.l - 4) + '" y="' + (y(v) + 3).toFixed(1) + '" class="bdAx" text-anchor="end">' + bodyNum(v) + "</text>"; }
+  [t0, tEnd].forEach(function(t, k) { g += '<text x="' + x(t).toFixed(1) + '" y="' + (H - 5) + '" class="bdAx" text-anchor="' + (k ? "end" : "start") + '">' + new Date(t).toLocaleDateString("es-AR", { day: "numeric", month: "short" }) + "</text>"; });
+  pts.forEach(function(p) { g += '<circle cx="' + x(p.t).toFixed(1) + '" cy="' + y(p.v).toFixed(1) + '" r="2.6" class="bdDot"/>'; });
+  g += '<path d="M' + avg.map(function(p) { return x(p.t).toFixed(1) + " " + y(p.v).toFixed(1); }).join("L") + '" class="bdLine"/>';
+  return '<svg class="bdChart" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" role="img" aria-label="Peso en el tiempo">' + g + "</svg>";
+}
+function bodyRender() {
+  var root = document.getElementById("bodyRoot"); if (!root) return;
+  var kg = bodyLast("kg"), tr = bodyTrend("kg"), h = "";
+  h += '<div class="balCard bdCard"><div class="balSetName">Peso</div>';
+  if (kg) {
+    var ser = bodySeries("kg"), a7 = bodyAvg7(ser, kg.t);
+    h += '<div class="bdBig"><b>' + bodyNum(kg.v) + '</b><span>kg &middot; ' + stDayLabel(kg.t) + "</span></div>";
+    h += '<div class="bdSub">Promedio de 7 días: <b>' + bodyNum(a7) + " kg</b>" + (tr ? ' &middot; Tendencia: <b class="' + (Math.abs(tr.pct) < 0.1 ? "" : tr.perWeek > 0 ? "up" : "dn") + '">' + bodySigned(tr.perWeek, "kg") + "/semana</b> (" + bodySigned(tr.pct, "%") + ", últimos " + tr.days + " días)" : " &middot; con más registros te muestro la tendencia") + "</div>";
+    h += '<div class="msSeg bdRange"><button data-r="30" class="' + (BODY.range === 30 ? "on" : "") + '">1 mes</button><button data-r="90" class="' + (BODY.range === 90 ? "on" : "") + '">3 meses</button><button data-r="0" class="' + (!BODY.range ? "on" : "") + '">Todo</button></div>';
+    h += bodyChart(BODY.range) || '<div class="rtNote">Con dos registros o más aparece el gráfico.</div>';
+    h += '<div class="bdLegend"><span><i class="dot"></i>cada día</span><span><i class="line"></i>promedio de 7 días</span></div>';
+  } else h += '<div class="rtNote">Todavía no registraste tu peso.</div>';
+  h += '</div><button class="bigGo" id="bdAdd">Registrar hoy</button>';
+  // medidas
+  var meds = BODY_FIELDS.filter(function(f) { return f.k !== "kg" && bodyLast(f.k); });
+  if (meds.length) {
+    h += '<div class="exdSec">Medidas</div><div class="balCard bdMeds"><div class="bdMRow bdMHead"><span></span><span>Última</span><span>Hace 1 mes</span><span>Desde el inicio</span></div>';
+    meds.forEach(function(f) {
+      var ser = bodySeries(f.k), last = ser[ser.length - 1], ago = bodyAgo(f.k, 30), first = ser[0];
+      h += '<div class="bdMRow"><span>' + f.name + "</span><b>" + bodyNum(last.v) + " " + f.u + "</b><em>" + (ago ? bodySigned(last.v - ago.v) : "—") + "</em><em>" + (ser.length > 1 ? bodySigned(last.v - first.v) : "—") + "</em></div>";
+    });
+    h += "</div>";
+  }
+  h += '<div class="stHint">El peso de cada día sube y baja por agua, sal y comida: mirá el promedio y la tendencia. Como referencia: para ganar músculo sin sumar mucha grasa se suele apuntar a +0,25 a +0,5 % del peso por semana; para bajar grasa cuidando el músculo, −0,5 a −1 %. Pesate en condiciones parecidas (por ejemplo, al levantarte). La cintura ayuda a saber si lo que cambia es grasa.</div>';
+  var hist = bodyData.log.slice(-30).reverse();
+  if (hist.length) {
+    h += '<div class="exdSec">Registros</div>';
+    hist.forEach(function(e) {
+      var parts = BODY_FIELDS.filter(function(f) { return e[f.k] > 0; }).map(function(f) { return (f.k === "kg" ? "" : f.name.split(" ")[0] + " ") + bodyNum(e[f.k]) + " " + f.u; });
+      h += '<button class="rtItem bdItem" data-d="' + e.d + '"><span class="rtItemMid"><b>' + stDayLabel(bodyDayMs(e.d)) + "</b><span>" + escHtml(parts.join(" · ")) + '</span></span><span class="rtItemGo">&#8250;</span></button>';
+    });
+  }
+  root.innerHTML = h;
+  root.querySelector("#bdAdd").onclick = function() { bodySheet(localDay(Date.now())); };
+  root.querySelectorAll(".bdRange button").forEach(function(b) { b.onclick = function() { BODY.range = +b.getAttribute("data-r"); bodyRender(); }; });
+  root.querySelectorAll(".bdItem").forEach(function(b) { b.onclick = function() { bodySheet(b.getAttribute("data-d")); }; });
+}
+// Registrar o corregir un dia. Se puede cargar solo el peso, solo medidas, o todo
+function bodySheet(day) {
+  var ex = null; bodyData.log.forEach(function(e) { if (e.d === day) ex = e; });
+  openTrSheet(ex ? "Registro del " + new Date(bodyDayMs(day)).toLocaleDateString("es-AR", { day: "numeric", month: "long" }) : "Registrar", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap bdForm";
+    var h = '<div class="bdFRow"><span>Fecha</span><input type="date" id="bdDay" class="setInput" value="' + day + '" max="' + localDay(Date.now()) + '"></div>';
+    BODY_FIELDS.forEach(function(f) {
+      var last = bodyLast(f.k), v = ex && ex[f.k] ? String(ex[f.k]).replace(".", ",") : "", ph = last ? bodyNum(last.v) : f.k === "kg" && rtKg() ? bodyNum(rtKg()) : "";
+      h += '<div class="bdFRow"><span>' + f.name + ' <i>' + f.u + '</i></span><input class="setInput" type="text" inputmode="decimal" data-k="' + f.k + '" value="' + v + '" placeholder="' + ph + '"></div>';
+    });
+    h += '<div class="libCreateMsg" id="bdMsg"></div><div class="rtBtns"><button class="rtBtn resume" id="bdSave">Guardar</button>' + (ex ? '<button class="rtBtn stop" id="bdDel">Borrar</button>' : "") + "</div>";
+    h += '<div class="rtNote">Cargá solo lo que mediste: los campos vacíos no se guardan. En gris, tu último valor.</div>';
+    w.innerHTML = h; body.appendChild(w);
+    w.querySelector("#bdSave").onclick = function() {
+      var d = w.querySelector("#bdDay").value || day, rec = { d: d }, n = 0, bad = "";
+      w.querySelectorAll("input[data-k]").forEach(function(inp) {
+        var t = String(inp.value).trim().replace(",", "."); if (!t) return;
+        var f = BODY_FIELDS.filter(function(x) { return x.k === inp.getAttribute("data-k"); })[0], v = parseFloat(t);
+        if (!(v >= f.min && v <= f.max)) { bad = bad || f.name + ": entre " + f.min + " y " + f.max + " " + f.u; return; }
+        rec[f.k] = Math.round(v * 10) / 10; n++;
+      });
+      if (bad) { w.querySelector("#bdMsg").textContent = bad; return; }
+      if (!n) { w.querySelector("#bdMsg").textContent = "Cargá al menos un valor."; return; }
+      if (d > localDay(Date.now())) { w.querySelector("#bdMsg").textContent = "La fecha no puede ser futura."; return; }
+      bodyData.log = bodyData.log.filter(function(e) { return e.d !== d && (!ex || e.d !== ex.d); });
+      rec.t = Date.now(); bodyData.log.push(rec); bodyPersist(); closeTrSheet(); bodyRender(); showToast("Guardado");
+      setTimeout(function() { autoBackup("sesion"); }, 1500);
+    };
+    var del = w.querySelector("#bdDel");
+    if (del) del.onclick = function() { bodyData.log = bodyData.log.filter(function(e) { return e.d !== ex.d; }); bodyPersist(); closeTrSheet(); bodyRender(); showToast("Registro borrado"); };
+  });
 }
 
 // -- DRAG & DROP --------------------------------------------------------------
@@ -8273,10 +8758,14 @@ var GUIDE_SECTIONS = [
     tab: "Entrada",
     icon: "&#9776;",
     items: [
-      { icon:"&#9776;", title:"Tres caminos", desc:"Al abrir la app elegís Gimnasio, Estiramiento o Recorridos. Cada tarjeta muestra cómo venís: días entrenados en la semana, minutos de estiramiento y km del mes. Si hay una rutina en curso o un recorrido grabando, la app abre directo ahí. En 'Al abrir' podés hacer que arranque siempre en Gimnasio o en la última sección que usaste." },
+      { icon:"&#9776;", title:"La entrada", desc:"Al abrir la app elegís Gimnasio, Estiramiento o Recorridos, y abajo está Cuerpo (peso y medidas). Cada tarjeta muestra cómo venís: días entrenados en la semana, minutos de estiramiento y km del mes. Si hay una rutina en curso o un recorrido grabando, la app abre directo ahí. En 'Al abrir' podés hacer que arranque siempre en Gimnasio o en la última sección que usaste." },
       { icon:"&#129496;", title:"Estiramiento", desc:"Programas guiados con video: movilidad dinámica para antes de entrenar y estiramiento estático para después. El reproductor marca el lado, cuenta el tiempo y avisa con sonido y vibración (también con la pantalla bloqueada). Podés armar tus programas eligiendo estiramientos de la biblioteca y ajustar segundos, lados y vueltas. No suma series al Balance." },
       { icon:"&#128161;", title:"Sugerencias", desc:"Al empezar una rutina aparece arriba la movilidad previa que corresponde (piernas o torso), y al guardarla te ofrece el estiramiento final. En Recorridos, lo mismo antes y después de caminar, correr o andar en bici. Se apagan en Estiramiento." },
       { icon:"&#128205;", title:"Recorridos", desc:"Caminar, correr o bici con GPS: mapa del trazado, tiempo, distancia, ritmo, parciales por km, velocidad máxima, calorías y desnivel. Sigue grabando con la pantalla bloqueada y muestra el avance en la notificación, con botón para pausar." },
+      { icon:"&#9208;", title:"Pausa automática y voz", desc:"En Recorridos podés activar la pausa automática: si frenás (un semáforo, por ejemplo) el tiempo deja de correr y sigue solo cuando te volvés a mover. El aviso por voz dice en cada km el tiempo total y el del último km (en bici, la velocidad); en el APK habla aunque la pantalla esté bloqueada y baja la música mientras tanto. Caminando o corriendo también cuenta los pasos (pide el permiso de actividad física)." },
+      { icon:"&#127942;", title:"Récords y GPX", desc:"Recorridos guarda tu tramo más rápido de 1, 5 y 10 km por actividad, dentro de cualquier recorrido (no hace falta que corras justo esa distancia). En el detalle de cada recorrido, 'Exportar GPX' arma el archivo con el trazado y los tiempos para pasarlo a Strava, Google Earth u otra app." },
+      { icon:"&#9878;", title:"Cuerpo", desc:"Registro de peso y medidas (cintura, cadera, pecho, brazo, muslo y grasa corporal). Muestra el promedio de 7 días, la tendencia por semana y el gráfico. El último peso se usa para las calorías de los recorridos y aparece en el resumen semanal para Claude." },
+      { icon:"&#129496;", title:"Yoga y ejercicios propios", desc:"En Estiramiento hay una sección de Yoga con cuatro secuencias; los tiempos van en segundos y te dice a cuántas respiraciones equivale. Las posturas que no tienen video se guían con la explicación. También podés crear tus propios ejercicios (nombre, zona, tiempo, cómo hacerlo y un link de YouTube opcional) y sumarlos a tus programas." },
       { icon:"&#128190;", title:"Copia de seguridad", desc:"La app guarda sola una copia de todos tus datos (entrenamientos, rutinas, estiramientos y recorridos) cada vez que terminás una rutina, un recorrido o un estiramiento, en Documentos/Gimnasio del celular. En la entrada, 'Copias' muestra cuándo fue la última, deja restaurar cualquiera y exportar una a Drive. Antes de importar se guarda un resguardo de lo que tenías." },
       { icon:"&#8617;", title:"Volver a una versión anterior", desc:"Si una versión nueva trae un problema, en la entrada (abajo) aparece 'Volver a una versión anterior': se instala encima y los datos se conservan." }
     ]
@@ -8948,6 +9437,17 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
       <div class="stCtl"><button onclick="spJump(-1)" aria-label="Anterior">&#9198;</button><button class="main" id="stpPause" onclick="spPause()">Pausar</button><button onclick="spJump(1)" aria-label="Siguiente">&#9197;</button></div>
     </div>
     <div id="stpDone" class="stDone" style="display:none"></div>
+  </div>
+</div>
+
+<!-- CUERPO: PESO Y MEDIDAS -->
+<div id="bodyScreen" class="screen">
+  <div style="padding:20px 16px 40px;overflow-y:auto;flex:1">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+      <button class="backBtn" onclick="bodyBack()" aria-label="Volver">&#8249;</button>
+      <span style="font-size:20px;font-weight:800;flex:1">Cuerpo</span>
+    </div>
+    <div id="bodyRoot"></div>
   </div>
 </div>
 
