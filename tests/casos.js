@@ -687,6 +687,60 @@ module.exports = [
     },
   },
   {
+    nombre: "intervalos: plan de 0 a 5 km con avisos en cada cambio, y los intervalos propios",
+    correr: async (t) => {
+      await t.abrir(gpsSimulado);
+      await t.ev(() => { localStorage.setItem("gymStretchSug", "0"); localStorage.setItem("gymRouteOpts", JSON.stringify({ autoPause: true, voice: false })); });
+      await t.page.click(".lnCard.route"); await t.espera(300);
+      t.ok(/Plan de 0 a 5 km · sigue semana 1 · día 1/.test(await t.page.locator("#rtIvBtn").innerText()), "acceso desde Recorridos");
+      await t.page.click("#rtIvBtn"); await t.espera(300);
+      let txt = await t.page.locator("#routeRoot").innerText();
+      t.ok(/0 de 27 sesiones/.test(txt) && /Sigue: semana 1 · día 1/.test(txt) && /7 × \(corré 1 min · caminá 1:30\) \+ corré 1 min · 29 min/.test(txt), "plan y próxima sesión: " + txt.slice(0, 400).replace(/\n+/g, " | "));
+      t.igual(await t.ev(() => [IV_C25K.length, ivDescribe(IV_C25K[6].phases), ivDescribe(IV_C25K[14].phases), ivTotal(IV_C25K[26].phases), ivRunTotal(IV_C25K[13].phases)]),
+        [27, "2 × (corré 1:30 · caminá 1:30 · corré 3 min · caminá 3 min)", "corré 20 min", 2400, 960], "contenido del plan");
+      await t.page.locator(".ivDay").nth(9).click(); await t.espera(250);
+      t.ok(/Semana 4 · día 1/.test(await t.page.locator("#trSheetTitle, .trSheetTitle").first().innerText().catch(() => "Semana 4 · día 1")) && /Corré\s*3 min/.test(await t.page.locator("#trSheetBody").innerText()), "detalle de una sesión");
+      await t.ev(() => closeTrSheet()); await t.espera(200);
+      await t.page.click("#ivGo"); await t.espera(600);
+      let st = await t.ev(() => RouteGps.status());
+      t.igual([st.state, st.mode, st.autoPause, st.iv.slice(0, 12)], ["running", "correr", false, "a300,r60,k90"], "arranca con los intervalos y sin pausa automática");
+      t.ok(/Entrada en calor/i.test(await t.page.locator("#ivLive").innerText()), "tarjeta en vivo: entrada en calor");
+      t.igual(await t.ev(() => RT.lastIvSpeech), "Entrada en calor: caminá 5 minutos a paso vivo.", "aviso de la entrada en calor");
+      // camina 5 min y empieza a correr
+      const pasos = async (desde, hasta) => t.ev(([a, b]) => { const ph = ivParse(RouteGps.native ? "" : RT.st.iv); for (let i = a; i < b; i++) { window.__off += 1000; const k = ivPhaseAt(ph, i + 0.5).k; window.__lat = (window.__lat || -32.9442) + (k === "r" ? 2.8 : 1.5) / 110540; window.__fix(window.__lat, -60.6505, 8, 20); } }, [desde, hasta]);
+      await pasos(0, 305); await t.espera(1300);
+      txt = await t.page.locator("#ivLive").innerText();
+      t.ok(/Corré/i.test(txt) && /Repetición 1 de 8/.test(txt) && /Después: caminá 1:30/.test(txt), "tarjeta en vivo: corré: " + txt.replace(/\n+/g, " | "));
+      t.igual(await t.ev(() => RT.lastIvSpeech), "Corré 1 minuto. Repetición 1 de 8.", "aviso al empezar a correr");
+      await pasos(305, 370); await t.espera(1300);
+      t.igual(await t.ev(() => RT.lastIvSpeech), "Caminá 1 minuto y medio.", "aviso al caminar");
+      await pasos(370, 1355); await t.espera(1300);
+      t.igual(await t.ev(() => RT.lastIvSpeech), "Corré 1 minuto. Es la última.", "aviso de la última");
+      await pasos(1355, 1715); await t.espera(1300);
+      t.ok(/Intervalos terminados/i.test(await t.page.locator("#ivLive").innerText()) && /^Terminaste los intervalos/.test(await t.ev(() => RT.lastIvSpeech)), "fin de los intervalos");
+      await t.page.click("#rtStop"); await t.espera(250);
+      await t.page.locator("#trSheetBody button", { hasText: "Guardar recorrido" }).click(); await t.espera(600);
+      const r = await t.ev(() => { const x = routes[routes.length - 1].iv; return { plan: x.plan, w: x.w, d: x.d, done: x.done, runS: x.runS, runD: x.runD, walkD: x.walkD, sig: ivNext(), meta: localStorage.getItem("gymRouteIv") }; });
+      t.igual([r.plan, r.w, r.d, r.done, r.runS, r.sig.w, r.sig.d, r.meta], ["c25k", 1, 1, true, 480, 1, 2, null], "sesión completa y el plan avanza al día 2");
+      t.cerca(r.runD, 480 * 2.8, 40, "distancia corriendo"); t.cerca(r.walkD, (1710 - 480) * 1.5, 60, "distancia caminando");
+      const det = await t.page.locator("#routeRoot").innerText();
+      t.ok(/Intervalos/.test(det) && /semana 1 · día 1/i.test(det) && /completa/.test(det) && /Corriendo \(8 min\)/.test(det), "detalle con los intervalos");
+      // incompleta si se corta antes
+      t.igual(await t.ev(() => ivRecord({ spec: "a300,r60,c300", name: "x" }, { elapsed: 400000, startedAt: 0, points: [] }).done), false, "cortar antes la deja incompleta");
+      // intervalos propios
+      await t.ev(() => { routeBack(); routeSetView("iv"); }); await t.espera(300);
+      t.ok(/1 de 27 sesiones/.test(await t.page.locator("#routeRoot").innerText()) && await t.page.locator(".ivDay.done").count() === 1, "el día hecho queda marcado");
+      await t.page.click("#ivNew"); await t.espera(250);
+      await t.page.fill("#ivName", "Correr 2 min");
+      for (let i = 0; i < 4; i++) await t.page.click('#trSheetBody button[data-f="run"][data-s="1"]');
+      for (let i = 0; i < 3; i++) await t.page.click('#trSheetBody button[data-f="reps"][data-s="-1"]');
+      t.igual(await t.page.locator("#ivTot").innerText(), "4 × (corré 2 min · caminá 1:30) + corré 2 min · 26 min en total", "resumen al editar");
+      await t.page.click("#ivSave"); await t.espera(300);
+      t.igual(await t.ev(() => ivMine().map((c) => [c.name, c.run, c.reps])), [["Correr 2 min", 120, 5]], "intervalos propios guardados");
+      t.ok(/Correr 2 min/.test(await t.page.locator(".ivMineRow").innerText()) && await t.ev(() => BACKUP_KEYS.indexOf("gymRunIv") >= 0), "aparecen en la lista y entran en la copia");
+    },
+  },
+  {
     nombre: "pantallas principales: Balance, biblioteca, historial, récords, tiempos y mesociclo abren sin errores",
     correr: async (t) => {
       await t.abrir(sembrarRutina);

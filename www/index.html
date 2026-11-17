@@ -1162,6 +1162,45 @@ body.hasLive .screen.active{padding-bottom:78px}
 .bdFRow i{font-style:normal;color:var(--text-3);font-size:12px}
 .bdFRow input{width:130px;text-align:center}
 .bdFRow input[type=date]{width:170px}
+
+/* ---- Intervalos correr/caminar ---- */
+.ivEntry{display:flex;align-items:center;gap:12px;width:100%;text-align:left;margin:12px 0 10px;background:linear-gradient(135deg,#F59E0B14,#22D3EE10);border:1px solid #F59E0B44;border-radius:16px;padding:13px 14px;color:var(--text);cursor:pointer}
+.ivEntry>span:nth-child(2){flex:1;display:flex;flex-direction:column;gap:3px}
+.ivEntry b{font-size:15.5px}.ivEntry span span{font-size:12.5px;color:var(--text-3)}
+.ivEntryIc{width:40px;height:40px;border-radius:12px;background:#F59E0B1F;display:flex;align-items:center;justify-content:center;font-size:20px;flex:none}
+.ivPlanSub{font-size:13px;color:var(--text-2);line-height:1.5;margin:6px 0 12px}
+.ivProg{height:8px;border-radius:5px;background:#182030;overflow:hidden}.ivProg i{display:block;height:100%;background:var(--energy);border-radius:5px}
+.ivProgTxt{font-size:12px;color:var(--text-3);margin:6px 0 12px}
+.ivNext{display:flex;flex-direction:column;gap:4px;margin-bottom:12px}.ivNext b{font-size:16px}.ivNext span{font-size:13px;color:var(--text-2);line-height:1.45}
+.ivWeeks{display:flex;flex-direction:column;gap:8px}
+.ivWeek{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:11px 12px}
+.ivWHead{display:flex;flex-direction:column;gap:2px;margin-bottom:9px}.ivWHead b{font-size:14.5px}.ivWHead span{font-size:12px;color:var(--text-3)}
+.ivDays{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.ivDay{border:1px solid var(--border);background:transparent;color:var(--text-2);border-radius:10px;padding:9px 4px;font-size:13px;font-weight:700;cursor:pointer}
+.ivDay.done{border-color:#34D39955;color:#6EE7B7;background:#34D39912}
+.ivDay.cur{border-color:var(--energy);color:var(--energy);background:#F59E0B14}
+.ivPhList{display:flex;flex-direction:column;margin-top:10px}
+.ivPh{display:grid;grid-template-columns:48px 1fr auto;gap:8px;padding:7px 0 7px 10px;border-left:3px solid #334155;font-size:13.5px}
+.ivPh span{color:var(--text-3);font-variant-numeric:tabular-nums}.ivPh em{font-style:normal;color:var(--text-2)}
+.ivPh.kr{border-left-color:var(--energy)}.ivPh.kr b{color:var(--energy)}
+.ivPh.kk{border-left-color:#38BDF8}.ivPh.ka,.ivPh.kc{border-left-color:#64748B}
+.ivFRow{display:flex;align-items:center;justify-content:space-between;padding:8px 0;font-size:14px}
+.ivFRow .stStepper b{min-width:62px;text-align:center}
+.ivTot{font-size:13px;color:var(--text-2);margin:8px 0 4px;line-height:1.45}
+.ivLive{margin:0 0 12px;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px 14px}
+.ivTop{display:flex;align-items:baseline;justify-content:space-between}
+.ivNow{font-size:26px;font-weight:800;letter-spacing:.3px}
+.ivNow.kr{color:var(--energy)}.ivNow.kk{color:#38BDF8}.ivNow.ka,.ivNow.kc{color:#94A3B8}.ivNow.end{color:#6EE7B7;font-size:20px}
+.ivLeft{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;color:#fff}
+.ivSub{font-size:13px;color:var(--text-2);margin-top:2px}
+.ivBar{display:flex;gap:2px;height:8px;margin:10px 0 6px}
+.ivBar i{display:block;height:100%;border-radius:2px;background:#1E293B;overflow:hidden}
+.ivBar i u{display:block;height:100%}
+.ivBar i.kr u{background:var(--energy)}.ivBar i.kk u{background:#38BDF8}.ivBar i.ka u,.ivBar i.kc u{background:#64748B}
+.ivBar i.kr{background:#F59E0B30}
+.ivName{font-size:11.5px;color:var(--text-3)}
+.ivOk{color:#6EE7B7}
+.ivDescRow{font-size:12.5px;color:var(--text-2);line-height:1.45;padding:2px 0 10px;border-bottom:1px solid #182030}
 </style>
 </head>
 <body>
@@ -3060,7 +3099,7 @@ function renderLibrary() {
 
 // Backup completo: TODAS las claves de la app (registros, rutina, landmarks, supersets,
 // dias asignados y objetivo semanal), guardadas tal cual estan en el almacenamiento.
-var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymRouteOpts","gymBody","gymBodyKg","gymStretch","gymStretchSug","gymOpenAt"];
+var BACKUP_KEYS = ["gymData","gymGroups","gymLandmarks","gymSupersets","gymDayAssign","weeklyGoal","gymDayOrder","gymRoutines","gymSessions","gymLibHidden","gymTimers","gymTimerLog","gymMeso","gymMesoHist","gymExMeta","gymAlertCfg","gymRepRange","gymZoneMode","gymRoutes","gymRouteMode","gymRouteOpts","gymRunIv","gymBody","gymBodyKg","gymStretch","gymStretchSug","gymOpenAt"];
 function buildFullBackup() {
   var out = { app: "gimnasio", version: 2, exportedAt: new Date().toISOString(), data: {} };
   for (var i = 0; i < BACKUP_KEYS.length; i++) {
@@ -6989,7 +7028,7 @@ var RouteGps = (function() {
     start: function(mode, maxV, o) {
       o = o || {};
       W = { state: "running", mode: mode, maxV: maxV, startedAt: Date.now(), accMs: 0, runSince: Date.now(), dist: 0, gain: 0, loss: 0, refAlt: null, seg: 0, rej: 0, last: null, pts: [], fixAcc: -1, fixAt: 0, lat: 0, lon: 0,
-        auto: !!o.autoPause, voice: !!o.voice, autoP: false, anchor: null, lastMove: Date.now(), nAuto: 0, steps: 0, kmDone: 0, kmPrevMs: 0, kmLastMs: 0 };
+        auto: !!o.autoPause, voice: !!o.voice, autoP: false, anchor: null, lastMove: Date.now(), nAuto: 0, steps: 0, kmDone: 0, kmPrevMs: 0, kmLastMs: 0, iv: o.intervals || "" };
       wWatch(); return Promise.resolve();
     },
     pause: function() { if (W.state === "running") { if (!W.autoP) W.accMs += Math.max(0, Date.now() - W.runSince); W.autoP = false; W.state = "paused"; W.last = null; W.seg++; wUnwatch(); } return Promise.resolve(); },
@@ -7002,7 +7041,7 @@ var RouteGps = (function() {
     status: function() {
       wAutoCheck();
       return Promise.resolve({ state: W.state, mode: W.mode, startedAt: W.startedAt, elapsed: wElapsed(), dist: W.dist, gain: W.gain, loss: W.loss, count: W.pts.length, fixAcc: W.fixAcc, fixAgo: W.fixAt ? Date.now() - W.fixAt : -1, lat: W.lat, lon: W.lon, gps: true, granted: true,
-        autoPaused: !!W.autoP, autoPause: !!W.auto, voice: !!W.voice, steps: 0, kmDone: W.kmDone || 0, kmLastMs: W.kmLastMs || 0, kmPrevMs: W.kmPrevMs || 0 });
+        autoPaused: !!W.autoP, autoPause: !!W.auto, voice: !!W.voice, steps: 0, kmDone: W.kmDone || 0, kmLastMs: W.kmLastMs || 0, kmPrevMs: W.kmPrevMs || 0, iv: W.iv || "" });
     },
     points: function(from, max) { var f = from || 0; return Promise.resolve({ from: f, total: W.pts.length, points: W.pts.slice(f, f + (max || 1500)) }); },
     stop: function() {
@@ -7015,7 +7054,7 @@ var RouteGps = (function() {
   return {
     native: true,
     ask: function(o) { return call("ask", o || {}); },
-    start: function(mode, maxV, o) { o = o || {}; return call("start", { mode: mode, maxSpeed: maxV, autoPause: !!o.autoPause, voice: !!o.voice }); },
+    start: function(mode, maxV, o) { o = o || {}; return call("start", { mode: mode, maxSpeed: maxV, autoPause: !!o.autoPause, voice: !!o.voice, intervals: o.intervals || "" }); },
     setOpts: function(o) { return call("setOpts", o); },
     pause: function() { return call("pause"); },
     resume: function() { return call("resume"); },
@@ -7098,7 +7137,7 @@ function routeStartPoll() {
   if (RT.timer) return;
   RT.timer = setInterval(function() {
     if (!routeIsActive()) { clearInterval(RT.timer); RT.timer = null; return; }
-    if (RT.view === "detail") return;
+    if (RT.view === "detail" || RT.view === "iv") return;
     if (RT.built !== "live" && !(RT.st && RT.st.state !== "idle")) return;
     routeRender();
   }, 1000);
@@ -7116,6 +7155,7 @@ function routeRender() {
   var root = document.getElementById("routeRoot"), title = document.getElementById("routeTitle");
   if (!root) return;
   if (RT.view === "detail") { title.textContent = "Recorrido"; rtDetail(root); return; }
+  if (RT.view === "iv") { title.textContent = "Intervalos"; ivView(root); return; }
   RouteGps.status().then(function(st) {
     RT.st = st; updateRouteDot();
     if (RT.view !== "main" || !routeIsActive()) return;
@@ -7136,6 +7176,7 @@ function rtIdle(root) {
   RT.built = "idle"; RT.pts = []; RT.map = null;
   var h = '<div class="msSeg rtModes">' + Object.keys(ROUTE_MODES).map(function(k) { return '<button data-m="' + k + '" class="' + (RT.mode === k ? "on" : "") + '">' + ROUTE_MODES[k].ic + "&nbsp; " + ROUTE_MODES[k].name + "</button>"; }).join("") + "</div>";
   h += '<button class="bigGo" id="rtStartBtn">Iniciar ' + ROUTE_MODES[RT.mode].name.toLowerCase() + '</button>';
+  if (RT.mode !== "bici") { var nx = ivNext(); h += '<button class="ivEntry" id="rtIvBtn"><span class="ivEntryIc">&#9201;</span><span><b>Intervalos correr y caminar</b><span>' + (nx ? "Plan de 0 a 5 km · sigue " + escHtml(ivSessName(nx)) : "Plan de 0 a 5 km terminado · también tus intervalos") + '</span></span><b class="rtItemGo">&#8250;</b></button>'; }
   var rpre = stSugOn() ? stRouteProg(RT.mode, "pre") : null;
   if (rpre) h += '<button class="stSugRow" id="rtPre"><span>&#129496; Antes: ' + escHtml(rpre.name) + " &middot; " + stMin(stDur(rpre)) + '</span><b>&#9654;</b></button>';
   h += '<div class="rtHint">' + (RouteGps.native ? "Graba con la pantalla bloqueada: vas a ver el tiempo y los km en la notificación. No suma series al Balance." : "En el navegador solo graba con esta pantalla abierta. No suma series al Balance.") + "</div>";
@@ -7158,7 +7199,8 @@ function rtIdle(root) {
   } else h += '<div class="rtNone">Todavía no grabaste recorridos. Elegí la actividad y tocá Iniciar.</div>';
   root.innerHTML = h;
   root.querySelectorAll(".rtModes button").forEach(function(b) { b.onclick = function() { RT.mode = b.getAttribute("data-m"); safeStore("gymRouteMode", RT.mode); rtIdle(root); }; });
-  root.querySelector("#rtStartBtn").onclick = rtStart;
+  root.querySelector("#rtStartBtn").onclick = function() { rtStart(); };
+  var ivb = root.querySelector("#rtIvBtn"); if (ivb) ivb.onclick = function() { routeSetView("iv"); };
   root.querySelector("#rtKgBtn").onclick = function() { bodyOpen("routeScreen"); };
   root.querySelector("#rtAutoBtn").onclick = function() { rtSetOpt("autoPause", !rtOpts().autoPause); rtIdle(root); };
   root.querySelector("#rtVoiceBtn").onclick = function() { var on = !rtOpts().voice; rtSetOpt("voice", on); rtIdle(root); if (on) showToast(RouteGps.native ? "Te aviso cada km aunque la pantalla esté bloqueada" : "En el navegador solo habla con esta pantalla abierta"); };
@@ -7166,13 +7208,19 @@ function rtIdle(root) {
   var rpb = root.querySelector("#rtPre"); if (rpb) rpb.onclick = function() { stPlay(rpre, "routeScreen"); };
   root.querySelectorAll(".rtItem").forEach(function(b) { b.onclick = function() { routeSetView("detail", b.getAttribute("data-id")); }; });
 }
-function rtStart() {
+function rtStart(iv) {
   if (RT.busy) return; RT.busy = true;
-  RouteGps.ask({ steps: RT.mode !== "bici" }).then(function(p) {
+  var mode = iv ? "correr" : RT.mode, o = rtOpts();
+  if (iv) { o.autoPause = false; o.intervals = ivSpecOf(iv.phases); }   // en intervalos el reloj no se pausa solo
+  RouteGps.ask({ steps: mode !== "bici" }).then(function(p) {
     if (!p || !p.granted) { showToast("Sin el permiso de ubicación no puedo grabar el recorrido"); throw "x"; }
     if (p.gps === false) { showToast("Activá la ubicación (GPS) del celular"); throw "x"; }
-    return RouteGps.start(RT.mode, ROUTE_MODES[RT.mode].maxV, rtOpts());
-  }).then(function() { RT.busy = false; RT.pts = []; RT.built = ""; RT.kmSaid = 0; routeRender(); routeStartPoll(); })
+    return RouteGps.start(mode, ROUTE_MODES[mode].maxV, o);
+  }).then(function() {
+    RT.busy = false; RT.pts = []; RT.built = ""; RT.kmSaid = 0; RT.ivSaid = -1; RT.ivHalf = -1;
+    if (iv) safeStore("gymRouteIv", JSON.stringify({ name: iv.name, plan: iv.plan || "", w: iv.w || 0, d: iv.d || 0, id: iv.id || "", spec: o.intervals })); else localStorage.removeItem("gymRouteIv");
+    RT.view = "main"; routeRender(); routeStartPoll();
+  })
     .catch(function(e) { RT.busy = false; if (e !== "x") showToast("No se pudo iniciar el recorrido"); });
 }
 
@@ -7181,7 +7229,7 @@ function rtLive(root, st) {
   var M = ROUTE_MODES[st.mode] || ROUTE_MODES.correr, sp = M.speed;
   if (RT.built !== "live") {
     RT.built = "live"; RT.pts = [];
-    root.innerHTML = '<div class="rtMap" id="rtMap"></div><div class="rtTime" id="rtTime">0:00</div><div class="rtState" id="rtStateTxt"></div>' +
+    root.innerHTML = '<div class="ivLive" id="ivLive" style="display:none"></div><div class="rtMap" id="rtMap"></div><div class="rtTime" id="rtTime">0:00</div><div class="rtState" id="rtStateTxt"></div>' +
       '<div class="rtGrid"><div class="rtCell"><b id="rtDist">0,00</b><span>km</span></div><div class="rtCell"><b id="rtNow">--:--</b><span id="rtNowL"></span></div><div class="rtCell"><b id="rtAvg">--:--</b><span id="rtAvgL"></span></div></div>' +
       '<div class="rtOpts"><button id="rtOAuto"></button><button id="rtOVoice"></button><span id="rtSteps"></span></div>' +
       '<div class="rtSig" id="rtSig"></div><div class="rtDiag" id="rtDiag" style="display:none"></div>' +
@@ -7216,6 +7264,7 @@ function rtLive(root, st) {
   $("rtOAuto").textContent = "Pausa automática: " + (st.autoPause ? "sí" : "no"); $("rtOAuto").classList.toggle("on", !!st.autoPause);
   $("rtOVoice").innerHTML = "Voz por km: " + (st.voice ? "sí" : "no"); $("rtOVoice").classList.toggle("on", !!st.voice);
   $("rtSteps").textContent = st.steps > 0 && st.mode !== "bici" ? st.steps.toLocaleString("es-AR") + " pasos" : "";
+  ivLiveUpdate(root.querySelector("#ivLive"), st);
   // En el navegador la voz la da la pantalla (en el APK, el servicio aunque este bloqueada)
   if (!RouteGps.native && st.voice && st.kmDone > (RT.kmSaid || 0)) {
     RT.kmSaid = st.kmDone; RT.lastSpeech = rtKmSpeech(st.mode, st.kmDone, st.kmLastMs, st.kmLastMs - st.kmPrevMs);
@@ -7261,18 +7310,20 @@ function rtFinish() {
   });
 }
 function rtDiscard() {
-  RouteGps.discard().then(function() { RT.built = ""; RT.st = null; updateRouteDot(); routeRender(); showToast("Recorrido descartado"); });
+  RouteGps.discard().then(function() { localStorage.removeItem("gymRouteIv"); RT.built = ""; RT.st = null; updateRouteDot(); routeRender(); showToast("Recorrido descartado"); });
 }
 function rtSave() {
   RouteGps.stop().then(function(r) {
     RT.built = ""; RT.st = null; updateRouteDot();
     if (!r || !(r.dist >= 30)) { showToast("El recorrido fue muy corto: no se guardó"); routeRender(); return; }
     var rec = rtBuildRecord(r);
+    var ivm = ivMeta(); localStorage.removeItem("gymRouteIv");
+    if (ivm) rec.iv = ivRecord(ivm, r);
     var prev = rtRecords(rec.mode);
     routes.push(rec); persistRoutes(); setTimeout(function() { autoBackup("sesion"); }, 1500);
     var nuevos = RT_REC_DISTS.filter(function(L) { return rec.best && rec.best[L] && prev[L] && rec.best[L] < prev[L].s; });
     rec.newRec = nuevos; persistRoutes();
-    showToast(nuevos.length ? "\u{1F3C6} Nuevo récord de " + nuevos.map(rtRecName).join(" y ") : "Recorrido guardado");
+    showToast(nuevos.length ? "\u{1F3C6} Nuevo récord de " + nuevos.map(rtRecName).join(" y ") : rec.iv && rec.iv.done && rec.iv.plan ? "Sesión de intervalos completa" : "Recorrido guardado");
     routeSetView("detail", rec.id);
   }).catch(function() { showToast("No se pudo terminar el recorrido"); });
 }
@@ -7283,7 +7334,7 @@ function rtDetail(root) {
   if (!r) { RT.view = "main"; routeRender(); return; }
   var M = ROUTE_MODES[r.mode] || ROUTE_MODES.correr, d = new Date(r.start);
   var h = '<div class="rtMap" id="rtMap"></div>';
-  h += '<div class="rtDate">' + M.ic + " " + M.name + " &middot; " + d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" }) + " &middot; " + d.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit" }) + "</div>";
+  h += '<div class="rtDate">' + M.ic + " " + (r.iv ? "Intervalos" : M.name) + " &middot; " + d.toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" }) + " &middot; " + d.toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit" }) + "</div>";
   h += '<div class="rtGrid"><div class="rtCell"><b>' + rtKm(r.dist) + '</b><span>km</span></div><div class="rtCell"><b>' + rtClock(r.dur) + '</b><span>tiempo</span></div><div class="rtCell"><b>' + rtRate(r.mode, r.dist, r.dur) + '</b><span>' + rtRateUnit(r.mode) + ' prom.</span></div></div>';
   var kg = rtKg(), kcal = rtKcal(r.mode, r.dist, r.dur, kg || 70);
   var rows = [["Velocidad promedio", rtSpeed(r.dist / Math.max(1, r.dur)) + " km/h"]];
@@ -7295,6 +7346,7 @@ function rtDetail(root) {
   if (r.gain != null) rows.push(["Altitud hacia arriba", Math.round(r.gain) + " m"]);
   if (r.loss != null) rows.push(["Altitud hacia abajo", Math.round(r.loss) + " m"]);
   h += '<div class="balCard rtStats">' + rows.map(function(x) { return '<div class="rtStat"><span>' + x[0] + "</span><b>" + x[1] + "</b></div>"; }).join("") + '</div>';
+  if (r.iv) h += ivDetailHtml(r);
   var bst = rtBestOf(r), bk = RT_REC_DISTS.filter(function(L) { return bst[L]; });
   if (bk.length) {
     var recs = rtRecords(r.mode);
@@ -7331,6 +7383,175 @@ function rtDetail(root) {
     });
   };
 }
+
+// ============================================================
+// INTERVALOS CORRER / CAMINAR: para empezar a correr de a poco.
+// Plan de 0 a 5 km basado en el "Couch to 5K" del NHS (servicio de salud del Reino Unido):
+// 9 semanas, 3 salidas por semana con un día de descanso entre medio, de 1 minuto corriendo a 30 minutos seguidos.
+// Fases: a = entrada en calor, r = correr, k = caminar, c = vuelta a la calma (segundos).
+// ============================================================
+function ivRep(n, unit) { var o = []; for (var i = 0; i < n; i++) o = o.concat(unit); return o; }
+function ivWrap(core) { return [["a", 300]].concat(core, [["c", 300]]); }
+var IV_C25K = (function() {
+  var R = function(s) { return ["r", s]; }, K = function(s) { return ["k", s]; };
+  var w = [
+    [ivRep(7, [R(60), K(90)]).concat([R(60)])],
+    [ivRep(5, [R(90), K(120)]).concat([R(90)])],
+    [ivRep(2, [R(90), K(90), R(180), K(180)])],
+    [[R(180), K(90), R(300), K(150), R(180), K(90), R(300)]],
+    [[R(300), K(180), R(300), K(180), R(300)], [R(480), K(300), R(480)], [R(1200)]],
+    [[R(300), K(180), R(480), K(180), R(300)], [R(600), K(180), R(600)], [R(1500)]],
+    [[R(1500)]], [[R(1680)]], [[R(1800)]]
+  ], out = [];
+  w.forEach(function(days, wi) { for (var d = 0; d < 3; d++) out.push({ plan: "c25k", w: wi + 1, d: d + 1, phases: ivWrap(days[days.length === 3 ? d : 0]) }); });
+  return out;
+})();
+var IV_K = { a: "Entrada en calor", r: "Corré", k: "Caminá", c: "Vuelta a la calma" };
+function ivSpecOf(ph) { return ph.map(function(x) { return x[0] + x[1]; }).join(","); }
+function ivParse(spec) { return String(spec || "").split(",").filter(Boolean).map(function(t) { return [t.charAt(0), parseInt(t.slice(1), 10) || 0]; }); }
+function ivTotal(ph) { return ph.reduce(function(a, x) { return a + x[1]; }, 0); }
+function ivRunTotal(ph) { return ph.reduce(function(a, x) { return a + (x[0] === "r" ? x[1] : 0); }, 0); }
+function ivClock(s) { var m = Math.floor(s / 60), x = s % 60; return m + ":" + (x < 10 ? "0" : "") + x; }
+function ivLen(s) { return s % 60 === 0 ? (s / 60) + " min" : s < 60 ? s + " s" : ivClock(s); }
+function ivSessName(x) { return x.plan === "c25k" ? "semana " + x.w + " · día " + x.d : x.name; }
+// "7 × (corré 1 min · caminá 1:30) + corré 1 min"
+function ivDescribe(ph) {
+  var core = ph.filter(function(x) { return x[0] === "r" || x[0] === "k"; }), out = [], i = 0;
+  function eq(a, b) { return a[0] === b[0] && a[1] === b[1]; }
+  function word(x) { return (x[0] === "r" ? "corré " : "caminá ") + ivLen(x[1]); }
+  while (i < core.length) {
+    var done = false;
+    for (var L = 2; L <= 4 && !done; L += 2) {
+      var n = 1; while (i + (n + 1) * L <= core.length && core.slice(i + n * L, i + (n + 1) * L).every(function(x, j) { return eq(x, core[i + j]); })) n++;
+      if (n > 1) { out.push(n + " × (" + core.slice(i, i + L).map(word).join(" · ") + ")"); i += n * L; done = true; }
+    }
+    if (!done) { out.push(word(core[i])); i++; }
+  }
+  return out.join(" + ");
+}
+// Progreso del plan: sesiones completas guardadas en los recorridos
+function ivDoneSet() { var o = {}; routes.forEach(function(r) { if (r.iv && r.iv.plan === "c25k" && r.iv.done) o[r.iv.w + "-" + r.iv.d] = (o[r.iv.w + "-" + r.iv.d] || 0) + 1; }); return o; }
+function ivNext() { var d = ivDoneSet(), n = null; IV_C25K.forEach(function(x) { if (!n && !d[x.w + "-" + x.d]) n = x; }); return n; }
+function ivMine() { try { var a = JSON.parse(localStorage.getItem("gymRunIv") || "[]"); return Array.isArray(a) ? a : []; } catch(e) { return []; } }
+function ivMinePhases(c) { var core = []; for (var i = 0; i < c.reps; i++) { core.push(["r", c.run]); if (i < c.reps - 1) core.push(["k", c.walk]); } return [["a", c.warm * 60]].concat(core, [["c", c.cool * 60]]).filter(function(x) { return x[1] > 0; }); }
+function ivMeta() { try { var m = JSON.parse(localStorage.getItem("gymRouteIv") || "null"); return m && m.spec ? m : null; } catch(e) { return null; } }
+function ivPhaseAt(ph, sec) { var acc = 0; for (var i = 0; i < ph.length; i++) { acc += ph[i][1]; if (sec < acc) return { i: i, left: acc - sec, k: ph[i][0], s: ph[i][1] }; } return { i: ph.length, left: 0, k: "", s: 0 }; }
+function ivRunNo(ph, i) { var n = 0, my = 0; ph.forEach(function(x, j) { if (x[0] === "r") { n++; if (j <= i) my = n; } }); return { n: n, my: my }; }
+function ivSpeech(ph, at) {
+  function dur(s) { var m = Math.floor(s / 60), x = s % 60; if (!m) return x + " segundos"; var t = m === 1 ? "1 minuto" : m + " minutos"; return x === 30 ? t + " y medio" : x ? t + " y " + x + " segundos" : t; }
+  if (at.i >= ph.length) return "Terminaste los intervalos. Muy bien. Podés terminar el recorrido cuando quieras.";
+  var rn = ivRunNo(ph, at.i);
+  if (at.k === "r") return "Corré " + dur(at.s) + "." + (rn.n > 1 ? (rn.my === rn.n ? " Es la última." : " Repetición " + rn.my + " de " + rn.n + ".") : "");
+  if (at.k === "a") return "Entrada en calor: caminá " + dur(at.s) + " a paso vivo.";
+  if (at.k === "c") return "Vuelta a la calma: caminá " + dur(at.s) + " tranquilo.";
+  return "Caminá " + dur(at.s) + ".";
+}
+// Tarjeta en vivo: que toca ahora, cuanto falta y que viene
+function ivLiveUpdate(box, st) {
+  if (!box) return;
+  var ph = ivParse(st.iv || (ivMeta() || {}).spec);
+  if (!ph.length) { box.style.display = "none"; return; }
+  var sec = Math.floor(st.elapsed / 1000), at = ivPhaseAt(ph, sec), tot = ivTotal(ph), m = ivMeta() || {};
+  box.style.display = "";
+  var rn = ivRunNo(ph, at.i), nxt = ph[at.i + 1];
+  if (at.i >= ph.length) box.innerHTML = '<div class="ivNow end">&#10003; Intervalos terminados</div><div class="ivSub">Podés seguir caminando o tocar Terminar para guardar.</div>';
+  else box.innerHTML = '<div class="ivTop"><span class="ivNow k' + at.k + '">' + IV_K[at.k] + '</span><b class="ivLeft">' + ivClock(at.left) + "</b></div>" +
+    '<div class="ivSub">' + (at.k === "r" && rn.n > 1 ? "Repetición " + rn.my + " de " + rn.n + " &middot; " : "") + (nxt ? "Después: " + IV_K[nxt[0]].toLowerCase() + " " + ivLen(nxt[1]) : "Es la última fase") + "</div>" +
+    '<div class="ivBar">' + ph.map(function(x, j) { var w = (x[1] / tot * 100).toFixed(2), f = j < at.i ? 100 : j > at.i ? 0 : (1 - at.left / x[1]) * 100; return '<i class="k' + x[0] + '" style="width:' + w + '%"><u style="width:' + f.toFixed(1) + '%"></u></i>'; }).join("") + "</div>" +
+    '<div class="ivName">' + escHtml(m.plan === "c25k" ? "De 0 a 5 km · " + ivSessName(m) : m.name || "Intervalos") + " &middot; " + ivClock(Math.max(0, tot - sec)) + " para terminar</div>";
+  // En el navegador los avisos los da la pantalla (en el APK, el servicio con voz y vibracion aunque este bloqueada)
+  if (st.state !== "running" || RouteGps.native) return;
+  if (at.i !== RT.ivSaid) {
+    RT.ivSaid = at.i; RT.lastIvSpeech = ivSpeech(ph, at);
+    try { if (navigator.vibrate) navigator.vibrate(at.k === "r" ? [180, 120, 180, 120, 180] : [600]); } catch(e) {}
+    try { var u = new SpeechSynthesisUtterance(RT.lastIvSpeech); u.lang = "es-AR"; window.speechSynthesis.speak(u); } catch(e) {}
+  }
+}
+// Al guardar: si se completo y cuanto se corrio y camino en cada tipo de fase
+function ivRecord(m, r) {
+  var ph = ivParse(m.spec), tot = ivTotal(ph), el = Math.round(r.elapsed / 1000), rows = r.points || [];
+  var agg = { r: { d: 0, s: 0 }, k: { d: 0, s: 0 } }, T = rows.length ? Math.max(0, (rows[0][2] - r.startedAt) / 1000) : 0;
+  for (var i = 1; i < rows.length; i++) {
+    if (rows[i][3] !== rows[i - 1][3]) continue;   // entre tramos hubo pausa
+    var dt = (rows[i][2] - rows[i - 1][2]) / 1000, mid = T + dt / 2, at = ivPhaseAt(ph, mid), k = at.k === "r" ? "r" : at.k ? "k" : null;
+    T += dt; if (k) agg[k].d += rtDist(rows[i - 1], rows[i]);
+  }
+  ph.forEach(function(x) { agg[x[0] === "r" ? "r" : "k"].s += x[1]; });
+  return { name: m.name || "", plan: m.plan || "", w: m.w || 0, d: m.d || 0, id: m.id || "", spec: m.spec, total: tot, done: el >= tot - 3, runD: Math.round(agg.r.d), runS: ivRunTotal(ph), walkD: Math.round(agg.k.d), walkS: tot - ivRunTotal(ph) };
+}
+function ivDetailHtml(r) {
+  var v = r.iv, ph = ivParse(v.spec);
+  var h = '<div class="exdSec">Intervalos</div><div class="balCard rtStats"><div class="rtStat"><span>' + escHtml(v.plan === "c25k" ? "De 0 a 5 km · " + ivSessName(v) : v.name || "Intervalos") + "</span><b>" + (v.done ? '<span class="ivOk">&#10003; completa</span>' : "incompleta") + "</b></div>";
+  h += '<div class="ivDescRow">' + escHtml(ivDescribe(ph)) + "</div>";
+  if (v.runD > 0) h += '<div class="rtStat"><span>Corriendo (' + ivLen(v.runS) + ")</span><b>" + rtKm(v.runD) + " km &middot; " + rtPace(v.runS / (v.runD / 1000)) + " min/km</b></div>";
+  if (v.walkD > 0) h += '<div class="rtStat"><span>Caminando (' + ivLen(v.walkS) + ")</span><b>" + rtKm(v.walkD) + " km &middot; " + rtPace(v.walkS / (v.walkD / 1000)) + " min/km</b></div>";
+  return h + '</div><div class="rtNote">El ritmo de cada parte es aproximado: se calcula con el reloj de los intervalos.</div>';
+}
+// Pantalla de intervalos: el plan de 9 semanas y los intervalos propios
+function ivView(root) {
+  RT.built = "iv";
+  var done = ivDoneSet(), nx = ivNext(), nDone = IV_C25K.filter(function(x) { return done[x.w + "-" + x.d]; }).length;
+  var h = '<div class="balCard ivPlan"><div class="balSetName">Plan de 0 a 5 km</div><div class="ivPlanSub">9 semanas, 3 salidas por semana. Empieza con 1 minuto corriendo y termina con 30 minutos seguidos. Basado en el "Couch to 5K" del NHS (Reino Unido).</div>';
+  h += '<div class="ivProg"><i style="width:' + (nDone / IV_C25K.length * 100).toFixed(1) + '%"></i></div><div class="ivProgTxt">' + nDone + " de " + IV_C25K.length + " sesiones</div>";
+  if (nx) h += '<div class="ivNext"><b>Sigue: semana ' + nx.w + " · día " + nx.d + "</b><span>" + escHtml(ivDescribe(nx.phases)) + " &middot; " + Math.round(ivTotal(nx.phases) / 60) + ' min con la entrada en calor y la vuelta a la calma</span></div><button class="bigGo" id="ivGo">Empezar semana ' + nx.w + " · día " + nx.d + "</button>";
+  else h += '<div class="ivNext"><b>&#127881; Plan terminado</b><span>Ya corrés 30 minutos seguidos. Podés repetir cualquier sesión o armar tus intervalos.</span></div>';
+  h += '</div><div class="exdSec">Semanas</div><div class="ivWeeks">';
+  for (var w = 1; w <= 9; w++) {
+    var ds = IV_C25K.filter(function(x) { return x.w === w; }), same = ds[0] && ivSpecOf(ds[0].phases) === ivSpecOf(ds[1].phases) && ivSpecOf(ds[1].phases) === ivSpecOf(ds[2].phases);
+    h += '<div class="ivWeek"><div class="ivWHead"><b>Semana ' + w + "</b><span>" + escHtml(same ? ivDescribe(ds[0].phases) : "tres salidas distintas") + '</span></div><div class="ivDays">' +
+      ds.map(function(x) { var k = x.w + "-" + x.d, cur = nx && nx.w === x.w && nx.d === x.d; return '<button class="ivDay' + (done[k] ? " done" : "") + (cur ? " cur" : "") + '" data-k="' + k + '">' + (done[k] ? "&#10003; " : "") + "Día " + x.d + "</button>"; }).join("") + "</div></div>";
+  }
+  h += '</div><div class="stHint">Corré a un ritmo en el que puedas hablar. Dejá un día de descanso entre salidas. Si una semana te costó mucho, repetila antes de pasar a la siguiente: no hay apuro. Durante la sesión te aviso cada cambio con la voz y vibrando, aunque la pantalla esté bloqueada.</div>';
+  var mine = ivMine();
+  h += '<div class="exdSec">Mis intervalos</div>';
+  mine.forEach(function(c, i) { h += '<button class="rtItem ivMineRow" data-i="' + i + '"><span class="rtItemIc">&#9201;</span><span class="rtItemMid"><b>' + escHtml(c.name) + "</b><span>" + escHtml(ivDescribe(ivMinePhases(c))) + " &middot; " + Math.round(ivTotal(ivMinePhases(c)) / 60) + ' min</span></span><span class="rtItemGo">&#8250;</span></button>'; });
+  h += '<button class="stNew" id="ivNew">+ Crear intervalos</button>';
+  root.innerHTML = h;
+  var go = root.querySelector("#ivGo"); if (go) go.onclick = function() { rtStart(nx); };
+  root.querySelectorAll(".ivDay").forEach(function(b) { b.onclick = function() { var k = b.getAttribute("data-k"), x = IV_C25K.filter(function(y) { return y.w + "-" + y.d === k; })[0]; ivSessionSheet(x, done[k]); }; });
+  root.querySelectorAll(".ivMineRow").forEach(function(b) { b.onclick = function() { var c = ivMine()[+b.getAttribute("data-i")]; ivSessionSheet({ name: c.name, id: c.id, phases: ivMinePhases(c), mine: c }); }; });
+  root.querySelector("#ivNew").onclick = function() { ivEditor(null); };
+}
+function ivSessionSheet(x, nDone) {
+  openTrSheet(x.plan === "c25k" ? "Semana " + x.w + " · día " + x.d : x.name, function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    var acc = 0, rows = x.phases.map(function(p) { var t = acc; acc += p[1]; return '<div class="ivPh k' + p[0] + '"><span>' + ivClock(t) + "</span><b>" + IV_K[p[0]] + "</b><em>" + ivLen(p[1]) + "</em></div>"; }).join("");
+    w.innerHTML = '<div class="exdIntro">' + Math.round(ivTotal(x.phases) / 60) + " min en total, " + ivLen(ivRunTotal(x.phases)) + " corriendo." + (nDone ? " Ya la hiciste" + (nDone > 1 ? " " + nDone + " veces" : "") + "." : "") + '</div><div class="ivPhList">' + rows + "</div>";
+    body.appendChild(w);
+    trSheetBtn(body, "Empezar", function() { rtStart(x); });
+    if (x.mine) {
+      trSheetBtn(body, "Editar", function() { setTimeout(function() { ivEditor(x.mine); }, 30); });
+      trSheetBtn(body, "Eliminar", function() { safeStore("gymRunIv", JSON.stringify(ivMine().filter(function(c) { return c.id !== x.mine.id; }))); RT.built = ""; routeRender(); showToast("Intervalos eliminados"); }, true);
+    }
+  });
+}
+function ivEditor(c) {
+  var d = c ? JSON.parse(JSON.stringify(c)) : { id: "iv" + Date.now(), name: "", warm: 5, run: 60, walk: 90, reps: 8, cool: 5 };
+  var F = [["warm", "Entrada en calor", 0, 15, 1, "min"], ["run", "Correr", 15, 1800, 15, "s"], ["walk", "Caminar", 15, 600, 15, "s"], ["reps", "Repeticiones", 1, 30, 1, ""], ["cool", "Vuelta a la calma", 0, 15, 1, "min"]];
+  openTrSheet(c ? "Editar intervalos" : "Nuevos intervalos", function(body) {
+    var w = document.createElement("div"); w.className = "exdWrap";
+    function fmt(f) { var v = d[f[0]]; return f[5] === "s" ? ivLen(v) : v + (f[5] ? " " + f[5] : ""); }
+    w.innerHTML = '<input class="setInput" id="ivName" type="text" placeholder="Nombre (ej.: Correr 2 min)" value="' + escHtml(d.name) + '">' +
+      F.map(function(f) { return '<div class="ivFRow"><span>' + f[1] + '</span><span class="stStepper"><button data-f="' + f[0] + '" data-s="-1">&minus;</button><b id="ivv_' + f[0] + '">' + fmt(f) + '</b><button data-f="' + f[0] + '" data-s="1">+</button></span></div>'; }).join("") +
+      '<div class="ivTot" id="ivTot"></div><div class="libCreateMsg" id="ivMsg"></div><div class="rtBtns"><button class="rtBtn resume" id="ivSave">Guardar</button></div>';
+    body.appendChild(w);
+    function tot() { var ph = ivMinePhases(d); w.querySelector("#ivTot").textContent = ivDescribe(ph) + " · " + Math.round(ivTotal(ph) / 60) + " min en total"; }
+    tot();
+    w.querySelectorAll(".stStepper button").forEach(function(b) { b.onclick = function() {
+      var f = F.filter(function(x) { return x[0] === b.getAttribute("data-f"); })[0], sg = +b.getAttribute("data-s"), v = d[f[0]], st = f[4];
+      if (f[5] === "s") { var ref = sg > 0 ? v : v - 1; st = ref < 120 ? 15 : ref < 600 ? 30 : 60; }   // 15 s hasta 2 min, 30 s hasta 10 min, despues de a minuto
+      d[f[0]] = Math.max(f[2], Math.min(f[3], v + st * sg));
+      w.querySelector("#ivv_" + f[0]).textContent = fmt(f); tot();
+    }; });
+    w.querySelector("#ivSave").onclick = function() {
+      d.name = w.querySelector("#ivName").value.trim() || (ivLen(d.run) + " corriendo × " + d.reps);
+      var all = ivMine(), i = -1; all.forEach(function(x, j) { if (x.id === d.id) i = j; });
+      if (i >= 0) all[i] = d; else all.push(d);
+      safeStore("gymRunIv", JSON.stringify(all)); closeTrSheet(); RT.built = ""; routeRender(); showToast("Intervalos guardados");
+    };
+  });
+}
+
 // ---- guardado: arma el registro del recorrido a partir de los puntos ----
 function rtBuildRecord(r) {
   var rows = (r.points || []).map(function(p) { return p.slice(); });
@@ -8763,6 +8984,7 @@ var GUIDE_SECTIONS = [
       { icon:"&#128161;", title:"Sugerencias", desc:"Al empezar una rutina aparece arriba la movilidad previa que corresponde (piernas o torso), y al guardarla te ofrece el estiramiento final. En Recorridos, lo mismo antes y después de caminar, correr o andar en bici. Se apagan en Estiramiento." },
       { icon:"&#128205;", title:"Recorridos", desc:"Caminar, correr o bici con GPS: mapa del trazado, tiempo, distancia, ritmo, parciales por km, velocidad máxima, calorías y desnivel. Sigue grabando con la pantalla bloqueada y muestra el avance en la notificación, con botón para pausar." },
       { icon:"&#9208;", title:"Pausa automática y voz", desc:"En Recorridos podés activar la pausa automática: si frenás (un semáforo, por ejemplo) el tiempo deja de correr y sigue solo cuando te volvés a mover. El aviso por voz dice en cada km el tiempo total y el del último km (en bici, la velocidad); en el APK habla aunque la pantalla esté bloqueada y baja la música mientras tanto. Caminando o corriendo también cuenta los pasos (pide el permiso de actividad física)." },
+      { icon:"&#9201;", title:"Intervalos para empezar a correr", desc:"En Recorridos, 'Intervalos correr y caminar' tiene un plan de 9 semanas de 0 a 5 km (basado en el Couch to 5K del NHS): 3 salidas por semana, de 1 minuto corriendo hasta 30 minutos seguidos. La app marca qué sesión sigue y te avisa cada cambio con la voz y vibrando, aunque la pantalla esté bloqueada. También podés armar tus propios intervalos (correr, caminar, repeticiones, entrada en calor y vuelta a la calma)." },
       { icon:"&#127942;", title:"Récords y GPX", desc:"Recorridos guarda tu tramo más rápido de 1, 5 y 10 km por actividad, dentro de cualquier recorrido (no hace falta que corras justo esa distancia). En el detalle de cada recorrido, 'Exportar GPX' arma el archivo con el trazado y los tiempos para pasarlo a Strava, Google Earth u otra app." },
       { icon:"&#9878;", title:"Cuerpo", desc:"Registro de peso y medidas (cintura, cadera, pecho, brazo, muslo y grasa corporal). Muestra el promedio de 7 días, la tendencia por semana y el gráfico. El último peso se usa para las calorías de los recorridos y aparece en el resumen semanal para Claude." },
       { icon:"&#129496;", title:"Yoga y ejercicios propios", desc:"En Estiramiento hay una sección de Yoga con cuatro secuencias; los tiempos van en segundos y te dice a cuántas respiraciones equivale. Las posturas que no tienen video se guían con la explicación. También podés crear tus propios ejercicios (nombre, zona, tiempo, cómo hacerlo y un link de YouTube opcional) y sumarlos a tus programas." },

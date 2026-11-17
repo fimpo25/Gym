@@ -26,6 +26,8 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
 import android.os.PowerManager;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import androidx.core.app.NotificationCompat;
 import java.util.Locale;
 
@@ -56,6 +58,8 @@ public class RouteService extends Service implements LocationListener, SensorEve
     private final Runnable tick = new Runnable() {
         @Override public void run() {
             RouteTrack.autoCheck(RouteService.this);
+            String[] cue = RouteTrack.intervalCue();
+            if (cue != null) { buzz(cue[1]); speak(cue[0]); RouteTrack.save(RouteService.this); }
             String say = RouteTrack.kmAnnouncement();
             if (say != null) speak(say);
             notifyNow();
@@ -182,6 +186,17 @@ public class RouteService extends Service implements LocationListener, SensorEve
             tts.speak(text, TextToSpeech.QUEUE_ADD, b, "km" + System.currentTimeMillis());
         } catch (Exception e) { releaseFocus(); }
     }
+    // Vibracion al cambiar de fase: tres cortas para correr, una larga para caminar
+    private void buzz(String kind) {
+        try {
+            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            if (v == null || !v.hasVibrator()) return;
+            long[] p = "r".equals(kind) ? new long[] { 0, 180, 120, 180, 120, 180 } : "e".equals(kind) ? new long[] { 0, 300, 150, 300, 150, 600 } : "h".equals(kind) ? new long[] { 0, 120 } : new long[] { 0, 600 };
+            if (Build.VERSION.SDK_INT >= 26) v.vibrate(VibrationEffect.createWaveform(p, -1));
+            else v.vibrate(p, -1);
+        } catch (Exception e) { /* sin vibracion */ }
+    }
+
     private void releaseFocus() {
         try {
             AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
@@ -208,8 +223,9 @@ public class RouteService extends Service implements LocationListener, SensorEve
         String now = paused ? "en pausa" : autoP ? "pausa automática" : RouteTrack.rate(mode, RouteTrack.curSpeed());
         double avgV = ms > 0 ? dist / (ms / 1000.0) : 0;
         String title = modeLabel(mode) + " · " + RouteTrack.clock(ms) + (paused ? " (en pausa)" : autoP ? " (pausa automática)" : "");
-        String text = kmTxt + " · " + now;
-        String big = kmTxt + " en " + RouteTrack.clock(ms) + "\nAhora: " + now + "\nPromedio: " + RouteTrack.rate(mode, avgV) + (steps > 0 && !"bici".equals(mode) ? "\nPasos: " + steps : "");
+        String ivTxt = RouteTrack.ivStatus();
+        String text = ivTxt != null && !paused ? ivTxt + " · " + kmTxt : kmTxt + " · " + now;
+        String big = (ivTxt != null ? ivTxt + "\n" : "") + kmTxt + " en " + RouteTrack.clock(ms) + "\nAhora: " + now + "\nPromedio: " + RouteTrack.rate(mode, avgV) + (steps > 0 && !"bici".equals(mode) ? "\nPasos: " + steps : "");
         Intent open = getPackageManager().getLaunchIntentForPackage(getPackageName());
         PendingIntent pi = open == null ? null : PendingIntent.getActivity(this, 7001, open, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
         NotificationCompat.Builder b = new NotificationCompat.Builder(this, CHANNEL)

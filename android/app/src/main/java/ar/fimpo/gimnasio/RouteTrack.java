@@ -48,6 +48,12 @@ final class RouteTrack {
     // Kilometros cumplidos y tiempo en cada uno (para el aviso por voz)
     static int kmDone = 0, kmSpoken = 0;
     static long kmPrevMs = 0, kmLastMs = 0;
+    // Intervalos (correr/caminar): fases "a" entrada en calor, "r" correr, "k" caminar, "c" vuelta a la calma
+    static String ivSpec = "";
+    static char[] ivK = null;
+    static int[] ivS = null;
+    static int ivSaid = -1, ivHalf = -1;
+    static boolean ivEnd = false;
 
     private RouteTrack() {}
 
@@ -57,10 +63,11 @@ final class RouteTrack {
         }
     }
 
-    static void begin(Context ctx, String m, double maxV, boolean auto, boolean voice) {
+    static void begin(Context ctx, String m, double maxV, boolean auto, boolean voice, String iv) {
         synchronized (LOCK) {
             state = "running"; mode = m; maxSpeed = maxV; autoOn = auto; voiceOn = voice; autoPaused = false; anchor = null; nAuto = 0;
             steps = 0; stepPrev = -1; kmDone = 0; kmSpoken = 0; kmPrevMs = 0; kmLastMs = 0;
+            setIntervals(iv); ivSaid = -1; ivHalf = -1; ivEnd = false;
             startedAt = System.currentTimeMillis(); accMs = 0; runSince = startedAt; lastMoveAt = startedAt;
             dist = 0; gain = 0; loss = 0; refAlt = Double.NaN; seg = 0; rejects = 0; last = null;
             pts.clear(); fixAcc = -1; fixAt = 0;
@@ -108,6 +115,7 @@ final class RouteTrack {
         synchronized (LOCK) {
             state = "idle"; accMs = 0; dist = 0; gain = 0; loss = 0; seg = 0; last = null; refAlt = Double.NaN; rejects = 0;
             autoPaused = false; anchor = null; steps = 0; stepPrev = -1; kmDone = 0; kmSpoken = 0;
+            setIntervals(""); ivSaid = -1; ivHalf = -1; ivEnd = false;
             pts.clear();
             try { new File(ctx.getFilesDir(), FILE).delete(); } catch (Exception e) { /* nada */ }
             ctx.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit().clear().apply();
@@ -221,6 +229,75 @@ final class RouteTrack {
         }
     }
 
+    static void setIntervals(String spec) {
+        ivSpec = spec == null ? "" : spec; ivK = null; ivS = null;
+        if (ivSpec.isEmpty()) return;
+        try {
+            String[] p = ivSpec.split(",");
+            char[] k = new char[p.length]; int[] s = new int[p.length];
+            for (int i = 0; i < p.length; i++) { k[i] = p[i].charAt(0); s[i] = Integer.parseInt(p[i].substring(1)); }
+            ivK = k; ivS = s;
+        } catch (Exception e) { ivSpec = ""; ivK = null; ivS = null; }
+    }
+
+    /** Fase actual de los intervalos: {indice, segundos que faltan} o null. Indice = largo si termino. */
+    static int[] ivPhase() {
+        if (ivS == null) return null;
+        long e = elapsedMs() / 1000; int acc = 0;
+        for (int i = 0; i < ivS.length; i++) { acc += ivS[i]; if (e < acc) return new int[] { i, (int) (acc - e) }; }
+        return new int[] { ivS.length, 0 };
+    }
+
+    static String ivDur(int s) {
+        int m = s / 60, x = s % 60;
+        if (m == 0) return x + " segundos";
+        String t = m == 1 ? "1 minuto" : m + " minutos";
+        if (x == 30) return t + " y medio";
+        if (x > 0) return t + " y " + x + " segundos";
+        return t;
+    }
+
+    static String ivName(char k) { return k == 'r' ? "Corré" : k == 'a' ? "Entrada en calor" : k == 'c' ? "Vuelta a la calma" : "Caminá"; }
+
+    /** Aviso de cambio de fase: {texto, tipo de vibracion} o null. */
+    static String[] intervalCue() {
+        synchronized (LOCK) {
+            if (ivS == null || !"running".equals(state)) return null;
+            int[] ph = ivPhase(); int i = ph[0];
+            if (i >= ivS.length) {
+                if (ivEnd) return null;
+                ivEnd = true; ivSaid = i;
+                return new String[] { "Terminaste los intervalos. Muy bien. Podés terminar el recorrido cuando quieras.", "e" };
+            }
+            if (i != ivSaid) {
+                ivSaid = i;
+                char k = ivK[i]; int s = ivS[i];
+                int nRun = 0, myRun = 0;
+                for (int j = 0; j < ivK.length; j++) if (ivK[j] == 'r') { nRun++; if (j <= i) myRun = nRun; }
+                String t;
+                if (k == 'r') t = "Corré " + ivDur(s) + "." + (nRun > 1 ? (myRun == nRun ? " Es la última." : " Repetición " + myRun + " de " + nRun + ".") : "");
+                else if (k == 'a') t = "Entrada en calor: caminá " + ivDur(s) + " a paso vivo.";
+                else if (k == 'c') t = "Vuelta a la calma: caminá " + ivDur(s) + " tranquilo.";
+                else t = "Caminá " + ivDur(s) + ".";
+                return new String[] { t, String.valueOf(k) };
+            }
+            if (ivK[i] == 'r' && ivS[i] >= 240 && ivHalf != i && ph[1] <= ivS[i] / 2) { ivHalf = i; return new String[] { "Vas por la mitad. Faltan " + ivDur(ph[1]) + ".", "h" }; }
+            return null;
+        }
+    }
+
+    /** Texto corto para la notificacion. */
+    static String ivStatus() {
+        synchronized (LOCK) {
+            if (ivS == null) return null;
+            int[] ph = ivPhase();
+            if (ph[0] >= ivS.length) return "Intervalos terminados";
+            int nRun = 0, myRun = 0;
+            for (int j = 0; j < ivK.length; j++) if (ivK[j] == 'r') { nRun++; if (j <= ph[0]) myRun = nRun; }
+            return ivName(ivK[ph[0]]) + " · faltan " + clock(ph[1] * 1000L) + (ivK[ph[0]] == 'r' && nRun > 1 ? " · " + myRun + " de " + nRun : "");
+        }
+    }
+
     static String spoken(long ms) {
         long s = Math.round(ms / 1000.0), h = s / 3600, m = (s % 3600) / 60, ss = s % 60;
         StringBuilder b = new StringBuilder();
@@ -236,7 +313,8 @@ final class RouteTrack {
                 .putLong("startedAt", startedAt).putLong("accMs", accMs).putLong("runSince", runSince)
                 .putFloat("dist", (float) dist).putFloat("gain", (float) gain).putFloat("loss", (float) loss).putInt("seg", seg)
                 .putBoolean("autoOn", autoOn).putBoolean("voiceOn", voiceOn).putBoolean("autoPaused", autoPaused).putInt("steps", steps)
-                .putInt("kmDone", kmDone).putLong("kmLastMs", kmLastMs).putLong("kmPrevMs", kmPrevMs).putInt("nAuto", nAuto).apply();
+                .putInt("kmDone", kmDone).putLong("kmLastMs", kmLastMs).putLong("kmPrevMs", kmPrevMs).putInt("nAuto", nAuto)
+                .putString("ivSpec", ivSpec).putInt("ivSaid", ivSaid).putInt("ivHalf", ivHalf).putBoolean("ivEnd", ivEnd).apply();
     }
 
     /** Si la app se cerro con un recorrido en curso, lo recupera (queda en pausa). */
@@ -251,6 +329,7 @@ final class RouteTrack {
             if ("running".equals(st) && !sp.getBoolean("autoPaused", false)) accMs += Math.max(0, System.currentTimeMillis() - sp.getLong("runSince", System.currentTimeMillis()));
             autoOn = sp.getBoolean("autoOn", false); voiceOn = sp.getBoolean("voiceOn", false); autoPaused = false; anchor = null;
             steps = sp.getInt("steps", 0); stepPrev = -1; nAuto = sp.getInt("nAuto", 0);
+            setIntervals(sp.getString("ivSpec", "")); ivSaid = sp.getInt("ivSaid", -1); ivHalf = sp.getInt("ivHalf", -1); ivEnd = sp.getBoolean("ivEnd", false);
             kmDone = sp.getInt("kmDone", 0); kmSpoken = kmDone; kmLastMs = sp.getLong("kmLastMs", 0); kmPrevMs = sp.getLong("kmPrevMs", 0);
             dist = sp.getFloat("dist", 0); gain = sp.getFloat("gain", 0); loss = sp.getFloat("loss", 0); seg = sp.getInt("seg", 0) + 1;
             last = null; lastMono = -1; rejects = 0; refAlt = Double.NaN; pts.clear();

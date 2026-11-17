@@ -67,7 +67,7 @@ public class RoutePlugin extends Plugin {
     public void start(PluginCall call) {
         if (getPermissionState("location") != PermissionState.GRANTED) { call.reject("Falta el permiso de ubicacion", "NO_PERMISSION"); return; }
         try {
-            RouteTrack.begin(getContext(), call.getString("mode", "correr"), call.getDouble("maxSpeed", 9.0), call.getBoolean("autoPause", false), call.getBoolean("voice", false));
+            RouteTrack.begin(getContext(), call.getString("mode", "correr"), call.getDouble("maxSpeed", 9.0), call.getBoolean("autoPause", false), call.getBoolean("voice", false), call.getString("intervals", ""));
             send(RouteService.A_START);
             call.resolve();
         } catch (Exception e) {
@@ -127,6 +127,7 @@ public class RoutePlugin extends Plugin {
             r.put("voice", RouteTrack.voiceOn);
             r.put("steps", RouteTrack.steps);
             r.put("kmDone", RouteTrack.kmDone);
+            r.put("iv", RouteTrack.ivSpec);
         }
         r.put("diag", RouteTrack.diag());
         r.put("gps", gpsOn());
