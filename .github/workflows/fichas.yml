@@ -4,7 +4,7 @@ on:
   push:
     branches: [fichas-revision]
 permissions:
-  contents: read
+  contents: write
 jobs:
   bajar:
     runs-on: ubuntu-latest
@@ -14,5 +14,7 @@ jobs:
       - uses: actions/setup-node@v5
         with: { node-version: 22 }
       - run: node .github/scripts/bajar_fichas.js
-      - uses: actions/upload-artifact@v4
-        with: { name: fichas, path: fichas, retention-days: 3 }
+      - name: Guardar las fichas en esta rama
+        run: |
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add fichas && git commit -q -m "Fichas bajadas de R2 [skip ci]" && git push -q origin HEAD:fichas-revision
