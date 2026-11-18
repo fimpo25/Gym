@@ -1,0 +1,18 @@
+name: Bajar fichas de R2
+# Solo con un tag fichas-*: baja las descripciones para revisarlas. No compila ni publica nada.
+on:
+  push:
+    tags: ['fichas-*']
+permissions:
+  contents: read
+jobs:
+  bajar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: node .github/scripts/bajar_fichas.js
+      - uses: actions/upload-artifact@v4
+        with: { name: fichas, path: fichas, retention-days: 3 }
