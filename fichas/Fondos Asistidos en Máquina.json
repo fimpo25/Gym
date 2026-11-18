@@ -1,0 +1,46 @@
+{
+  "nombre": "Fondos Asistidos en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/fondos-asistidos-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/74667d62-246e-4489-b879-c9ac936057f6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los Fondos Asistidos en Máquina se enfocan en los tríceps, el pecho y los hombros. Este ejercicio se realiza en una máquina de fondos con asistencia de peso ajustable, lo que permite un movimiento controlado y un desarrollo gradual de la fuerza. Es adecuado para principiantes que aún no tienen la fuerza para realizar fondos sin asistencia.",
+  "como_realizar": [
+    "Ajusta la pila de pesas para proporcionar el nivel de asistencia deseado.",
+    "Sube a la plataforma de la máquina y agarra las manijas firmemente.",
+    "Coloca tus rodillas en la almohadilla para las rodillas o en la plataforma para los pies, asegurando que tu cuerpo esté erguido.",
+    "Baja tu cuerpo doblando los codos hasta que tus brazos superiores estén paralelos al suelo.",
+    "Presiona con tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones, manteniendo el control en todo momento."
+  ],
+  "consejos": [
+    "Asegúrate de tener un rango completo de movimiento bajando hasta que tus brazos superiores estén paralelos al suelo.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y prevenir el balanceo.",
+    "Concéntrate en un descenso y ascenso lento y controlado para maximizar el compromiso muscular.",
+    "Ajusta el nivel de asistencia a medida que ganas fuerza para seguir desafiando tus músculos.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener la tensión en los músculos."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, desviando el enfoque de los tríceps al pecho.",
+    "Permitir que los hombros se encojan, reduciendo el compromiso de los tríceps.",
+    "No mantener una columna neutral, lo que lleva a una mala postura.",
+    "Usar demasiado peso de asistencia, minimizando la activación muscular.",
+    "No bajar el cuerpo a un ángulo de codo de 90 grados, limitando el rango de movimiento.",
+    "Apresurarse en las repeticiones, sacrificando el control y la forma.",
+    "Bloquear los codos en la parte superior, causando tensión en las articulaciones.",
+    "Permitir que los codos se abran excesivamente, aumentando el estrés en los hombros.",
+    "No mantener las muñecas rectas, arriesgando incomodidad en las muñecas."
+  ]
+}

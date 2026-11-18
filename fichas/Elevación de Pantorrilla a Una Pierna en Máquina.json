@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Pantorrilla a Una Pierna en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-seated-calf-machine-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/92d6c057-a7e6-4ccc-8d37-2dd6a05f1fcf.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Single Leg Seated Calf Machine Raise targets the calf muscles, specifically the gastrocnemius and soleus. This exercise is performed using a seated calf raise machine, allowing for isolated contraction of each calf muscle individually, enhancing muscle symmetry and balance.",
+  "como_realizar": [
+    "Adjust the seat height of the calf raise machine so that your knees are at a 90-degree angle when seated.",
+    "Sit on the machine and place the ball of one foot on the platform, ensuring your heel is hanging off.",
+    "Secure your thigh under the padded lever to stabilize your leg.",
+    "Begin with your heel lowered below the platform to stretch the calf muscle.",
+    "Push through the ball of your foot to raise your heel as high as possible, contracting your calf muscle.",
+    "Pause briefly at the top of the movement for maximum contraction.",
+    "Slowly lower your heel back to the starting position for a full stretch.",
+    "Complete the desired number of repetitions before switching to the other leg."
+  ],
+  "consejos": [
+    "Focus on a full range of motion to maximize muscle engagement.",
+    "Keep your movements controlled and avoid bouncing at the bottom of the lift.",
+    "Ensure your knee remains stable and does not move during the exercise.",
+    "Exhale as you lift your heel and inhale as you lower it back down.",
+    "Start with a lighter weight to master form before increasing resistance.",
+    "Perform this exercise slowly to increase time under tension for better muscle growth."
+  ],
+  "errores_comunes": [
+    "Not fully extending the ankle at the top of the movement, limiting calf activation.",
+    "Allowing the heel to drop too low, causing strain on the Achilles tendon.",
+    "Using momentum to lift the weight instead of controlled muscle contraction.",
+    "Incorrect foot placement on the platform, leading to uneven force distribution.",
+    "Failing to maintain a straight line from knee to ankle, causing knee misalignment.",
+    "Not engaging the core, resulting in poor balance and stability.",
+    "Allowing the knee to move excessively, reducing calf isolation.",
+    "Using too much weight, compromising form and range of motion.",
+    "Rushing through repetitions, preventing full muscle engagement."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexiones Inclinadas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones-inclinadas",
+  "video_url": "https://api.smartworkout.app/asset/video/edc943ba-f227-4d12-9c96-3e8222618728.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La flexión en inclinación es un ejercicio con el peso corporal que se enfoca en la parte superior del pecho, los hombros y los tríceps. Se realiza con las manos elevadas sobre una superficie estable, como un banco o escalón, lo que disminuye la resistencia en comparación con una flexión estándar. Este ejercicio es adecuado para principiantes y para aquellos que desean concentrarse más en la parte superior de los músculos pectorales.",
+  "como_realizar": [
+    "Coloca tus manos a la altura de los hombros sobre una superficie elevada, como un banco o escalón.",
+    "Camina hacia atrás con los pies hasta que tu cuerpo forme una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo y mantén los codos cerca de tu cuerpo.",
+    "Baja tu pecho hacia la superficie elevada doblando los codos.",
+    "Haz una pausa breve cuando tu pecho esté justo por encima de la superficie.",
+    "Empuja a través de tus palmas para enderezar tus brazos y regresar a la posición inicial.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la superficie que uses sea estable y pueda soportar tu peso.",
+    "Mantén una línea recta desde la cabeza hasta los talones durante todo el movimiento para involucrar eficazmente tu núcleo.",
+    "Mantén los codos a un ángulo de aproximadamente 45 grados de tu cuerpo para proteger tus hombros.",
+    "Concéntrate en movimientos controlados en lugar de la velocidad para maximizar el compromiso muscular.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Ajusta la altura de la inclinación para aumentar o disminuir la dificultad según sea necesario."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso del pecho.",
+    "Codos sobresaliendo excesivamente, aumentando la tensión en los hombros.",
+    "Caderas hundidas, provocando estrés en la parte baja de la espalda.",
+    "Cuello adelantado, causando incomodidad en el cuello.",
+    "Compromiso inadecuado del core, resultando en una forma inestable.",
+    "Rango de movimiento inconsistente, limitando la activación muscular.",
+    "Apresurarse en las repeticiones, comprometiendo el control y la efectividad.",
+    "Pies colocados demasiado cerca de la inclinación, reduciendo el apalancamiento."
+  ]
+}

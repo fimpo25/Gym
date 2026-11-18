@@ -1,0 +1,43 @@
+{
+  "nombre": "Giro de Pie con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-de-pie-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/661d2e49-9612-4f4c-9885-18d6c6fa37f7.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro de Pie con Barra es un ejercicio para el core que se enfoca en los músculos oblicuos, mejorando la fuerza y estabilidad rotacional. Consiste en sostener una barra sobre los hombros y rotar el torso de lado a lado mientras se mantiene estable la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, rodillas ligeramente flexionadas.",
+    "Coloca una barra sobre la parte superior de tu espalda, sujetándola con ambas manos un poco más anchas que el ancho de los hombros.",
+    "Activa tu núcleo y mantén el pecho levantado.",
+    "Gira tu torso hacia la derecha, manteniendo las caderas mirando hacia adelante.",
+    "Regresa a la posición inicial y luego gira hacia la izquierda.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus movimientos controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Concéntrate en usar tus oblicuos para iniciar el giro en lugar de balancearte con los brazos.",
+    "Mantén una ligera flexión en las rodillas para estabilizar la parte inferior de tu cuerpo.",
+    "Asegúrate de que tus caderas permanezcan cuadradas y no roten con tu torso.",
+    "Exhala al girar e inhala al regresar a la posición central."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar del torso, reduciendo el compromiso del core.",
+    "Usar demasiado peso, lo que lleva a una forma y control comprometidos.",
+    "Inclinarse hacia adelante o hacia atrás, lo que puede tensar la parte baja de la espalda.",
+    "Permitir que las rodillas se muevan excesivamente, desestabilizando la postura.",
+    "Sostener la barra demasiado baja o demasiado alta, afectando el apalancamiento y la activación muscular.",
+    "Girar demasiado rápido, lo que puede reducir la tensión muscular y el control.",
+    "No mantener el core apretado, lo que lleva a una mala estabilización.",
+    "No mantener los hombros nivelados, causando una distribución desigual del esfuerzo."
+  ]
+}

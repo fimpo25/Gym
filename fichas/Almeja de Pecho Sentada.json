@@ -1,0 +1,43 @@
+{
+  "nombre": "Almeja de Pecho Sentada",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/almeja-de-pecho-sentada",
+  "video_url": "https://api.smartworkout.app/asset/video/1ee153d8-7136-4ded-aa79-416a16b00aa1.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Almeja de Pecho Sentado es un ejercicio de aislamiento que se enfoca en los músculos pectorales, específicamente en la parte interna del pecho. Consiste en apretar los músculos del pecho mientras se mantiene una posición sentada, generalmente utilizando una máquina diseñada para este propósito.",
+  "como_realizar": [
+    "Siéntate en la máquina de apertura de pecho con la espalda firmemente contra el respaldo.",
+    "Ajusta la altura del asiento para que tus pies estén planos en el suelo y tus brazos estén a nivel del pecho al agarrar las manijas.",
+    "Agarra las manijas con un agarre neutral, manteniendo los codos ligeramente doblados.",
+    "Exhala y lleva lentamente las manijas juntas frente a ti contrayendo los músculos del pecho.",
+    "Haz una breve pausa en la contracción máxima, asegurándote de que tu pecho esté completamente comprometido.",
+    "Inhala y regresa lentamente a la posición inicial, permitiendo que los músculos del pecho se estiren.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca presionada contra el respaldo durante todo el movimiento para evitar usar el impulso.",
+    "Concéntrate en apretar los músculos del pecho en lugar de empujar con los brazos.",
+    "Mantén tus movimientos controlados y evita que las pesas golpeen al regresar a la posición inicial.",
+    "Ajusta la configuración de la máquina para asegurar un rango completo de movimiento sin sobreextender los hombros.",
+    "Mantén una ligera flexión en los codos para reducir la tensión en las articulaciones."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo el compromiso del pecho.",
+    "Permitir que las rodillas se desvíen hacia adentro, perdiendo la forma.",
+    "Usar impulso en lugar de movimientos controlados.",
+    "No apretar los omóplatos juntos.",
+    "No mantener una columna recta, lo que lleva a una mala postura.",
+    "Abrir los brazos demasiado, arriesgando tensión en los hombros.",
+    "Descuidar involucrar los músculos del core para la estabilidad.",
+    "Realizar el ejercicio demasiado rápido, comprometiendo el control."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación Lateral con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/ccc2c2e5-e9bc-4613-a40d-d8411e4872b0.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación Lateral con Banda es un ejercicio de aislamiento que se enfoca en los músculos deltoides laterales, que forman parte del hombro. Consiste en levantar los brazos hacia los lados contra la resistencia de una banda, ayudando a desarrollar la fuerza y estabilidad del hombro.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, colocando la parte media de una banda de resistencia debajo de tus pies.",
+    "Sujeta un extremo de la banda en cada mano, con los brazos a los lados y las palmas hacia adentro.",
+    "Mantén una ligera flexión en los codos mientras levantas los brazos hacia los lados hasta que estén paralelos al suelo.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tus hombros no estén encogidos.",
+    "Baja lentamente los brazos de nuevo a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir la tensión en las articulaciones.",
+    "Concéntrate en usar los músculos de los hombros en lugar de balancear el cuerpo para ganar impulso.",
+    "Mantén el núcleo comprometido para mantener el equilibrio y apoyar una postura adecuada.",
+    "Controla el movimiento tanto al subir como al bajar para maximizar el compromiso muscular.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio para asegurar una forma adecuada."
+  ],
+  "errores_comunes": [
+    "Usar demasiada resistencia, lo que lleva a una forma comprometida y un movimiento basado en el impulso.",
+    "Levantar las bandas demasiado alto, causando riesgo de pinzamiento en el hombro.",
+    "Permitir que los codos se doblen excesivamente, reduciendo el compromiso del deltoides lateral.",
+    "No mantener una ligera flexión en los codos, lo que lleva a una tensión en el codo.",
+    "Inclinarse hacia adelante o hacia atrás, desviando la tensión de los hombros.",
+    "Levantar los hombros durante el levantamiento, aumentando la tensión en el cuello.",
+    "Usar un movimiento rápido y descontrolado, reduciendo la activación muscular.",
+    "No mantener las muñecas neutrales, causando una tensión innecesaria en las muñecas.",
+    "Descuidar el compromiso del core, lo que lleva a la inestabilidad y una mala postura.",
+    "Permitir que las bandas retrocedan rápidamente, perdiendo el trabajo muscular excéntrico."
+  ]
+}

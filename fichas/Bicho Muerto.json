@@ -1,0 +1,46 @@
+{
+  "nombre": "Bicho Muerto",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/bicho-muerto",
+  "video_url": "https://api.smartworkout.app/asset/video/644f8c6e-2c8c-44d6-b3fd-49be9ef13641.mp4",
+  "tags": [
+    "CORE",
+    "MOTOR",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Bicho Muerto es un ejercicio de fortalecimiento del core que se enfoca en los músculos abdominales, mejora la estabilidad y aumenta la coordinación. Consiste en acostarse de espaldas y mover los brazos y las piernas de manera controlada para activar el core sin forzar la parte baja de la espalda.",
+  "como_realizar": [
+    "Acuéstate boca arriba con los brazos extendidos hacia el techo y las rodillas dobladas en un ángulo de 90 grados sobre tus caderas.",
+    "Activa tu núcleo llevando tu ombligo hacia la columna, asegurándote de que tu espalda baja esté presionada contra el suelo.",
+    "Extiende lentamente tu brazo derecho detrás de ti mientras simultáneamente estiras tu pierna izquierda hacia el suelo, manteniéndolos ambos justo por encima del suelo.",
+    "Regresa a la posición inicial llevando tu brazo y pierna de vuelta a la posición inicial.",
+    "Repite el movimiento en el lado opuesto extendiendo tu brazo izquierdo y pierna derecha.",
+    "Continúa alternando lados para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante todo el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Concéntrate en movimientos lentos y controlados para maximizar el compromiso del core y mejorar la coordinación.",
+    "Mantén una respiración constante; exhala al extender el brazo y la pierna, e inhala al regresar a la posición inicial.",
+    "Si experimentas molestias en la parte baja de la espalda, reduce el rango de movimiento o mantén las piernas dobladas durante las extensiones.",
+    "Asegúrate de que tu cabeza y cuello permanezcan relajados en el suelo para evitar tensión innecesaria."
+  ],
+  "errores_comunes": [
+    "Arquear la parte baja de la espalda del suelo, reduciendo el compromiso del core.",
+    "No mantener la cabeza y el cuello en una posición neutral, causando tensión.",
+    "Mover los brazos y las piernas demasiado rápido, comprometiendo el control y la estabilidad.",
+    "Permitir que las costillas se abran, disminuyendo la activación abdominal.",
+    "Bajar las extremidades demasiado, llevando a la pérdida de forma y posible tensión en la espalda.",
+    "No sincronizar el movimiento del brazo y la pierna opuestos, interrumpiendo la coordinación.",
+    "Contener la respiración, lo que aumenta la tensión y reduce la resistencia.",
+    "Comenzar con las extremidades demasiado altas, limitando el rango de movimiento y efectividad."
+  ]
+}

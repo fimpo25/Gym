@@ -1,0 +1,49 @@
+{
+  "nombre": "Press Cubano de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/press-cubano-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/9f763865-263a-4137-a426-a8874d9e2165.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "BICEPS",
+    "FOREARMS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press Cubano de Pie es un ejercicio para los hombros que se enfoca en los músculos del manguito rotador y deltoides. Combina una rotación externa con un press por encima de la cabeza, promoviendo la estabilidad y fuerza del hombro.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo un par de mancuernas con un agarre por encima.",
+    "Comienza con los brazos colgando frente a ti, codos doblados a 90 grados y palmas hacia tu cuerpo.",
+    "Levanta las mancuernas rotando externamente los hombros hasta que tus antebrazos estén paralelos al suelo.",
+    "Desde esta posición, presiona las mancuernas por encima de la cabeza extendiendo completamente los brazos.",
+    "Invierte lentamente el movimiento llevando las mancuernas de regreso a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio y apoyar la parte baja de la espalda.",
+    "Asegúrate de que tus codos permanezcan en un ángulo de 90 grados durante la fase inicial de rotación.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Evita usar peso excesivo para prevenir la tensión en las articulaciones del hombro; prioriza la forma sobre la carga.",
+    "Exhala al presionar las mancuernas por encima de la cabeza e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a una mala forma y a una reducción del rango de movimiento.",
+    "Permitir que los codos caigan por debajo de la altura de los hombros, desactivando los músculos del manguito rotador.",
+    "Arquear excesivamente la parte baja de la espalda, causando tensión y reduciendo el compromiso del core.",
+    "Abrir los codos hacia afuera en lugar de mantenerlos alineados con los hombros.",
+    "Apresurarse en el movimiento, sacrificando el control y la activación muscular.",
+    "No mantener una postura estable y erguida durante todo el ejercicio.",
+    "No rotar completamente los hombros, limitando la efectividad del press.",
+    "Bloquear los codos en la parte superior del press, reduciendo la tensión en los músculos.",
+    "No mantener las muñecas rectas, lo que lleva a una posible tensión y a un control reducido."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación de Piernas Colgando a la Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-piernas-colgando-a-la-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/55da64aa-d53a-4314-96dd-db9dcf40977b.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación de Piernas Colgando hasta la Barra es un ejercicio avanzado para el core que se enfoca en los músculos abdominales, los flexores de la cadera y los músculos estabilizadores de la parte superior del cuerpo. Consiste en levantar las piernas hacia la barra mientras se cuelga de una barra de dominadas, requiriendo una fuerza y control significativos.",
+  "como_realizar": [
+    "Comienza agarrando una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo estable, evitando balancearte.",
+    "Con las piernas rectas, levántalas hacia la barra flexionando las caderas.",
+    "Intenta tocar la barra con los pies mientras mantienes las piernas lo más rectas posible.",
+    "Baja lentamente las piernas de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de tener un agarre fuerte en la barra para mantener la estabilidad durante todo el ejercicio.",
+    "Concéntrate en usar los músculos del core para levantar las piernas en lugar de depender del impulso.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Si las elevaciones completas de piernas son demasiado desafiantes, comienza con las rodillas dobladas y progresa a medida que desarrolles fuerza.",
+    "Mantén una columna neutral para prevenir tensiones en la parte baja de la espalda."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo en exceso, reduciendo el compromiso y control del core.",
+    "Usar el impulso para levantar las piernas en lugar de comprometer los músculos del core.",
+    "No llevar las piernas lo suficientemente alto para tocar la barra, limitando el rango de movimiento.",
+    "Permitir que los hombros se encojan, lo que lleva a una pobre estabilidad escapular.",
+    "Doblar las rodillas en exceso, lo que reduce la intensidad del ejercicio.",
+    "No mantener el torso estable, lo que lleva a movimientos innecesarios y reduce la efectividad.",
+    "Arquear la parte baja de la espalda, lo que puede tensar la columna lumbar.",
+    "Comprometer más los flexores de la cadera que el core, reduciendo la activación abdominal.",
+    "Agarrar la barra demasiado fuerte, causando tensión innecesaria en los brazos y hombros.",
+    "No controlar el descenso, lo que lleva a una falta de compromiso muscular y potencial estrés en las articulaciones."
+  ]
+}

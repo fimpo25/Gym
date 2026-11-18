@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Pallof con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/press-pallof-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/f65e3ecc-bf7d-4a45-a604-dfe2e2fbc923.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "CHEST"
+  ],
+  "descripcion": "El Press Pallof con Banda es un ejercicio de core anti-rotación que se enfoca en los oblicuos, el transverso del abdomen y el recto abdominal. También involucra los hombros, el pecho y los glúteos para mantener la estabilidad. Este ejercicio se realiza utilizando una banda de resistencia y es excelente para mejorar la fuerza y estabilidad del core.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje estable a la altura del pecho.",
+    "Párate perpendicular al punto de anclaje con los pies separados al ancho de los hombros.",
+    "Sujeta la banda con ambas manos, manteniendo los brazos extendidos frente a tu pecho.",
+    "Aléjate del punto de anclaje para crear tensión en la banda.",
+    "Activa tu núcleo y glúteos para mantener una postura estable.",
+    "Presiona la banda directamente frente a ti, manteniendo los brazos paralelos al suelo.",
+    "Mantén la posición extendida brevemente mientras resistes la rotación.",
+    "Regresa lentamente tus manos a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén los hombros hacia abajo y hacia atrás para evitar tensiones innecesarias.",
+    "Mantén una ligera flexión en las rodillas para una mejor estabilidad.",
+    "Concéntrate en mantener el torso erguido y evita inclinarte hacia el punto de anclaje.",
+    "Controla tu respiración exhalando al presionar hacia afuera e inhalando al regresar.",
+    "Asegúrate de que la banda de resistencia esté tensa durante todo el movimiento para una efectividad óptima.",
+    "Comienza con una resistencia más ligera y aumenta gradualmente a medida que mejora la fuerza de tu núcleo."
+  ],
+  "errores_comunes": [
+    "Permitir que la banda tire del cuerpo hacia los lados, perdiendo el compromiso del núcleo.",
+    "Pararse demasiado cerca o demasiado lejos del punto de anclaje, afectando la resistencia y la forma.",
+    "Usar una resistencia demasiado pesada, comprometiendo la estabilidad y el control.",
+    "No mantener una columna neutral, lo que lleva a una rotación excesiva de la columna.",
+    "Dejar que los hombros se encojan hacia arriba, causando tensión y desalineación.",
+    "No alinear correctamente los pies, lo que puede desestabilizar la postura.",
+    "Apresurar el movimiento, reduciendo el tiempo bajo tensión y la efectividad.",
+    "Descuidar la respiración constante, afectando la estabilidad del núcleo.",
+    "Permitir que los codos se abran, reduciendo la tensión en el núcleo."
+  ]
+}

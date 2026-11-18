@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Inclinado con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/barbell-bent-over-row",
+  "video_url": "https://api.smartworkout.app/asset/video/101feeac-462a-48cc-9376-38a2077b9116.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Barbell Bent Over Row is a compound exercise that targets the muscles of the upper back, including the latissimus dorsi, rhomboids, and trapezius, as well as the biceps and forearms. It involves bending at the hips while keeping the back straight to lift a barbell from the floor to the lower chest or upper abdomen.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and grip the barbell with an overhand grip, hands slightly wider than shoulder-width.",
+    "Bend your knees slightly and hinge at your hips, keeping your back straight and torso almost parallel to the floor.",
+    "Engage your core and pull the barbell towards your lower chest or upper abdomen by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, then slowly lower the barbell back to the starting position with control.",
+    "Repeat for the desired number of repetitions, maintaining proper form throughout."
+  ],
+  "consejos": [
+    "Keep your back straight and avoid rounding your shoulders to prevent injury.",
+    "Focus on pulling with your back muscles rather than just using your arms.",
+    "Maintain a neutral neck position by looking a few feet in front of you on the ground.",
+    "Control the movement throughout to maximize muscle engagement and minimize momentum.",
+    "Start with a lighter weight to ensure proper form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using momentum by jerking the body to lift the barbell.",
+    "Pulling the barbell too high, causing shoulder strain.",
+    "Letting the elbows flare out excessively.",
+    "Standing too upright, reducing back engagement.",
+    "Not engaging the core to stabilize the torso.",
+    "Allowing the wrists to bend instead of keeping them straight.",
+    "Failing to retract the shoulder blades at the top of the movement.",
+    "Not lowering the barbell fully, limiting the range of motion.",
+    "Lifting too heavy, compromising form and control."
+  ]
+}

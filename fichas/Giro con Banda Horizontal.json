@@ -1,0 +1,46 @@
+{
+  "nombre": "Giro con Banda Horizontal",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-con-banda-(horizontal)",
+  "video_url": "https://api.smartworkout.app/asset/video/c213b508-6d89-4d6e-836f-b6dd20198d7c.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro con banda (horizontal) es un ejercicio que se enfoca en los músculos oblicuos y mejora la estabilidad del núcleo. Consiste en rotar el torso contra la resistencia de una banda anclada a la altura de los hombros, promoviendo la fuerza funcional y el poder rotacional.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje estable a la altura del hombro.",
+    "Párate de lado al punto de anclaje con los pies separados al ancho de los hombros.",
+    "Sujeta el mango de la banda con ambas manos, con los brazos extendidos frente a ti.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas.",
+    "Gira tu torso alejándote del punto de anclaje, manteniendo los brazos rectos.",
+    "Regresa a la posición inicial con control.",
+    "Realiza el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu zona lumbar.",
+    "Concéntrate en rotar a través de tu torso, no solo en mover tus brazos.",
+    "Mantén un ritmo constante y controlado para maximizar el compromiso muscular.",
+    "Asegúrate de que la banda de resistencia esté tensa al inicio del ejercicio para una tensión constante.",
+    "Evita inclinarte hacia adelante o hacia atrás; mantén tu columna neutral.",
+    "Exhala al girar lejos del punto de anclaje e inhala al regresar."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar de aislar el movimiento al torso.",
+    "Permitir que la banda de resistencia se afloje, reduciendo la tensión.",
+    "Pararse demasiado cerca o demasiado lejos del punto de anclaje, afectando la resistencia.",
+    "Usar los brazos para tirar en lugar de comprometer los músculos del core.",
+    "Inclinarse hacia adelante o hacia atrás, comprometiendo el equilibrio y la estabilidad.",
+    "Apresurar el movimiento, lo que lleva a la pérdida de control.",
+    "No mantener una columna neutral durante todo el ejercicio.",
+    "No mantener los hombros abajo y relajados, causando tensión en el cuello.",
+    "Compromiso inadecuado del core, reduciendo la efectividad."
+  ]
+}

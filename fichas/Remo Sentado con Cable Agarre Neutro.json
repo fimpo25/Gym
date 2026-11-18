@@ -1,0 +1,48 @@
+{
+  "nombre": "Remo Sentado con Cable Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-sentado-con-cable-agarre-neutro",
+  "video_url": "https://api.smartworkout.app/asset/video/0e61ea8c-8d21-445d-a882-1a8bf3a87245.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Sentado en Cable con Agarre Neutro es un ejercicio compuesto que se enfoca en los músculos de la parte superior de la espalda, incluyendo el dorsal ancho, los romboides y el trapecio. También involucra los bíceps y los antebrazos como músculos secundarios. Este ejercicio se realiza utilizando una máquina de cable con un accesorio de agarre neutro, permitiendo una posición natural de las manos que reduce la tensión en las muñecas.",
+  "como_realizar": [
+    "Siéntate en la máquina de remo con cable con los pies firmemente colocados en la plataforma para pies y las rodillas ligeramente dobladas.",
+    "Agarra el mango de agarre neutral con ambas manos, con las palmas enfrentadas.",
+    "Mantén la espalda recta y el pecho hacia arriba mientras te inclinas ligeramente hacia adelante para extender completamente los brazos.",
+    "Tira del mango hacia tu torso retrayendo las escápulas y doblando los codos.",
+    "Pausa brevemente cuando el mango llegue a tu abdomen, asegurándote de que tu espalda permanezca recta.",
+    "Extiende lentamente los brazos de nuevo a la posición inicial mientras mantienes el control del peso.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta durante todo el movimiento para evitar tensiones en la parte baja de la espalda.",
+    "Concéntrate en apretar los omóplatos juntos en el pico de la contracción.",
+    "Evita usar el impulso; controla el peso tanto en las fases de tirón como de liberación.",
+    "Mantén los codos cerca del cuerpo para maximizar el compromiso de los músculos de la espalda.",
+    "Exhala al tirar del mango hacia ti e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás reduce la tensión en los músculos objetivo.",
+    "Usar el impulso en lugar de un movimiento controlado disminuye el compromiso muscular.",
+    "Encoger los hombros hacia arriba activa los trapecios en lugar de los dorsales.",
+    "Permitir que los codos se abran desvía el enfoque de la espalda.",
+    "Redondear la espalda puede llevar a una tensión en la columna.",
+    "Tirar del mango demasiado alto apunta a los trapecios superiores en lugar de la parte media de la espalda.",
+    "No extender completamente los brazos en la posición inicial limita el rango de movimiento.",
+    "Agarrar demasiado fuerte puede causar fatiga en los antebrazos antes de que los músculos de la espalda se agoten.",
+    "No retraer las escápulas reduce la activación de los músculos de la espalda.",
+    "Usar un peso excesivo compromete la forma y el control."
+  ]
+}

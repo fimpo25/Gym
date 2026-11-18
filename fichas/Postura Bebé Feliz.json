@@ -1,0 +1,46 @@
+{
+  "nombre": "Postura Bebé Feliz",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/happy-baby-pose",
+  "video_url": "https://api.smartworkout.app/asset/video/8d83f6d0-7cd0-4cc0-b8d8-ac334249f099.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Happy Baby Pose, also known as Ananda Balasana, is a yoga posture that helps to stretch the inner thighs, groin, and lower back. It is often used to promote relaxation and flexibility, making it beneficial for recovery and mobility in fitness routines.",
+  "como_realizar": [
+    "Lie on your back with your head resting on the floor.",
+    "Bend your knees towards your chest, keeping your feet flexed.",
+    "Reach your hands to the outside edges of your feet.",
+    "Open your knees wider than your torso and pull them towards your armpits.",
+    "Ensure your ankles are directly over your knees, creating a 90-degree angle at the knee joint.",
+    "Gently press your tailbone down towards the floor while keeping your head and shoulders relaxed.",
+    "Hold the pose for 30 seconds to 1 minute, breathing deeply."
+  ],
+  "consejos": [
+    "Focus on keeping your back flat on the ground to maximize the stretch in your lower back.",
+    "If you can't reach your feet, hold onto a strap looped around each foot.",
+    "Engage your core slightly to stabilize your spine during the pose.",
+    "Relax your shoulders away from your ears to avoid tension in the neck.",
+    "Breathe deeply and evenly to enhance relaxation and flexibility benefits."
+  ],
+  "errores_comunes": [
+    "Pulling the knees too wide apart, causing strain on the hips.",
+    "Allowing the lower back to lift off the floor, reducing the stretch's effectiveness.",
+    "Gripping the feet too tightly, creating unnecessary tension in the hands and arms.",
+    "Forcing the head and neck to lift, leading to strain in the cervical spine.",
+    "Failing to engage the core, resulting in an unstable position.",
+    "Holding the breath instead of maintaining a steady breathing pattern.",
+    "Overextending the legs, causing discomfort in the hamstrings."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Extensión de Espalda con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/extension-de-espalda-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/66d21316-727a-4d60-b9c0-d3bab1c00bee.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Extensión de Espalda con Peso es un ejercicio que se enfoca en la parte baja de la espalda, los glúteos y los isquiotibiales. Consiste en extender la columna contra resistencia, generalmente realizado en un banco de hiperextensión con peso adicional para aumentar la intensidad.",
+  "como_realizar": [
+    "Colócate boca abajo en un banco de hiperextensión, asegurando tus pies bajo las almohadillas para pies.",
+    "Alinea tus caderas con el borde de la almohadilla para permitir un rango completo de movimiento.",
+    "Sujeta un disco de pesas o una mancuerna cerca de tu pecho con ambas manos.",
+    "Comienza con tu cuerpo en línea recta desde la cabeza hasta los talones.",
+    "Baja lentamente la parte superior de tu cuerpo hacia el suelo doblando las caderas, manteniendo la espalda recta.",
+    "Haz una pausa breve en la parte inferior del movimiento, luego activa la parte baja de tu espalda y los glúteos para elevar tu torso de regreso a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus movimientos sean controlados y deliberados para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Mantén tu núcleo apretado durante todo el ejercicio para mantener la estabilidad y el soporte de tu zona lumbar.",
+    "Evita la hiperextensión de tu espalda en la parte superior del movimiento; detente cuando tu cuerpo esté en línea recta.",
+    "Comienza con un peso más ligero para dominar la forma adecuada antes de avanzar a cargas más pesadas.",
+    "Concéntrate en apretar tus glúteos y isquiotibiales al levantar para mejorar la activación muscular."
+  ],
+  "errores_comunes": [
+    "Redondear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Hiperextender la espalda en la parte superior del movimiento.",
+    "Usar el impulso para levantar el peso en lugar de un movimiento controlado.",
+    "Colocar la almohadilla demasiado alta en los muslos, reduciendo el rango de movimiento.",
+    "Permitir que la cabeza caiga hacia adelante, desalineando la columna.",
+    "No activar los glúteos y los isquiotibiales, sobrecargando la parte baja de la espalda.",
+    "Sostener el peso demasiado lejos del pecho, aumentando la tensión en la espalda.",
+    "Subir demasiado rápido, comprometiendo el compromiso muscular y el control.",
+    "No bajar completamente el torso, limitando la efectividad del ejercicio."
+  ]
+}

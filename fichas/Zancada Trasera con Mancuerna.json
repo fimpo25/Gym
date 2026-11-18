@@ -1,0 +1,47 @@
+{
+  "nombre": "Zancada Trasera con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/zancada-trasera-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/9f892517-9887-4854-a8c9-f716dde7decc.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Zancada Trasera con Mancuernas es un ejercicio compuesto para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y pantorrillas. También involucra el core para la estabilización. Este ejercicio consiste en dar un paso hacia atrás en posición de zancada mientras se sostienen mancuernas, proporcionando resistencia para mejorar la fuerza y resistencia muscular.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de las caderas, sosteniendo una mancuerna en cada mano a los lados.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras das un paso hacia atrás con el pie derecho.",
+    "Baja las caderas hasta que ambas rodillas estén dobladas aproximadamente a 90 grados. Tu rodilla delantera debe estar directamente sobre tu tobillo.",
+    "Empuja con el talón de tu pie izquierdo para volver a la posición inicial.",
+    "Repite el movimiento con tu pierna izquierda dando un paso hacia atrás para completar una repetición completa.",
+    "Continúa alternando las piernas durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el torso erguido durante todo el movimiento para evitar inclinarte hacia adelante.",
+    "Asegúrate de que tu rodilla delantera no se extienda más allá de tus dedos del pie para evitar una tensión innecesaria en la articulación de la rodilla.",
+    "Concéntrate en un descenso y ascenso controlados para maximizar el compromiso muscular.",
+    "Mantén el núcleo apretado para mantener el equilibrio y la estabilidad durante el ejercicio.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a mancuernas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que la rodilla delantera se extienda más allá de los dedos del pie, lo que puede provocar tensión en la rodilla.",
+    "No mantener el torso erguido, lo que resulta en una inclinación excesiva hacia adelante.",
+    "No dar un paso lo suficientemente hacia atrás, limitando el rango de movimiento y el compromiso muscular.",
+    "Dejar que la rodilla trasera toque el suelo, causando una pérdida de control y equilibrio.",
+    "Sostener las mancuernas demasiado lejos del cuerpo, aumentando la tensión en los hombros.",
+    "Usar el impulso para volver a la posición de pie en lugar de un compromiso muscular controlado.",
+    "Descuidar mantener el núcleo comprometido, lo que lleva a inestabilidad y mala postura.",
+    "Permitir que el pie delantero ruede hacia adentro o hacia afuera, comprometiendo la estabilidad del tobillo.",
+    "No mantener el peso distribuido uniformemente entre ambas piernas, causando desequilibrio.",
+    "No alinear las caderas y los hombros, resultando en una postura torcida o desigual."
+  ]
+}

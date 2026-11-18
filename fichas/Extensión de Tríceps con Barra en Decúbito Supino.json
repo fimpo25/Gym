@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps con Barra en Decúbito Supino",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-barra-en-decubito-supino",
+  "video_url": "https://api.smartworkout.app/asset/video/99998fe7-3d68-480b-b2e2-720fe74fc015.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Barra Acostado, comúnmente conocida como Skullcrusher, es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los codos para levantar una barra desde detrás de la cabeza hasta por encima del pecho mientras se está acostado en un banco plano. Este ejercicio enfatiza la cabeza larga del tríceps y es efectivo para desarrollar masa muscular y fuerza en la parte superior del brazo.",
+  "como_realizar": [
+    "Acuéstate boca arriba en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una barra con un agarre por encima, manos a la anchura de los hombros.",
+    "Extiende completamente los brazos, sosteniendo la barra directamente sobre tu pecho.",
+    "Baja lentamente la barra hacia tu frente doblando los codos.",
+    "Mantén los brazos superiores estacionarios y cerca de tu cabeza durante todo el movimiento.",
+    "Haz una breve pausa cuando la barra esté justo por encima de tu frente.",
+    "Extiende los codos para levantar la barra de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan estacionarios para maximizar el compromiso de los tríceps.",
+    "Usa un observador si levantas pesas pesadas para garantizar la seguridad.",
+    "Controla el descenso de la barra para prevenir lesiones y mantener la tensión en los tríceps.",
+    "Evita abrir los codos hacia afuera para mantener la forma adecuada y enfocarte en los tríceps.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Mantén tu núcleo comprometido y la espalda plana en el banco para la estabilidad."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso de los tríceps.",
+    "Bajar la barra demasiado, arriesgando tensión en los hombros.",
+    "Usar el impulso para levantar la barra, comprometiendo el control.",
+    "Colocar los codos demasiado hacia atrás, desviando el enfoque de los tríceps.",
+    "No mantener una posición neutral de la muñeca, aumentando la tensión en las muñecas.",
+    "No mantener los brazos superiores estacionarios, reduciendo la efectividad del ejercicio.",
+    "Arquear la espalda excesivamente, llevando a una mala forma.",
+    "Apresurar el movimiento, llevando a una contracción muscular inadecuada."
+  ]
+}

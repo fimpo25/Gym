@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Rodillas Oblicuas Colgado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-rodillas-oblicuas-colgado",
+  "video_url": "https://api.smartworkout.app/asset/video/cb5401d6-3354-4d9a-8cb6-e27b988a505f.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación de Rodillas Oblicua Colgante es un ejercicio avanzado para el core que se enfoca en los músculos oblicuos. Consiste en colgarse de una barra de dominadas y elevar las rodillas hacia el pecho mientras se gira el torso para activar los oblicuos. Este ejercicio mejora la estabilidad del core, mejora el equilibrio y desarrolla la fuerza en la región abdominal.",
+  "como_realizar": [
+    "Comienza agarrando una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Cuelga libremente con los brazos completamente extendidos y las piernas rectas.",
+    "Activa tu núcleo y levanta las rodillas hacia el pecho.",
+    "Mientras levantas las rodillas, gira el torso hacia un lado para trabajar los oblicuos.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la máxima contracción.",
+    "Baja las piernas de nuevo a la posición inicial de manera controlada.",
+    "Repite el movimiento, alternando lados con cada repetición."
+  ],
+  "consejos": [
+    "Asegúrate de tener un agarre firme en la barra para mantener la estabilidad durante todo el ejercicio.",
+    "Mantén tus movimientos controlados para maximizar el compromiso muscular y reducir el impulso.",
+    "Concéntrate en respirar de manera constante; exhala al levantar las rodillas e inhala al bajarlas.",
+    "Activa tus músculos del core durante todo el movimiento para proteger tu zona lumbar.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que adquieras fuerza.",
+    "Evita balancearte o usar el impulso; apunta a un movimiento lento y deliberado para obtener mejores resultados."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo para ganar impulso en lugar de usar los músculos del core.",
+    "No mantener los hombros comprometidos y estables, lo que lleva a un balanceo excesivo.",
+    "No comprometer completamente los oblicuos, causando que el movimiento dependa de los flexores de la cadera.",
+    "Llevar las rodillas demasiado alto o demasiado bajo, reduciendo la efectividad de apuntar a los oblicuos.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, comprometiendo la estabilidad del core.",
+    "Apresurar el movimiento, resultando en un control deficiente y una activación muscular reducida.",
+    "No mantener un agarre neutral, lo que lleva a una tensión innecesaria en las muñecas.",
+    "Descuidar exhalar durante el levantamiento de rodillas, reduciendo el compromiso del core."
+  ]
+}

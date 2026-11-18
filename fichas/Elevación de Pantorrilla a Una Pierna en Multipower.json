@@ -1,0 +1,43 @@
+{
+  "nombre": "Elevación de Pantorrilla a Una Pierna en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-smith-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/59c87ebc-8e70-4869-959a-25caaadb8663.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Single Leg Smith Calf Raise is an isolation exercise targeting the calf muscles, specifically the gastrocnemius and soleus. It is performed using a Smith machine, which provides stability and control, allowing for a focused contraction of the calf muscles. This exercise helps in developing strength and definition in the calves.",
+  "como_realizar": [
+    "Position yourself under the Smith machine bar with the bar resting on your shoulders.",
+    "Place one foot on a raised platform or step, ensuring your heel is hanging off the edge.",
+    "Unlock the Smith machine bar by rotating it forward.",
+    "Lower your heel towards the ground in a controlled manner to stretch the calf muscle.",
+    "Press through the ball of your foot to raise your heel as high as possible, contracting your calf muscle.",
+    "Hold the top position briefly before lowering back down.",
+    "Complete the desired number of repetitions before switching to the other leg."
+  ],
+  "consejos": [
+    "Ensure your knee is slightly bent to reduce strain on the joint.",
+    "Focus on a full range of motion for maximum muscle engagement.",
+    "Keep your core engaged to maintain balance and stability.",
+    "Perform the movement slowly to maximize time under tension.",
+    "Avoid bouncing at the bottom of the movement to prevent injury.",
+    "Use a weight that allows you to perform the exercise with proper form."
+  ],
+  "errores_comunes": [
+    "Placing the foot too far forward or backward on the platform, leading to improper alignment and reduced effectiveness.",
+    "Allowing the knee to bend excessively, which shifts focus away from the calf muscles.",
+    "Failing to achieve a full range of motion by not lowering the heel fully or not raising it high enough.",
+    "Using momentum instead of controlled movements, reducing muscle engagement and increasing the risk of strain.",
+    "Leaning too far forward or backward, which can cause imbalance and improper muscle activation.",
+    "Neglecting to engage the core, leading to instability and potential loss of balance.",
+    "Holding the barbell incorrectly, which can result in poor posture and ineffective exercise execution.",
+    "Performing the exercise too quickly, which compromises muscle tension and control."
+  ]
+}

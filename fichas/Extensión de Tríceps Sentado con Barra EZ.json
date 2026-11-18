@@ -1,0 +1,42 @@
+{
+  "nombre": "Extensión de Tríceps Sentado con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-sentado-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/eb41c91c-9ed6-4d61-9e77-8963b224df91.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps Sentado con Barra EZ es un ejercicio de aislamiento que se enfoca en los músculos tríceps braquial. Consiste en extender los codos para levantar el peso por encima de la cabeza, enfatizando la cabeza larga del tríceps. Este ejercicio se realiza sentado, proporcionando estabilidad y permitiendo una contracción focalizada de los tríceps.",
+  "como_realizar": [
+    "Siéntate en un banco con respaldo, manteniendo los pies planos en el suelo.",
+    "Sujeta una barra EZ con ambas manos usando un agarre prono (palmas hacia adelante), con las manos a la anchura de los hombros.",
+    "Levanta la barra por encima de la cabeza hasta que tus brazos estén completamente extendidos, manteniendo los codos cerca de la cabeza.",
+    "Inhala y baja lentamente la barra detrás de la cabeza doblando los codos, manteniendo un movimiento controlado.",
+    "Exhala y extiende los brazos de nuevo a la posición inicial contrayendo los tríceps.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante todo el ejercicio.",
+    "Evita que tus codos se abran hacia afuera; mantenlos cerca de tu cabeza para apuntar efectivamente a los tríceps.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada sin forzar.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Asegúrate de que tu espalda permanezca recta y apoyada por el banco en todo momento."
+  ],
+  "errores_comunes": [
+    "Abrir los codos hacia afuera en lugar de mantenerlos cerca de la cabeza.",
+    "Permitir que la espalda se arquee excesivamente, reduciendo el compromiso del core.",
+    "Usar impulso al balancear la barra en lugar de un movimiento controlado.",
+    "Bajar la barra demasiado detrás de la cabeza, arriesgando tensión en los hombros.",
+    "No extender completamente los codos en la parte superior del movimiento.",
+    "Agarrar la barra demasiado ancho, causando incomodidad en las muñecas.",
+    "Descuidar mantener los brazos superiores estacionarios durante todo el ejercicio.",
+    "Usar un peso demasiado pesado, comprometiendo la forma y el control."
+  ]
+}

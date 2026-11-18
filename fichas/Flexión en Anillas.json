@@ -1,0 +1,51 @@
+{
+  "nombre": "Flexión en Anillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-en-anillas",
+  "video_url": "https://api.smartworkout.app/asset/video/dad1b2b1-cb9f-4b6f-9725-2548443f1872.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión en Anillas es un ejercicio avanzado para la parte superior del cuerpo que trabaja el pecho, los hombros y los tríceps, mientras activa el núcleo para mayor estabilidad. Consiste en realizar flexiones utilizando anillas de gimnasia, lo que añade un elemento de inestabilidad, requiriendo una mayor activación y control muscular.",
+  "como_realizar": [
+    "Ajusta los anillos para que cuelguen justo por encima del suelo.",
+    "Colócate en posición de plancha con las manos agarrando los anillos, los brazos completamente extendidos y los pies juntos.",
+    "Activa tu núcleo y mantén una línea recta desde la cabeza hasta los talones.",
+    "Baja tu cuerpo doblando los codos, manteniéndolos cerca de tu cuerpo.",
+    "Desciende hasta que tu pecho esté en línea con tus manos.",
+    "Empuja a través de los anillos para extender tus brazos y volver a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que los anillos estén bien sujetos antes de comenzar.",
+    "Mantén las muñecas neutrales para evitar tensiones.",
+    "Concéntrate en mantener tu cuerpo estable durante todo el movimiento.",
+    "Controla el descenso para maximizar el compromiso muscular.",
+    "Evita que los codos se abran demasiado; mantenlos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Mantén el núcleo apretado para evitar que la parte baja de la espalda se hunda.",
+    "Comienza con menos repeticiones si eres nuevo en los ejercicios con anillos."
+  ],
+  "errores_comunes": [
+    "Permitir que los anillos se separen durante la flexión, reduciendo la estabilidad y el control.",
+    "No mantener una columna neutral, lo que lleva a un arqueo o redondeo excesivo de la espalda.",
+    "Colocar los anillos demasiado altos, lo que limita el rango de movimiento y reduce la efectividad.",
+    "No activar el core, lo que resulta en caderas caídas y una mala alineación del cuerpo.",
+    "Dejar que los codos se abran excesivamente, aumentando la tensión en los hombros y reduciendo la potencia.",
+    "Descuidar mantener las muñecas alineadas con los antebrazos, causando tensión innecesaria en las muñecas.",
+    "Apresurarse en el movimiento sin control, comprometiendo la forma y la activación muscular.",
+    "No bajar el pecho completamente al nivel de los anillos, limitando el compromiso muscular y el rango."
+  ]
+}

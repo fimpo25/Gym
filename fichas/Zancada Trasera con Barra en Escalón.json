@@ -1,0 +1,47 @@
+{
+  "nombre": "Zancada Trasera con Barra en Escalón",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/zancada-trasera-con-barra-en-escalon",
+  "video_url": "https://api.smartworkout.app/asset/video/6d9a7e82-6bb1-4687-9d77-ded32f7a58ee.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Zancada Trasera con Barra en Escalón es un ejercicio compuesto para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y pantorrillas. Al incorporar un escalón, esta variación aumenta el rango de movimiento y desafía el equilibrio y la coordinación.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de los hombros, sosteniendo una barra sobre la parte superior de la espalda con un agarre por encima.",
+    "Coloca un escalón o plataforma detrás de ti a una distancia cómoda.",
+    "Activa tu núcleo y mantén el torso erguido durante todo el movimiento.",
+    "Da un paso hacia atrás con una pierna sobre el escalón, bajando las caderas hasta que ambas rodillas estén dobladas aproximadamente a 90 grados.",
+    "Asegúrate de que tu rodilla delantera esté alineada sobre tu tobillo y no se extienda más allá de tus dedos del pie.",
+    "Empuja con el talón de tu pie delantero para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Mantén el pecho levantado y los hombros hacia atrás para mantener una postura adecuada.",
+    "Concéntrate en un descenso lento y controlado para maximizar el compromiso muscular.",
+    "Usa un espejo para verificar la forma y asegurarte de que tus rodillas estén alineadas correctamente sobre tus dedos de los pies.",
+    "Comienza con un peso más ligero para dominar la técnica antes de avanzar a cargas más pesadas.",
+    "Activa los músculos del core durante todo el ejercicio para ayudar a estabilizar tu cuerpo."
+  ],
+  "errores_comunes": [
+    "Permitir que la rodilla delantera se incline hacia adentro, reduciendo la estabilidad y aumentando el estrés en la articulación de la rodilla.",
+    "Dar un paso demasiado hacia atrás, lo que lleva a una sobreextensión y posible pérdida de equilibrio.",
+    "No mantener el pecho erguido, lo que puede causar redondeo de la espalda y alineación espinal incorrecta.",
+    "No involucrar el core, resultando en un equilibrio deficiente y menor control sobre el movimiento.",
+    "Dejar que el talón trasero toque el suelo, lo que puede disminuir la efectividad del ejercicio.",
+    "Usar el impulso para empujar desde el escalón en lugar de un compromiso muscular controlado, reduciendo la efectividad del ejercicio.",
+    "Colocar la barra demasiado alta en el cuello, aumentando el riesgo de tensión y malestar en el cuello.",
+    "No mantener una distribución de peso uniforme entre ambas piernas, lo que lleva a una activación muscular desequilibrada.",
+    "Apresurarse en el movimiento, lo que puede comprometer la forma y aumentar el riesgo de pasos en falso."
+  ]
+}

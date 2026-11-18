@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexión de Brazos Cruzados",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazos-cruzados",
+  "video_url": "https://api.smartworkout.app/asset/video/2da07a82-c156-41ed-a6ee-c0a907126d02.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "La Flexión de Brazos Cruzados es una variación desafiante de la flexión tradicional que trabaja los músculos del pecho, tríceps, hombros y el núcleo. Al cruzar los brazos, este ejercicio aumenta la dificultad y activa los músculos estabilizadores para mantener el equilibrio y el control.",
+  "como_realizar": [
+    "Comienza en una posición estándar de flexión con las manos colocadas un poco más anchas que el ancho de los hombros.",
+    "Cruza tu mano derecha sobre tu mano izquierda de manera que tus brazos formen una 'X'.",
+    "Activa tu núcleo y mantén tu cuerpo en una línea recta desde la cabeza hasta los talones.",
+    "Baja tu pecho hacia el suelo doblando los codos, manteniéndolos cerca de tu cuerpo.",
+    "Haz una pausa brevemente cuando tu pecho esté justo por encima del suelo.",
+    "Empuja a través de tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Realiza el número deseado de repeticiones, luego cambia la posición de cruce de los brazos para equilibrar."
+  ],
+  "consejos": [
+    "Asegúrate de que tu núcleo esté comprometido durante todo el ejercicio para mantener una línea corporal recta.",
+    "Mantén los codos cerca de tu cuerpo al bajar para maximizar el compromiso del tríceps.",
+    "Concéntrate en movimientos controlados; evita apresurarte en las repeticiones para mantener la forma y la efectividad.",
+    "Si te resulta difícil hacerlo sobre los dedos de los pies, comienza con variaciones de rodillas para desarrollar fuerza.",
+    "Inhala al bajar y exhala al empujar hacia arriba para un flujo óptimo de oxígeno.",
+    "Cambia regularmente las posiciones de los brazos para asegurar un desarrollo muscular equilibrado."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado separadas, reduciendo la estabilidad y el control.",
+    "Cruzar los brazos demasiado apretados, restringiendo el movimiento y causando incomodidad.",
+    "Permitir que los codos se abran excesivamente, provocando tensión en los hombros.",
+    "Dejar caer las caderas, resultando en una alineación espinal incorrecta.",
+    "No activar el core, causando hundimiento de la parte baja de la espalda.",
+    "Apresurar el movimiento, comprometiendo la forma y el compromiso muscular.",
+    "No bajar completamente el pecho al suelo, limitando el rango de movimiento.",
+    "Empujar a través de los hombros en lugar del pecho, reduciendo la efectividad.",
+    "Descuidar mantener una línea recta desde la cabeza hasta los talones, afectando la postura.",
+    "Respirar de manera inconsistente, causando tensión y fatiga innecesarias."
+  ]
+}

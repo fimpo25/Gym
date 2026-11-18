@@ -1,0 +1,42 @@
+{
+  "nombre": "Plancha",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/plancha",
+  "video_url": "https://api.smartworkout.app/asset/video/8e4dddcc-b7e2-4961-8e82-ef54774734fb.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La plancha es un ejercicio isométrico para el core que consiste en mantener una posición similar a una flexión durante el máximo tiempo posible. Se enfoca principalmente en los músculos abdominales, pero también involucra los hombros, la espalda y los glúteos. Este ejercicio ayuda a mejorar la fuerza del core, la estabilidad y la resistencia.",
+  "como_realizar": [
+    "Comienza acostándote boca abajo en el suelo.",
+    "Coloca tus codos directamente debajo de tus hombros y pon tus antebrazos en el suelo.",
+    "Levanta tu cuerpo del suelo activando los músculos del core, manteniendo tu cuerpo en una línea recta desde la cabeza hasta los talones.",
+    "Mantén tus pies juntos y los dedos de los pies en el suelo.",
+    "Sostén esta posición mientras mantienes una alineación neutral del cuello y la columna.",
+    "Respira de manera constante y mantén la posición durante la duración deseada."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos estén alineados debajo de tus hombros para evitar tensiones innecesarias.",
+    "Activa tu core tirando de tu ombligo hacia tu columna vertebral.",
+    "Mantén tu cuerpo en línea recta; evita caderas caídas o glúteos levantados.",
+    "Concéntrate en mantener un patrón de respiración constante para ayudar a mantener la posición por más tiempo.",
+    "Si eres nuevo en el plank, comienza con duraciones más cortas y aumenta gradualmente a medida que desarrollas fuerza.",
+    "Para aumentar la dificultad, intenta levantar una pierna o un brazo mientras mantienes el equilibrio."
+  ],
+  "errores_comunes": []
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Peso Muerto Piernas Rectas con Mancuernas 2",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-deadlift-straight-legs",
+  "video_url": "https://api.smartworkout.app/asset/video/9815a488-3a41-4e57-a4d3-89b3296656df.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "FOREARMS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Dumbbell Deadlift Straight Legs is a compound exercise targeting the hamstrings, glutes, and lower back. It involves lifting dumbbells from the floor with minimal knee bend, emphasizing the posterior chain. This exercise enhances flexibility and strength in the lower body.",
+  "como_realizar": [
+    "Stand with feet hip-width apart, holding a dumbbell in each hand with an overhand grip.",
+    "Keep your knees slightly bent and maintain a neutral spine throughout the movement.",
+    "Hinge at the hips, lowering the dumbbells towards the floor while keeping them close to your legs.",
+    "Lower until you feel a stretch in your hamstrings, ensuring your back remains straight.",
+    "Engage your glutes and hamstrings to lift the dumbbells back to the starting position by reversing the hip hinge.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on hinging at the hips rather than bending at the waist to protect your lower back.",
+    "Keep your core engaged throughout the exercise to maintain stability and support your spine.",
+    "Ensure that your shoulders are pulled back and down to avoid rounding your upper back.",
+    "Start with lighter weights to master form before progressing to heavier dumbbells.",
+    "Perform the movement slowly and with control to maximize muscle engagement and reduce injury risk.",
+    "Breathe out as you lift the weights and breathe in as you lower them."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of keeping a neutral spine.",
+    "Locking the knees instead of maintaining a slight bend.",
+    "Allowing the shoulders to slump forward instead of keeping them retracted.",
+    "Lifting with the lower back rather than hinging at the hips.",
+    "Not engaging the core to stabilize the torso.",
+    "Using momentum to lift instead of controlled movement.",
+    "Letting the dumbbells drift away from the body instead of keeping them close.",
+    "Hyperextending the knees at the top of the movement.",
+    "Descending too quickly and losing control of the weights.",
+    "Not reaching full hip extension at the top of the lift."
+  ]
+}

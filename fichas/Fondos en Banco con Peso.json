@@ -1,0 +1,50 @@
+{
+  "nombre": "Fondos en Banco con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/fondos-en-banco-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/fc7a0f6e-dcaa-4252-8c1a-065e1ea733a2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "BACK",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los Fondos en Banco con Peso son un ejercicio compuesto que se enfoca en los tríceps, hombros y pecho. Al añadir peso, este ejercicio incrementa la resistencia, promoviendo el crecimiento muscular y la fuerza. Se realiza utilizando un banco y peso adicional, como un disco o una mancuerna, colocados sobre el regazo.",
+  "como_realizar": [
+    "Siéntate en el borde de un banco con las manos posicionadas junto a tus caderas, dedos agarrando el borde.",
+    "Coloca tus pies planos en el suelo, rodillas dobladas aproximadamente a 90 grados.",
+    "Pide a un compañero que coloque un disco de pesas o una mancuerna en tu regazo para añadir resistencia.",
+    "Desliza tus caderas fuera del banco, apoyando tu cuerpo con los brazos extendidos.",
+    "Baja tu cuerpo doblando los codos hasta que formen un ángulo de 90 grados.",
+    "Presiona con las palmas para extender tus brazos y levantar tu cuerpo de nuevo a la posición inicial.",
+    "Repite el número deseado de repeticiones mientras mantienes el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos apunten hacia atrás y no se abran hacia los lados para mantener una forma adecuada.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para estabilizar tu cuerpo.",
+    "Evita bloquear completamente tus codos en la parte superior del movimiento para mantener la tensión en los tríceps.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Mantén un ritmo controlado; evita rebotar en la parte inferior del movimiento.",
+    "Inhala mientras te bajas y exhala mientras te empujas hacia arriba."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado separadas, lo que reduce el compromiso del tríceps y aumenta la tensión en los hombros.",
+    "Permitir que los hombros se encorven hacia adelante, lo que lleva a una mala postura y reduce la efectividad.",
+    "Bajar demasiado, lo que puede poner una tensión excesiva en las articulaciones del hombro.",
+    "Usar el impulso para subir en lugar de una contracción muscular controlada, reduciendo el compromiso muscular.",
+    "No mantener los codos cerca del cuerpo, lo que desvía el enfoque de los tríceps.",
+    "No mantener los pies planos en el suelo, lo que lleva a inestabilidad y menor control.",
+    "Permitir que el peso descanse sobre los muslos en lugar de mantener un compromiso activo.",
+    "Doblar excesivamente las muñecas, lo que puede causar incomodidad y reducir la estabilidad.",
+    "Descuidar el compromiso del core, lo que lleva a una mala alineación y menor control."
+  ]
+}

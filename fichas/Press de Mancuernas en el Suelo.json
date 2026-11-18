@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Mancuernas en el Suelo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-mancuernas-en-el-suelo",
+  "video_url": "https://api.smartworkout.app/asset/video/d4d4942d-ab5e-4496-b15f-e55bcd5c99a9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Mancuernas en el Suelo es un ejercicio de entrenamiento de fuerza que se enfoca en el pecho, los tríceps y los hombros. Se realiza acostado en el suelo, lo que limita el rango de movimiento y ayuda a proteger los hombros mientras permite concentrarse en los músculos de empuje. Este ejercicio es ideal para desarrollar la fuerza del tren superior y la masa muscular.",
+  "como_realizar": [
+    "Acuéstate boca arriba en el suelo con las rodillas dobladas y los pies planos.",
+    "Sujeta una mancuerna en cada mano con un agarre por encima, palmas hacia adelante.",
+    "Coloca tus brazos superiores en el suelo en un ángulo de 45 grados con respecto a tu torso.",
+    "Empuja las mancuernas hacia arriba hasta que tus brazos estén completamente extendidos sobre tu pecho.",
+    "Haz una pausa breve en la parte superior, luego baja lentamente las mancuernas de nuevo hasta que tus brazos superiores toquen el suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos no se abran excesivamente para evitar tensión en los hombros.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad.",
+    "Controla el peso tanto en la fase ascendente como descendente para maximizar el compromiso muscular.",
+    "Concéntrate en apretar los músculos del pecho en la parte superior del movimiento para una mejor activación.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran demasiado, lo que puede forzar los hombros.",
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del core.",
+    "Usar el impulso para levantar las pesas en lugar de una contracción muscular controlada.",
+    "No mantener las muñecas rectas, lo que puede causar tensión.",
+    "No alinear las mancuernas sobre los codos, comprometiendo la seguridad de las articulaciones.",
+    "Bajar demasiado los codos, causando pérdida de tensión en los músculos del pecho.",
+    "Apresurar el movimiento, lo que reduce el compromiso muscular y el control.",
+    "No activar el core, lo que lleva a inestabilidad y mala forma.",
+    "Permitir que las mancuernas se desvíen demasiado hacia adelante o hacia atrás, reduciendo la activación del pecho."
+  ]
+}

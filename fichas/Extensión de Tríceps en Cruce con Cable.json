@@ -1,0 +1,44 @@
+{
+  "nombre": "Extensión de Tríceps en Cruce con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-cruce-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/bd97155f-d348-4a0f-9b59-78210312e476.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps en Cable Cruzado es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos mientras se sostienen las manijas del cable, concentrándose en la contracción de los tríceps. Este ejercicio ayuda a desarrollar fuerza y definición en la parte superior del brazo.",
+  "como_realizar": [
+    "Coloca las asas en las poleas altas de una máquina de cruce de cables.",
+    "Párate en el centro de la máquina con los pies separados al ancho de los hombros.",
+    "Agarra cada asa con un agarre por encima y extiende los brazos hacia los lados, manteniéndolos paralelos al suelo.",
+    "Da un pequeño paso hacia adelante para crear tensión en los cables.",
+    "Con los codos ligeramente doblados, lleva las manos juntas frente a ti extendiendo los codos, enfocándote en apretar los tríceps.",
+    "Vuelve lentamente a la posición inicial con control, manteniendo la tensión en los tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener el equilibrio y la estabilidad durante todo el movimiento.",
+    "Evita bloquear los codos en la extensión completa para proteger tus articulaciones.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Asegúrate de que tus hombros permanezcan estables y no se eleven durante el ejercicio.",
+    "Ajusta el peso para que puedas realizar el ejercicio con la forma adecuada en todas las repeticiones."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a repeticiones impulsadas por el impulso y pérdida de control.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "No extender completamente los brazos, reduciendo el rango de movimiento y efectividad.",
+    "Inclinarse hacia adelante en exceso, lo que desvía el enfoque de los tríceps.",
+    "Arquear la espalda en lugar de mantener una columna neutral.",
+    "Apresurarse en el movimiento, comprometiendo el compromiso muscular.",
+    "No mantener las muñecas rectas, lo que puede llevar a una posible tensión.",
+    "Bloquear los codos en la parte inferior, arriesgando el estrés en las articulaciones.",
+    "Descuidar estabilizar el núcleo, causando balanceo del cuerpo."
+  ]
+}

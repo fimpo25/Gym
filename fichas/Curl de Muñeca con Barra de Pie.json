@@ -1,0 +1,41 @@
+{
+  "nombre": "Curl de Muñeca con Barra de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-con-barra-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/94e02ebc-19ff-4884-9141-d5edac6f314c.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca con Barra de Pie Detrás de la Espalda es un ejercicio de aislamiento que se enfoca en los músculos del antebrazo, específicamente en los extensores de la muñeca. Consiste en sostener una barra detrás de la espalda y curvar las muñecas hacia arriba para activar los antebrazos.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una barra detrás de tu espalda con un agarre por encima.",
+    "Mantén los brazos rectos y cerca de tu cuerpo, con las palmas hacia atrás.",
+    "Lentamente riza tus muñecas hacia arriba, levantando la barra lo más alto posible sin mover los brazos.",
+    "Pausa en la parte superior del movimiento por un momento para maximizar la contracción.",
+    "Baja la barra de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa un peso ligero a moderado para mantener el control durante todo el ejercicio.",
+    "Concéntrate en aislar el movimiento de la muñeca; evita usar tus brazos o hombros.",
+    "Mantén una ligera flexión en las rodillas para mejorar el equilibrio y la estabilidad.",
+    "Mantén tu núcleo comprometido para apoyar la parte baja de la espalda durante el ejercicio.",
+    "Realiza el movimiento lentamente para aumentar el tiempo bajo tensión y mejorar el compromiso muscular."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un control deficiente y movimientos basados en el impulso.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "No mantener una alineación recta de la muñeca, causando tensión innecesaria.",
+    "No extender completamente las muñecas hacia abajo, limitando el rango de movimiento.",
+    "Levantar los hombros o usar los músculos de la espalda para levantar el peso.",
+    "Rebotar la barra en lugar de ejecutar movimientos controlados y deliberados.",
+    "No involucrar los músculos del antebrazo durante todo el ejercicio.",
+    "Pararse con los pies demasiado juntos, comprometiendo el equilibrio y la estabilidad."
+  ]
+}

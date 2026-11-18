@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla Zercher",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-zercher",
+  "video_url": "https://api.smartworkout.app/asset/video/84d0a9e3-3355-4a94-bafc-4ca547d481bb.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Zercher es un ejercicio compuesto para la parte inferior del cuerpo que se enfoca principalmente en los cuádriceps, isquiotibiales, glúteos y el núcleo. Consiste en sostener una barra en el pliegue de los codos mientras realizas una sentadilla, lo que desafía la estabilidad y activa los músculos de la parte superior del cuerpo para brindar soporte.",
+  "como_realizar": [
+    "Comienza colocando una barra en un soporte de sentadillas a la altura de la cintura.",
+    "Colócate debajo de la barra y sostenla en el pliegue de tus codos, manteniendo los brazos doblados y las manos juntas.",
+    "Ponte de pie para levantar la barra del soporte, manteniendo una postura fuerte con los pies a la altura de los hombros.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras inicias la sentadilla doblando las caderas y las rodillas.",
+    "Baja tu cuerpo hasta que tus muslos estén paralelos al suelo o un poco más abajo, asegurándote de que tus rodillas sigan la línea de tus dedos de los pies.",
+    "Empuja con los talones para volver a la posición inicial, manteniendo la barra segura en tus codos durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener el equilibrio y proteger tu espalda baja.",
+    "Asegúrate de que tus codos estén posicionados debajo de la barra para evitar que se deslice hacia adelante.",
+    "Concéntrate en mantener el pecho hacia arriba y los hombros hacia atrás para mantener un torso erguido durante la sentadilla.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Usa una almohadilla para sentadillas o una toalla alrededor de la barra si experimentas incomodidad en los codos.",
+    "Mantén un descenso y ascenso controlados para maximizar el compromiso muscular y minimizar el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "Permitir que las rodillas se inclinen hacia adentro durante la sentadilla.",
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Sostener la barra demasiado baja en los antebrazos, causando problemas de equilibrio.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Descender demasiado rápido, perdiendo el control del movimiento.",
+    "No mantener los codos altos, causando que la barra se desplace.",
+    "Hacer la sentadilla demasiado superficial, no logrando un rango completo de movimiento.",
+    "Inclinarse demasiado hacia adelante, poniendo tensión en la parte baja de la espalda.",
+    "No mantener los pies planos, causando que los talones se levanten del suelo.",
+    "Usar demasiado peso, comprometiendo la forma y el control."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Flexión en Diamante Declinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-en-diamante-declinado",
+  "video_url": "https://api.smartworkout.app/asset/video/e00634f2-4b6e-45e1-a15a-d40f6fa2fab3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "La Flexión Diamante en Declive es un ejercicio con peso corporal que se enfoca en el pecho, tríceps y hombros. Consiste en realizar una flexión con los pies elevados y las manos colocadas juntas en forma de diamante, enfatizando el pecho interno y los tríceps.",
+  "como_realizar": [
+    "Comienza colocando tus pies en una superficie elevada como un banco o escalón, asegurando que tu cuerpo esté en línea recta desde la cabeza hasta los talones.",
+    "Coloca tus manos en el suelo directamente debajo de tu pecho, formando una forma de diamante al juntar tus pulgares e índices.",
+    "Activa tu núcleo y mantén la espalda recta durante todo el movimiento.",
+    "Baja tu pecho hacia el suelo doblando los codos, manteniéndolos cerca de tu cuerpo.",
+    "Pausa brevemente en la parte inferior del movimiento, luego empuja con tus palmas para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones manteniendo una forma adecuada."
+  ],
+  "consejos": [
+    "Asegúrate de que tu core esté comprometido para evitar que las caderas se hundan y mantener una línea recta del cuerpo.",
+    "Concéntrate en mantener los codos cerca de tus costados para maximizar el compromiso del tríceps.",
+    "Controla la velocidad del movimiento, especialmente al bajar el cuerpo, para aumentar la activación muscular.",
+    "Si te resulta difícil, comienza con una elevación más baja o realiza flexiones de diamante regulares hasta que desarrolles fuerza.",
+    "Mantén el cuello neutral mirando ligeramente hacia adelante en lugar de hacia abajo."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso de los tríceps.",
+    "Codos que se abren excesivamente, aumentando la tensión en los hombros.",
+    "Caderas hundidas o elevadas, comprometiendo la estabilidad del núcleo.",
+    "Profundidad inadecuada, limitando la activación muscular.",
+    "Cuello adelantado, causando tensión en el cuello.",
+    "Colocación desigual de las manos, llevando a un trabajo muscular desequilibrado.",
+    "Movimientos rápidos e incontrolados, reduciendo la efectividad y aumentando la tensión.",
+    "No mantener el cuerpo en línea recta, afectando la postura y la forma.",
+    "Manos no directamente debajo del pecho, desviando el enfoque de los músculos objetivo."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo con Apoyo en Pecho Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/wide-grip-chest-supported-row",
+  "video_url": "https://api.smartworkout.app/asset/video/ea38494d-085e-4681-95f1-79730bd28c92.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Wide Grip Chest Supported Row is a strength training exercise targeting the upper back, specifically the latissimus dorsi, rhomboids, and trapezius muscles. It involves pulling a weight towards the chest while maintaining a wide grip on the handles, with the chest supported on an inclined bench to minimize lower back strain.",
+  "como_realizar": [
+    "Adjust the bench to an incline of approximately 30-45 degrees.",
+    "Lie face down on the bench with your chest supported and feet firmly on the ground.",
+    "Grasp the handles or barbell with a wide overhand grip, hands slightly wider than shoulder-width apart.",
+    "Engage your core and keep your body stable throughout the movement.",
+    "Exhale as you pull the weight towards your chest, squeezing your shoulder blades together at the top of the movement.",
+    "Inhale as you slowly lower the weight back to the starting position, maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your chest remains in contact with the bench throughout the exercise to support your back.",
+    "Focus on squeezing your shoulder blades together to maximize engagement of the upper back muscles.",
+    "Avoid using momentum; perform each rep with controlled motion.",
+    "Keep your elbows slightly bent and avoid locking them out at any point during the exercise.",
+    "Maintain a neutral spine by keeping your head aligned with your spine."
+  ],
+  "errores_comunes": [
+    "Allowing the shoulders to round forward instead of keeping them retracted.",
+    "Using momentum to lift the weight instead of controlled muscle engagement.",
+    "Pulling with the arms instead of initiating the movement with the back muscles.",
+    "Lifting the chest off the pad, reducing stability and support.",
+    "Gripping the bar too wide, limiting the range of motion and engagement.",
+    "Failing to fully extend the arms at the bottom of the movement.",
+    "Arching the lower back excessively, risking strain.",
+    "Not keeping the elbows aligned with the shoulders during the pull.",
+    "Engaging the traps more than the lats, leading to improper muscle activation.",
+    "Performing the exercise too quickly, compromising form and control."
+  ]
+}

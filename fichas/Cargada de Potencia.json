@@ -1,0 +1,55 @@
+{
+  "nombre": "Cargada de Potencia",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/power-clean",
+  "video_url": "https://api.smartworkout.app/asset/video/651038e5-362b-44e2-a8db-6462c8169e98.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The power clean is a dynamic, full-body exercise that primarily targets the muscles of the posterior chain, including the glutes, hamstrings, and lower back, while also engaging the shoulders, traps, and core. It is a compound movement that involves lifting a barbell from the floor to the shoulders in one explosive motion. The power clean is commonly used to develop strength, power, and coordination.",
+  "como_realizar": [
+    "Stand with your feet hip-width apart and position the barbell over the mid-foot. Bend at the hips and knees to grip the bar with an overhand grip, hands slightly wider than shoulder-width.",
+    "Set your back by pulling your shoulder blades together and maintaining a neutral spine. Your chest should be up and your gaze forward.",
+    "Initiate the lift by extending your hips and knees simultaneously, keeping the bar close to your body as you pull it upwards.",
+    "As the bar passes your knees, explosively extend your hips and shrug your shoulders to accelerate the bar upward.",
+    "Quickly drop under the bar by bending your knees and catching it on your shoulders in a front rack position with elbows high.",
+    "Stand up fully to complete the lift, ensuring the bar is stable on your shoulders before lowering it back to the starting position."
+  ],
+  "consejos": [
+    "Keep the bar close to your body throughout the lift to maintain control and efficiency.",
+    "Focus on a powerful hip extension to generate maximum force during the pull phase.",
+    "Practice proper breathing: inhale before lifting and exhale as you catch the bar on your shoulders.",
+    "Ensure your elbows are high in the front rack position to support the weight effectively.",
+    "Start with lighter weights to master technique before progressing to heavier loads.",
+    "Engage your core throughout the movement to protect your lower back."
+  ],
+  "errores_comunes": [
+    "Starting with hips too low, resembling a squat rather than a hinge.",
+    "Pulling with the arms instead of driving with the legs and hips.",
+    "Not fully extending the hips, knees, and ankles in the triple extension phase.",
+    "Catching the bar with elbows pointing down instead of forward.",
+    "Failing to keep the barbell close to the body during the lift.",
+    "Using an incorrect grip width, either too wide or too narrow.",
+    "Landing with feet too wide or unevenly during the catch phase.",
+    "Not maintaining a neutral spine throughout the movement.",
+    "Rushing the transition from the pull to the catch, leading to poor control.",
+    "Neglecting to engage the core, resulting in instability."
+  ]
+}

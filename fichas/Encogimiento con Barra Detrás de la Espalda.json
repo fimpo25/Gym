@@ -1,0 +1,45 @@
+{
+  "nombre": "Encogimiento con Barra Detrás de la Espalda",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimiento-con-barra-detras-de-la-espalda",
+  "video_url": "https://api.smartworkout.app/asset/video/e72b6c0c-7465-4cba-90d7-2372f01c92da.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Encogimiento de Hombros con Barra Detrás de la Espalda es un ejercicio que se enfoca en los músculos trapecios, específicamente en la parte superior de los trapecios. Este ejercicio consiste en sostener una barra detrás de la espalda y encoger los hombros hacia arriba, lo que ayuda a desarrollar fuerza y tamaño en la parte superior de la espalda y el área del cuello.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros y sostén una barra detrás de tu espalda con un agarre por encima.",
+    "Mantén los brazos extendidos hacia abajo y conserva una ligera flexión en los codos.",
+    "Activa tu núcleo y mantén la espalda recta durante todo el movimiento.",
+    "Levanta los hombros lo más alto posible hacia las orejas en un movimiento de encogimiento.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los músculos trapecios.",
+    "Baja lentamente los hombros de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de usar un peso que te permita realizar el ejercicio con la forma adecuada.",
+    "Concéntrate en mover solo tus hombros durante el encogimiento; evita usar tus brazos para levantar la barra.",
+    "Mantén tu cabeza en una posición neutral y evita mirar hacia abajo o hacia arriba en exceso.",
+    "Mantén un ritmo controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "La respiración es importante: exhala al levantar los hombros e inhala al bajarlos.",
+    "Evita rodar los hombros; el movimiento debe ser estrictamente hacia arriba y hacia abajo."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a una mala forma y un rango de movimiento reducido.",
+    "No mantener los hombros hacia atrás, lo que puede desconectar los músculos trapecios.",
+    "Doblar los codos en lugar de mantener los brazos rectos, reduciendo la efectividad del encogimiento.",
+    "Permitir que la barra se aleje demasiado del cuerpo, causando inestabilidad.",
+    "Encoger con un movimiento brusco en lugar de un levantamiento controlado.",
+    "No contraer completamente el trapecio en la parte superior del movimiento.",
+    "No bajar completamente los hombros entre repeticiones, limitando el rango completo de movimiento.",
+    "Inclinarse hacia adelante excesivamente, lo que puede desviar el enfoque de los músculos objetivo.",
+    "Usar el impulso para levantar la barra en lugar del compromiso muscular."
+  ]
+}

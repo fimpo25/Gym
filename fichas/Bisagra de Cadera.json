@@ -1,0 +1,44 @@
+{
+  "nombre": "Bisagra de Cadera",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/bisagra-de-cadera",
+  "video_url": "https://api.smartworkout.app/asset/video/a17b800c-19d1-4b79-857a-79cbed8cbe85.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La bisagra de cadera es un patrón de movimiento fundamental esencial para ejercicios como el peso muerto y los balanceos con kettlebell. Implica doblarse en las caderas mientras se mantiene una columna neutral, permitiendo una transferencia de carga eficiente y minimizando el estrés en la parte baja de la espalda.",
+  "como_realizar": [
+    "Párate con los pies al ancho de las caderas, con los dedos apuntando hacia adelante.",
+    "Activa tu núcleo para estabilizar tu columna vertebral.",
+    "Comienza el movimiento empujando tus caderas hacia atrás como si las estuvieras alcanzando hacia una pared detrás de ti.",
+    "Mantén las rodillas ligeramente flexionadas y una columna neutral durante todo el movimiento.",
+    "Baja tu torso hasta que sientas un estiramiento en los isquiotibiales, manteniendo el pecho abierto y los hombros hacia atrás.",
+    "Invierte el movimiento impulsando con los talones y extendiendo tus caderas para volver a la posición inicial."
+  ],
+  "consejos": [
+    "Concéntrate en moverte desde las caderas en lugar de doblarte en la cintura.",
+    "Mantén tu peso equilibrado sobre la parte media del pie hasta los talones para mantener la estabilidad.",
+    "Asegúrate de que tu espalda permanezca plana y evita redondear los hombros.",
+    "Practica frente a un espejo para monitorear la forma y la alineación.",
+    "Comienza con el peso corporal para dominar la técnica antes de añadir resistencia."
+  ],
+  "errores_comunes": [
+    "Doblar demasiado las rodillas, convirtiendo la bisagra de cadera en una sentadilla.",
+    "Redondear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Permitir que los hombros se inclinen hacia adelante en lugar de mantener un pecho amplio.",
+    "Iniciar el movimiento desde las rodillas en lugar de las caderas.",
+    "No activar el core, lo que lleva a inestabilidad y falta de control.",
+    "Hiperextender el cuello al mirar demasiado hacia adelante.",
+    "No mantener el peso en los talones, desplazándolo hacia los dedos de los pies.",
+    "No mantener una línea recta desde la cabeza hasta el coxis.",
+    "Moverse demasiado rápido, sacrificando control y precisión.",
+    "Permitir que las caderas se balanceen de lado a lado en lugar de moverse directamente hacia atrás."
+  ]
+}

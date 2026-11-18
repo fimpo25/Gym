@@ -1,0 +1,45 @@
+{
+  "nombre": "Estiramiento de Rotación de Espalda Arrodillado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/estiramiento-de-rotacion-de-espalda-arrodillado",
+  "video_url": "https://api.smartworkout.app/asset/video/2ca62145-0acb-4a6f-8de5-657f9a538d72.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "El Estiramiento de Rotación de Espalda en Rodillas es un ejercicio de movilidad diseñado para mejorar la rotación de la columna torácica y aumentar la flexibilidad en la parte superior de la espalda. Es especialmente beneficioso para personas que buscan aumentar el rango de movimiento y reducir la rigidez en la espalda, los hombros y el cuello.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo con las rodillas separadas al ancho de las caderas. Siéntate sobre tus talones para estabilizar la parte inferior de tu cuerpo.",
+    "Coloca tu mano derecha detrás de la cabeza, manteniendo el codo apuntando hacia el lado.",
+    "Extiende tu brazo izquierdo hacia adelante, apoyándolo en el suelo para soporte.",
+    "Inhala profundamente, luego exhala mientras giras la parte superior de tu cuerpo hacia la derecha, llevando tu codo derecho hacia el techo.",
+    "Mantén el estiramiento por un momento, sintiendo la rotación en la parte superior de tu espalda.",
+    "Inhala mientras regresas a la posición inicial, luego repite en el lado opuesto.",
+    "Realiza de 5 a 10 repeticiones en cada lado, enfocándote en movimientos suaves y controlados."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad.",
+    "Concéntrate en rotar a través de la columna torácica en lugar de torcer desde la parte baja de la espalda.",
+    "Asegúrate de que tu cuello permanezca neutral y alineado con tu columna durante el estiramiento.",
+    "Realiza este ejercicio lentamente y con control para maximizar su efectividad.",
+    "Si experimentas alguna incomodidad o dolor, reduce el rango de movimiento o consulta a un profesional del fitness."
+  ],
+  "errores_comunes": [
+    "No mantener la columna neutral, lo que lleva a una tensión innecesaria en la parte baja de la espalda.",
+    "Permitir que las caderas se desplacen o roten, reduciendo la efectividad del estiramiento.",
+    "No activar los músculos del core, resultando en menos estabilidad y control.",
+    "Sobre-rotar la parte superior del cuerpo, lo que puede causar incomodidad o tensión en los hombros.",
+    "Descuidar alinear correctamente las rodillas y los pies, causando desequilibrio.",
+    "Usar el impulso en lugar de un movimiento controlado, disminuyendo los beneficios del estiramiento.",
+    "Contener la respiración, lo que puede aumentar la tensión y limitar el rango de movimiento."
+  ]
+}

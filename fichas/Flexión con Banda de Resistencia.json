@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexión con Banda de Resistencia",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-con-banda-de-resistencia",
+  "video_url": "https://api.smartworkout.app/asset/video/3ebf60e2-f818-4d32-9655-b07f780684cf.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión con Banda de Resistencia es una variación de la flexión tradicional que incorpora una banda de resistencia para aumentar la intensidad y comprometer más eficazmente el pecho, los tríceps y los hombros. Este ejercicio mejora la fuerza y estabilidad del tren superior al añadir resistencia variable durante el movimiento.",
+  "como_realizar": [
+    "Ancla una banda de resistencia alrededor de la parte superior de tu espalda, sosteniendo los extremos de la banda en cada mano.",
+    "Adopta una posición de flexión con las manos ligeramente más anchas que el ancho de los hombros y los pies juntos o ligeramente separados para mayor estabilidad.",
+    "Asegúrate de que tu cuerpo forme una línea recta desde la cabeza hasta los talones, activando tu núcleo y glúteos.",
+    "Baja tu cuerpo hacia el suelo doblando los codos, manteniéndolos a un ángulo de 45 grados en relación con tu torso.",
+    "Haz una pausa breve cuando tu pecho esté justo por encima del suelo.",
+    "Empuja a través de tus palmas para extender tus brazos y regresar a la posición inicial, manteniendo la tensión en la banda durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Elige una banda de resistencia que proporcione suficiente tensión para desafiarte, pero que te permita mantener la forma adecuada.",
+    "Mantén los codos ligeramente hacia adentro en lugar de abrirlos para proteger tus hombros.",
+    "Concéntrate en mantener una línea recta desde la cabeza hasta los talones activando los músculos del core durante todo el ejercicio.",
+    "Controla el movimiento tanto al bajar como al subir para maximizar el compromiso muscular y la efectividad.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que desarrollas fuerza.",
+    "Asegúrate de que la banda de resistencia esté bien anclada alrededor de tu espalda para evitar que se deslice durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Colocar la banda de resistencia demasiado alta o baja en la espalda, lo que lleva a una tensión desigual.",
+    "Permitir que los codos se abran excesivamente, reduciendo la estabilidad del hombro.",
+    "No comprometer el núcleo, causando que las caderas se hundan o se eleven.",
+    "No mantener una línea recta desde la cabeza hasta los talones, comprometiendo la forma.",
+    "Usar un rango de movimiento limitado, no bajando el pecho lo suficientemente cerca del suelo.",
+    "Dejar que los hombros se encojan hacia las orejas, aumentando la tensión en el cuello.",
+    "Empujar a través de los dedos de los pies en lugar de las palmas, reduciendo la activación del pecho.",
+    "Moverse demasiado rápido, sacrificando el control y el compromiso muscular.",
+    "Descuidar mantener las muñecas alineadas con los antebrazos, aumentando la tensión en las muñecas."
+  ]
+}

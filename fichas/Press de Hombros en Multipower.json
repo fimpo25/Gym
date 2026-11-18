@@ -1,0 +1,49 @@
+{
+  "nombre": "Press de Hombros en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/smith-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/8eb388e1-bcba-4008-a658-94173da9ac60.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Smith Seated Shoulder Press is a compound exercise targeting the deltoid muscles, particularly the anterior and lateral heads. It also engages the triceps and upper chest. This exercise is performed using a Smith machine, which provides stability and allows for a controlled range of motion.",
+  "como_realizar": [
+    "Adjust the bench to an upright position and set it under the Smith machine bar.",
+    "Sit on the bench with your back firmly against the pad and feet flat on the floor.",
+    "Grip the bar slightly wider than shoulder-width apart with an overhand grip.",
+    "Unrack the bar by rotating it forward and position it just above your upper chest.",
+    "Inhale and press the bar upward until your arms are fully extended but not locked out.",
+    "Exhale as you lower the bar back to the starting position, just above your upper chest.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your back remains pressed against the bench throughout the movement to prevent arching.",
+    "Keep your core engaged to maintain stability and support during the press.",
+    "Focus on a slow, controlled motion to maximize muscle engagement and reduce injury risk.",
+    "Avoid locking out your elbows at the top of the movement to maintain tension on the muscles.",
+    "Adjust the bench height so that when seated, your eyes are level with the bar before unracking it.",
+    "Warm up properly before performing heavy sets to prepare your shoulders for exertion."
+  ],
+  "errores_comunes": [
+    "Setting the bench at an incorrect angle, leading to improper shoulder alignment.",
+    "Positioning the bar too far forward or backward, causing strain on the shoulders.",
+    "Using a grip that's too wide or too narrow, affecting shoulder and tricep engagement.",
+    "Lowering the bar too far down, risking shoulder impingement.",
+    "Not maintaining a stable core, resulting in lower back arching.",
+    "Allowing the elbows to flare out excessively, increasing shoulder stress.",
+    "Using momentum to push the bar up instead of controlled muscle contraction.",
+    "Failing to keep the wrists straight, leading to unnecessary wrist strain.",
+    "Neglecting to engage the scapulae, reducing shoulder stability.",
+    "Not adjusting the safety stops, increasing the risk of being trapped under the bar."
+  ]
+}

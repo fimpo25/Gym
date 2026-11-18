@@ -1,0 +1,47 @@
+{
+  "nombre": "Rodillo de Muñeca",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/rodillo-de-muneca",
+  "video_url": "https://api.smartworkout.app/asset/video/6467e6f1-edbc-41f8-abab-b9961ad00992.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "El rodillo de muñeca es un ejercicio efectivo para fortalecer los antebrazos y mejorar la fuerza de agarre. Consiste en enrollar un peso hacia arriba y hacia abajo usando una barra cilíndrica, lo que involucra los flexores y extensores de la muñeca.",
+  "como_realizar": [
+    "Asegura un disco de pesas al rodillo de muñeca usando una cuerda o cordón seguro.",
+    "Párate con los pies al ancho de los hombros, sosteniendo el rodillo de muñeca con ambas manos frente a ti a la altura de los hombros.",
+    "Extiende completamente los brazos, manteniéndolos paralelos al suelo.",
+    "Comienza a enrollar el peso hacia arriba rotando tus muñecas hacia adelante, manteniendo movimientos controlados.",
+    "Continúa hasta que el peso llegue a la parte superior, luego invierte lentamente el movimiento para bajar el peso de nuevo.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea firme pero no demasiado apretado para evitar tensiones innecesarias.",
+    "Concéntrate en movimientos de muñeca suaves y controlados para maximizar el compromiso muscular.",
+    "Mantén tu núcleo comprometido y una columna neutral durante todo el ejercicio.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Evita usar el impulso; confía en la fuerza de la muñeca para mover el peso.",
+    "Incorpora los rodillos de muñeca en tu rutina 2-3 veces a la semana para un desarrollo equilibrado del antebrazo."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a una tensión excesiva y un control deficiente.",
+    "Permitir que los codos se abran, reduciendo el compromiso de las muñecas.",
+    "Rodar con los hombros en lugar de aislar el movimiento de la muñeca.",
+    "Inclinarse hacia atrás excesivamente, comprometiendo la postura y el equilibrio.",
+    "No mantener un ritmo constante, causando una activación muscular desigual.",
+    "No extender completamente las muñecas, limitando el rango de movimiento.",
+    "Usar el impulso en lugar de la rotación controlada de la muñeca.",
+    "Descuidar mantener el núcleo comprometido, afectando la estabilidad.",
+    "Permitir que las muñecas caigan por debajo del nivel de los hombros, reduciendo la efectividad."
+  ]
+}

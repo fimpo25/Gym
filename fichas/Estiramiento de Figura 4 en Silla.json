@@ -1,0 +1,43 @@
+{
+  "nombre": "Estiramiento de Figura 4 en Silla",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/estiramiento-de-figura-4-en-silla",
+  "video_url": "https://api.smartworkout.app/asset/video/95d641ff-fa5a-4b70-abf3-e669b0ab7ffd.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento en Figura 4 en Silla es un ejercicio sentado diseñado para mejorar la flexibilidad en las caderas, glúteos y parte baja de la espalda. Es especialmente beneficioso para personas que pasan largas horas sentadas, ya que ayuda a aliviar la tensión y mejorar la movilidad en estas áreas.",
+  "como_realizar": [
+    "Siéntate erguido en una silla resistente con los pies planos en el suelo, a la altura de las caderas.",
+    "Levanta tu pie derecho y coloca tu tobillo derecho sobre tu rodilla izquierda, formando una figura de '4' con tus piernas.",
+    "Mantén la espalda recta e inclínate suavemente hacia adelante desde las caderas hasta que sientas un estiramiento en tu cadera y glúteo derecho.",
+    "Mantén el estiramiento durante 20-30 segundos, respirando profundamente y manteniendo una postura relajada.",
+    "Vuelve a la posición inicial y repite en el lado opuesto."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca recta durante todo el estiramiento para evitar tensiones innecesarias.",
+    "Si sientes incomodidad en la rodilla, ajusta la posición de tu pie o reduce la inclinación hacia adelante.",
+    "Concéntrate en una respiración profunda y controlada para mejorar la relajación y la efectividad del estiramiento.",
+    "Realiza este estiramiento regularmente para mejorar la flexibilidad y reducir la tensión por estar sentado durante mucho tiempo."
+  ],
+  "errores_comunes": [
+    "La rodilla de la pierna cruzada no está alineada con el tobillo, causando un estiramiento inadecuado.",
+    "Sentarse demasiado atrás en la silla, reduciendo la efectividad del estiramiento.",
+    "Inclinarse hacia atrás en lugar de hacia adelante, desactivando los músculos objetivo.",
+    "La pierna cruzada no está paralela al suelo, limitando el rango de movimiento.",
+    "La espalda está redondeada en lugar de mantener una columna neutral, aumentando la tensión.",
+    "Las caderas no están alineadas hacia el frente, llevando a un estiramiento desigual.",
+    "El pie de la pierna cruzada no está flexionado, arriesgando tensión en la rodilla.",
+    "Usar el impulso para inclinarse hacia adelante en lugar de un movimiento controlado.",
+    "No comprometer los músculos del core, reduciendo la estabilidad y el control."
+  ]
+}

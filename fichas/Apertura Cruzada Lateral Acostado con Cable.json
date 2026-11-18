@@ -1,0 +1,43 @@
+{
+  "nombre": "Apertura Cruzada Lateral Acostado con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/lying-cross-lateral-cable-fly",
+  "video_url": "https://api.smartworkout.app/asset/video/8433a809-e3b3-421b-acbc-6ac8d2369b72.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Lying Cross Lateral Cable Fly is an isolation exercise targeting the pectoral muscles, particularly the sternal head of the pectoralis major. It involves lying on a flat bench positioned between two cable machines, using the cables to perform a fly motion that emphasizes the chest muscles while minimizing involvement of the shoulders and triceps.",
+  "como_realizar": [
+    "Position a flat bench in the center of a cable crossover machine.",
+    "Attach D-handle attachments to the low pulleys on each side.",
+    "Lie down on the bench with your feet flat on the floor and grasp each handle with an overhand grip.",
+    "Extend your arms straight up above your chest, palms facing each other, with a slight bend in your elbows.",
+    "Inhale and slowly lower your arms out to the sides in a wide arc until you feel a stretch in your chest.",
+    "Exhale and bring your arms back to the starting position by squeezing your chest muscles, keeping the movement controlled.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your elbows throughout the exercise to reduce stress on the joints.",
+    "Focus on squeezing your chest muscles at the top of the movement for maximum contraction.",
+    "Keep your back flat against the bench and avoid arching to maintain proper form.",
+    "Control the movement speed; avoid letting gravity pull your arms down too quickly.",
+    "Ensure that your wrists remain straight and aligned with your forearms to prevent strain."
+  ],
+  "errores_comunes": [
+    "Arching the back excessively, reducing core engagement and stability.",
+    "Allowing the cables to pull the arms too far back, risking shoulder strain.",
+    "Bending the elbows too much, turning the exercise into a press rather than a fly.",
+    "Not maintaining a controlled motion, leading to momentum-based swings.",
+    "Failing to align the cables with the chest, compromising muscle activation.",
+    "Lifting the head off the bench, causing neck strain.",
+    "Dropping the arms too low, placing unnecessary stress on the shoulder joints.",
+    "Rushing through the movement, diminishing muscle tension and control."
+  ]
+}

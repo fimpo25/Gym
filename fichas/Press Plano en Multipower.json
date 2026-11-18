@@ -1,0 +1,47 @@
+{
+  "nombre": "Press Plano en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-plano-en-multipower",
+  "video_url": "https://api.smartworkout.app/asset/video/9c1188ad-87fa-402f-9c6c-5e1e1a6f6ba4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Press de Banca en Smith es una variación del press de banca tradicional realizado con una máquina Smith. Este ejercicio se enfoca en los músculos pectorales, tríceps y deltoides anteriores. La máquina Smith proporciona una trayectoria guiada de la barra, lo que puede ayudar a estabilizar el movimiento y centrarse en la activación muscular.",
+  "como_realizar": [
+    "Coloca el banco en una posición plana debajo de la barra de la máquina Smith.",
+    "Recuéstate en el banco con los ojos directamente debajo de la barra.",
+    "Agarra la barra un poco más ancho que el ancho de los hombros.",
+    "Desengancha la barra girando tus muñecas para liberarla de los ganchos de seguridad.",
+    "Baja la barra lentamente hacia la mitad de tu pecho, manteniendo los codos a un ángulo de aproximadamente 45 grados con respecto a tu cuerpo.",
+    "Empuja la barra de nuevo a la posición inicial extendiendo completamente tus brazos.",
+    "Repite para el número deseado de repeticiones.",
+    "Después de completar tu serie, gira tus muñecas para volver a enganchar los ganchos de seguridad y coloca la barra en su lugar."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén planos en el suelo para mantener la estabilidad durante todo el ejercicio.",
+    "Mantén tu núcleo comprometido para mantener una forma adecuada y apoyar tu espalda baja.",
+    "Concéntrate en movimientos controlados; evita rebotar la barra en tu pecho.",
+    "Ajusta la posición del banco para que cuando bajes la barra, toque justo por encima de tu esternón.",
+    "Usa un observador si levantas pesos pesados o cuando intentes nuevos récords personales.",
+    "Calienta adecuadamente antes de comenzar con pesos más ligeros para preparar tus músculos y articulaciones."
+  ],
+  "errores_comunes": [
+    "Colocar el banco demasiado hacia adelante o hacia atrás, lo que lleva a una trayectoria de barra antinatural.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, causando tensión en los hombros.",
+    "No mantener una posición estable de los hombros, lo que lleva a un pinzamiento del hombro.",
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del core.",
+    "Permitir que los codos se abran excesivamente, aumentando el estrés en los hombros.",
+    "Rebotar la barra en el pecho, reduciendo la tensión muscular y el control.",
+    "No comprometer completamente los músculos del pecho, confiando demasiado en los tríceps.",
+    "Descender la barra demasiado rápido, comprometiendo el control y la forma.",
+    "Bloquear los codos con demasiada fuerza en la parte superior, causando estrés en las articulaciones.",
+    "Descuidar mantener los pies firmemente plantados, reduciendo la estabilidad general."
+  ]
+}

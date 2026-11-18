@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación Frontal con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-front-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/4b0a4152-c1d6-498e-a46b-440cbcc36c68.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "Front Raises Dumbbell is an isolation exercise targeting the anterior deltoids. It involves lifting dumbbells in front of the body to shoulder height, emphasizing shoulder strength and stability.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in each hand with palms facing your thighs.",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Lift the dumbbells in front of you with a slight bend in the elbows until they reach shoulder height.",
+    "Pause briefly at the top, ensuring not to swing or use momentum.",
+    "Slowly lower the dumbbells back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Start with lighter weights to focus on form and control.",
+    "Avoid locking your elbows; maintain a slight bend throughout the exercise.",
+    "Keep your movements slow and controlled to maximize muscle engagement.",
+    "Exhale as you lift the weights and inhale as you lower them.",
+    "Ensure your shoulders remain relaxed and not shrugged during the lift.",
+    "Perform the exercise in front of a mirror to monitor your form."
+  ],
+  "errores_comunes": [
+    "Lifting the dumbbells too high, causing shoulder impingement.",
+    "Using momentum by swinging the body, reducing muscle engagement.",
+    "Allowing the elbows to bend excessively, shifting focus away from the deltoids.",
+    "Leaning back to compensate for heavy weights, risking lower back strain.",
+    "Not maintaining a neutral wrist position, leading to wrist discomfort.",
+    "Failing to engage the core, resulting in poor stability and control.",
+    "Raising the dumbbells unevenly, causing muscle imbalance.",
+    "Moving too quickly, reducing time under tension for the target muscles."
+  ]
+}

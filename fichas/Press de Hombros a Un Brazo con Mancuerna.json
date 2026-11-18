@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Hombros a Un Brazo con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-shoulder-press-dumbbell",
+  "video_url": "https://api.smartworkout.app/asset/video/e9208fb6-7e31-4ce1-a9d9-d19bbed1e066.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The standing one-arm dumbbell press is a compound exercise targeting the shoulders, specifically the deltoid muscles. It also engages the core for stabilization. This exercise helps in developing unilateral strength and improving balance.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in one hand at shoulder height with your palm facing forward.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Press the dumbbell overhead by extending your elbow until your arm is fully extended.",
+    "Pause briefly at the top of the movement, ensuring your arm is straight but not locked.",
+    "Slowly lower the dumbbell back to the starting position at shoulder height.",
+    "Repeat for the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Maintain a neutral spine and avoid leaning to one side during the press.",
+    "Keep your wrist straight and aligned with your forearm to prevent strain.",
+    "Engage your core muscles to stabilize your body and prevent swaying.",
+    "Focus on controlled movements, both when pressing up and lowering the dumbbell.",
+    "Start with a lighter weight to master form before progressing to heavier weights.",
+    "Breathe out as you press the dumbbell up and inhale as you lower it."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to compromised form and control.",
+    "Failing to engage the core, resulting in an unstable base.",
+    "Allowing the back to arch excessively, increasing strain on the lower back.",
+    "Not maintaining a neutral wrist position, risking wrist strain.",
+    "Pressing the dumbbell too far forward instead of directly overhead.",
+    "Elevating the shoulder towards the ear, causing unnecessary tension.",
+    "Neglecting to keep the elbow under the wrist throughout the movement.",
+    "Rushing the movement, reducing muscle engagement and control.",
+    "Lowering the dumbbell too quickly, missing out on eccentric muscle activation.",
+    "Not fully extending the arm at the top of the press, limiting range of motion."
+  ]
+}

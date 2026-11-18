@@ -1,0 +1,46 @@
+{
+  "nombre": "Balanceo de Piernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/leg-swings",
+  "video_url": "https://api.smartworkout.app/asset/video/6a8ed0fc-fc81-4b8e-b311-8fa64a17786b.mp4",
+  "tags": [
+    "MOBILITY",
+    "WARMUP",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "ABS"
+  ],
+  "descripcion": "Leg Swings are a dynamic stretching exercise that targets the hip flexors, hamstrings, and glutes. They are commonly used as a warm-up to increase flexibility and range of motion in the lower body, preparing it for more intense physical activity.",
+  "como_realizar": [
+    "Stand upright with your feet shoulder-width apart next to a wall or sturdy object for support.",
+    "Place your left hand on the wall for balance.",
+    "Shift your weight onto your left leg and lift your right leg slightly off the ground.",
+    "Swing your right leg forward and backward in a controlled manner, keeping your torso upright.",
+    "Perform 10-15 swings, then switch legs and repeat the movement with your left leg.",
+    "Maintain a steady pace and avoid jerky movements to prevent injury."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain balance.",
+    "Start with small swings and gradually increase the range of motion as you become more comfortable.",
+    "Focus on smooth, controlled movements rather than speed.",
+    "Ensure your standing foot is firmly planted on the ground to provide stability.",
+    "Use this exercise as part of a dynamic warm-up routine to enhance lower body mobility."
+  ],
+  "errores_comunes": [
+    "Swinging the leg too high, causing loss of control and balance.",
+    "Not maintaining a stable core, leading to excessive torso movement.",
+    "Failing to keep the standing leg straight, resulting in poor balance.",
+    "Allowing the swinging leg to bend, reducing the effectiveness of the exercise.",
+    "Not engaging the hip flexors and glutes, limiting range of motion.",
+    "Performing the exercise too quickly, sacrificing form for speed.",
+    "Incorrect foot positioning, causing misalignment and reducing stability.",
+    "Neglecting to maintain an upright posture, leading to lower back strain."
+  ]
+}

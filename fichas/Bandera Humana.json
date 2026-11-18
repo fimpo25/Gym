@@ -1,0 +1,56 @@
+{
+  "nombre": "Bandera",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/bandera",
+  "video_url": "https://api.smartworkout.app/asset/video/34bc7208-ce30-4e32-9ac1-b7d271f0cf37.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "ISOMETRIC",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Bandera, también conocida como la Bandera Humana, es un ejercicio avanzado de peso corporal que requiere una fuerza significativa, equilibrio y estabilidad del núcleo. Consiste en mantener el cuerpo horizontal mientras se agarra un poste vertical o una estructura similar. Este ejercicio se enfoca principalmente en los oblicuos, los hombros y los dorsales, al tiempo que involucra todo el núcleo y los músculos estabilizadores.",
+  "como_realizar": [
+    "Encuentra un poste vertical resistente o una estructura similar que pueda soportar tu peso.",
+    "Coloca tu mano inferior en un agarre por encima a la altura de la cintura en el poste.",
+    "Coloca tu mano superior en un agarre por debajo por encima de tu cabeza en el poste.",
+    "Activa tu núcleo y tira con tu mano superior mientras empujas con tu mano inferior para levantar tu cuerpo del suelo.",
+    "Mantén tu cuerpo recto y horizontal al suelo, manteniendo la tensión en todo tu núcleo y piernas.",
+    "Mantén la posición el mayor tiempo posible, luego baja lentamente de nuevo a la posición inicial."
+  ],
+  "consejos": [
+    "Comienza con ejercicios básicos de fortalecimiento del core y los hombros antes de intentar la Bandera.",
+    "Practica mantener una posición encogida primero para desarrollar fuerza y equilibrio.",
+    "Asegúrate de que ambas manos estén agarrando firmemente y activa tus dorsales para mayor estabilidad.",
+    "Concéntrate en mantener tu cuerpo rígido y evita doblar las caderas o las rodillas.",
+    "Respira de manera constante y mantén el control durante todo el movimiento para mejorar la resistencia.",
+    "Aumenta gradualmente el tiempo de sujeción a medida que desarrollas fuerza y confianza en la posición."
+  ],
+  "errores_comunes": [
+    "Las caderas se hunden o se levantan demasiado, interrumpiendo la línea recta desde los hombros hasta los pies.",
+    "Agarrar el poste demasiado fuerte, causando tensión y reduciendo el control.",
+    "Posicionamiento incorrecto de las manos, lo que lleva a desequilibrio e inestabilidad.",
+    "No activar los músculos del core, resultando en una falta de tensión corporal.",
+    "Arqueo excesivo de la parte baja de la espalda, aumentando la tensión y reduciendo la efectividad.",
+    "Permitir que las piernas se doblen, rompiendo la alineación y reduciendo el apalancamiento.",
+    "Usar el impulso en lugar de la activación controlada de los músculos para iniciar el movimiento.",
+    "Descuidar la activación de los músculos del hombro, comprometiendo la estabilidad y el control.",
+    "Posicionamiento incorrecto de los pies, lo que puede afectar el equilibrio y la alineación."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl de Muñeca Inverso con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-inverso-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/e800f525-c7ea-4236-a0f8-527fa049fa26.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca Pronado con Barra es un ejercicio de aislamiento que se enfoca en los extensores de la muñeca, principalmente el extensor carpi radialis y el extensor carpi ulnaris. Este ejercicio ayuda a fortalecer los antebrazos y mejorar la fuerza de agarre, lo cual es beneficioso para varios otros levantamientos y actividades diarias.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, sosteniendo una barra con un agarre por encima (palmas hacia abajo).",
+    "Apoya tus antebrazos en tus muslos o en una superficie plana, permitiendo que tus muñecas se extiendan más allá del borde.",
+    "Comienza con tus muñecas en una posición neutral, sosteniendo la barra de manera segura.",
+    "Baja lentamente la barra extendiendo tus muñecas hacia abajo tanto como sea cómodo.",
+    "Haz una pausa breve en la parte inferior del movimiento, sintiendo un estiramiento en tus antebrazos.",
+    "Riza la barra hacia arriba flexionando tus muñecas hasta que estén completamente contraídas.",
+    "Repite para el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén los codos estacionarios y cerca de tu cuerpo para aislar eficazmente los extensores de la muñeca.",
+    "Usa un peso más ligero para enfocarte en la forma y el control, evitando el impulso.",
+    "Realiza el ejercicio lentamente para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Asegúrate de un rango completo de movimiento permitiendo que tus muñecas se extiendan completamente antes de volver a rizar.",
+    "Mantén una columna neutral y evita encorvarte durante el ejercicio.",
+    "Inhala mientras bajas la barra y exhala mientras la rizas de nuevo."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un control y forma deficientes.",
+    "Permitir que los codos se abran, reduciendo la aislación de las muñecas.",
+    "Agarrar la barra demasiado fuerte, causando tensión y fatiga en los antebrazos.",
+    "No extender completamente las muñecas, limitando el rango de movimiento.",
+    "Inclinarse hacia adelante, desviando el enfoque de las muñecas.",
+    "Usar el impulso para levantar la barra en lugar de un movimiento controlado de la muñeca.",
+    "Descuidar mantener las muñecas alineadas con los antebrazos, arriesgando tensión.",
+    "Apresurarse en las repeticiones, comprometiendo el compromiso muscular."
+  ]
+}

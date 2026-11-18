@@ -1,0 +1,53 @@
+{
+  "nombre": "Sentadilla Sumo con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/sentadilla-sumo-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/eda567bf-ae70-4ae4-885c-fe8820613f96.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "CALVES",
+    "FOREARMS",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Sumo con Mancuerna es un ejercicio para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y muslos internos. Consiste en sostener una mancuerna con ambas manos mientras realizas una sentadilla con una postura amplia y los dedos de los pies ligeramente hacia afuera. Este ejercicio ayuda a mejorar la fuerza, estabilidad y flexibilidad en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies más anchos que el ancho de los hombros, con los dedos de los pies apuntando ligeramente hacia afuera.",
+    "Sujeta una mancuerna con ambas manos, dejándola colgar entre tus piernas.",
+    "Mantén el pecho erguido, los hombros hacia atrás y el núcleo comprometido.",
+    "Dobla las rodillas y empuja las caderas hacia atrás para bajar en una sentadilla hasta que tus muslos estén paralelos al suelo.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos de los pies y no se extiendan más allá de ellos.",
+    "Presiona a través de tus talones para regresar a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el movimiento para evitar lesiones.",
+    "Activa tu core para estabilizar tu cuerpo durante la sentadilla.",
+    "Concéntrate en mantener el peso en tus talones al bajar y subir.",
+    "Evita que tus rodillas colapsen hacia adentro; mantenlas alineadas con tus dedos de los pies.",
+    "Controla la velocidad del movimiento para maximizar el compromiso muscular y la seguridad.",
+    "Comienza con un peso más ligero para perfeccionar la forma antes de avanzar a mancuernas más pesadas."
+  ],
+  "errores_comunes": [
+    "Pies colocados demasiado estrechos, reduciendo la estabilidad y el rango de movimiento.",
+    "Rodillas colapsando hacia adentro en lugar de seguir sobre los dedos de los pies, aumentando la tensión en las articulaciones.",
+    "Espalda redondeada en lugar de mantener una columna neutral, arriesgando una lesión en la parte baja de la espalda.",
+    "Mancuerna sostenida demasiado lejos del cuerpo, causando tensión innecesaria en los hombros.",
+    "Caderas subiendo más rápido que los hombros, llevando a una forma incorrecta y desequilibrio muscular.",
+    "No comprometer el núcleo, reduciendo la estabilidad y el control.",
+    "No agacharse lo suficientemente profundo, limitando la activación muscular y la efectividad.",
+    "Permitir que los talones se levanten del suelo, disminuyendo el equilibrio y la potencia.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo la efectividad y el control."
+  ]
+}

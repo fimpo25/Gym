@@ -1,0 +1,52 @@
+{
+  "nombre": "Peso Muerto Piernas Rectas con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/barbell-straight-leg-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/b07f6cbe-dd15-40c1-a5f6-1ef645d9777d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "FOREARMS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Barbell Straight Leg Deadlift is a compound exercise targeting the hamstrings, glutes, and lower back. It involves lifting a barbell from the floor with straight legs, focusing on hip hinge movement while maintaining a neutral spine. This exercise enhances posterior chain strength and flexibility.",
+  "como_realizar": [
+    "Stand with feet hip-width apart, toes pointing forward, and the barbell over your mid-foot.",
+    "Grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
+    "Keep your legs straight but not locked, and engage your core.",
+    "Hinge at the hips by pushing them back while keeping your back straight and chest up.",
+    "Lower the barbell along your legs until you feel a stretch in your hamstrings.",
+    "Pause briefly at the bottom, then drive your hips forward to return to the starting position.",
+    "Maintain a neutral spine throughout the movement and avoid rounding your back."
+  ],
+  "consejos": [
+    "Focus on hinging at the hips rather than bending at the waist to protect your lower back.",
+    "Keep the barbell close to your body to maintain balance and control.",
+    "Engage your core muscles to stabilize your torso during the lift.",
+    "Avoid locking your knees; keep them slightly bent to reduce strain on the joints.",
+    "Control the descent of the barbell to maximize muscle engagement and prevent injury.",
+    "Ensure your shoulders are retracted and not rounded forward during the lift."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine throughout the movement.",
+    "Bending the knees excessively, turning the movement into a conventional deadlift.",
+    "Allowing the barbell to drift too far from the body, increasing strain on the lower back.",
+    "Using momentum to lift the weight, rather than controlled muscle engagement.",
+    "Not hinging at the hips properly, leading to ineffective targeting of the hamstrings.",
+    "Hyperextending the lower back at the top of the movement.",
+    "Failing to engage the core, resulting in poor stability and control.",
+    "Lowering the barbell too quickly, reducing muscle tension and control.",
+    "Lifting with the arms instead of focusing on the hip hinge and leg muscles.",
+    "Not maintaining a straight leg position, reducing the effectiveness of the exercise."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "L-Sitio",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/l-sitio",
+  "video_url": "https://api.smartworkout.app/asset/video/29282a78-819d-409c-9fa5-b2734e2f8138.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "ISOMETRIC",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El L-Sit es un ejercicio isométrico desafiante que se enfoca en el núcleo, los flexores de la cadera y los hombros. Consiste en mantener el cuerpo elevado del suelo mientras se mantiene una posición sentada con las piernas extendidas hacia adelante. Este ejercicio requiere una fuerza y estabilidad significativas, lo que lo hace ideal para desarrollar la resistencia del núcleo y mejorar el control general del cuerpo.",
+  "como_realizar": [
+    "Siéntate en el suelo con las piernas extendidas frente a ti y las manos colocadas en el suelo al lado de tus caderas.",
+    "Activa los músculos del core y presiona firmemente tus manos en el suelo para levantar tu cuerpo del suelo.",
+    "Mantén las piernas rectas y paralelas al suelo, formando una forma de 'L' con tu cuerpo.",
+    "Mantén esta posición el mayor tiempo posible, manteniendo una respiración constante durante todo el ejercicio.",
+    "Baja de nuevo a la posición inicial con control."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén firmemente colocadas en el suelo para obtener la máxima estabilidad.",
+    "Concéntrate en activar tu núcleo y flexores de cadera para mantener la elevación de las piernas.",
+    "Comienza practicando con las rodillas dobladas si la extensión completa de las piernas es demasiado desafiante.",
+    "Aumenta gradualmente el tiempo de sostén a medida que desarrollas fuerza y resistencia.",
+    "Mantén tus hombros hacia abajo y alejados de tus oídos para evitar la tensión."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, causando tensión excesiva en los hombros y muñecas.",
+    "Permitir que las caderas se hundan, reduciendo el compromiso del core y la efectividad.",
+    "No mantener las piernas rectas, comprometiendo la forma y la activación muscular.",
+    "Redondear la espalda, llevando a una mala postura y posible tensión en la espalda.",
+    "No comprometer completamente el core, resultando en una estabilidad disminuida.",
+    "Colocar las manos demasiado separadas, lo que puede desestabilizar la posición.",
+    "Contener la respiración, lo que puede llevar a un aumento de la tensión y una reducción de la resistencia.",
+    "No mantener los hombros deprimidos, causando tensión innecesaria en el cuello.",
+    "Usar el impulso para levantar las piernas en lugar de fuerza controlada, reduciendo la efectividad."
+  ]
+}

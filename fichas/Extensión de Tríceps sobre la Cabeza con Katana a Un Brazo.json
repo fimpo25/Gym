@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión de Tríceps sobre la Cabeza con Katana a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-por-encima-de-la-cabeza-con-katana-a-una-mano",
+  "video_url": "https://api.smartworkout.app/asset/video/fff0da8d-8d65-456e-bf23-0666804f2266.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps por Encima de la Cabeza con un Brazo Estilo Katana es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender el brazo por encima de la cabeza mientras se sostiene una mancuerna, concentrándose en la cabeza larga del tríceps. Este ejercicio ayuda a desarrollar fuerza y definición en la parte superior del brazo.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una mancuerna en una mano.",
+    "Levanta la mancuerna por encima de tu cabeza, extendiendo completamente el brazo.",
+    "Mantén el codo cerca de tu cabeza y la palma mirando hacia adelante.",
+    "Baja lentamente la mancuerna detrás de tu cabeza doblando el codo.",
+    "Haz una pausa breve cuando sientas un estiramiento en tus tríceps.",
+    "Extiende el brazo de nuevo a la posición inicial contrayendo tus tríceps.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y mantén tu núcleo comprometido durante todo el ejercicio.",
+    "Evita que tu codo se abra hacia afuera; mantenlo cerca de tu cabeza para un mejor aislamiento de los tríceps.",
+    "Controla el movimiento para evitar usar el impulso; concéntrate en movimientos lentos y deliberados.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Exhala mientras extiendes tu brazo e inhala mientras bajas la mancuerna."
+  ],
+  "errores_comunes": [
+    "Permitir que el codo se abra hacia afuera, reduciendo el compromiso del tríceps.",
+    "Usar el impulso para balancear el peso, comprometiendo el control y la efectividad.",
+    "No extender completamente el brazo en la parte superior, limitando el rango de movimiento.",
+    "Arquear excesivamente la parte baja de la espalda, arriesgando tensión.",
+    "Agarrar el peso demasiado fuerte, causando fatiga en el antebrazo.",
+    "No mantener el núcleo comprometido, llevando a la inestabilidad.",
+    "Dejar caer el hombro, afectando la alineación y la activación muscular.",
+    "Apresurarse en el movimiento, disminuyendo el tiempo bajo tensión."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Apertura Polea Unilateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-polea-unilateral",
+  "video_url": "https://api.smartworkout.app/asset/video/d685bb1f-4c4d-42b7-bae9-52adb3ae6a13.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura de Cable con un Brazo es un ejercicio de aislamiento que se enfoca en los músculos pectorales, específicamente el pecho. Consiste en utilizar una máquina de cables para realizar un movimiento de apertura con un brazo, permitiendo un entrenamiento unilateral y mejorando la simetría muscular. Este ejercicio ayuda a mejorar la definición y la fuerza muscular en la zona del pecho.",
+  "como_realizar": [
+    "Ajusta la máquina de cables a una posición de polea alta y coloca un mango individual.",
+    "Párate de lado a la máquina, con los pies al ancho de los hombros, y agarra el mango con tu mano exterior.",
+    "Aléjate de la máquina para crear tensión en el cable, manteniendo el brazo ligeramente doblado.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas para estabilidad.",
+    "Tira del mango a través de tu cuerpo en un arco amplio, manteniendo el codo ligeramente doblado durante todo el movimiento.",
+    "Aprieta tu pecho al final del movimiento antes de regresar lentamente a la posición inicial.",
+    "Realiza el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Concéntrate en usar los músculos del pecho para mover el peso, no los brazos.",
+    "Mantén tus movimientos controlados y evita usar el impulso.",
+    "Asegúrate de que tu hombro permanezca estable y no gire excesivamente durante el ejercicio.",
+    "Mantén una ligera flexión en el codo para reducir la tensión en la articulación.",
+    "Exhala mientras tiras del mango a través de tu cuerpo e inhala al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Permitir que el hombro rote internamente, lo que lleva a un compromiso inadecuado de los músculos del pecho.",
+    "Usar demasiado peso, lo que hace que el impulso tome el control y reduzca la activación muscular.",
+    "No mantener una ligera flexión en el codo, lo que puede tensar las articulaciones.",
+    "No mantener el núcleo comprometido, lo que resulta en pérdida de estabilidad y control.",
+    "Dejar que el cable tire demasiado del brazo hacia atrás, lo que puede sobreestirar el hombro.",
+    "Descuidar mantener las escápulas retraídas, reduciendo el compromiso del pecho.",
+    "Realizar el movimiento demasiado rápido, comprometiendo la forma y el control muscular.",
+    "Pararse demasiado cerca o demasiado lejos de la máquina de cables, afectando el rango de movimiento y la activación muscular."
+  ]
+}

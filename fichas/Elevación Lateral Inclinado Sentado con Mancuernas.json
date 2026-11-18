@@ -1,0 +1,49 @@
+{
+  "nombre": "Elevación Lateral Inclinado Sentado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/seated-bent-over-dumbbell-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/a4b7f356-3602-444e-8a36-492905895b6a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Seated Bent Over Dumbbell Lateral Raise targets the posterior deltoids, trapezius, and rhomboids. This exercise enhances shoulder stability and improves upper back strength. It is performed while seated, which helps isolate the muscles by minimizing momentum.",
+  "como_realizar": [
+    "Sit on the edge of a bench with your feet flat on the floor, shoulder-width apart.",
+    "Hold a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Bend forward at the hips, keeping your back straight and chest slightly above your knees.",
+    "Let your arms hang down naturally with a slight bend in the elbows.",
+    "Raise the dumbbells out to the sides until your arms are parallel to the floor.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly lower the dumbbells back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability.",
+    "Avoid swinging or using momentum to lift the weights; focus on controlled movements.",
+    "Maintain a slight bend in your elbows to reduce strain on the joints.",
+    "Ensure your back remains straight and avoid rounding your shoulders forward.",
+    "Exhale as you lift the weights and inhale as you lower them.",
+    "Start with lighter weights to master proper form before progressing to heavier ones."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine position.",
+    "Using momentum to lift the weights instead of controlled muscle activation.",
+    "Allowing the elbows to drop below shoulder level at the top of the movement.",
+    "Failing to engage the core for stability, leading to balance issues.",
+    "Lifting the dumbbells too high, causing shoulder impingement risk.",
+    "Neglecting to keep a slight bend in the elbows, resulting in joint strain.",
+    "Swinging the torso to assist in lifting the weights.",
+    "Not keeping the head in line with the spine, leading to neck strain.",
+    "Using weights that are too heavy, compromising form and control.",
+    "Failing to squeeze the shoulder blades together at the top of the lift."
+  ]
+}

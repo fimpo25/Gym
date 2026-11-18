@@ -1,0 +1,44 @@
+{
+  "nombre": "Extensión de Tríceps en Polea Inclinada",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-polea-inclinada",
+  "video_url": "https://api.smartworkout.app/asset/video/16b6eb3b-c593-4e41-9f17-f90630f2ddf3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Rompecráneos en Inclinación con Cable es un ejercicio de aislamiento que se enfoca en los tríceps. Consiste en extender los codos para levantar un accesorio de cable desde detrás de la cabeza mientras se está acostado en un banco inclinado. Este movimiento enfatiza la cabeza larga de los tríceps debido al ángulo y rango de movimiento.",
+  "como_realizar": [
+    "Coloca un banco inclinado a un ángulo de 30-45 grados y posiciónalo frente a una máquina de cables.",
+    "Adjunta una barra recta o una barra EZ-curl al polea baja.",
+    "Recuéstate en el banco con los pies planos en el suelo, asegurándote de que tu cabeza esté cerca de la parte superior del banco.",
+    "Agarra la barra con un agarre por encima, manos al ancho de los hombros, y extiende completamente los brazos por encima de tu frente.",
+    "Mantén los brazos superiores estacionarios y los codos apuntando hacia adelante mientras bajas lentamente la barra hacia tu frente doblando los codos.",
+    "Haz una pausa breve cuando la barra esté justo por encima de tu frente, asegurando tensión en los tríceps.",
+    "Extiende los codos para volver a la posición inicial, enfocándote en apretar los tríceps en la parte superior."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular y minimizar el estrés en las articulaciones.",
+    "Evita que los codos se abran hacia afuera; mantenlos apuntando hacia adelante para aislar efectivamente los tríceps.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Activa tu núcleo para estabilizar tu cuerpo y evitar el arqueo de la parte baja de la espalda durante el movimiento.",
+    "Concéntrate en una fase excéntrica (descenso) lenta para aumentar el tiempo bajo tensión y mejorar el desarrollo muscular."
+  ],
+  "errores_comunes": [
+    "Los codos se abren, reduciendo el compromiso del tríceps y aumentando la tensión en los hombros.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "No mantener los brazos superiores estacionarios, lo que lleva a la participación de los hombros.",
+    "Bajar la barra demasiado detrás de la cabeza, arriesgando la tensión en la articulación del codo.",
+    "Tempo inconsistente, reduciendo la tensión muscular y el control.",
+    "Arquear la espalda excesivamente, llevando a un mal compromiso del core.",
+    "Permitir que las muñecas se doblen, causando tensión innecesaria en las articulaciones.",
+    "No extender completamente los codos en la parte superior, limitando la activación del tríceps.",
+    "Ajustar el ángulo del banco inclinado demasiado alto, desviando el enfoque de los tríceps."
+  ]
+}

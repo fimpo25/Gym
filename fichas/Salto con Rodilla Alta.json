@@ -1,0 +1,48 @@
+{
+  "nombre": "Salto con Rodilla Alta",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/hopping-high-knee-tap",
+  "video_url": "https://api.smartworkout.app/asset/video/998c09d5-6379-47a3-b4b3-c405673a84ee.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "CARDIO",
+    "BALANCE",
+    "EXPLOSIVE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Hopping High Knee Tap is a dynamic cardio exercise that targets the lower body, particularly the quadriceps, hamstrings, calves, and glutes. It also engages the core for stability and balance. This exercise involves alternating high knee lifts with a hop, tapping each knee with the opposite hand.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart and arms relaxed at your sides.",
+    "Engage your core and maintain an upright posture throughout the exercise.",
+    "Lift your right knee towards your chest while simultaneously hopping on your left foot.",
+    "As you lift your knee, tap it with your left hand.",
+    "Quickly switch legs, lifting your left knee and tapping it with your right hand while hopping on your right foot.",
+    "Continue alternating knees in a rhythmic and controlled manner for the desired duration or number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core tight to maintain balance and stability during the exercise.",
+    "Focus on lifting your knees high to maximize the engagement of your lower body muscles.",
+    "Maintain a steady breathing pattern; exhale as you lift each knee.",
+    "Start at a slow pace to master the movement, then gradually increase speed as you become more comfortable.",
+    "Ensure that each hop is light and controlled to reduce impact on the joints."
+  ],
+  "errores_comunes": [
+    "Not lifting knees high enough, reducing the effectiveness of the exercise.",
+    "Landing too heavily, which can strain the joints.",
+    "Failing to maintain an upright posture, leading to lower back strain.",
+    "Allowing the core to disengage, reducing stability and control.",
+    "Incorrect arm movement, which can throw off balance.",
+    "Not maintaining a consistent rhythm, leading to uneven muscle engagement.",
+    "Overextending the knees, increasing the risk of joint strain.",
+    "Neglecting to engage the hip flexors, limiting range of motion."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Pierna con Balón Suizo",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/swiss-ball-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/92213380-e1af-43f7-ba78-e4b92ad18daa.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Swiss Ball Leg Curl is an effective exercise targeting the hamstrings, glutes, and core muscles. It involves using a Swiss ball to perform leg curls while lying on your back, which adds an element of instability to engage stabilizing muscles.",
+  "como_realizar": [
+    "Lie flat on your back with your arms extended by your sides for stability.",
+    "Place your heels on top of a Swiss ball, legs straight and feet hip-width apart.",
+    "Lift your hips off the ground by engaging your core and glutes, forming a straight line from shoulders to heels.",
+    "Bend your knees and roll the ball towards your glutes by contracting your hamstrings.",
+    "Pause briefly at the top of the movement, ensuring your hips remain elevated.",
+    "Slowly extend your legs to roll the ball back to the starting position while maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability.",
+    "Avoid letting your hips sag; maintain a straight line from shoulders to knees.",
+    "Focus on controlled movements to maximize muscle engagement.",
+    "Ensure the Swiss ball is properly inflated for optimal performance.",
+    "Start with a smaller range of motion if you're new to this exercise and gradually increase as you gain strength."
+  ],
+  "errores_comunes": [
+    "Hips dropping during the curl, reducing hamstring activation.",
+    "Feet placed too far apart, leading to instability and reduced control.",
+    "Using momentum instead of controlled movement, compromising effectiveness.",
+    "Arching the lower back excessively, causing strain and reducing core engagement.",
+    "Not fully extending the legs at the start, limiting range of motion.",
+    "Allowing knees to flare out, reducing focus on the hamstrings.",
+    "Failing to keep the core engaged, leading to poor form and balance issues.",
+    "Placing the ball too close to the body, reducing the challenge and effectiveness."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "nombre": "Extensión de Pierna Sentado en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/seated-leg-extension-machine",
+  "video_url": "https://api.smartworkout.app/asset/video/10ec53eb-72f0-4335-b81c-8302db893bed.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated Leg Extension Machine targets the quadriceps muscles located at the front of the thigh. This isolation exercise is designed to improve strength and definition in the quadriceps, making it a staple in lower body workouts. The machine consists of a padded seat, a backrest, and a lever with a padded bar that rests on the lower legs just above the ankles.",
+  "como_realizar": [
+    "Adjust the seat so that your knees align with the pivot point of the machine.",
+    "Sit back against the backrest and place your feet under the padded bar, ensuring it rests just above your ankles.",
+    "Grip the handles on either side of the seat for stability.",
+    "Begin by extending your legs fully while exhaling, keeping your back pressed against the backrest.",
+    "Pause briefly at the top of the movement with your legs fully extended.",
+    "Slowly lower the weight back to the starting position while inhaling, maintaining control throughout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure proper alignment by adjusting the seat so that your knees are in line with the machine's pivot point.",
+    "Keep your movements controlled to maximize muscle engagement and reduce risk of injury.",
+    "Avoid locking your knees at full extension to prevent joint strain.",
+    "Focus on using your quadriceps to lift the weight rather than relying on momentum.",
+    "Maintain a neutral spine by keeping your back against the backrest throughout the exercise.",
+    "Start with a lighter weight to perfect your form before increasing resistance."
+  ],
+  "errores_comunes": []
+}

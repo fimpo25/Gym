@@ -1,0 +1,51 @@
+{
+  "nombre": "Dominada Australiana Agarre Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/australian-pull-up-underhand-grip",
+  "video_url": "https://api.smartworkout.app/asset/video/775dd4d7-8c4f-4333-9ff0-a6297bbd06cd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Australian Pull-Up Underhand Grip, also known as an inverted row with a supine grip, is a bodyweight exercise targeting the upper back, biceps, and forearms. It involves pulling your chest towards a bar while your body remains in a horizontal position, with feet on the ground and palms facing you.",
+  "como_realizar": [
+    "Set a bar at waist height on a squat rack or Smith machine.",
+    "Lie under the bar with your chest directly beneath it.",
+    "Grab the bar with an underhand grip, hands shoulder-width apart.",
+    "Extend your legs out in front of you, keeping your heels on the ground.",
+    "Engage your core and keep your body in a straight line from head to heels.",
+    "Pull your chest towards the bar by bending your elbows and squeezing your shoulder blades together.",
+    "Pause briefly at the top of the movement when your chest touches the bar.",
+    "Lower yourself back to the starting position with control."
+  ],
+  "consejos": [
+    "Ensure your body forms a straight line from head to heels throughout the exercise.",
+    "Keep your elbows close to your body as you pull up to engage the biceps effectively.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum back engagement.",
+    "Control the descent to maintain tension in the muscles and prevent injury.",
+    "If you find it too difficult, bend your knees to reduce the load or raise the bar higher.",
+    "To increase difficulty, elevate your feet on a bench or platform."
+  ],
+  "errores_comunes": [
+    "Hips sagging, reducing core engagement and increasing strain on the lower back.",
+    "Elbows flaring out, which can lead to shoulder discomfort and inefficient pulling mechanics.",
+    "Pulling with the arms instead of initiating the movement from the back muscles.",
+    "Inadequate retraction and depression of the scapulae, limiting back muscle activation.",
+    "Inconsistent tempo, leading to poor control and reduced effectiveness of the exercise.",
+    "Chin not reaching the bar, resulting in incomplete range of motion.",
+    "Feet placed too far forward, reducing leverage and making the movement more difficult.",
+    "Wrists bending excessively, which can cause discomfort and reduce grip strength.",
+    "Neck craning forward, leading to potential neck strain and misalignment."
+  ]
+}

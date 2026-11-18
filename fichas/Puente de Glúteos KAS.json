@@ -1,0 +1,48 @@
+{
+  "nombre": "Puente de Glúteos KAS",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos-kas",
+  "video_url": "https://api.smartworkout.app/asset/video/f9d8e746-4bfc-41f2-b45d-7cb514a3bfc1.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos KAS es un ejercicio enfocado en fortalecer los músculos glúteos. Se diferencia del empuje de cadera principalmente en el rango de movimiento y la técnica de ejecución. En el Puente de Glúteos KAS, el movimiento es más controlado y limitado, lo que permite un mayor enfoque en la activación de los glúteos. El ejercicio se realiza sobre una superficie elevada, similar al empuje de cadera, pero con un rango de movimiento más pequeño. El nombre 'KAS' proviene de Kasemira 'Kass' Loxley, una entrenadora personal que popularizó esta versión del puente de glúteos.",
+  "como_realizar": [
+    "Siéntate en el suelo con la espalda contra un banco o superficie elevada, rodillas dobladas, pies planos en el suelo.",
+    "Coloca una barra sobre tus caderas, sosteniéndola con ambas manos.",
+    "Activa tus glúteos y levanta tus caderas hacia arriba hasta que tu cuerpo forme una línea recta desde los hombros hasta las rodillas.",
+    "Pausa en la parte superior por un momento, enfocándote en apretar tus glúteos.",
+    "Baja lentamente tus caderas de nuevo a la posición inicial, controlando el movimiento."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén a la altura de las caderas para mantener la estabilidad.",
+    "Controla el movimiento durante las fases de elevación y descenso para maximizar el compromiso de los glúteos.",
+    "Evita levantar las caderas demasiado alto – concéntrate en la tensión muscular en lugar de la altura.",
+    "Respira regularmente – inhala mientras bajas y exhala mientras levantas las caderas.",
+    "Si eres principiante, comienza sin peso adicional para dominar la técnica.",
+    "Concéntrate en mantener tus omóplatos estables en la superficie elevada durante todo el ejercicio.",
+    "Evita el arqueo excesivo de la parte baja de la espalda – mantén tu columna en una posición neutral."
+  ],
+  "errores_comunes": [
+    "Los pies colocados demasiado lejos de los glúteos, reduciendo la activación y el compromiso.",
+    "Permitir que las rodillas se colapsen hacia adentro, llevando a una mala alineación y reducida activación de los glúteos.",
+    "Hiperextender la parte baja de la espalda en lugar de levantar a través de las caderas, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "No mantener una columna neutral, lo que puede llevar a un estrés innecesario en la espalda.",
+    "Levantar las caderas demasiado alto, causando que la parte baja de la espalda se arquee excesivamente.",
+    "No comprometer el núcleo, resultando en inestabilidad y efectividad reducida.",
+    "Usar el impulso para levantar las caderas en lugar de un compromiso muscular controlado.",
+    "No apretar los glúteos en la parte superior del movimiento, minimizando la activación.",
+    "Pies posicionados demasiado separados, lo que puede reducir el compromiso de los glúteos.",
+    "Permitir que la cabeza y el cuello se levanten del suelo, causando tensión."
+  ]
+}

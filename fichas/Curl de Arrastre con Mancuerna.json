@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Arrastre con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-arrastre-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/8ed19307-5374-4f0f-b4c5-1bbce2c7b943.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Arrastre con Mancuernas es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Destaca la cabeza larga del bíceps al minimizar la participación del hombro y maximizar la flexión del codo. Este ejercicio se realiza con un par de mancuernas, enfocándose en un movimiento controlado y la contracción muscular.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano con un agarre neutral.",
+    "Mantén los codos cerca de tu torso y las palmas de las manos hacia tu cuerpo.",
+    "Comienza el movimiento levantando las mancuernas hacia arriba mientras las arrastras a lo largo de tu torso.",
+    "Concéntrate en mantener los codos hacia atrás y levantar con los bíceps, minimizando el movimiento de los hombros.",
+    "Continúa levantando hasta que tus antebrazos estén verticales o ligeramente más allá.",
+    "Aprieta los bíceps en la parte superior del movimiento por un momento.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un agarre neutral durante todo el ejercicio para trabajar los bíceps de manera efectiva.",
+    "Evita balancearte o usar impulso; concéntrate en movimientos lentos y controlados.",
+    "Mantén los codos estacionarios y cerca de tu cuerpo para aislar los bíceps.",
+    "Activa tu core para mantener la estabilidad y evitar el balanceo.",
+    "Exhala al levantar las mancuernas e inhala al bajarlas.",
+    "Asegúrate de tener un rango completo de movimiento extendiendo y contrayendo completamente los brazos.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a movimientos de balanceo o sacudidas.",
+    "Permitir que los codos se desplacen hacia adelante en lugar de mantenerlos a los lados.",
+    "No mantener un ritmo controlado, lo que resulta en levantamientos impulsados por el impulso.",
+    "No involucrar completamente los bíceps al permitir que los hombros dominen el movimiento.",
+    "Enroscar las mancuernas en lugar de arrastrarlas a lo largo del cuerpo.",
+    "No lograr una contracción completa al detener el movimiento demasiado pronto.",
+    "Permitir que las muñecas se doblen excesivamente, causando tensión.",
+    "Descuidar mantener el núcleo comprometido, lo que lleva a una mala postura."
+  ]
+}

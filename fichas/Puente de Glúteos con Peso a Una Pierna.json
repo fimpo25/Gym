@@ -1,0 +1,49 @@
+{
+  "nombre": "Puente de Glúteos con Peso a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos-con-peso-a-una-pierna",
+  "video_url": "https://api.smartworkout.app/asset/video/2f64506a-4cf9-4103-8705-c691fa6d4c2b.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos con Peso en una Pierna es un ejercicio avanzado que se enfoca en los músculos glúteos, isquiotibiales y el core. Este movimiento mejora la fuerza y estabilidad unilateral al aislar una pierna a la vez, siendo efectivo para corregir desequilibrios musculares y mejorar la fuerza general del tren inferior.",
+  "como_realizar": [
+    "Acuéstate de espaldas con las rodillas dobladas y los pies planos en el suelo, a la altura de las caderas.",
+    "Coloca un peso, como una mancuerna o un disco, sobre tu pelvis, sujetándolo firmemente con ambas manos.",
+    "Extiende una pierna recta, manteniéndola en línea con tu muslo opuesto.",
+    "Activa tu núcleo y presiona con el talón del pie apoyado para levantar tus caderas hacia el techo.",
+    "Aprieta tus glúteos en la parte superior del movimiento, asegurándote de que tu cuerpo forme una línea recta desde los hombros hasta las rodillas.",
+    "Mantén la posición de puente por un momento antes de bajar lentamente tus caderas de nuevo a la posición inicial.",
+    "Completa el número deseado de repeticiones en un lado antes de cambiar a la otra pierna."
+  ],
+  "consejos": [
+    "Asegúrate de que tu núcleo esté comprometido durante todo el ejercicio para mantener la estabilidad y prevenir la tensión en la parte baja de la espalda.",
+    "Mantén tu pierna extendida paralela al muslo opuesto para mantener una forma adecuada.",
+    "Concéntrate en empujar con el talón del pie apoyado para maximizar la activación de los glúteos.",
+    "Evita arquear la parte baja de la espalda; mantén la caja torácica hacia abajo y la columna neutral.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Realiza el ejercicio lentamente y con control para mejorar el compromiso muscular y reducir el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "No mantener el core comprometido, lo que lleva a un arqueo de la parte baja de la espalda.",
+    "Permitir que la rodilla colapse hacia adentro en lugar de mantener la alineación con la cadera y el tobillo.",
+    "Empujar a través de los dedos de los pies en lugar del talón, reduciendo la activación de los glúteos.",
+    "No extender completamente las caderas en la parte superior del movimiento.",
+    "Dejar caer las caderas demasiado rápido durante la fase de descenso.",
+    "Sostener el peso incorrectamente, causando inestabilidad.",
+    "Levantar los hombros del suelo, reduciendo la estabilidad.",
+    "Usar el impulso para levantar en lugar de un compromiso muscular controlado.",
+    "No mantener la pierna que no trabaja elevada y estable."
+  ]
+}

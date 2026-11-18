@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps con Mancuernas en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-mancuernas-en-banco-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/1c74a975-b210-4514-9421-48aceeb39f58.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Mancuernas en Banco Inclinado es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Realizado en un banco inclinado, enfatiza la cabeza larga del tríceps al proporcionar un mayor rango de movimiento en comparación con las variaciones en banco plano. Este ejercicio es efectivo para desarrollar la fuerza y el tamaño de los tríceps.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con la espalda firmemente apoyada en él y los pies planos en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral (palmas enfrentadas).",
+    "Extiende tus brazos directamente sobre tus hombros, manteniendo las mancuernas juntas.",
+    "Dobla lentamente los codos para bajar las mancuernas detrás de tu cabeza, manteniendo los brazos superiores estacionarios.",
+    "Pausa brevemente cuando alcances un estiramiento cómodo en tus tríceps.",
+    "Presiona las mancuernas de vuelta a la posición inicial extendiendo tus codos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Mantén los codos apuntando hacia adelante y evita que se abran para asegurar una forma adecuada.",
+    "Concéntrate en usar tus tríceps para levantar el peso en lugar de depender del impulso.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas.",
+    "Asegúrate de que tu cabeza y espalda permanezcan en contacto con el banco para mayor estabilidad.",
+    "Exhala al extender los brazos e inhala al bajar las mancuernas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran hacia afuera reduce el compromiso de los tríceps.",
+    "Usar un peso excesivo compromete la forma y el control.",
+    "Bajar las mancuernas demasiado detrás de la cabeza tensa la articulación del hombro.",
+    "No mantener los brazos superiores estacionarios reduce la efectividad.",
+    "Arquear la espalda excesivamente aumenta la tensión en la parte baja de la espalda.",
+    "Soltar las mancuernas demasiado rápido arriesga perder el control.",
+    "No extender completamente los codos limita la activación de los tríceps.",
+    "Colocar el banco en una inclinación demasiado pronunciada desvía el enfoque de los tríceps."
+  ]
+}

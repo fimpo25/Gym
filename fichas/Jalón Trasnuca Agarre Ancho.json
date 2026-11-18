@@ -1,0 +1,48 @@
+{
+  "nombre": "Jalón Trasnuca Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/cable-wide-grip-behind-neck-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/3f188bec-c383-416b-91b3-c814d035fbc4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "The Cable Wide Grip Behind Neck Pulldown is an upper body exercise targeting the latissimus dorsi, trapezius, and rhomboids. It involves pulling a cable bar down behind the neck while seated, emphasizing the upper back and shoulder muscles.",
+  "como_realizar": [
+    "Adjust the seat height so your feet are flat on the floor and your thighs are secured under the pad.",
+    "Attach a wide grip bar to the high pulley of a cable machine.",
+    "Sit down facing the machine and grasp the bar with a wide overhand grip, palms facing forward.",
+    "Lean slightly forward at the hips, keeping your back straight and core engaged.",
+    "Pull the bar down behind your neck by squeezing your shoulder blades together and bending your elbows.",
+    "Pause briefly when the bar reaches just below ear level.",
+    "Slowly return to the starting position with controlled movement, fully extending your arms."
+  ],
+  "consejos": [
+    "Ensure your grip is wide enough to engage the lats effectively but not so wide that it causes discomfort.",
+    "Maintain a slight forward lean to avoid excessive strain on the shoulders and neck.",
+    "Focus on squeezing your shoulder blades together during the pull to maximize muscle engagement.",
+    "Avoid using momentum; control the movement throughout to prevent injury.",
+    "Keep your core tight to stabilize your torso during the exercise.",
+    "Exhale as you pull down and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Pulling the bar too far down behind the neck, causing shoulder strain.",
+    "Leaning excessively forward, compromising spine alignment and reducing lat engagement.",
+    "Using too much weight, leading to momentum-based movement rather than controlled muscle contraction.",
+    "Failing to engage core muscles, resulting in an unstable torso position.",
+    "Allowing elbows to flare out excessively, reducing lat activation and increasing shoulder joint stress.",
+    "Neglecting to retract shoulder blades, limiting upper back muscle involvement.",
+    "Gripping the bar too wide, which can reduce range of motion and increase shoulder joint strain.",
+    "Pulling the bar down with the arms instead of focusing on the back muscles.",
+    "Using a jerking motion to initiate the pull, reducing control and muscle engagement."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Prensa de Piernas 45° Postura Cerrada",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/narrow-stance-45-degree-leg-press",
+  "video_url": "https://api.smartworkout.app/asset/video/c72723a9-3c0c-4e76-b824-7e12d8631f00.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Narrow Stance 45 Degree Leg Press is a compound lower body exercise targeting the quadriceps, glutes, and hamstrings. By placing the feet closer together on the platform, this variation emphasizes the outer quadriceps and can also engage the adductors. It is performed on a 45-degree leg press machine, which allows for a controlled movement pattern and significant loading potential.",
+  "como_realizar": [
+    "Sit on the leg press machine with your back and head firmly against the padded support.",
+    "Place your feet close together in the center of the platform, about hip-width apart.",
+    "Ensure your knees are aligned with your toes and not caving inward.",
+    "Grip the handles on the sides of the seat to stabilize your upper body.",
+    "Unlock the safety mechanism by pressing slightly with your legs.",
+    "Lower the platform by bending your knees until they form approximately a 90-degree angle, keeping your feet flat on the platform.",
+    "Press through your heels to extend your legs back to the starting position without locking your knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a controlled tempo throughout the movement to maximize muscle engagement.",
+    "Keep your core engaged to support your lower back and prevent rounding.",
+    "Focus on pushing through your heels rather than your toes to better activate the glutes and hamstrings.",
+    "Avoid locking out your knees at the top of the movement to maintain tension on the muscles.",
+    "Adjust foot placement slightly if you feel discomfort in your knees; ensure alignment remains consistent.",
+    "Breath in as you lower the weight and exhale as you press it back up."
+  ],
+  "errores_comunes": [
+    "Allowing knees to cave inward during the press, reducing stability and increasing joint stress.",
+    "Placing feet too low on the platform, which can overemphasize the quads and strain the knees.",
+    "Locking out the knees at the top of the movement, risking joint injury and reducing muscle tension.",
+    "Failing to maintain a controlled tempo, leading to momentum-based movements rather than muscle engagement.",
+    "Not aligning feet with hips, causing uneven force distribution and potential muscle imbalances.",
+    "Using a limited range of motion, preventing full muscle activation and development.",
+    "Rounding the lower back, which can lead to spinal stress and injury.",
+    "Neglecting to engage the core, reducing overall stability and control during the exercise."
+  ]
+}

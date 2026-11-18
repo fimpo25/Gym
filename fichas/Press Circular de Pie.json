@@ -1,0 +1,46 @@
+{
+  "nombre": "Press Circular de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-circular-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/b24e432c-7165-4c1f-a89a-ab5e71c05f14.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "El Press Circular de Pie es un ejercicio dinámico para los hombros que se enfoca en los deltoides, el trapecio y la parte superior del pecho. Implica un movimiento circular con peso, involucrando múltiples grupos musculares para mejorar la estabilidad y la fuerza de los hombros.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano.",
+    "Comienza con las mancuernas a la altura de los hombros, con las palmas hacia adelante.",
+    "Presiona las pesas por encima de la cabeza en un movimiento circular, moviéndolas hacia afuera y hacia arriba.",
+    "Al llegar a la parte superior del movimiento, rota las muñecas para que las palmas se enfrenten entre sí.",
+    "Continúa el movimiento circular bajando las pesas frente a ti, regresando a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio y la estabilidad.",
+    "Usa un movimiento controlado para evitar balancear las pesas, lo que puede provocar lesiones.",
+    "Comienza con pesas más ligeras para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Concéntrate en mantener un movimiento circular suave y continuo para una máxima efectividad.",
+    "Asegúrate de que tus codos estén ligeramente doblados en la parte superior del movimiento para reducir la tensión en las articulaciones."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a la pérdida de control.",
+    "No mantener un núcleo estable, causando tensión en la parte baja de la espalda.",
+    "Permitir que los codos se abran demasiado, reduciendo el compromiso del hombro.",
+    "Apresurar el movimiento, comprometiendo la forma y la efectividad.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Inclinarse hacia atrás excesivamente, arriesgando problemas de alineación espinal.",
+    "Descuidar mantener las muñecas rectas, aumentando la tensión en las articulaciones.",
+    "Respiración inconsistente, afectando la estabilidad y el rendimiento."
+  ]
+}

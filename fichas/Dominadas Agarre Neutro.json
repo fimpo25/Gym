@@ -1,0 +1,49 @@
+{
+  "nombre": "Dominadas Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/pull-up-neutral-grip",
+  "video_url": "https://api.smartworkout.app/asset/video/c936be21-faec-41eb-9b13-ef26812892ae.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "The Pull-Up Neutral Grip is a compound upper body exercise targeting the back, shoulders, and arms. It involves pulling your body up using a bar with palms facing each other, which reduces strain on the shoulders and wrists compared to other pull-up variations.",
+  "como_realizar": [
+    "Stand under a pull-up bar with neutral grip handles.",
+    "Jump or step up to grab the handles with palms facing each other, arms fully extended.",
+    "Engage your core and pull your shoulder blades down and back.",
+    "Pull yourself up until your chin is above the bar, keeping elbows close to your body.",
+    "Pause briefly at the top of the movement.",
+    "Lower yourself in a controlled manner until arms are fully extended again.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure a full range of motion by fully extending your arms at the bottom.",
+    "Keep your core tight throughout the movement to prevent swinging.",
+    "Focus on pulling with your back muscles rather than just your arms.",
+    "Maintain a steady, controlled pace to maximize muscle engagement.",
+    "If you're unable to perform a full pull-up, use resistance bands for assistance or try negative pull-ups."
+  ],
+  "errores_comunes": [
+    "Using momentum to swing the body instead of controlled movement.",
+    "Failing to engage the core, leading to excessive lower back arching.",
+    "Not pulling the elbows down and back, reducing lat engagement.",
+    "Allowing the shoulders to shrug up towards the ears.",
+    "Not achieving a full range of motion by stopping before the chin clears the bar.",
+    "Dropping too quickly from the top position, risking shoulder strain.",
+    "Gripping the bar too tightly, causing forearm fatigue prematurely.",
+    "Starting with the arms fully extended but not maintaining tension in the muscles.",
+    "Allowing the wrists to bend excessively instead of keeping them neutral.",
+    "Positioning the hands too close together, limiting shoulder movement."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Fondos en Paralelas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/fondos-en-paralelas",
+  "video_url": "https://api.smartworkout.app/asset/video/f315f7c3-ca7c-4b39-b1a0-8ff9f64cab61.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Los Fondos en Barra Recta son un ejercicio compuesto para la parte superior del cuerpo que se enfoca principalmente en los tríceps, el pecho y los hombros. Este ejercicio consiste en bajar y subir el cuerpo utilizando una barra recta, involucrando múltiples grupos musculares para fuerza y estabilidad.",
+  "como_realizar": [
+    "Colócate por encima de una barra recta con los brazos completamente extendidos y las manos separadas al ancho de los hombros.",
+    "Activa tu core y mantén el cuerpo recto mientras te bajas doblando los codos.",
+    "Baja el cuerpo hasta que los hombros estén por debajo de los codos o hasta donde te sientas cómodo.",
+    "Presiona con las palmas para extender los codos y volver a la posición inicial.",
+    "Mantén el control durante todo el movimiento y evita balancearte o usar impulso."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tu cuerpo para maximizar el compromiso del tríceps.",
+    "Concéntrate en un descenso lento y controlado para aumentar la activación muscular.",
+    "Asegúrate de que tus hombros permanezcan estables y no se encorven hacia adelante durante el movimiento.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Si eres nuevo en este ejercicio, considera usar bandas de asistencia o una máquina de fondos para apoyo."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, desviando el enfoque de los tríceps al pecho.",
+    "Permitir que los codos se abran excesivamente, aumentando la tensión en los hombros.",
+    "No bajar el cuerpo al menos a un ángulo de 90 grados en los codos, limitando el rango de movimiento.",
+    "No extender completamente los codos en la parte superior, reduciendo el compromiso de los tríceps.",
+    "Balancear las piernas o usar el impulso, comprometiendo el control y la forma.",
+    "Bajar demasiado rápido en el dip, arriesgando lesiones en los hombros y codos.",
+    "Arquear la espalda excesivamente, llevando a una mala alineación de la columna.",
+    "Descuidar activar los músculos del core, resultando en inestabilidad."
+  ]
+}

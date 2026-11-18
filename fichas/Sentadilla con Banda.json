@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/5463018d-cf93-4170-819a-dd9a0d6f0a93.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla con banda es un ejercicio para la parte inferior del cuerpo que utiliza bandas de resistencia para aumentar la activación muscular en los glúteos, cuádriceps y isquiotibiales. Es un ejercicio efectivo para mejorar la fuerza, estabilidad y movilidad en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, con la banda de resistencia alrededor de los muslos justo por encima de las rodillas.",
+    "Activa tu núcleo y mantén el pecho levantado mientras comienzas la sentadilla empujando las caderas hacia atrás y doblando las rodillas.",
+    "Baja tu cuerpo hasta que tus muslos estén paralelos al suelo o tan bajo como te sea cómodo mientras mantienes la tensión en la banda.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos de los pies y no se inclinen hacia adentro.",
+    "Presiona a través de tus talones para volver a la posición inicial, extendiendo completamente tus caderas y rodillas.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu peso distribuido uniformemente en tus pies, enfocándote en presionar a través de los talones.",
+    "Mantén una columna neutral durante todo el movimiento para prevenir lesiones.",
+    "Usa una banda con la resistencia adecuada para asegurar una forma correcta y el compromiso muscular.",
+    "Concéntrate en mantener una tensión constante en la banda empujando activamente tus rodillas hacia afuera durante la sentadilla.",
+    "Controla el movimiento tanto al bajar como al subir para maximizar la activación muscular."
+  ],
+  "errores_comunes": [
+    "Permitir que las rodillas se inclinen hacia adentro durante la sentadilla, reduciendo el compromiso de los glúteos y las caderas.",
+    "No mantener el pecho erguido, lo que lleva a una inclinación excesiva hacia adelante y tensión en la parte baja de la espalda.",
+    "No mantener la tensión en la banda de resistencia, lo que disminuye la efectividad del ejercicio.",
+    "Hacer sentadillas demasiado superficiales, impidiendo la activación completa de los glúteos y los cuádriceps.",
+    "Redondear la parte baja de la espalda en el fondo de la sentadilla, aumentando el riesgo de lesión en la espalda.",
+    "Colocar los pies demasiado juntos, limitando el rango de movimiento y la activación muscular.",
+    "Levantarse demasiado rápido, reduciendo el control y la estabilidad durante todo el movimiento.",
+    "Permitir que los talones se levanten del suelo, desplazando el peso hacia adelante y forzando las rodillas."
+  ]
+}

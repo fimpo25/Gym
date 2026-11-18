@@ -1,0 +1,47 @@
+{
+  "nombre": "Press de Hombros con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/band-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/18aee779-848b-4fcd-b36d-8c77649e36bf.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "The Band Shoulder Press is an upper body exercise that targets the deltoid muscles, particularly the anterior and lateral heads, as well as the triceps. It involves pressing resistance bands overhead, providing a dynamic and variable resistance that enhances shoulder stability and strength.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, placing the middle of the resistance band under your feet.",
+    "Hold the ends of the band in each hand at shoulder height with palms facing forward.",
+    "Engage your core to stabilize your body and maintain an upright posture.",
+    "Press the bands overhead by extending your elbows until your arms are fully extended.",
+    "Pause briefly at the top, ensuring your arms are straight but not locked.",
+    "Slowly lower the bands back to the starting position at shoulder height.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your wrists remain neutral and aligned with your forearms throughout the movement.",
+    "Keep your shoulders down and away from your ears to avoid unnecessary tension.",
+    "Control the movement both on the way up and down to maximize muscle engagement.",
+    "If you feel discomfort in your shoulders, adjust your grip or reduce band resistance.",
+    "Focus on maintaining a steady breathing pattern; exhale as you press up and inhale as you lower down.",
+    "Start with a lighter resistance band to perfect your form before progressing to heavier resistance."
+  ],
+  "errores_comunes": [
+    "Allowing the elbows to flare out excessively, reducing shoulder stability.",
+    "Failing to maintain a neutral wrist position, leading to potential strain.",
+    "Arching the lower back excessively, compromising core engagement.",
+    "Using too much resistance, causing loss of control and poor form.",
+    "Not fully extending the arms overhead, limiting the range of motion.",
+    "Allowing the bands to slack at the bottom, reducing tension and effectiveness.",
+    "Neglecting to engage the core, leading to poor posture and balance.",
+    "Rushing through the movement, sacrificing control and muscle activation."
+  ]
+}

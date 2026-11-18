@@ -1,0 +1,46 @@
+{
+  "nombre": "Bicho Muerto con Balón",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/bicho-muerto-con-balon",
+  "video_url": "https://api.smartworkout.app/asset/video/a8a1599b-52d2-42e9-b148-9c75a658d9a8.mp4",
+  "tags": [
+    "CORE",
+    "MOTOR",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Dead Bug con Pelota es un ejercicio de estabilización del core que involucra los músculos abdominales, la parte baja de la espalda y mejora la coordinación. Al incorporar una pelota de estabilidad, esta variación mejora el equilibrio y el control.",
+  "como_realizar": [
+    "Acuéstate boca arriba con los brazos extendidos hacia el techo, sosteniendo una pelota de estabilidad entre tus manos y rodillas.",
+    "Activa tu núcleo llevando el ombligo hacia la columna vertebral.",
+    "Simultáneamente baja tu brazo derecho y pierna izquierda hacia el suelo mientras mantienes la pelota estable entre tu mano y rodilla opuestas.",
+    "Regresa a la posición inicial y repite en el lado opuesto, bajando tu brazo izquierdo y pierna derecha.",
+    "Continúa alternando lados para el número deseado de repeticiones mientras mantienes el control de la pelota."
+  ],
+  "consejos": [
+    "Mantén la parte baja de la espalda presionada contra el suelo para evitar que se arquee.",
+    "Muévete lentamente y con control para maximizar el compromiso del core.",
+    "Concéntrate en respirar de manera constante durante el ejercicio, exhalando al extender las extremidades.",
+    "Asegúrate de que la pelota de estabilidad permanezca estable y no caiga durante el movimiento.",
+    "Si te resulta difícil mantener la forma, reduce el rango de movimiento o realiza el ejercicio sin la pelota inicialmente."
+  ],
+  "errores_comunes": [
+    "Arquear la parte baja de la espalda del suelo, reduciendo el compromiso del core.",
+    "Permitir que la cabeza y el cuello se levanten, causando tensión y desalineación.",
+    "Dejar caer la pelota o perder el agarre, interrumpiendo el flujo del ejercicio.",
+    "Mover los brazos y las piernas demasiado rápido, sacrificando el control y la forma.",
+    "No mantener las rodillas dobladas a 90 grados, alterando la activación muscular prevista.",
+    "Extender los brazos o las piernas demasiado, llevando a una sobreextensión y posible incomodidad.",
+    "No mantener una columna neutral, comprometiendo la estabilidad y efectividad.",
+    "Contener la respiración, lo que puede aumentar la tensión y disminuir el rendimiento.",
+    "Permitir que los hombros se levanten del suelo, reduciendo la estabilidad del core."
+  ]
+}

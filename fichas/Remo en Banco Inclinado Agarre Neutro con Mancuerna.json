@@ -1,0 +1,39 @@
+{
+  "nombre": "Remo en Banco Inclinado Agarre Neutro con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/dumbbell-neutral-grip-incline-bench-row",
+  "video_url": "https://api.smartworkout.app/asset/video/eb33700d-4d13-444e-baa1-1f8fd884b762.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Dumbbell Hammer Grip Incline Bench Row is an upper body exercise targeting the back muscles, specifically the latissimus dorsi, rhomboids, and trapezius. It also engages the biceps and forearms due to the hammer grip. This exercise is performed on an incline bench, which helps isolate the back muscles by minimizing lower body involvement.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Hold a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Lie face down on the bench, ensuring your chest is supported and feet are firmly planted on the floor.",
+    "Extend your arms fully downward, allowing the dumbbells to hang naturally.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Pull the dumbbells towards your torso by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine to prevent strain on your lower back.",
+    "Focus on pulling with your back muscles rather than your arms.",
+    "Keep your elbows close to your body throughout the movement.",
+    "Control the weight during both lifting and lowering phases to maximize muscle engagement.",
+    "Avoid using momentum; perform each rep with deliberate motion.",
+    "Ensure your head is aligned with your spine to avoid neck strain."
+  ],
+  "errores_comunes": []
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Extensión Terminal de Rodilla",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/extension-terminal-de-rodilla",
+  "video_url": "https://api.smartworkout.app/asset/video/2ec96550-cf88-42a7-bd11-cdbd4cb0565e.mp4",
+  "tags": [
+    "REHAB",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión Terminal de Rodilla (ETR) es un ejercicio que se enfoca en los cuádriceps, particularmente en el vasto medial oblicuo (VMO), y se utiliza a menudo para la rehabilitación y fortalecimiento de la rodilla. Consiste en extender la rodilla desde una posición ligeramente flexionada hasta la extensión completa contra resistencia, generalmente utilizando una banda de resistencia.",
+  "como_realizar": [
+    "Ancla una banda de resistencia a la altura de la rodilla y envuélvela alrededor de la parte posterior de tu rodilla.",
+    "Párate con los pies al ancho de las caderas, mirando en dirección opuesta al punto de anclaje, con la banda proporcionando tensión en tu rodilla.",
+    "Comienza con la rodilla ligeramente doblada, manteniendo el pie plano en el suelo.",
+    "Activa tus cuádriceps para extender completamente la rodilla, enderezando la pierna contra la resistencia de la banda.",
+    "Mantén la posición completamente extendida por un momento, asegurando la contracción total de los cuádriceps.",
+    "Vuelve lentamente a la posición inicial con control, manteniendo la tensión en la banda.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en apretar tus cuádriceps al extender la rodilla para maximizar la activación muscular.",
+    "Mantén tu núcleo comprometido y una postura erguida durante todo el ejercicio para prevenir movimientos compensatorios.",
+    "Asegúrate de que tu pie permanezca plano en el suelo durante todo el movimiento para estabilizar tu cuerpo.",
+    "Usa un espejo o grábate en video para verificar que tu rodilla esté alineada correctamente sobre tus dedos del pie durante la extensión.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio o te estás recuperando de una lesión, aumentando gradualmente la resistencia a medida que fortaleces.",
+    "Realiza este ejercicio lentamente y con control para mejorar el compromiso muscular y reducir el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "Permitir que la rodilla se mueva hacia adentro o hacia afuera durante la extensión, lo que lleva a un desalineamiento.",
+    "No extender completamente la rodilla, limitando el rango de movimiento y efectividad.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo el compromiso muscular.",
+    "No mantener un núcleo estable, causando movimientos innecesarios en la parte superior del cuerpo.",
+    "Colocar el pie demasiado hacia adelante o hacia atrás, afectando la alineación de la rodilla y la eficiencia del ejercicio.",
+    "Descuidar involucrar completamente los cuádriceps, resultando en una activación muscular reducida.",
+    "Bloquear la rodilla al final de la extensión, aumentando el riesgo de tensión en la articulación."
+  ]
+}

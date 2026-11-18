@@ -1,0 +1,46 @@
+{
+  "nombre": "Fondos",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/fondos",
+  "video_url": "https://api.smartworkout.app/asset/video/eafaaaad-47cb-430d-82fd-3f5d3f015f15.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los fondos son un ejercicio compuesto para la parte superior del cuerpo que se enfoca principalmente en los tríceps, el pecho y los hombros. Se realizan utilizando barras paralelas o una estación de fondos, donde el cuerpo se baja y se eleva usando los brazos.",
+  "como_realizar": [
+    "Comienza agarrando las barras paralelas con las palmas hacia adentro y los brazos completamente extendidos.",
+    "Levanta tu cuerpo del suelo enderezando los brazos y manteniendo las piernas cruzadas detrás de ti.",
+    "Inhala mientras bajas lentamente tu cuerpo doblando los codos hasta que alcancen un ángulo de 90 grados o ligeramente menos.",
+    "Mantén el torso erguido y los codos cerca de tu cuerpo para enfocarte en los tríceps.",
+    "Exhala mientras te empujas de nuevo a la posición inicial extendiendo los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus hombros estén hacia abajo y alejados de tus orejas para prevenir tensiones.",
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita balancearte o usar impulso para levantarte; concéntrate en usar la fuerza de los brazos.",
+    "Si eres nuevo en los dips, considera usar una máquina de dips asistida o bandas de resistencia para apoyo.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo durante el movimiento.",
+    "Para aumentar la dificultad, añade peso usando un cinturón de pesas o un chaleco con peso."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, lo que desvía el enfoque de los tríceps a los hombros.",
+    "Abrir los codos en exceso, aumentando la tensión en los hombros.",
+    "Bajar demasiado, lo que puede provocar estrés en la articulación del hombro.",
+    "No mantener el núcleo comprometido, lo que resulta en una pérdida de estabilidad.",
+    "Usar el impulso para subir, reduciendo el compromiso muscular.",
+    "Permitir que los hombros se encojan, lo que puede causar tensión en el cuello.",
+    "No mantener el torso recto, causando un movimiento ineficiente.",
+    "Manos posicionadas demasiado anchas, disminuyendo la activación de los tríceps."
+  ]
+}

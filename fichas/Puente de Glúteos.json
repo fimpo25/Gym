@@ -1,0 +1,49 @@
+{
+  "nombre": "Puente de Glúteos",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos",
+  "video_url": "https://api.smartworkout.app/asset/video/f803258f-20c1-4aa2-aee4-f9e1a68fe469.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos es un ejercicio de fuerza que se enfoca principalmente en los músculos glúteos, mientras también involucra los isquiotibiales y el core. Se realiza acostándote de espaldas y levantando las caderas hacia el techo, creando una posición similar a un puente con tu cuerpo.",
+  "como_realizar": [
+    "Acuéstate boca arriba con las rodillas dobladas y los pies planos en el suelo, separados al ancho de las caderas.",
+    "Coloca tus brazos a los lados con las palmas hacia abajo.",
+    "Activa tu núcleo y aprieta los glúteos mientras levantas las caderas del suelo.",
+    "Levanta hasta que tu cuerpo forme una línea recta desde los hombros hasta las rodillas.",
+    "Mantén la posición por un momento, luego baja lentamente las caderas de nuevo a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén firmemente colocados en el suelo para mantener la estabilidad.",
+    "Concéntrate en apretar los glúteos en la parte superior del movimiento para una máxima activación.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para proteger tu zona lumbar.",
+    "Evita arquear la zona lumbar; mantén una posición neutral de la columna.",
+    "Controla el movimiento tanto al levantar como al bajar las caderas para mejorar el compromiso muscular.",
+    "Si sientes tensión en la zona lumbar, ajusta la colocación de tus pies o reduce el rango de movimiento."
+  ],
+  "errores_comunes": [
+    "Levantar las caderas demasiado alto, causando hiperextensión de la zona lumbar.",
+    "Colocar los pies demasiado lejos de los glúteos, reduciendo la activación y efectividad.",
+    "Colocar los pies demasiado cerca de los glúteos, limitando el rango de movimiento.",
+    "Permitir que las rodillas colapsen hacia adentro, reduciendo el compromiso de los glúteos.",
+    "No comprometer el núcleo, lo que lleva a una tensión en la zona lumbar.",
+    "Usar el impulso para levantar las caderas en lugar de un compromiso muscular controlado.",
+    "No apretar los glúteos en la parte superior del movimiento.",
+    "Permitir que los talones se levanten del suelo, reduciendo la estabilidad.",
+    "Contener la respiración en lugar de mantener una respiración constante.",
+    "Dejar caer las caderas demasiado rápido en el descenso, perdiendo el control."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Extensión de Tríceps Horizontal de Pie con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-horizontal-de-pie-con-cable-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/c18ff896-9af3-4b4e-a821-a5034c0b6e87.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps Horizontal de Pie con Cable a un Brazo es un ejercicio de aislamiento que se enfoca en el músculo tríceps braquial. Consiste en extender el brazo horizontalmente utilizando una máquina de cables, proporcionando tensión constante durante todo el movimiento. Este ejercicio ayuda a desarrollar fuerza y definición en los tríceps, enfocándose particularmente en la cabeza lateral.",
+  "como_realizar": [
+    "Coloca un mango individual en una máquina de cable a la altura del hombro.",
+    "Párate de lado a la máquina con los pies separados al ancho de los hombros.",
+    "Agarra el mango con tu mano de trabajo, con la palma hacia abajo.",
+    "Coloca tu brazo superior paralelo al suelo, con el codo doblado a 90 grados.",
+    "Mantén tu mano no trabajadora en la cadera o a tu lado para mantener el equilibrio.",
+    "Extiende completamente tu brazo empujando el mango lejos de tu cuerpo hasta que tu brazo esté recto.",
+    "Haz una pausa breve al final del movimiento, asegurando la contracción completa de los tríceps.",
+    "Vuelve lentamente a la posición inicial con control.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén una postura estable para evitar balancearte durante el ejercicio.",
+    "Concéntrate en mantener tu brazo superior inmóvil y solo mover el antebrazo.",
+    "Controla el movimiento tanto durante la extensión como al regresar a la posición inicial.",
+    "Evita bloquear el codo con fuerza al final de la extensión.",
+    "Mantén el núcleo comprometido durante todo el ejercicio para mantener una postura adecuada.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia.",
+    "Exhala al extender el brazo e inhala al regresar al inicio."
+  ],
+  "errores_comunes": [
+    "Permitir que el codo se abra en lugar de mantenerlo cerca del cuerpo.",
+    "Usar el impulso para balancear el peso en lugar de un movimiento controlado.",
+    "No extender completamente el brazo, reduciendo el compromiso del tríceps.",
+    "Comenzar con el cable demasiado alto o demasiado bajo, lo que lleva a una mala alineación.",
+    "Inclinar excesivamente el torso, causando desequilibrio y reducción de la aislación.",
+    "Agarrar la manija demasiado fuerte, creando tensión innecesaria en el antebrazo.",
+    "No mantener una posición neutral de la muñeca, arriesgando tensión.",
+    "Descuidar estabilizar el hombro, lo que lleva a estrés en la articulación del hombro.",
+    "Apresurarse en las repeticiones sin pausar en la extensión completa."
+  ]
+}

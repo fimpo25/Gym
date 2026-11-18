@@ -1,0 +1,37 @@
+{
+  "nombre": "Apertura Posterior con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/cable-rear-delt-fly-(reverse-fly)",
+  "video_url": "https://api.smartworkout.app/asset/video/8dfd61d2-bfec-457f-9681-54a43702cc56.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Cable Rear Delt Fly, also known as the Reverse Fly, is an isolation exercise targeting the rear deltoid muscles of the shoulders. It involves using a cable machine to provide constant tension throughout the movement, promoting muscle engagement and growth. This exercise is effective for improving shoulder stability and posture.",
+  "como_realizar": [
+    "Set the cable machine to a low position and attach single handles to each side.",
+    "Stand in the center of the machine with feet shoulder-width apart, facing away from the machine.",
+    "Grab each handle with opposite hands, crossing them in front of your body.",
+    "With a slight bend in your elbows, pull the handles outward and backward in an arc motion until your arms are parallel to the floor.",
+    "Squeeze your shoulder blades together at the peak of the movement.",
+    "Slowly return to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability.",
+    "Avoid using momentum; focus on controlled movements to maximize muscle activation.",
+    "Maintain a slight bend in your elbows to reduce strain on your joints.",
+    "Ensure your shoulders are down and back to prevent neck strain.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum contraction.",
+    "Start with a lighter weight to perfect your form before increasing resistance."
+  ],
+  "errores_comunes": []
+}

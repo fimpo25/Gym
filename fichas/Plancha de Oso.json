@@ -1,0 +1,49 @@
+{
+  "nombre": "Plancha de Oso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/plancha-de-oso",
+  "video_url": "https://api.smartworkout.app/asset/video/883470c9-f7a2-4eab-a185-c270dc8975da.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC",
+    "FUNCTIONAL",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Plancha de Oso es un ejercicio de estabilidad del núcleo que se enfoca en los músculos abdominales, los hombros y los cuádriceps. Consiste en mantener una posición de plancha con las rodillas dobladas a 90 grados, flotando justo por encima del suelo. Este ejercicio mejora la fuerza del núcleo, la estabilidad y el control general del cuerpo.",
+  "como_realizar": [
+    "Comienza en cuatro patas con las manos directamente debajo de los hombros y las rodillas debajo de las caderas.",
+    "Mete los dedos de los pies y levanta las rodillas del suelo, manteniéndolas dobladas en un ángulo de 90 grados.",
+    "Activa tu núcleo tirando del ombligo hacia la columna vertebral.",
+    "Mantén la espalda plana y una columna neutral durante todo el ejercicio.",
+    "Mantén esta posición durante el tiempo deseado, asegurando una respiración constante."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu núcleo apretado para evitar que la espalda se hunda o arquee.",
+    "Asegúrate de que tus hombros estén directamente sobre tus muñecas para mantener una alineación adecuada.",
+    "Mantén la mirada ligeramente hacia adelante para ayudar a mantener una posición neutral del cuello.",
+    "Si sientes tensión en la parte baja de la espalda, reajusta tu posición y activa más tu núcleo.",
+    "Comienza con tiempos de sujeción más cortos y aumenta gradualmente la duración a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Caderas demasiado altas, reduciendo el compromiso del core.",
+    "Hundimiento de la parte baja de la espalda, aumentando el riesgo de tensión lumbar.",
+    "Manos colocadas demasiado hacia adelante, causando tensión en los hombros.",
+    "Pies demasiado separados, disminuyendo la activación del core.",
+    "Cuello inclinado hacia arriba, provocando incomodidad cervical.",
+    "Codos bloqueados, reduciendo la estabilidad del hombro.",
+    "Tensión inadecuada en el core, llevando a una mala postura.",
+    "Rodillas demasiado lejos del suelo, disminuyendo la intensidad del ejercicio.",
+    "Desplazamiento del peso hacia los dedos de los pies, reduciendo el equilibrio y el control.",
+    "Contener la respiración, causando tensión innecesaria y fatiga."
+  ]
+}

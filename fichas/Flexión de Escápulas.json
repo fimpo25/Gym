@@ -1,0 +1,45 @@
+{
+  "nombre": "Flexión de Escápulas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-de-escapulas",
+  "video_url": "https://api.smartworkout.app/asset/video/832436df-9b3d-4873-9d1f-b399f2ff003f.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "WARMUP",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "La Flexión de Escápula es un ejercicio que se enfoca en los músculos alrededor de la escápula, centrándose principalmente en el serrato anterior. Mejora la estabilidad y movilidad del hombro, lo cual es crucial para atletas e individuos que buscan mejorar la fuerza de la parte superior del cuerpo y la postura.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos directamente debajo de los hombros y el cuerpo formando una línea recta desde la cabeza hasta los talones.",
+    "Mantén los brazos rectos y activa tu núcleo para mantener la estabilidad.",
+    "Sin doblar los codos, retrae las escápulas juntándolas, permitiendo que el pecho baje ligeramente.",
+    "Protrae las escápulas empujándolas hacia afuera, redondeando la parte superior de la espalda y volviendo a la posición inicial.",
+    "Repite el movimiento el número deseado de repeticiones, manteniendo el control en todo momento."
+  ],
+  "consejos": [
+    "Concéntrate en el movimiento de las escápulas en lugar de doblar los codos.",
+    "Mantén el núcleo comprometido para evitar que las caderas se hundan o que la espalda se arquee.",
+    "Realiza el ejercicio lentamente para asegurar un rango completo de movimiento y una mejor activación muscular.",
+    "Mantén una posición neutral del cuello mirando ligeramente hacia adelante en lugar de hacia abajo a tus manos.",
+    "Incorpora este ejercicio en tu rutina de calentamiento para activar el serrato anterior antes de los entrenamientos de la parte superior del cuerpo."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se doblen, convirtiéndolo en una flexión regular en lugar de centrarse en el movimiento escapular.",
+    "No lograr protraer y retraer completamente las escápulas, limitando el rango de movimiento.",
+    "Colapsar la parte baja de la espalda o la pelvis, perdiendo el compromiso del core y la alineación adecuada.",
+    "Encoger los hombros hacia las orejas, causando tensión y movimiento escapular incorrecto.",
+    "Moverse demasiado rápido, sacrificando el control y la calidad de cada movimiento escapular.",
+    "No mantener una línea recta desde la cabeza hasta los talones, llevando a una alineación corporal incorrecta.",
+    "Dejar caer la cabeza, causando tensión en el cuello y alterando la alineación.",
+    "Involucrar demasiado los brazos, reduciendo el enfoque en el movimiento escapular."
+  ]
+}

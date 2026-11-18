@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Alto en Máquina a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-lever-high-row",
+  "video_url": "https://api.smartworkout.app/asset/video/bc9a797b-7146-4542-9a52-eb2811cbb4a7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The One-Arm Lever High Row is a unilateral exercise targeting the upper back, specifically the latissimus dorsi, rhomboids, and trapezius muscles. It utilizes a lever machine to provide resistance, allowing for controlled movement and focus on muscle contraction. This exercise helps in improving muscle symmetry and strength in the upper body.",
+  "como_realizar": [
+    "Adjust the seat height of the lever machine so that the handle is at shoulder level when seated.",
+    "Sit down and brace your feet firmly on the footrest or floor.",
+    "Grasp the handle with one hand using a neutral grip (palm facing inward).",
+    "Keep your chest pressed against the pad and maintain a straight back.",
+    "Pull the handle towards your torso by retracting your shoulder blade and bending your elbow.",
+    "Pause briefly at the peak contraction while squeezing your back muscles.",
+    "Slowly extend your arm to return to the starting position, maintaining control throughout.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Focus on pulling with your back muscles rather than your arm to maximize engagement.",
+    "Keep your core tight to prevent unnecessary movement or twisting during the exercise.",
+    "Maintain a slow and controlled tempo, especially during the eccentric phase when lowering the weight.",
+    "Ensure that your shoulder blade moves naturally with each repetition to enhance muscle activation.",
+    "Avoid locking out your elbow completely at the end of each repetition to keep tension on the muscles.",
+    "Use a full range of motion for optimal muscle development and flexibility."
+  ],
+  "errores_comunes": [
+    "Using excessive weight, leading to poor form and reduced muscle engagement.",
+    "Allowing the shoulder to elevate, causing unnecessary strain and reducing lat activation.",
+    "Rotating the torso excessively, which shifts focus away from the target muscles.",
+    "Failing to maintain a neutral spine, increasing the risk of lower back strain.",
+    "Pulling with the arm instead of initiating the movement with the back muscles.",
+    "Not fully retracting the scapula, limiting the range of motion and muscle activation.",
+    "Using momentum to lift the weight, reducing control and effectiveness of the exercise.",
+    "Not keeping the elbow close to the body, which can lead to shoulder impingement."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Sentadilla Búlgara con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-bulgara-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/aed448e3-12d5-4612-a005-380fed7445c3.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Búlgara con Mancuernas es un ejercicio unilateral para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y pantorrillas. Consiste en realizar una sentadilla con una pierna elevada detrás de ti sobre un banco o plataforma mientras sostienes mancuernas para añadir resistencia. Este ejercicio mejora el equilibrio, la coordinación y la fuerza en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate a unos pocos pies frente a un banco o plataforma con una mancuerna en cada mano, brazos colgando a los lados.",
+    "Extiende una pierna hacia atrás y coloca la parte superior de tu pie en el banco.",
+    "Mantén el pecho erguido y el núcleo comprometido mientras comienzas a bajar las caderas doblando la rodilla delantera.",
+    "Baja hasta que tu muslo delantero esté paralelo al suelo o hasta donde tu movilidad lo permita.",
+    "Empuja a través del talón de tu pie delantero para regresar a la posición inicial.",
+    "Completa el número deseado de repeticiones en una pierna antes de cambiar a la otra."
+  ],
+  "consejos": [
+    "Asegúrate de que tu rodilla delantera no se extienda más allá de tus dedos del pie durante la sentadilla para proteger tus articulaciones.",
+    "Mantén el torso erguido durante todo el movimiento para involucrar efectivamente tu core.",
+    "Comienza con pesos más ligeros para dominar la forma y el equilibrio antes de avanzar a mancuernas más pesadas.",
+    "Concéntrate en un descenso lento y controlado para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén la mirada hacia adelante para ayudar a mantener el equilibrio y una postura adecuada."
+  ],
+  "errores_comunes": [
+    "Usar una altura de banco que sea demasiado alta o demasiado baja, lo que lleva a un equilibrio y alineación inadecuados.",
+    "Permitir que la rodilla delantera se incline hacia adentro, lo que puede tensar la articulación de la rodilla.",
+    "Inclinarse demasiado hacia adelante, causando un estrés excesivo en la parte baja de la espalda.",
+    "No mantener el núcleo comprometido, resultando en pérdida de estabilidad.",
+    "No mantener una posición vertical de la espinilla en la pierna delantera, reduciendo la efectividad.",
+    "Dejar caer la rodilla trasera demasiado rápido, llevando a un mal control y posible lesión.",
+    "Sostener las mancuernas incorrectamente, causando tensión en la muñeca o desequilibrio.",
+    "Descuidar mantener el pecho hacia arriba, lo que puede comprometer la postura.",
+    "Sobreextender el rango de movimiento, arriesgando tensión en los flexores de la cadera.",
+    "Permitir que el pie trasero sea inestable, afectando el equilibrio general."
+  ]
+}

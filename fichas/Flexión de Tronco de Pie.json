@@ -1,0 +1,46 @@
+{
+  "nombre": "Flexión de Tronco de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/standing-forward-bend",
+  "video_url": "https://api.smartworkout.app/asset/video/8e257bbf-4f81-44f5-8775-c95eb1c3ada1.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Standing Forward Bend, also known as Uttanasana in yoga, is a fundamental exercise that stretches the hamstrings, calves, and hips while strengthening the thighs and knees. It also helps improve flexibility in the spine and promotes relaxation.",
+  "como_realizar": [
+    "Stand with your feet hip-width apart and your arms at your sides.",
+    "Inhale deeply, then exhale as you hinge at your hips to fold forward.",
+    "Keep your knees slightly bent if necessary to avoid straining your lower back.",
+    "Allow your head to hang heavy and relax your neck.",
+    "Place your hands on the floor, on blocks, or hold onto opposite elbows.",
+    "Hold the position for 15-30 seconds, breathing deeply.",
+    "To come up, engage your core and slowly roll up vertebra by vertebra."
+  ],
+  "consejos": [
+    "Focus on hinging from the hips rather than rounding the back.",
+    "Keep a slight bend in the knees if you feel tension in the lower back.",
+    "Engage your core muscles to support your spine during the movement.",
+    "Relax your shoulders away from your ears to avoid tension in the neck.",
+    "If you can't reach the floor, use yoga blocks for support.",
+    "Breathe deeply throughout the exercise to enhance relaxation and flexibility."
+  ],
+  "errores_comunes": [
+    "Bending from the waist instead of the hips, leading to strain on the lower back.",
+    "Locking the knees, which can cause hyperextension and reduce flexibility.",
+    "Rounding the upper back excessively, disengaging core muscles.",
+    "Allowing the shoulders to hunch, which can lead to tension in the neck.",
+    "Failing to engage the quadriceps, reducing the stretch in the hamstrings.",
+    "Reaching too far forward with the hands, causing imbalance and potential falls.",
+    "Holding the breath, which limits relaxation and depth of the stretch.",
+    "Not keeping the feet hip-width apart, affecting stability and alignment."
+  ]
+}

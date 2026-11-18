@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Piernas Rectas Colgado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-piernas-rectas-colgado",
+  "video_url": "https://api.smartworkout.app/asset/video/76633a51-aea1-4fa9-8d71-ac72bd79338a.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "La Elevación de Piernas Rectas Colgado es un ejercicio de core que se enfoca en los músculos abdominales, especialmente en los abdominales inferiores, mientras también involucra los flexores de la cadera y los músculos estabilizadores de los hombros y la espalda. Este ejercicio requiere una barra de dominadas o un aparato similar para realizarlo.",
+  "como_realizar": [
+    "Agarra una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y levanta las piernas rectas frente a ti hasta que estén paralelas al suelo.",
+    "Mantén las piernas rectas y evita balancearte o usar impulso.",
+    "Mantén la posición superior brevemente, luego baja lentamente las piernas de regreso a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea seguro antes de comenzar para evitar resbalones.",
+    "Concéntrate en usar los músculos del core para levantar las piernas en lugar de balancearlas.",
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar la efectividad y reducir el riesgo de lesiones.",
+    "Si te resulta difícil mantener las piernas rectas, comienza con las rodillas dobladas y gradualmente trabaja hacia enderezarlas a medida que ganas fuerza.",
+    "Evita arquear la espalda; mantén la columna neutral y activa tu core para estabilidad."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas para ganar impulso en lugar de usar los músculos del core.",
+    "Arquear la espalda en exceso, reduciendo el compromiso del core.",
+    "No mantener las piernas rectas durante todo el movimiento.",
+    "No levantar las piernas lo suficientemente alto para comprometer efectivamente los abdominales inferiores.",
+    "Permitir que los hombros se encojan, lo que lleva a una mala posición escapular.",
+    "Contener la respiración, lo que puede aumentar la presión intraabdominal innecesariamente.",
+    "Usar un agarre inadecuado, lo que lleva a la pérdida de control o fatiga del agarre.",
+    "No estabilizar el torso, causando un movimiento excesivo en la parte baja de la espalda.",
+    "Dejar caer las piernas demasiado rápido, reduciendo el control muscular excéntrico."
+  ]
+}

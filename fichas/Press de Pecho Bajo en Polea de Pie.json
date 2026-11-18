@@ -1,0 +1,51 @@
+{
+  "nombre": "Press de Pecho Bajo en Polea de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-pecho-bajo-en-polea-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/a6ab5a37-9332-4d22-95f0-f59cf333b5cd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho Bajo de Pie con Cable se enfoca en la parte inferior de los músculos pectorales. Este ejercicio se realiza utilizando una máquina de cables con las poleas colocadas en una posición baja. Involucra el pecho, los hombros y los tríceps, promoviendo el crecimiento muscular y la fuerza en la parte superior del cuerpo.",
+  "como_realizar": [
+    "Ajusta las poleas de la máquina de cables a la posición más baja y coloca las asas.",
+    "Párate en el centro de la máquina con los pies separados al ancho de los hombros.",
+    "Agarra las asas con un agarre por encima y da un paso adelante ligeramente para crear tensión en los cables.",
+    "Coloca tus manos a la altura de las caderas con los codos doblados y las palmas hacia adelante.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas.",
+    "Presiona las asas hacia arriba y hacia adelante hasta que tus brazos estén completamente extendidos frente a ti a la altura del pecho.",
+    "Haz una breve pausa en la parte superior del movimiento, apretando los músculos del pecho.",
+    "Vuelve lentamente a la posición inicial doblando los codos y bajando las asas de nuevo a la altura de las caderas.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Asegúrate de que tus movimientos sean controlados y deliberados, evitando cualquier movimiento brusco.",
+    "Concéntrate en apretar los músculos del pecho en la parte superior de cada prensa para una contracción máxima.",
+    "Mantén una ligera flexión en los codos al regresar a la posición inicial para mantener la tensión en los músculos.",
+    "Ajusta tu postura si es necesario para asegurar el equilibrio y la forma adecuada durante el ejercicio.",
+    "Exhala al presionar hacia adelante e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Los codos se abren demasiado, reduciendo el compromiso del pecho y aumentando la tensión en los hombros.",
+    "Inclinarse demasiado hacia adelante o hacia atrás, comprometiendo el equilibrio y la estabilidad del núcleo.",
+    "Usar un peso excesivo, lo que lleva a una mala forma y un control reducido.",
+    "Permitir que los cables tiren demasiado hacia atrás los brazos, arriesgando una lesión en el hombro.",
+    "No mantener una alineación fuerte de la muñeca, causando tensión en la muñeca.",
+    "No comprometer el núcleo, resultando en una base menos estable.",
+    "Apresurar el movimiento, reduciendo el tiempo bajo tensión y la efectividad.",
+    "No mantener una ligera flexión en los codos al final del press, arriesgando tensión en las articulaciones.",
+    "Usar el impulso en lugar de la contracción muscular controlada, disminuyendo la eficiencia del entrenamiento.",
+    "No ajustar correctamente la altura del cable, lo que lleva a un objetivo incorrecto de los músculos del pecho."
+  ]
+}

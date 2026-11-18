@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps con Barra en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-barra-en-banco-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/df4ff23c-f84c-4a2b-826b-67858b06beef.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Barra en Banco Inclinado es un ejercicio de entrenamiento de fuerza que se enfoca en el tríceps braquial. Se realiza en un banco inclinado, lo que enfatiza la cabeza larga del tríceps debido al ángulo de los brazos. Este ejercicio ayuda a desarrollar masa y fuerza en la parte superior del brazo.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Recuéstate en el banco con los pies planos en el suelo.",
+    "Sujeta una barra con un agarre por encima, manos a la altura de los hombros.",
+    "Extiende tus brazos directamente sobre tu pecho, manteniendo una ligera flexión en los codos.",
+    "Baja la barra lentamente hacia tu frente doblando los codos.",
+    "Mantén tus brazos superiores estacionarios y cerca de tu cabeza durante todo el movimiento.",
+    "Pausa brevemente cuando la barra esté justo por encima de tu frente.",
+    "Presiona la barra de vuelta a la posición inicial extendiendo tus codos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan estacionarios y no se abran durante el movimiento.",
+    "Mantén un movimiento controlado para prevenir lesiones y maximizar el compromiso muscular.",
+    "Comienza con un peso más ligero para perfeccionar la forma antes de aumentar la resistencia.",
+    "Concéntrate en apretar los tríceps en la parte superior del movimiento para una contracción máxima.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad en el banco inclinado."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso de los tríceps.",
+    "Bajar la barra demasiado detrás de la cabeza, causando tensión en los hombros.",
+    "Usar impulso para levantar la barra en lugar de movimientos controlados.",
+    "No mantener las muñecas rectas, lo que lleva a tensión y control reducido.",
+    "Colocar el banco en una inclinación demasiado pronunciada, desviando el enfoque de los tríceps.",
+    "No extender completamente los brazos en la parte superior del movimiento, limitando la contracción de los tríceps.",
+    "Arquear la espalda excesivamente, comprometiendo la estabilidad y la forma.",
+    "Agarrar la barra demasiado ancho, reduciendo el apalancamiento y la activación de los tríceps."
+  ]
+}

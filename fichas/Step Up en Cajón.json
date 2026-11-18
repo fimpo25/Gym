@@ -1,0 +1,49 @@
+{
+  "nombre": "Step Up en Cajón",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/box-step-up",
+  "video_url": "https://api.smartworkout.app/asset/video/41edb925-db86-4bce-8ad6-cbea85768cd2.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS",
+    "ADDUCTOR"
+  ],
+  "descripcion": "The box step-up is a lower body exercise that primarily targets the quadriceps, hamstrings, and glutes. It involves stepping onto an elevated platform with one foot and then bringing the other foot up to stand fully on the box before stepping back down. This exercise improves balance, coordination, and unilateral leg strength.",
+  "como_realizar": [
+    "Stand facing a sturdy box or platform with your feet hip-width apart.",
+    "Place your right foot firmly on the box, ensuring your entire foot is secure.",
+    "Push through your right heel to lift your body up onto the box, bringing your left foot up to meet the right.",
+    "Stand tall on the box with both feet flat and knees slightly bent.",
+    "Step back down with your left foot first, followed by your right foot to return to the starting position.",
+    "Repeat for the desired number of repetitions, then switch legs."
+  ],
+  "consejos": [
+    "Choose a box height that allows you to maintain proper form without excessive strain.",
+    "Engage your core throughout the movement to maintain stability and balance.",
+    "Focus on pushing through the heel of the stepping foot to activate the glutes effectively.",
+    "Keep your chest up and shoulders back to avoid leaning forward excessively.",
+    "Control the descent when stepping down to minimize impact on the joints.",
+    "Start with body weight only and gradually add weights as you become more comfortable with the movement."
+  ],
+  "errores_comunes": [
+    "Using momentum to push off the back leg instead of driving through the heel of the front foot.",
+    "Allowing the knee of the stepping leg to cave inward instead of tracking over the toes.",
+    "Stepping too far forward or backward, causing imbalance and improper muscle engagement.",
+    "Not maintaining a straight torso, leading to excessive forward lean.",
+    "Failing to fully extend the hip and knee at the top of the step-up.",
+    "Landing heavily on the box, which can lead to joint strain.",
+    "Not engaging the core, resulting in a lack of stability.",
+    "Using a box that is too high, causing improper form and increased injury risk.",
+    "Allowing the stepping foot to rotate outward or inward instead of keeping it aligned."
+  ]
+}

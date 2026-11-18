@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Inclinado con Barra Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/barbell-incline-wide-grip-row",
+  "video_url": "https://api.smartworkout.app/asset/video/28f1fe24-7ef7-47b4-a7a6-5e7b7b3cb5e6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Barbell Incline Wide Grip Row is a compound exercise targeting the upper back, specifically the rhomboids, trapezius, and rear deltoids. It also engages the biceps and forearms as secondary muscles. This exercise is performed on an incline bench to emphasize the upper portion of the back.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Position yourself face down on the bench with your chest supported and feet firmly planted on the ground.",
+    "Grasp a barbell with a wide overhand grip, hands slightly wider than shoulder-width apart.",
+    "Start with your arms fully extended and the barbell hanging straight down.",
+    "Pull the barbell towards your chest by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, ensuring your shoulder blades are fully contracted.",
+    "Slowly lower the barbell back to the starting position with controlled motion.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to prevent strain on your lower back.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum contraction.",
+    "Avoid using momentum; control the weight during both lifting and lowering phases.",
+    "Keep your elbows slightly bent at the bottom of the movement to maintain tension on your muscles.",
+    "Ensure your grip is secure but not overly tight to avoid unnecessary forearm fatigue."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and reduced range of motion.",
+    "Not keeping the chest in contact with the bench, causing instability.",
+    "Allowing the elbows to flare excessively, reducing lat engagement.",
+    "Pulling the bar too high, engaging the traps instead of the lats.",
+    "Not retracting the shoulder blades fully, limiting back muscle activation.",
+    "Using momentum by jerking the weight, compromising control.",
+    "Failing to maintain a neutral spine, increasing strain on the lower back.",
+    "Gripping the bar too tightly, causing forearm fatigue prematurely.",
+    "Neglecting to keep the wrists straight, leading to wrist discomfort."
+  ]
+}

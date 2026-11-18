@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Sentado con Cable Agarre Supino",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/cable-seated-supine-grip-row",
+  "video_url": "https://api.smartworkout.app/asset/video/c2a98bda-5862-460f-9a75-82698e5d4bd2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Cable Seated Supine Grip Row is an upper body exercise targeting the back muscles, particularly the latissimus dorsi, rhomboids, and trapezius. It involves pulling a cable attachment towards the torso while seated, using a supine (underhand) grip to emphasize the lower lats and biceps engagement.",
+  "como_realizar": [
+    "Sit on the cable row machine with your feet securely placed on the foot platform and knees slightly bent.",
+    "Grasp the straight bar attachment with an underhand grip, hands shoulder-width apart.",
+    "Keep your back straight and chest up as you lean slightly forward at the hips.",
+    "Pull the bar towards your lower abdomen by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly when the bar reaches your torso, ensuring full contraction of the back muscles.",
+    "Slowly extend your arms to return to the starting position, maintaining control of the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the movement to avoid lower back strain.",
+    "Focus on squeezing your shoulder blades together as you pull to maximize back muscle activation.",
+    "Avoid using momentum; control the movement both when pulling and releasing the weight.",
+    "Keep your elbows close to your body to better engage the lats and minimize shoulder involvement.",
+    "Breathe out as you pull the bar towards you and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Leaning too far back during the pull, reducing tension on the target muscles.",
+    "Using momentum rather than controlled movement, leading to decreased muscle engagement.",
+    "Allowing the shoulders to round forward, which can strain the upper back.",
+    "Pulling the handle too high, causing excessive shoulder elevation.",
+    "Not fully retracting the shoulder blades, limiting back muscle activation.",
+    "Extending the elbows too far, engaging the biceps more than the back.",
+    "Using a grip that is too wide or too narrow, affecting the range of motion.",
+    "Neglecting to keep the chest up, which can compromise posture and form.",
+    "Failing to maintain a neutral spine, increasing the risk of lower back strain.",
+    "Rushing the eccentric phase, missing out on muscle-building tension."
+  ]
+}

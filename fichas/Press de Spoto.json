@@ -1,0 +1,47 @@
+{
+  "nombre": "Press de Spoto",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-spoto",
+  "video_url": "https://api.smartworkout.app/asset/video/8b18f8e1-e2d8-41b9-a5e5-692999b6c551.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Spoto Press es una variación del press de banca que implica pausar la barra justo por encima del pecho, mejorando el control y la tensión en los músculos. Este ejercicio se enfoca en los músculos pectorales, tríceps y deltoides anteriores, y es particularmente efectivo para mejorar la fuerza y estabilidad en el press de banca.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo.",
+    "Agarra la barra un poco más ancha que el ancho de los hombros.",
+    "Desmonta la barra y colócala directamente sobre tus hombros con los brazos completamente extendidos.",
+    "Baja la barra lentamente hacia tu pecho, deteniéndote a 1-2 pulgadas por encima.",
+    "Haz una pausa por un breve momento, manteniendo la tensión en tus músculos.",
+    "Presiona la barra de nuevo a la posición inicial con fuerza controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener un núcleo apretado y una posición estable de los hombros durante todo el movimiento.",
+    "Mantén los codos a un ángulo de 45 grados con respecto a tu cuerpo para reducir la tensión en los hombros.",
+    "Usa un observador o barras de seguridad si levantas pesos pesados para garantizar la seguridad.",
+    "Controla el descenso de la barra para maximizar el compromiso muscular.",
+    "Practica una respiración adecuada: inhala al bajar la barra, exhala al presionarla hacia arriba.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Rebotar la barra en el pecho en lugar de hacer una pausa justo por encima.",
+    "Permitir que los codos se abran excesivamente, reduciendo la estabilidad del hombro.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la forma y aumentando el riesgo de lesiones.",
+    "No mantener un agarre firme en la barra, lo que lleva a un control deficiente.",
+    "Dejar caer la barra demasiado rápido, perdiendo tensión y control durante el descenso.",
+    "No activar el core, resultando en una falta de estabilidad general del cuerpo.",
+    "Colocar las muñecas incorrectamente, lo que lleva a una tensión innecesaria.",
+    "Usar demasiado peso, causando una ruptura en la forma y efectividad reducida."
+  ]
+}

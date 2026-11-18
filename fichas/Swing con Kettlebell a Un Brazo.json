@@ -1,0 +1,55 @@
+{
+  "nombre": "Swing con Kettlebell a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/one-arm-kettlebell-swing",
+  "video_url": "https://api.smartworkout.app/asset/video/390cc461-ae92-4030-ba59-9f253cc521f5.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "CARDIO",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The One Arm Kettlebell Swing is a dynamic exercise that targets the posterior chain, including the glutes, hamstrings, and lower back, while also engaging the core and shoulders. It enhances power, coordination, and balance by requiring controlled movement and stabilization.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a kettlebell in one hand between your legs.",
+    "Bend your knees slightly and hinge at the hips to lower the kettlebell back between your legs.",
+    "Drive through your heels and thrust your hips forward to swing the kettlebell up to shoulder height.",
+    "Keep your arm straight but not locked out, allowing the momentum to carry the kettlebell.",
+    "Control the descent by hinging at the hips again as the kettlebell swings back down.",
+    "Repeat for desired repetitions before switching arms."
+  ],
+  "consejos": [
+    "Focus on using your hips to generate power rather than lifting with your arm.",
+    "Maintain a neutral spine throughout the movement to protect your lower back.",
+    "Keep your core engaged to stabilize your body during the swing.",
+    "Ensure the movement is smooth and controlled, avoiding jerky motions.",
+    "Start with a lighter kettlebell to master form before progressing to heavier weights.",
+    "Breath rhythmically: inhale as you lower the kettlebell and exhale as you swing it up."
+  ],
+  "errores_comunes": [
+    "Using the lower back instead of the hips to generate momentum.",
+    "Letting the kettlebell pull the shoulder out of its socket at the top of the swing.",
+    "Rounding the back instead of keeping a neutral spine.",
+    "Swinging the kettlebell too high, above shoulder level.",
+    "Failing to engage the core throughout the movement.",
+    "Allowing the knees to cave inward during the swing.",
+    "Not hinging at the hips properly, turning it into a squat.",
+    "Using the arm to lift the kettlebell instead of driving with the hips.",
+    "Losing control of the kettlebell on the downswing.",
+    "Starting with the kettlebell too far from the body, leading to poor initial momentum."
+  ]
+}

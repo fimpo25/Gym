@@ -1,0 +1,44 @@
+{
+  "nombre": "Abdominales en Banco Declinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-en-banco-declinado",
+  "video_url": "https://api.smartworkout.app/asset/video/d4a61221-9c27-4acd-8b69-6ca55de2a911.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los abdominales en banco declinado son un ejercicio abdominal realizado en un banco inclinado, que se enfoca en el recto abdominal con énfasis en la parte superior del músculo. Este ejercicio aumenta la resistencia en comparación con los abdominales regulares debido al ángulo de declinación, proporcionando un entrenamiento efectivo para la fuerza y estabilidad del núcleo.",
+  "como_realizar": [
+    "Ajusta el banco declinado a un ángulo cómodo, típicamente entre 15 a 30 grados.",
+    "Siéntate en el banco y asegura tus pies bajo los rodillos acolchados.",
+    "Recuéstate con las manos colocadas detrás de la cabeza o cruzadas sobre el pecho.",
+    "Activa tu núcleo tirando de tu ombligo hacia la columna vertebral.",
+    "Exhala y levanta la parte superior de tu cuerpo hacia tus rodillas contrayendo los músculos abdominales.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando una contracción máxima.",
+    "Inhala y baja lentamente la parte superior de tu cuerpo de regreso a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus movimientos controlados para maximizar el compromiso muscular y evitar usar el impulso.",
+    "Concéntrate en usar tus músculos centrales en lugar de tirar de tu cuello o cabeza con las manos.",
+    "Mantén un patrón de respiración constante; exhala al subir y inhala al bajar.",
+    "Asegúrate de que el ángulo de declive no sea demasiado pronunciado para evitar tensión innecesaria en la parte baja de la espalda.",
+    "Comienza con un número moderado de repeticiones y aumenta a medida que desarrollas fuerza y resistencia.",
+    "Si experimentas molestias en el cuello, intenta colocar una toalla detrás de tu cabeza para obtener apoyo."
+  ],
+  "errores_comunes": [
+    "Usar impulso en lugar de movimiento controlado.",
+    "Tirar del cuello o la cabeza con las manos.",
+    "Levantar el torso demasiado alto, reduciendo el compromiso abdominal.",
+    "Permitir que la parte baja de la espalda se arquee fuera del banco.",
+    "No comprometer el núcleo durante todo el ejercicio.",
+    "Colocar los pies incorrectamente, lo que lleva a la inestabilidad.",
+    "Apresurarse a través de las repeticiones sin una forma adecuada.",
+    "No mantener una alineación neutral de la columna vertebral."
+  ]
+}

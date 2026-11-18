@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla Búlgara con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-bulgara-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/320a0f49-c7b5-4635-be01-3985a4df84cd.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Búlgara con Barra es un ejercicio unilateral para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y pantorrillas. Consiste en adelantar un pie y bajar las caderas manteniendo el torso erguido, utilizando una barra colocada sobre la parte superior de la espalda como resistencia. Este ejercicio mejora el equilibrio, la coordinación y la fuerza en las piernas.",
+  "como_realizar": [
+    "Comienza colocando una barra sobre la parte superior de tu espalda, sujetándola un poco más ancha que el ancho de los hombros.",
+    "Párate con los pies al ancho de las caderas y da un paso hacia adelante con un pie en una posición escalonada.",
+    "Baja las caderas doblando ambas rodillas hasta que la rodilla trasera casi toque el suelo.",
+    "Asegúrate de que la rodilla delantera esté alineada sobre el tobillo y no se extienda más allá de los dedos del pie.",
+    "Empuja con el talón del pie delantero para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Mantén el torso erguido durante todo el movimiento para evitar inclinarte hacia adelante.",
+    "Activa tu core para estabilizar tu cuerpo y mantener el equilibrio.",
+    "Concéntrate en empujar con el talón del pie delantero para maximizar la activación de los glúteos.",
+    "Mantén la mirada hacia adelante para ayudar a mantener una postura y alineación adecuadas.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Asegúrate de distribuir el peso de manera uniforme en ambos pies durante el descenso."
+  ],
+  "errores_comunes": [
+    "Colocar los pies demasiado juntos, lo que lleva a inestabilidad y mala equilibrio.",
+    "Permitir que la rodilla delantera se extienda más allá de los dedos del pie, aumentando el estrés en la articulación de la rodilla.",
+    "No mantener el torso erguido, causando una inclinación excesiva hacia adelante.",
+    "Dejar caer la rodilla trasera demasiado rápido, resultando en falta de control y posible lesión por impacto.",
+    "No comprometer el núcleo, lo que lleva a una falta de estabilidad y posible tensión en la parte baja de la espalda.",
+    "Distribución desigual del peso entre la pierna delantera y trasera, reduciendo la efectividad.",
+    "Usar demasiado peso, comprometiendo la forma y aumentando el riesgo de lesión.",
+    "No bajar la rodilla trasera lo suficientemente cerca del suelo, limitando el rango de movimiento.",
+    "Permitir que el talón delantero se levante del suelo, reduciendo la estabilidad y efectividad.",
+    "Descuidar mantener los hombros retraídos, causando redondeo de la parte superior de la espalda."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Cruce de Poleas Medio en Banco",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/cruce-de-poleas-medio-en-banco",
+  "video_url": "https://api.smartworkout.app/asset/video/9439b214-486d-4113-9609-7d3aadc864b7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "Las aperturas en máquina sentado son un ejercicio de aislamiento que se enfoca en los músculos pectorales, específicamente en la cabeza esternal del pectoral mayor. Implica el uso de una máquina de cables para realizar un movimiento de apertura mientras se está sentado, lo que ayuda a mantener la estabilidad y a concentrarse en la contracción muscular.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura del pecho cuando estés sentado.",
+    "Siéntate en el banco con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre neutral, palmas enfrentadas.",
+    "Comienza con los brazos extendidos hacia los lados, codos ligeramente doblados.",
+    "Exhala mientras llevas las manijas juntas frente a tu pecho en un amplio arco, manteniendo los codos ligeramente doblados durante todo el movimiento.",
+    "Aprieta los músculos del pecho en el punto máximo del movimiento.",
+    "Inhala mientras regresas lentamente a la posición inicial, manteniendo el control."
+  ],
+  "consejos": [
+    "Asegúrate de que tus hombros permanezcan hacia abajo y hacia atrás durante todo el ejercicio para evitar tensiones innecesarias.",
+    "Concéntrate en usar los músculos del pecho para mover el peso en lugar de depender del impulso.",
+    "Mantén una ligera flexión en los codos para reducir el estrés en las articulaciones.",
+    "Controla el movimiento tanto al subir como al bajar para un máximo compromiso muscular.",
+    "Ajusta el peso para que puedas realizar de 8 a 12 repeticiones con la forma adecuada."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante o hacia atrás, lo que lleva a un compromiso inadecuado del pecho.",
+    "Permitir que los hombros se eleven, reduciendo la activación del pecho y aumentando la tensión en los hombros.",
+    "Usar demasiado peso, lo que provoca dependencia del impulso en lugar de la contracción muscular controlada.",
+    "No mantener una ligera flexión en los codos, aumentando el estrés en las articulaciones del codo.",
+    "Acercar demasiado las manos o cruzarlas, reduciendo la tensión en los músculos del pecho.",
+    "Permitir que las muñecas se doblen excesivamente, lo que puede llevar a molestias o lesiones.",
+    "No retraer las escápulas antes de comenzar el movimiento, disminuyendo el aislamiento del pecho.",
+    "Apresurarse en el movimiento, comprometiendo la forma y reduciendo el compromiso muscular.",
+    "No mantener una posición sentada estable, lo que lleva a una mala postura y efectividad reducida."
+  ]
+}

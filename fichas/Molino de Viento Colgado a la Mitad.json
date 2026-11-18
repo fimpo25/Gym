@@ -1,0 +1,48 @@
+{
+  "nombre": "Molino de Viento Colgado a la Mitad",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/molino-de-viento-colgado-a-la-mitad",
+  "video_url": "https://api.smartworkout.app/asset/video/5d54f2c7-a08a-44b0-9837-f9173c4a7d80.mp4",
+  "tags": [
+    "MOBILITY",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Molino de Viento Medio Colgado es un ejercicio avanzado para el core que se enfoca en los oblicuos, la parte baja de la espalda y los flexores de la cadera. Consiste en colgarse de una barra y rotar las piernas de manera controlada para activar eficazmente los músculos del core. Este ejercicio requiere una fuerza significativa en la parte superior del cuerpo y estabilidad en el core.",
+  "como_realizar": [
+    "Comienza colgándote de una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y levanta tus piernas a un ángulo de 90 grados, de modo que tu cuerpo forme una 'L'.",
+    "Gira lentamente tus piernas hacia un lado manteniéndolas rectas, tratando de llevarlas paralelas al suelo.",
+    "Haz una pausa breve al final de la rotación, manteniendo el control y la tensión en tu núcleo.",
+    "Regresa tus piernas a la posición central de manera controlada.",
+    "Repite el movimiento en el lado opuesto.",
+    "Realiza el número deseado de repeticiones, asegurando una distribución uniforme en ambos lados."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea seguro antes de comenzar para evitar resbalones.",
+    "Concéntrate en movimientos lentos y controlados para maximizar el compromiso del núcleo.",
+    "Mantén los hombros comprometidos y evita balancearte o usar el impulso.",
+    "Respira de manera constante durante el ejercicio, exhalando al rotar las piernas.",
+    "Si no puedes mantener las piernas rectas, dobla ligeramente las rodillas para reducir la dificultad.",
+    "Comienza con menos repeticiones y aumenta gradualmente a medida que desarrollas fuerza y estabilidad."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas en lugar de controlar el movimiento con el core.",
+    "Permitir que los hombros se encojan en lugar de mantenerlos comprometidos y estables.",
+    "No mantener una línea recta desde la cabeza hasta el coxis, lo que lleva a una espalda doblada o arqueada.",
+    "Bajar demasiado las caderas, reduciendo el compromiso y control del core.",
+    "Rotar el torso en exceso, lo que puede tensar la parte baja de la espalda.",
+    "No extender completamente los brazos, lo que resulta en un rango de movimiento reducido.",
+    "Usar el impulso para iniciar el movimiento en lugar de una activación muscular controlada.",
+    "No comprometer los oblicuos, lo que lleva a un control rotacional deficiente."
+  ]
+}

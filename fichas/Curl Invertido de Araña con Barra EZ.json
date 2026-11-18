@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl Invertido de Araña con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-invertido-de-arana-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/4593576d-b7be-4d3e-83a6-e5faa974485b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS"
+  ],
+  "descripcion": "El Curl Inverso de Araña con Barra EZ es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial de los brazos. Esta variación del curl de araña se realiza con un agarre prono (por encima) en una barra EZ, lo que enfatiza los antebrazos y proporciona un estímulo único a los bíceps. Generalmente se realiza en un banco inclinado para permitir un rango completo de movimiento y minimizar el impulso.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de aproximadamente 45 grados.",
+    "Colócate boca abajo en el banco, con el pecho y el estómago apoyados, permitiendo que tus brazos cuelguen libremente.",
+    "Agarra la barra EZ con un agarre prono (por encima), manos a la altura de los hombros.",
+    "Comienza con los brazos completamente extendidos hacia el suelo.",
+    "Flexiona los codos para levantar la barra hacia arriba, manteniendo los brazos superiores estacionarios.",
+    "Aprieta en la parte superior del movimiento, asegurando la máxima contracción en los antebrazos y bíceps.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas permanezcan rectas durante todo el movimiento para evitar tensiones innecesarias.",
+    "Concéntrate en usar tus antebrazos y bíceps para levantar el peso, minimizando la participación de los hombros.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular y reducir el impulso.",
+    "Exhala mientras levantas la barra hacia arriba e inhala mientras la bajas de nuevo.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar la barra en lugar de una contracción muscular controlada.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Posicionamiento incorrecto de las muñecas, lo que lleva a tensión y efectividad reducida.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Rizar demasiado rápido, descuidando la fase excéntrica del movimiento.",
+    "Colocar el banco demasiado alto o demasiado bajo, afectando la alineación del brazo.",
+    "Involucrar los hombros en lugar de aislar los bíceps.",
+    "No mantener un núcleo estable, lo que lleva a un balanceo del cuerpo."
+  ]
+}

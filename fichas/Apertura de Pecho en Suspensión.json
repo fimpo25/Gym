@@ -1,0 +1,50 @@
+{
+  "nombre": "Apertura de Pecho en Suspensión",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-pecho-en-suspension",
+  "video_url": "https://api.smartworkout.app/asset/video/104f1fe6-5018-41bd-aea9-423736a98cb7.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Apertura de Pecho en Suspensión es un ejercicio para la parte superior del cuerpo que se enfoca en los músculos pectorales, utilizando correas de suspensión para activar los músculos estabilizadores y mejorar la fuerza del núcleo. Este ejercicio es efectivo para desarrollar la definición del pecho y mejorar la estabilidad del hombro.",
+  "como_realizar": [
+    "Ajusta las correas de suspensión a un punto de anclaje por encima de la altura de la cabeza.",
+    "Párate de espaldas al punto de anclaje, sosteniendo las asas con los brazos extendidos frente a ti a la altura de los hombros.",
+    "Inclínate ligeramente hacia adelante, manteniendo tu cuerpo recto desde la cabeza hasta los talones, y activa tu núcleo.",
+    "Abre los brazos hacia los lados en un arco amplio, manteniendo una ligera flexión en los codos.",
+    "Baja tu cuerpo hasta que tu pecho esté en línea con tus manos, sintiendo un estiramiento en los músculos del pecho.",
+    "Invierte el movimiento juntando los brazos frente a ti, apretando los músculos del pecho.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para proteger la parte baja de la espalda.",
+    "Mantén el núcleo comprometido para evitar que la parte baja de la espalda se hunda o arquee.",
+    "Ajusta la posición de tus pies para modificar la dificultad; dar un paso hacia adelante aumenta la intensidad, mientras que dar un paso hacia atrás la disminuye.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para balancear los brazos.",
+    "Asegúrate de que las correas estén tensas durante todo el ejercicio para obtener la máxima estabilidad y efectividad.",
+    "Exhala al juntar los brazos e inhala al abrirlos."
+  ],
+  "errores_comunes": [
+    "Permitir que las correas rocen contra los brazos, reduciendo el rango de movimiento y causando incomodidad.",
+    "Comenzar con las correas demasiado sueltas, lo que lleva a inestabilidad y falta de control.",
+    "Dejar caer las caderas, lo que desactiva el núcleo y afecta el equilibrio.",
+    "No mantener los codos ligeramente doblados, aumentando el estrés en las articulaciones del hombro.",
+    "Permitir que las manos se acerquen demasiado en la parte superior, reduciendo el compromiso del pecho.",
+    "No mantener una línea recta desde la cabeza hasta los talones, comprometiendo la postura y la activación del núcleo.",
+    "Permitir que los hombros se encorven hacia adelante, reduciendo la activación del pecho y aumentando la tensión en los hombros.",
+    "Usar el impulso para completar el movimiento, lo que reduce el compromiso muscular y el control.",
+    "No mantener las muñecas neutrales, lo que lleva a una posible tensión en las muñecas.",
+    "Abrir los brazos demasiado, arriesgando tensión en los hombros y reduciendo la efectividad del ejercicio."
+  ]
+}

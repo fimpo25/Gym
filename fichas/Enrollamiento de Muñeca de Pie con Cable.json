@@ -1,0 +1,45 @@
+{
+  "nombre": "Enrollamiento de Muñeca de Pie con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/enrollamiento-de-muneca-de-pie-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/e61e69a3-e64a-480e-8b2d-a22eba3489ef.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Enrollamiento de Muñeca de Pie con Cable es un ejercicio de aislamiento que se enfoca en los músculos del antebrazo, específicamente los flexores y extensores de la muñeca. Implica el uso de una máquina de cable para realizar rotaciones controladas de la muñeca, mejorando la fuerza de agarre y la resistencia del antebrazo.",
+  "como_realizar": [
+    "Conecta una barra recta a la polea baja de una máquina de cables.",
+    "Párate frente a la máquina con los pies separados al ancho de los hombros.",
+    "Agarra la barra con ambas manos, palmas hacia abajo, y brazos extendidos frente a ti.",
+    "Mantén los codos ligeramente doblados y bloqueados en posición.",
+    "Rota tus muñecas hacia arriba para enrollar la barra hacia ti, activando los músculos del antebrazo.",
+    "Invierte lentamente el movimiento, rotando tus muñecas hacia abajo para regresar a la posición inicial.",
+    "Realiza el movimiento de manera controlada, evitando cualquier movimiento brusco."
+  ],
+  "consejos": [
+    "Mantén un agarre firme en la barra durante todo el ejercicio para maximizar el compromiso del antebrazo.",
+    "Concéntrate en movimientos lentos y controlados para apuntar efectivamente a los flexores y extensores de la muñeca.",
+    "Mantén el núcleo comprometido y la postura erguida para evitar tensiones innecesarias en la espalda.",
+    "Comienza con pesos más ligeros para asegurar una forma adecuada y aumenta gradualmente la resistencia a medida que desarrollas fuerza.",
+    "Evita usar el impulso; confía en la contracción muscular para cada rotación de muñeca."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un control y forma deficientes.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "No mantener la muñeca recta, causando tensión excesiva.",
+    "Rodar las muñecas demasiado rápido, reduciendo el compromiso muscular.",
+    "No extender completamente las muñecas al final de cada giro.",
+    "Inclinarse hacia atrás o hacia adelante, comprometiendo el equilibrio y la postura.",
+    "Descuidar involucrar el núcleo, resultando en inestabilidad.",
+    "Usar impulso en lugar de movimientos controlados de muñeca."
+  ]
+}

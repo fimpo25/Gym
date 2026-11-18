@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl Nórdico de Isquiotibiales",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/curl-nordico-de-isquiotibiales",
+  "video_url": "https://api.smartworkout.app/asset/video/3aace9d5-6339-4b94-a261-be5161edf60b.mp4",
+  "tags": [
+    "STRENGTH",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "CALVES"
+  ],
+  "descripcion": "El Curl Nórdico de Isquiotibiales es un ejercicio con el peso corporal que se centra en los isquiotibiales, enfocándose en el desarrollo de la fuerza excéntrica. Consiste en bajar el cuerpo desde una posición de rodillas manteniendo el torso recto, utilizando los isquiotibiales para controlar el descenso.",
+  "como_realizar": [
+    "Arrodíllate sobre una superficie suave con los pies asegurados bajo un objeto estable o sostenidos por un compañero.",
+    "Mantén tu cuerpo recto desde la cabeza hasta las rodillas.",
+    "Cruza los brazos sobre el pecho o colócalos a los lados.",
+    "Inclínate lentamente hacia adelante, manteniendo la espalda recta y activando el core.",
+    "Baja tanto como puedas manteniendo el control, luego empuja hacia arriba para volver a la posición inicial."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén bien anclados para evitar resbalones.",
+    "Concéntrate en controlar el descenso para maximizar la carga excéntrica de los isquiotibiales.",
+    "Si tienes dificultades para volver a la posición inicial, usa tus manos para empujar ligeramente el suelo.",
+    "Mantén una línea recta desde la cabeza hasta las rodillas durante todo el movimiento para evitar tensión innecesaria en la parte baja de la espalda.",
+    "Comienza con un rango de movimiento parcial si el rango completo es demasiado desafiante y aumenta gradualmente a medida que mejora la fuerza."
+  ],
+  "errores_comunes": [
+    "Las caderas se hunden hacia adelante en lugar de mantener una línea recta desde las rodillas hasta los hombros.",
+    "Usar los brazos para impulsarse del suelo en lugar de confiar en la fuerza de los isquiotibiales.",
+    "No controlar el descenso, lo que lleva a una caída rápida y posible tensión.",
+    "No activar el core, lo que resulta en una espalda arqueada y una activación reducida de los isquiotibiales.",
+    "Permitir que las rodillas se abran en lugar de mantenerlas alineadas con las caderas.",
+    "Comenzar con los pies demasiado separados, causando inestabilidad y forma incorrecta.",
+    "Doblarse en la cintura en lugar de flexionar las rodillas.",
+    "No bajar completamente el cuerpo, limitando el rango de movimiento y la efectividad.",
+    "Levantar los hombros o la cabeza, interrumpiendo la alineación del cuerpo."
+  ]
+}

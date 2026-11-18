@@ -1,0 +1,48 @@
+{
+  "nombre": "Caminata del Granjero Unilateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/caminata-del-granjero-unilateral",
+  "video_url": "https://api.smartworkout.app/asset/video/188316b2-13bd-45cf-8c51-e768da9ed8d2.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CALVES",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Caminata del Granjero Unilateral es un ejercicio de fuerza funcional que se enfoca en el núcleo, la fuerza de agarre y los músculos estabilizadores. Consiste en caminar mientras se lleva un peso pesado en una mano, desafiando el equilibrio y la coordinación.",
+  "como_realizar": [
+    "Párate erguido con los pies al ancho de los hombros.",
+    "Levanta una mancuerna pesada o una pesa rusa con una mano, manteniendo el brazo recto a tu lado.",
+    "Activa tu núcleo para mantener una postura erguida y evitar inclinarte hacia un lado.",
+    "Comienza a caminar hacia adelante en línea recta, dando pasos controlados.",
+    "Mantén los hombros nivelados y evita balancearte de lado a lado.",
+    "Camina una distancia o tiempo determinado, luego cambia el peso a la otra mano y repite."
+  ],
+  "consejos": [
+    "Concéntrate en mantener el núcleo apretado para evitar la flexión lateral.",
+    "Elige un peso que sea desafiante pero que te permita mantener la forma adecuada.",
+    "Mantén la cabeza erguida y los ojos mirando hacia adelante para ayudar a mantener el equilibrio.",
+    "Asegúrate de que tus pasos sean firmes y controlados para maximizar la estabilidad.",
+    "Cambia de mano después de cada serie para asegurar un desarrollo equilibrado en ambos lados del cuerpo."
+  ],
+  "errores_comunes": [
+    "Inclinarse excesivamente hacia un lado en lugar de mantener una postura erguida.",
+    "Permitir que el peso se balancee en lugar de mantenerlo estable y controlado.",
+    "Usar un peso demasiado pesado, comprometiendo la forma y el equilibrio.",
+    "Caminar demasiado rápido, lo que puede llevar a la pérdida de control y mala forma.",
+    "No activar el core, resultando en inestabilidad y mayor riesgo de tensión en la espalda.",
+    "No mantener una columna neutral, lo que puede llevar a problemas de espalda.",
+    "Sostener el peso demasiado lejos del cuerpo, causando tensión innecesaria en el hombro.",
+    "Descuidar mantener la escápula retraída, lo que puede llevar a molestias en el hombro.",
+    "Permitir que la muñeca se doble en lugar de mantenerla en una posición neutral."
+  ]
+}

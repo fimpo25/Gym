@@ -1,0 +1,47 @@
+{
+  "nombre": "Sentadilla Búlgara en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/bulgarian-squat-smith",
+  "video_url": "https://api.smartworkout.app/asset/video/c4f04b2a-4767-49a1-8699-3c3b61b53b55.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Bulgarian Split Squat Smith is a lower body exercise that targets the quadriceps, glutes, and hamstrings. Utilizing a Smith machine provides stability and control, making it ideal for focusing on form and muscle engagement. This exercise involves performing a split squat with one foot elevated behind you on a bench or platform.",
+  "como_realizar": [
+    "Set the Smith machine bar to shoulder height and ensure the safety locks are in place.",
+    "Stand about two feet in front of the bench with your back to it, and position the bar across your upper back.",
+    "Place one foot on the bench behind you, ensuring your toes are securely positioned.",
+    "Grip the bar with both hands slightly wider than shoulder-width apart.",
+    "Engage your core and keep your chest up as you lower your back knee toward the ground by bending your front knee.",
+    "Lower until your front thigh is parallel to the floor or slightly below, ensuring your front knee does not extend past your toes.",
+    "Press through the heel of your front foot to return to the starting position, keeping the movement controlled.",
+    "Complete the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Ensure your front foot is positioned far enough forward so that your knee stays aligned over your ankle during the squat.",
+    "Focus on keeping your torso upright throughout the movement to maximize glute and quad activation.",
+    "Use a slow and controlled motion to maintain balance and engage stabilizing muscles effectively.",
+    "Start with a lighter weight to perfect your form before increasing resistance.",
+    "Keep your core engaged throughout the exercise to protect your lower back."
+  ],
+  "errores_comunes": [
+    "Placing the rear foot too high on the bench, causing strain on the hip flexors.",
+    "Allowing the front knee to extend beyond the toes, increasing stress on the knee joint.",
+    "Failing to maintain an upright torso, leading to excessive forward lean.",
+    "Using a stance that is too narrow or too wide, disrupting balance and stability.",
+    "Not engaging the core, resulting in a lack of control and poor posture.",
+    "Descending too quickly without control, compromising form and effectiveness.",
+    "Neglecting to fully extend the front leg, limiting range of motion and muscle engagement.",
+    "Allowing the Smith machine bar to guide the movement too much, reducing stabilizer muscle activation.",
+    "Relying on the rear leg for pushing, rather than focusing on the front leg for the main effort."
+  ]
+}

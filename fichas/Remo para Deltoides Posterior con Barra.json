@@ -1,0 +1,48 @@
+{
+  "nombre": "Remo para Deltoides Posterior con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/barbell-rear-delt-row",
+  "video_url": "https://api.smartworkout.app/asset/video/b08fc1c6-77bf-43ee-aae1-c06f999762fe.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Barbell Rear Delt Row is a compound exercise targeting the posterior deltoids, upper back, and traps. It involves pulling a barbell towards your torso while maintaining a bent-over position, emphasizing the rear deltoids and upper back muscles.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a barbell with an overhand grip.",
+    "Bend your knees slightly and hinge at the hips to lean forward, keeping your back straight and torso almost parallel to the floor.",
+    "Let the barbell hang at arm's length in front of you, keeping your arms perpendicular to the floor.",
+    "Engage your core and pull the barbell towards your lower chest by squeezing your shoulder blades together.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction in the rear delts.",
+    "Lower the barbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your back straight and avoid rounding your shoulders to prevent injury.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum engagement of the rear delts.",
+    "Maintain a neutral neck position by looking slightly ahead rather than down or up.",
+    "Use a weight that allows you to perform the exercise with proper form throughout all repetitions.",
+    "Control the descent of the barbell to maximize muscle tension and prevent momentum from taking over.",
+    "Ensure your elbows are slightly bent and remain close to your body during the lift."
+  ],
+  "errores_comunes": [
+    "Using excessive weight, leading to poor form and reduced muscle engagement.",
+    "Rounding the back, increasing the risk of lower back strain.",
+    "Pulling with the biceps instead of focusing on the rear delts.",
+    "Not maintaining a stable core, causing balance issues.",
+    "Lifting the bar too high, engaging traps instead of rear delts.",
+    "Allowing elbows to flare out excessively, reducing rear delt activation.",
+    "Using momentum to lift the bar, compromising muscle control.",
+    "Not retracting the shoulder blades, limiting rear delt engagement.",
+    "Standing too upright, reducing the effectiveness of the exercise.",
+    "Failing to keep wrists neutral, leading to potential wrist strain."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Hack Squat en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-hack-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/e9a49586-7e96-4373-9813-0d146426f3c6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Hack Squat is a compound lower body exercise performed using a Smith machine. It primarily targets the quadriceps, with secondary engagement of the glutes, hamstrings, and calves. This exercise provides stability and control, making it suitable for lifters of varying experience levels.",
+  "como_realizar": [
+    "Position yourself under the Smith machine bar with your feet shoulder-width apart and slightly in front of you.",
+    "Unrack the bar by rotating it forward and position it across your upper back, ensuring it's comfortable and secure.",
+    "Keep your chest up, core engaged, and back straight throughout the movement.",
+    "Lower your body by bending at the knees and hips, keeping your knees aligned with your toes.",
+    "Descend until your thighs are parallel to the floor or slightly below, ensuring your heels remain flat on the ground.",
+    "Push through your heels to return to the starting position, fully extending your legs without locking your knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure proper alignment by keeping your knees in line with your toes to prevent injury.",
+    "Maintain a controlled tempo throughout the exercise to maximize muscle engagement.",
+    "Focus on pushing through your heels to effectively target the quadriceps and glutes.",
+    "Keep your core tight to support your lower back and maintain balance.",
+    "Adjust the foot positioning as needed to find a comfortable stance that allows full range of motion.",
+    "Avoid locking out your knees at the top of the movement to maintain tension on the muscles."
+  ],
+  "errores_comunes": [
+    "Feet positioned too far forward or backward, leading to improper knee alignment.",
+    "Allowing knees to cave inward during the squat, increasing strain on the joints.",
+    "Not maintaining a neutral spine, resulting in excessive lower back stress.",
+    "Descending too quickly, causing loss of control and potential for improper form.",
+    "Failing to engage the core, leading to instability and increased risk of injury.",
+    "Not reaching a full range of motion, limiting muscle activation and effectiveness.",
+    "Pushing through the toes instead of the heels, reducing glute and hamstring engagement.",
+    "Locking out the knees at the top of the movement, causing unnecessary joint stress."
+  ]
+}

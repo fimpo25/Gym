@@ -1,0 +1,55 @@
+{
+  "nombre": "Tirón de Arranque",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/tiron-de-arranque",
+  "video_url": "https://api.smartworkout.app/asset/video/5788380a-7444-48dd-9714-e4c710075f44.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Tirón de Arranque es un ejercicio de levantamiento de pesas que se centra en desarrollar potencia explosiva, fuerza y técnica para el levantamiento de arranque. Se enfoca en la cadena posterior, incluyendo los isquiotibiales, glúteos, zona lumbar, trapecios y hombros. Este ejercicio es crucial para mejorar la fase del segundo tirón del arranque, enfatizando la velocidad y potencia a través de las caderas y piernas.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de las caderas, con la barra sobre la mitad de tu pie.",
+    "Dobla las caderas y las rodillas para agarrar la barra con un agarre ancho y por encima.",
+    "Ajusta tu espalda retrayendo los omóplatos y activando tu núcleo.",
+    "Inicia el levantamiento extendiendo las rodillas y las caderas simultáneamente, manteniendo la barra cerca de tu cuerpo.",
+    "A medida que la barra pasa tus rodillas, extiende explosivamente tus caderas y rodillas mientras encoges los hombros hacia arriba.",
+    "Mantén los brazos rectos hasta alcanzar la extensión completa, luego permite una ligera flexión mientras llevas la barra a la altura del pecho.",
+    "Controla la barra de regreso a la posición inicial para la siguiente repetición."
+  ],
+  "consejos": [
+    "Concéntrate en mantener una posición fuerte de la espalda durante el levantamiento para prevenir lesiones.",
+    "Mantén la barra cerca de tu cuerpo para maximizar la transferencia de potencia.",
+    "Usa un agarre de gancho para tener mejor control de la barra durante movimientos explosivos.",
+    "Activa tus músculos del core para estabilizar tu torso durante el levantamiento.",
+    "Practica con pesos más ligeros para perfeccionar la técnica antes de aumentar la carga.",
+    "Visualiza empujar con los talones para generar la máxima fuerza desde el suelo hacia arriba.",
+    "Asegúrate de una transición suave de la extensión de rodillas a la extensión de caderas para una salida de potencia óptima."
+  ],
+  "errores_comunes": [
+    "Comenzar con las caderas demasiado altas, lo que lleva a un mal apalancamiento y reducción de potencia.",
+    "Redondear la espalda, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "Tirar con los brazos demasiado pronto, reduciendo la efectividad del impulso de las piernas y caderas.",
+    "No extender completamente las caderas, limitando la transferencia de potencia desde la parte inferior del cuerpo.",
+    "Permitir que la barra se aleje del cuerpo, causando desequilibrio e ineficiencia.",
+    "Descuidar activar el core, lo que lleva a inestabilidad durante el levantamiento.",
+    "No mantener los codos altos y hacia afuera, comprometiendo la trayectoria de la barra.",
+    "Usar un ancho de agarre incorrecto, afectando la mecánica y el rango de movimiento del levantamiento.",
+    "Apresurar el levantamiento, sacrificando control y técnica por velocidad."
+  ]
+}

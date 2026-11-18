@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Hombros con Mancuerna Medio Arrodillado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/half-kneeling-shoulder-dumbbell-press",
+  "video_url": "https://api.smartworkout.app/asset/video/c02e79fa-e9d4-48a0-bbf1-74e3df0c61cf.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Half Kneeling Shoulder Dumbbell Press is an exercise that targets the shoulder muscles, particularly the deltoids, while also engaging the core for stability. This movement is performed in a half-kneeling position, which helps to improve balance and unilateral strength.",
+  "como_realizar": [
+    "Begin in a half-kneeling position with your right knee on the ground and left foot flat in front of you, forming a 90-degree angle at both knees.",
+    "Hold a dumbbell in your right hand at shoulder height with your palm facing forward.",
+    "Engage your core to maintain stability and keep your torso upright.",
+    "Press the dumbbell overhead by extending your elbow until your arm is fully extended.",
+    "Slowly lower the dumbbell back to the starting position at shoulder height.",
+    "Complete the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Ensure your core is engaged throughout the exercise to prevent leaning or arching your back.",
+    "Keep your gaze forward and maintain a neutral spine to promote proper posture.",
+    "Use a controlled motion when pressing and lowering the dumbbell to maximize muscle engagement.",
+    "Start with a lighter weight to focus on form and gradually increase as you become more comfortable with the movement.",
+    "Switch legs after completing a set on one side to ensure balanced development."
+  ],
+  "errores_comunes": [
+    "Allowing the back knee to collapse inward, reducing stability and core engagement.",
+    "Overarching the lower back, leading to poor spinal alignment and potential strain.",
+    "Pressing the dumbbell too far forward instead of directly overhead, compromising shoulder mechanics.",
+    "Failing to keep the core engaged, resulting in loss of balance and reduced power.",
+    "Using too heavy a weight, causing compensatory movements and loss of form.",
+    "Allowing the front knee to move excessively, reducing stability and control.",
+    "Rushing the movement, leading to poor control and reduced muscle activation.",
+    "Holding the dumbbell too far away from the body at the start, increasing shoulder strain.",
+    "Neglecting to keep the shoulder blades retracted, reducing shoulder stability.",
+    "Failing to maintain a neutral head position, causing neck strain."
+  ]
+}

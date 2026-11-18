@@ -1,0 +1,48 @@
+{
+  "nombre": "Curl Martillo en Banco Scott",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-martillo-en-banco-scott",
+  "video_url": "https://api.smartworkout.app/asset/video/71f9eea8-23e6-4af4-870b-cfe70c978d98.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Martillo en Banco Scott es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial del brazo superior. Se realiza utilizando un banco Scott, que estabiliza los brazos y minimiza el impulso, permitiendo una contracción focalizada de los músculos objetivo. Este ejercicio se realiza típicamente con mancuernas o una barra especial para curl martillo.",
+  "como_realizar": [
+    "Ajusta la altura del asiento del banco predicador para que tus brazos superiores descansen cómodamente sobre el acolchado.",
+    "Siéntate en el banco y agarra un par de mancuernas con un agarre neutral (palmas enfrentadas).",
+    "Coloca tus brazos superiores en la almohadilla del banco predicador, asegurándote de que tus codos estén ligeramente doblados para mantener la tensión.",
+    "Comienza con tus brazos completamente extendidos hacia abajo, sosteniendo las mancuernas.",
+    "Flexiona los codos para levantar las pesas hacia arriba, manteniendo tus brazos superiores estacionarios en la almohadilla.",
+    "Levanta las mancuernas hasta que tus antebrazos estén verticales o justo antes de alcanzar la contracción completa.",
+    "Haz una pausa breve en la parte superior del movimiento para maximizar el compromiso muscular.",
+    "Baja lentamente las pesas de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener las muñecas rectas y alineadas con los antebrazos para prevenir tensiones.",
+    "Evita usar impulso; realiza cada repetición de manera lenta y controlada.",
+    "Asegúrate de que tus hombros permanezcan relajados y no se levanten del banco durante el ejercicio.",
+    "Exhala al levantar las pesas e inhala al bajarlas.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante todo el movimiento."
+  ],
+  "errores_comunes": [
+    "Codos hacia afuera, reduciendo el compromiso del bíceps.",
+    "Usar el impulso balanceando las pesas, lo que lleva a una mala activación muscular.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Levantar los hombros, lo que puede causar tensión y reducir el aislamiento del bíceps.",
+    "Doblar las muñecas, lo que desvía el enfoque de los bíceps.",
+    "Inclinarse hacia atrás, lo que puede llevar a una forma incorrecta y disminuir la efectividad.",
+    "Permitir que las pesas caigan rápidamente, reduciendo el tiempo bajo tensión.",
+    "No mantener un agarre neutral, lo que puede afectar el compromiso muscular."
+  ]
+}

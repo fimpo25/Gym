@@ -1,0 +1,51 @@
+{
+  "nombre": "Remo Kayak Cable Thibaudeau",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/cable-thibaudeau-kayak-row",
+  "video_url": "https://api.smartworkout.app/asset/video/18481b4d-7f71-494c-9f68-ecc955f9fd2b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Cable Thibaudeau Kayak Row is a compound exercise targeting the upper back, lats, and biceps. It combines elements of rowing and pulldown movements, emphasizing the contraction of the lats and improving scapular retraction. This exercise is performed using a cable machine with a straight bar attachment.",
+  "como_realizar": [
+    "Attach a straight bar to a low pulley on a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the bar with an overhand grip, hands slightly wider than shoulder-width.",
+    "Step back slightly to create tension in the cable, keeping your arms extended.",
+    "Lean forward slightly at the hips while maintaining a neutral spine.",
+    "Pull the bar towards your abdomen by driving your elbows back and down, squeezing your shoulder blades together.",
+    "Pause briefly at the peak contraction, ensuring your elbows are close to your body.",
+    "Slowly extend your arms back to the starting position, maintaining control of the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on squeezing your shoulder blades together at the peak of each row to maximize upper back engagement.",
+    "Keep your core engaged throughout the movement to maintain stability and prevent lower back strain.",
+    "Avoid using momentum; perform each rep with controlled movements for optimal muscle activation.",
+    "Ensure that your elbows stay close to your body during the pulling phase to target the lats effectively.",
+    "Adjust the weight so that you can perform each repetition with proper form without compromising technique."
+  ],
+  "errores_comunes": [
+    "Using too much weight and compromising form.",
+    "Allowing the shoulders to shrug upwards during the pull.",
+    "Leaning back excessively instead of maintaining a stable torso.",
+    "Failing to engage the core throughout the movement.",
+    "Pulling with the arms instead of initiating with the back muscles.",
+    "Not maintaining a neutral wrist position, leading to wrist strain.",
+    "Rushing the movement and losing control during the eccentric phase.",
+    "Neglecting to keep the elbows close to the body.",
+    "Overextending at the end of the pull, risking shoulder strain."
+  ]
+}

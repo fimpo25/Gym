@@ -1,0 +1,49 @@
+{
+  "nombre": "Cruce de Poleas Bajo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/cruce-de-poleas-bajo",
+  "video_url": "https://api.smartworkout.app/asset/video/3a7504dc-28f2-49ca-85c2-fb808c2e1607.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura de Pecho en Polea Baja a Alta es un ejercicio de aislamiento que se enfoca en los músculos pectorales. Implica el uso de una máquina de poleas para realizar un movimiento de apertura desde un ángulo bajo hacia uno alto, enfatizando la parte superior del pecho. Este ejercicio ayuda a desarrollar la definición y fuerza del pecho.",
+  "como_realizar": [
+    "Coloca las poleas del cable en la posición más baja de la máquina.",
+    "Adjunta las manijas a cada polea y párate en el centro, sosteniendo una manija en cada mano.",
+    "Da un paso adelante ligeramente con un pie para mayor estabilidad, manteniendo la espalda recta y el núcleo comprometido.",
+    "Comienza con los brazos hacia abajo y ligeramente doblados en los codos, con las palmas hacia arriba.",
+    "Exhala y lleva los brazos hacia arriba y juntos en un movimiento en arco hasta que se encuentren a la altura de los hombros.",
+    "Aprieta los músculos del pecho en la parte superior del movimiento.",
+    "Inhala y regresa lentamente a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir la tensión en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho en la parte superior del movimiento para una contracción máxima.",
+    "Mantén un movimiento controlado; evita usar el impulso para levantar las pesas.",
+    "Asegúrate de que tus hombros permanezcan abajo y hacia atrás para evitar tensiones innecesarias.",
+    "Ajusta tu postura si es necesario para mantener el equilibrio y la estabilidad durante el ejercicio.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Comenzar con los cables demasiado bajos, reduciendo la tensión en los músculos del pecho.",
+    "Permitir que los codos se doblen excesivamente, convirtiendo el fly en un press.",
+    "No mantener una ligera flexión en los codos, arriesgando tensión en las articulaciones.",
+    "Arqueando demasiado la parte baja de la espalda, reduciendo la estabilidad del core.",
+    "Usar el impulso para balancear los cables, comprometiendo el compromiso muscular.",
+    "Acercar demasiado las manos en la parte superior, perdiendo tensión en el pecho.",
+    "Permitir que los hombros se encorven hacia adelante, desactivando los músculos del pecho.",
+    "No retraer las escápulas, lo que lleva a una mala postura y compromiso.",
+    "Pararse demasiado lejos de la máquina de cables, afectando el rango de movimiento.",
+    "Levantar los cables demasiado alto, desviando el enfoque del pecho."
+  ]
+}

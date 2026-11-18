@@ -1,0 +1,48 @@
+{
+  "nombre": "Apertura de Pecho con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-pecho-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/7d8a4a20-e873-4831-a6b4-a6a0b28a6cae.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Apertura de Pecho con Banda es un ejercicio de aislamiento que se enfoca en los músculos pectorales utilizando bandas de resistencia. Imita el movimiento de una apertura con mancuernas tradicional, pero ofrece resistencia variable durante todo el movimiento. Este ejercicio es efectivo para desarrollar la fuerza del pecho y mejorar la definición muscular.",
+  "como_realizar": [
+    "Ancla la banda de resistencia a la altura del pecho en un soporte resistente.",
+    "Párate de espaldas al punto de anclaje, sosteniendo un asa en cada mano.",
+    "Da un paso hacia adelante para crear tensión en la banda, posicionando tus pies al ancho de los hombros.",
+    "Extiende tus brazos hacia los lados con una ligera flexión en los codos, palmas hacia adelante.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas.",
+    "Lleva tus manos juntas frente a tu pecho en un arco amplio, manteniendo los codos ligeramente doblados.",
+    "Aprieta los músculos del pecho en el punto máximo del movimiento.",
+    "Vuelve lentamente a la posición inicial, controlando la resistencia."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda esté bien anclada para evitar que retroceda bruscamente.",
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir el estrés en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho al juntar las manos.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Ajusta tu postura para manejar la resistencia; alejarte más del anclaje aumenta la tensión.",
+    "Evita bloquear los codos en cualquier momento durante el ejercicio.",
+    "Exhala al juntar las manos e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Comenzar con las bandas demasiado flojas, reduciendo la tensión y efectividad.",
+    "Permitir que los codos caigan, desviando el enfoque del pecho.",
+    "Sobreextender los brazos, arriesgando tensión en los hombros.",
+    "No mantener una ligera flexión en los codos, causando estrés en las articulaciones.",
+    "Apresurar el movimiento, sacrificando control y compromiso.",
+    "No mantener los hombros hacia abajo y atrás, llevando a una mala postura.",
+    "Acercar demasiado las manos, perdiendo tensión en el pecho.",
+    "Usar impulso en lugar de contracción muscular controlada.",
+    "Descuidar estabilizar el núcleo, afectando el equilibrio y la forma."
+  ]
+}

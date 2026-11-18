@@ -1,0 +1,37 @@
+{
+  "nombre": "Jalón de Dorsales en Polea",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/jalon-de-dorsales-en-polea",
+  "video_url": "https://api.smartworkout.app/asset/video/4108d42f-8b09-4bc8-b7a9-d8d611d084ac.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "El Jalón al Pecho en Polea es un ejercicio compuesto que se enfoca en los músculos dorsales anchos, con un compromiso secundario de los bíceps, romboides y trapecios. Se realiza utilizando una máquina de poleas con una polea superior y un accesorio de barra ancha, enfocándose principalmente en desarrollar la fuerza y amplitud de la parte superior de la espalda.",
+  "como_realizar": [
+    "Siéntate en la máquina de jalones de espalda y ajusta la almohadilla para las rodillas para asegurar tus piernas.",
+    "Agarra la barra con un agarre amplio por encima, un poco más ancho que el ancho de los hombros.",
+    "Inclínate ligeramente hacia atrás en las caderas, manteniendo el pecho hacia arriba y el núcleo comprometido.",
+    "Tira de la barra hacia tu pecho superior conduciendo tus codos hacia abajo y hacia atrás.",
+    "Aprieta tus omóplatos juntos en la parte inferior del movimiento.",
+    "Extiende lentamente tus brazos de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de tener un rango completo de movimiento extendiendo completamente tus brazos en la parte superior de cada repetición.",
+    "Evita usar el impulso; concéntrate en movimientos controlados para maximizar el compromiso muscular.",
+    "Mantén tus muñecas rectas y evita tirar con las manos; en su lugar, impulsa con los codos.",
+    "Mantén una ligera curva en la parte baja de la espalda para estabilizar tu torso durante el ejercicio.",
+    "Exhala mientras bajas la barra e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": []
+}

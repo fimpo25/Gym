@@ -1,0 +1,51 @@
+{
+  "nombre": "Perro de Caza",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/perro-de-caza",
+  "video_url": "https://api.smartworkout.app/asset/video/5f6101d6-75bd-441c-bea8-4526f09b336c.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El ejercicio Perro de Caza es un movimiento de estabilidad del núcleo que se enfoca en la parte baja de la espalda, los abdominales y los glúteos. Mejora el equilibrio, la coordinación y la fuerza general del núcleo al requerir la extensión simultánea de las extremidades opuestas mientras se mantiene una columna vertebral neutral.",
+  "como_realizar": [
+    "Comienza a cuatro patas con las manos directamente debajo de los hombros y las rodillas debajo de las caderas.",
+    "Activa tu núcleo para mantener una columna neutral durante todo el movimiento.",
+    "Extiende simultáneamente tu brazo derecho hacia adelante y la pierna izquierda hacia atrás hasta que estén paralelos al suelo.",
+    "Mantén esta posición por un momento, asegurándote de que tus caderas permanezcan niveladas y tu espalda no se arquee.",
+    "Regresa a la posición inicial con control.",
+    "Repite el movimiento con tu brazo izquierdo y pierna derecha.",
+    "Continúa alternando lados para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu núcleo comprometido para evitar que la parte baja de la espalda se hunda o arquee.",
+    "Muévete lentamente y con control para mejorar la estabilidad y el equilibrio.",
+    "Mantén la mirada hacia abajo para mantener una posición neutral del cuello.",
+    "Asegúrate de que tus caderas permanezcan cuadradas al suelo durante todo el ejercicio.",
+    "Si encuentras difícil mantener el equilibrio, comienza extendiendo solo una extremidad a la vez."
+  ],
+  "errores_comunes": [
+    "Arquear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las caderas roten o se inclinen en lugar de mantenerse niveladas.",
+    "Levantar la pierna o el brazo demasiado alto, causando pérdida de equilibrio.",
+    "Dejar caer la cabeza en lugar de mantenerla alineada con la columna.",
+    "No activar los músculos del core, lo que lleva a la inestabilidad.",
+    "Moverse demasiado rápido, sacrificando control y precisión.",
+    "No extender completamente el brazo y la pierna, reduciendo la efectividad del ejercicio.",
+    "Contener la respiración en lugar de respirar de manera constante durante el movimiento."
+  ]
+}

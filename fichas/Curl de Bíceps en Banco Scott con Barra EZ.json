@@ -1,0 +1,48 @@
+{
+  "nombre": "Curl de Bíceps en Banco Scott con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-en-banco-scott-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/302e7d21-3ebe-4106-80bf-e22773b66ea5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Predicador con Barra EZ es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Consiste en usar una barra EZ y un banco de predicador para concentrarse en los bíceps, minimizando la participación de otros músculos. El cojín inclinado del banco de predicador sostiene los brazos, reduciendo el impulso y enfatizando una forma estricta.",
+  "como_realizar": [
+    "Ajusta el banco de predicador para que tus brazos superiores descansen cómodamente sobre la almohadilla.",
+    "Siéntate en el banco con los pies planos en el suelo y agarra la barra EZ con un agarre en supinación, manos a la altura de los hombros.",
+    "Coloca tus brazos superiores en la almohadilla, asegurándote de que tus axilas estén ajustadas contra el borde superior.",
+    "Comienza con los brazos completamente extendidos y la barra cerca del suelo.",
+    "Riza la barra hacia arriba flexionando los codos, manteniendo los brazos superiores estacionarios contra la almohadilla.",
+    "Continúa el movimiento hasta que tus antebrazos estén verticales o ligeramente más allá de la vertical, sin levantar los codos de la almohadilla.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los bíceps.",
+    "Baja lentamente la barra de nuevo a la posición inicial, extendiendo completamente los brazos."
+  ],
+  "consejos": [
+    "Usa un peso que te permita mantener una forma estricta durante todo el ejercicio.",
+    "Mantén las muñecas rectas y evita doblarlas durante el curl para prevenir tensiones.",
+    "Concéntrate en un movimiento lento y controlado, especialmente durante la fase de descenso, para maximizar el compromiso muscular.",
+    "Evita usar el impulso; mantén tus movimientos suaves y controlados.",
+    "Asegúrate de que tus codos permanezcan en contacto con el cojín en todo momento para aislar efectivamente los bíceps.",
+    "Exhala mientras levantas la barra y inhala al bajarla de nuevo."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a movimientos de balanceo o sacudidas.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Inclinarse hacia atrás o levantar los hombros del banco, comprometiendo la forma.",
+    "Rebotar la barra en el cojín, reduciendo la tensión muscular.",
+    "Apresurarse en el movimiento, sacrificando control y efectividad.",
+    "Agarrar la barra demasiado fuerte, causando fatiga en los antebrazos.",
+    "No mantener las muñecas rectas, aumentando la tensión en las articulaciones.",
+    "Permitir que los brazos superiores se muevan, desviando el enfoque de los bíceps."
+  ]
+}

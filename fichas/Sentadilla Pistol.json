@@ -1,0 +1,52 @@
+{
+  "nombre": "Sentadilla Pistol",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-pistol",
+  "video_url": "https://api.smartworkout.app/asset/video/306eeb62-cf8d-492d-831f-53b98243af08.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Pistola es un ejercicio unilateral para la parte inferior del cuerpo que se enfoca en los cuádriceps, glúteos, isquiotibiales y pantorrillas. Requiere equilibrio, fuerza y flexibilidad, lo que la convierte en un movimiento avanzado utilizado principalmente para desarrollar la fuerza de las piernas y mejorar la coordinación.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de las caderas y los brazos extendidos hacia adelante para mantener el equilibrio.",
+    "Desplaza tu peso sobre una pierna mientras levantas la pierna opuesta del suelo, manteniéndola recta frente a ti.",
+    "Activa tu núcleo y baja lentamente tu cuerpo a una posición de sentadilla sobre la pierna de apoyo, manteniendo la pierna levantada extendida.",
+    "Desciende hasta que tu muslo esté paralelo al suelo o tan bajo como tu flexibilidad lo permita.",
+    "Empuja a través del talón de la pierna de apoyo para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Mantén la espalda recta durante todo el movimiento para prevenir lesiones.",
+    "Concéntrate en mantener la rodilla alineada con los dedos del pie para asegurar una forma adecuada.",
+    "Usa una pared o un poste para apoyo si eres nuevo en este ejercicio.",
+    "Comienza con un rango de movimiento parcial si la profundidad completa es desafiante, aumentando gradualmente la profundidad a medida que mejora la fuerza.",
+    "Calienta a fondo antes de intentar las sentadillas pistol para prevenir tensiones en los músculos y articulaciones.",
+    "Incorpora ejercicios de movilidad de tobillo en tu rutina para mejorar la estabilidad durante las sentadillas pistol."
+  ],
+  "errores_comunes": [
+    "Permitir que el talón de la pierna de apoyo se levante del suelo, reduciendo la estabilidad y el control.",
+    "Inclinarse demasiado hacia adelante, lo que puede tensar la parte baja de la espalda y reducir el equilibrio.",
+    "Colapsar la rodilla hacia adentro, aumentando el riesgo de lesión en la rodilla.",
+    "No mantener el pecho erguido, lo que lleva a una mala postura y equilibrio.",
+    "No activar el core, resultando en una falta de control y estabilidad.",
+    "Bajar demasiado rápido en la sentadilla, lo que puede llevar a la pérdida de equilibrio.",
+    "No extender completamente la pierna que no trabaja, afectando el equilibrio y la forma.",
+    "Redondear la espalda, lo que compromete la alineación de la columna y aumenta el riesgo de lesión.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo el compromiso muscular.",
+    "No mantener el peso centrado sobre la parte media del pie, lo que lleva a la inestabilidad."
+  ]
+}

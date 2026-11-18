@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Banca con Tope",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-banca-con-tope",
+  "video_url": "https://api.smartworkout.app/asset/video/75a3fb07-2034-4dd8-8f1e-acb45105d12b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Pines es una variación del press de banca tradicional donde la barra se presiona desde un punto muerto sobre pines de seguridad colocados a una altura específica. Este ejercicio se enfoca en el pecho, tríceps y hombros, y es particularmente útil para mejorar la fuerza de bloqueo y superar puntos de estancamiento en el press de banca.",
+  "como_realizar": [
+    "Coloca un banco plano dentro de una jaula de potencia y ajusta los pasadores de seguridad a la altura deseada, típicamente justo por encima del nivel del pecho.",
+    "Acuéstate en el banco con los ojos directamente debajo de la barra. Asegúrate de que tus pies estén planos en el suelo y tu espalda esté ligeramente arqueada.",
+    "Agarra la barra con un agarre un poco más ancho que el ancho de los hombros, asegurándote de que tus muñecas estén rectas y los codos directamente debajo de la barra.",
+    "Desmonta la barra y bájala lentamente hasta que descanse sobre los pasadores de seguridad. Haz una pausa breve para eliminar el impulso.",
+    "Presiona la barra hacia arriba explosivamente hasta que tus brazos estén completamente extendidos.",
+    "Baja la barra de nuevo a los pasadores con control y repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que los pasadores de seguridad estén a una altura que permita un rango completo de movimiento sin comprometer la forma.",
+    "Concéntrate en mantener la tensión en la parte superior de la espalda y el núcleo durante el movimiento para maximizar la transferencia de potencia.",
+    "Usa un descenso controlado para evitar rebotar en los pasadores, lo que puede provocar lesiones o mala forma.",
+    "Incorpora este ejercicio en tu rutina para apuntar específicamente a los puntos débiles en la fase de bloqueo de tu press de banca.",
+    "Comienza con pesos más ligeros para dominar la técnica antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Colocar los pasadores demasiado altos, limitando el rango de movimiento y reduciendo el compromiso muscular.",
+    "Arquear excesivamente la parte baja de la espalda, llevando a una mala forma y posible tensión.",
+    "No mantener las escápulas retraídas, causando inestabilidad en los hombros.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, afectando el apalancamiento y la activación muscular.",
+    "Rebotar la barra en los pasadores, reduciendo el control y aumentando el riesgo de estrés en las articulaciones.",
+    "No alinear la barra con las muñecas y los codos, llevando a una mecánica de presión ineficiente.",
+    "Permitir que los codos se abran excesivamente, colocando un estrés indebido en los hombros.",
+    "Descuidar el compromiso del core, resultando en una falta de estabilidad y potencia.",
+    "Apresurar el movimiento, comprometiendo el control y la precisión."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación de Pantorrilla Sentado en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-seated-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/8d97d4cf-2337-498c-b8e7-19527e8a2ef2.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Smith Seated Calf Raise is an isolation exercise targeting the calf muscles, specifically the gastrocnemius and soleus. Utilizing a Smith machine provides stability and control, allowing for focused muscle engagement. This exercise is performed while seated, which emphasizes the soleus muscle due to the bent knee position.",
+  "como_realizar": [
+    "Position a bench or a calf raise block under the Smith machine bar.",
+    "Sit on the bench with your feet flat on the block, ensuring your knees are bent at approximately 90 degrees.",
+    "Position the Smith machine bar across your thighs, just above your knees.",
+    "Unlock the Smith machine bar by rotating it forward.",
+    "Push through the balls of your feet to raise your heels as high as possible, contracting your calves.",
+    "Pause at the top of the movement for a moment to maximize contraction.",
+    "Slowly lower your heels back down to the starting position, maintaining control throughout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your knees remain stationary and do not move during the exercise to focus on calf activation.",
+    "Keep your core engaged to maintain stability and prevent unnecessary movement.",
+    "Use a full range of motion by lowering your heels as much as possible before raising them again.",
+    "Control the descent to maximize muscle tension and prevent injury.",
+    "Adjust the height of the block or bench to ensure a comfortable and effective range of motion."
+  ],
+  "errores_comunes": [
+    "Placing feet too far forward or backward, misaligning the knees and ankles.",
+    "Allowing heels to drop too low, causing excessive stretch and potential strain on the Achilles tendon.",
+    "Using too much weight, leading to poor control and reduced range of motion.",
+    "Bouncing at the bottom of the movement instead of using controlled motion.",
+    "Failing to fully extend at the top, limiting calf muscle engagement.",
+    "Not keeping the back straight, which can lead to poor posture and reduced effectiveness.",
+    "Neglecting to adjust the seat height, resulting in improper leg alignment.",
+    "Allowing knees to cave inward or outward during the exercise.",
+    "Relying on momentum rather than muscle contraction to lift the weight."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevación Lateral Inclinado con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-cable-bent-over-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/8c2423b5-7d32-4235-9c8b-2d214ad70819.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The One-Arm Cable Bent Over Lateral Raise is an isolation exercise targeting the posterior deltoid muscles. It involves using a cable machine to provide constant tension throughout the movement, enhancing muscle activation and development in the rear shoulders. This exercise also engages the upper back and stabilizing muscles, contributing to improved shoulder stability and posture.",
+  "como_realizar": [
+    "Set the cable machine to a low pulley position and attach a single handle.",
+    "Stand with your feet shoulder-width apart, facing away from the machine.",
+    "Bend at the hips until your torso is nearly parallel to the floor, keeping your back straight.",
+    "Grasp the handle with one hand, allowing your arm to hang straight down.",
+    "Engage your core and keep your knees slightly bent for stability.",
+    "Raise your arm out to the side until it is parallel to the floor, keeping a slight bend in the elbow.",
+    "Pause briefly at the top of the movement, focusing on squeezing the shoulder blade.",
+    "Slowly lower the arm back to the starting position, maintaining control.",
+    "Repeat for the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to prevent lower back strain.",
+    "Focus on moving through the shoulder joint rather than swinging your body.",
+    "Control the movement both on the way up and down to maximize muscle engagement.",
+    "Use a weight that allows you to perform the exercise with proper form and full range of motion.",
+    "Keep your core engaged to stabilize your body during the movement.",
+    "Avoid lifting too heavy as it can compromise form and increase injury risk."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to momentum-based swinging instead of controlled lifts.",
+    "Allowing the torso to sway or twist, reducing isolation of the rear deltoid.",
+    "Failing to maintain a slight bend in the elbow, causing joint strain.",
+    "Raising the arm too high, shifting focus away from the rear deltoid.",
+    "Not keeping the core engaged, resulting in an unstable base.",
+    "Letting the shoulder blade move excessively, diminishing rear deltoid activation.",
+    "Starting the movement with the arm too close to the body, limiting range of motion.",
+    "Neglecting to keep the neck in a neutral position, causing strain or discomfort."
+  ]
+}

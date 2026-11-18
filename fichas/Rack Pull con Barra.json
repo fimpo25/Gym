@@ -1,0 +1,49 @@
+{
+  "nombre": "Rack Pull con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/barbell-rack-pull",
+  "video_url": "https://api.smartworkout.app/asset/video/0ff3c7df-bbc5-429d-b225-9a980c6c2712.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Barbell Rack Pull is a compound exercise that primarily targets the lower back, glutes, and hamstrings. It is a partial deadlift performed from a rack or blocks, allowing for a shorter range of motion. This exercise is beneficial for increasing strength in the lockout phase of the deadlift and improving overall pulling power.",
+  "como_realizar": [
+    "Set up a barbell on a power rack or blocks at knee height or slightly below.",
+    "Stand with your feet shoulder-width apart and position the barbell over the mid-foot.",
+    "Grip the barbell with an overhand or mixed grip, slightly wider than shoulder-width.",
+    "Engage your core and keep your back straight as you hinge at the hips to lower your torso.",
+    "Lift the barbell by extending your hips and knees simultaneously, keeping the bar close to your body.",
+    "Stand fully upright with your shoulders back and chest up at the top of the movement.",
+    "Lower the barbell back to the starting position in a controlled manner."
+  ],
+  "consejos": [
+    "Ensure your back remains straight throughout the lift to avoid injury.",
+    "Focus on driving through your heels to maximize power and stability.",
+    "Keep the barbell close to your body to maintain proper leverage and control.",
+    "Use wrist straps if grip strength is a limiting factor during heavy lifts.",
+    "Start with lighter weights to perfect form before progressing to heavier loads.",
+    "Maintain a neutral head position by looking forward or slightly down."
+  ],
+  "errores_comunes": [
+    "Starting with the hips too low, resembling a squat position, reducing hamstring and glute engagement.",
+    "Placing the barbell too high on the rack, limiting range of motion and effectiveness.",
+    "Rounding the back, increasing risk of spinal injury due to improper load distribution.",
+    "Using an overextended grip, causing shoulder strain and reducing control.",
+    "Pulling with the arms instead of driving through the hips, disengaging larger muscle groups.",
+    "Locking out the knees too early, shifting stress to the lower back.",
+    "Leaning too far back at the top of the movement, risking hyperextension of the spine.",
+    "Failing to maintain a neutral spine, compromising core stability.",
+    "Descending too quickly, losing control and risking form breakdown.",
+    "Allowing the bar to drift away from the body, increasing lower back strain."
+  ]
+}

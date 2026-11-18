@@ -1,0 +1,52 @@
+{
+  "nombre": "Sentadilla Frontal",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-frontal",
+  "video_url": "https://api.smartworkout.app/asset/video/d2337c8c-c8f0-4608-8ed5-156c293da825.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "La sentadilla frontal es un ejercicio compuesto para la parte inferior del cuerpo que se enfoca principalmente en los cuádriceps, glúteos y el core. Consiste en sostener una barra sobre la parte frontal de los hombros mientras realizas una sentadilla, lo que requiere mayor estabilidad del core y movilidad en comparación con la sentadilla trasera.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros y coloca la barra en la parte frontal de tus hombros, descansando sobre tus deltoides.",
+    "Cruza los brazos sobre la barra o usa un agarre limpio con las yemas de los dedos debajo de la barra para soporte.",
+    "Mantén los codos altos y el pecho hacia arriba para mantener un torso erguido.",
+    "Activa tu núcleo y comienza la sentadilla doblando las caderas y las rodillas, bajando tu cuerpo hasta que tus muslos estén paralelos al suelo.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos de los pies y no se inclinen hacia adentro.",
+    "Empuja a través de tus talones para regresar a la posición inicial, manteniendo tu núcleo activado durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos altos durante todo el movimiento para evitar que la barra se desplace hacia adelante.",
+    "Mantén un torso erguido activando los músculos del core; esto ayuda a equilibrar el peso de manera efectiva.",
+    "Calienta con ejercicios de movilidad para muñecas y hombros para mejorar la comodidad del agarre y el rango de movimiento.",
+    "Comienza con pesos más ligeros para perfeccionar la forma antes de avanzar a cargas más pesadas.",
+    "Usa zapatos de levantamiento o zapatos de suela plana para una mejor estabilidad durante la sentadilla.",
+    "Mantén una posición neutral de la columna mirando hacia adelante o ligeramente hacia arriba."
+  ],
+  "errores_comunes": [
+    "Las rodillas se inclinan hacia adentro durante la sentadilla, reduciendo la estabilidad y aumentando el estrés en las articulaciones.",
+    "Los talones se levantan del suelo, desplazando el peso hacia adelante y comprometiendo el equilibrio.",
+    "La barra descansa en las yemas de los dedos en lugar de los hombros, lo que lleva a un control deficiente.",
+    "Los codos caen hacia adelante, causando que el pecho se colapse y la parte superior de la espalda se redondee.",
+    "No mantener una columna neutral, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "No hacer la sentadilla a la profundidad completa, limitando el compromiso muscular y la efectividad.",
+    "Permitir que el pecho caiga hacia adelante, desplazando la carga lejos de las piernas.",
+    "Usar un peso excesivo, lo que lleva a una forma comprometida y un rango de movimiento reducido.",
+    "Enganchar la parte baja de la espalda en lugar del núcleo, lo que lleva a inestabilidad y posible tensión.",
+    "Apresurar el movimiento, resultando en un control deficiente y falta de activación muscular."
+  ]
+}

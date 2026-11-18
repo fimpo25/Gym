@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Fuerza Unilateral Cruzado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-fuerza-unilateral-cruzado",
+  "video_url": "https://api.smartworkout.app/asset/video/db536c51-9fb9-4d9c-9eb7-5fdbfb52b7b1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Fuerza Unilateral Cruzado es un ejercicio unilateral que se enfoca en los hombros, el pecho y los tríceps. Consiste en presionar una mancuerna a través del cuerpo, involucrando la estabilidad del core y mejorando la movilidad del hombro. Este ejercicio es beneficioso para mejorar el equilibrio muscular y la coordinación.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una mancuerna en una mano a la altura del hombro.",
+    "Activa tu núcleo y mantén la espalda recta durante todo el movimiento.",
+    "Presiona la mancuerna a través de tu cuerpo hacia el lado opuesto, extendiendo completamente tu brazo.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando una extensión completa y control.",
+    "Vuelve lentamente a la posición inicial, manteniendo la tensión en tus músculos.",
+    "Completa el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado para evitar torcerse o inclinarse durante el press.",
+    "Concéntrate en un movimiento controlado en lugar de usar el impulso para levantar el peso.",
+    "Asegúrate de que tu muñeca permanezca en una posición neutral para evitar tensiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Mantén un patrón de respiración constante; exhala al presionar e inhala al regresar.",
+    "Usa un espejo o pide retroalimentación para asegurar una alineación y técnica adecuadas."
+  ],
+  "errores_comunes": [
+    "Permitir que el hombro se eleve durante el press, lo que lleva a una mala mecánica del hombro.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo el compromiso muscular.",
+    "No mantener el core comprometido, resultando en pérdida de estabilidad y posible tensión en la parte baja de la espalda.",
+    "Sobreextender el codo en la parte superior del press, arriesgando tensión en la articulación.",
+    "No alinear adecuadamente la muñeca con el antebrazo, causando estrés innecesario en la muñeca.",
+    "Rotar excesivamente el torso, lo que puede llevar a un desequilibrio y efectividad reducida.",
+    "Descuidar mantener un agarre firme en el peso, comprometiendo el control y la seguridad.",
+    "Usar un rango de movimiento demasiado corto, limitando la activación muscular.",
+    "Permitir que el codo se abra demasiado, lo que puede tensar la articulación del hombro."
+  ]
+}

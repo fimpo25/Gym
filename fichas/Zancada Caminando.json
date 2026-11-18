@@ -1,0 +1,50 @@
+{
+  "nombre": "Zancada Caminando",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/walking-lunges",
+  "video_url": "https://api.smartworkout.app/asset/video/388121d2-8286-4d6f-8e8e-9c74cb90dacc.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "Walking lunges are a dynamic lower body exercise targeting the quadriceps, hamstrings, glutes, and calves. This movement involves stepping forward into a lunge position and then alternating legs as you move forward. It enhances balance, coordination, and functional strength.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart and hands on your hips or holding dumbbells by your sides.",
+    "Step forward with your right foot, landing on the heel first.",
+    "Lower your body by bending both knees until your right thigh is parallel to the ground and your left knee nearly touches the floor.",
+    "Ensure your front knee is aligned over your ankle and does not extend past your toes.",
+    "Push through the heel of your right foot to rise and bring your left foot forward to step into the next lunge.",
+    "Continue alternating legs for the desired number of repetitions or distance."
+  ],
+  "consejos": [
+    "Maintain an upright torso throughout the movement to engage core muscles effectively.",
+    "Focus on a controlled descent to prevent knee strain and maximize muscle engagement.",
+    "Keep your gaze forward to help maintain balance and proper posture.",
+    "Use a moderate pace to ensure stability and control during each step.",
+    "If you're new to this exercise, start without weights to master form before adding resistance.",
+    "Ensure each step is long enough so that both knees form approximately 90-degree angles at the bottom of the lunge."
+  ],
+  "errores_comunes": [
+    "Allowing the front knee to extend beyond the toes, increasing joint strain.",
+    "Failing to maintain an upright torso, leading to excessive forward lean.",
+    "Stepping too far forward, causing instability and balance issues.",
+    "Not engaging the core, resulting in poor balance and control.",
+    "Letting the back knee slam into the ground, risking knee injury.",
+    "Using momentum instead of muscle engagement to push off.",
+    "Not keeping the front foot flat, causing heel lift and instability.",
+    "Allowing the back leg to remain too straight, reducing range of motion.",
+    "Failing to maintain consistent stride length, leading to uneven muscle activation.",
+    "Neglecting to align the hips and shoulders, causing twisting or lateral movement."
+  ]
+}

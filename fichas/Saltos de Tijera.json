@@ -1,0 +1,50 @@
+{
+  "nombre": "Saltos de Tijera",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/saltos-de-tijera",
+  "video_url": "https://api.smartworkout.app/asset/video/86d085ff-785c-472b-94e7-94a4d28758cb.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "CARDIO",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los Saltos de Tijera son un ejercicio cardiovascular de cuerpo completo que aumenta la frecuencia cardíaca, mejora la resistencia y mejora la coordinación. Este movimiento pliométrico implica saltar a una posición con las piernas separadas y los brazos levantados por encima de la cabeza, para luego regresar a la posición inicial.",
+  "como_realizar": [
+    "Párate derecho con los pies juntos y los brazos a los lados.",
+    "Dobla ligeramente las rodillas y salta en el aire.",
+    "Mientras saltas, separa las piernas al ancho de los hombros y levanta los brazos por encima de la cabeza.",
+    "Aterriza suavemente sobre las puntas de los pies con las rodillas ligeramente dobladas para absorber el impacto.",
+    "Rápidamente salta de nuevo a la posición inicial juntando los pies y bajando los brazos a los lados.",
+    "Repite el movimiento de forma continua a un ritmo constante."
+  ],
+  "consejos": [
+    "Mantén un ritmo constante para mantener elevado tu ritmo cardíaco.",
+    "Activa tu núcleo durante todo el ejercicio para una mejor estabilidad.",
+    "Aterriza suavemente para reducir el impacto en tus articulaciones.",
+    "Mantén las rodillas ligeramente flexionadas durante los aterrizajes para evitar lesiones.",
+    "Concéntrate en una respiración controlada: inhala al saltar hacia afuera, exhala al regresar.",
+    "Usa un espejo o grábate en video para asegurar una forma y alineación adecuadas."
+  ],
+  "errores_comunes": [
+    "Los pies aterrizan demasiado separados o demasiado juntos, alterando el equilibrio.",
+    "Los brazos no se extienden completamente por encima de la cabeza, reduciendo el compromiso de los hombros.",
+    "Rebotar en los dedos de los pies en lugar de aterrizar suavemente sobre todo el pie, aumentando el impacto.",
+    "Las rodillas no están ligeramente dobladas al aterrizar, lo que lleva a un estrés en las articulaciones.",
+    "Los brazos se cruzan frente al cuerpo, causando tensión en los hombros.",
+    "El núcleo no está comprometido, lo que resulta en una mala postura y estabilidad.",
+    "La cabeza y el cuello se proyectan hacia adelante, lo que puede provocar tensión en el cuello.",
+    "Ritmo inconsistente, afectando la coordinación y el control."
+  ]
+}

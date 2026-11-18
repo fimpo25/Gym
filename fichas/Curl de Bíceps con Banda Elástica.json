@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Bíceps con Banda Elástica",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-banda-elastica",
+  "video_url": "https://api.smartworkout.app/asset/video/511f4fb3-13c8-4835-a91d-626bb2b469d2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps con Banda es un ejercicio de aislamiento que se enfoca en el bíceps braquial utilizando una banda de resistencia. Este ejercicio ayuda a desarrollar fuerza y resistencia muscular en los bíceps, ofreciendo una resistencia variable a lo largo del rango de movimiento.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, colocando la parte media de la banda de resistencia debajo de tus pies.",
+    "Sujeta las asas o los extremos de la banda con un agarre en supinación, palmas hacia adelante, y brazos completamente extendidos a los lados.",
+    "Mantén los codos cerca de tu torso y una ligera flexión en las rodillas.",
+    "Exhala mientras flexionas la banda hacia arriba doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Continúa flexionando hasta que tus bíceps estén completamente contraídos y las asas estén a nivel de los hombros.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tus bíceps.",
+    "Inhala mientras bajas lentamente las asas de nuevo a la posición inicial, manteniendo el control sobre la tensión de la banda."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan cerca de tu cuerpo durante todo el ejercicio para maximizar el compromiso del bíceps.",
+    "Concéntrate en un movimiento lento y controlado para aumentar la tensión muscular y la efectividad.",
+    "Evita usar el impulso; mantén tus movimientos suaves y deliberados.",
+    "Ajusta la tensión de la banda cambiando el ancho de tu postura o usando una banda de nivel de resistencia diferente.",
+    "Mantén tu núcleo comprometido para mantener el equilibrio y la estabilidad durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Usar demasiada tensión, causando tensión excesiva y mala forma.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Inclinarse hacia atrás o usar el impulso del cuerpo para levantar la banda.",
+    "No extender completamente los brazos en la parte inferior del curl.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales, lo que lleva a la tensión en los antebrazos.",
+    "No mantener los hombros estables, causando la participación de los hombros.",
+    "Tirar de la banda de manera desigual, lo que lleva a una activación muscular desequilibrada.",
+    "Apresurarse en las repeticiones sin movimiento controlado, reduciendo la efectividad."
+  ]
+}

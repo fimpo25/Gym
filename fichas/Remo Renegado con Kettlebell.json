@@ -1,0 +1,50 @@
+{
+  "nombre": "Remo Renegado con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-renegado-con-kettlebell",
+  "video_url": "https://api.smartworkout.app/asset/video/36c1cc08-21ac-4c7b-8408-fb19693bcd11.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "GLUTEUS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Remo Renegado con Kettlebell es un ejercicio compuesto que trabaja la espalda, los hombros, los brazos y el core. Combina una posición de plancha con un movimiento de remo, mejorando la estabilidad y la fuerza. Este ejercicio es efectivo para mejorar el equilibrio y la coordinación mientras se desarrolla la fuerza del tren superior y del core.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con una pesa rusa en cada mano, muñecas alineadas bajo tus hombros y pies ligeramente más anchos que el ancho de los hombros para mayor estabilidad.",
+    "Activa tu núcleo para mantener una línea recta desde la cabeza hasta los talones.",
+    "Desplaza tu peso ligeramente hacia un lado y rema la pesa rusa del lado opuesto hacia tu cadera, manteniendo el codo cerca de tu cuerpo.",
+    "Baja la pesa rusa de nuevo al suelo con control.",
+    "Repite el movimiento en el otro lado, alternando las remadas mientras mantienes la posición de plancha en todo momento."
+  ],
+  "consejos": [
+    "Mantén tus caderas lo más estables posible para evitar balancearte de lado a lado durante el remo.",
+    "Concéntrate en apretar tus omóplatos juntos en la parte superior del remo para un máximo compromiso.",
+    "Mantén una columna neutral manteniendo tu cabeza alineada con tu cuerpo y evitando arquear o redondear tu espalda.",
+    "Si eres nuevo en este ejercicio, comienza con pesas rusas más ligeras para asegurar una forma adecuada antes de progresar a pesos más pesados.",
+    "Respira de manera constante durante el ejercicio, exhalando al levantar la pesa rusa e inhalando al bajarla."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o roten, perdiendo estabilidad del core.",
+    "Remar la pesa rusa con el hombro en lugar de involucrar los músculos de la espalda.",
+    "No mantener una columna neutral, lo que lleva a una curvatura excesiva o redondeo.",
+    "Usar el impulso para levantar la pesa rusa en lugar de un compromiso muscular controlado.",
+    "Pies posicionados demasiado juntos, reduciendo el equilibrio y la estabilidad.",
+    "No mantener la muñeca recta, causando tensión en la articulación.",
+    "No extender completamente el brazo durante el remo, limitando el rango de movimiento.",
+    "Dejar que el codo se abra en lugar de mantenerlo cerca del cuerpo.",
+    "Apresurar el movimiento, comprometiendo la forma y el control."
+  ]
+}

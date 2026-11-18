@@ -1,0 +1,52 @@
+{
+  "nombre": "Sentadilla Pistol en Cajón",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/pistol-box-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/689f7f43-68bf-470f-a733-7597718ef52b.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Pistol Box Squat is a unilateral lower body exercise that targets the quadriceps, glutes, hamstrings, and core. It involves performing a single-leg squat to a box or bench, which helps in maintaining balance and control while reducing the range of motion compared to a full pistol squat. This exercise is beneficial for building strength, improving balance, and enhancing mobility.",
+  "como_realizar": [
+    "Stand in front of a box or bench with your feet hip-width apart.",
+    "Lift one leg off the ground, extending it forward while keeping it straight.",
+    "Engage your core and maintain an upright posture.",
+    "Slowly lower your body by bending the knee of the standing leg, pushing your hips back as if sitting down.",
+    "Descend until your glutes lightly touch the box or bench.",
+    "Pause briefly at the bottom position to maintain control.",
+    "Press through the heel of the standing leg to return to the starting position.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Ensure that your knee tracks over your toes to avoid unnecessary strain.",
+    "Keep your chest up and shoulders back throughout the movement.",
+    "Use a box height that allows you to maintain control and proper form.",
+    "Focus on engaging your core to help with balance and stability.",
+    "Start with a higher box if you're new to this exercise and gradually decrease the height as you become more proficient.",
+    "Perform the movement slowly to maximize muscle engagement and control."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing imbalance and reducing effectiveness.",
+    "Not keeping the knee aligned with the toes, increasing strain on the knee joint.",
+    "Failing to engage the core, leading to poor stability and control.",
+    "Allowing the heel of the standing foot to lift off the ground, compromising balance.",
+    "Dropping too quickly onto the box, reducing muscle engagement and control.",
+    "Not fully extending the standing leg at the top of the movement, limiting range of motion.",
+    "Using the box as a crutch rather than a guide, reducing the challenge of the exercise.",
+    "Allowing the non-working leg to touch the ground, decreasing the effectiveness of the exercise."
+  ]
+}

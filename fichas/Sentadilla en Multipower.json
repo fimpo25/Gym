@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/4cf150a0-8e80-4df1-b113-6865c66bcabd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Machine Squat is a compound exercise targeting the quadriceps, hamstrings, glutes, and calves. It involves performing a squat using a Smith machine, which provides a guided barbell path for added stability and control. This exercise is beneficial for beginners learning squat mechanics and for experienced lifters focusing on form and muscle isolation.",
+  "como_realizar": [
+    "Position the bar of the Smith machine at shoulder height.",
+    "Stand under the bar with your feet shoulder-width apart.",
+    "Place the bar across your upper back and shoulders, gripping it with both hands slightly wider than shoulder-width.",
+    "Unrack the bar by rotating it forward and step back slightly to clear the safety stops.",
+    "Keep your chest up, core engaged, and back straight throughout the movement.",
+    "Lower your body by bending your knees and hips, keeping your knees aligned with your toes.",
+    "Descend until your thighs are parallel to the floor or slightly below.",
+    "Push through your heels to return to the starting position, extending your knees and hips."
+  ],
+  "consejos": [
+    "Ensure the bar is evenly loaded before starting the exercise.",
+    "Maintain a neutral spine to avoid lower back strain.",
+    "Adjust the safety stops to an appropriate height for added security.",
+    "Focus on controlled movements both during descent and ascent.",
+    "Keep your weight centered over your midfoot to maintain balance.",
+    "Avoid locking out your knees at the top of the movement to keep tension on the muscles.",
+    "Breathe in as you lower down and exhale as you push back up."
+  ],
+  "errores_comunes": [
+    "Placing feet too far forward, leading to excessive forward lean and knee strain.",
+    "Setting the bar too high on the back, causing neck and upper back discomfort.",
+    "Allowing knees to cave inward during the squat, increasing knee joint stress.",
+    "Not reaching sufficient depth, limiting glute and hamstring engagement.",
+    "Using an uneven grip on the bar, resulting in imbalanced load distribution.",
+    "Failing to maintain a neutral spine, increasing the risk of lower back strain.",
+    "Relying on the bar for balance instead of engaging core muscles.",
+    "Bouncing at the bottom of the squat, reducing control and increasing injury risk.",
+    "Locking out knees at the top, which can lead to joint stress."
+  ]
+}

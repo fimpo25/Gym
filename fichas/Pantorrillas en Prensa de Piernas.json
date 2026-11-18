@@ -1,0 +1,46 @@
+{
+  "nombre": "Pantorrillas en Prensa de Piernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/calf-leg-press",
+  "video_url": "https://api.smartworkout.app/asset/video/9f24e3a4-490f-4dab-8ff7-d7d9c5b3fa34.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Calf Raises On Sled is an isolation exercise targeting the calf muscles, primarily the gastrocnemius and soleus. This exercise is performed using a leg press machine or sled, allowing for controlled movement and resistance to effectively engage and strengthen the calves.",
+  "como_realizar": [
+    "Position yourself on the sled with your back firmly against the backrest and your feet placed shoulder-width apart on the platform.",
+    "Ensure that only the balls of your feet are on the platform, with your heels hanging off.",
+    "Unlock the sled safety mechanism and extend your legs fully without locking your knees.",
+    "Lower your heels slowly towards the ground to stretch your calves fully.",
+    "Press through the balls of your feet to raise your heels as high as possible, contracting your calf muscles.",
+    "Hold the top position for a moment before slowly lowering back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a controlled pace throughout the exercise to maximize muscle engagement.",
+    "Focus on a full range of motion by lowering your heels as much as possible and raising them high.",
+    "Avoid bouncing or using momentum; instead, use slow and deliberate movements.",
+    "Keep your core engaged to maintain stability during the exercise.",
+    "Adjust the weight on the sled according to your strength level to ensure proper form and prevent injury.",
+    "Breathing steadily, exhale as you raise your heels and inhale as you lower them."
+  ],
+  "errores_comunes": [
+    "Placing feet too high on the platform, reducing calf engagement.",
+    "Allowing heels to lift off the platform, compromising stability.",
+    "Using a limited range of motion, preventing full calf activation.",
+    "Locking knees at the top, increasing joint stress.",
+    "Bouncing the weight, reducing muscle tension and control.",
+    "Allowing knees to cave inward, affecting alignment and muscle engagement.",
+    "Using excessive weight, leading to poor form and reduced effectiveness.",
+    "Neglecting to control the eccentric phase, reducing muscle engagement.",
+    "Positioning feet too close together, limiting calf muscle recruitment.",
+    "Failing to maintain a neutral spine, increasing risk of lower back strain."
+  ]
+}

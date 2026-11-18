@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl Predicador con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-predicador-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/0e7185a8-532a-400a-b79f-914968a0466f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Predicador con Doble Mancuerna es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Se realiza utilizando un banco de predicador y dos mancuernas, permitiendo un movimiento controlado y un compromiso muscular efectivo. Este ejercicio enfatiza la contracción máxima del bíceps y ayuda a desarrollar la parte inferior del músculo.",
+  "como_realizar": [
+    "Siéntate en un banco de predicador con el pecho presionado contra el cojín y los brazos extendidos sobre él.",
+    "Sujeta una mancuerna en cada mano con un agarre en supinación, palmas hacia arriba.",
+    "Comienza con los brazos completamente extendidos pero sin bloquearlos.",
+    "Flexiona las mancuernas hacia arriba doblando los codos, manteniendo los brazos superiores estacionarios contra el cojín.",
+    "Continúa levantando hasta que tus bíceps estén completamente contraídos y las mancuernas estén a nivel de los hombros.",
+    "Haz una pausa breve en la parte superior del movimiento para una contracción máxima.",
+    "Baja lentamente las mancuernas de regreso a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan fijos en el cojín para aislar eficazmente los bíceps.",
+    "Concéntrate en un movimiento lento y controlado para maximizar la tensión muscular.",
+    "Evita balancearte o usar el impulso para levantar las pesas.",
+    "Mantén una ligera flexión en los codos en la parte inferior para mantener la tensión en los bíceps.",
+    "Exhala al levantar las pesas e inhala al bajarlas.",
+    "Ajusta la altura del asiento para que tus axilas descansen cómodamente en la parte superior del cojín."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se levanten del soporte, reduciendo el compromiso del bíceps.",
+    "Usar el impulso al balancear las mancuernas, lo que lleva a un mal aislamiento muscular.",
+    "Posicionamiento incorrecto de las muñecas, causando tensión y reduciendo la eficiencia del curl.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Curl demasiado rápido, sacrificando el control y la tensión muscular.",
+    "Inclinarse hacia adelante, desviando el enfoque de los bíceps.",
+    "Agarrar las mancuernas demasiado fuerte, causando fatiga en los antebrazos.",
+    "No mantener los hombros estables, lo que lleva a la participación de los hombros."
+  ]
+}

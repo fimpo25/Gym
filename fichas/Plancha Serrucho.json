@@ -1,0 +1,48 @@
+{
+  "nombre": "Plancha Serrucho",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/plancha-serrucho",
+  "video_url": "https://api.smartworkout.app/asset/video/bad31854-ef98-4b52-9d65-ad81674be243.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Plancha de Sierra es un ejercicio avanzado para el core que se enfoca en los músculos abdominales, oblicuos y hombros. Implica un movimiento dinámico que mejora la estabilidad y la fuerza al incorporar un movimiento de sierra hacia adelante y hacia atrás mientras se mantiene la posición de plancha.",
+  "como_realizar": [
+    "Comienza en una posición de plancha sobre los antebrazos con los codos directamente debajo de los hombros y el cuerpo en línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo y mantén una columna neutral durante todo el ejercicio.",
+    "Desplaza el peso de tu cuerpo hacia adelante empujando con los dedos de los pies, moviendo los hombros más allá de los codos.",
+    "Invierte el movimiento tirando hacia atrás con los dedos de los pies, llevando los hombros detrás de los codos.",
+    "Continúa este movimiento de sierra durante el número deseado de repeticiones o tiempo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo apretado para evitar que la parte baja de la espalda se hunda o arquee.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y evitar lesiones.",
+    "Asegúrate de que tus hombros permanezcan estables y no se colapsen durante el ejercicio.",
+    "Respira de manera constante durante el movimiento para mantener la resistencia y el control.",
+    "Si sientes tensión en la parte baja de la espalda, ajusta tu forma o reduce el rango de movimiento."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o se eleven, comprometiendo el compromiso del núcleo.",
+    "No mantener una línea recta desde la cabeza hasta los talones.",
+    "Moverse demasiado rápido, reduciendo el control y la efectividad.",
+    "No extender completamente los hombros hacia adelante y hacia atrás.",
+    "Contener la respiración, limitando el flujo de oxígeno y la resistencia.",
+    "Dejar que los hombros se colapsen, aumentando la tensión en el cuello.",
+    "Involucrar la parte baja de la espalda en lugar del núcleo, arriesgando tensión.",
+    "Descuidar alinear las muñecas debajo de los hombros, causando inestabilidad.",
+    "Usar el impulso en lugar de un movimiento muscular controlado."
+  ]
+}

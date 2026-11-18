@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Inclinado con Barra Agarre Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/barbell-reverse-grip-bent-over-row",
+  "video_url": "https://api.smartworkout.app/asset/video/cbedc9e5-2e62-44b1-8e9d-bc9261db5de4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Barbell Reverse Grip Bent Over Row is a compound exercise targeting the upper back, lats, and biceps. It involves pulling a barbell towards the torso while bent over with a supinated (palms facing up) grip. This variation emphasizes the biceps and lower lats more than the traditional bent-over row.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart and hold a barbell with a reverse grip (palms facing up) at shoulder width.",
+    "Bend your knees slightly and hinge at the hips to lower your torso until it's almost parallel to the floor, keeping your back straight.",
+    "Engage your core and keep your head in line with your spine.",
+    "Pull the barbell towards your lower ribcage, squeezing your shoulder blades together at the top of the movement.",
+    "Lower the barbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your back remains straight throughout the exercise to avoid injury.",
+    "Keep your elbows close to your body as you pull the barbell to maximize lat engagement.",
+    "Focus on squeezing your shoulder blades together at the top of each rep for better muscle activation.",
+    "Maintain a slight bend in your knees to help stabilize your body during the movement.",
+    "Use a weight that allows you to perform the exercise with proper form for all repetitions."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and reduced range of motion.",
+    "Rounding the back instead of maintaining a neutral spine, increasing strain on the lower back.",
+    "Pulling with the arms instead of engaging the back muscles, reducing effectiveness.",
+    "Standing too upright, limiting the engagement of the target muscles.",
+    "Jerking the weight up instead of using controlled movements, risking loss of balance.",
+    "Allowing the elbows to flare out, which shifts focus away from the target muscles.",
+    "Not fully extending the arms at the bottom of the movement, limiting range of motion.",
+    "Lifting the barbell too quickly, reducing time under tension for the muscles.",
+    "Failing to keep the core engaged, which can lead to instability."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Prensa de Piernas Horizontal en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/prensa-de-piernas-horizontal-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/1e80d7cd-efae-4b40-8254-1e57e48e9a53.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Prensa de Piernas Horizontal con Palanca es un ejercicio compuesto para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y pantorrillas. Consiste en empujar una plataforma con peso lejos del cuerpo usando las piernas mientras se está sentado en una posición reclinada. Este ejercicio se realiza en una máquina especializada que proporciona estabilidad y soporte, permitiendo un movimiento controlado y reduciendo el riesgo de lesiones.",
+  "como_realizar": [
+    "Ajusta el asiento y el respaldo para que tus rodillas estén en un ángulo de 90 grados cuando tus pies estén en la plataforma.",
+    "Siéntate y coloca tus pies a la altura de los hombros en la plataforma, asegurándote de que tus talones estén planos.",
+    "Agarra las manijas a cada lado del asiento para mantener la estabilidad.",
+    "Activa tu núcleo y presiona la plataforma alejándola al extender tus piernas, manteniendo los pies planos y las rodillas alineadas con los dedos de los pies.",
+    "No bloquees tus rodillas en la parte superior del movimiento; mantén una ligera flexión.",
+    "Vuelve lentamente a la posición inicial doblando las rodillas, controlando el peso mientras regresa hacia ti.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu zona lumbar permanezca en contacto con el asiento durante todo el ejercicio para prevenir tensiones.",
+    "Concéntrate en empujar con los talones para involucrar más los glúteos y los isquiotibiales.",
+    "Mantén tus movimientos suaves y controlados para maximizar el compromiso muscular y minimizar el estrés en las articulaciones.",
+    "Evita que tus rodillas colapsen hacia adentro; mantenlas alineadas con los dedos de los pies para proteger tus articulaciones.",
+    "Exhala al presionar la plataforma y inhala al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Colocar los pies demasiado altos o demasiado bajos en la plataforma, afectando el compromiso muscular.",
+    "Bloquear las rodillas en la parte superior del movimiento, aumentando el estrés en las articulaciones.",
+    "Permitir que las rodillas colapsen hacia adentro, arriesgando una lesión en la rodilla.",
+    "Usar un rango de movimiento limitado, reduciendo la efectividad.",
+    "Levantar las caderas del asiento, aumentando la tensión en la parte baja de la espalda.",
+    "Empujar con los dedos de los pies en lugar de los talones, reduciendo la activación de glúteos y isquiotibiales.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo el compromiso muscular.",
+    "No mantener una columna neutral, arriesgando una lesión en la parte baja de la espalda.",
+    "Descuidar ajustar la posición del asiento, llevando a una forma incorrecta."
+  ]
+}

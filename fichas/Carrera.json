@@ -1,0 +1,54 @@
+{
+  "nombre": "Carrera",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/running",
+  "video_url": "https://api.smartworkout.app/asset/video/30555cfa-cc20-45ca-8055-07a22ef9fbc2.mp4",
+  "tags": [
+    "CARDIO",
+    "MOTOR",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "Running is a cardiovascular exercise that involves moving at a steady pace on foot. It enhances cardiovascular endurance, burns calories, and strengthens muscles, particularly in the legs and core. Running can be performed on a treadmill or outdoors and is adaptable to various fitness levels.",
+  "como_realizar": [
+    "Begin with a warm-up: walk briskly or jog lightly for 5-10 minutes to prepare your body.",
+    "Set your pace: start at a comfortable speed that allows you to maintain a conversation without gasping for air.",
+    "Maintain proper form: keep your head up, shoulders relaxed, and arms bent at a 90-degree angle, swinging naturally with each stride.",
+    "Focus on your foot strike: land softly on the midfoot or forefoot to reduce impact on the joints.",
+    "Breathe rhythmically: inhale and exhale deeply through both your nose and mouth to optimize oxygen intake.",
+    "Cool down after your run: gradually decrease your speed to a walk for 5-10 minutes, allowing your heart rate to return to normal."
+  ],
+  "consejos": [
+    "Invest in quality running shoes that provide adequate support and cushioning to prevent injuries.",
+    "Incorporate interval training by alternating between periods of high intensity and recovery to improve speed and endurance.",
+    "Stay hydrated by drinking water before, during, and after your run, especially in hot weather.",
+    "Listen to your body and adjust your pace if you experience pain or excessive fatigue.",
+    "Include strength training exercises for the legs and core to enhance running performance and reduce injury risk.",
+    "Track your progress using a running app or fitness tracker to stay motivated and set achievable goals."
+  ],
+  "errores_comunes": [
+    "Overstriding, leading to increased impact on joints.",
+    "Heel striking, causing inefficient energy transfer.",
+    "Poor arm swing, reducing momentum and balance.",
+    "Excessive forward lean, straining the lower back.",
+    "Inadequate core engagement, compromising stability.",
+    "Lack of hip extension, limiting stride length.",
+    "Neglecting foot placement, increasing risk of ankle sprains.",
+    "Inconsistent breathing patterns, affecting endurance.",
+    "Tense shoulders, wasting energy and restricting movement.",
+    "Ignoring cadence, leading to inefficient pacing."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Corte de Leña con Banda de Alta a Baja",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/corte-de-lena-con-banda-de-alta-a-baja",
+  "video_url": "https://api.smartworkout.app/asset/video/c899c33e-0594-4ea2-93e5-7bec1ab3bbb5.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR"
+  ],
+  "descripcion": "El Corte de Madera con Banda de Alta a Baja es un ejercicio dinámico que se enfoca en el núcleo, específicamente en los oblicuos, mientras también involucra los hombros y las caderas. Imita el movimiento de cortar madera, utilizando una banda de resistencia para proporcionar tensión durante todo el movimiento. Este ejercicio ayuda a mejorar la fuerza y estabilidad rotacional.",
+  "como_realizar": [
+    "Ancla una banda de resistencia en un punto alto por encima de tu cabeza.",
+    "Párate con los pies separados al ancho de los hombros, perpendicular al punto de anclaje.",
+    "Agarra la banda con ambas manos, con los brazos completamente extendidos por encima de un hombro.",
+    "Activa tu núcleo y rota tu torso mientras tiras de la banda diagonalmente a través de tu cuerpo.",
+    "Termina el movimiento llevando tus manos hacia la rodilla opuesta, manteniendo los brazos rectos.",
+    "Vuelve lentamente a la posición inicial con control.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en las rodillas para una mejor estabilidad.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu espalda baja.",
+    "Concéntrate en usar tu núcleo para impulsar el movimiento en lugar de depender de tus brazos.",
+    "Exhala al tirar de la banda hacia abajo e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tus movimientos sean controlados para maximizar el compromiso muscular y evitar lesiones.",
+    "Ajusta la resistencia de la banda si es necesario para asegurar una forma adecuada y efectividad."
+  ],
+  "errores_comunes": [
+    "Usar demasiada resistencia, lo que lleva a una forma y control comprometidos.",
+    "Rotar las caderas en lugar de mantenerlas estables y activar el core.",
+    "Tirar con los brazos en lugar de iniciar el movimiento desde el core.",
+    "Permitir que las rodillas colapsen hacia adentro, reduciendo la estabilidad.",
+    "No mantener una columna neutral, causando estrés indebido en la espalda.",
+    "No extender completamente los brazos durante el movimiento de corte.",
+    "Moverse demasiado rápido, sacrificando control y precisión.",
+    "No alinear correctamente el punto de anclaje de la banda, afectando la trayectoria del movimiento.",
+    "Descuidar activar los oblicuos, reduciendo la efectividad.",
+    "Pararse demasiado lejos o demasiado cerca del anclaje, alterando la resistencia y el rango de movimiento."
+  ]
+}

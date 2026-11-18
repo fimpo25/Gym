@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo al Mentón con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-upright-row",
+  "video_url": "https://api.smartworkout.app/asset/video/1bc80757-1df3-47d7-baee-6be9e3b9f03c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Dumbbell Upright Row is a compound exercise targeting the shoulders and upper back. It primarily engages the deltoids, trapezius, and biceps, promoting strength and muscle growth in the upper body.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in each hand with an overhand grip.",
+    "Let the dumbbells hang at arm's length in front of you, palms facing your body.",
+    "Keep your back straight, chest up, and core engaged throughout the movement.",
+    "Lift the dumbbells vertically by bending your elbows, keeping them higher than your forearms.",
+    "Continue lifting until the dumbbells reach chest level or slightly below your chin.",
+    "Pause briefly at the top of the movement, ensuring your elbows are pointing outwards.",
+    "Lower the dumbbells back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine and avoid leaning backward or forward during the lift.",
+    "Focus on lifting with your shoulders and not pulling with your arms or wrists.",
+    "Keep your movements smooth and controlled to maximize muscle engagement.",
+    "Avoid using excessive weight to prevent strain on your shoulders and wrists.",
+    "Ensure your elbows remain higher than your wrists throughout the exercise.",
+    "Breath out as you lift the dumbbells and inhale as you lower them back down."
+  ],
+  "errores_comunes": [
+    "Lifting the elbows too high, which can impinge the shoulder joint.",
+    "Using momentum or swinging the weights, reducing muscle engagement.",
+    "Failing to keep the wrists straight, leading to unnecessary wrist strain.",
+    "Allowing the shoulders to shrug, which shifts focus away from the target muscles.",
+    "Pulling the dumbbells too close to the body, limiting the range of motion.",
+    "Not engaging the core, resulting in poor posture and balance.",
+    "Positioning the hands too close together, causing excessive internal shoulder rotation.",
+    "Ignoring controlled movement during both the lift and descent phases."
+  ]
+}

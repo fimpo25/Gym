@@ -1,0 +1,46 @@
+{
+  "nombre": "V-Ups en Suspensión",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/v-ups-en-suspension",
+  "video_url": "https://api.smartworkout.app/asset/video/9e715057-1cdf-4aec-837c-d1d66b01c082.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "Los V-Ups en Suspensión son un ejercicio avanzado para el core que combina los beneficios del entrenamiento en suspensión con el movimiento dinámico de un V-up. Este ejercicio se enfoca en el recto abdominal, los oblicuos y los flexores de la cadera, mientras también activa los músculos estabilizadores de los hombros y la espalda. Requiere un entrenador de suspensión, como TRX, y se realiza levantando simultáneamente la parte superior e inferior del cuerpo de manera controlada.",
+  "como_realizar": [
+    "Asegura el entrenador de suspensión de manera segura por encima de la cabeza y ajusta las correas a la altura de la mitad de la pantorrilla.",
+    "Acuéstate de espaldas con los talones en las cuna de pies del entrenador de suspensión, brazos extendidos por encima de la cabeza.",
+    "Activa tu núcleo y levanta tus piernas y torso simultáneamente para formar una forma de 'V', alcanzando tus manos hacia tus pies.",
+    "Pausa brevemente en la parte superior del movimiento, asegurándote de que tu cuerpo forme una línea recta desde las manos hasta los pies.",
+    "Baja tu cuerpo de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un núcleo fuerte durante todo el ejercicio para prevenir la tensión en la parte baja de la espalda.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Mantén las piernas rectas y evita doblar las rodillas para una efectividad óptima.",
+    "Exhala al levantarte en la posición V e inhala al regresar al inicio.",
+    "Asegúrate de que el entrenador de suspensión esté bien anclado antes de comenzar.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Comenzar con las correas demasiado bajas, reduciendo el rango de movimiento y la efectividad.",
+    "Permitir que las caderas se hundan, lo que lleva a un pobre compromiso del núcleo y un aumento de la tensión en la parte baja de la espalda.",
+    "Balancear las piernas en lugar de levantarlas de manera controlada, reduciendo la activación del núcleo.",
+    "No mantener una columna neutral, lo que puede llevar a un estrés innecesario en la espalda.",
+    "No mantener los hombros estables, causando un movimiento excesivo y una posible tensión en los hombros.",
+    "Usar el impulso para levantar las piernas en lugar de confiar en la fuerza del núcleo, disminuyendo la calidad del entrenamiento.",
+    "Colocar los pies demasiado hacia adelante o hacia atrás, afectando el equilibrio y la eficiencia del ejercicio.",
+    "Descuidar la activación de los glúteos y los isquiotibiales, que son cruciales para la estabilidad en este ejercicio."
+  ]
+}

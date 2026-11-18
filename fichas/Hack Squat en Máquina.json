@@ -1,0 +1,50 @@
+{
+  "nombre": "Hack Squat en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/machine-hack-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/2cbe0e3d-962f-4a51-a4ff-c9df0c1ff1d4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Machine Hack Squat is a compound lower body exercise that targets the quadriceps, glutes, and hamstrings. It is performed using a hack squat machine, which provides support and stability, allowing for controlled movement and reduced risk of injury. This exercise is ideal for building strength and muscle mass in the legs while minimizing strain on the lower back.",
+  "como_realizar": [
+    "Position yourself on the hack squat machine with your back against the pad and shoulders under the shoulder pads.",
+    "Place your feet shoulder-width apart on the platform, with toes slightly pointed out.",
+    "Release the safety handles and extend your legs to lift the weight off the rack.",
+    "Lower your body by bending your knees until your thighs are parallel to the platform or slightly below.",
+    "Push through your heels to extend your legs and return to the starting position.",
+    "Repeat for the desired number of repetitions, then safely re-rack the weight by engaging the safety handles."
+  ],
+  "consejos": [
+    "Ensure your feet are positioned correctly to maintain balance and target the correct muscles.",
+    "Keep your core engaged throughout the movement to support your lower back.",
+    "Avoid locking out your knees at the top of the movement to maintain tension on the muscles.",
+    "Focus on a slow and controlled descent to maximize muscle engagement.",
+    "Breathe in as you lower yourself and exhale as you push back up.",
+    "Adjust foot placement to emphasize different muscles: closer stance for more quadriceps focus, wider stance for more glute and inner thigh activation."
+  ],
+  "errores_comunes": [
+    "Feet positioned too high or too low on the platform, altering the target muscles and increasing knee strain.",
+    "Allowing knees to cave inward, placing undue stress on the knee joints.",
+    "Not maintaining a neutral spine, leading to potential lower back strain.",
+    "Descending too quickly, reducing control and increasing injury risk.",
+    "Not reaching a full range of motion, limiting muscle engagement.",
+    "Locking out knees at the top, removing tension from the muscles.",
+    "Pushing through toes instead of heels, shifting focus away from glutes and hamstrings.",
+    "Failing to engage core muscles, reducing overall stability.",
+    "Using excessive weight, compromising form and control."
+  ]
+}

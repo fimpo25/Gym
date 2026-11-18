@@ -1,0 +1,44 @@
+{
+  "nombre": "Rotación Externa de Hombro Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/rotacion-externa-de-hombro-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/a682813c-b2be-44d2-9f83-d2fdcc337222.mp4",
+  "tags": [
+    "REHAB",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Rotación Externa de Hombro Sentado es un ejercicio de aislamiento que se enfoca en los músculos del manguito rotador, específicamente el infraespinoso y el redondo menor. Se realiza utilizando una banda de resistencia o una máquina de cables para mejorar la estabilidad y movilidad del hombro.",
+  "como_realizar": [
+    "Siéntate en un banco o silla con la espalda recta y los pies planos en el suelo.",
+    "Sujeta una banda de resistencia o configura una máquina de cable a la altura del codo.",
+    "Sostén el mango o la banda con tu brazo de trabajo, manteniendo el codo doblado a 90 grados y cerca de tu costado.",
+    "Comienza con el antebrazo cruzado sobre tu abdomen, luego rota lentamente el brazo hacia afuera, manteniendo el codo fijo en su lugar.",
+    "Continúa la rotación hasta que tu antebrazo esté perpendicular a tu torso o hasta donde sea cómodo sin dolor.",
+    "Pausa brevemente al final del movimiento, luego regresa lentamente a la posición inicial.",
+    "Realiza el número deseado de repeticiones, luego cambia de brazo si es necesario."
+  ],
+  "consejos": [
+    "Mantén una posición neutral de la muñeca durante todo el ejercicio para evitar tensiones innecesarias.",
+    "Mantén tu núcleo comprometido para estabilizar tu torso y prevenir movimientos compensatorios.",
+    "Concéntrate en movimientos lentos y controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Asegúrate de que tu codo permanezca cerca de tu cuerpo para apuntar efectivamente a los músculos del manguito rotador.",
+    "Comienza con una resistencia ligera para dominar la forma adecuada antes de progresar a cargas más pesadas.",
+    "Respira de manera constante, exhalando durante la rotación hacia afuera e inhalando al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a movimientos incontrolados.",
+    "Permitir que el codo se aleje del cuerpo, reduciendo el aislamiento del manguito rotador.",
+    "Rotar el hombro demasiado hacia atrás, causando tensión en la articulación.",
+    "No mantener la muñeca neutral, resultando en tensión innecesaria.",
+    "Involucrar el trapecio superior en lugar de centrarse en el manguito rotador.",
+    "Inclinarse hacia atrás o hacia adelante, comprometiendo la alineación del hombro.",
+    "Usar impulso en lugar de un movimiento controlado y deliberado.",
+    "Descuidar mantener un ángulo de 90 grados en el codo, afectando el rango de movimiento."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Apertura de Pecho con Mancuernas en el Suelo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-pecho-con-mancuernas-en-el-suelo",
+  "video_url": "https://api.smartworkout.app/asset/video/4228f43a-ccb4-43cc-8009-948d658282b8.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura de Pecho con Mancuernas en el Suelo es un ejercicio de aislamiento que se enfoca en los músculos pectorales. Se realiza acostado en el suelo, lo que limita el rango de movimiento y proporciona soporte, convirtiéndolo en una alternativa más segura al ejercicio de apertura en banco para aquellos con preocupaciones en los hombros.",
+  "como_realizar": [
+    "Acuéstate boca arriba en el suelo con las rodillas dobladas y los pies planos.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral (palmas enfrentadas).",
+    "Extiende los brazos por encima del pecho, manteniendo una ligera flexión en los codos.",
+    "Baja lentamente las mancuernas hacia los lados en un arco amplio hasta que la parte superior de los brazos toque el suelo.",
+    "Haz una pausa breve, luego lleva las mancuernas de regreso a la posición inicial usando el mismo arco.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el movimiento para reducir la tensión en las articulaciones.",
+    "Concéntrate en usar los músculos del pecho para controlar el movimiento, no los brazos.",
+    "Mantén un ritmo lento y controlado para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Evita que las mancuernas toquen o reboten en el suelo; deben rozarlo suavemente como máximo.",
+    "Exhala al levantar las pesas y inhala al bajarlas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos bajen demasiado, causando tensión excesiva en los hombros.",
+    "No mantener una ligera flexión en los codos, lo que lleva a estrés en las articulaciones.",
+    "Acercar demasiado las mancuernas en la parte superior, reduciendo la tensión muscular.",
+    "Levantar con los hombros en lugar de involucrar los músculos del pecho.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la estabilidad del núcleo.",
+    "Usar el impulso para levantar las pesas en lugar de una contracción muscular controlada.",
+    "No alinear las muñecas directamente sobre los codos, arriesgando tensión en las muñecas.",
+    "Descuidar mantener los pies planos en el suelo, afectando la estabilidad general."
+  ]
+}

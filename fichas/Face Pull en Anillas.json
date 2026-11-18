@@ -1,0 +1,51 @@
+{
+  "nombre": "Face Pull en Anillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/ring-face-pull",
+  "video_url": "https://api.smartworkout.app/asset/video/8850cb10-49ed-422c-bb72-d1bb5a391988.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Ring Face Pull is an upper body exercise that targets the rear deltoids, upper back, and rotator cuff muscles. It is performed using gymnastic rings, which add an element of instability, engaging the core and stabilizing muscles more than traditional face pulls. This exercise helps improve shoulder health and posture.",
+  "como_realizar": [
+    "Set the gymnastic rings at about chest height.",
+    "Stand facing the rings with your feet shoulder-width apart.",
+    "Grab the rings with a neutral grip (palms facing each other).",
+    "Step back so your body is at an angle, keeping tension on the rings.",
+    "Engage your core and maintain a straight line from head to heels.",
+    "Pull the rings towards your face by driving your elbows out and back.",
+    "Squeeze your shoulder blades together at the top of the movement.",
+    "Slowly extend your arms to return to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your body remains in a straight line throughout the movement to engage your core effectively.",
+    "Focus on squeezing your shoulder blades together as you pull to maximize engagement of the upper back muscles.",
+    "Keep your elbows higher than your wrists during the pull to target the rear deltoids efficiently.",
+    "Control the movement on both the concentric (pulling) and eccentric (releasing) phases for optimal muscle activation.",
+    "Avoid shrugging your shoulders; keep them down and relaxed to prevent unnecessary strain on the neck.",
+    "Adjust the angle of your body to modify difficulty: more upright for easier, more horizontal for harder."
+  ],
+  "errores_comunes": [
+    "Using too much momentum instead of controlled movement.",
+    "Allowing elbows to drop below shoulder height.",
+    "Failing to engage the scapular muscles properly.",
+    "Pulling the rings too far back, causing excessive shoulder extension.",
+    "Letting the wrists bend instead of keeping them neutral.",
+    "Standing too close to the rings, reducing the range of motion.",
+    "Not maintaining a stable core throughout the exercise.",
+    "Allowing the shoulders to internally rotate during the pull.",
+    "Neglecting to keep the neck in a neutral position."
+  ]
+}

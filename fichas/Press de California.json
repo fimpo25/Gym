@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de California",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/press-de-california",
+  "video_url": "https://api.smartworkout.app/asset/video/45e6f17a-fb24-421b-98cb-49c032a62892.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "CHEST"
+  ],
+  "descripcion": "La Prensa California es un ejercicio híbrido que combina elementos del press de banca con agarre cerrado y la extensión de tríceps. Se enfoca en los tríceps, el pecho y los hombros, proporcionando un entrenamiento completo para la parte superior del cuerpo. Este movimiento es particularmente efectivo para desarrollar la fuerza y el tamaño de los tríceps.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo. Agarra la barra con un agarre cerrado, ligeramente más estrecho que el ancho de los hombros.",
+    "Desmonta la barra y colócala sobre tu pecho con los brazos completamente extendidos.",
+    "Baja la barra hacia tu pecho manteniendo los codos cerca de tu cuerpo.",
+    "A medida que la barra se acerca a tu pecho, realiza una extensión de tríceps permitiendo que tus codos se doblen más, llevando la barra hacia tu frente o ligeramente por encima.",
+    "Invierte el movimiento extendiendo tus codos y presionando la barra de regreso a la posición inicial sobre tu pecho.",
+    "Repite para el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad y apoyar la parte baja de la espalda.",
+    "Concéntrate en mantener los codos pegados al cuerpo para maximizar el compromiso de los tríceps y reducir la tensión en los hombros.",
+    "Controla el descenso de la barra para evitar que caiga demasiado rápido, lo que puede aumentar el riesgo de lesiones.",
+    "Asegúrate de una transición suave entre las fases de press de banca y extensión de tríceps para una activación muscular óptima.",
+    "Comienza con un peso más ligero para dominar la forma y la técnica antes de avanzar a cargas más pesadas.",
+    "Inhala al bajar la barra y exhala al presionarla hacia arriba para mantener un ritmo de respiración adecuado."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso de los tríceps.",
+    "Arquear excesivamente la parte baja de la espalda, arriesgando tensión en la columna.",
+    "Bajar la barra demasiado rápido, perdiendo control y estabilidad.",
+    "No extender completamente los brazos en la parte superior, limitando el rango de movimiento.",
+    "Usar el impulso para levantar, disminuyendo la activación muscular.",
+    "Colocar las manos demasiado anchas, desviando el enfoque de los tríceps.",
+    "Bajar la barra demasiado, aumentando la tensión en los hombros.",
+    "Descuidar mantener el núcleo comprometido, comprometiendo el equilibrio."
+  ]
+}

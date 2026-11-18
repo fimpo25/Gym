@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Inclinado con Mancuernas Unilateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inlinado-con-mancuernas-unilateral",
+  "video_url": "https://api.smartworkout.app/asset/video/d0516cca-9186-4551-b164-994f0cacc5a1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca Inclinado con Mancuerna a un Brazo es un ejercicio unilateral que se enfoca principalmente en los músculos pectorales, específicamente en la parte superior del pecho, mientras también involucra los tríceps y los hombros. Realizar este ejercicio en un banco inclinado ayuda a enfatizar la parte superior del pecho, proporcionando un desarrollo equilibrado de los músculos pectorales.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con los pies planos en el suelo, manteniendo una base estable.",
+    "Sujeta una mancuerna en una mano con un agarre neutral (palma hacia adentro).",
+    "Recuéstate en el banco, asegurándote de que tu espalda esté completamente apoyada y tus omóplatos retraídos.",
+    "Coloca la mancuerna a la altura del hombro con el codo doblado aproximadamente a 90 grados.",
+    "Empuja la mancuerna hacia arriba extendiendo el brazo hasta que esté completamente extendido sobre tu pecho.",
+    "Haz una breve pausa en la parte superior, asegurándote de que tu brazo esté recto pero no bloqueado.",
+    "Baja la mancuerna lentamente de nuevo a la posición inicial a la altura del hombro.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante todo el movimiento.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para levantar el peso.",
+    "Asegúrate de que tu muñeca permanezca en una posición neutral para evitar tensiones.",
+    "Exhala al presionar la mancuerna hacia arriba e inhala al bajarla.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia.",
+    "Mantén una presión uniforme a través de ambos pies para estabilizar tu cuerpo durante el levantamiento."
+  ],
+  "errores_comunes": [
+    "Permitir que el omóplato se levante del banco, reduciendo la estabilidad y el compromiso muscular.",
+    "Abrir demasiado el codo, lo que puede forzar la articulación del hombro.",
+    "Arquear excesivamente la parte baja de la espalda, lo que lleva a una mala forma y posible incomodidad.",
+    "Bajar demasiado la mancuerna, causando un estrés innecesario en el hombro.",
+    "Usar el impulso para levantar el peso en lugar de un compromiso muscular controlado.",
+    "No mantener la muñeca recta, lo que lleva a una distribución incorrecta de la fuerza.",
+    "No alinear la mancuerna directamente sobre la articulación del hombro en la parte superior del press.",
+    "Descuidar el compromiso del core, resultando en una falta de estabilidad general del cuerpo.",
+    "Apresurarse en el movimiento, comprometiendo el control y la efectividad."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Toques de Tobillo",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/toques-de-tobillo",
+  "video_url": "https://api.smartworkout.app/asset/video/4af8a144-1fcf-4874-b65c-f0701180c46b.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El giro de torso acostado es un ejercicio abdominal que se enfoca en los músculos oblicuos. Implica rotar la parte inferior del cuerpo mientras se mantiene estable la parte superior, mejorando la fuerza y flexibilidad del núcleo.",
+  "como_realizar": [
+    "Acuéstate boca arriba con los brazos extendidos a los lados, palmas hacia abajo para estabilidad.",
+    "Dobla las rodillas y levanta las piernas de manera que tus muslos estén perpendiculares al suelo y tus pantorrillas estén paralelas.",
+    "Activa los músculos del core para estabilizar tu columna.",
+    "Baja lentamente las piernas hacia un lado, manteniendo los hombros planos en el suelo.",
+    "Haz una pausa breve cuando tus piernas estén cerca del suelo, luego regresa a la posición inicial usando los músculos del core.",
+    "Repite el movimiento en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Concéntrate en mantener tus hombros y parte superior de la espalda presionados contra el suelo durante todo el ejercicio.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Exhala al bajar las piernas e inhala al regresar a la posición central.",
+    "Si sientes tensión en la parte baja de la espalda, reduce el rango de movimiento o mantén los pies más cerca del suelo."
+  ],
+  "errores_comunes": [
+    "Levantar la cabeza demasiado alto del suelo, causando tensión en el cuello.",
+    "No activar el core, lo que lleva a un movimiento ineficaz.",
+    "Alcanzar con los brazos en lugar de usar los oblicuos para girar.",
+    "Permitir que la parte baja de la espalda se arquee del suelo, reduciendo la activación del core.",
+    "Moverse demasiado rápido, sacrificando control y precisión.",
+    "No mantener un patrón de respiración consistente, afectando la resistencia.",
+    "Sobreextender el alcance, llevando a una forma incorrecta y efectividad reducida.",
+    "Mantener los pies demasiado juntos, limitando el rango de movimiento."
+  ]
+}

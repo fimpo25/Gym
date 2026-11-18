@@ -1,0 +1,44 @@
+{
+  "nombre": "Sujeción de Cuerpo Hueco con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/sujecion-de-cuerpo-hueco-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/e658baee-8487-4f4f-a976-8303dc4774a3.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Sostén Hueco con Peso es un ejercicio de fortalecimiento del núcleo que consiste en mantener una posición hueca mientras se sostiene peso adicional. Este ejercicio se enfoca en los músculos abdominales, los flexores de la cadera y mejora la estabilidad general del núcleo.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta, con los brazos extendidos por encima de la cabeza y las piernas rectas.",
+    "Sujeta un disco de pesas o una mancuerna con ambas manos por encima de tu pecho.",
+    "Activa tu núcleo llevando el ombligo hacia la columna vertebral.",
+    "Levanta los hombros y las piernas del suelo, creando una forma 'hueca' con tu cuerpo.",
+    "Mantén la parte baja de la espalda presionada contra el suelo para evitar arquearla.",
+    "Mantén esta posición, manteniendo el peso estable por encima de ti, durante la duración deseada.",
+    "Baja lentamente los hombros y las piernas de nuevo a la posición inicial para completar el ejercicio."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda baja permanezca en contacto con el suelo durante todo el ejercicio para proteger tu columna.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a pesos más pesados.",
+    "Concéntrate en respirar de manera constante; inhala por la nariz y exhala por la boca.",
+    "Si sientes tensión en el cuello, intenta meter ligeramente la barbilla hacia el pecho.",
+    "Mantén la tensión en tu núcleo en todo momento para maximizar la efectividad y prevenir lesiones.",
+    "Ajusta la altura de tus piernas; bajarlas aumenta la dificultad, mientras que levantarlas lo hace más fácil."
+  ],
+  "errores_comunes": [
+    "Arquear la parte baja de la espalda en lugar de mantenerla plana contra el suelo.",
+    "Sostener el peso demasiado alto, causando tensión en el cuello y desactivación de los músculos del core.",
+    "Dejar caer los hombros al suelo en lugar de mantenerlos elevados.",
+    "Levantar las piernas demasiado alto, reduciendo la activación del core y aumentando la tensión en la parte baja de la espalda.",
+    "No activar el core, lo que resulta en una estabilidad y control deficientes.",
+    "Permitir que el peso se mueva, lo que interrumpe el equilibrio y la activación del core.",
+    "Mantener la posición durante demasiado tiempo, lo que lleva a la fatiga muscular y a una forma comprometida.",
+    "Usar el impulso para mantener la posición en lugar de confiar en la fuerza muscular."
+  ]
+}

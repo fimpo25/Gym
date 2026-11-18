@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Inclinado en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inclinado-en-multipower",
+  "video_url": "https://api.smartworkout.app/asset/video/e576a629-7546-4b4d-98a3-51f73340c6dc.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho Inclinado en Smith es un ejercicio compuesto que se enfoca en la parte superior de los músculos pectorales, utilizando la máquina Smith para un movimiento guiado. Este ejercicio permite un levantamiento controlado con mayor estabilidad, lo que lo hace adecuado tanto para principiantes como para levantadores avanzados que buscan mejorar el desarrollo del pecho superior.",
+  "como_realizar": [
+    "Ajusta el banco a un ángulo inclinado de aproximadamente 30-45 grados bajo la barra de la máquina Smith.",
+    "Colócate en el banco con la espalda firmemente contra él y los pies planos en el suelo.",
+    "Agarra la barra un poco más ancha que el ancho de los hombros, asegurando que las muñecas estén rectas y alineadas con los antebrazos.",
+    "Desmonta la barra girándola hacia adelante y colócala directamente sobre la parte superior de tu pecho.",
+    "Inhala y baja la barra lentamente hacia tu pecho, manteniendo los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Pausa brevemente cuando la barra esté justo por encima de tu pecho sin rebotar.",
+    "Exhala y presiona la barra de nuevo hacia la posición inicial, asegurando que los brazos estén completamente extendidos pero no bloqueados.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que el banco esté bien posicionado antes de comenzar para evitar cualquier movimiento durante el ejercicio.",
+    "Mantén un ritmo controlado durante todo el ejercicio, enfocándote tanto en la fase excéntrica (bajar) como en la concéntrica (presionar).",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y evitar el arqueo de la espalda.",
+    "Ajusta el ángulo de inclinación si es necesario para apuntar a diferentes áreas del pecho de manera más efectiva.",
+    "Calienta adecuadamente antes de intentar pesos más pesados para reducir el riesgo de lesiones.",
+    "Usa un observador si levantas pesado para garantizar la seguridad, especialmente cuando te acerques a la fatiga muscular."
+  ],
+  "errores_comunes": [
+    "Ajustar el banco en un ángulo demasiado pronunciado, lo que desvía el enfoque del pecho a los hombros.",
+    "Colocar las manos demasiado anchas o demasiado estrechas en la barra, lo que lleva a un compromiso inadecuado de los músculos del pecho.",
+    "No mantener un ligero arco en la parte baja de la espalda, lo que puede reducir la activación del pecho.",
+    "Permitir que la barra rebote en el pecho, reduciendo la tensión muscular y el control.",
+    "Bajar la barra demasiado, causando una tensión excesiva en los hombros.",
+    "Empujar la barra de manera desigual, lo que lleva a un desequilibrio muscular y reduce la efectividad.",
+    "Usar el impulso para levantar la barra en lugar de una contracción muscular controlada.",
+    "No alinear la trayectoria de la barra con la parte superior del pecho, lo que puede desviar la tensión de los músculos objetivo.",
+    "Bloquear los codos en la parte superior, reduciendo el tiempo bajo tensión para los músculos del pecho.",
+    "Descuidar el compromiso del núcleo, lo que puede llevar a la inestabilidad durante el levantamiento."
+  ]
+}

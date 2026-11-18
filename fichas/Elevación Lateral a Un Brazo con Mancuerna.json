@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevación Lateral a Un Brazo con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-dumbbell-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/96f2483b-893e-49d7-a94d-4a86cce11317.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "FOREARMS"
+  ],
+  "descripcion": "The One Arm Dumbbell Lateral Raise is an isolation exercise targeting the lateral deltoid muscle. It helps in building shoulder width and strength by lifting a dumbbell to the side of the body with one arm. This exercise is typically performed standing, allowing for greater range of motion and unilateral focus.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in one hand with a neutral grip.",
+    "Keep your core engaged and maintain a slight bend in your knees.",
+    "Position your working arm slightly bent at the elbow, with the dumbbell resting against your outer thigh.",
+    "Exhale as you raise the dumbbell to the side until your arm is parallel to the floor.",
+    "Pause briefly at the top of the movement, ensuring your wrist is in line with your shoulder.",
+    "Inhale as you slowly lower the dumbbell back to the starting position.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Focus on lifting with your shoulder, not your hand, to effectively target the lateral deltoid.",
+    "Avoid using momentum; control the movement throughout for maximum muscle engagement.",
+    "Keep your torso stationary and avoid leaning to either side during the lift.",
+    "Start with a lighter weight to ensure proper form and gradually increase as you build strength.",
+    "Maintain a slight bend in your elbow throughout the exercise to reduce strain on the joint.",
+    "Perform this exercise in front of a mirror to monitor form and ensure balanced movement on both sides."
+  ],
+  "errores_comunes": [
+    "Using too heavy a weight, leading to momentum-driven movement rather than controlled muscle engagement.",
+    "Raising the dumbbell above shoulder height, which can cause unnecessary strain on the shoulder joint.",
+    "Shrugging the shoulder during the lift, which shifts focus away from the lateral deltoid to the trapezius.",
+    "Bending the elbow excessively, turning the exercise into a bicep curl rather than a lateral raise.",
+    "Leaning the torso to the opposite side, which reduces the effectiveness of the lateral deltoid activation.",
+    "Swinging the dumbbell instead of lifting it, resulting in poor muscle control and engagement.",
+    "Failing to maintain a neutral wrist position, which can lead to wrist strain.",
+    "Not keeping the core engaged, causing instability and potential lower back strain.",
+    "Allowing the shoulder blade to protract excessively, reducing the isolation of the lateral deltoid."
+  ]
+}

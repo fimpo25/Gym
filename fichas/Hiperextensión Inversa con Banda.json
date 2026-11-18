@@ -1,0 +1,48 @@
+{
+  "nombre": "Hiperextensión Inversa con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/hiperextension-inversa-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/8d9c217e-2483-4509-ac1c-89c7f177bdff.mp4",
+  "tags": [
+    "STRENGTH",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS"
+  ],
+  "descripcion": "La Hiperextensión Inversa con Banda es un ejercicio que se enfoca en la parte baja de la espalda, los glúteos y los isquiotibiales. Consiste en extender las caderas mientras se está acostado boca abajo en un banco o plataforma, utilizando bandas de resistencia para añadir tensión y mejorar la activación muscular.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje estable a nivel del suelo.",
+    "Acuéstate boca abajo en un banco con las caderas en el borde y las piernas colgando.",
+    "Coloca la banda de resistencia alrededor de tus tobillos.",
+    "Agarra los lados del banco para mantener la estabilidad.",
+    "Activa tu núcleo y glúteos, luego levanta las piernas hacia arriba extendiendo tus caderas.",
+    "Levanta las piernas hasta que estén en línea con tu torso, manteniéndolas rectas.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando los glúteos.",
+    "Baja lentamente las piernas de regreso a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien anclada para evitar que se deslice durante el ejercicio.",
+    "Mantén una columna neutral durante todo el movimiento para evitar tensiones en la parte baja de la espalda.",
+    "Concéntrate en apretar los glúteos en la parte superior de cada repetición para una máxima activación.",
+    "Controla el descenso de tus piernas para mantener la tensión en los músculos y evitar el impulso.",
+    "Ajusta la tensión de la banda de resistencia cambiando su longitud o usando una banda de diferente resistencia si es necesario."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda durante el movimiento.",
+    "Usar impulso en lugar de un compromiso muscular controlado.",
+    "Permitir que la banda se afloje, reduciendo la tensión y efectividad.",
+    "Levantar las piernas demasiado alto, causando hiperextensión de la columna.",
+    "No comprometer adecuadamente los glúteos y los isquiotibiales.",
+    "Colocar el cuerpo demasiado hacia adelante o hacia atrás en el banco.",
+    "No mantener el núcleo comprometido, lo que lleva a la inestabilidad.",
+    "Realizar el ejercicio demasiado rápido, sacrificando la forma por la velocidad."
+  ]
+}

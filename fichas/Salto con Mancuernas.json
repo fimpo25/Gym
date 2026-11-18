@@ -1,0 +1,50 @@
+{
+  "nombre": "Salto con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/salto-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/3b2c2e24-0bf8-46e9-a11f-462820243e9e.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Salto con Mancuernas es un ejercicio dinámico que combina fuerza y pliometría para mejorar la potencia explosiva, especialmente en la parte inferior del cuerpo. Se enfoca principalmente en los cuádriceps, isquiotibiales, glúteos y pantorrillas, mientras también involucra el core para la estabilidad.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano a los lados.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras doblas las rodillas y bajas a una posición de sentadilla.",
+    "Empuja explosivamente con los talones para saltar hacia arriba lo más alto posible.",
+    "Mientras saltas, mantén las mancuernas a los lados sin balancearlas.",
+    "Aterriza suavemente sobre las puntas de los pies, doblando inmediatamente las rodillas para absorber el impacto y volver a la posición de sentadilla.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus rodillas no se extiendan más allá de tus dedos de los pies durante la sentadilla para proteger tus articulaciones.",
+    "Mantén una columna neutral durante todo el movimiento para evitar tensiones en la espalda.",
+    "Concéntrate en un descenso controlado al aterrizar para minimizar el impacto en tus articulaciones.",
+    "Comienza con pesas más ligeras para dominar la forma antes de avanzar a mancuernas más pesadas.",
+    "Mantén tus movimientos suaves y controlados, evitando cualquier movimiento brusco.",
+    "Inhala al bajar en la sentadilla y exhala con fuerza al saltar."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, causando pérdida de control y forma inadecuada.",
+    "No mantener el core comprometido, lo que lleva a inestabilidad durante el salto.",
+    "No mantener una columna neutral, aumentando el riesgo de tensión en la espalda.",
+    "Aterrizar con las rodillas bloqueadas, lo que puede llevar a estrés en las articulaciones.",
+    "Permitir que las mancuernas se balanceen, reduciendo el control y la efectividad.",
+    "No usar un rango completo de movimiento, limitando la activación muscular.",
+    "Saltar con los pies demasiado juntos, afectando el equilibrio y la potencia.",
+    "Descuidar doblar adecuadamente las rodillas durante la fase de aterrizaje."
+  ]
+}

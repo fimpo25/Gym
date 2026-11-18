@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación Frontal Martillo Alterno con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-alternate-hammer-front-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/2947dd5a-6b54-4d61-891a-852895fa5857.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "The Dumbbell Standing Alternate Hammer Front Raise is an isolation exercise targeting the anterior deltoids, with secondary engagement of the lateral deltoids, upper pectorals, and trapezius. This exercise involves lifting dumbbells in a hammer grip position alternately in front of the body, enhancing shoulder strength and stability.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and hold a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Keep your arms fully extended at your sides with a slight bend in the elbows.",
+    "Engage your core and maintain a straight back throughout the movement.",
+    "Raise one dumbbell in front of you to shoulder height while keeping your palm facing inward.",
+    "Lower the dumbbell back to the starting position in a controlled manner.",
+    "Simultaneously, raise the opposite dumbbell to shoulder height as you lower the first one.",
+    "Continue alternating arms for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on controlled movements to maximize muscle engagement and prevent injury.",
+    "Avoid swinging or using momentum to lift the weights; maintain strict form.",
+    "Keep your shoulders down and relaxed to prevent tension in the neck.",
+    "Exhale as you lift the dumbbell and inhale as you lower it.",
+    "Start with lighter weights to master form before progressing to heavier loads.",
+    "Ensure your wrists remain neutral and aligned with your forearms throughout the exercise."
+  ],
+  "errores_comunes": [
+    "Swinging the body or using momentum to lift the weights instead of controlled muscle engagement.",
+    "Lifting the dumbbells too high, past shoulder level, which can strain the shoulder joints.",
+    "Allowing the elbows to bend, reducing the effectiveness of the exercise on the target muscles.",
+    "Leaning back excessively, which shifts tension away from the shoulders and onto the lower back.",
+    "Failing to keep the wrists neutral, leading to unnecessary strain on the wrist joints.",
+    "Not engaging the core, resulting in poor posture and reduced stability during the movement.",
+    "Raising both arms simultaneously instead of alternating, which can lead to fatigue and form breakdown.",
+    "Using weights that are too heavy, compromising form and increasing the risk of injury."
+  ]
+}

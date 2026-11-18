@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Inclinado con Barra desde Soporte",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/barbell-bent-over-row-from-pin",
+  "video_url": "https://api.smartworkout.app/asset/video/cb9d90dc-949d-40a2-875e-ad8eea0d41dc.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Barbell Bent Over Row From Pin is a compound exercise targeting the back muscles, primarily the latissimus dorsi, rhomboids, and trapezius. It involves pulling a barbell from a dead stop on safety pins set at knee height or slightly below, emphasizing strength and power in the upper back.",
+  "como_realizar": [
+    "Set the safety pins in a power rack to knee height or slightly below.",
+    "Place the barbell on the pins and stand with your feet shoulder-width apart.",
+    "Bend at the hips and knees to grip the barbell with an overhand grip, hands slightly wider than shoulder-width.",
+    "Keep your back straight and core engaged as you lift the barbell off the pins.",
+    "Pull the barbell towards your lower chest or upper abdomen, keeping elbows close to your body.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Lower the barbell back to the pins in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your back remains flat throughout the exercise to avoid injury.",
+    "Engage your core to maintain stability and support your lower back.",
+    "Focus on pulling with your back muscles rather than your arms.",
+    "Use a weight that allows you to maintain proper form throughout all repetitions.",
+    "Control the descent of the barbell to maximize muscle engagement.",
+    "Breath out as you pull the barbell up and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to compromised form.",
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Pulling the bar with the arms rather than engaging the back muscles.",
+    "Elevating the shoulders instead of keeping them retracted.",
+    "Bouncing the bar off the pins instead of lifting with control.",
+    "Not setting the pins at the correct height for proper range of motion.",
+    "Standing too upright, reducing the effectiveness of the exercise.",
+    "Allowing the wrists to bend excessively, straining them.",
+    "Failing to engage the core for stability.",
+    "Using momentum instead of controlled muscle contraction."
+  ]
+}

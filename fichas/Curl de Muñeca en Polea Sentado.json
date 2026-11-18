@@ -1,0 +1,44 @@
+{
+  "nombre": "Curl de Muñeca en Polea Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-en-polea-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/5cfbf216-386b-4758-8f37-cdf95fa72e35.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca con Cable es un ejercicio de aislamiento que se enfoca en los músculos del antebrazo, específicamente en los flexores de la muñeca. Implica el uso de una máquina de cable para proporcionar tensión constante durante el movimiento, mejorando el compromiso y el crecimiento muscular.",
+  "como_realizar": [
+    "Conecta una barra recta a la polea baja de una máquina de cables.",
+    "Siéntate en un banco frente a la máquina de cables, con los pies planos en el suelo.",
+    "Agarra la barra con un agarre en supinación, manos a la altura de los hombros.",
+    "Apoya tus antebrazos en tus muslos, permitiendo que tus muñecas se extiendan sobre tus rodillas.",
+    "Lentamente riza tus muñecas hacia arriba, apretando tus antebrazos en la parte superior del movimiento.",
+    "Baja la barra de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos estacionarios y cerca de tu cuerpo durante todo el ejercicio.",
+    "Concéntrate en usar solo los flexores de la muñeca para levantar el peso; evita usar los bíceps o los hombros.",
+    "Usa un peso más ligero para mantener el control y prevenir la tensión en tus muñecas.",
+    "Realiza el movimiento lentamente para maximizar la tensión muscular y la efectividad.",
+    "Asegúrate de tener un rango completo de movimiento extendiendo y flexionando completamente las muñecas.",
+    "Mantén una columna neutral y evita inclinarte hacia adelante o hacia atrás durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, causando balanceo excesivo y momentum.",
+    "Permitir que los codos se levanten de los muslos, reduciendo la aislación de los músculos del antebrazo.",
+    "Rizar las muñecas demasiado hacia arriba, provocando tensión innecesaria en las muñecas.",
+    "No extender completamente las muñecas hacia abajo, limitando el rango de movimiento.",
+    "Agarrar la barra demasiado fuerte, causando fatiga prematura en el antebrazo.",
+    "Inclinarse hacia atrás o hacia adelante, comprometiendo la postura y la estabilidad del core.",
+    "Descuidar mantener las muñecas alineadas con los antebrazos, arriesgando tensión.",
+    "Apresurarse en las repeticiones sin movimientos controlados, reduciendo la efectividad."
+  ]
+}

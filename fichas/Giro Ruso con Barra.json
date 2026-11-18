@@ -1,0 +1,44 @@
+{
+  "nombre": "Giro Ruso con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-ruso-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/fd9ade9d-d982-4f3c-9a31-42103315bbac.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro Ruso con barra es un ejercicio para el core que se enfoca en los músculos oblicuos, mejorando la fuerza y estabilidad rotacional. Este ejercicio consiste en sostener una barra con ambas manos y rotar el torso de lado a lado mientras se mantiene una posición sentada con los pies elevados del suelo.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos en el suelo.",
+    "Sujeta una barra con ambas manos, manteniendo los brazos ligeramente doblados.",
+    "Inclínate ligeramente hacia atrás, activando tu core, y levanta los pies del suelo.",
+    "Gira tu torso hacia la derecha, llevando la barra al lado de tu cadera.",
+    "Vuelve al centro y luego gira hacia la izquierda.",
+    "Continúa alternando lados de manera controlada."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu espalda baja.",
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Evita usar el impulso; concéntrate en usar tus oblicuos para impulsar el movimiento.",
+    "Mantén los hombros relajados y evita encorvarlos hacia las orejas.",
+    "Si eres nuevo en este ejercicio, comienza con una barra más ligera o incluso un disco de pesas."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que limita el rango de movimiento y el control.",
+    "Inclinarse hacia atrás en exceso, reduciendo el compromiso del core.",
+    "Girar solo los hombros en lugar de todo el torso.",
+    "Levantar la barra demasiado alto, causando tensión en los hombros.",
+    "Moverse demasiado rápido, llevando a un movimiento basado en el impulso en lugar de un giro controlado.",
+    "No mantener los pies planos en el suelo, lo que afecta la estabilidad.",
+    "Permitir que las rodillas se tambaleen, lo que indica falta de estabilidad del core.",
+    "No mantener la columna recta, lo que lleva a una mala postura.",
+    "Sujetar la barra de manera desigual, causando un giro desequilibrado."
+  ]
+}

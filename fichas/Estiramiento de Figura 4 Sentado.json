@@ -1,0 +1,43 @@
+{
+  "nombre": "Estiramiento de Figura 4 Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/estiramiento-de-figura-4-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/ba3a5039-28df-48ef-b44b-c18f89c05410.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento en Figura 4 Sentado es un ejercicio de flexibilidad que se enfoca en los músculos de la cadera y los glúteos. Ayuda a mejorar la movilidad de la cadera y puede aliviar la tensión en la parte baja de la espalda. Este estiramiento se realiza sentado, lo que lo hace accesible y fácil de integrar en una rutina de ejercicios.",
+  "como_realizar": [
+    "Siéntate en el suelo con las piernas extendidas rectas frente a ti.",
+    "Dobla la rodilla derecha y coloca el tobillo derecho sobre la rodilla izquierda, formando una figura en '4' con las piernas.",
+    "Mantén la espalda recta e inclínate suavemente hacia adelante desde las caderas, llevando el pecho hacia las piernas.",
+    "Mantén el estiramiento durante 20-30 segundos, sintiendo el estiramiento en la cadera y el glúteo derecho.",
+    "Cambia de pierna y repite el estiramiento en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén la espalda recta para evitar forzar la parte baja de la espalda.",
+    "Si sientes incomodidad en la rodilla, ajusta la posición del pie o reduce la inclinación hacia adelante.",
+    "Concéntrate en la respiración profunda para mejorar la relajación y aumentar la efectividad del estiramiento.",
+    "Asegúrate de que ambos isquiones permanezcan en el suelo para mantener el equilibrio y la forma adecuada.",
+    "Realiza este estiramiento después de un entrenamiento cuando los músculos estén calientes para obtener mejores ganancias de flexibilidad."
+  ],
+  "errores_comunes": [
+    "No mantener la espalda recta, lo que lleva a una mala postura y reduce la efectividad del estiramiento.",
+    "Colocar el pie demasiado cerca del cuerpo, limitando el estiramiento en los músculos de la cadera y los glúteos.",
+    "Permitir que la rodilla de la pierna doblada se eleve demasiado, reduciendo la intensidad del estiramiento.",
+    "Inclinarse hacia adelante en exceso, lo que puede tensar la parte baja de la espalda.",
+    "No activar el core, lo que lleva a inestabilidad y pérdida de control.",
+    "Rebotar o sacudir el cuerpo hacia adelante, arriesgando una distensión muscular.",
+    "No mantener el pie de la pierna doblada flexionado, lo que puede causar molestias en la rodilla.",
+    "Permitir que los hombros se encorven, reduciendo el estiramiento en la parte superior del cuerpo."
+  ]
+}

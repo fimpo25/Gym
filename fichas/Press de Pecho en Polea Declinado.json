@@ -1,0 +1,50 @@
+{
+  "nombre": "Press de Pecho en Polea Declinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-pecho-en-polea-declinado",
+  "video_url": "https://api.smartworkout.app/asset/video/c63817d5-8f9b-4d93-80c6-0639a56f2064.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho en Polea Declinado es un ejercicio de aislamiento que se enfoca en la parte inferior de los músculos pectorales. Implica el uso de una máquina de poleas con un banco declinado para presionar las manijas hacia adelante, simulando el movimiento de un press de banca declinado. Este ejercicio ayuda a desarrollar la parte inferior del pecho y a mejorar la definición general del pecho.",
+  "como_realizar": [
+    "Coloca un banco declinado a un ángulo de 15-30 grados frente a una máquina de cables.",
+    "Acopla las asas a las poleas bajas en ambos lados de la máquina.",
+    "Recuéstate en el banco declinado con los pies asegurados bajo las almohadillas para pies.",
+    "Agarra las asas con un agarre por encima, palmas hacia adelante, y coloca tus manos a nivel del pecho.",
+    "Activa tu núcleo y presiona las asas hacia arriba y ligeramente hacia adentro hasta que tus brazos estén completamente extendidos.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando tensión en los músculos del pecho.",
+    "Baja lentamente las asas de regreso a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos ligeramente doblados en la parte superior para mantener la tensión en el pecho.",
+    "Asegúrate de que tu espalda permanezca plana contra el banco durante todo el ejercicio.",
+    "Concéntrate en apretar los músculos del pecho mientras presionas las manijas hacia arriba.",
+    "Evita bloquear completamente los codos para proteger tus articulaciones.",
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Exhala al presionar hacia arriba e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Permitir que los hombros se inclinen hacia adelante, reduciendo el compromiso del pecho.",
+    "Abrir los codos demasiado, aumentando la tensión en los hombros.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la estabilidad del núcleo.",
+    "Usar el impulso para empujar el peso, disminuyendo la activación muscular.",
+    "No retraer completamente las escápulas, limitando el rango de movimiento.",
+    "Colocar los cables demasiado altos, desviando el enfoque del pecho.",
+    "No mantener una posición neutral de la muñeca, arriesgando tensión en la muñeca.",
+    "Juntar las manijas demasiado rápido, reduciendo el tiempo bajo tensión.",
+    "Descuidar mantener los pies firmemente plantados, afectando la estabilidad general.",
+    "No controlar la fase excéntrica, llevando a un pobre control muscular."
+  ]
+}

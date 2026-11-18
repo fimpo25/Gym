@@ -1,0 +1,53 @@
+{
+  "nombre": "Sentadilla en Pared con Balón de Estabilidad",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/stabillity-ball-wall-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/ac08cf1b-b9d6-41a6-8282-b2b68cec3a25.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Stability Ball Wall Squat is an exercise that targets the quadriceps, hamstrings, glutes, and core muscles. It involves using a stability ball placed between your lower back and a wall to perform a squat with added support and balance challenge.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, positioning a stability ball between your lower back and a wall.",
+    "Lean back slightly against the ball, ensuring it is secure and stable.",
+    "Engage your core muscles and keep your chest up.",
+    "Slowly bend your knees and lower your body into a squat position, keeping your knees aligned with your toes.",
+    "Descend until your thighs are parallel to the ground or as low as comfortable without losing form.",
+    "Pause briefly at the bottom of the squat.",
+    "Push through your heels to return to the starting position, keeping the movement controlled.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the stability ball is properly inflated for optimal support.",
+    "Keep your weight distributed evenly through your heels to maintain balance.",
+    "Avoid letting your knees extend past your toes during the squat to protect your joints.",
+    "Maintain a neutral spine throughout the movement to prevent strain on your back.",
+    "Focus on engaging your core muscles to enhance stability and control.",
+    "Perform the exercise slowly to maximize muscle engagement and minimize risk of injury.",
+    "Adjust foot placement if necessary to find a comfortable and stable position."
+  ],
+  "errores_comunes": [
+    "Placing the stability ball too high or too low on the back, leading to improper support and balance.",
+    "Allowing knees to extend beyond toes, increasing strain on the knee joints.",
+    "Failing to maintain a straight line from head to tailbone, resulting in poor posture and reduced core engagement.",
+    "Not keeping feet shoulder-width apart, compromising stability and effectiveness.",
+    "Descending too quickly, reducing control and increasing the risk of losing balance.",
+    "Rising too quickly, which can lead to momentum-based movement rather than muscle engagement.",
+    "Not squatting deep enough to engage the glutes and quads effectively.",
+    "Allowing heels to lift off the ground, reducing stability and increasing pressure on the balls of the feet.",
+    "Arching the lower back excessively, which can lead to lower back strain.",
+    "Failing to engage the core, resulting in less support for the spine and reduced overall effectiveness."
+  ]
+}

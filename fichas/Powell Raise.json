@@ -1,0 +1,46 @@
+{
+  "nombre": "Powell Raise",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/powell-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/7ff60930-6e19-4c76-a671-a3db696cd993.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Dumbbell Powell Raise is an isolation exercise targeting the rear deltoids, part of the shoulder muscle group. It is performed with a single dumbbell, focusing on shoulder stabilization and control. This exercise helps improve shoulder symmetry and posture by strengthening the often underdeveloped rear deltoids.",
+  "como_realizar": [
+    "Begin by lying on your side on a bench, with your upper body supported and your lower body hanging off the edge.",
+    "Hold a dumbbell in your top hand with a neutral grip (palm facing down) and let it hang straight down from your shoulder.",
+    "Keep your core engaged and your body stable throughout the movement.",
+    "Slowly raise the dumbbell upward in an arc until your arm is parallel to the ground, keeping a slight bend in your elbow.",
+    "Pause briefly at the top of the movement, ensuring you feel the contraction in your rear deltoid.",
+    "Lower the dumbbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Focus on maintaining a slow and controlled motion to maximize muscle engagement.",
+    "Avoid using momentum or swinging the weight; this ensures that the rear deltoids are doing most of the work.",
+    "Keep your shoulders relaxed and avoid shrugging them during the lift to prevent tension in the neck.",
+    "Ensure that your core is tight to stabilize your body and prevent unnecessary movement.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Breathe out as you lift the dumbbell and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Lifting the arm too high, causing shoulder impingement.",
+    "Using momentum instead of controlled movement.",
+    "Allowing the torso to rotate, losing isolation of the rear deltoid.",
+    "Failing to keep the arm slightly bent, putting strain on the elbow.",
+    "Engaging the trapezius instead of focusing on the rear deltoid.",
+    "Not maintaining a stable position with the supporting hand and knee.",
+    "Performing the exercise too quickly, reducing muscle engagement.",
+    "Neglecting to keep the head and neck in a neutral position."
+  ]
+}

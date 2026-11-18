@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo con Barra en T con Apoyo en Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/t-bar-chest-suported-row",
+  "video_url": "https://api.smartworkout.app/asset/video/9e528c53-154a-49ac-98ac-763da1ff569d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The T-Bar Chest Supported Row is a compound back exercise targeting the middle and upper back muscles, including the rhomboids, trapezius, and latissimus dorsi. It minimizes lower back strain by providing chest support, allowing for heavier lifting with proper form.",
+  "como_realizar": [
+    "Adjust the chest pad on the T-Bar row machine to align with your chest when seated.",
+    "Sit on the bench and plant your feet firmly on the ground.",
+    "Lean forward to grasp the handles with a neutral grip, keeping your chest against the pad.",
+    "Engage your core and retract your shoulder blades.",
+    "Pull the handles towards your torso, squeezing your shoulder blades together at the top of the movement.",
+    "Slowly extend your arms to return to the starting position without losing tension in your back muscles.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your chest remains in contact with the pad throughout the exercise to maintain stability.",
+    "Focus on pulling with your back muscles rather than your arms to maximize engagement.",
+    "Keep a controlled tempo; avoid using momentum to lift the weight.",
+    "Breathe out as you pull the handles towards you and inhale as you return to the starting position.",
+    "Adjust the weight so that you can perform each rep with proper form without straining."
+  ],
+  "errores_comunes": [
+    "Lifting the chest off the pad, which reduces stability and shifts focus away from the target muscles.",
+    "Using momentum by jerking the weight, leading to reduced muscle engagement and control.",
+    "Allowing the elbows to flare out excessively, which can strain the shoulder joint.",
+    "Not fully retracting the shoulder blades, resulting in limited back muscle activation.",
+    "Pulling the bar too high, engaging more biceps than back muscles.",
+    "Letting the wrists bend excessively, which can lead to wrist strain.",
+    "Failing to maintain a neutral spine, increasing the risk of lower back strain.",
+    "Neglecting to adjust the pad height, which can lead to improper form and ineffective muscle targeting.",
+    "Rushing through the movement, compromising form and muscle contraction quality.",
+    "Not using a full range of motion, limiting muscle growth and strength gains."
+  ]
+}

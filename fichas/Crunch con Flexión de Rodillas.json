@@ -1,0 +1,45 @@
+{
+  "nombre": "Crunch con Flexión de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-con-flexion-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/04b6b7aa-fb63-4aee-9d87-e964666721b0.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch con Rodillas al Pecho es un ejercicio para el core que se enfoca en el recto abdominal y activa los abdominales inferiores, oblicuos y flexores de la cadera. Consiste en llevar las rodillas hacia el pecho mientras simultáneamente levantas la parte superior del cuerpo del suelo, mejorando la estabilidad y fuerza del core.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas y los brazos a los lados.",
+    "Coloca tus manos ligeramente detrás de tu cabeza para apoyo, manteniendo los codos abiertos.",
+    "Activa tu núcleo llevando tu ombligo hacia tu columna.",
+    "Simultáneamente levanta tus rodillas hacia tu pecho mientras elevas la parte superior de tu cuerpo del suelo.",
+    "Mantén la posición superior por un momento, apretando tus abdominales firmemente.",
+    "Baja lentamente de nuevo a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en movimientos controlados para maximizar el compromiso del core y evitar usar el impulso.",
+    "Mantén la parte baja de la espalda presionada contra la colchoneta para prevenir tensiones y asegurar una forma adecuada.",
+    "Exhala al subir en el crunch e inhala al regresar a la posición inicial.",
+    "Evita tirar de tu cuello con las manos; úsalas solo para un soporte ligero.",
+    "Si sientes tensión en el cuello, intenta relajarlo y concéntrate en usar los músculos del core.",
+    "Comienza con menos repeticiones si eres nuevo en este ejercicio y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Tirar del cuello en lugar de activar el core para levantar el torso.",
+    "Permitir que la parte baja de la espalda se arquee fuera del suelo, reduciendo la activación del core.",
+    "Usar el impulso para balancear las piernas en lugar de un movimiento controlado.",
+    "No extender completamente las piernas antes de volver a recogerlas.",
+    "No mantener la barbilla ligeramente metida, lo que lleva a tensión en el cuello.",
+    "Apresurar el movimiento, sacrificando la forma por la velocidad.",
+    "Contracción inadecuada de los músculos abdominales durante el crunch.",
+    "Permitir que los hombros permanezcan en el suelo, minimizando el efecto del crunch.",
+    "Contener la respiración en lugar de mantener un patrón de respiración constante."
+  ]
+}

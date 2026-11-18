@@ -1,0 +1,48 @@
+{
+  "nombre": "Press de Pecho con Banda en Banco",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-pecho-con-banda-en-banco",
+  "video_url": "https://api.smartworkout.app/asset/video/d563db4f-f311-485c-bcf7-c115e22a12ca.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho en Banco con Bandas es un ejercicio de resistencia que se enfoca en los músculos pectorales, utilizando bandas de resistencia para proporcionar tensión variable durante el movimiento. Involucra principalmente el pecho, los tríceps y los hombros, ofreciendo una alternativa versátil al press de banca tradicional.",
+  "como_realizar": [
+    "Ancla la banda de resistencia de manera segura detrás de un banco u objeto resistente a la altura del pecho.",
+    "Recuéstate en el banco con los pies planos en el suelo, asegurando estabilidad.",
+    "Sujeta las asas o extremos de la banda en cada mano, posicionando tus manos a la altura del pecho con los codos doblados.",
+    "Presiona las bandas hacia arriba extendiendo completamente los brazos, manteniendo las muñecas rectas y alineadas con los antebrazos.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la contracción completa de los músculos del pecho.",
+    "Vuelve lentamente a la posición inicial doblando los codos, manteniendo el control de la tensión de la banda.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien anclada para evitar que se deslice durante el ejercicio.",
+    "Mantén una columna neutral y evita arquear excesivamente la espalda durante el press.",
+    "Concéntrate en movimientos controlados tanto al presionar como al regresar al inicio para maximizar el compromiso muscular.",
+    "Ajusta la tensión de la banda acercándote o alejándote del punto de anclaje para aumentar o disminuir la resistencia.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para estabilizar tu cuerpo y prevenir movimientos innecesarios.",
+    "Exhala al presionar hacia arriba e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del core.",
+    "Permitir que los codos se abran demasiado, aumentando la tensión en los hombros.",
+    "No mantener la alineación de las muñecas, lo que lleva a un posible estrés en las articulaciones.",
+    "Usar una banda de resistencia demasiado pesada, comprometiendo la forma y el control.",
+    "No extender completamente los brazos, limitando el rango de movimiento y la activación muscular.",
+    "Permitir que la banda se afloje en la parte inferior, reduciendo la tensión y efectividad.",
+    "Descuidar mantener las escápulas retraídas, disminuyendo el compromiso del pecho.",
+    "Apresurarse en las repeticiones, sacrificando el control y la estabilidad."
+  ]
+}

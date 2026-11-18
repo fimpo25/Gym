@@ -1,0 +1,45 @@
+{
+  "nombre": "Estiramiento de Pecho en el Marco de la Puerta",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/estiramiento-de-pecho-en-el-marco-de-la-puerta",
+  "video_url": "https://api.smartworkout.app/asset/video/c32386c7-01a4-4a0a-b7af-d58e3cb05805.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento de Pecho en el Marco de la Puerta es un ejercicio de estiramiento estático diseñado para mejorar la flexibilidad y movilidad en el pecho, los hombros y la parte superior de la espalda. Se realiza utilizando un marco de puerta como soporte, permitiendo un estiramiento profundo de los músculos pectorales y los deltoides anteriores.",
+  "como_realizar": [
+    "Párate en una puerta con los pies separados al ancho de los hombros.",
+    "Levanta los brazos hacia los lados y dobla los codos en un ángulo de 90 grados, formando una posición de 'poste de gol'.",
+    "Coloca los antebrazos contra el marco de la puerta, asegurándote de que los codos estén ligeramente por debajo de la altura de los hombros.",
+    "Da un paso hacia adelante a través de la puerta, manteniendo la espalda recta y el núcleo comprometido.",
+    "Inclínate suavemente hacia adelante hasta que sientas un estiramiento en el pecho y los hombros.",
+    "Mantén el estiramiento durante 15-30 segundos, respirando profundamente todo el tiempo.",
+    "Vuelve lentamente a la posición inicial y cambia de pie si lo deseas."
+  ],
+  "consejos": [
+    "Mantén los hombros relajados y evita encogerlos durante el estiramiento.",
+    "Asegúrate de que tus codos permanezcan ligeramente por debajo de la altura de los hombros para prevenir el pinzamiento del hombro.",
+    "Mantén una columna neutral activando los músculos del core durante todo el estiramiento.",
+    "Evita inclinarte demasiado hacia adelante; el estiramiento debe ser suave y no causar dolor.",
+    "Concéntrate en una respiración profunda y controlada para mejorar la relajación y la efectividad del estiramiento.",
+    "Realiza este estiramiento después de los entrenamientos o durante los descansos para aliviar la tensión en el pecho y los hombros."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado altas o demasiado bajas en el marco de la puerta, lo que lleva a un estiramiento ineficaz.",
+    "Inclinarse demasiado hacia adelante, causando tensión en la articulación del hombro.",
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del pecho.",
+    "No mantener los hombros hacia abajo y hacia atrás, lo que lleva a un pinzamiento del hombro.",
+    "Mantener el estiramiento por un tiempo demasiado corto, minimizando los beneficios.",
+    "Permitir que la cabeza se adelante, causando tensión en el cuello.",
+    "No activar los músculos del core, lo que lleva a inestabilidad.",
+    "Rotar el torso en lugar de mantenerlo alineado, reduciendo la efectividad del estiramiento."
+  ]
+}

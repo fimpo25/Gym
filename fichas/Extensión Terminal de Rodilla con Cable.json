@@ -1,0 +1,48 @@
+{
+  "nombre": "Extensión Terminal de Rodilla con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/cable-terminal-knee-extension",
+  "video_url": "https://api.smartworkout.app/asset/video/8e642c8a-3237-463e-bb6f-161bc3682f24.mp4",
+  "tags": [
+    "REHAB",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Cable Terminal Knee Extension is an isolation exercise targeting the quadriceps. It involves extending the knee against resistance provided by a cable machine, focusing on strengthening and defining the front thigh muscles. This exercise is particularly beneficial for improving knee stability and enhancing overall leg strength.",
+  "como_realizar": [
+    "Attach an ankle strap to the low pulley of a cable machine.",
+    "Secure the strap around your ankle and stand facing away from the machine.",
+    "Step forward with your non-working leg to create tension in the cable.",
+    "Stand upright with your feet hip-width apart, keeping your core engaged.",
+    "Lift your working leg slightly off the ground, bending it at the knee.",
+    "Extend your knee by straightening your leg forward against the cable resistance.",
+    "Pause briefly at full extension, ensuring your quadriceps are fully contracted.",
+    "Slowly return to the starting position by bending your knee back to 90 degrees.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your standing leg for better balance and stability.",
+    "Keep your movements controlled and avoid using momentum to extend the knee.",
+    "Focus on squeezing your quadriceps at the top of each extension for maximum contraction.",
+    "Adjust the weight on the cable machine to ensure you can perform the exercise with proper form.",
+    "Keep your core engaged throughout the movement to maintain proper posture and prevent lower back strain.",
+    "Start with lighter weights if you're new to this exercise to master the technique before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Allowing the knee to move forward over the toes, reducing the focus on the quadriceps.",
+    "Using momentum to swing the leg instead of controlled muscle contraction.",
+    "Positioning the cable too high, leading to ineffective resistance on the knee joint.",
+    "Locking the knee at full extension, increasing stress on the joint.",
+    "Failing to maintain a stable core, resulting in unnecessary movement of the upper body.",
+    "Not adjusting the seat height properly, causing misalignment of the knee joint with the cable.",
+    "Neglecting to engage the quadriceps fully throughout the movement.",
+    "Performing the exercise too quickly, compromising muscle engagement and control."
+  ]
+}

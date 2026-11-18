@@ -1,0 +1,34 @@
+{
+  "nombre": "Crunch Abdominal con Cable de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-abdominal-con-cable-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/4ca6d0de-4211-4c29-bfc0-41436e227111.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Crunches de Abdominales con Cable de Rodillas se enfocan en el recto abdominal y los oblicuos utilizando una máquina de cables para proporcionar tensión constante durante el movimiento. Este ejercicio mejora la fuerza y estabilidad del núcleo.",
+  "como_realizar": [
+    "Coloca un mango de cuerda en una polea alta de una máquina de cables.",
+    "Arrodíllate frente a la máquina, a unos dos pies de distancia, con la espalda recta.",
+    "Agarra los mangos de la cuerda con ambas manos y colócalos detrás de tu cabeza, manteniendo los codos doblados.",
+    "Activa tu núcleo y tira de la cuerda hacia abajo contrayendo tus abdominales, llevando los codos hacia tus muslos.",
+    "Mantén la contracción brevemente en la parte inferior del movimiento.",
+    "Vuelve lentamente a la posición inicial, manteniendo la tensión en tus abdominales.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus caderas estacionarias durante el ejercicio para centrarte en activar tus abdominales.",
+    "Exhala al bajar en el crunch y inhala al regresar a la posición inicial.",
+    "Evita tirar con los brazos; concéntrate en usar los músculos del core para realizar el movimiento.",
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Asegúrate de que tus rodillas estén cómodamente posicionadas y estables durante el ejercicio."
+  ],
+  "errores_comunes": []
+}

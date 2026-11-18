@@ -1,0 +1,51 @@
+{
+  "nombre": "Back Lever",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/back-lever",
+  "video_url": "https://api.smartworkout.app/asset/video/63d6d9ac-f615-4d45-8a82-45996974a718.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "ISOMETRIC",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "CHEST",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Back Lever is an advanced calisthenics exercise that requires significant strength, balance, and flexibility. It involves holding the body horizontally facing downwards while hanging from a bar or rings, with the arms extended and the body in a straight line.",
+  "como_realizar": [
+    "Begin by hanging from a bar or gymnastic rings with a pronated grip (palms facing away).",
+    "Engage your core and glutes to maintain a straight body position.",
+    "Slowly tuck your knees to your chest to transition into an inverted hang.",
+    "Extend your legs back and downwards while keeping your body straight, aiming to achieve a horizontal position.",
+    "Hold the position as long as possible, maintaining tension throughout your entire body.",
+    "To exit, tuck your knees back to your chest and return to the starting hang position."
+  ],
+  "consejos": [
+    "Ensure your shoulders are engaged and depressed to protect them from strain.",
+    "Focus on keeping your body rigid by squeezing your glutes and engaging your core.",
+    "Practice with tucked legs initially to build strength before attempting the full extension.",
+    "Use parallel bars or rings for easier wrist positioning if experiencing discomfort on a straight bar.",
+    "Gradually increase hold time as you build strength and confidence in the position.",
+    "Incorporate exercises like skin-the-cat and front lever progressions to improve overall control and strength."
+  ],
+  "errores_comunes": [
+    "Arching the back excessively, leading to loss of core engagement.",
+    "Allowing the shoulders to elevate, reducing scapular stability.",
+    "Bending the elbows, which shifts load away from the back muscles.",
+    "Failing to maintain a straight body line, causing misalignment.",
+    "Rushing into the position without proper progression, risking muscle strain.",
+    "Neglecting to engage the glutes and hamstrings, diminishing lower body support.",
+    "Letting the head drop, which disrupts neck alignment and balance.",
+    "Losing tension in the core, resulting in sagging hips."
+  ]
+}

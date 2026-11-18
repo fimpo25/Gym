@@ -1,0 +1,44 @@
+{
+  "nombre": "Giro con Cable Horizontal",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-con-cable-(horizontal)",
+  "video_url": "https://api.smartworkout.app/asset/video/0a799781-595e-42b0-974d-a81408640c47.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Cable Twist (horizontal) es un ejercicio que se enfoca en los músculos oblicuos del core. Implica rotar el torso contra resistencia, promoviendo la fuerza y estabilidad en el core y mejorando la potencia rotacional. Este ejercicio se realiza utilizando una máquina de cables, que permite ajustar la resistencia y mantener una tensión constante durante el movimiento.",
+  "como_realizar": [
+    "Ajusta la máquina de cables a la altura del pecho y coloca un solo mango.",
+    "Párate de lado a la máquina con los pies separados al ancho de los hombros, agarrando el mango con ambas manos.",
+    "Extiende completamente los brazos frente a ti, manteniéndolos paralelos al suelo.",
+    "Activa los músculos del core y rota tu torso alejándote de la máquina, manteniendo los brazos extendidos.",
+    "Rota hasta que tu torso mire en dirección opuesta a la máquina, luego regresa lentamente a la posición inicial.",
+    "Realiza el número deseado de repeticiones y cambia de lado."
+  ],
+  "consejos": [
+    "Mantén las rodillas ligeramente flexionadas para mantener el equilibrio y la estabilidad.",
+    "Concéntrate en rotar a través de tu torso en lugar de usar tus brazos para tirar.",
+    "Activa tu núcleo durante todo el movimiento para proteger tu zona lumbar.",
+    "Controla la velocidad del movimiento para maximizar el compromiso muscular y prevenir lesiones.",
+    "Exhala al rotar lejos de la máquina e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tus hombros permanezcan nivelados y no se encojan durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar de aislar el giro en el torso.",
+    "Usar los brazos para tirar del cable en lugar de involucrar el core.",
+    "Permitir que los hombros se encorven hacia adelante, perdiendo la postura adecuada.",
+    "Girar demasiado rápido, sacrificando el control y la estabilidad.",
+    "No mantener una columna neutral durante todo el movimiento.",
+    "No mantener los pies firmemente plantados, causando desequilibrio.",
+    "Sobreextender el rango de movimiento, provocando tensión en la parte baja de la espalda.",
+    "No involucrar los oblicuos, reduciendo la efectividad del ejercicio."
+  ]
+}

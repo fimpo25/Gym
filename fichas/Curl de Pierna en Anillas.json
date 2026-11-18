@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Pierna en Anillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/ring-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/1541f6b9-f896-4f78-8b35-26395243006b.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Ring Leg Curl is a bodyweight exercise targeting the hamstrings, utilizing gymnastic rings to provide instability and increased muscle engagement. This exercise also engages the glutes, calves, and core for stabilization.",
+  "como_realizar": [
+    "Set the gymnastic rings to a low height, just above the ground.",
+    "Lie on your back with your heels placed in the rings, legs extended and arms at your sides for balance.",
+    "Engage your core and glutes, then lift your hips off the ground into a bridge position.",
+    "Bend your knees to pull your heels towards your glutes, keeping your hips elevated.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction of the hamstrings.",
+    "Slowly extend your legs back to the starting position while maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that the rings are securely fastened and at an appropriate height before starting.",
+    "Keep your core engaged throughout the exercise to maintain stability and protect your lower back.",
+    "Focus on a slow and controlled movement to maximize muscle engagement and reduce the risk of injury.",
+    "Avoid letting your hips sag; keep them elevated throughout each repetition for optimal hamstring activation.",
+    "If you're new to this exercise, start with fewer repetitions and gradually increase as you build strength.",
+    "To increase difficulty, try performing the exercise with one leg at a time."
+  ],
+  "errores_comunes": [
+    "Hips sagging during the curl, reducing hamstring engagement.",
+    "Allowing knees to flare out, causing loss of stability and control.",
+    "Failing to keep core engaged, leading to lower back strain.",
+    "Pulling with momentum instead of controlled movement, decreasing effectiveness.",
+    "Not maintaining a straight line from shoulders to knees, compromising form.",
+    "Rushing the eccentric phase, missing out on muscle activation.",
+    "Overextending legs at the bottom, straining knees.",
+    "Starting with rings too high, limiting range of motion."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Dominadas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/dominadas",
+  "video_url": "https://api.smartworkout.app/asset/video/65f1e0f3-01e5-40dc-919e-682660b96575.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El pull-up es un ejercicio compuesto para la parte superior del cuerpo que se enfoca principalmente en los músculos dorsales anchos de la espalda, junto con los bíceps, antebrazos, hombros y el núcleo. Consiste en levantar tu cuerpo hacia una barra hasta que tu barbilla esté por encima de ella, utilizando un agarre por encima.",
+  "como_realizar": [
+    "Párate debajo de una barra de dominadas y alcánzala con un agarre por encima, con las manos un poco más anchas que el ancho de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo recto mientras cuelgas de la barra con los brazos completamente extendidos.",
+    "Inicia el movimiento tirando de tus omóplatos hacia abajo y hacia atrás, luego tira de tu cuerpo hacia arriba doblando los codos.",
+    "Continúa tirando hasta que tu barbilla esté por encima de la barra, manteniendo el pecho abierto y los hombros alejados de las orejas.",
+    "Pausa brevemente en la parte superior del movimiento, luego baja lentamente a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en activar los músculos de la espalda en lugar de depender únicamente de tus brazos para subir.",
+    "Mantén el núcleo apretado durante todo el ejercicio para evitar balanceos o arqueos de la espalda.",
+    "Si no puedes realizar una dominada completa, comienza con variaciones asistidas usando bandas de resistencia o una máquina de dominadas asistidas.",
+    "Evita usar el impulso; realiza cada repetición de manera controlada para un máximo compromiso muscular.",
+    "Asegúrate de exhalar al subir e inhalar al bajar."
+  ],
+  "errores_comunes": [
+    "Usar el impulso balanceándose o haciendo kipping en lugar de un movimiento controlado.",
+    "No involucrar el core, lo que lleva a una espalda arqueada.",
+    "No lograr un rango completo de movimiento al no bajar completamente o no llevar la barbilla por encima de la barra.",
+    "Agarrar la barra demasiado fuerte, causando fatiga en los antebrazos y reduciendo la eficiencia del tirón.",
+    "Dejar que los hombros se encojan hacia las orejas en lugar de mantenerlos abajo y hacia atrás.",
+    "Tirar con los brazos en lugar de involucrar los músculos de la espalda.",
+    "Cruzar las piernas o doblar las rodillas en exceso, lo que puede desestabilizar el cuerpo.",
+    "No mantener una posición neutral de la cabeza, lo que lleva a tensión en el cuello.",
+    "Permitir que los codos se abran demasiado, reduciendo el compromiso de los dorsales.",
+    "Apresurarse en la fase excéntrica, perdiendo compromiso y control muscular."
+  ]
+}

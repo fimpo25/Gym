@@ -1,0 +1,44 @@
+{
+  "nombre": "Círculos de Rodillas Colgantes",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/circulos-de-rodillas-colgantes",
+  "video_url": "https://api.smartworkout.app/asset/video/9d3bd7f9-83ef-4311-9671-0420c8c30286.mp4",
+  "tags": [
+    "MOBILITY",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "Los Círculos de Rodillas Colgantes son un ejercicio avanzado para el core que se enfoca en los músculos abdominales, oblicuos y flexores de la cadera. Este ejercicio consiste en colgarse de una barra de dominadas y mover las rodillas en un movimiento circular, lo que desafía la estabilidad y mejora la fuerza del core.",
+  "como_realizar": [
+    "Comienza agarrando una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y levanta las rodillas hacia el pecho.",
+    "Empieza a mover las rodillas en un movimiento circular, primero en el sentido de las agujas del reloj durante un número determinado de repeticiones.",
+    "Invierte la dirección y mueve las rodillas en sentido contrario a las agujas del reloj durante el mismo número de repeticiones.",
+    "Mantén un movimiento controlado durante todo el ejercicio, evitando balancearte o usar impulso."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea firme y seguro para mantener la estabilidad durante el ejercicio.",
+    "Concéntrate en activar tus músculos del core durante todo el movimiento para maximizar la efectividad.",
+    "Mantén tus movimientos lentos y controlados para evitar usar el impulso, lo que reduce la efectividad del ejercicio.",
+    "Si te resulta difícil mantener el control, comienza con círculos más pequeños y aumenta gradualmente el tamaño a medida que ganas fuerza.",
+    "Respira de manera constante durante el ejercicio, exhalando al levantar las rodillas e inhalando al bajarlas."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo en exceso, reduciendo el compromiso y control del core.",
+    "No mantener un agarre estable, lo que lleva a la inestabilidad y movimiento ineficaz.",
+    "Permitir que las rodillas caigan demasiado, minimizando el rango de movimiento y la activación del core.",
+    "No mantener quieta la parte superior del cuerpo, lo que desvía el enfoque del core.",
+    "Apresurarse en el movimiento, comprometiendo la forma y el compromiso muscular.",
+    "Descuidar la respiración adecuada, lo que puede afectar el rendimiento y la resistencia.",
+    "Usar el impulso en lugar de contracciones musculares controladas para completar los círculos.",
+    "No comprometer los abdominales inferiores, resultando en un trabajo del core menos efectivo."
+  ]
+}

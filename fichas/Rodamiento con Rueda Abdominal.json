@@ -1,0 +1,49 @@
+{
+  "nombre": "Rodamiento con Rueda Abdominal",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/rodamiento-con-rueda-abdominal",
+  "video_url": "https://api.smartworkout.app/asset/video/835d0511-4051-4a4c-88a0-a022b90dfe43.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Despliegue con Rueda Abdominal es un ejercicio de fortalecimiento del core que se enfoca principalmente en el recto abdominal, los oblicuos y el transverso del abdomen. También involucra los hombros, la espalda y los flexores de la cadera. Este ejercicio requiere una rueda abdominal, que es una pequeña rueda con mangos a cada lado. El movimiento consiste en rodar la rueda hacia adelante desde una posición de rodillas mientras se mantiene una línea recta desde la cabeza hasta las rodillas, y luego regresar a la posición inicial.",
+  "como_realizar": [
+    "Comienza en una posición de rodillas sobre una colchoneta para proteger tus rodillas.",
+    "Agarra firmemente las asas de la rueda abdominal con ambas manos.",
+    "Coloca la rueda en el suelo frente a ti, directamente debajo de tus hombros.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Rueda lentamente la rueda hacia adelante, extendiendo tu cuerpo tanto como puedas sin perder la forma.",
+    "Pausa brevemente en la posición extendida, asegurándote de que tu núcleo permanezca apretado.",
+    "Invierte el movimiento tirando de la rueda hacia tus rodillas, manteniendo el control en todo momento.",
+    "Vuelve a la posición inicial y repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu zona lumbar.",
+    "Evita arquear la espalda; mantén una columna neutral para prevenir lesiones.",
+    "Comienza con rollouts más cortos si eres nuevo en este ejercicio y aumenta gradualmente la distancia a medida que ganas fuerza.",
+    "Respira de manera constante; inhala al extenderte y exhala al regresar a la posición inicial.",
+    "Realiza este ejercicio sobre una superficie suave o usa una colchoneta para amortiguar tus rodillas.",
+    "Si sientes molestias en la zona lumbar, reduce el rango de movimiento o revisa tu forma."
+  ],
+  "errores_comunes": [
+    "Arquear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las caderas se hundan hacia el suelo durante el ejercicio.",
+    "Extenderse demasiado más allá del ancho de los hombros, perdiendo el compromiso del núcleo.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "No activar los músculos del núcleo durante todo el ejercicio.",
+    "Comenzar el ejercicio desde una posición demasiado alejada de las rodillas.",
+    "No mantener los brazos rectos y bloqueados durante el ejercicio.",
+    "Permitir que los hombros se encojan hacia las orejas.",
+    "Volver a la posición inicial demasiado rápido, perdiendo el control.",
+    "Descuidar la respiración adecuada, reteniendo el aliento durante todo el ejercicio."
+  ]
+}

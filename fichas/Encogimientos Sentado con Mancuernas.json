@@ -1,0 +1,43 @@
+{
+  "nombre": "Encogimientos Sentado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/seated-dumbbell-shrugs",
+  "video_url": "https://api.smartworkout.app/asset/video/4f300cdf-5229-450c-b54f-659011a2b24f.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated Dumbbell Shrug is an isolation exercise targeting the trapezius muscles. It involves lifting the shoulders towards the ears while holding dumbbells, performed in a seated position to minimize lower body involvement and focus on the upper back.",
+  "como_realizar": [
+    "Sit on a bench with your feet flat on the floor, shoulder-width apart.",
+    "Hold a dumbbell in each hand with a neutral grip, arms fully extended by your sides.",
+    "Keep your back straight and core engaged throughout the exercise.",
+    "Lift your shoulders straight up towards your ears as high as possible.",
+    "Pause briefly at the top of the movement, squeezing your trapezius muscles.",
+    "Slowly lower your shoulders back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine and avoid leaning forward or backward during the exercise.",
+    "Focus on moving only your shoulders; keep your arms straight and relaxed.",
+    "Control the movement both upwards and downwards to maximize muscle engagement.",
+    "Use a weight that allows you to perform the exercise with proper form without straining.",
+    "Exhale as you lift your shoulders and inhale as you lower them.",
+    "Perform the exercise slowly to ensure full range of motion and muscle contraction."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to momentum-driven lifts instead of controlled movements.",
+    "Allowing the shoulders to roll forward or backward instead of moving straight up and down.",
+    "Failing to fully engage the trapezius muscles by not lifting the shoulders high enough.",
+    "Leaning forward or backward, which shifts focus away from the target muscles.",
+    "Holding the breath, which can increase blood pressure unnecessarily.",
+    "Lifting with the arms instead of focusing on shoulder elevation.",
+    "Not keeping the head in a neutral position, which can strain the neck.",
+    "Allowing the dumbbells to sway, reducing the effectiveness of the exercise."
+  ]
+}

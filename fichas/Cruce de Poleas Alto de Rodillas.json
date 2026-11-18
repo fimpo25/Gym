@@ -1,0 +1,50 @@
+{
+  "nombre": "Cruce de Poleas Alto de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/cruce-de-poleas-alto-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/fe26e4e4-5024-47bf-b476-266eb81ee6d7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Las aperturas en polea de rodillas se centran en los músculos del pecho, específicamente el pectoral mayor, mientras también involucran los hombros y tríceps. Este ejercicio se realiza utilizando una máquina de poleas con las poleas colocadas en una posición alta. Arrodillarse proporciona estabilidad y enfoca el movimiento en el pecho al minimizar la participación de las piernas.",
+  "como_realizar": [
+    "Coloca las poleas de una máquina de cables en una posición alta.",
+    "Acopla manijas a los cables y arrodíllate en el centro de la máquina.",
+    "Sujeta una manija en cada mano con los brazos extendidos hacia los lados, palmas hacia adelante.",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el ejercicio.",
+    "Lentamente lleva tus manos juntas frente a tu pecho en un arco amplio, manteniendo una ligera flexión en los codos.",
+    "Pausa brevemente cuando tus manos se encuentren, apretando los músculos del pecho.",
+    "Vuelve lentamente a la posición inicial, controlando el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus rodillas estén cómodamente posicionadas sobre una colchoneta para evitar molestias.",
+    "Concéntrate en apretar los músculos del pecho en el punto máximo del movimiento para lograr el máximo compromiso.",
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para proteger tus articulaciones.",
+    "Mantén tus movimientos lentos y controlados para maximizar la tensión muscular y prevenir lesiones.",
+    "Activa tu núcleo para mantener el equilibrio y la estabilidad durante el ejercicio.",
+    "Evita usar el impulso; deja que los músculos del pecho hagan el trabajo."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se doblen excesivamente, reduciendo el compromiso del pecho.",
+    "Comenzar con los cables demasiado altos, lo que lleva a una tensión en los hombros.",
+    "Inclinarse hacia adelante excesivamente, comprometiendo la estabilidad del núcleo.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo la activación muscular.",
+    "No mantener una columna neutral, arriesgando tensión en la parte baja de la espalda.",
+    "Jalar los cables demasiado hacia atrás, causando estrés en la articulación del hombro.",
+    "Descuidar el compromiso del núcleo, lo que lleva a problemas de equilibrio.",
+    "Colocar las rodillas demasiado juntas, afectando la estabilidad.",
+    "Permitir que los hombros se encojan, reduciendo la aislación del pecho.",
+    "No alinear las muñecas con los antebrazos, causando tensión en las muñecas."
+  ]
+}

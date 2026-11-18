@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexiones Declinadas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones-declinadas",
+  "video_url": "https://api.smartworkout.app/asset/video/a1aedffe-5731-4ede-815e-533668cc86c4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Declive es un ejercicio con el peso del cuerpo que se enfoca en la parte superior del pecho, los hombros y los tríceps al elevar los pies sobre una superficie estable. Esta variación aumenta la dificultad en comparación con una flexión estándar al trasladar más peso hacia la parte superior del cuerpo.",
+  "como_realizar": [
+    "Comienza colocando tus pies en una superficie elevada como un banco o escalón, asegurándote de que sea estable y segura.",
+    "Coloca tus manos a la altura de los hombros en el suelo, directamente debajo de tus hombros.",
+    "Activa tu núcleo para mantener una línea recta desde la cabeza hasta los talones.",
+    "Baja tu cuerpo doblando los codos, manteniéndolos a un ángulo de 45 grados con respecto a tu torso.",
+    "Desciende hasta que tu pecho casi toque el suelo, manteniendo el control durante todo el movimiento.",
+    "Empuja con tus palmas para extender los codos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu core permanezca apretado durante todo el ejercicio para evitar que las caderas se hundan.",
+    "Mantén la cabeza en una posición neutral mirando ligeramente hacia adelante, no hacia abajo al suelo.",
+    "Controla el descenso para maximizar el compromiso muscular y prevenir lesiones.",
+    "Ajusta la altura de la superficie elevada para modificar el nivel de dificultad; superficies más altas aumentan la dificultad.",
+    "Inhala mientras bajas tu cuerpo y exhala al empujar hacia arriba.",
+    "Concéntrate en mantener una distribución de peso uniforme entre ambas manos."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso del pecho.",
+    "Caderas hundidas, provocando tensión en la parte baja de la espalda.",
+    "Pies posicionados demasiado altos, causando tensión en los hombros.",
+    "No mantener una línea recta desde la cabeza hasta los talones.",
+    "Codos excesivamente abiertos, aumentando el estrés en los hombros.",
+    "No bajar completamente el pecho al suelo, limitando el rango de movimiento.",
+    "Apresurarse en las repeticiones, comprometiendo el control y la forma.",
+    "Cuello adelantado, causando tensión en el cuello.",
+    "Compromiso inadecuado del core, resultando en poca estabilidad.",
+    "Distribución desigual del peso entre las manos, llevando a una activación muscular desequilibrada."
+  ]
+}

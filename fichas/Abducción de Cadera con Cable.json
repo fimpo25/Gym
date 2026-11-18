@@ -1,0 +1,50 @@
+{
+  "nombre": "Abducción de Cadera con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/abduccion-de-cadera-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/f9d31544-ca7f-4c1a-921f-c2698ee8b26f.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Abducción de Cadera con Cable es un ejercicio de aislamiento que se enfoca en los músculos glúteo medio y mínimo. Consiste en mover la pierna alejándola de la línea media del cuerpo utilizando una máquina de cables, mejorando la estabilidad y fuerza de la cadera.",
+  "como_realizar": [
+    "Coloca una correa de tobillo en una polea baja de una máquina de cables.",
+    "Asegura la correa alrededor de tu tobillo.",
+    "Párate de lado a la máquina con la pierna con correa más alejada de ella.",
+    "Agárrate a la máquina o a una superficie estable para apoyo.",
+    "Mantén el torso erguido y activa tu núcleo.",
+    "Abduce lentamente tu pierna alejándola de tu cuerpo, manteniéndola recta.",
+    "Pausa brevemente en la parte superior del movimiento para una contracción máxima.",
+    "Regresa a la posición inicial de manera controlada.",
+    "Repite el número deseado de repeticiones y luego cambia de pierna."
+  ],
+  "consejos": [
+    "Concéntrate en mantener una postura recta durante todo el ejercicio.",
+    "Activa tu core para evitar cualquier movimiento innecesario del torso.",
+    "Controla el movimiento tanto al levantar como al bajar la pierna.",
+    "Evita usar el impulso; mantén el movimiento lento y deliberado.",
+    "Asegúrate de que tu pierna de trabajo permanezca recta sin bloquear la rodilla.",
+    "Comienza con un peso ligero para dominar la forma antes de aumentar la resistencia.",
+    "Mantén el pie flexionado para maximizar la activación de los glúteos."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante o hacia atrás, lo que desvía el enfoque de los músculos objetivo.",
+    "Usar demasiado peso, lo que lleva a movimientos basados en el impulso en lugar de un compromiso muscular controlado.",
+    "Permitir que la pierna de trabajo gire externamente, reduciendo la efectividad de la abducción.",
+    "No mantener un núcleo estable, lo que resulta en un movimiento innecesario del torso.",
+    "No mantener la pierna de apoyo estable, causando problemas de equilibrio y reduciendo la aislación de la pierna de trabajo.",
+    "Levantar la pierna demasiado alto, involucrando músculos no dirigidos por el ejercicio.",
+    "Bajar la pierna demasiado rápido, perdiendo el compromiso muscular excéntrico.",
+    "Comenzar el movimiento desde la rodilla en lugar de la cadera, lo que puede tensar la articulación de la rodilla.",
+    "Descuidar ajustar la altura del cable, lo que lleva a una alineación incorrecta con la articulación de la cadera."
+  ]
+}

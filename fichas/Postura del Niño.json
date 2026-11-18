@@ -1,0 +1,46 @@
+{
+  "nombre": "Postura del Niño",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/postura-del-nino",
+  "video_url": "https://api.smartworkout.app/asset/video/2e9debc7-b8aa-497b-bbc3-054b52e09a50.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP",
+    "REHAB",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "La Postura del Niño, o Balasana, es una postura de yoga de descanso que estira suavemente las caderas, los muslos y los tobillos mientras calma la mente y alivia el estrés. A menudo se utiliza como contrapostura a ejercicios más intensos o como posición de descanso durante un entrenamiento.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo con los dedos gordos de los pies tocándose y las rodillas separadas aproximadamente al ancho de las caderas.",
+    "Siéntate sobre tus talones y lentamente inclínate hacia adelante, extendiendo tus brazos frente a ti en el suelo.",
+    "Baja tu torso entre tus muslos y apoya tu frente en la colchoneta.",
+    "Mantén tus brazos extendidos hacia adelante con las palmas hacia abajo o a lo largo de tu cuerpo con las palmas hacia arriba.",
+    "Mantén la posición durante varias respiraciones, enfocándote en una respiración profunda y uniforme."
+  ],
+  "consejos": [
+    "Si tienes las caderas tensas, mantén las rodillas más juntas para mayor comodidad.",
+    "Para profundizar el estiramiento en tus hombros, mantén los brazos extendidos hacia adelante.",
+    "Usa un cojín o una manta doblada bajo tu torso o frente para soporte adicional si es necesario.",
+    "Concéntrate en relajar todo tu cuerpo y respirar profundamente para mejorar los efectos calmantes de la postura.",
+    "Si experimentas incomodidad en las rodillas, coloca una toalla enrollada detrás de ellas para soporte adicional."
+  ],
+  "errores_comunes": [
+    "Rodillas demasiado juntas, limitando el estiramiento de caderas y espalda.",
+    "Caderas no alcanzando los talones, reduciendo la liberación de la parte baja de la espalda.",
+    "Brazos completamente extendidos con tensión, en lugar de relajados.",
+    "Frente no descansando en el suelo, causando tensión en el cuello.",
+    "Hombros encogidos hacia las orejas, creando tensión.",
+    "Respiración superficial, limitando la relajación y el estiramiento.",
+    "Pies no tocándose, llevando a un desequilibrio.",
+    "Parte baja de la espalda excesivamente arqueada, arriesgando tensión."
+  ]
+}

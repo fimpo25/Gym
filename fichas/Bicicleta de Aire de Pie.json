@@ -1,0 +1,45 @@
+{
+  "nombre": "Bicicleta de Aire de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/bicicleta-de-aire-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/020621d2-137e-4972-a5e3-86406a612da1.mp4",
+  "tags": [
+    "CORE",
+    "CARDIO",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El ejercicio de Bicicleta de Aire de Pie es un movimiento cardiovascular dinámico que imita el pedaleo del ciclismo mientras estás de pie. Este ejercicio involucra el núcleo, las piernas y los brazos, proporcionando un entrenamiento de cuerpo completo que mejora la resistencia y la coordinación.",
+  "como_realizar": [
+    "Párate derecho con los pies al ancho de los hombros.",
+    "Levanta los brazos a la altura de los hombros, doblando los codos a 90 grados.",
+    "Comienza levantando la rodilla derecha hacia el codo izquierdo mientras giras ligeramente el torso.",
+    "Regresa a la posición inicial e inmediatamente levanta la rodilla izquierda hacia el codo derecho.",
+    "Continúa alternando lados en un movimiento rítmico de pedaleo.",
+    "Mantén un ritmo constante y concéntrate en movimientos controlados."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio.",
+    "Concéntrate en movimientos suaves y controlados en lugar de la velocidad.",
+    "Asegúrate de que tu respiración sea constante; exhala al levantar la rodilla e inhala al volver a la posición inicial.",
+    "Si eres nuevo en este ejercicio, comienza despacio para dominar la coordinación antes de aumentar la velocidad.",
+    "Para aumentar la intensidad, intenta levantar más las rodillas o acelerar el movimiento.",
+    "Mantén los hombros relajados y evita tensar el cuello."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, causando pérdida de equilibrio y un compromiso ineficaz del core.",
+    "No mantener el core apretado, reduciendo la efectividad del ejercicio.",
+    "Permitir que las rodillas se colapsen hacia adentro, desalineando las articulaciones y reduciendo la estabilidad.",
+    "Balancear los brazos excesivamente en lugar de movimientos controlados, llevando a una mala forma.",
+    "No extender completamente las piernas, limitando el rango de movimiento y la activación muscular.",
+    "Moverse demasiado rápido, sacrificando el control y la precisión por la velocidad.",
+    "Descuidar mantener una columna neutral, aumentando el riesgo de tensión en la espalda.",
+    "Contener la respiración, lo que puede llevar a fatiga y disminución del rendimiento.",
+    "Permitir que los hombros se encorven hacia adelante, reduciendo el compromiso del tren superior."
+  ]
+}

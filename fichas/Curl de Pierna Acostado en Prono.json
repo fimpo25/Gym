@@ -1,0 +1,37 @@
+{
+  "nombre": "Curl de Pierna Acostado en Prono",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/prone-lying-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/313e2366-3d66-41d3-b450-5b5b9664e6da.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "CALVES"
+  ],
+  "descripcion": "The Prone Lying Leg Curl is an isolation exercise targeting the hamstrings. It involves flexing the knees against resistance while lying face down on a leg curl machine. This exercise helps in strengthening the hamstrings, improving knee joint stability, and enhancing overall lower body performance.",
+  "como_realizar": [
+    "Adjust the leg curl machine so that the roller pad sits comfortably just above your heels when you are lying face down.",
+    "Lie prone on the machine, ensuring your knees are aligned with the pivot point of the machine.",
+    "Grip the handles or sides of the bench for stability.",
+    "Engage your core and keep your hips pressed against the bench.",
+    "Exhale and curl your legs by bending your knees, bringing your heels towards your glutes.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction in the hamstrings.",
+    "Inhale and slowly lower your legs back to the starting position, maintaining control throughout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the roller pad is positioned correctly to avoid unnecessary strain on your knees.",
+    "Keep your movements slow and controlled to maximize muscle engagement and reduce injury risk.",
+    "Avoid lifting your hips off the bench during the exercise to maintain proper form.",
+    "Focus on squeezing your hamstrings at the top of each repetition for optimal contraction.",
+    "Start with a lighter weight to perfect your form before progressing to heavier loads.",
+    "Maintain a neutral spine by keeping your head aligned with your spine throughout the exercise."
+  ],
+  "errores_comunes": []
+}

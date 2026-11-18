@@ -1,0 +1,42 @@
+{
+  "nombre": "Abdominales Alternos Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-alternos-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/77a673ce-4b7a-4f7c-ad26-d68d9920b500.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Abdominales Alternos Sentados son un ejercicio abdominal que se enfoca en el recto abdominal y los oblicuos. Este ejercicio se realiza sentado, activando los músculos del núcleo mediante abdominales laterales alternos.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos, separados al ancho de las caderas.",
+    "Inclínate ligeramente hacia atrás, manteniendo la espalda recta y el núcleo comprometido.",
+    "Coloca las manos ligeramente detrás de la cabeza, con los codos abiertos.",
+    "Levanta la rodilla derecha hacia el pecho mientras giras el torso para llevar el codo izquierdo hacia la rodilla derecha.",
+    "Vuelve a la posición inicial y repite en el lado opuesto, levantando la rodilla izquierda y girando el torso para llevar el codo derecho hacia la rodilla izquierda.",
+    "Continúa alternando lados de manera controlada durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta y evita encorvar los hombros durante el ejercicio.",
+    "Activa tu core durante todo el movimiento para maximizar la activación abdominal.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para asegurar una forma adecuada y efectividad.",
+    "Exhala al girar hacia cada rodilla e inhala al regresar a la posición inicial.",
+    "Mantén tus movimientos suaves y evita sacudidas o usar el impulso."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo el compromiso del core.",
+    "Tirar del cuello en lugar de usar los músculos del core.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "No rotar completamente el torso, limitando la activación de los oblicuos.",
+    "Levantar los pies del suelo, desestabilizando la posición.",
+    "Apresurarse en las repeticiones, sacrificando la forma.",
+    "Arquear la parte baja de la espalda, aumentando la tensión y reduciendo la efectividad.",
+    "No comprometer los músculos del core durante todo el movimiento."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Zancada Lateral Pliométrica",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/zancada-lateral-pliometrica",
+  "video_url": "https://api.smartworkout.app/asset/video/450e635c-15b7-4186-bf56-a5a39dc86c75.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "BALANCE",
+    "FUNCTIONAL",
+    "EXPLOSIVE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR"
+  ],
+  "descripcion": "La Zancada Lateral Pliométrica es un ejercicio dinámico que combina zancadas laterales con un salto pliométrico, enfocándose en los glúteos, cuádriceps, isquiotibiales y muslos internos. Mejora la fuerza del tren inferior, la agilidad y el equilibrio, al mismo tiempo que ofrece un desafío cardiovascular.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de las caderas y los brazos a los lados.",
+    "Activa tu núcleo y da un gran paso hacia la derecha, doblando la rodilla derecha y empujando las caderas hacia atrás en una posición de zancada lateral. Mantén la pierna izquierda recta.",
+    "Al bajar en la zancada, asegúrate de que tu rodilla derecha esté alineada con tu pie derecho y no se extienda más allá de los dedos del pie.",
+    "Impúlsate explosivamente con el pie derecho para saltar de regreso a la posición inicial.",
+    "Inmediatamente da un paso hacia el lado izquierdo y repite el movimiento con la pierna opuesta.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el ejercicio para apoyar el equilibrio y el control.",
+    "Concéntrate en aterrizar suavemente en cada salto para reducir el impacto en las articulaciones.",
+    "Asegúrate de que tu rodilla no se extienda más allá de tus dedos del pie durante la zancada para proteger tus articulaciones.",
+    "Mantén el pecho hacia arriba y los hombros hacia atrás para mantener una postura adecuada.",
+    "Comienza con un rango de movimiento más pequeño si eres nuevo en este ejercicio, aumentando gradualmente a medida que ganas fuerza y confianza.",
+    "Usa un espejo o pide retroalimentación para asegurar una forma y alineación adecuadas."
+  ],
+  "errores_comunes": [
+    "Aterrizar con las rodillas bloqueadas en lugar de rodillas suaves, aumentando el estrés en las articulaciones.",
+    "No empujar las caderas hacia atrás, lo que lleva a un esfuerzo excesivo en las rodillas.",
+    "No mantener la espalda recta, causando potenciales molestias en la parte baja de la espalda.",
+    "Permitir que la rodilla se incline hacia adentro, arriesgando una lesión en la rodilla.",
+    "Descuidar el compromiso de los músculos del core, reduciendo la estabilidad.",
+    "Saltar demasiado alto, perdiendo control y equilibrio.",
+    "No extender completamente la pierna que realiza la zancada, limitando el rango de movimiento.",
+    "Aterrizar sobre los dedos de los pies en lugar de todo el pie, disminuyendo la estabilidad.",
+    "Apresurar el movimiento, comprometiendo la forma y efectividad.",
+    "Distribución desigual del peso, llevando a un desequilibrio muscular."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Jalón de Dorsales con Cable Arrodillado",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/kneeling-cable-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/5523d7d6-ed3e-463c-a7ea-2d7b4795ea19.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "The Kneeling Cable Lat Pulldown is a compound exercise targeting the latissimus dorsi muscles, along with secondary activation of the biceps, rhomboids, and trapezius. This exercise is performed using a cable machine and requires a kneeling position to enhance core stability and isolate the back muscles more effectively.",
+  "como_realizar": [
+    "Attach a wide grip bar to the high pulley of a cable machine.",
+    "Kneel on the floor facing the machine, keeping your back straight and core engaged.",
+    "Grasp the bar with an overhand grip, hands slightly wider than shoulder-width apart.",
+    "Extend your arms fully above your head without locking your elbows.",
+    "Pull the bar down towards your upper chest by squeezing your shoulder blades together and engaging your lats.",
+    "Pause briefly at the bottom of the movement, ensuring maximum contraction of the back muscles.",
+    "Slowly return to the starting position with controlled motion, fully extending your arms.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to prevent lower back strain.",
+    "Engage your core to stabilize your body and prevent swaying during the movement.",
+    "Focus on pulling with your back muscles rather than relying on arm strength.",
+    "Avoid using momentum; control both the concentric and eccentric phases of the lift.",
+    "Exhale as you pull the bar down and inhale as you return to the starting position.",
+    "Adjust the weight so that you can perform each repetition with proper form without compromising technique."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to jerky movements and loss of control.",
+    "Leaning back excessively, turning the exercise into a row rather than a pulldown.",
+    "Pulling the bar down with the arms instead of engaging the lats.",
+    "Allowing the shoulders to shrug up instead of keeping them down and back.",
+    "Failing to maintain a neutral spine, resulting in poor posture and potential strain.",
+    "Not fully extending the arms at the top, reducing the range of motion.",
+    "Rushing through the movement, which can lead to muscle disengagement.",
+    "Pulling the bar too low, causing unnecessary strain on the shoulders."
+  ]
+}

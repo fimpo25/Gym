@@ -1,0 +1,49 @@
+{
+  "nombre": "Press de Hombros de Pie con Landmine a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-landmine-standing-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/e86472b4-0880-4f2f-b46e-9a5b1888469c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The One-Arm Landmine Standing Shoulder Press is an effective exercise targeting the deltoids, triceps, and upper chest. It utilizes a landmine setup to provide a unique angle of resistance, enhancing shoulder stability and unilateral strength. This exercise is beneficial for improving shoulder mobility and core engagement.",
+  "como_realizar": [
+    "Position a barbell in a landmine attachment or securely wedge one end into a corner.",
+    "Stand with feet shoulder-width apart, holding the barbell with one hand at shoulder height, palm facing inward.",
+    "Engage your core and keep your torso upright throughout the movement.",
+    "Press the barbell upward by extending your arm fully, ensuring your elbow does not lock out.",
+    "Slowly lower the barbell back to the starting position with control.",
+    "Complete the desired number of repetitions on one side before switching to the other arm."
+  ],
+  "consejos": [
+    "Maintain a neutral spine and avoid leaning backward during the press.",
+    "Focus on keeping your core tight to stabilize your body.",
+    "Exhale as you press the barbell up and inhale as you lower it down.",
+    "Start with a lighter weight to master the form before increasing resistance.",
+    "Ensure your wrist remains straight and aligned with your forearm throughout the exercise.",
+    "Perform the movement slowly to maximize muscle engagement and control."
+  ],
+  "errores_comunes": [
+    "Allowing the elbow to flare out excessively, reducing shoulder stability.",
+    "Failing to keep the core engaged, leading to an arched lower back.",
+    "Pressing the bar too far forward instead of directly overhead.",
+    "Using momentum to lift the bar, compromising control and effectiveness.",
+    "Neglecting to maintain a firm grip on the bar, risking slippage.",
+    "Leaning too far back, placing unnecessary strain on the lower back.",
+    "Not aligning the feet properly, affecting balance and power.",
+    "Allowing the shoulder to shrug up, reducing engagement of the deltoids.",
+    "Bending the wrist excessively, leading to potential strain."
+  ]
+}

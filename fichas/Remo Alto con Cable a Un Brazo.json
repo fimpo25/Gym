@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Alto con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-high-row-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/1645ad51-28fd-4b2e-922f-8bd6246c56eb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Cable Single Arm High Row is an isolation exercise targeting the upper back, specifically the latissimus dorsi, rhomboids, and trapezius muscles. This exercise also engages the biceps and forearms as secondary muscles. It is performed using a cable machine with a single handle attachment, allowing for unilateral training to address muscle imbalances.",
+  "como_realizar": [
+    "Attach a single handle to a high pulley on a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the handle with one hand, palm facing down, and step back to create tension in the cable.",
+    "Bend slightly at the knees and hinge forward at the hips while keeping your back straight.",
+    "Pull the handle towards your torso by retracting your shoulder blade and bending your elbow.",
+    "Pause briefly when your hand reaches your side, ensuring your elbow is close to your body.",
+    "Slowly extend your arm back to the starting position in a controlled manner.",
+    "Complete the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the movement to avoid lower back strain.",
+    "Focus on squeezing your shoulder blade towards your spine during each row.",
+    "Keep your core engaged to stabilize your body and prevent swaying.",
+    "Avoid using momentum; control the movement both on the pull and release phases.",
+    "Ensure that your elbow stays close to your body to maximize back muscle engagement.",
+    "Start with a lighter weight to master the form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to swinging or jerking motions.",
+    "Allowing the shoulder to elevate, causing unnecessary tension in the neck.",
+    "Not fully retracting the shoulder blade, reducing back muscle engagement.",
+    "Rotating the torso instead of keeping it stable, shifting focus away from the target muscles.",
+    "Pulling with the arm instead of focusing on the back muscles, limiting effectiveness.",
+    "Leaning back excessively, compromising core stability and posture.",
+    "Not controlling the eccentric phase, resulting in a loss of tension.",
+    "Positioning the feet too close together, reducing balance and stability.",
+    "Starting with the cable too low or too high, affecting the range of motion.",
+    "Allowing the wrist to bend, which can lead to strain or discomfort."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Fondo de Tríceps en Banco Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/fondo-de-triceps-en-banco-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/530df2f4-d7c1-4ca6-ba8a-b9b689fbf4d7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "BACK",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los Fondos de Tríceps Sentado en Banco son un ejercicio de peso corporal efectivo que se enfoca en el tríceps braquial. Consiste en bajar y subir el cuerpo usando los brazos mientras estás sentado en un banco o silla, centrándose en la extensión de la articulación del codo. Este ejercicio también involucra los hombros y el pecho en menor medida.",
+  "como_realizar": [
+    "Siéntate en el borde de un banco o silla resistente con las manos colocadas junto a tus caderas, dedos apuntando hacia adelante.",
+    "Extiende tus piernas frente a ti, manteniendo los talones en el suelo y las rodillas ligeramente dobladas.",
+    "Desplaza tus caderas hacia adelante fuera del banco, soportando tu peso con tus brazos.",
+    "Baja tu cuerpo doblando los codos hasta un ángulo de aproximadamente 90 grados, manteniéndolos cerca de tus costados.",
+    "Empuja a través de tus palmas para extender tus codos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu espalda cerca del banco durante todo el movimiento para maximizar el compromiso de los tríceps.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener la tensión en los músculos.",
+    "Asegúrate de que tus hombros permanezcan abajo y alejados de tus orejas para evitar tensiones innecesarias.",
+    "Controla el descenso y el ascenso para mejorar la activación muscular y reducir el riesgo de lesiones.",
+    "Si lo encuentras demasiado desafiante, dobla más las rodillas o coloca los pies más cerca para reducir la resistencia."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado separadas, lo que lleva a una tensión en los hombros.",
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso de los tríceps.",
+    "Dejar caer las caderas demasiado bajo, aumentando el estrés en la articulación del hombro.",
+    "No mantener los pies planos en el suelo, causando inestabilidad.",
+    "No mantener la espalda recta, lo que lleva a una mala postura.",
+    "Usar impulso en lugar de movimientos controlados, reduciendo la efectividad.",
+    "No bajar el cuerpo lo suficiente para comprometer completamente los tríceps.",
+    "Bloquear los codos en la parte superior, arriesgando tensión en las articulaciones."
+  ]
+}

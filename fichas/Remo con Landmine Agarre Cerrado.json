@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo con Landmine Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/close-grip-landmine-row",
+  "video_url": "https://api.smartworkout.app/asset/video/40c302e4-6718-4884-a953-27acf43c9be5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Close Grip Landmine Row is a compound exercise targeting the upper back, specifically the rhomboids, trapezius, and latissimus dorsi, while also engaging the biceps and forearms. This exercise utilizes a landmine setup, which involves a barbell anchored at one end, allowing for a unique range of motion and increased stability.",
+  "como_realizar": [
+    "Position a barbell in a landmine attachment or securely anchor one end in a corner.",
+    "Stand over the barbell with feet shoulder-width apart, knees slightly bent.",
+    "Bend at the hips to lower your torso until it is nearly parallel to the floor, maintaining a neutral spine.",
+    "Grip the barbell close to the weighted end with both hands using an overhand grip.",
+    "Engage your core and pull the barbell towards your lower chest by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly lower the barbell back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your back straight and avoid rounding your shoulders to prevent injury.",
+    "Focus on pulling with your back muscles rather than relying solely on your arms.",
+    "Maintain a slight bend in your knees to support balance and stability.",
+    "Control the movement throughout; avoid using momentum to lift the weight.",
+    "Ensure that your grip is firm but not excessively tight to reduce forearm fatigue.",
+    "Exhale as you pull the barbell towards you and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using too much momentum by swinging the torso.",
+    "Allowing the elbows to flare out excessively.",
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Standing too far from the barbell, reducing range of motion.",
+    "Pulling the barbell too high, causing shoulder strain.",
+    "Failing to engage the core for stability.",
+    "Gripping the bar too loosely, leading to loss of control.",
+    "Not squeezing the shoulder blades together at the top of the movement.",
+    "Bending the wrists instead of keeping them straight.",
+    "Lifting the heels off the ground, compromising balance."
+  ]
+}

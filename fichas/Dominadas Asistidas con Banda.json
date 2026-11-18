@@ -1,0 +1,49 @@
+{
+  "nombre": "Dominadas Asistidas con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/dominadas-asistidas-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/fa0d3433-ba9f-4e33-9f41-1daa10a84a63.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "Las Dominadas Asistidas con Banda son un ejercicio de entrenamiento de fuerza que utiliza una banda de resistencia para proporcionar asistencia durante el movimiento de dominadas. Este ejercicio se enfoca en los músculos de la espalda, particularmente el dorsal ancho, así como en los bíceps y los hombros. Es una excelente manera para que los principiantes desarrollen fuerza y mejoren su técnica de dominadas.",
+  "como_realizar": [
+    "Asegura una banda de resistencia firmemente a una barra de dominadas.",
+    "Coloca un pie o una rodilla en el lazo de la banda para reducir tu peso corporal.",
+    "Agarra la barra de dominadas con un agarre por encima, manos un poco más anchas que el ancho de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo recto.",
+    "Tira de ti mismo hacia arriba hasta que tu barbilla esté por encima de la barra, liderando con el pecho.",
+    "Baja lentamente de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Elige una banda con la resistencia adecuada; las bandas más gruesas proporcionan más asistencia.",
+    "Concéntrate en tirar con los músculos de la espalda en lugar de solo con los brazos.",
+    "Mantén los codos ligeramente frente a ti para activar eficazmente los dorsales.",
+    "Mantén un movimiento controlado en todo momento; evita balancearte o usar impulso.",
+    "Disminuye gradualmente la asistencia de la banda a medida que desarrollas fuerza.",
+    "Asegúrate de que tu agarre sea firme pero relajado para evitar tensión innecesaria en los antebrazos."
+  ],
+  "errores_comunes": [
+    "Usar una banda con demasiada asistencia, reduciendo el compromiso muscular.",
+    "Colocar la banda incorrectamente, causando inestabilidad y asistencia desigual.",
+    "No comprometer el core, lo que lleva a balanceo o pérdida de control.",
+    "Tirar con los brazos en lugar de comprometer los músculos de la espalda.",
+    "No alcanzar la extensión completa en la parte inferior, limitando el rango de movimiento.",
+    "Patear o usar el impulso para completar la dominada.",
+    "Permitir que los hombros se encojan, aumentando el riesgo de tensión en el hombro.",
+    "No mantener una línea recta del cuerpo, lo que lleva a un movimiento ineficiente.",
+    "Apresurarse en el movimiento, reduciendo el control y la efectividad."
+  ]
+}

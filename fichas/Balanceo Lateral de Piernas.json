@@ -1,0 +1,44 @@
+{
+  "nombre": "Balanceo Lateral de Piernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/side-leg-swings",
+  "video_url": "https://api.smartworkout.app/asset/video/58c24967-19cb-4ae5-a982-84d7e9c70bff.mp4",
+  "tags": [
+    "MOBILITY",
+    "WARMUP",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "Side Leg Swings are a dynamic stretching exercise that targets the hip flexors, abductors, and adductors. This movement helps improve flexibility, balance, and prepares the lower body for more intense physical activity.",
+  "como_realizar": [
+    "Stand upright with your feet shoulder-width apart and hold onto a stable object like a wall or a pole for support.",
+    "Shift your weight onto your left leg and lift your right leg slightly off the ground.",
+    "Swing your right leg gently across your body to the left, then out to the right side in a controlled manner.",
+    "Keep your torso upright and engage your core to maintain balance.",
+    "Perform 10-15 swings on one leg before switching to the other leg."
+  ],
+  "consejos": [
+    "Ensure that the movement is controlled and avoid using momentum to swing your leg.",
+    "Focus on keeping your upper body stable and avoid leaning too much to either side.",
+    "Start with small swings and gradually increase the range of motion as you become more comfortable.",
+    "Maintain a slight bend in the standing knee to help with balance.",
+    "Breathe steadily throughout the exercise to maintain rhythm and control."
+  ],
+  "errores_comunes": [
+    "Swinging the leg too high, compromising control and balance.",
+    "Allowing the torso to lean excessively, reducing core engagement.",
+    "Failing to keep the standing leg stable, leading to wobbling.",
+    "Not maintaining a neutral spine, causing unnecessary lower back strain.",
+    "Using momentum instead of controlled muscle activation.",
+    "Neglecting to engage the glutes and hip abductors, reducing effectiveness.",
+    "Letting the foot of the swinging leg point downwards, misaligning the hips.",
+    "Performing the movement too quickly, limiting range of motion control."
+  ]
+}

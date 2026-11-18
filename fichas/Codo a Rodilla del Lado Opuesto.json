@@ -1,0 +1,47 @@
+{
+  "nombre": "Codo a Rodilla del Lado Opuesto",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/codo-a-rodilla-del-lado-opuesto",
+  "video_url": "https://api.smartworkout.app/asset/video/799e957b-4400-4e75-a4af-f5f68e60bc9b.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El ejercicio de codo a rodilla del lado opuesto es un movimiento de fortalecimiento del núcleo que se enfoca en los músculos oblicuos. Consiste en llevar el codo a través del cuerpo para encontrarse con la rodilla opuesta, activando los músculos abdominales y mejorando la estabilidad rotacional.",
+  "como_realizar": [
+    "Acuéstate de espaldas con las rodillas dobladas y los pies planos en el suelo. Coloca las manos ligeramente detrás de la cabeza, con los codos apuntando hacia afuera.",
+    "Activa tu núcleo tirando del ombligo hacia la columna vertebral.",
+    "Levanta la cabeza, los hombros y la parte superior de la espalda del suelo mientras simultáneamente llevas el codo derecho hacia la rodilla izquierda, girando a través del torso.",
+    "Extiende la pierna derecha hacia afuera mientras llevas el codo a la rodilla.",
+    "Vuelve a la posición inicial con control, luego repite en el lado opuesto llevando el codo izquierdo hacia la rodilla derecha.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar tus músculos centrales para levantar y girar en lugar de tirar de tu cuello con las manos.",
+    "Mantén los movimientos controlados y deliberados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Exhala al girar y llevar el codo a la rodilla, inhala al regresar a la posición inicial.",
+    "Asegúrate de que tu espalda baja permanezca en contacto con el suelo durante todo el ejercicio para proteger tu columna vertebral.",
+    "Comienza con un rango de movimiento más pequeño si eres principiante, aumentando gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "No comprometer el core, lo que lleva a un movimiento ineficaz.",
+    "Apresurarse en el ejercicio, reduciendo el control y la precisión.",
+    "Permitir que la espalda se arquee, causando tensión y reduciendo la activación del core.",
+    "No rotar completamente el torso, limitando el rango de movimiento y efectividad.",
+    "Llevar el codo a la rodilla usando impulso en lugar de control muscular.",
+    "Posicionar el cuello incorrectamente, causando tensión o incomodidad.",
+    "No alinear el cuerpo correctamente, llevando a un compromiso muscular desequilibrado.",
+    "Descuidar la respiración adecuada, afectando la resistencia y el rendimiento."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Giro Ruso de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-ruso-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/c18fa21a-a51f-4809-8ac2-2fe04f267378.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro Ruso de Pie es un ejercicio para el core que se enfoca en los músculos oblicuos y mejora la fuerza y estabilidad rotacional. Este ejercicio se realiza de pie, lo que involucra la parte inferior del cuerpo y mejora el equilibrio.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, rodillas ligeramente flexionadas.",
+    "Sujeta un peso o balón medicinal con ambas manos frente a tu pecho.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Gira tu torso hacia la derecha, pivotando sobre tu pie izquierdo.",
+    "Regresa a la posición inicial y luego gira hacia la izquierda, pivotando sobre tu pie derecho.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus movimientos controlados para maximizar el compromiso muscular.",
+    "Concéntrate en rotar desde tu torso en lugar de solo mover tus brazos.",
+    "Mantén una ligera flexión en tus rodillas para apoyar el equilibrio y la estabilidad.",
+    "Exhala al girar para mejorar la activación del core.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de progresar."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar de mantenerlas estables, reduciendo el compromiso del core.",
+    "Usar el impulso para girar en lugar de una activación controlada del core.",
+    "Permitir que las rodillas se doblen excesivamente, comprometiendo la estabilidad.",
+    "Inclinarse demasiado hacia atrás, forzando la parte baja de la espalda.",
+    "No mantener una postura recta, lo que lleva a una mala forma.",
+    "No comprometer los oblicuos, confiando en el movimiento de los brazos en su lugar.",
+    "Girar demasiado rápido, reduciendo la efectividad del ejercicio.",
+    "Sostener el peso demasiado alto, desviando el enfoque del core.",
+    "Descuidar mantener los hombros abajo y relajados, causando tensión.",
+    "Sobre-rotar el torso, arriesgando tensión en la parte baja de la espalda."
+  ]
+}

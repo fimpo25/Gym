@@ -1,0 +1,40 @@
+{
+  "nombre": "Encogimiento de Hombros con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimiento-de-hombros-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/eb03004d-95da-4439-a02a-f8735ca5655d.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Encogimiento de Hombros con Barra es un ejercicio de aislamiento que se enfoca en los músculos trapecios. Consiste en levantar los hombros hacia las orejas mientras se sostiene una barra, involucrando eficazmente los músculos de la parte superior de la espalda y el cuello. Este ejercicio es esencial para desarrollar fuerza y masa en la región superior del trapecio.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una barra con un agarre por encima frente a tus muslos.",
+    "Mantén los brazos completamente extendidos y la espalda recta durante todo el movimiento.",
+    "Levanta los hombros directamente hacia tus orejas lo más alto posible, apretando los músculos trapecios en la parte superior del movimiento.",
+    "Mantén la contracción por un breve momento antes de bajar lentamente los hombros de regreso a la posición inicial.",
+    "Repite para el número deseado de repeticiones, manteniendo el control y evitando cualquier movimiento brusco."
+  ],
+  "consejos": [
+    "Concéntrate en usar solo tus hombros para levantar el peso; evita usar tus brazos o doblar los codos.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y evitar cualquier balanceo o arqueo de la espalda.",
+    "Exhala mientras levantas los hombros e inhala mientras los bajas de nuevo.",
+    "Comienza con un peso más ligero para dominar la forma adecuada antes de progresar a cargas más pesadas.",
+    "Realiza el ejercicio frente a un espejo si es posible para asegurar una postura y técnica correctas."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a una mala forma y reduce el rango de movimiento.",
+    "Rodar los hombros en lugar de levantarlos directamente hacia arriba y hacia abajo.",
+    "No comprometer completamente los músculos trapecios, confiando demasiado en el movimiento de los brazos.",
+    "Levantar con un movimiento brusco en lugar de movimientos controlados y constantes.",
+    "Permitir que la barra se aleje del cuerpo, reduciendo la efectividad.",
+    "Doblar los codos, convirtiendo el ejercicio en un remo vertical parcial.",
+    "Encoger los hombros demasiado rápido, impidiendo una contracción muscular adecuada.",
+    "No mantener una columna neutral, lo que lleva a una mala postura."
+  ]
+}

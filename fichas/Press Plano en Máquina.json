@@ -1,0 +1,48 @@
+{
+  "nombre": "Press Plano en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-plano-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/1ce6db8f-0aec-4a97-b43c-4ee15e506486.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El press de pecho en máquina es un ejercicio de resistencia que se enfoca en los músculos pectorales, tríceps y deltoides anteriores. Ofrece un recorrido de movimiento controlado, lo que lo hace ideal para principiantes y aquellos que se centran en la aislamiento muscular. La máquina permite ajustar los niveles de resistencia para adaptarse a diferentes niveles de fuerza.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura del pecho.",
+    "Siéntate contra el respaldo con los pies planos en el suelo.",
+    "Agarra las manijas con un agarre por encima, codos doblados a aproximadamente 90 grados.",
+    "Activa tu núcleo y presiona las manijas hacia adelante hasta que tus brazos estén completamente extendidos sin bloquear los codos.",
+    "Haz una pausa breve en la parte superior del movimiento.",
+    "Vuelve lentamente a la posición inicial con control, manteniendo la tensión en los músculos del pecho.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que el asiento esté ajustado de manera que tus brazos estén paralelos al suelo al agarrar las manijas.",
+    "Mantén tu espalda firmemente contra el respaldo durante todo el ejercicio para evitar tensiones.",
+    "Concéntrate en apretar los músculos del pecho al presionar hacia adelante para maximizar la activación.",
+    "Evita bloquear los codos en la extensión completa para mantener una tensión continua en los músculos.",
+    "Controla el movimiento al regresar para evitar usar el impulso y asegurar el compromiso muscular.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Ajustar el asiento demasiado alto o demasiado bajo, desalineando las manijas con el pecho.",
+    "Bloquear los codos en la parte superior, colocando un estrés indebido en las articulaciones.",
+    "Permitir que los hombros se levanten del respaldo, reduciendo el compromiso del pecho.",
+    "Usar el impulso para empujar el peso, comprometiendo la activación muscular.",
+    "No mantener un ritmo controlado, lo que lleva a una mala tensión muscular.",
+    "No retraer completamente las escápulas, limitando la activación del pecho.",
+    "Sobreextender los brazos más allá de un rango seguro, arriesgando una tensión en los hombros.",
+    "Descuidar ajustar la máquina para un ancho de agarre adecuado, afectando la forma.",
+    "Permitir que las muñecas se doblen excesivamente, reduciendo la transferencia de fuerza."
+  ]
+}

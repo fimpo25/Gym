@@ -1,0 +1,46 @@
+{
+  "nombre": "Estiramiento de Cuádriceps de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/estiramiento-de-cuadriceps-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/70e949e3-e0c8-40b3-94d1-54bb2f3729c6.mp4",
+  "tags": [
+    "STRETCH",
+    "MOBILITY",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento de Cuádriceps de Pie es un estiramiento estático que se enfoca en los músculos cuádriceps situados en la parte frontal del muslo. Este ejercicio ayuda a mejorar la flexibilidad y el rango de movimiento en la articulación de la rodilla, lo cual es esencial para actividades que implican movimiento de las piernas.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de las caderas.",
+    "Desplaza tu peso hacia tu pierna izquierda.",
+    "Dobla tu rodilla derecha y lleva tu talón derecho hacia tus glúteos.",
+    "Alcanza hacia atrás con tu mano derecha y agarra tu tobillo o pie derecho.",
+    "Mantén las rodillas juntas y párate erguido, evitando inclinarte hacia adelante.",
+    "Mantén el estiramiento durante 15-30 segundos, sintiendo un tirón suave en la parte frontal de tu muslo.",
+    "Suelta el estiramiento y repite con la pierna opuesta."
+  ],
+  "consejos": [
+    "Mantén una postura recta durante todo el estiramiento para evitar forzar la espalda.",
+    "Si tienes dificultades con el equilibrio, utiliza una pared o una silla para apoyarte.",
+    "Concéntrate en mantener las rodillas alineadas para maximizar la efectividad del estiramiento.",
+    "Evita tirar demasiado de tu tobillo para prevenir lesiones; el estiramiento debe ser suave.",
+    "Respira profunda y consistentemente para ayudar a relajar tus músculos durante el estiramiento."
+  ],
+  "errores_comunes": [
+    "Tirar del pie demasiado alto, causando una tensión excesiva en la rodilla.",
+    "Arquear la parte baja de la espalda en lugar de mantener la pelvis neutral.",
+    "Permitir que la rodilla se desplace hacia afuera en lugar de mantenerla alineada con la cadera.",
+    "No activar el core, lo que lleva a la inestabilidad.",
+    "Inclinarse hacia adelante o hacia atrás, alterando el equilibrio.",
+    "Agarrar el pie con demasiada fuerza, causando tensión innecesaria.",
+    "No mantener la pierna de apoyo recta y estable.",
+    "Mantener el estiramiento por una duración insuficiente para ser efectivo.",
+    "Rebotar durante el estiramiento, reduciendo su efectividad."
+  ]
+}

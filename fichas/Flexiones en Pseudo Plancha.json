@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexiones en Pseudo Plancha",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexiones-en-pseudo-plancha",
+  "video_url": "https://api.smartworkout.app/asset/video/ceae4970-eabc-447e-a917-42f96888e7ff.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Planche es un ejercicio avanzado de peso corporal que combina la posición de planche con el movimiento de una flexión. Requiere una fuerza significativa en la parte superior del cuerpo, equilibrio y estabilidad del núcleo. Este ejercicio se enfoca principalmente en los músculos del pecho, hombros, tríceps y núcleo.",
+  "como_realizar": [
+    "Comienza en una posición de planche con las manos colocadas al ancho de los hombros en el suelo y el cuerpo paralelo al suelo.",
+    "Activa tu núcleo y mantén las piernas rectas y juntas, levantándolas del suelo.",
+    "Baja tu cuerpo doblando los codos mientras mantienes la posición de planche.",
+    "Empuja hacia arriba para volver a la posición inicial, manteniendo el cuerpo recto y paralelo al suelo durante todo el movimiento.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas sean fuertes y flexibles para manejar la presión de este ejercicio.",
+    "Concéntrate en mantener una línea recta desde la cabeza hasta los pies para evitar que la espalda se hunda o arquee.",
+    "Comienza con progresiones básicas de planche si eres nuevo en este ejercicio para desarrollar la fuerza y el equilibrio necesarios.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad y el control.",
+    "Practica ejercicios de movilidad de muñeca regularmente para prevenir lesiones y mejorar el rendimiento."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan, perdiendo el compromiso del núcleo.",
+    "No mantener la protracción escapular durante todo el movimiento.",
+    "Colocar las manos demasiado hacia adelante, reduciendo el apalancamiento y el control.",
+    "Doblar los codos en exceso, convirtiendo el movimiento en una flexión regular.",
+    "No mantener las piernas juntas y rectas, reduciendo la tensión corporal.",
+    "Apresurar el movimiento, comprometiendo la forma y el control.",
+    "Descuidar el compromiso de los estabilizadores del hombro, aumentando la tensión.",
+    "Permitir que la cabeza caiga, provocando tensión en el cuello.",
+    "Respiración inconsistente, causando pérdida de ritmo y estabilidad."
+  ]
+}

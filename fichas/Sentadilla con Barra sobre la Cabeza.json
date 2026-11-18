@@ -1,0 +1,48 @@
+{
+  "nombre": "Sentadilla con Barra sobre la Cabeza",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/barbell-overhead-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/5f3c1824-528c-4b58-b660-f7b248ec6816.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Barbell Overhead Squat is a compound exercise that targets the entire body, emphasizing the shoulders, core, and lower body. It requires stability, mobility, and strength, making it an advanced movement suitable for experienced lifters. The exercise involves holding a barbell overhead while performing a squat, demanding coordination and balance.",
+  "como_realizar": [
+    "Begin by standing with your feet shoulder-width apart, toes slightly pointed out.",
+    "Grip the barbell with a wide overhand grip and press it overhead until your arms are fully extended.",
+    "Engage your core and ensure your elbows are locked out with the barbell directly above your head.",
+    "Initiate the squat by pushing your hips back and bending your knees, keeping your chest up and back straight.",
+    "Lower yourself until your thighs are at least parallel to the ground, maintaining the barbell's position overhead.",
+    "Push through your heels to return to the starting position, ensuring the barbell remains stable overhead throughout the movement."
+  ],
+  "consejos": [
+    "Warm up thoroughly before attempting this exercise to ensure shoulder and hip mobility.",
+    "Focus on maintaining a tight core to stabilize the spine and prevent injury.",
+    "Keep your gaze forward to help maintain balance and posture during the squat.",
+    "Start with a lighter weight to master form and technique before progressing to heavier loads.",
+    "Ensure that your knees track over your toes during the squat to prevent strain on the joints.",
+    "Practice shoulder mobility exercises regularly to improve range of motion for this lift."
+  ],
+  "errores_comunes": [
+    "Failing to keep the barbell directly over the midfoot, leading to loss of balance.",
+    "Allowing the knees to cave inward instead of tracking over the toes.",
+    "Not maintaining a neutral spine, resulting in excessive forward lean.",
+    "Holding the barbell with an incorrect grip width, affecting stability.",
+    "Inadequate hip and ankle mobility, restricting squat depth.",
+    "Failing to engage the core, compromising stability and control.",
+    "Dropping the elbows, causing the barbell to drift forward.",
+    "Rushing the descent, leading to poor control and form breakdown.",
+    "Neglecting to keep the chest up, causing the upper body to collapse.",
+    "Not activating the shoulder muscles, reducing overhead stability."
+  ]
+}

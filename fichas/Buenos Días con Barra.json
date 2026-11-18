@@ -1,0 +1,50 @@
+{
+  "nombre": "Buenos Días con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/buenos-dias-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/3df96014-5ab8-4ce1-9ad7-d6d31e263f97.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "BACK"
+  ],
+  "descripcion": "El Buenos Días con Barra es un ejercicio compuesto que se enfoca principalmente en la parte baja de la espalda, los isquiotibiales y los glúteos. Implica flexionarse en las caderas mientras se mantiene una columna neutral, lo que ayuda a fortalecer la cadena posterior y mejorar la mecánica de la bisagra de la cadera.",
+  "como_realizar": [
+    "Comienza colocando una barra en un soporte a la altura de los hombros.",
+    "Colócate debajo de la barra, apoyándola sobre la parte superior de tu espalda y hombros. Agarra la barra un poco más ancho que el ancho de los hombros.",
+    "Levanta la barra del soporte extendiendo las piernas y retrocede para despejar el soporte.",
+    "Párate con los pies al ancho de los hombros, con los dedos de los pies apuntando ligeramente hacia afuera.",
+    "Activa tu núcleo y mantén el pecho hacia arriba. Mantén una ligera flexión en las rodillas.",
+    "Flexiona en las caderas empujándolas hacia atrás mientras mantienes la espalda recta y el pecho hacia arriba.",
+    "Baja el torso hasta que esté casi paralelo al suelo o hasta donde tu flexibilidad lo permita sin redondear la espalda.",
+    "Invierte el movimiento empujando con los talones y extendiendo las caderas para regresar a la posición inicial."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el movimiento para proteger la parte baja de la espalda.",
+    "Concéntrate en flexionar las caderas en lugar de doblar la cintura para mantener una forma adecuada.",
+    "Comienza con un peso ligero para dominar la técnica antes de progresar a cargas más pesadas.",
+    "Asegúrate de que tus rodillas permanezcan ligeramente flexionadas durante el ejercicio para evitar tensiones innecesarias.",
+    "Mantén una columna neutral manteniendo la cabeza alineada con el torso; evita mirar hacia arriba o hacia abajo en exceso.",
+    "Controla el descenso y el ascenso del movimiento para maximizar el compromiso muscular y minimizar el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Doblar las rodillas en exceso, convirtiéndolo en una sentadilla.",
+    "Permitir que la barra se deslice hacia el cuello en lugar de descansar de manera segura en la parte superior de la espalda.",
+    "Inclinarse demasiado hacia adelante, causando pérdida de equilibrio.",
+    "No comprometer el core, lo que lleva a la inestabilidad.",
+    "Usar demasiado peso, comprometiendo la forma.",
+    "Bajar el torso demasiado rápido, perdiendo el control.",
+    "No hacer la bisagra en las caderas, reduciendo la activación de los isquiotibiales.",
+    "Hiperextender la espalda en la parte superior del movimiento.",
+    "No mantener el pecho hacia arriba, lo que lleva a una postura colapsada."
+  ]
+}

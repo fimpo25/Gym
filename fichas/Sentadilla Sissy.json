@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla Sissy",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-sissy",
+  "video_url": "https://api.smartworkout.app/asset/video/041bce67-9e26-4486-865f-e94ea7d4eb20.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Sissy es un ejercicio avanzado para la parte inferior del cuerpo que se centra principalmente en los cuádriceps, mientras también involucra el core y los flexores de la cadera. Se realiza con un enfoque en mantener una línea recta desde las rodillas hasta los hombros, enfatizando la flexión y extensión de las rodillas.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de los hombros. Usa un banco de Sissy Squat o agárrate a una superficie estable para mantener el equilibrio.",
+    "Activa tu core y mantén el torso erguido. Comienza a inclinarte hacia atrás doblando las rodillas hacia adelante, manteniendo las caderas extendidas.",
+    "Baja tu cuerpo permitiendo que las rodillas se desplacen hacia adelante mientras mantienes una línea recta desde las rodillas hasta los hombros.",
+    "Desciende hasta que tus rodillas estén completamente dobladas y tu cuerpo forme una línea recta desde la cabeza hasta las rodillas.",
+    "Empuja con las puntas de tus pies para volver a la posición inicial, extendiendo las rodillas y llevando tu cuerpo de nuevo a la posición erguida."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad.",
+    "Concéntrate en mantener una línea recta desde los hombros hasta las rodillas para asegurar una forma adecuada.",
+    "Usa un banco de Sissy Squat o agárrate de algo estable para mantener el equilibrio si es necesario.",
+    "Comienza con un rango de movimiento limitado si eres nuevo en este ejercicio, aumentando gradualmente a medida que te sientas más cómodo.",
+    "Asegúrate de que tus rodillas no colapsen hacia adentro; mantenlas alineadas con tus dedos de los pies."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso de los cuádriceps.",
+    "Permitir que las rodillas colapsen hacia adentro, aumentando la tensión en las rodillas.",
+    "No mantener las caderas extendidas, limitando la activación de los cuádriceps.",
+    "No mantener una línea recta desde las rodillas hasta los hombros, comprometiendo la forma.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo la efectividad.",
+    "Doblarse en las caderas, desviando el enfoque de los cuádriceps.",
+    "No lograr un rango completo de movimiento, limitando la activación muscular.",
+    "Colocar los pies demasiado separados, alterando la mecánica del ejercicio.",
+    "Descuidar el compromiso del core, llevando a la inestabilidad.",
+    "Apresurarse en las repeticiones, sacrificando la forma y el control."
+  ]
+}

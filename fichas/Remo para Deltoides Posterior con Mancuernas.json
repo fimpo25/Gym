@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo para Deltoides Posterior con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-rear-delt-row",
+  "video_url": "https://api.smartworkout.app/asset/video/f39b2da9-656e-4cf7-9d99-dede2ee0a38f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Dumbbell Rear Delt Row is an isolation exercise targeting the rear deltoids, upper back, and trapezius muscles. It helps in developing shoulder stability and improving posture by strengthening the posterior shoulder girdle.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in each hand with a neutral grip.",
+    "Bend your knees slightly and hinge at the hips to lean forward, keeping your back straight and chest up.",
+    "Let your arms hang down naturally, perpendicular to the floor.",
+    "Engage your core and retract your shoulder blades.",
+    "Pull the dumbbells up towards your ribcage, focusing on squeezing your shoulder blades together.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction in the rear delts.",
+    "Slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your back straight and avoid rounding your shoulders during the exercise.",
+    "Focus on pulling with your elbows rather than your hands to engage the rear delts more effectively.",
+    "Maintain a slow and controlled movement to maximize muscle engagement and reduce momentum.",
+    "Ensure that your neck remains neutral by looking slightly ahead rather than down.",
+    "Avoid using excessively heavy weights that compromise form; prioritize technique over load.",
+    "Inhale as you lower the weights and exhale as you lift them for better core stability."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to momentum-based lifting instead of controlled movements.",
+    "Allowing the elbows to flare out excessively, reducing focus on the rear deltoids.",
+    "Rounding the back, which can lead to poor posture and reduced muscle engagement.",
+    "Not fully retracting the shoulder blades, limiting the range of motion and effectiveness.",
+    "Pulling the dumbbells too far back, shifting the emphasis away from the rear delts.",
+    "Neglecting to keep the core engaged, resulting in instability and poor form.",
+    "Raising the shoulders towards the ears, causing tension in the neck and upper traps.",
+    "Performing the movement too quickly, sacrificing control and muscle activation."
+  ]
+}

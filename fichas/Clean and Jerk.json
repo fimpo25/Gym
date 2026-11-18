@@ -1,0 +1,65 @@
+{
+  "nombre": "Clean and Jerk",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/clean-and-jerk",
+  "video_url": "https://api.smartworkout.app/asset/video/d15609c9-6194-4284-90c6-a58ae7675128.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Clean and Jerk is a two-part Olympic weightlifting exercise that involves lifting a barbell from the floor to an overhead position. It combines strength, power, coordination, and technique, making it a comprehensive full-body workout. The exercise is divided into two phases: the Clean, where the barbell is lifted from the floor to the shoulders, and the Jerk, where the barbell is driven overhead.",
+  "como_realizar": [
+    "Start with your feet shoulder-width apart, barbell over mid-foot.",
+    "Grip the barbell with a hook grip, hands slightly wider than shoulder-width.",
+    "Lower your hips with a straight back and chest up.",
+    "Initiate the lift by extending your knees and hips explosively.",
+    "Pull the bar close to your body, shrugging your shoulders as it passes your knees.",
+    "Drop under the bar into a front squat position as you catch it on your shoulders.",
+    "Stand up from the squat to complete the Clean phase.",
+    "For the Jerk, dip slightly by bending your knees and then drive upward explosively.",
+    "Push the bar overhead while splitting your legs into a lunge position.",
+    "Lock out your arms with the barbell overhead and stabilize.",
+    "Bring your feet together to finish in a standing position with control."
+  ],
+  "consejos": [
+    "Focus on keeping the barbell close to your body throughout the lift to maintain control and efficiency.",
+    "Use a hook grip for better grip security during heavy lifts.",
+    "Engage your core throughout both phases to maintain stability and prevent injury.",
+    "Practice each phase separately before combining them to ensure proper technique.",
+    "Ensure proper warm-up and mobility exercises before attempting heavy lifts to prevent injury.",
+    "Keep your elbows high during the Clean catch to secure the bar on your shoulders effectively.",
+    "During the Jerk, ensure a quick transition from dip to drive for maximum power transfer."
+  ],
+  "errores_comunes": [
+    "Starting with hips too low or too high in the setup position.",
+    "Pulling with the arms too early instead of driving with the legs.",
+    "Not keeping the barbell close to the body during the pull.",
+    "Failing to fully extend the hips before initiating the drop under the bar.",
+    "Catching the barbell in a forward position instead of directly above the shoulders.",
+    "Not achieving full depth in the squat during the clean.",
+    "Pressing the barbell instead of driving it with the legs during the jerk.",
+    "Allowing the elbows to drop during the clean, leading to a loss of control.",
+    "Jumping forward or backward excessively during the lift.",
+    "Not maintaining a stable core throughout the movement.",
+    "Landing with feet too narrow or too wide in the split jerk.",
+    "Failing to lock out the elbows fully in the overhead position."
+  ]
+}

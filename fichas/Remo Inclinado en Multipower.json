@@ -1,0 +1,51 @@
+{
+  "nombre": "Remo Inclinado en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-inclinado-en-multipower",
+  "video_url": "https://api.smartworkout.app/asset/video/ba80d928-9cd6-4820-92fc-be91145c29cf.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Inclinado en Smith es un ejercicio compuesto que se enfoca en los músculos de la espalda, incluyendo el dorsal ancho, los romboides y el trapecio. Este ejercicio se realiza utilizando una máquina Smith, que proporciona estabilidad y control, permitiendo un enfoque concentrado en el compromiso muscular.",
+  "como_realizar": [
+    "Coloca la barra de la máquina Smith a una altura justo debajo de tus rodillas.",
+    "Párate con los pies al ancho de los hombros y agarra la barra con un agarre por encima, manos un poco más anchas que el ancho de los hombros.",
+    "Dobla ligeramente las rodillas y flexiona las caderas para bajar el torso hasta que esté casi paralelo al suelo.",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el movimiento.",
+    "Tira de la barra hacia tu caja torácica inferior retrayendo los omóplatos y doblando los codos.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando los músculos de la espalda.",
+    "Baja lentamente la barra de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y evita redondear la espalda para prevenir lesiones.",
+    "Concéntrate en tirar con los músculos de la espalda en lugar de los brazos para maximizar el compromiso.",
+    "Mantén los codos cerca del cuerpo durante el tirón para apuntar eficazmente a los dorsales.",
+    "Controla el movimiento tanto al subir como al bajar para una mejor activación muscular.",
+    "Ajusta el ancho de tu agarre para encontrar una posición cómoda que permita un rango completo de movimiento.",
+    "Asegúrate de que tus pies estén firmemente plantados en el suelo para mayor estabilidad."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a una mala forma y a un rango de movimiento reducido.",
+    "Arquear la espalda en exceso, aumentando la tensión en la parte baja de la espalda.",
+    "No mantener el core comprometido, resultando en inestabilidad y posible lesión.",
+    "Tirar con los brazos en lugar de comprometer los músculos de la espalda.",
+    "Permitir que la barra se aleje demasiado del cuerpo, reduciendo la efectividad.",
+    "Levantar la barra demasiado alto, causando tensión en los hombros y el cuello.",
+    "Rebotar la barra en el pecho, perdiendo tensión muscular y control.",
+    "No mantener una columna neutral, arriesgando una lesión en la espalda.",
+    "Redondear los hombros hacia adelante, desactivando los músculos de la parte superior de la espalda.",
+    "Usar el impulso en lugar de un movimiento controlado, disminuyendo la activación muscular."
+  ]
+}

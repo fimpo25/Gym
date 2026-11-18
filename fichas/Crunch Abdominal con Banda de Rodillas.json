@@ -1,0 +1,44 @@
+{
+  "nombre": "Crunch Abdominal con Banda de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-abdominal-con-banda-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/9443f9d6-ef9a-4a30-8869-5ca5e3f21c66.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Crunches de Abs con Banda de Rodillas son un ejercicio de core que se enfoca en los músculos abdominales utilizando bandas de resistencia. Este ejercicio enfatiza el recto abdominal y activa los oblicuos, proporcionando un entrenamiento efectivo para fortalecer y tonificar el core.",
+  "como_realizar": [
+    "Sujeta una banda de resistencia a un punto de anclaje alto por encima de tu cabeza.",
+    "Arrodíllate en el suelo mirando hacia el punto de anclaje, sosteniendo las asas de la banda con ambas manos.",
+    "Coloca tus manos detrás de tu cabeza, manteniendo los codos abiertos.",
+    "Activa tu núcleo y inclínate ligeramente hacia adelante para crear tensión en la banda.",
+    "Exhala mientras contraes tus abdominales, llevando tu pecho hacia tus rodillas en un movimiento de contracción.",
+    "Mantén la contracción brevemente, luego regresa lentamente a la posición inicial mientras inhalas.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien sujeta para evitar que se deslice durante el ejercicio.",
+    "Mantén una columna vertebral neutral durante todo el movimiento para evitar tensiones en la espalda.",
+    "Concéntrate en usar tus músculos abdominales para realizar el crunch en lugar de tirar con los brazos.",
+    "Mantén tus movimientos controlados y deliberados, evitando cualquier movimiento brusco.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio, aumentando gradualmente la resistencia a medida que desarrollas fuerza.",
+    "Inhala profundamente antes de cada crunch y exhala completamente al contraer tus abdominales."
+  ],
+  "errores_comunes": [
+    "Tirar con los brazos en lugar de activar los músculos del core.",
+    "Permitir que la banda retroceda demasiado rápido, perdiendo el control.",
+    "Arquear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "No activar completamente los músculos abdominales durante todo el movimiento.",
+    "Colocar las rodillas demasiado atrás, reduciendo la tensión en la banda.",
+    "Usar el impulso para completar el crunch en lugar de un movimiento controlado.",
+    "No mantener la cabeza y el cuello alineados con la columna, lo que lleva a tensión.",
+    "Descuidar anclar la banda de manera segura, arriesgando que se deslice."
+  ]
+}

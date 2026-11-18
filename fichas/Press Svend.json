@@ -1,0 +1,47 @@
+{
+  "nombre": "Press Svend",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-svend",
+  "video_url": "https://api.smartworkout.app/asset/video/70418929-f916-4a2f-822b-f2c9ba8d21d5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Prensa Svend de pie es un ejercicio de aislamiento que se enfoca en los músculos del pecho, particularmente el pectoral mayor. Consiste en presionar un disco de peso mientras se mantiene una tensión constante en el pecho, promoviendo el compromiso y crecimiento muscular. Este ejercicio se realiza de pie, lo que también involucra el core para la estabilidad.",
+  "como_realizar": [
+    "Párate derecho con los pies al ancho de los hombros, manteniendo una ligera flexión en las rodillas para estabilidad.",
+    "Sujeta un disco de pesas entre las palmas a la altura del pecho, manteniendo los codos doblados y cerca del cuerpo.",
+    "Presiona las palmas juntas para apretar el disco de pesas, activando los músculos del pecho.",
+    "Extiende los brazos hacia adelante lentamente hasta que estén completamente extendidos frente a ti, manteniendo el disco apretado firmemente.",
+    "Pausa brevemente en la extensión completa, manteniendo la tensión en el pecho.",
+    "Lleva lentamente el disco de pesas de regreso a la posición inicial a la altura del pecho mientras mantienes la presión sobre el disco.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en apretar el disco de pesas durante todo el movimiento para maximizar el compromiso del pecho.",
+    "Mantén el núcleo apretado para mantener el equilibrio y prevenir movimientos innecesarios.",
+    "Evita bloquear los codos en la extensión completa para mantener una tensión constante en los músculos del pecho.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a discos más pesados.",
+    "Exhala al presionar el disco hacia adelante e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso del pecho.",
+    "Usar demasiado peso, lo que lleva a un control y forma deficientes.",
+    "No mantener el núcleo comprometido, resultando en un torso inestable.",
+    "Presionar las pesas demasiado rápido, comprometiendo la activación muscular.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Dejar que las pesas se alejen del pecho, disminuyendo la efectividad del ejercicio.",
+    "Descuidar mantener una ligera flexión en los codos, causando tensión en las articulaciones.",
+    "Arquear la espalda excesivamente, arriesgando tensión en la parte baja de la espalda.",
+    "Agarrar las pesas demasiado flojamente, reduciendo el control y la estabilidad."
+  ]
+}

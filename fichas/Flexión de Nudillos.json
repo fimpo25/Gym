@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión de Nudillos",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-de-nudillos",
+  "video_url": "https://api.smartworkout.app/asset/video/cee320e7-68cd-4b50-86f8-ab7dea36a6b6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Las Flexiones de Nudillos son una variación de las flexiones tradicionales realizadas sobre los nudillos en lugar de las palmas. Este ejercicio se enfoca en el pecho, tríceps, hombros y núcleo, mientras también fortalece las muñecas y los antebrazos. A menudo se utiliza en el entrenamiento de artes marciales para mejorar la potencia de golpe y la estabilidad de las muñecas.",
+  "como_realizar": [
+    "Comienza en una posición de flexión estándar con tu cuerpo formando una línea recta desde la cabeza hasta los talones.",
+    "Coloca tus puños en el suelo a la altura de los hombros, con los nudillos hacia abajo.",
+    "Activa tu núcleo y mantén los codos cerca de tu cuerpo mientras te bajas hacia el suelo.",
+    "Baja el pecho hasta que esté justo por encima del suelo, manteniendo el cuerpo recto.",
+    "Empuja a través de tus nudillos para volver a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas estén alineadas con tus antebrazos para evitar tensiones.",
+    "Mantén tu núcleo apretado durante todo el movimiento para mantener una forma adecuada.",
+    "Si eres nuevo en este ejercicio, comienza en una superficie más suave para reducir el estrés en los nudillos.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Si experimentas molestias en las muñecas, intenta ajustar la posición de tus puños o considera usar barras para flexiones."
+  ],
+  "errores_comunes": [
+    "Permitir que las muñecas colapsen hacia adentro o hacia afuera, comprometiendo la estabilidad y aumentando la tensión en las articulaciones.",
+    "No mantener una línea recta desde la cabeza hasta los talones, lo que lleva a caderas caídas o un trasero elevado, reduciendo el compromiso del core.",
+    "Colocar las manos demasiado anchas o demasiado estrechas, afectando la activación de los músculos del hombro y el pecho.",
+    "No extender completamente los codos en la parte superior del movimiento, limitando el rango de movimiento y el compromiso muscular.",
+    "Dejar caer la cabeza, lo que tensa el cuello y altera la alineación de la columna.",
+    "Apresurarse en las repeticiones, sacrificando la forma y el control por la velocidad.",
+    "No comprometer el core, resultando en una falta de estabilidad y un mayor riesgo de tensión en la parte baja de la espalda.",
+    "Doblar los dedos en lugar de mantenerlos rectos, reduciendo la efectividad del ejercicio."
+  ]
+}

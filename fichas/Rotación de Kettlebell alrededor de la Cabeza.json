@@ -1,0 +1,50 @@
+{
+  "nombre": "Rotación de Kettlebell alrededor de la Cabeza",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/kettlebell-around-the-head-rotation",
+  "video_url": "https://api.smartworkout.app/asset/video/c007c225-93f9-4c3a-ae2f-357dda1275a2.mp4",
+  "tags": [
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "CHEST"
+  ],
+  "descripcion": "The Kettlebell Around the Head Rotation is a dynamic exercise that targets the shoulders, core, and upper back. It involves rotating a kettlebell around your head in a controlled manner, enhancing shoulder mobility and stability while engaging the core muscles.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a kettlebell with both hands in front of you at chest level.",
+    "Engage your core and keep your back straight.",
+    "Lift the kettlebell over your head, starting to rotate it around your head in a clockwise direction.",
+    "Keep the movement smooth and controlled, ensuring the kettlebell stays close to your head.",
+    "Complete the rotation by bringing the kettlebell back to the starting position in front of your chest.",
+    "Repeat the movement in a counterclockwise direction.",
+    "Perform the desired number of repetitions for each direction."
+  ],
+  "consejos": [
+    "Maintain a tight core throughout the exercise to stabilize your body.",
+    "Keep your elbows slightly bent to reduce strain on the joints.",
+    "Focus on smooth, controlled movements rather than speed.",
+    "Ensure that the kettlebell remains close to your head to maximize shoulder engagement.",
+    "Breathe steadily and avoid holding your breath during the rotation.",
+    "Start with a lighter kettlebell to master the technique before progressing to heavier weights."
+  ],
+  "errores_comunes": [
+    "Using too heavy a kettlebell, compromising control and form.",
+    "Allowing the elbows to flare out excessively, reducing shoulder engagement.",
+    "Failing to keep the core engaged, leading to unnecessary lower back strain.",
+    "Rotating the head instead of the kettlebell, reducing exercise effectiveness.",
+    "Not maintaining a steady pace, causing jerky and uncontrolled movements.",
+    "Holding the kettlebell too far from the head, increasing shoulder strain.",
+    "Neglecting to keep a neutral spine, risking neck and back discomfort.",
+    "Rushing through the movement, reducing focus on muscle engagement.",
+    "Gripping the kettlebell too tightly, causing forearm fatigue."
+  ]
+}

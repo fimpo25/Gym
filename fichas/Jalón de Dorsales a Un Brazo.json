@@ -1,0 +1,49 @@
+{
+  "nombre": "Jalón de Dorsales a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/435cff62-b904-4149-b512-028033ac10d1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The One Arm Lat Pulldown is an isolation exercise targeting the latissimus dorsi muscles. It helps in developing unilateral strength and correcting muscle imbalances. This exercise is performed using a cable machine with a single handle attachment, allowing for a full range of motion and focused contraction on one side of the back at a time.",
+  "como_realizar": [
+    "Adjust the seat height and knee pad on the cable machine to ensure stability during the exercise.",
+    "Attach a single handle to the high pulley of the cable machine.",
+    "Sit down facing the machine with your feet flat on the floor and knees secured under the pad.",
+    "Grasp the handle with one hand using a neutral or supinated grip, keeping your arm fully extended.",
+    "Lean slightly back, maintaining a straight spine and engaging your core muscles.",
+    "Exhale as you pull the handle down towards your chest, leading with your elbow and squeezing your shoulder blade down and back.",
+    "Pause briefly at the bottom of the movement, ensuring full contraction of the latissimus dorsi.",
+    "Inhale as you slowly return to the starting position, allowing your arm to fully extend without losing tension in your back.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Focus on pulling with your back muscles rather than your arm to maximize lat engagement.",
+    "Keep your torso stable throughout the movement to avoid using momentum.",
+    "Control the eccentric phase by slowly extending your arm back to the starting position.",
+    "Ensure that your shoulder remains down and away from your ear during the pull to prevent strain.",
+    "Use a weight that allows you to perform the exercise with proper form for all repetitions."
+  ],
+  "errores_comunes": [
+    "Using momentum to pull the weight instead of controlled muscle contraction.",
+    "Allowing the shoulder to roll forward, disengaging the lat muscles.",
+    "Failing to keep the torso stable, leading to excessive body movement.",
+    "Pulling the handle too far down, causing unnecessary strain on the shoulder joint.",
+    "Not fully extending the arm at the top of the movement, limiting range of motion.",
+    "Gripping the handle too tightly, causing forearm fatigue before the lats are fully engaged.",
+    "Leaning back excessively, shifting focus away from the lats to other muscle groups.",
+    "Neglecting to keep the elbow in line with the torso, reducing lat activation.",
+    "Using a weight that is too heavy, compromising form and control."
+  ]
+}

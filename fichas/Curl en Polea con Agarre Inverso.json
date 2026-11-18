@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl en Polea con Agarre Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-en-polea-con-agarre-inverso",
+  "video_url": "https://api.smartworkout.app/asset/video/c25969fc-9193-4e12-a1d2-dbf1aeffc1ce.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS"
+  ],
+  "descripcion": "El Curl de Cable con Agarre Inverso es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial, con un énfasis secundario en el bíceps braquial. Se realiza utilizando una máquina de cables con un accesorio de barra recta o EZ, empleando un agarre inverso (palmas hacia abajo) para concentrarse en los antebrazos y la parte externa del brazo superior.",
+  "como_realizar": [
+    "Conecta una barra recta o EZ a una máquina de cable de polea baja.",
+    "Párate frente a la máquina con los pies al ancho de los hombros.",
+    "Agarra la barra con un agarre por encima (palmas hacia abajo), manos al ancho de los hombros.",
+    "Mantén los codos cerca de tu torso y la espalda recta.",
+    "Exhala y levanta la barra hacia arriba flexionando los codos, manteniendo las muñecas rectas.",
+    "Continúa levantando hasta que tus antebrazos estén verticales o justo más allá de la perpendicular al suelo.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los antebrazos y bíceps.",
+    "Inhala y baja lentamente la barra de nuevo a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos estacionarios durante el movimiento para maximizar el aislamiento muscular.",
+    "Evita balancear tu cuerpo o usar el impulso para levantar el peso; mantén una forma estricta para mayor efectividad.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada, especialmente si eres nuevo en este ejercicio.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y prevenir tensión en la parte baja de la espalda.",
+    "Usa un tempo controlado tanto al subir como al bajar para aumentar la tensión muscular y la efectividad.",
+    "Asegúrate de que tus muñecas permanezcan en una posición neutral para evitar tensiones innecesarias."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a balanceo y momentum en lugar de un movimiento controlado.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps y aumentando la participación del hombro.",
+    "Inclinarse hacia atrás excesivamente, lo que desvía el enfoque de los bíceps y puede tensar la parte baja de la espalda.",
+    "No extender completamente los brazos en la parte inferior del movimiento, limitando el rango de movimiento.",
+    "Enroscar las muñecas excesivamente, lo que puede llevar a tensión en las muñecas y reduce la activación del bíceps.",
+    "No mantener el núcleo comprometido, resultando en una falta de estabilidad y potencial para una mala postura.",
+    "Apresurarse en las repeticiones sin un ritmo controlado, disminuyendo la tensión muscular y la efectividad."
+  ]
+}

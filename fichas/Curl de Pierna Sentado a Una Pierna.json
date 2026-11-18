@@ -1,0 +1,44 @@
+{
+  "nombre": "Curl de Pierna Sentado a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/seated-single-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/e207b759-a36b-4eb6-aa2a-71a002685a7e.mp4",
+  "tags": [
+    "STRENGTH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated Single Leg Curl is an isolation exercise targeting the hamstring muscles. It involves flexing the knee joint to bring the heel towards the glutes while seated on a leg curl machine. This exercise helps in developing strength and muscle definition in the hamstrings, improving knee stability and overall leg performance.",
+  "como_realizar": [
+    "Adjust the seat and backrest of the leg curl machine so that your knees align with the pivot point of the machine.",
+    "Sit on the machine with your back firmly against the backrest and place one leg under the padded lever, ensuring your ankle is just above the lever.",
+    "Secure your position by holding onto the side handles.",
+    "Begin by flexing your knee to bring your heel towards your glutes, keeping your movement controlled.",
+    "Pause briefly at the bottom of the movement, ensuring full contraction of the hamstring.",
+    "Slowly extend your leg back to the starting position without locking your knee.",
+    "Repeat for the desired number of repetitions before switching to the other leg."
+  ],
+  "consejos": [
+    "Ensure your knee aligns with the machine's pivot point to prevent strain.",
+    "Maintain a slow and controlled motion throughout to maximize muscle engagement.",
+    "Avoid locking your knee at the end of each repetition to maintain tension on the hamstrings.",
+    "Focus on squeezing your hamstring at the bottom of each curl for optimal contraction.",
+    "Keep your core engaged and back pressed against the seat to stabilize your body.",
+    "Start with a lighter weight to perfect your form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Allowing the knee to lift off the pad during the curl, reducing hamstring engagement.",
+    "Failing to adjust the machine to fit leg length, leading to improper alignment.",
+    "Using momentum to swing the weight instead of controlled muscle contraction.",
+    "Not fully extending the leg at the start, limiting range of motion.",
+    "Curling too quickly, which can lead to poor muscle control and engagement.",
+    "Leaning back or shifting body weight to compensate for lack of strength.",
+    "Neglecting to keep the ankle dorsiflexed, reducing the effectiveness of the exercise.",
+    "Setting the weight too heavy, causing form breakdown and potential strain."
+  ]
+}

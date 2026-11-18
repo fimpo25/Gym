@@ -1,0 +1,47 @@
+{
+  "nombre": "Press Inclinado con Mancuernas Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inclinado-con-mancuernas-agarre-neutro",
+  "video_url": "https://api.smartworkout.app/asset/video/fe0fca73-f9f4-4627-9aae-c236916d2320.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Mancuernas con Agarre Neutro en Banco Inclinado se enfoca en la parte superior de los músculos pectorales, los deltoides anteriores y los tríceps. Este ejercicio se realiza en un banco inclinado con mancuernas sostenidas en un agarre neutro, es decir, con las palmas enfrentadas. Se enfatiza el pecho superior y se reduce la tensión en los hombros en comparación con otros movimientos de press.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con los pies planos en el suelo y la espalda firmemente contra el respaldo.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral, palmas enfrentadas.",
+    "Coloca las mancuernas a la altura de los hombros, con los codos doblados aproximadamente a 90 grados.",
+    "Presiona las mancuernas hacia arriba hasta que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial a la altura de los hombros.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca firmemente contra el banco durante todo el movimiento para evitar arquearla.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y apoyar tu espalda baja.",
+    "Concéntrate en un movimiento controlado; evita usar el impulso para levantar las pesas.",
+    "Exhala mientras presionas las mancuernas hacia arriba e inhala mientras las bajas.",
+    "Ajusta el ángulo del banco si sientes incomodidad en los hombros; una inclinación más baja puede reducir la tensión.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran demasiado, reduciendo el compromiso del pecho.",
+    "Arquear excesivamente la parte baja de la espalda, llevando a una estabilidad del núcleo deficiente.",
+    "No mantener una posición neutral de la muñeca, aumentando la tensión en las muñecas.",
+    "Bajar las mancuernas demasiado, colocando un estrés innecesario en los hombros.",
+    "Rebotar las mancuernas en el pecho, reduciendo la tensión y el control muscular.",
+    "Presionar las mancuernas de manera desigual, causando un desequilibrio muscular.",
+    "Usar impulso en lugar de un movimiento controlado, disminuyendo la efectividad.",
+    "No comprometer completamente el pecho y los tríceps, dependiendo demasiado de los hombros.",
+    "Colocar el banco en un ángulo demasiado pronunciado, desviando el enfoque del pecho superior."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Jalón de Dorsales Brazo Recto",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/straight-arm-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/0e48f179-9c29-4921-b082-5dee57637c60.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Straight Arm Pulldown is an isolation exercise targeting the latissimus dorsi muscles. It involves pulling a cable bar down with straight arms, focusing on the back muscles without engaging the biceps. This exercise helps in developing a wider back and improving upper body strength.",
+  "como_realizar": [
+    "Attach a straight bar to the high pulley of a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the bar with an overhand grip, hands slightly wider than shoulder-width.",
+    "Step back slightly to create tension in the cable, keeping arms straight and elbows slightly bent.",
+    "Engage your core and pull the bar down towards your thighs, keeping arms straight.",
+    "Focus on squeezing your lats as you pull down.",
+    "Slowly return to the starting position with control, maintaining tension in your lats.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain stability.",
+    "Avoid using your biceps; focus on using your lats to pull the bar down.",
+    "Maintain a slight bend in the elbows to prevent joint strain.",
+    "Use a controlled motion; avoid swinging or using momentum.",
+    "Adjust the weight so that you can perform the exercise with proper form for all repetitions.",
+    "Ensure your shoulders are relaxed and not hunched up towards your ears."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to improper form and reduced muscle engagement.",
+    "Bending the elbows excessively, turning the exercise into a tricep pulldown.",
+    "Leaning too far forward or backward, causing loss of tension in the lats.",
+    "Swinging the torso to generate momentum instead of using controlled movement.",
+    "Allowing the shoulders to roll forward, reducing lat activation.",
+    "Pulling the bar too low, causing unnecessary strain on the shoulders.",
+    "Not fully extending the arms at the top, limiting the range of motion.",
+    "Failing to engage the core, resulting in an unstable posture.",
+    "Rushing through the movement, compromising control and effectiveness."
+  ]
+}

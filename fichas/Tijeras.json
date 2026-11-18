@@ -1,0 +1,45 @@
+{
+  "nombre": "Tijeras",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/tijeras",
+  "video_url": "https://api.smartworkout.app/asset/video/934ab0d3-03a6-4be7-9c7b-7c6392a3a5fd.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "El ejercicio de Tijeras es un movimiento centrado en el core que se enfoca en los músculos abdominales, especialmente en los abdominales inferiores. Implica movimientos alternos de las piernas que imitan la apertura y cierre de unas tijeras, proporcionando un desafío dinámico a la estabilidad y la fuerza del core.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas y los brazos a los lados, con las palmas hacia abajo.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna y levanta ambas piernas del suelo aproximadamente 6 pulgadas.",
+    "Levanta ligeramente la cabeza, el cuello y los hombros de la colchoneta para activar los abdominales superiores.",
+    "Comienza el movimiento levantando una pierna más alto mientras bajas la otra pierna hacia el suelo sin tocarlo.",
+    "Alterna las piernas de manera controlada, imitando un movimiento de tijera.",
+    "Continúa alternando durante el número deseado de repeticiones o tiempo, manteniendo el núcleo activado en todo momento."
+  ],
+  "consejos": [
+    "Mantén la parte baja de la espalda presionada contra la colchoneta para evitar tensiones y asegurar una forma adecuada.",
+    "Mantén un patrón de respiración constante; exhala al cambiar de pierna e inhala al mantener la posición.",
+    "Si sientes tensión en el cuello, apoya la cabeza en la colchoneta mientras continúas con los movimientos de las piernas.",
+    "Concéntrate en movimientos lentos y controlados en lugar de velocidad para maximizar el compromiso del core.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que ganas fuerza."
+  ],
+  "errores_comunes": [
+    "La parte baja de la espalda se arquea del suelo, reduciendo el compromiso del core.",
+    "Las piernas bajan demasiado, causando tensión en la parte baja de la espalda.",
+    "El cuello y los hombros se levantan del suelo, provocando tensión.",
+    "Las piernas se mueven demasiado rápido, comprometiendo el control y la forma.",
+    "Los pies no están en punta o flexionados, reduciendo la activación muscular.",
+    "El core no está comprometido, confiando en los flexores de la cadera en su lugar.",
+    "Las manos se colocan debajo de las caderas, alterando la alineación de la columna.",
+    "La respiración es inconsistente, afectando el rendimiento y la resistencia."
+  ]
+}

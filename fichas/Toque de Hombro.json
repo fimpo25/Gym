@@ -1,0 +1,48 @@
+{
+  "nombre": "Toque de Hombro",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/toque-de-hombro",
+  "video_url": "https://api.smartworkout.app/asset/video/6f080c8e-fe03-4783-bb2b-d816956111eb.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Toque de Hombro es un ejercicio con el peso del cuerpo que se enfoca en el núcleo, los hombros y los músculos estabilizadores. Consiste en alternar toques en el hombro opuesto mientras se mantiene una posición de plancha, promoviendo el equilibrio y la coordinación.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos directamente debajo de los hombros y el cuerpo formando una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo para estabilizar tu cuerpo y evitar que las caderas se balanceen.",
+    "Levanta tu mano derecha del suelo y toca tu hombro izquierdo, manteniendo el cuerpo lo más quieto posible.",
+    "Regresa tu mano derecha a la posición inicial e inmediatamente levanta tu mano izquierda para tocar tu hombro derecho.",
+    "Continúa alternando los toques durante el número deseado de repeticiones o tiempo."
+  ],
+  "consejos": [
+    "Mantén los pies un poco más anchos que el ancho de los hombros para una mejor estabilidad.",
+    "Concéntrate en minimizar el movimiento en tus caderas y torso para comprometer el núcleo de manera efectiva.",
+    "Respira de manera constante durante el ejercicio, exhalando al tocar cada hombro.",
+    "Si te resulta difícil mantener el equilibrio, intenta realizar el ejercicio sobre tus rodillas como una modificación.",
+    "Asegúrate de que tus manos estén alineadas debajo de tus hombros para mantener la forma adecuada."
+  ],
+  "errores_comunes": [
+    "Las caderas se hunden, lo que lleva a una tensión en la parte baja de la espalda.",
+    "Los pies están demasiado separados, reduciendo el compromiso del core.",
+    "Rotar el torso en exceso, perdiendo estabilidad.",
+    "Tocar los hombros demasiado rápido, sacrificando el control.",
+    "No mantener un cuello neutral, causando tensión.",
+    "Los brazos no están completamente extendidos, limitando el rango de movimiento.",
+    "Las manos colocadas demasiado hacia adelante, alterando la alineación del cuerpo.",
+    "No comprometer el core, llevando a una forma incorrecta.",
+    "Permitir que los codos se doblen, reduciendo la estabilidad del hombro.",
+    "Contener la respiración, disminuyendo el control y la resistencia general."
+  ]
+}

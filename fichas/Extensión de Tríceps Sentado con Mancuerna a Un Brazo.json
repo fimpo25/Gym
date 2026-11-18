@@ -1,0 +1,47 @@
+{
+  "nombre": "Extensión de Tríceps Sentado con Mancuerna a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-sentado-con-mancuerna-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/83458bb0-4291-4106-839f-166dd1b0a0c9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps Sentado con Mancuerna a un Brazo es un ejercicio de aislamiento que se enfoca en los tríceps. Consiste en extender el brazo detrás del cuerpo mientras se está sentado, utilizando una mancuerna como resistencia. Este ejercicio enfatiza la cabeza larga del tríceps y ayuda a mejorar la definición y fuerza del brazo.",
+  "como_realizar": [
+    "Siéntate en el borde de un banco con los pies planos en el suelo.",
+    "Sujeta una mancuerna en una mano, con la palma mirando hacia tu torso.",
+    "Inclínate hacia adelante en las caderas, manteniendo la espalda recta y el núcleo comprometido.",
+    "Coloca tu brazo superior cerca de tu costado, con el codo doblado a 90 grados.",
+    "Manteniendo el brazo superior estacionario, extiende tu antebrazo hacia atrás hasta que tu brazo esté completamente extendido.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tus tríceps.",
+    "Vuelve lentamente a la posición inicial doblando el codo.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén la espalda recta y evita redondear los hombros para mantener una forma adecuada.",
+    "Concéntrate en mover solo el antebrazo; mantén el brazo superior inmóvil durante todo el ejercicio.",
+    "Usa un movimiento controlado para maximizar el compromiso muscular y reducir el impulso.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a mancuernas más pesadas.",
+    "Asegúrate de extender completamente el brazo para comprometer completamente los tríceps.",
+    "Mantén una posición neutral de la muñeca para prevenir tensión o lesiones."
+  ],
+  "errores_comunes": [
+    "Balancear el brazo en lugar de una extensión controlada, reduciendo el compromiso de los tríceps.",
+    "Usar el impulso para levantar la mancuerna, lo que lleva a una mala activación muscular.",
+    "Permitir que el codo caiga por debajo de la altura del hombro, disminuyendo la efectividad del ejercicio.",
+    "Extender el brazo demasiado hacia atrás, causando tensión en el hombro.",
+    "Inclinarse demasiado hacia adelante, comprometiendo la alineación de la parte baja de la espalda.",
+    "No mantener el brazo superior estacionario, reduciendo el aislamiento de los tríceps.",
+    "Usar un peso demasiado pesado, lo que lleva a una ruptura de la forma.",
+    "No extender completamente el codo, limitando el rango de movimiento.",
+    "Permitir que la muñeca se flexione o extienda, causando tensión innecesaria.",
+    "Descuidar la activación del core, afectando la estabilidad y el control."
+  ]
+}

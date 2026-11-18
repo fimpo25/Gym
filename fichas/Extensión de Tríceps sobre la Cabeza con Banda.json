@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps sobre la Cabeza con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-por-encima-de-la-cabeza-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/809138b6-52e8-42ab-9b4d-7b1b2f220cfa.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Banda por Encima de la Cabeza es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos por encima de la cabeza utilizando una banda de resistencia, la cual proporciona tensión constante durante todo el movimiento. Este ejercicio es efectivo para desarrollar la fuerza y el tamaño de los tríceps, y se puede realizar con equipo mínimo.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje estable a la altura de la cintura.",
+    "Párate de espaldas al punto de anclaje, sosteniendo un extremo de la banda en cada mano.",
+    "Da un paso hacia adelante para crear tensión en la banda y levanta los brazos por encima de la cabeza con los codos doblados y cerca de tu cabeza.",
+    "Mantén el núcleo comprometido y la espalda recta durante todo el ejercicio.",
+    "Extiende completamente los brazos por encima de la cabeza enderezando los codos, apretando los tríceps en la parte superior del movimiento.",
+    "Vuelve lentamente a la posición inicial doblando los codos, manteniendo el control de la banda.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan cerca de tu cabeza para apuntar efectivamente a los tríceps.",
+    "Mantén una ligera flexión en tus rodillas para estabilizar tu postura.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Evita arquear tu espalda; mantén tu núcleo apretado para apoyar una postura adecuada.",
+    "Experimenta con diferentes tensiones de banda para encontrar un nivel que te desafíe sin comprometer la forma.",
+    "Exhala al extender tus brazos e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran hacia afuera, reduciendo el compromiso de los tríceps.",
+    "Arquear excesivamente la parte baja de la espalda, forzando la columna.",
+    "Usar el impulso para balancear la banda, comprometiendo el control muscular.",
+    "No extender completamente los codos, limitando el rango de movimiento.",
+    "Colocar las manos demasiado juntas, causando incomodidad en las muñecas.",
+    "No mantener el núcleo comprometido, llevando a la inestabilidad.",
+    "Dejar que la banda se afloje en la parte superior, perdiendo tensión en los tríceps.",
+    "Doblar excesivamente las muñecas, poniendo tensión en las articulaciones.",
+    "Pararse demasiado lejos del punto de anclaje, reduciendo la resistencia."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Rotación de Tronco en Máquina Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/rotacion-de-tronco-en-maquina-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/7d5ddf56-3bbc-4c6b-ad30-9771a3957e56.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Rotación de Tronco en Máquina Sentado es un ejercicio de aislamiento que se enfoca en los músculos oblicuos del core. Consiste en rotar el torso contra resistencia mientras se está sentado, ayudando a mejorar la fuerza y estabilidad del core.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus rodillas estén a un ángulo de 90 grados cuando estés sentado.",
+    "Siéntate en la máquina con la espalda recta y los pies planos en el suelo.",
+    "Coloca tus brazos cruzados sobre el pecho o agárrate de las manijas si están disponibles.",
+    "Activa tus músculos del core tirando de tu ombligo hacia tu columna vertebral.",
+    "Gira tu torso hacia un lado tanto como sea cómodo, manteniendo tus caderas estables.",
+    "Vuelve a la posición inicial de manera controlada.",
+    "Repite el movimiento hacia el lado opuesto.",
+    "Realiza repeticiones iguales para ambos lados."
+  ],
+  "consejos": [
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Evita usar el impulso; concéntrate en usar tus músculos oblicuos para impulsar el movimiento.",
+    "Mantén los hombros relajados y evita encorvarlos durante el ejercicio.",
+    "Asegúrate de que tus caderas permanezcan estacionarias durante toda la rotación para aislar efectivamente el núcleo.",
+    "Comienza con una resistencia más ligera para dominar la forma antes de aumentar el peso.",
+    "Exhala al rotar e inhala al regresar a la posición central."
+  ],
+  "errores_comunes": [
+    "Usar peso excesivo, lo que lleva a una mala forma y control reducido.",
+    "Permitir que las rodillas se muevan, reduciendo el aislamiento de los músculos del core.",
+    "Girar las caderas en lugar de rotar el tronco, disminuyendo el compromiso del core.",
+    "Inclinarse hacia adelante o hacia atrás, comprometiendo la alineación espinal.",
+    "Confiar en el impulso en lugar de la contracción muscular controlada.",
+    "No mantener una columna neutral, aumentando el estrés en la parte baja de la espalda.",
+    "No comprometer completamente los oblicuos, limitando la efectividad del ejercicio.",
+    "Rotar más allá de un rango de movimiento seguro, arriesgando tensión espinal."
+  ]
+}

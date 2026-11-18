@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Sentado a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-seated-row",
+  "video_url": "https://api.smartworkout.app/asset/video/a24c984e-1a96-4be3-ac64-a175dadb0a41.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Single Arm Seated Row is an isolation exercise targeting the latissimus dorsi, rhomboids, and trapezius muscles. It is performed using a cable machine with a single handle attachment, allowing for unilateral training to correct muscle imbalances and enhance muscle engagement.",
+  "como_realizar": [
+    "Sit on the bench of a cable row machine with your feet firmly planted on the footrests.",
+    "Grasp the single handle attachment with one hand, keeping your arm extended and your palm facing inward.",
+    "Engage your core and maintain a straight back throughout the movement.",
+    "Pull the handle towards your torso by retracting your shoulder blade and bending your elbow, keeping your elbow close to your body.",
+    "Pause briefly when the handle reaches your side, ensuring maximum contraction of the back muscles.",
+    "Slowly extend your arm back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Keep your chest up and shoulders down to avoid unnecessary strain on the neck.",
+    "Focus on squeezing your shoulder blade at the peak of the movement for optimal muscle engagement.",
+    "Avoid using momentum; control both the pulling and releasing phases of the exercise.",
+    "Ensure that your wrist remains neutral throughout the movement to prevent strain.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using momentum to pull the weight instead of controlled muscle engagement.",
+    "Allowing the shoulder to roll forward instead of keeping it retracted.",
+    "Twisting the torso instead of keeping it stable and facing forward.",
+    "Pulling the elbow too far back, causing overextension of the shoulder.",
+    "Not fully extending the arm at the start, limiting the range of motion.",
+    "Gripping the handle too tightly, causing forearm fatigue instead of back activation.",
+    "Leaning back excessively, reducing the workload on the target muscles.",
+    "Neglecting to engage the core, leading to instability and poor form.",
+    "Using a weight that's too heavy, compromising form and control.",
+    "Letting the wrist bend instead of keeping it neutral."
+  ]
+}

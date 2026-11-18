@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl Bayesiano en Cable Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-bayesiano-en-cable-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/dd6563a0-e8e8-4d3e-973a-ba9473f8423b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Cable Bayesiano Sentado es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Utiliza una máquina de cables para mantener una tensión constante durante el movimiento, mejorando el compromiso y el crecimiento muscular. Realizar este ejercicio sentado ayuda a estabilizar el cuerpo, permitiendo una mejor concentración en los bíceps.",
+  "como_realizar": [
+    "Coloca la máquina de cable en una posición de polea baja y acopla una barra recta o EZ-curl.",
+    "Siéntate en un banco de espaldas a la máquina de cable, asegurándote de que tu espalda esté recta y los pies planos en el suelo.",
+    "Agarra la barra con un agarre en supinación, manos a la altura de los hombros.",
+    "Comienza con los brazos completamente extendidos, sintiendo un ligero estiramiento en los bíceps.",
+    "Flexiona los codos para llevar la barra hacia los hombros, manteniendo los brazos superiores inmóviles.",
+    "Aprieta los bíceps en la parte superior del movimiento para una contracción máxima.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tus costados para maximizar el compromiso del bíceps.",
+    "Evita balancearte o usar impulso; concéntrate en movimientos controlados.",
+    "Mantén una posición neutral de la muñeca para prevenir tensiones y asegurar un enfoque efectivo en los bíceps.",
+    "Exhala mientras levantas el peso y inhala mientras lo bajas.",
+    "Ajusta la altura del banco si es necesario para asegurar una alineación y comodidad adecuadas durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo la tensión en los bíceps.",
+    "Permitir que los codos se desplacen hacia adelante, desviando el enfoque de los bíceps.",
+    "Usar el impulso balanceando el torso en lugar de realizar curls controlados.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales, reduciendo el compromiso de los bíceps.",
+    "Agarrar el mango demasiado fuerte, causando fatiga en los antebrazos.",
+    "No mantener una posición sentada estable, lo que lleva a la pérdida de control.",
+    "Tirar con los hombros en lugar de aislar los bíceps.",
+    "Apresurarse en las repeticiones sin una contracción muscular adecuada."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Patada de Glúteos en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/patada-de-gluteos-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/efd17fd3-ef95-43c1-8eb7-7b10975766f3.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Patada en Máquina para Glúteos es un ejercicio de aislamiento que se enfoca en el glúteo mayor. Consiste en extender la pierna hacia atrás contra resistencia, centrándose en fortalecer y tonificar los glúteos. Este ejercicio se realiza generalmente utilizando una máquina especializada diseñada para proporcionar resistencia controlada.",
+  "como_realizar": [
+    "Ajusta la configuración de la máquina para adaptarla a tu altura y asegura la correa del tobillo alrededor de tu pierna inferior.",
+    "Párate frente a la máquina, sujetando las manijas para apoyo.",
+    "Coloca un pie en la plataforma o almohadilla, asegurándote de que tu rodilla esté ligeramente doblada.",
+    "Activa tu núcleo y mantén una postura recta durante todo el movimiento.",
+    "Extiende tu pierna hacia atrás en un movimiento controlado, apretando los glúteos en la parte superior del movimiento.",
+    "Vuelve lentamente a la posición inicial sin dejar que la pila de pesas toque completamente.",
+    "Completa el número deseado de repeticiones antes de cambiar a la otra pierna."
+  ],
+  "consejos": [
+    "Concéntrate en apretar los glúteos en la parte superior de cada patada para una máxima activación.",
+    "Mantén tus movimientos lentos y controlados para mantener la tensión en los músculos.",
+    "Evita arquear la espalda; mantén el core comprometido para apoyar una postura adecuada.",
+    "Ajusta la configuración de la máquina si sientes incomodidad o alineación incorrecta.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Exhala al extender la pierna e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, lo que reduce el compromiso de los glúteos.",
+    "Usar demasiado peso, lo que hace que el impulso tome el control en lugar de un movimiento controlado.",
+    "No mantener el núcleo comprometido, lo que resulta en inestabilidad y mala forma.",
+    "Permitir que la pierna de apoyo se bloquee, reduciendo el equilibrio y el control.",
+    "Patear demasiado alto, lo que desvía el enfoque de los glúteos a la parte baja de la espalda.",
+    "No alinear correctamente las caderas, lo que lleva a una activación muscular desigual.",
+    "Apresurarse en las repeticiones, sacrificando la tensión muscular y el control.",
+    "Descuidar mantener la rodilla ligeramente doblada, lo que puede tensar la articulación de la rodilla."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Glute Bridge Single Leg",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/glute-bridge-single-leg:-puente-de-gluteos-a-una-pierna",
+  "video_url": "https://api.smartworkout.app/asset/video/59811037-44cc-4ac1-95d0-3c2e7bd021d0.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos con Una Pierna es una variación avanzada del ejercicio tradicional de puente de glúteos que se enfoca en los músculos glúteos, isquiotibiales y el core. Al realizar el ejercicio con una sola pierna, se incrementa la demanda de equilibrio y estabilidad, mejorando la fuerza unilateral y la activación muscular.",
+  "como_realizar": [
+    "Acuéstate de espaldas con las rodillas dobladas y los pies planos en el suelo, a la altura de las caderas.",
+    "Extiende una pierna hacia afuera, manteniéndola en línea con el muslo opuesto.",
+    "Activa tu core y presiona a través del talón del pie apoyado para levantar tus caderas hacia el techo.",
+    "En la parte superior del movimiento, tu cuerpo debe formar una línea recta desde los hombros hasta las rodillas.",
+    "Mantén la posición brevemente mientras aprietas los glúteos.",
+    "Baja lentamente las caderas de nuevo a la posición inicial sin dejar que toquen el suelo.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Asegúrate de que tu pierna extendida permanezca recta y alineada con tu cuerpo.",
+    "Concéntrate en apretar tus glúteos en la parte superior del movimiento para una máxima activación.",
+    "Evita arquear la parte baja de tu espalda; mantén una posición neutral de la columna.",
+    "Realiza el ejercicio lentamente y con control para mejorar el compromiso muscular y el equilibrio.",
+    "Comienza con menos repeticiones si eres nuevo en este ejercicio para desarrollar fuerza gradualmente."
+  ],
+  "errores_comunes": [
+    "Levantar las caderas demasiado alto, causando hiperextensión de la parte baja de la espalda.",
+    "Permitir que la rodilla de la pierna de trabajo se abra hacia afuera, reduciendo el compromiso de los glúteos.",
+    "Dejar caer las caderas de manera desigual, lo que lleva a un desequilibrio y reduce la efectividad.",
+    "No mantener el core comprometido, lo que resulta en una sección media caída.",
+    "No mantener una línea recta desde los hombros hasta las rodillas, causando una mala postura.",
+    "Colocar la pierna que no está trabajando demasiado baja o demasiado alta, afectando la estabilidad y el control.",
+    "Apresurar el movimiento, lo que lleva a una mala activación y control muscular.",
+    "No presionar a través del talón de la pierna de trabajo, lo que disminuye la activación de los glúteos.",
+    "Permitir que la cabeza y el cuello se levanten del suelo, causando tensión."
+  ]
+}

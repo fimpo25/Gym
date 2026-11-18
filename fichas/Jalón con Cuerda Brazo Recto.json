@@ -1,0 +1,50 @@
+{
+  "nombre": "Jalón con Cuerda Brazo Recto",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/rope-straight-arm-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/efd0f686-d089-4924-9ea5-2a8408e7b2df.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Standing Cable Straight Arm Pulldown is an isolation exercise targeting the latissimus dorsi muscles. It involves pulling a cable bar down with straight arms from shoulder height to the thighs, engaging the back and core muscles. This exercise helps in developing back width and improving shoulder stability.",
+  "como_realizar": [
+    "Attach a straight bar to a high pulley on a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the bar with an overhand grip, hands slightly wider than shoulder-width.",
+    "Step back slightly to create tension on the cable, keeping arms straight and elbows slightly bent.",
+    "Engage your core and pull the bar down in an arc motion until it reaches your thighs.",
+    "Keep your arms straight throughout the movement, avoiding any bending at the elbows.",
+    "Slowly return the bar to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your knees to stabilize your stance.",
+    "Focus on squeezing your lats as you pull the bar down.",
+    "Avoid using momentum; control the movement throughout.",
+    "Keep your shoulders down and back to prevent them from shrugging.",
+    "Ensure your core is engaged to support your lower back.",
+    "Do not lock your elbows; keep them slightly bent to reduce joint strain.",
+    "Breathe out as you pull down and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Bending the elbows, turning the exercise into a triceps pushdown.",
+    "Using momentum by swinging the torso instead of maintaining a stable posture.",
+    "Arching the lower back excessively, leading to poor spinal alignment.",
+    "Pulling the rope too far down, causing shoulder and wrist strain.",
+    "Failing to engage the lats, relying too much on the arms to pull.",
+    "Standing too far from the cable machine, reducing tension on the lats.",
+    "Allowing the shoulders to shrug upward, disengaging the lats.",
+    "Not controlling the rope on the way up, resulting in a rapid, uncontrolled release.",
+    "Positioning the feet too close together, compromising balance and stability."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Flexión Ancha de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-ancha-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/4d768221-a68a-489d-8422-a8db511d94bb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión de Brazos Ancha de Rodillas es un ejercicio con el peso del cuerpo que se enfoca en el pecho, los hombros y los tríceps. Al realizar este ejercicio de rodillas con una colocación amplia de las manos, se reduce la carga en comparación con una flexión estándar, haciéndolo adecuado para principiantes o como calentamiento para atletas más avanzados.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo con las manos colocadas más anchas que el ancho de los hombros.",
+    "Mantén tu cuerpo recto desde las rodillas hasta la cabeza, activando tu núcleo.",
+    "Baja tu pecho hacia el suelo doblando los codos hacia afuera.",
+    "Detente cuando tu pecho esté justo por encima del suelo, luego empuja hacia arriba hasta la posición inicial.",
+    "Mantén un ritmo constante y un movimiento controlado durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén colocadas más anchas que el ancho de los hombros para apuntar eficazmente al pecho.",
+    "Activa tu núcleo para mantener una línea recta desde las rodillas hasta la cabeza.",
+    "Concéntrate en movimientos controlados; evita dejar que la gravedad haga el trabajo durante el descenso.",
+    "Mantén los codos ligeramente doblados en la parte superior del movimiento para mantener la tensión en los músculos.",
+    "Inhala mientras bajas tu cuerpo y exhala mientras empujas hacia arriba."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el rango de movimiento y aumentando la tensión en los hombros.",
+    "Codos que se abren excesivamente, llevando a un mal compromiso del hombro.",
+    "Caderas que se hunden hacia el suelo, causando tensión en la parte baja de la espalda.",
+    "No mantener una línea recta desde la cabeza hasta las rodillas, comprometiendo la estabilidad del núcleo.",
+    "No bajar el pecho lo suficientemente cerca del suelo, limitando la activación muscular.",
+    "Apresurar el movimiento, reduciendo el control y la efectividad.",
+    "Permitir que la cabeza caiga, causando tensión en el cuello.",
+    "Descuidar el compromiso del núcleo, llevando a una pérdida de equilibrio y forma.",
+    "Empujar a través de las muñecas en lugar de distribuir el peso uniformemente a través de las manos."
+  ]
+}

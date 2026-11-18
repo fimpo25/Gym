@@ -1,0 +1,45 @@
+{
+  "nombre": "Sujeción de Cuerpo Hueco",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/sujecion-de-cuerpo-hueco",
+  "video_url": "https://api.smartworkout.app/asset/video/8aaa0cc6-bd9d-4985-a811-e771bbf796c6.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Hollow Body Hold es un ejercicio isométrico para el core que se enfoca en los músculos abdominales, particularmente el recto abdominal y el transverso del abdomen. También involucra los flexores de la cadera y estabiliza la parte baja de la espalda. Este ejercicio es fundamental en la gimnasia y es excelente para desarrollar la fuerza y estabilidad del core.",
+  "como_realizar": [
+    "Acuéstate boca arriba en una colchoneta con los brazos extendidos por encima de la cabeza y las piernas rectas.",
+    "Activa tu núcleo llevando el ombligo hacia la columna vertebral.",
+    "Levanta los hombros y las piernas del suelo simultáneamente, manteniendo la parte baja de la espalda presionada contra la colchoneta.",
+    "Mantén una ligera curva en la parte baja de la espalda sin arquearla.",
+    "Sostén esta posición, manteniendo los brazos y las piernas rectos y cerca del suelo sin tocarlo.",
+    "Respira de manera constante durante la posición, manteniendo la tensión en tu núcleo."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda baja permanezca en contacto con la colchoneta para evitar tensiones.",
+    "Comienza con retenciones más cortas y aumenta gradualmente la duración a medida que desarrollas fuerza.",
+    "Concéntrate en mantener tu cuerpo lo más apretado posible, minimizando cualquier movimiento.",
+    "Si experimentas molestias en la espalda baja, levanta las piernas más alto para reducir la tensión.",
+    "Mantén la cabeza en una posición neutral para evitar tensión en el cuello.",
+    "Practica regularmente para mejorar la resistencia y la estabilidad del core."
+  ],
+  "errores_comunes": [
+    "Arquear la parte baja de la espalda en lugar de presionarla firmemente contra el suelo.",
+    "Levantar las piernas demasiado alto, reduciendo el compromiso del core.",
+    "No mantener los hombros fuera del suelo, disminuyendo la activación abdominal.",
+    "Sostener los brazos demasiado bajos o demasiado altos, alterando el equilibrio y la tensión del core.",
+    "Involucrar los músculos del cuello en lugar del core, lo que lleva a la tensión.",
+    "Permitir que las costillas se abran, reduciendo la estabilidad del core.",
+    "Mantener la posición sin respirar, lo que lleva a la tensión y la fatiga.",
+    "Comenzar con una posición avanzada sin dominar la forma básica."
+  ]
+}

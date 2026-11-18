@@ -1,0 +1,52 @@
+{
+  "nombre": "Caminata Cardio",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/walking-cardio",
+  "video_url": "https://api.smartworkout.app/asset/video/d49f25cb-9c15-4a47-9010-b6c67c714eea.mp4",
+  "tags": [
+    "CARDIO",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "Walking Cardio is a low-impact aerobic exercise that involves walking at a steady pace to improve cardiovascular health, endurance, and overall fitness. It can be performed on a treadmill or outdoors and is suitable for all fitness levels.",
+  "como_realizar": [
+    "Begin with a warm-up by walking at a slow pace for 5-10 minutes to prepare your muscles and joints.",
+    "Adjust the treadmill to a comfortable speed or choose a flat, safe path if walking outdoors.",
+    "Maintain an upright posture with your shoulders relaxed and your core engaged.",
+    "Swing your arms naturally at your sides to help maintain balance and rhythm.",
+    "Walk at a brisk pace that elevates your heart rate but still allows you to hold a conversation.",
+    "Continue walking for 20-60 minutes depending on your fitness level and goals.",
+    "Cool down by gradually slowing your pace for the last 5-10 minutes of your walk."
+  ],
+  "consejos": [
+    "Ensure you wear comfortable, supportive footwear to prevent injury.",
+    "Keep hydrated by drinking water before, during, and after your walk.",
+    "Incorporate intervals by alternating between faster and slower paces to increase intensity.",
+    "Use a fitness tracker or pedometer to monitor your steps and progress over time.",
+    "Focus on maintaining a consistent pace rather than speed to build endurance.",
+    "Listen to music or podcasts to make the exercise more enjoyable and help pass the time.",
+    "If walking outdoors, choose routes with varying terrain for added challenge."
+  ],
+  "errores_comunes": [
+    "Slouching posture reduces lung capacity and engagement of core muscles.",
+    "Overstriding causes unnecessary stress on the knees and hips.",
+    "Allowing arms to hang loosely instead of maintaining a 90-degree angle reduces upper body engagement.",
+    "Not activating the glutes and hamstrings limits lower body muscle engagement.",
+    "Walking with toes pointed outward or inward can lead to imbalanced muscle use.",
+    "Failing to maintain a steady pace disrupts cardiovascular benefits.",
+    "Holding onto treadmill handles excessively reduces core activation and balance.",
+    "Landing heavily on the heels increases impact on joints.",
+    "Neglecting to engage the core results in reduced stability and support.",
+    "Walking with a stiff, rigid gait limits natural movement and fluidity."
+  ]
+}

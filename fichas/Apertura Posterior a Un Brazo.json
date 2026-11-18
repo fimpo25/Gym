@@ -1,0 +1,46 @@
+{
+  "nombre": "Apertura Posterior a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-rear-delt-fly",
+  "video_url": "https://api.smartworkout.app/asset/video/46893e73-dd2a-4edb-b01f-f7ade86d2a81.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Single Arm Rear Delt Fly is an isolation exercise targeting the rear deltoids, part of the shoulder muscle group. It also engages the upper back muscles, including the rhomboids and trapezius, to a lesser extent. This exercise helps improve shoulder stability and posture.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in one hand with a neutral grip.",
+    "Bend your knees slightly and hinge forward at the hips, keeping your back straight and core engaged.",
+    "Let the arm holding the dumbbell hang down naturally, perpendicular to the floor.",
+    "With a slight bend in your elbow, raise your arm out to the side until it is parallel to the floor.",
+    "Pause briefly at the top of the movement, focusing on squeezing your shoulder blades together.",
+    "Slowly lower the dumbbell back to the starting position under control.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to avoid lower back strain.",
+    "Keep your core engaged to stabilize your body during the movement.",
+    "Focus on moving through the shoulder joint rather than using momentum from your torso.",
+    "Control the weight throughout both phases of the lift to maximize muscle engagement.",
+    "Avoid shrugging your shoulders; keep them relaxed and down away from your ears.",
+    "Start with a lighter weight to ensure proper form and gradually increase as you become more comfortable with the movement."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to momentum-based movement instead of controlled muscle engagement.",
+    "Not maintaining a slight bend in the elbow, which can lead to joint strain.",
+    "Allowing the torso to twist or rotate, reducing isolation of the rear deltoid.",
+    "Lifting the arm too high, engaging the trapezius instead of the rear deltoid.",
+    "Failing to keep the shoulder blades retracted, which decreases rear delt activation.",
+    "Moving the arm in a straight line instead of a slight arc, which can disengage the target muscle.",
+    "Neglecting to stabilize the core, resulting in loss of balance and form.",
+    "Rushing through the movement, which compromises control and muscle tension."
+  ]
+}

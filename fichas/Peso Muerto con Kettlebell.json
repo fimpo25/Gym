@@ -1,0 +1,51 @@
+{
+  "nombre": "Peso Muerto con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/peso-muerto-con-kettlebell",
+  "video_url": "https://api.smartworkout.app/asset/video/67f07dcc-7ac6-4b77-bfc1-270e1befdbf2.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "FOREARMS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Peso Muerto con Kettlebell es un ejercicio compuesto que se enfoca en la cadena posterior, incluyendo los glúteos, isquiotibiales y la parte baja de la espalda. Consiste en levantar una kettlebell desde el suelo hasta una posición de pie utilizando una mecánica adecuada de bisagra de cadera.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros y coloca una pesa rusa entre tus pies.",
+    "Flexiona las caderas empujándolas hacia atrás mientras mantienes la espalda recta y el pecho hacia arriba.",
+    "Agarra el asa de la pesa rusa con ambas manos, asegurándote de que tus hombros estén por encima o ligeramente delante de la pesa rusa.",
+    "Activa tu núcleo y empuja con los talones para levantar la pesa rusa, extendiendo las caderas y las rodillas simultáneamente.",
+    "Ponte completamente erguido con la pesa rusa frente a tus muslos, manteniendo los hombros hacia atrás y el pecho orgulloso.",
+    "Invierte el movimiento flexionando las caderas y bajando la pesa rusa al suelo con control."
+  ],
+  "consejos": [
+    "Mantén la columna vertebral neutral durante todo el movimiento para evitar lesiones.",
+    "Concéntrate en empujar con los talones para activar eficazmente la cadena posterior.",
+    "Mantén una ligera flexión en las rodillas pero evita un movimiento de sentadilla excesivo.",
+    "Asegúrate de que la kettlebell se mantenga cerca de tu cuerpo durante el levantamiento para un mejor apalancamiento.",
+    "Practica con pesos más ligeros inicialmente para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Inhala al bajar la kettlebell y exhala al levantarla."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las rodillas se inclinen hacia adentro durante el levantamiento.",
+    "Comenzar con la pesa rusa demasiado lejos del cuerpo.",
+    "Levantar con los brazos en lugar de impulsar con las caderas.",
+    "No involucrar el core durante todo el movimiento.",
+    "Tirar de la pesa rusa con los hombros en lugar de usar la extensión de la cadera.",
+    "Pararse demasiado estrecho o demasiado ancho, afectando el equilibrio y la potencia.",
+    "Doblar las rodillas en exceso, convirtiendo el peso muerto en una sentadilla.",
+    "No bloquear las caderas en la parte superior del levantamiento.",
+    "Soltar la pesa rusa en lugar de controlar el descenso."
+  ]
+}

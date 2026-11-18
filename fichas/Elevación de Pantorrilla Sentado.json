@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación de Pantorrilla Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/seated-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/162f4ec1-4427-40b4-b330-c0ea48733bd4.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated Calf Raise is an isolation exercise targeting the soleus muscle in the lower leg. It involves flexing the ankle joint while seated, using a machine designed to provide resistance through a padded lever resting on the knees. This exercise emphasizes the development of the calf muscles, particularly when performed with controlled movements and appropriate weight.",
+  "como_realizar": [
+    "Adjust the seat height so that your knees are at a 90-degree angle when seated.",
+    "Position your feet on the footplate with the balls of your feet securely placed and heels hanging off.",
+    "Place your thighs under the padded lever, ensuring it rests comfortably above your knees.",
+    "Release the safety bar if applicable, allowing free movement of the lever.",
+    "Lower your heels slowly towards the ground to achieve a full stretch in your calves.",
+    "Press through the balls of your feet to raise your heels as high as possible, contracting your calf muscles.",
+    "Hold the top position briefly for maximum contraction before lowering back down.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slow and controlled motion throughout the exercise to maximize muscle engagement.",
+    "Ensure that only your ankles are moving; avoid using your thighs or hips to lift the weight.",
+    "Focus on achieving a full range of motion by lowering your heels below parallel and raising them as high as possible.",
+    "Keep your core engaged to maintain stability and prevent unnecessary movement.",
+    "Start with a lighter weight to perfect your form before increasing resistance.",
+    "Breath naturally, exhaling as you lift and inhaling as you lower your heels."
+  ],
+  "errores_comunes": [
+    "Allowing heels to drop too low, causing excessive stretch and potential strain on the Achilles tendon.",
+    "Using momentum instead of controlled movements, reducing muscle engagement and effectiveness.",
+    "Placing feet too far forward on the platform, leading to improper alignment and reduced range of motion.",
+    "Locking knees during the exercise, which can shift focus away from the calves and increase injury risk.",
+    "Failing to fully extend at the top of the movement, limiting calf muscle activation.",
+    "Positioning the seat too far back, causing an awkward angle and reducing exercise efficiency.",
+    "Neglecting to keep the core engaged, leading to poor posture and potential lower back strain.",
+    "Using too much weight, compromising form and risking muscle strain or injury."
+  ]
+}

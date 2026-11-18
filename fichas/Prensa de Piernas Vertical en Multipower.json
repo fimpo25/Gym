@@ -1,0 +1,45 @@
+{
+  "nombre": "Prensa de Piernas Vertical en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/vertical-leg-press-smith-machine",
+  "video_url": "https://api.smartworkout.app/asset/video/b5c4e337-b22f-4c7f-94b2-266576749184.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Vertical Leg Press on a Smith Machine is a compound lower body exercise that targets the quadriceps, hamstrings, glutes, and calves. This exercise involves lying on your back and pressing the weight upwards using your legs, with the Smith Machine providing stability and safety through its guided bar path.",
+  "como_realizar": [
+    "Position a flat bench under the Smith Machine bar. Ensure the bench is aligned with the bar path.",
+    "Lie on your back on the bench, positioning your feet shoulder-width apart on the bar.",
+    "Unlock the Smith Machine bar by rotating it slightly to release it from its locked position.",
+    "Lower the bar slowly towards your chest by bending your knees, keeping your feet flat on the bar.",
+    "Press the bar back up by extending your legs fully without locking your knees at the top.",
+    "Repeat for the desired number of repetitions, then carefully lock the bar back into place."
+  ],
+  "consejos": [
+    "Ensure your back remains flat against the bench throughout the movement to prevent strain.",
+    "Keep your core engaged to maintain stability and support for your lower back.",
+    "Adjust the bench height and foot placement to ensure a comfortable range of motion.",
+    "Control the descent of the bar to maximize muscle engagement and prevent injury.",
+    "Avoid locking out your knees at the top of the movement to maintain tension in your muscles."
+  ],
+  "errores_comunes": [
+    "Placing feet too high or too low on the platform, affecting muscle engagement.",
+    "Allowing knees to collapse inward, risking knee strain.",
+    "Locking knees at the top of the movement, increasing joint stress.",
+    "Using excessive weight, compromising form and control.",
+    "Failing to maintain a neutral spine, leading to lower back strain.",
+    "Descending too quickly, reducing muscle tension and control.",
+    "Not lowering the weight sufficiently, limiting range of motion.",
+    "Pushing through the toes instead of the heels, reducing glute activation.",
+    "Allowing hips to lift off the bench, risking lower back injury."
+  ]
+}

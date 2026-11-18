@@ -1,0 +1,34 @@
+{
+  "nombre": "Extensión de Tríceps sobre la Cabeza con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-por-encima-de-la-cabeza-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/5047297f-ed82-4ebc-9e3c-f79effb1f596.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps por Encima de la Cabeza con Cable es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos por encima de la cabeza utilizando una máquina de cable, lo que proporciona tensión constante durante todo el movimiento. Este ejercicio se centra principalmente en la cabeza larga del tríceps, promoviendo el crecimiento muscular y la definición.",
+  "como_realizar": [
+    "Conecta una cuerda al mango de la polea baja de una máquina de cables.",
+    "Párate de espaldas a la máquina, sosteniendo la cuerda con ambas manos, con las palmas enfrentadas.",
+    "Da un paso hacia adelante para crear tensión en el cable y coloca tus pies al ancho de los hombros.",
+    "Levanta los brazos por encima de la cabeza, manteniendo los codos cerca de la cabeza y el núcleo comprometido.",
+    "Extiende completamente los brazos enderezando los codos, asegurándote de que permanezcan estacionarios.",
+    "Haz una pausa breve en la parte superior del movimiento, luego regresa lentamente a la posición inicial doblando los codos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tu cabeza para maximizar el compromiso de los tríceps.",
+    "Mantén una ligera flexión en las rodillas y activa tu núcleo para mayor estabilidad.",
+    "Evita usar el impulso; controla el movimiento durante cada repetición.",
+    "Concéntrate en un rango completo de movimiento para apuntar efectivamente a los tríceps.",
+    "Exhala al extender los brazos e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": []
+}

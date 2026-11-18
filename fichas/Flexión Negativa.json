@@ -1,0 +1,43 @@
+{
+  "nombre": "Flexión Negativa",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-negativa",
+  "video_url": "https://api.smartworkout.app/asset/video/84d6fe54-f78f-421a-928c-3268917892ea.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "Las flexiones negativas se centran en la fase excéntrica de la flexión, donde bajas tu cuerpo lentamente hacia el suelo. Este ejercicio ayuda a desarrollar fuerza y control, especialmente en el pecho, tríceps y hombros, al enfatizar la tensión muscular durante la fase de descenso.",
+  "como_realizar": [
+    "Comienza en una posición estándar de flexión con las manos separadas al ancho de los hombros y el cuerpo en línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo y mantén los codos ligeramente hacia adentro hacia tu cuerpo.",
+    "Baja lentamente tu cuerpo hacia el suelo en un conteo de 3 a 5 segundos, manteniendo el control durante todo el movimiento.",
+    "Una vez que tu pecho esté cerca del suelo, ya sea empuja de nuevo a la posición inicial o descansa suavemente en el suelo antes de reiniciar.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener una línea recta desde la cabeza hasta los talones; evita que las caderas se hundan o que tu espalda se arquee.",
+    "El control es clave; asegúrate de bajar lentamente y de manera constante para maximizar el compromiso muscular.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad y proteger tu espalda baja.",
+    "Si no puedes volver a subir, usa tus rodillas para ayudarte o reinicia volviendo a la posición inicial después de cada repetición.",
+    "Incorpora flexiones negativas en tu rutina para mejorar la fuerza y resistencia general en las flexiones."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, poniendo tensión en los hombros.",
+    "Dejar caer las caderas, lo que lleva a un hundimiento de la parte baja de la espalda y un mal compromiso del núcleo.",
+    "No mantener una línea recta desde la cabeza hasta los talones, comprometiendo la forma.",
+    "Descender demasiado rápido, reduciendo la tensión muscular y el control.",
+    "No bajar el pecho lo suficientemente cerca del suelo, limitando el rango de movimiento.",
+    "Descuidar el compromiso del núcleo, resultando en inestabilidad.",
+    "Colocar las manos demasiado adelante o atrás, afectando la alineación de los hombros y las muñecas.",
+    "Permitir que la cabeza caiga, causando tensión en el cuello."
+  ]
+}

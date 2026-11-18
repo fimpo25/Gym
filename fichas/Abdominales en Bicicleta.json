@@ -1,0 +1,47 @@
+{
+  "nombre": "Abdominales en Bicicleta",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-en-bicicleta",
+  "video_url": "https://api.smartworkout.app/asset/video/fd4b37e5-41f9-430c-bfbb-481e4eb5631f.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Abdominales en Bicicleta son un ejercicio de core que se enfoca en el recto abdominal y los oblicuos. Este movimiento dinámico imita el pedaleo mientras activa los músculos abdominales, promoviendo la fuerza y la resistencia en la región del core.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con la parte baja de la espalda presionada contra el suelo.",
+    "Coloca tus manos detrás de la cabeza, con los codos abiertos, sin tirar del cuello.",
+    "Levanta tus rodillas a un ángulo de 90 grados, manteniendo los pies fuera del suelo.",
+    "Activa tu núcleo y levanta los omóplatos de la colchoneta.",
+    "Simultáneamente extiende tu pierna derecha mientras llevas tu codo derecho hacia tu rodilla izquierda.",
+    "Cambia de lado extendiendo tu pierna izquierda y llevando tu codo izquierdo hacia tu rodilla derecha.",
+    "Continúa alternando lados de manera controlada, simulando un movimiento de pedaleo.",
+    "Realiza el ejercicio durante el número deseado de repeticiones o tiempo."
+  ],
+  "consejos": [
+    "Concéntrate en movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Mantén la parte baja de la espalda presionada contra la colchoneta para evitar tensiones.",
+    "Evita tirar de tu cuello con las manos; usa tu core para levantarte.",
+    "Asegúrate de que tus codos permanezcan abiertos y no se colapsen hacia adentro.",
+    "Mantén una respiración constante durante el ejercicio para una mejor resistencia.",
+    "Visualiza que estás pedaleando una bicicleta para ayudar a coordinar el movimiento."
+  ],
+  "errores_comunes": [
+    "Tirar del cuello en lugar de activar los músculos del core.",
+    "Permitir que los codos se abran en lugar de mantenerlos anchos.",
+    "Usar el impulso para balancear las piernas en lugar de un movimiento controlado.",
+    "No extender completamente la pierna que no se lleva hacia el pecho.",
+    "Levantar la parte baja de la espalda del suelo, perdiendo la activación del core.",
+    "Apresurarse en el movimiento, reduciendo la efectividad.",
+    "No rotar el torso lo suficiente para activar adecuadamente los oblicuos.",
+    "Mantener la barbilla pegada al pecho, forzando el cuello.",
+    "Bajar las piernas demasiado cerca del suelo, causando tensión en la parte baja de la espalda.",
+    "Coordinación inadecuada entre la parte superior e inferior del cuerpo."
+  ]
+}

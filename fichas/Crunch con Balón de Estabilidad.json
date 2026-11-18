@@ -1,0 +1,47 @@
+{
+  "nombre": "Crunch con Balón de Estabilidad",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-con-balon-de-estabilidad",
+  "video_url": "https://api.smartworkout.app/asset/video/4570a332-e04d-4652-a0a0-bf2e4b9234a6.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Abdominales en Pelota de Estabilidad son un ejercicio efectivo para el core que se enfoca en los músculos abdominales. Al realizar este ejercicio en una pelota de estabilidad, activas más fibras musculares y mejoras el equilibrio y la coordinación. Este ejercicio trabaja principalmente el recto abdominal, con un compromiso secundario de los oblicuos y el transverso abdominal.",
+  "como_realizar": [
+    "Siéntate en una pelota de estabilidad con los pies planos en el suelo, separados al ancho de las caderas.",
+    "Camina hacia adelante con los pies y rueda tu espalda sobre la pelota hasta que tu zona lumbar esté apoyada y tus muslos estén paralelos al suelo.",
+    "Coloca tus manos detrás de la cabeza con los codos abiertos, o crúzalos sobre tu pecho.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Exhala mientras levantas la parte superior de tu cuerpo de la pelota, curvando tus hombros hacia tus caderas.",
+    "Pausa en la parte superior del movimiento por un momento, asegurando la máxima contracción de los abdominales.",
+    "Inhala mientras bajas lentamente de nuevo a la posición inicial, manteniendo la tensión en tu núcleo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la pelota de estabilidad esté bien inflada para mantener el equilibrio y la efectividad.",
+    "Mantén los pies firmemente plantados en el suelo para evitar resbalones durante el ejercicio.",
+    "Concéntrate en usar los músculos abdominales para levantarte en lugar de tirar del cuello o la cabeza.",
+    "Mantén un movimiento lento y controlado en todo momento para maximizar el compromiso muscular.",
+    "Evita arquear excesivamente la espalda; mantenla en una curva natural apoyada por la pelota.",
+    "Exhala durante la fase de crunch e inhala al regresar a la posición inicial.",
+    "Para aumentar la dificultad, intenta extender los brazos por encima de la cabeza o sostener un disco de pesas sobre el pecho."
+  ],
+  "errores_comunes": [
+    "Colocar la pelota demasiado alta bajo la espalda, reduciendo el compromiso del core.",
+    "Colocar los pies demasiado juntos, comprometiendo la estabilidad.",
+    "Tirar del cuello con las manos, causando tensión.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "Permitir que las caderas se hundan, desactivando los músculos del core.",
+    "Subir demasiado alto, desviando el enfoque de los abdominales.",
+    "No mantener una alineación neutral de la columna.",
+    "Contener la respiración en lugar de respirar de manera constante.",
+    "No activar el core antes de iniciar el movimiento."
+  ]
+}

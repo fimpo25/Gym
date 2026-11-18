@@ -1,0 +1,56 @@
+{
+  "nombre": "Clean con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/clean-con-kettlebell",
+  "video_url": "https://api.smartworkout.app/asset/video/f00d4779-f6f0-439c-b4c3-ddbbc78b5777.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CALVES",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Clean con Kettlebell es un ejercicio dinámico que consiste en levantar una kettlebell desde el suelo hasta la posición de rack en un solo movimiento fluido. Está diseñado para mejorar la fuerza, la potencia y la coordinación, enfocándose principalmente en la cadena posterior, los hombros y los músculos del core.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros y coloca una kettlebell entre tus pies.",
+    "Dobla las caderas y las rodillas para agarrar el mango de la kettlebell con una mano, manteniendo la espalda recta y el pecho hacia arriba.",
+    "Activa tu núcleo y empuja con los talones para levantar la kettlebell del suelo.",
+    "A medida que la kettlebell sube, acércala a tu cuerpo doblando el codo y rotando la muñeca.",
+    "Rápidamente mete el codo hacia tu costado y permite que la kettlebell gire alrededor de tu antebrazo hasta la posición de rack.",
+    "Párate erguido con la kettlebell descansando en el exterior de tu antebrazo, codo cerca de tu cuerpo.",
+    "Invierte el movimiento para bajar la kettlebell de nuevo a la posición inicial."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad.",
+    "Usa un movimiento suave y controlado para llevar la kettlebell a la posición de rack.",
+    "Evita balancear la kettlebell lejos de tu cuerpo; mantenla cerca durante el levantamiento.",
+    "Practica con un peso más ligero para dominar la forma antes de avanzar a kettlebells más pesadas.",
+    "Asegúrate de que tu muñeca permanezca neutral en la posición de rack para evitar tensiones.",
+    "Concéntrate en impulsar a través de tus talones durante el levantamiento inicial para obtener la máxima potencia."
+  ],
+  "errores_comunes": [
+    "Balancear la kettlebell hacia afuera y lejos del cuerpo, causando un arco descontrolado.",
+    "Agarrar demasiado fuerte el mango, lo que lleva a una flexión excesiva de la muñeca y tensión.",
+    "No mantener el codo cerca del cuerpo durante el clean, resultando en un movimiento ineficiente.",
+    "Permitir que la kettlebell choque contra el antebrazo, causando incomodidad y posibles moretones.",
+    "No activar el core, lo que lleva a inestabilidad y pobre control del movimiento.",
+    "Usar los brazos para levantar la kettlebell en lugar de impulsarse con las caderas y las piernas.",
+    "Estar demasiado erguido durante el tirón inicial, reduciendo la generación de potencia.",
+    "Descuidar alinear la muñeca en una posición neutral en el rack, causando estrés en las articulaciones.",
+    "Apresurar la fase de transición, llevando a una falta de control y precisión."
+  ]
+}

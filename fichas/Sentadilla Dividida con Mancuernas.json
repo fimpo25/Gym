@@ -1,0 +1,47 @@
+{
+  "nombre": "Sentadilla Dividida con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-split-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/46f59875-7d5f-4656-9767-189b41e05f2c.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Dumbbell Split Squat is a unilateral lower-body exercise that targets the quadriceps, hamstrings, glutes, and calves. It enhances balance, stability, and strength by isolating each leg individually. This exercise is performed with a dumbbell in each hand, allowing for increased resistance and muscle engagement.",
+  "como_realizar": [
+    "Stand upright with your feet hip-width apart, holding a dumbbell in each hand at your sides.",
+    "Step one foot forward into a lunge position, ensuring your feet are staggered and hip-width apart.",
+    "Lower your back knee towards the ground by bending both knees until your front thigh is parallel to the floor.",
+    "Ensure your front knee is directly above your ankle and does not extend past your toes.",
+    "Push through the heel of your front foot to return to the starting position.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Keep your torso upright throughout the movement to maintain balance.",
+    "Engage your core muscles to stabilize your body during the exercise.",
+    "Focus on keeping your front knee aligned with your toes to prevent injury.",
+    "Control the descent and ascent to maximize muscle engagement and effectiveness.",
+    "Start with lighter weights to perfect your form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Knee collapsing inward during the movement.",
+    "Front knee extending beyond the toes.",
+    "Back heel lifting off the ground.",
+    "Uneven weight distribution between legs.",
+    "Leaning torso too far forward.",
+    "Insufficient depth in the squat.",
+    "Lack of control during descent.",
+    "Using momentum to rise instead of muscle engagement.",
+    "Holding breath instead of maintaining steady breathing.",
+    "Not keeping the core engaged throughout the exercise."
+  ]
+}

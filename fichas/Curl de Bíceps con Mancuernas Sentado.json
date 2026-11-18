@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Bíceps con Mancuernas Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-mancuernas-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/19601110-2040-4b30-b647-38d336e67b33.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Mancuernas Sentado es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Consiste en levantar una mancuerna en cada mano mientras estás sentado, minimizando el uso del impulso y concentrándose en la contracción del bíceps.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, sosteniendo una mancuerna en cada mano con un agarre supino.",
+    "Mantén la espalda recta y los codos cerca de tu torso.",
+    "Comienza con los brazos completamente extendidos y las palmas hacia adelante.",
+    "Exhala mientras levantas las pesas hacia tus hombros doblando los codos.",
+    "Pausa en la parte superior del movimiento, asegurando la máxima contracción de los bíceps.",
+    "Inhala mientras bajas lentamente las mancuernas de regreso a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tus codos estacionarios para maximizar el compromiso del bíceps.",
+    "Evita usar el impulso; realiza el movimiento lentamente y con control.",
+    "Asegúrate de un rango completo de movimiento extendiendo y contrayendo completamente tus brazos.",
+    "Mantén tus muñecas rectas para evitar tensiones innecesarias.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Mantén una columna neutral y evita inclinarte hacia atrás durante el curl."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a balancear el cuerpo para ganar impulso.",
+    "Permitir que los codos se desplacen hacia adelante, reduciendo el compromiso del bíceps.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales.",
+    "Inclinarse hacia atrás excesivamente, forzando la parte baja de la espalda.",
+    "Apresurarse en las repeticiones, sacrificando el control muscular.",
+    "No mantener los hombros hacia abajo, causando el compromiso de los hombros.",
+    "No mantener la espalda recta, lo que lleva a una mala postura.",
+    "No apretar los bíceps en la parte superior del curl."
+  ]
+}

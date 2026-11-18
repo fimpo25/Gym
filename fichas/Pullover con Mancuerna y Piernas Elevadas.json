@@ -1,0 +1,48 @@
+{
+  "nombre": "Pullover con Mancuerna y Piernas Elevadas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/pullover-con-mancuerna-y-piernas-elevadas",
+  "video_url": "https://api.smartworkout.app/asset/video/947e5dc4-ad95-497d-a378-d12a90e1453a.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "El Pullover con Mancuerna y Piernas Elevadas es un ejercicio avanzado que se enfoca en el pecho, los dorsales y el núcleo. Al elevar las piernas, se activan los músculos abdominales de manera más intensa, proporcionando un entrenamiento completo para la parte superior del cuerpo. Este ejercicio también mejora la movilidad y estabilidad de los hombros.",
+  "como_realizar": [
+    "Acuéstate de espaldas en un banco, asegurándote de que tu cabeza y cuello estén apoyados.",
+    "Levanta las piernas de manera que estén perpendiculares al suelo, manteniéndolas rectas y juntas.",
+    "Sujeta una mancuerna con ambas manos, brazos extendidos sobre tu pecho. Tus palmas deben estar hacia arriba, agarrando la mancuerna de manera segura.",
+    "Inhala profundamente y baja lentamente la mancuerna en un arco detrás de tu cabeza hasta que sientas un estiramiento en el pecho y los dorsales.",
+    "Mantén los codos ligeramente doblados durante todo el movimiento para reducir la tensión en las articulaciones.",
+    "Exhala y lleva la mancuerna de regreso a la posición inicial usando los músculos del pecho y los dorsales.",
+    "Repite el número deseado de repeticiones mientras mantienes el control y la forma."
+  ],
+  "consejos": [
+    "Asegúrate de que tu núcleo esté comprometido durante todo el ejercicio para mantener la estabilidad y el soporte para tu espalda baja.",
+    "Evita arquear la espalda; mantenla presionada contra el banco para prevenir lesiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a mancuernas más pesadas.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular y la efectividad.",
+    "Mantén una respiración constante; inhala al bajar la mancuerna y exhala al levantarla de nuevo.",
+    "Si experimentas molestias en los hombros, reduce el rango de movimiento o ajusta tu agarre."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, lo que reduce el compromiso del núcleo y la estabilidad.",
+    "Permitir que los codos se abran demasiado, disminuyendo el enfoque en el pecho y los dorsales.",
+    "Dejar caer la mancuerna demasiado detrás de la cabeza, lo que puede provocar tensión en los hombros.",
+    "Levantar las piernas demasiado alto, lo que desvía el enfoque de la estabilización del núcleo.",
+    "Usar impulso en lugar de un movimiento controlado, reduciendo la activación muscular.",
+    "No mantener la cabeza y el cuello en una posición neutral, causando tensión innecesaria.",
+    "Sostener la mancuerna incorrectamente, arriesgando el fallo de agarre y la pérdida de control.",
+    "No comprometer el núcleo, resultando en una mala postura y efectividad reducida."
+  ]
+}

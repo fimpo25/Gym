@@ -1,0 +1,4856 @@
+[
+ {
+  "name": "Dominadas Agarre Neutro",
+  "file": "Dominadas Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominada Australiana Agarre Inverso",
+  "file": "Dominada Australiana Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bandera Humana",
+  "file": "Bandera Humana",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Back Lever",
+  "file": "Back Lever",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Cuello",
+  "file": "Curl de Cuello",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas Agarre Cerrado",
+  "file": "Dominadas Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominada Australiana Agarre Cerrado en Anillas",
+  "file": "Dominada Australiana Agarre Cerrado en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas Asistidas",
+  "file": "Dominadas Asistidas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas Asistidas con Banda",
+  "file": "Dominadas Asistidas con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas Agarre Ancho",
+  "file": "Dominadas Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas con Lastre",
+  "file": "Dominadas con Lastre",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas en Front Lever",
+  "file": "Dominadas en Front Lever",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas en Anillas",
+  "file": "Dominadas en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas en L",
+  "file": "Dominadas en L",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas en Supinación",
+  "file": "Dominadas en Supinación",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas Trasnuca Agarre Ancho",
+  "file": "Dominadas Trasnuca Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas Negativas",
+  "file": "Dominadas Negativas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimiento con Barra Detrás de la Espalda",
+  "file": "Encogimiento con Barra Detrás de la Espalda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominadas",
+  "file": "Dominadas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimientos con Barra Trampa",
+  "file": "Encogimientos con Barra Trampa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimiento de Hombros en Multipower",
+  "file": "Encogimiento de Hombros en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimiento con Cable",
+  "file": "Encogimiento con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevaciones Laterales en Banco Inclinado con Apoyo en Pecho",
+  "file": "Elevaciones Laterales en Banco Inclinado con Apoyo en Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimiento Invertido",
+  "file": "Encogimiento Invertido",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimientos de Hombros con Mancuernas",
+  "file": "Encogimientos de Hombros con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimientos Kelso con Mancuernas",
+  "file": "Encogimientos Kelso con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimientos en Fondos",
+  "file": "Encogimientos en Fondos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Esquí Ergómetro",
+  "file": "Esquí Ergómetro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimientos en Máquina",
+  "file": "Encogimientos en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimientos Sentado con Mancuernas",
+  "file": "Encogimientos Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Encogimiento de Hombros con Barra",
+  "file": "Encogimiento de Hombros con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Lateral de Dorsal de Pie",
+  "file": "Estiramiento Lateral de Dorsal de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Lateral de Cuello",
+  "file": "Estiramiento Lateral de Cuello",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Espalda en Máquina de Palanca",
+  "file": "Extensión de Espalda en Máquina de Palanca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Front Lever",
+  "file": "Front Lever",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón al Pecho con Cable Agarre Cerrado",
+  "file": "Jalón al Pecho con Cable Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón Brazo Recto con Cable a Un Brazo",
+  "file": "Jalón Brazo Recto con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales a Un Brazo",
+  "file": "Jalón de Dorsales a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón con Cable Agarre Inverso",
+  "file": "Jalón con Cable Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón con Cable Agarre Neutro",
+  "file": "Jalón con Cable Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón con Cuerda Brazo Recto",
+  "file": "Jalón con Cuerda Brazo Recto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales Agarre Ancho",
+  "file": "Jalón de Dorsales Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales Arrodillado con Banda a Un Brazo",
+  "file": "Jalón de Dorsales con Banda a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales en Polea",
+  "file": "Jalón de Dorsales en Polea",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales con Cable Arrodillado",
+  "file": "Jalón de Dorsales con Cable Arrodillado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales en Máquina",
+  "file": "Jalón de Dorsales en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales Brazo Recto",
+  "file": "Jalón de Dorsales Brazo Recto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales Inclinado con Banda",
+  "file": "Jalón de Dorsales Inclinado con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón Trasnuca Agarre Ancho",
+  "file": "Jalón Trasnuca Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón Trasnuca con Banda",
+  "file": "Jalón Trasnuca con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pullover con Mancuerna y Piernas Elevadas",
+  "file": "Pullover con Mancuerna y Piernas Elevadas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jalón de Dorsales Medio Arrodillado a Un Brazo",
+  "file": "Jalón al Pecho con Cable a una Mano en Posición de Medio Arrodillado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pullover de Dorsales con Mancuerna",
+  "file": "Pullover de Dorsales con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Máquina de Remo",
+  "file": "Máquina de Remo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pull Around",
+  "file": "Pull Around",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Nadador en Prono",
+  "file": "Nadador en Prono",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Ancho en Banco Inclinado con Mancuernas",
+  "file": "Remo Ancho en Banco Inclinado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Alto en Máquina de Palanca",
+  "file": "Remo Alto en Máquina de Palanca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Alto con Cable a Un Brazo",
+  "file": "Remo Alto con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Ancho con Banda Anclaje Alto",
+  "file": "Remo Ancho con Banda Anclaje Alto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pullover en Máquina",
+  "file": "Pullover en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Alto en Máquina a Un Brazo",
+  "file": "Remo Alto en Máquina a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Bajo en Máquina de Palanca",
+  "file": "Remo Bajo en Máquina de Palanca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo con Barra en T con Apoyo en Pecho",
+  "file": "Remo con Barra en T con Apoyo en Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo con Apoyo en Pecho Agarre Ancho",
+  "file": "Remo con Apoyo en Pecho Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo en Banco Inclinado Agarre Neutro con Mancuerna",
+  "file": "Remo en Banco Inclinado Agarre Neutro con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo con Barra en Banco Inclinado con Apoyo en Pecho",
+  "file": "Remo con Barra en Banco Inclinado con Apoyo en Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo con Landmine Agarre Cerrado",
+  "file": "Remo con Landmine Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo con Apoyo en Pecho a Un Brazo en Máquina",
+  "file": "Remo con Apoyo en Pecho a Un Brazo en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo con Cable a Un Brazo",
+  "file": "Remo con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo en Máquina con Apoyo en Pecho",
+  "file": "Remo en Máquina con Apoyo en Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo en Polea Baja a Un Brazo",
+  "file": "Remo en Polea Baja a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Barra Agarre Ancho",
+  "file": "Remo Inclinado con Barra Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Gorila",
+  "file": "Remo Gorila",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Escápula con Mancuerna a Un Brazo",
+  "file": "Remo Escápula con Mancuerna a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Barra Agarre Inverso",
+  "file": "Remo Inclinado con Barra Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo en Polea Sentado Agarre Ancho",
+  "file": "Remo en Polea Sentado Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo en Suspensión",
+  "file": "Remo en Suspensión",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo en Polea Sentado",
+  "file": "Remo en Polea Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Barra en T",
+  "file": "Remo Inclinado con Barra en T",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Barra desde Soporte",
+  "file": "Remo Inclinado con Barra desde Soporte",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Kettlebell",
+  "file": "Remo Inclinado con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Dos Mancuernas",
+  "file": "Remo Inclinado con Dos Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado en Multipower",
+  "file": "Remo Inclinado en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Mancuernas",
+  "file": "Remo Inclinado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Barra",
+  "file": "Remo Inclinado con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Invertido Australiano",
+  "file": "Remo Invertido Australiano",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Inclinado con Landmine a Un Brazo",
+  "file": "Remo Inclinado con Landmine a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Renegado Alterno",
+  "file": "Remo Renegado Alterno",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo para Deltoides Posterior con Barra",
+  "file": "Remo para Deltoides Posterior con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Invertido en Suspensión",
+  "file": "Remo Invertido en Suspensión",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Sentado a Un Brazo",
+  "file": "Remo Sentado a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Kayak Cable Thibaudeau",
+  "file": "Remo Kayak Cable Thibaudeau",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Sentado con Cable Agarre Neutro",
+  "file": "Remo Sentado con Cable Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Sentado con Cable Agarre Supino",
+  "file": "Remo Sentado con Cable Agarre Supino",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Renegado con Kettlebell",
+  "file": "Remo Renegado con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Seal Row con Mancuernas",
+  "file": "Seal Row con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Pendlay",
+  "file": "Remo Pendlay",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Sentado en Polea Baja Agarre Neutro",
+  "file": "Remo Sentado en Polea Baja Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Seal Row",
+  "file": "Seal Row",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Máquina",
+  "file": "Extensión de Tríceps en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Sentado en Polea Baja a Un Brazo",
+  "file": "Remo Sentado en Polea Baja a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps Sentado con Barra EZ",
+  "file": "Extensión de Tríceps Sentado con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps por Encima de la Cabeza con Un Brazo",
+  "file": "Extensión de Tríceps sobre la Cabeza con Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazos en Inclinación con Agarre Cerrado",
+  "file": "Flexión de Brazos en Inclinación Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Mancuernas Sentado",
+  "file": "Extensión de Tríceps con Mancuernas Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Suspensión",
+  "file": "Extensión de Tríceps en Suspensión",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazos con Agarre Invertido",
+  "file": "Flexión de Brazos con Agarre Invertido",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea Una Mano",
+  "file": "Extensión de Tríceps en Polea Una Mano",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Cuerda",
+  "file": "Extensión de Tríceps con Cuerda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Barra EZ en Decúbito Supino",
+  "file": "Extensión de Tríceps con Barra EZ en Decúbito Supino",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Smith JM",
+  "file": "Press de Smith JM",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Mancuernas Acostado",
+  "file": "Extensión de Tríceps con Mancuernas Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Empuje de Tríceps en Máquina",
+  "file": "Empuje de Tríceps en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazos Agarre Cerrado Rodillas en el Suelo",
+  "file": "Flexión Agarre Cerrado Rodillas en el Suelo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos en Anillas",
+  "file": "Fondos en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondo de Tríceps en Banco Sentado",
+  "file": "Fondo de Tríceps en Banco Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazos con Rodillas en Diamante",
+  "file": "Flexión de Brazos con Rodillas en Diamante",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazos Cruzados",
+  "file": "Flexión de Brazos Cruzados",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Banda",
+  "file": "Extensión de Tríceps con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Cable a Dos Brazos",
+  "file": "Extensión de Tríceps con Cable a Dos Brazos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Francés de Pie con Una Mancuerna",
+  "file": "Press Francés de Pie con Una Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps Sentado con Mancuerna a Un Brazo",
+  "file": "Extensión de Tríceps Sentado con Mancuerna a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Mancuernas en Banco Inclinado",
+  "file": "Extensión de Tríceps con Mancuernas en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Barra EZ",
+  "file": "Extensión de Tríceps con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea Alta por Encima de la Cabeza",
+  "file": "Extensión de Tríceps en Polea Alta sobre la Cabeza",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea con Agarre Inverso",
+  "file": "Extensión de Tríceps en Polea Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps por Encima de la Cabeza con Cable",
+  "file": "Extensión de Tríceps sobre la Cabeza con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Francés Horizontal en Polea Sentado",
+  "file": "Press Francés Horizontal en Polea Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press JM",
+  "file": "Press JM",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazos en Plancha Completa",
+  "file": "Flexión de Brazos en Plancha Completa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea Inclinada",
+  "file": "Extensión de Tríceps en Polea Inclinada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea con Un Brazo",
+  "file": "Extensión de Tríceps en Polea con Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Cable Agarre Invertido a Una Mano",
+  "file": "Extensión de Tríceps en Cable Agarre Invertido a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Diamante Declinado",
+  "file": "Flexión en Diamante Declinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos Lastrados",
+  "file": "Fondos Lastrados",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Tríceps",
+  "file": "Flexión de Tríceps",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps por Encima de la Cabeza con Banda",
+  "file": "Extensión de Tríceps sobre la Cabeza con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Barra en Banco Inclinado",
+  "file": "Extensión de Tríceps con Barra en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones Diamante",
+  "file": "Flexiones Diamante",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha de Rana",
+  "file": "Plancha de Rana",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps Sentado con Mancuernas",
+  "file": "Extensión de Tríceps Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Tríceps con Cable",
+  "file": "Patada de Tríceps con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos",
+  "file": "Fondos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones Cerradas Tríceps",
+  "file": "Flexiones Cerradas Tríceps",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de California",
+  "file": "Press de California",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Cruce con Cable",
+  "file": "Extensión de Tríceps en Cruce con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Francés con Barra en Banco Declinado",
+  "file": "Press Francés con Barra en Banco Declinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps Horizontal de Pie con Cable a Un Brazo",
+  "file": "Extensión de Tríceps Horizontal de Pie con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Katana",
+  "file": "Extensión de Tríceps con Katana",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones en Pseudo Plancha",
+  "file": "Flexiones en Pseudo Plancha",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Pronación",
+  "file": "Extensión de Tríceps en Pronación",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Barra en Decúbito Supino",
+  "file": "Extensión de Tríceps con Barra en Decúbito Supino",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Anillas",
+  "file": "Extensión de Tríceps en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Barra sobre la Cabeza de Pie",
+  "file": "Extensión de Tríceps con Barra sobre la Cabeza de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Brazo con Extensión de Pierna y Brazo Opuesto",
+  "file": "Flexión de Brazo con Extensión de Pierna y Brazo Opuesto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps con Cable sobre la Cabeza Barra",
+  "file": "Extensión de Tríceps con Cable sobre la Cabeza Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea Alta",
+  "file": "Extensión de Tríceps en Polea Alta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos en Banco con Peso",
+  "file": "Fondos en Banco con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps sobre la Cabeza con Katana a Una Mano",
+  "file": "Extensión de Tríceps sobre la Cabeza con Katana a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos Asistidos en Máquina",
+  "file": "Fondos Asistidos en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Tríceps por Encima de la Cabeza",
+  "file": "Estiramiento de Tríceps sobre la Cabeza",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Tate",
+  "file": "Press Tate",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Cobra",
+  "file": "Flexión Cobra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Tríceps en Polea con Barra en V",
+  "file": "Extensión de Tríceps en Polea con Barra en V",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps Alterno",
+  "file": "Curl de Bíceps Alterno",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Polea Bayesian",
+  "file": "Curl de Bíceps en Polea Bayesian",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Martillo en Banco Scott con un Brazo",
+  "file": "Curl de Martillo en Banco Scott con un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl en Predicador con Cable",
+  "file": "Curl en Predicador con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Barra EZ Agarre Cerrado",
+  "file": "Curl de Bíceps con Barra EZ Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Barra de Pie Agarre Ancho",
+  "file": "Curl de Bíceps con Barra de Pie Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Zottman",
+  "file": "Curl Zottman",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Banda Elástica",
+  "file": "Curl de Bíceps con Banda Elástica",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Bayesiano en Cable Sentado",
+  "file": "Curl Bayesiano en Cable Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Martillo con Cuerda en Polea",
+  "file": "Curl Martillo con Cuerda en Polea",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Predicador en Máquina",
+  "file": "Curl Predicador en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Martillo Sentado",
+  "file": "Curl de Martillo Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Martillo Alterno Sentado con Mancuernas",
+  "file": "Curl Martillo Alterno Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Alterno con Mancuernas en Supinación",
+  "file": "Curl Alterno con Mancuernas en Supinación",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Predicador con Mancuerna a un Brazo",
+  "file": "Curl de Predicador con Mancuerna a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Martillo con Mancuernas",
+  "file": "Curl de Martillo con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Martillo Alterno con Mancuernas",
+  "file": "Curl Martillo Alterno con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps Inclinado Sentado",
+  "file": "Curl de Bíceps Inclinado Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Barra",
+  "file": "Curl de Bíceps con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Concentración con Mancuerna",
+  "file": "Curl de Concentración con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Mancuerna y Soporte para Brazos",
+  "file": "Curl de Bíceps con Mancuerna y Soporte para Brazos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Martillo en Banco Scott",
+  "file": "Curl Martillo en Banco Scott",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Arrastre con Barra",
+  "file": "Curl de Arrastre con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Banco Inclinado con Barra",
+  "file": "Curl de Bíceps en Banco Inclinado con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Barra EZ",
+  "file": "Curl de Bíceps con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Concentración con Martillo",
+  "file": "Curl de Concentración con Martillo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Martillo con Banda",
+  "file": "Curl de Martillo con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Kettlebell",
+  "file": "Curl de Bíceps con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con TRX",
+  "file": "Curl de Bíceps con TRX",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Martillo con Cable a un Brazo",
+  "file": "Curl de Martillo con Cable a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Agarre Cerrado",
+  "file": "Curl de Bíceps con Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Martillo Inclinado con Mancuernas",
+  "file": "Curl Martillo Inclinado con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Martillo Cruzado con Mancuerna",
+  "file": "Curl Martillo Cruzado con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Polea de Espaldas",
+  "file": "Curl de Bíceps en Polea de Espaldas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Predicador en Máquina con un Brazo",
+  "file": "Curl de Predicador en Máquina con un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Cable a un Brazo",
+  "file": "Curl de Bíceps con Cable a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Araña con Barra EZ",
+  "file": "Curl de Araña con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Banco Scott con Barra EZ",
+  "file": "Curl de Bíceps en Banco Scott con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Predicador Supinado con Mancuerna",
+  "file": "Curl de Predicador Supinado con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl en Cable Inclinado",
+  "file": "Curl en Cable Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Polea de Rodillas",
+  "file": "Curl de Bíceps en Polea de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Banco Scott con Barra",
+  "file": "Curl de Bíceps en Banco Scott con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl con Mancuerna Individual",
+  "file": "Curl con Mancuerna Individual",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Predicador con Mancuernas",
+  "file": "Curl Predicador con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Alterno Supinado con Mancuernas en Banco Inclinado",
+  "file": "Curl Alterno Supinado con Mancuernas en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps en Máquina",
+  "file": "Curl de Bíceps en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Mancuernas Sentado",
+  "file": "Curl de Bíceps con Mancuernas Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Hércules",
+  "file": "Curl de Hércules",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Spider Hammer Curl",
+  "file": "Spider Hammer Curl",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Araña con Mancuernas",
+  "file": "Curl de Araña con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Barra en Polea",
+  "file": "Curl de Bíceps con Barra en Polea",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Ángel de Pared",
+  "file": "Ángel de Pared",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Arrastre con Mancuerna",
+  "file": "Curl de Arrastre con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Mancuernas",
+  "file": "Curl de Bíceps con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Posterior a Un Brazo",
+  "file": "Apertura Posterior a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Posterior con Cable a Un Brazo",
+  "file": "Apertura Posterior con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Posterior Alterna Inclinado con Mancuernas",
+  "file": "Apertura Posterior Alterna Inclinado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Posterior con Cable",
+  "file": "Apertura Posterior con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Cruzada Lateral Acostado con Cable",
+  "file": "Apertura Cruzada Lateral Acostado con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Arranque con Mancuerna",
+  "file": "Arranque con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Círculo de Brazo",
+  "file": "Círculo de Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Círculos de Brazos",
+  "file": "Círculos de Brazos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aperturas Inversas en Máquina",
+  "file": "Aperturas Inversas en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Driver de Pie con Mancuerna",
+  "file": "Driver de Pie con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación en Y con Cable",
+  "file": "Elevación en Y con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación en Y en Polea Inclinada con Apoyo",
+  "file": "Elevación en Y en Polea Inclinada con Apoyo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Clean and Jerk con Kettlebell",
+  "file": "Clean and Jerk con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal con Barra",
+  "file": "Elevación Frontal con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación en T en Banco Inclinado con Mancuernas",
+  "file": "Elevación en T con Mancuernas en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal Alterna con Mancuernas",
+  "file": "Elevación Frontal Alterna con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación en Y para Trapecio",
+  "file": "Elevación en Y para Trapecio",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bus Driver con Disco",
+  "file": "Bus Driver con Disco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal con Cable a Un Brazo",
+  "file": "Elevación Frontal con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal con Disco",
+  "file": "Elevación Frontal con Disco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal con Cable",
+  "file": "Elevación Frontal con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral a Frontal",
+  "file": "Elevación Lateral a Frontal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal Martillo Alterno con Mancuernas",
+  "file": "Elevación Frontal Martillo Alterno con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal con Mancuernas",
+  "file": "Elevación Frontal con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral con Landmine",
+  "file": "Elevación Lateral con Landmine",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral a Un Brazo con Mancuerna",
+  "file": "Elevación Lateral a Un Brazo con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Frontal con Disco Drive",
+  "file": "Elevación Frontal con Disco Drive",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral con Cable a Un Brazo",
+  "file": "Elevación Lateral con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral con Cable a Un Brazo 2",
+  "file": "Elevación Lateral con Cable a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral con Cable",
+  "file": "Elevación Lateral con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral en Máquina",
+  "file": "Elevación Lateral en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral con Mancuernas",
+  "file": "Elevación Lateral con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral con Banda",
+  "file": "Elevación Lateral con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral en T con Apoyo en Pecho",
+  "file": "Elevación Lateral en T con Apoyo en Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Inclinado con Apoyo a Un Brazo",
+  "file": "Elevación Lateral Inclinado con Apoyo a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Inclinado a Un Brazo con Mancuerna",
+  "file": "Elevación Lateral Inclinado a Un Brazo con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Inclinado con Cable a Un Brazo",
+  "file": "Elevación Lateral Inclinado con Cable a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Inclinado con Cable",
+  "file": "Elevación Lateral Inclinado con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Inclinado con Mancuernas",
+  "file": "Elevación Lateral Inclinado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Poliquin con Mancuernas",
+  "file": "Elevación Lateral Poliquin con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Posterior Sentado con Cable",
+  "file": "Elevación Lateral Posterior Sentado con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación para Deltoides Posterior con Barra",
+  "file": "Elevación para Deltoides Posterior con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Face Pull con Cable",
+  "file": "Face Pull con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Posterior en T en Banco Inclinado",
+  "file": "Elevación Lateral Posterior en T en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Inclinado Sentado con Mancuernas",
+  "file": "Elevación Lateral Inclinado Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Face Pull Acostado con Cable",
+  "file": "Face Pull Acostado con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Face Pull con Banda",
+  "file": "Face Pull con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación Lateral Sentado con Mancuernas",
+  "file": "Elevación Lateral Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Deltoides Posterior",
+  "file": "Estiramiento de Deltoides Posterior",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Pike entre Sillas",
+  "file": "Flexión en Pike entre Sillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Face Pull Sentado",
+  "file": "Face Pull Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Face Pull Supinado con Cable",
+  "file": "Face Pull Supinado con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Pike",
+  "file": "Flexión en Pike",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Pike entre Bancos",
+  "file": "Flexión en Pike entre Bancos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Vertical",
+  "file": "Flexión en Vertical",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Face Pull en Anillas",
+  "file": "Face Pull en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Leñador con Peso",
+  "file": "Leñador con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Abierta",
+  "file": "Plancha Abierta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pase de Banda por Encima de los Hombros",
+  "file": "Paso de Banda a través de los Hombros",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Molino de Viento con Kettlebell",
+  "file": "Molino de Viento con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Lanzamiento de Balón Medicinal",
+  "file": "Lanzamiento de Balón Medicinal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Perro de Caza",
+  "file": "Plancha Perro de Caza",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Completa",
+  "file": "Plancha Completa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Pike sobre Banco",
+  "file": "Flexión en Pike sobre Banco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Lu Raises con Mancuernas",
+  "file": "Lu Raises con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Posición de Vertical",
+  "file": "Posición de Vertical",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Alterno de Pie con Mancuernas",
+  "file": "Press Alterno de Pie con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Powell Raise",
+  "file": "Powell Raise",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press con Landmine",
+  "file": "Press con Landmine",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Cubano de Pie",
+  "file": "Press Cubano de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Arnold Sentado con Mancuernas",
+  "file": "Press Arnold Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press con Landmine Medio Arrodillado a Un Brazo",
+  "file": "Press con Landmine Medio Arrodillado a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros con Barra Sentado",
+  "file": "Press de Hombros con Barra Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros a Un Brazo con Mancuerna",
+  "file": "Press de Hombros a Un Brazo con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros Agarre Martillo en Máquina",
+  "file": "Press de Hombros Agarre Martillo en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Powell Raise Inclinado",
+  "file": "Powell Raise Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Cubano Sentado",
+  "file": "Press Cubano Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros con Banda",
+  "file": "Press de Hombros con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros con Barra Detrás del Cuello",
+  "file": "Press de Hombros con Barra Detrás del Cuello",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros con Barra",
+  "file": "Press de Hombros con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros con Mancuerna Medio Arrodillado",
+  "file": "Press de Hombros con Mancuerna Medio Arrodillado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros de Pie con Landmine a Un Brazo",
+  "file": "Press de Hombros de Pie con Landmine a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros de Pie con Mancuernas",
+  "file": "Press de Hombros de Pie con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros en Multipower",
+  "file": "Press de Hombros en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros en Máquina",
+  "file": "Press de Hombros en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros Medio Arrodillado con Mancuerna",
+  "file": "Press de Hombros Medio Arrodillado con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros Sentado con Mancuernas",
+  "file": "Press de Hombros Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Hombros Sentado Agarre Neutro",
+  "file": "Press de Hombros Sentado Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Overhead Tsunami",
+  "file": "Press Overhead Tsunami",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Overhead con Kettlebell a Un Brazo",
+  "file": "Press Overhead con Kettlebell a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Push Press con Mancuernas",
+  "file": "Push Press con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Trasnuca Sentado en Multipower",
+  "file": "Press Trasnuca Sentado en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Push Press con Barra",
+  "file": "Push Press con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón con Banda",
+  "file": "Remo al Mentón con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón con Barra Agarre Cerrado",
+  "file": "Remo al Mentón con Barra Agarre Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón en Multipower",
+  "file": "Remo al Mentón en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón con Cable",
+  "file": "Remo al Mentón con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón con Barra Agarre Hombros",
+  "file": "Remo al Mentón con Barra Agarre Hombros",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón con Mancuernas",
+  "file": "Remo al Mentón con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo al Mentón con Barra Agarre Ancho",
+  "file": "Remo al Mentón con Barra Agarre Ancho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo para Deltoides Posterior con Mancuernas",
+  "file": "Remo para Deltoides Posterior con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Remo Alto Inclinado Sentado con Mancuernas",
+  "file": "Remo Alto Inclinado Sentado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rotación de Kettlebell alrededor de la Cabeza",
+  "file": "Rotación de Kettlebell alrededor de la Cabeza",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rotación Cubana con Mancuernas",
+  "file": "Rotación Cubana con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sujeción Frontal Estática",
+  "file": "Sujeción Frontal Estática",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Turkish Get Up",
+  "file": "Turkish Get Up",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Baja con Mancuerna Unilateral",
+  "file": "Apertura Baja con Mancuerna Unilateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rotación Externa de Hombro Sentado",
+  "file": "Rotación Externa de Hombro Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Cable Unilateral de Abajo hacia Arriba",
+  "file": "Apertura de Cable Unilateral de Abajo hacia Arriba",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura con Mancuernas de Abajo hacia Arriba",
+  "file": "Apertura con Mancuernas de Abajo hacia Arriba",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura con Cable Acostado",
+  "file": "Apertura con Cable Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Almeja de Pecho Sentada",
+  "file": "Almeja de Pecho Sentada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho de Pie",
+  "file": "Apertura de Pecho de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho con Banda en Inclinación de Pie",
+  "file": "Apertura de Pecho con Banda en Inclinación de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho con Banda",
+  "file": "Apertura de Pecho con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho con Mancuernas en Banco Inclinado",
+  "file": "Apertura de Pecho con Mancuernas en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho con Mancuernas",
+  "file": "Apertura de Pecho con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho con Mancuernas en el Suelo",
+  "file": "Apertura de Pecho con Mancuernas en el Suelo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura en Polea de Alto a Bajo con un Brazo",
+  "file": "Apertura en Polea de Alto a Bajo con Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura de Pecho en Suspensión",
+  "file": "Apertura de Pecho en Suspensión",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aperturas en Contractora de Pecho",
+  "file": "Aperturas en Contractora de Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aperturas con Mancuernas en Banco Declinado",
+  "file": "Aperturas con Mancuernas en Banco Declinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aperturas Inclinadas con Mancuernas",
+  "file": "Aperturas Inclinadas con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cruce de Polea Medio",
+  "file": "Cruce de Polea Medio",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cruce de Poleas Alto de Rodillas",
+  "file": "Cruce de Poleas Alto de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Apertura Polea Unilateral",
+  "file": "Apertura Polea Unilateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cruce de Poleas Bajo",
+  "file": "Cruce de Poleas Bajo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Pecho con Brazo Flexionado",
+  "file": "Estiramiento de Pecho con Brazo Flexionado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Boxeo con Saco de Boxeo",
+  "file": "Boxeo con Saco de Boxeo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cruce de Poleas en Banco Inclinado",
+  "file": "Cruce de Poleas en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cruce de Poleas Medio en Banco",
+  "file": "Cruce de Poleas Medio en Banco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cruce de Poleas Alto",
+  "file": "Cruce de Poleas Alto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Rotación de Espalda Arrodillado",
+  "file": "Estiramiento de Rotación de Espalda Arrodillado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Pecho en el Marco de la Puerta",
+  "file": "Estiramiento de Pecho en el Marco de la Puerta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Global",
+  "file": "Estiramiento Global",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Abierta",
+  "file": "Flexión Abierta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Ancha de Rodillas",
+  "file": "Flexión Ancha de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión a un Brazo",
+  "file": "Flexión a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Dinámico de Hombros con Banda",
+  "file": "Estiramiento Dinámico de Hombros con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Pecho con Codos Abiertos",
+  "file": "Estiramiento de Pecho con Codos Abiertos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Completa de Muñeca",
+  "file": "Flexión Completa de Muñeca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión con Palmada",
+  "file": "Flexión con Palmada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Dedos",
+  "file": "Flexión de Dedos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Escápulas",
+  "file": "Flexión de Escápulas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión con Banda de Resistencia",
+  "file": "Flexión con Banda de Resistencia",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Arquero",
+  "file": "Flexión de Arquero",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Superman",
+  "file": "Flexión de Superman",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Negativa",
+  "file": "Flexión Negativa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Jack",
+  "file": "Flexión Jack",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Nudillos",
+  "file": "Flexión de Nudillos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión en Anillas",
+  "file": "Flexión en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Profunda en Barras Paralelas",
+  "file": "Flexión Profunda en Barras Paralelas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones con Asas",
+  "file": "Flexiones con Asas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión Profunda con Mancuernas",
+  "file": "Flexión Profunda con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones con Peso",
+  "file": "Flexiones con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones de Rodillas",
+  "file": "Flexiones de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones en Anillas de Rodillas",
+  "file": "Flexiones en Anillas de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones Inclinadas",
+  "file": "Flexiones Inclinadas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones",
+  "file": "Flexiones",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexiones Declinadas",
+  "file": "Flexiones Declinadas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos en Paralelas",
+  "file": "Fondos en Paralelas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Laterales Poliquin",
+  "file": "Laterales Poliquin",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos Coreanos",
+  "file": "Fondos Coreanos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pec Deck Contractora de Pecho",
+  "file": "Pec Deck Contractora de Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Perro Boca Abajo de Pie",
+  "file": "Perro Boca Abajo de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos en Plancha",
+  "file": "Fondos en Plancha",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Fondos de Pecho",
+  "file": "Fondos de Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Inclinada",
+  "file": "Plancha Inclinada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Banca con Barra y Cadenas",
+  "file": "Press de Banca con Barra y Cadenas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Circular de Pie",
+  "file": "Press Circular de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Banca con Banda de Resistencia",
+  "file": "Press de Banca con Banda de Resistencia",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Banca con Tope",
+  "file": "Press de Banca con Tope",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press con Mancuernas Cerrado",
+  "file": "Press con Mancuernas Cerrado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Fuerza Unilateral Cruzado",
+  "file": "Press de Fuerza Unilateral Cruzado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Banca en el Suelo",
+  "file": "Press de Banca en el Suelo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Banca",
+  "file": "Press de Banca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Mancuernas en el Suelo",
+  "file": "Press de Mancuernas en el Suelo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Pecho con Banda en Banco",
+  "file": "Press de Pecho con Banda en Banco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Larsen con Barra",
+  "file": "Press de Larsen con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Pecho de Pie con Cable",
+  "file": "Press de Pecho de Pie con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Pecho en Polea Declinado",
+  "file": "Press de Pecho en Polea Declinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Pecho Bajo en Polea de Pie",
+  "file": "Press de Pecho Bajo en Polea de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Piso con Kettlebell a un Brazo",
+  "file": "Press de Piso con Kettlebell a un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Pecho en Máquina Sentado",
+  "file": "Press de Pecho en Máquina Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Spoto",
+  "file": "Press de Spoto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press de Pecho en Máquina con Agarre Neutro",
+  "file": "Press de Pecho en Máquina con Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Declinado Convergente",
+  "file": "Press Declinado Convergente",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado con Mancuernas Unilateral",
+  "file": "Press Inclinado con Mancuernas Unilateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado con Barra",
+  "file": "Press Inclinado con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Declinado con Barra",
+  "file": "Press Declinado con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado con Mancuernas",
+  "file": "Press Inclinado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado con Mancuernas Agarre Neutro",
+  "file": "Press Inclinado con Mancuernas Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Declinado con Mancuernas",
+  "file": "Press Declinado con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado con Poleas en Banco",
+  "file": "Press Inclinado con Poleas en Banco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Larsen con Mancuernas",
+  "file": "Press Larsen con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Declinado en Multipower",
+  "file": "Press Declinado en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado en Multipower",
+  "file": "Press Inclinado en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Plano con Mancuernas Agarre Neutro",
+  "file": "Press Plano con Mancuernas Agarre Neutro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Inclinado Convergente",
+  "file": "Press Inclinado Convergente",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Plano con Mancuernas Unilateral",
+  "file": "Press Plano con Mancuernas Unilateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Plano con Mancuernas",
+  "file": "Press Plano con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Plano en Multipower",
+  "file": "Press Plano en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Plano en Máquina",
+  "file": "Press Plano en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aducción de Cadera con Cable",
+  "file": "Aducción de Cadera con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Poliquin con Mancuernas",
+  "file": "Press Poliquin con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pullover con Barra",
+  "file": "Pullover con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Plano con Poleas",
+  "file": "Press Plano con Poleas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aducción de Cadera con Banda de Resistencia",
+  "file": "Aducción de Cadera con Banda de Resistencia",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Svend",
+  "file": "Press Svend",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Balanceo de Piernas",
+  "file": "Balanceo de Piernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicicleta Air Assault",
+  "file": "Bicicleta Air Assault",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aducción de Cadera Sentado",
+  "file": "Aducción de Cadera Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Toque de Hombro",
+  "file": "Toque de Hombro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Balanceo Lateral de Piernas",
+  "file": "Balanceo Lateral de Piernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicicleta Estacionaria",
+  "file": "Bicicleta Estacionaria",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Caminata Cardio",
+  "file": "Caminata Cardio",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Caminata en Cinta Inclinada",
+  "file": "Caminata en Cinta Inclinada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Arranque",
+  "file": "Arranque",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cargada de Potencia desde Colgado",
+  "file": "Cargada de Potencia desde Colgado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Burpee",
+  "file": "Burpee",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Círculos de Cadera",
+  "file": "Círculos de Cadera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Cargada de Potencia",
+  "file": "Cargada de Potencia",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Caminata Monster hacia Adelante con Banda",
+  "file": "Caminata Monster hacia Adelante con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Carrera en Cinta",
+  "file": "Carrera en Cinta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Clean and Jerk",
+  "file": "Clean and Jerk",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Carrera",
+  "file": "Carrera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Clean con Kettlebell",
+  "file": "Clean con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Acostado con Mancuerna",
+  "file": "Curl de Pierna Acostado con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Acostado con Banda",
+  "file": "Curl de Pierna Acostado con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Acostado en Prono",
+  "file": "Curl de Pierna Acostado en Prono",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna con Balón Suizo",
+  "file": "Curl de Pierna con Balón Suizo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna de Pie",
+  "file": "Curl de Pierna de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Acostado a Una Pierna",
+  "file": "Curl de Pierna Acostado a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna con Cable a Una Pierna",
+  "file": "Curl de Pierna con Cable a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Deslizante",
+  "file": "Curl de Pierna Deslizante",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Nórdico de Isquiotibiales",
+  "file": "Curl Nórdico de Isquiotibiales",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Sentado a Una Pierna",
+  "file": "Curl de Pierna Sentado a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna Sentado",
+  "file": "Curl de Pierna Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla a Una Pierna en Máquina",
+  "file": "Elevación de Pantorrilla a Una Pierna en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Nórdico Inverso",
+  "file": "Curl Nórdico Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Pierna en Anillas",
+  "file": "Curl de Pierna en Anillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla a Una Pierna en Multipower",
+  "file": "Elevación de Pantorrilla a Una Pierna en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla de Pie con Mancuernas",
+  "file": "Elevación de Pantorrilla de Pie con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla con Barra",
+  "file": "Elevación de Pantorrilla con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla a Una Pierna con Mancuerna",
+  "file": "Elevación de Pantorrilla a Una Pierna con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla a Una Pierna",
+  "file": "Elevación de Pantorrilla a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla de Pie",
+  "file": "Elevación de Pantorrilla de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla en Multipower",
+  "file": "Elevación de Pantorrilla en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla Sentado a Una Pierna con Mancuerna",
+  "file": "Elevación de Pantorrilla Sentado a Una Pierna con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla Rotatoria",
+  "file": "Elevación de Pantorrilla Rotatoria",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla Sentado con Peso",
+  "file": "Elevación de Pantorrilla Sentado con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla Sentado en Multipower",
+  "file": "Elevación de Pantorrilla Sentado en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla en Máquina",
+  "file": "Elevación de Pantorrilla en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Pantorrilla Sentado",
+  "file": "Elevación de Pantorrilla Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elíptica",
+  "file": "Elíptica",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Empuje de Cadera Arrodillado en Multipower",
+  "file": "Empuje de Cadera Arrodillado en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Escaladora",
+  "file": "Escaladora",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento 90 a 90",
+  "file": "Estiramiento 90 a 90",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Cuádriceps Acostado",
+  "file": "Estiramiento de Cuádriceps Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Tibial de Pie",
+  "file": "Elevación de Tibial de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Isquiotibial Sentado a Una Pierna",
+  "file": "Estiramiento de Isquiotibial Sentado a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Cuádriceps de Pie",
+  "file": "Estiramiento de Cuádriceps de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento en Zancada",
+  "file": "Estiramiento en Zancada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Cuádriceps Medio Arrodillado",
+  "file": "Estiramiento de Cuádriceps Medio Arrodillado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Isquiotibial Arrodillado",
+  "file": "Estiramiento de Isquiotibial Arrodillado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Mariposa Inclinado hacia Adelante",
+  "file": "Estiramiento Mariposa Inclinado hacia Adelante",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Cuádriceps Acostado de Lado",
+  "file": "Estiramiento de Cuádriceps Acostado de Lado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Rodilla al Pecho",
+  "file": "Estiramiento Rodilla al Pecho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Pierna a Una Pierna",
+  "file": "Extensión de Pierna a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Mariposa",
+  "file": "Estiramiento Mariposa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión Terminal de Rodilla",
+  "file": "Extensión Terminal de Rodilla",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Tronco de Pie",
+  "file": "Flexión de Tronco de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión Terminal de Rodilla con Cable",
+  "file": "Extensión Terminal de Rodilla con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento Medio Rana Oscilante",
+  "file": "Estiramiento Medio Rana Oscilante",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Hack Squat con Barra",
+  "file": "Hack Squat con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Pierna Sentado en Máquina",
+  "file": "Extensión de Pierna Sentado en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Hack Squat en Multipower",
+  "file": "Hack Squat en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Hack Squat Inverso en Máquina",
+  "file": "Hack Squat Inverso en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Tronco hacia Adelante Sentado",
+  "file": "Flexión de Tronco hacia Adelante Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Kickboxing",
+  "file": "Kickboxing",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Jefferson Curl",
+  "file": "Jefferson Curl",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Hack Squat en Máquina",
+  "file": "Hack Squat en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Media Sentadilla",
+  "file": "Media Sentadilla",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Perro Boca Abajo",
+  "file": "Perro Boca Abajo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto con Barra Trampa",
+  "file": "Peso Muerto con Barra Trampa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pantorrillas en Prensa de Piernas",
+  "file": "Pantorrillas en Prensa de Piernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto a Una Pierna",
+  "file": "Peso Muerto a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto con Mancuerna a Una Pierna",
+  "file": "Peso Muerto con Mancuerna a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto con Kettlebell",
+  "file": "Peso Muerto con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Glúteo en Multipower",
+  "file": "Patada de Glúteo en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto en Déficit",
+  "file": "Peso Muerto en Déficit",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Piernas Rectas con Mancuernas 2",
+  "file": "Peso Muerto Piernas Rectas con Mancuernas 2",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Rumano con Cable",
+  "file": "Peso Muerto Rumano con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto con Mancuernas",
+  "file": "Peso Muerto con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Piernas Rectas con Barra",
+  "file": "Peso Muerto Piernas Rectas con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Rumano en Multipower",
+  "file": "Peso Muerto Rumano en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Piernas Rectas con Mancuernas",
+  "file": "Peso Muerto Piernas Rectas con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Rumano con Mancuernas",
+  "file": "Peso Muerto Rumano con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura Mariposa Acostada",
+  "file": "Postura Mariposa Acostada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Rumano en B-Stance",
+  "file": "Peso Muerto Rumano en B-Stance",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto",
+  "file": "Peso Muerto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura Bebé Feliz",
+  "file": "Postura Bebé Feliz",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa de Piernas Horizontal en Máquina",
+  "file": "Prensa de Piernas Horizontal en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura del Lagarto",
+  "file": "Postura del Lagarto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa de Piernas Postura Abierta",
+  "file": "Prensa de Piernas Postura Abierta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa de Piernas",
+  "file": "Prensa de Piernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rana Oscilante",
+  "file": "Rana Oscilante",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa de Piernas a Una Pierna",
+  "file": "Prensa de Piernas a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa de Piernas 45° Postura Cerrada",
+  "file": "Prensa de Piernas 45° Postura Cerrada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rack Pull con Barra",
+  "file": "Rack Pull con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa de Piernas Vertical en Multipower",
+  "file": "Prensa de Piernas Vertical en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodillo de Pie",
+  "file": "Rodillo de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Salto con Mancuernas",
+  "file": "Salto con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Salto con Rodilla Alta",
+  "file": "Salto con Rodilla Alta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Salto en Largo",
+  "file": "Salto en Largo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Salto a la Cuerda",
+  "file": "Salto a la Cuerda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodillo de Pantorrillas",
+  "file": "Rodillo de Pantorrillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Saltos de Tijera",
+  "file": "Saltos de Tijera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Saltos al Cajón",
+  "file": "Saltos al Cajón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Anderson",
+  "file": "Sentadilla Anderson",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Barra Baja",
+  "file": "Sentadilla Barra Baja",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Salto al Cajón a Una Pierna",
+  "file": "Salto al Cajón a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla a Banco en Multipower",
+  "file": "Sentadilla a Banco en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Saltos Pogo",
+  "file": "Saltos Pogo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Búlgara con Mancuernas",
+  "file": "Sentadilla Búlgara con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Búlgara con Salto",
+  "file": "Sentadilla Búlgara con Salto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Búlgara con Barra",
+  "file": "Sentadilla Búlgara con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Barra Alta",
+  "file": "Sentadilla Barra Alta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Banda",
+  "file": "Sentadilla con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Barra",
+  "file": "Sentadilla con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Búlgara en Multipower",
+  "file": "Sentadilla Búlgara en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Ciclista",
+  "file": "Sentadilla Ciclista",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Barra sobre la Cabeza",
+  "file": "Sentadilla con Barra sobre la Cabeza",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Cargada",
+  "file": "Sentadilla con Cargada",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Landmine",
+  "file": "Sentadilla con Landmine",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Mancuernas",
+  "file": "Sentadilla con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Cinturón en Máquina",
+  "file": "Sentadilla con Cinturón en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Tope",
+  "file": "Sentadilla con Tope",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Salto",
+  "file": "Sentadilla con Salto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Cosaca con Barra",
+  "file": "Sentadilla Cosaca con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Cosaca",
+  "file": "Sentadilla Cosaca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Dividida con Mancuernas",
+  "file": "Sentadilla Dividida con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Cosaca con Peso",
+  "file": "Sentadilla Cosaca con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Dividida en Multipower",
+  "file": "Sentadilla Dividida en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Dividida Pie Delantero Elevado",
+  "file": "Sentadilla Dividida Pie Delantero Elevado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Cosaca con Mancuerna",
+  "file": "Sentadilla Cosaca con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Dividida",
+  "file": "Sentadilla Dividida",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla en Pared con Balón de Estabilidad",
+  "file": "Sentadilla en Pared con Balón de Estabilidad",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla en Cajón",
+  "file": "Sentadilla en Cajón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla en Multipower",
+  "file": "Sentadilla en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Dividida con Barra",
+  "file": "Sentadilla Dividida con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla en Pared",
+  "file": "Sentadilla en Pared",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Frontal con Tope",
+  "file": "Sentadilla Frontal con Tope",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Frontal en Banco",
+  "file": "Sentadilla Frontal en Banco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Frontal en Multipower",
+  "file": "Sentadilla Frontal en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Pistol en Cajón",
+  "file": "Sentadilla Pistol en Cajón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Goblet con Mancuerna",
+  "file": "Sentadilla Goblet con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Pistol Asistida",
+  "file": "Sentadilla Pistol Asistida",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Pistol",
+  "file": "Sentadilla Pistol",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Pistol con Peso",
+  "file": "Sentadilla Pistol con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Profunda a Pliegue Amplio",
+  "file": "Sentadilla Profunda a Pliegue Amplio",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sissy",
+  "file": "Sentadilla Sissy",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Goblet",
+  "file": "Sentadilla Goblet",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sumo con Barra",
+  "file": "Sentadilla Sumo con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sissy con Peso",
+  "file": "Sentadilla Sissy con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Frontal",
+  "file": "Sentadilla Frontal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Silla en Multipower",
+  "file": "Sentadilla Silla en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sumo desde Cajón",
+  "file": "Sentadilla Sumo desde Cajón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sumo en Multipower",
+  "file": "Sentadilla Sumo en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Zercher en Multipower",
+  "file": "Sentadilla Zercher en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Zercher",
+  "file": "Sentadilla Zercher",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sumo",
+  "file": "Sentadilla Sumo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Step Up con Cable",
+  "file": "Step Up con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla",
+  "file": "Sentadilla",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Step Up con Mancuernas",
+  "file": "Step Up con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Step Up con Barra",
+  "file": "Step Up con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Step Up en Cajón",
+  "file": "Step Up en Cajón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Step Up Poliquin",
+  "file": "Step Up Poliquin",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Swing con Kettlebell a Un Brazo",
+  "file": "Swing con Kettlebell a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Superman",
+  "file": "Superman",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Thruster con Barra",
+  "file": "Thruster con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Caminando con Bulgarian Bag",
+  "file": "Zancada Caminando con Bulgarian Bag",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Caminando con Barra",
+  "file": "Zancada Caminando con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Caminando con Mancuernas",
+  "file": "Zancada Caminando con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Swing con Kettlebell",
+  "file": "Swing con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Tirón de Arranque",
+  "file": "Tirón de Arranque",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Caminando",
+  "file": "Zancada Caminando",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Inversa con Barra",
+  "file": "Zancada Inversa con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Lateral Pliométrica",
+  "file": "Zancada Lateral Pliométrica",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Lateral con Mancuernas",
+  "file": "Zancada Lateral con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Lateral",
+  "file": "Zancada Lateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Trineo Prowler",
+  "file": "Trineo Prowler",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Trasera con Kettlebell",
+  "file": "Zancada Trasera con Kettlebell",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancadas con Mancuernas",
+  "file": "Zancadas con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Trasera en Multipower",
+  "file": "Zancada Trasera en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Trasera",
+  "file": "Zancada Trasera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abducción de Cadera con Cable",
+  "file": "Abducción de Cadera con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abducción de Cadera de Pie",
+  "file": "Abducción de Cadera de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abducción de Cadera con Banda Sentado",
+  "file": "Abducción de Cadera con Banda Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancadas",
+  "file": "Zancadas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abducción de Cadera Sentado",
+  "file": "Abducción de Cadera Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abducción de Cadera con Banda",
+  "file": "Abducción de Cadera con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bisagra de Cadera",
+  "file": "Bisagra de Cadera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Buenos Días en Multipower",
+  "file": "Buenos Días en Multipower",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abducción de Cadera en Decúbito Lateral",
+  "file": "Abducción de Cadera en Decúbito Lateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Buenos Días Sentado",
+  "file": "Buenos Días Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Buenos Días con Barra",
+  "file": "Buenos Días con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Caminata Lateral con Banda",
+  "file": "Caminata Lateral con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Cadera con Mancuernas",
+  "file": "Elevación de Cadera con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Empuje de Cadera en Máquina Smith",
+  "file": "Empuje de Cadera en Máquina Smith",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Cadera Estilo Rana",
+  "file": "Elevación de Cadera Estilo Rana",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Figura 4 en Silla",
+  "file": "Estiramiento de Figura 4 en Silla",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Empuje de Cadera en Máquina",
+  "file": "Empuje de Cadera en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Empuje de Cadera Unilateral con Mancuerna",
+  "file": "Empuje de Cadera Unilateral con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Rodilla al Pecho Acostado",
+  "file": "Estiramiento de Rodilla al Pecho Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Concha Lateral con Banda Elástica Acostado",
+  "file": "Concha Lateral con Banda Elástica Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Cadera",
+  "file": "Elevación de Cadera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Espalda",
+  "file": "Extensión de Espalda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Espalda con Mancuerna",
+  "file": "Extensión de Espalda con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Estiramiento de Figura 4 Sentado",
+  "file": "Estiramiento de Figura 4 Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Burro",
+  "file": "Patada de Burro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos a Una Pierna",
+  "file": "Glute Bridge Single Leg",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Hiperextensión Inversa con Banda",
+  "file": "Hiperextensión Inversa con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Glúteos con Banda",
+  "file": "Patada de Glúteos con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Glúteos en Máquina",
+  "file": "Patada de Glúteos en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Glúteo con Banda en Equilibrio de Pie",
+  "file": "Patada de Glúteo con Banda en Equilibrio de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto desde Bloques",
+  "file": "Peso Muerto desde Bloques",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Rumano",
+  "file": "Peso Muerto Rumano",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión de Espalda con Peso",
+  "file": "Extensión de Espalda con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Perro de Caza",
+  "file": "Perro de Caza",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Glúteos en Polea",
+  "file": "Patada de Glúteos en Polea",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Rumano a Una Pierna",
+  "file": "Peso Muerto Rumano a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura de la Paloma",
+  "file": "Postura de la Paloma",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Lateral con Abducción de Cadera",
+  "file": "Plancha Lateral con Abducción de Cadera",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Peso Muerto Sumo",
+  "file": "Peso Muerto Sumo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos con Banda Elástica Mini",
+  "file": "Puente de Glúteos con Banda Elástica Mini",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura del Niño",
+  "file": "Postura del Niño",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos con Barra",
+  "file": "Puente de Glúteos con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos con Peso a Una Pierna",
+  "file": "Puente de Glúteos con Peso a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos con Peso",
+  "file": "Puente de Glúteos con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos en Banco",
+  "file": "Puente de Glúteos en Banco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos KAS",
+  "file": "Puente de Glúteos KAS",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Tirón con Cable",
+  "file": "Tirón con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla con Kettlebell en Copa",
+  "file": "Sentadilla con Kettlebell en Copa",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sentadilla Sumo con Mancuernas",
+  "file": "Sentadilla Sumo con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente de Glúteos",
+  "file": "Puente de Glúteos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodillo para Glúteos",
+  "file": "Rodillo para Glúteos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Trasera con Barra en Escalón",
+  "file": "Zancada Trasera con Barra en Escalón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Lateral",
+  "file": "Plancha Lateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Trasera con Mancuerna",
+  "file": "Zancada Trasera con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevaciones de Rodillas en Silla del Capitán",
+  "file": "Elevaciones de Rodillas en Silla del Capitán",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Zancada Inversa con Mancuernas desde Escalón",
+  "file": "Zancada Inversa con Mancuernas desde Escalón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicicleta de Aire",
+  "file": "Bicicleta de Aire",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patada de Aleteo Sentado",
+  "file": "Patada de Aleteo Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha con Peso",
+  "file": "Plancha con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Ruso con Balón Medicinal",
+  "file": "Giro Ruso con Balón Medicinal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Press Pallof con Banda",
+  "file": "Press Pallof con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Ruso con Barra",
+  "file": "Giro Ruso con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Ruso con Peso",
+  "file": "Giro Ruso con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicicleta de Aire de Pie",
+  "file": "Bicicleta de Aire de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicho Muerto",
+  "file": "Bicho Muerto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales en Banco Declinado",
+  "file": "Abdominales en Banco Declinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dedos a la Barra",
+  "file": "Dedos a la Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales con Peso",
+  "file": "Abdominales con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevaciones de Rodillas Colgado",
+  "file": "Elevaciones de Rodillas Colgado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Molino de Viento Colgado a la Mitad",
+  "file": "Molino de Viento Colgado a la Mitad",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Abdominal con Cable de Rodillas",
+  "file": "Crunch Abdominal con Cable de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Perro Hacia Arriba",
+  "file": "Perro Hacia Arriba",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch en V",
+  "file": "Crunch en V",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bandera del Dragón",
+  "file": "Bandera del Dragón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro con Banda Horizontal",
+  "file": "Giro con Banda Horizontal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Ruso con Mancuernas",
+  "file": "Giro Ruso con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Gato-Vaca",
+  "file": "Gato-Vaca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación en V",
+  "file": "Elevación en V",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevaciones de Piernas en Banco Inclinado",
+  "file": "Elevaciones de Piernas en Banco Inclinado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Toques de Tobillo",
+  "file": "Toques de Tobillo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Toques de Dedos",
+  "file": "Toques de Dedos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Inclinación Lateral de Pie con Mancuerna",
+  "file": "Inclinación Lateral de Pie con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Rodillas Oblicuas Colgado",
+  "file": "Elevación de Rodillas Oblicuas Colgado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Rodillas al Pecho en Suspensión",
+  "file": "Elevación de Rodillas al Pecho en Suspensión",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales Alternos Sentado",
+  "file": "Abdominales Alternos Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales Invertidos",
+  "file": "Abdominales Invertidos",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales Circulares Inversos Sentados",
+  "file": "Abdominales Circulares Inversos Sentados",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunches de Bicicleta con Banda",
+  "file": "Crunches de Bicicleta con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodillas a Codos Colgando Waist",
+  "file": "Rodillas a Codos Colgando",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro con Barra en Tierra",
+  "file": "Giro con Barra en Tierra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "V-Ups en Suspensión",
+  "file": "V-Ups en Suspensión",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa Pallof Horizontal con Cable",
+  "file": "Prensa Pallof Horizontal con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Piernas Rectas en Barras Paralelas",
+  "file": "Elevación de Piernas Rectas en Barras Paralelas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicho Muerto con Balón",
+  "file": "Bicho Muerto con Balón",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro con Cable Arriba-Abajo",
+  "file": "Giro con Cable Arriba Abajo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha",
+  "file": "Plancha",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch con Brazo Recto y Peso",
+  "file": "Crunch con Brazo Recto y Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Codo a Rodilla del Lado Opuesto",
+  "file": "Codo a Rodilla del Lado Opuesto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Lateral",
+  "file": "Crunch Lateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Pica en Anillas",
+  "file": "Pica en Anillas",
+  "status": 404,
+  "ok": false
+ },
+ {
+  "name": "Elevación de Piernas Sentado",
+  "file": "Elevación de Piernas Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sujeción de Cuerpo Hueco",
+  "file": "Sujeción de Cuerpo Hueco",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunches de Pie con Giro con Banda",
+  "file": "Crunches de Pie con Giro con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación en V Funcional",
+  "file": "Elevación en V",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Piernas Colgando con Peso",
+  "file": "Elevación de Piernas Colgando con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rotación de Tronco en Máquina Sentado",
+  "file": "Rotación de Tronco en Máquina Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales con Peso Crunches",
+  "file": "Abdominales con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Piernas Rectas Acostado",
+  "file": "Elevación de Piernas Rectas Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch en Máquina Acostado",
+  "file": "Crunch en Máquina Acostado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales Crunch",
+  "file": "Abdominales Crunch",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Abdominal Sentado en Polea",
+  "file": "Crunch Abdominal Sentado en Polea",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Rodillas en Ab Coaster",
+  "file": "Elevación de Rodillas en Ab Coaster",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro de Pie con Barra",
+  "file": "Giro de Pie con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Sujeción de Cuerpo Hueco con Peso",
+  "file": "Sujeción de Cuerpo Hueco con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodamiento con Rueda Abdominal",
+  "file": "Rodamiento con Rueda Abdominal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales",
+  "file": "Abdominales",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "TRX Perro de Caza a Una Pierna",
+  "file": "TRX Perro de Caza a Una Pierna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Vacío Abdominal",
+  "file": "Vacío Abdominal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Puente Lateral con Mancuernas",
+  "file": "Puente Lateral con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Corte en Medio Arrodillado con Banda",
+  "file": "Corte en Medio Arrodillado con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Ruso de Pie",
+  "file": "Giro Ruso de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura del Cangrejo",
+  "file": "Postura del Cangrejo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Patadas de Tijera Colgado",
+  "file": "Patadas de Tijera Colgado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales Janda",
+  "file": "Abdominales Janda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Declinado con Peso",
+  "file": "Crunch Declinado con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Abdominal con Banda de Rodillas",
+  "file": "Crunch Abdominal con Banda de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Corte de Leña con Banda de Alta a Baja",
+  "file": "Corte de Leña con Banda de Alta a Baja",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dead Bug con Peso",
+  "file": "Dead Bug con Peso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Piernas Rectas Colgado",
+  "file": "Elevación de Piernas Rectas Colgado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodillas a Codos Colgando",
+  "file": "Rodillas a Codos Colgando",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch con Balón de Estabilidad",
+  "file": "Crunch con Balón de Estabilidad",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro con Cable Horizontal",
+  "file": "Giro con Cable Horizontal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha de Oso",
+  "file": "Plancha de Oso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Torsión Espinal Supina",
+  "file": "Torsión Espinal Supina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Extensión y Flexión de Piernas",
+  "file": "Extensión y Flexión de Piernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevación de Piernas Colgando a la Barra",
+  "file": "Elevación de Piernas Colgando a la Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Prensa Pallof Horizontal en Polea Baja",
+  "file": "Prensa Pallof Horizontal en Polea Baja",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Giratorio de Rodillas con Banda",
+  "file": "Crunch Giratorio de Rodillas con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Inclinación Lateral de Pie con Banda",
+  "file": "Inclinación Lateral de Pie con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Sentado",
+  "file": "Giro Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Tijeras",
+  "file": "Tijeras",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch de Rana",
+  "file": "Crunch de Rana",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Postura de la Vela",
+  "file": "Postura de la Vela",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Abdominal en Máquina",
+  "file": "Crunch Abdominal en Máquina",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Círculos de Rodillas Colgantes",
+  "file": "Círculos de Rodillas Colgantes",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rotación Ascendente",
+  "file": "Rotación Ascendente",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "L-Sitio",
+  "file": "L-Sitio",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales en Bicicleta",
+  "file": "Abdominales en Bicicleta",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Abdominales Inclinados con Giro",
+  "file": "Abdominales Inclinados con Giro",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rotación de Tronco en Máquina",
+  "file": "Rotación de Tronco en Máquina",
+  "status": 404,
+  "ok": false
+ },
+ {
+  "name": "Crunch Abdominal de Pie con Cable",
+  "file": "Crunch Abdominal de Pie con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Desplazamiento con Barra de Rodillas",
+  "file": "Desplazamiento con Barra de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha Serrucho",
+  "file": "Plancha Serrucho",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Molino de Viento con Peso Corporal",
+  "file": "Molino de Viento con Peso Corporal",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch con Flexión de Rodillas",
+  "file": "Crunch con Flexión de Rodillas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunches de Pie con Banda",
+  "file": "Crunches de Pie con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Crunch Lateral de Rodillas con Cable",
+  "file": "Crunch Lateral de Rodillas con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elevaciones de Piernas Rectas en Silla Romana",
+  "file": "Elevaciones de Piernas Rectas en Silla Romana",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Escalador de Montaña",
+  "file": "Escalador de Montaña",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Plancha con Balón Suizo",
+  "file": "Plancha con Balón Suizo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Giro Ruso con Banda",
+  "file": "Giro Ruso con Banda",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca con Mancuerna a Una Mano",
+  "file": "Curl de Muñeca con Mancuerna a Una Mano",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Inverso de Muñeca con Mancuerna a Un Brazo",
+  "file": "Curl Inverso de Muñeca con Mancuerna a Un Brazo",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Enrollamiento de Muñeca de Pie con Cable",
+  "file": "Enrollamiento de Muñeca de Pie con Cable",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca Neutral con Mancuerna a Un Brazo",
+  "file": "Curl de Muñeca Neutral con Mancuerna a Un Brazo",
+  "status": 404,
+  "ok": false
+ },
+ {
+  "name": "Pronación Acostada con Mancuernas",
+  "file": "Pronación Acostada con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Dominada Escapular",
+  "file": "Dominada Escapular",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca en Polea Sentado",
+  "file": "Curl de Muñeca en Polea Sentado",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Aparato de Agarre Manual",
+  "file": "Aparato de Agarre Manual",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Caminata del Granjero Unilateral",
+  "file": "Caminata del Granjero Unilateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Inverso de Bíceps con Mancuernas",
+  "file": "Curl Inverso de Bíceps con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca en Polea",
+  "file": "Curl de Muñeca en Polea",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Colgado Muerto",
+  "file": "Colgado Muerto",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca Inverso con Barra",
+  "file": "Curl de Muñeca Inverso con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca Inverso de Pie con Mancuernas",
+  "file": "Curl de Muñeca Inverso de Pie con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl en Polea con Agarre Inverso",
+  "file": "Curl en Polea con Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca con Barra",
+  "file": "Curl de Muñeca con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Bíceps con Barra EZ Agarre Inverso",
+  "file": "Curl de Bíceps con Barra EZ Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Paseo del Granjero Unilateral",
+  "file": "Paseo del Granjero Unilateral",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Paseo del Granjero con Mancuernas",
+  "file": "Paseo del Granjero con Mancuernas",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca Sentado con Barra EZ",
+  "file": "Curl de Muñeca Sentado con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Rodillo de Muñeca",
+  "file": "Rodillo de Muñeca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Flexión de Muñeca",
+  "file": "Flexión de Muñeca",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca con Barra de Pie",
+  "file": "Curl de Muñeca con Barra de Pie",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Antebrazos con Barra en Agarre Inverso",
+  "file": "Curl de Antebrazos con Barra Agarre Inverso",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca de Pie con Barra",
+  "file": "Curl de Muñeca de Pie con Barra",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca de Pie con Mancuerna",
+  "file": "Curl de Muñeca de Pie con Mancuerna",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl Invertido de Araña con Barra EZ",
+  "file": "Curl Invertido de Araña con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Caminata del Granjero",
+  "file": "Caminata del Granjero",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Curl de Muñeca Inversa Sentado con Barra EZ",
+  "file": "Curl de Muñeca Inversa Sentado con Barra EZ",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicicleta Fija",
+  "file": "Bicicleta Estacionaria",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Bicicleta Reclinada",
+  "file": "Bicycle Recline Walk",
+  "status": 404,
+  "ok": false
+ },
+ {
+  "name": "Supinación con Mancuernas en Decúbito",
+  "file": "Supinación con Mancuernas en Decúbito",
+  "status": 200,
+  "ok": true
+ },
+ {
+  "name": "Elíptica con Brazos",
+  "file": "Elíptica",
+  "status": 200,
+  "ok": true
+ }
+]

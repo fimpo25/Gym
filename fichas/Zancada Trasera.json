@@ -1,0 +1,44 @@
+{
+  "nombre": "Zancada Trasera",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/rear-lunge",
+  "video_url": "https://api.smartworkout.app/asset/video/acb48eac-f663-4849-8273-4456dca39451.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The rear lunge is a lower body exercise targeting the quadriceps, hamstrings, glutes, and calves. It involves stepping backward into a lunge position, which helps improve balance, coordination, and lower body strength. This exercise can be performed with body weight or additional resistance such as dumbbells or a barbell.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart and hands on your hips or holding weights at your sides.",
+    "Step back with your right foot, landing on the ball of your foot and keeping your heel off the ground.",
+    "Lower your hips until both knees are bent at approximately 90 degrees. Your front knee should be directly above your ankle, and your back knee should hover just above the floor.",
+    "Push through the heel of your front foot to return to the starting position.",
+    "Repeat the movement with the left leg stepping back. Continue alternating legs for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain an upright torso throughout the movement to prevent leaning forward.",
+    "Engage your core muscles to help stabilize your body and maintain balance.",
+    "Ensure that your front knee does not extend beyond your toes to protect your knee joint.",
+    "Focus on a smooth and controlled motion rather than speed to maximize muscle engagement.",
+    "If using weights, start with lighter loads to perfect form before progressing to heavier weights."
+  ],
+  "errores_comunes": [
+    "Allowing the front knee to move past the toes, increasing knee joint stress.",
+    "Failing to maintain a straight torso, leading to excessive forward lean.",
+    "Not engaging the core, resulting in poor balance and stability.",
+    "Letting the back knee slam into the ground, risking injury.",
+    "Placing the feet too close together, reducing stability.",
+    "Pushing off with the toes instead of the heel, decreasing glute activation.",
+    "Not keeping the hips square, causing misalignment and inefficiency.",
+    "Rushing the movement, leading to loss of control and form."
+  ]
+}

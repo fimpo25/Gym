@@ -1,0 +1,55 @@
+{
+  "nombre": "Carrera en Cinta",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/carrera-en-cinta",
+  "video_url": "https://api.smartworkout.app/asset/video/2043f724-95d7-4756-a935-b47cd2533f00.mp4",
+  "tags": [
+    "CARDIO",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La carrera en cinta es un ejercicio cardiovascular realizado en una máquina de correr, diseñado para mejorar la condición aeróbica, la resistencia y la salud cardiovascular en general. Permite ajustar la velocidad, la inclinación y la duración de manera controlada, haciéndolo adecuado para diversos niveles de condición física.",
+  "como_realizar": [
+    "Comienza de pie en la cinta de correr con los pies en los rieles laterales.",
+    "Coloca el clip de seguridad en tu ropa para asegurar que la cinta se detenga si es necesario.",
+    "Configura la cinta a una velocidad baja para comenzar y pisa la banda con cuidado.",
+    "Aumenta gradualmente la velocidad hasta alcanzar tu ritmo de carrera deseado.",
+    "Mantén una postura erguida con la cabeza levantada y los hombros relajados.",
+    "Mantén los brazos doblados en un ángulo de 90 grados, balanceándolos naturalmente con cada paso.",
+    "Concéntrate en aterrizar suavemente en la parte media del pie y rodar hacia los dedos.",
+    "Ajusta la inclinación para simular condiciones de carrera al aire libre si lo deseas.",
+    "Enfría reduciendo gradualmente la velocidad antes de bajarte de la cinta."
+  ],
+  "consejos": [
+    "Calienta con una caminata rápida o un trote ligero durante 5-10 minutos antes de aumentar la velocidad.",
+    "Mantente hidratado bebiendo agua antes, durante y después de tu carrera.",
+    "Usa zapatos para correr adecuados para proporcionar el soporte y amortiguación necesarios.",
+    "Escucha música o podcasts para hacer que las carreras más largas sean más agradables.",
+    "Monitorea tu frecuencia cardíaca para asegurarte de que estás trabajando dentro de tu zona objetivo.",
+    "Varía tus entrenamientos cambiando regularmente la velocidad y la inclinación.",
+    "Concéntrate en respirar profundamente y rítmicamente para mantener la resistencia.",
+    "Evita agarrarte de los pasamanos ya que puede alterar la forma natural de correr."
+  ],
+  "errores_comunes": [
+    "Inclinarse hacia adelante excesivamente, causando tensión en la parte baja de la espalda.",
+    "Agarrarse a los pasamanos, reduciendo el compromiso del core.",
+    "Dar zancadas demasiado largas, llevando a un movimiento ineficiente y potencial estrés en las rodillas.",
+    "Aterrizar fuertemente sobre los talones, aumentando el impacto en las articulaciones.",
+    "Correr con una postura encorvada, limitando la capacidad pulmonar y el flujo de aire.",
+    "No mantener un ritmo constante, afectando la intensidad del entrenamiento.",
+    "No ajustar la inclinación, perdiendo la activación muscular variada.",
+    "Permitir que los pies golpeen la cinta, indicando falta de control.",
+    "Ignorar el movimiento de los brazos, reduciendo la eficiencia general al correr."
+  ]
+}

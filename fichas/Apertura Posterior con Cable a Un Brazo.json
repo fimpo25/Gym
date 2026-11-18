@@ -1,0 +1,47 @@
+{
+  "nombre": "Apertura Posterior con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-cable-rear-delt-fly",
+  "video_url": "https://api.smartworkout.app/asset/video/fe219f53-60db-412a-9141-4be90e0743ce.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Single Arm Cable Rear Delt Fly is an isolation exercise targeting the rear deltoid muscles. This exercise helps improve shoulder stability and posture by focusing on the posterior part of the shoulder. It requires a cable machine and is performed one arm at a time to ensure balanced muscle development.",
+  "como_realizar": [
+    "Set the cable pulley to shoulder height and attach a single handle.",
+    "Stand sideways to the cable machine with your feet shoulder-width apart.",
+    "Grab the handle with your outside hand, keeping your arm slightly bent.",
+    "Step away from the machine to create tension in the cable.",
+    "Engage your core and keep your torso stable throughout the movement.",
+    "Pull the handle across your body in a reverse fly motion, focusing on squeezing your rear delt.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the rear deltoid.",
+    "Slowly return to the starting position with control.",
+    "Complete the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your elbow throughout the exercise to reduce strain on the joint.",
+    "Focus on using your rear deltoid to move the weight, rather than relying on momentum or other muscles.",
+    "Keep your movements slow and controlled to maximize muscle engagement and minimize injury risk.",
+    "Ensure your shoulders remain level and avoid rotating your torso during the exercise.",
+    "Start with a lighter weight to master proper form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to swinging and momentum instead of controlled movement.",
+    "Not keeping the torso stable, causing unnecessary twisting or leaning.",
+    "Allowing the shoulder to elevate, which shifts focus away from the rear deltoid.",
+    "Failing to maintain a slight bend in the elbow, putting stress on the joint.",
+    "Pulling with the hand rather than leading with the elbow, reducing rear delt activation.",
+    "Not retracting the scapula, which limits the range of motion and muscle engagement.",
+    "Rushing the movement, sacrificing control and form for speed.",
+    "Standing too close or too far from the cable machine, affecting the tension and effectiveness of the exercise."
+  ]
+}

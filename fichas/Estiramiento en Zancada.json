@@ -1,0 +1,46 @@
+{
+  "nombre": "Estiramiento en Zancada",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/lunge-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/18f89a97-4a1b-4549-b556-298af4d7da42.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Lunge Stretch is a dynamic exercise that targets the hip flexors, quadriceps, and glutes. It is effective for improving flexibility, balance, and overall lower body strength. This stretch is often used as part of a warm-up routine to prepare the body for more intense physical activity.",
+  "como_realizar": [
+    "Begin by standing upright with your feet hip-width apart.",
+    "Step forward with your right foot, lowering your hips until both knees are bent at approximately a 90-degree angle.",
+    "Ensure your right knee is directly above your ankle and your left knee hovers just above the ground.",
+    "Keep your torso upright and engage your core throughout the movement.",
+    "Hold the stretch for a few seconds, then push off your right foot to return to the starting position.",
+    "Repeat on the opposite side by stepping forward with your left foot."
+  ],
+  "consejos": [
+    "Maintain a straight back and avoid leaning forward during the stretch.",
+    "Focus on keeping your front knee aligned with your ankle to prevent injury.",
+    "Engage your core muscles to maintain balance and stability.",
+    "Perform the stretch slowly and with control to maximize its effectiveness.",
+    "If you feel discomfort in your knees, adjust the depth of the lunge or consult a fitness professional."
+  ],
+  "errores_comunes": [
+    "Knee extends beyond toes, increasing knee strain.",
+    "Back leg is not straight, reducing hip flexor stretch.",
+    "Front foot is not flat on the ground, compromising balance.",
+    "Torso leans forward excessively, disengaging core muscles.",
+    "Hips are not square, limiting stretch effectiveness.",
+    "Front knee collapses inward, risking knee joint strain.",
+    "Weight is not evenly distributed, causing instability.",
+    "Back heel lifts off the ground, reducing stretch in calf."
+  ]
+}

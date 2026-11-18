@@ -1,0 +1,46 @@
+{
+  "nombre": "Abducción de Cadera en Decúbito Lateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/abduccion-de-cadera-en-decubito-lateral",
+  "video_url": "https://api.smartworkout.app/asset/video/0a5467d7-1cf0-4240-90dd-963fc3a02f55.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Abducción de Cadera Acostado de Lado es un ejercicio de aislamiento que se enfoca en los músculos glúteo medio y mínimo. Se realiza acostándose de lado y levantando la pierna superior alejándola de la línea media del cuerpo, concentrándose en la abducción de la cadera.",
+  "como_realizar": [
+    "Acuéstate de lado en una colchoneta, manteniendo tu cuerpo en línea recta desde la cabeza hasta los pies.",
+    "Apoya tu cabeza en tu brazo inferior y coloca tu mano superior en tu cadera o delante de ti para mantener el equilibrio.",
+    "Coloca tus piernas una encima de la otra con las rodillas rectas.",
+    "Activa tu núcleo para estabilizar tu torso.",
+    "Levanta lentamente la pierna superior hacia arriba, manteniéndola recta, hasta que sientas tensión en la parte externa de la cadera.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de no girar las caderas hacia adelante o hacia atrás.",
+    "Baja la pierna de nuevo a la posición inicial con control.",
+    "Repite el número deseado de repeticiones y luego cambia de lado."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Evita rotar tus caderas; mantenlas apiladas directamente una sobre la otra.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "No levantes la pierna demasiado alto; apunta a un rango que mantenga la tensión en los glúteos sin comprometer la forma.",
+    "Respira de manera constante, exhalando al levantar e inhalando al bajar la pierna.",
+    "Usa una banda de resistencia alrededor de tus muslos para mayor dificultad si es necesario."
+  ],
+  "errores_comunes": [
+    "Levantar la pierna demasiado alto, causando que la pelvis se incline y pierda alineación.",
+    "Permitir que el pie rote, lo que lleva a la desconexión de los abductores de la cadera.",
+    "No mantener el core comprometido, resultando en una falta de estabilidad.",
+    "Doblar la rodilla de la pierna de trabajo, reduciendo la efectividad del ejercicio.",
+    "Apoyar la pierna que no trabaja en el suelo, lo que disminuye la activación muscular.",
+    "Usar el impulso para levantar la pierna en lugar de un compromiso muscular controlado.",
+    "No mantener la cabeza y el cuello alineados con la columna, causando tensión.",
+    "Descuidar mantener la pierna inferior recta, lo que puede afectar el equilibrio."
+  ]
+}

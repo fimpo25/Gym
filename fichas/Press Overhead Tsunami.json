@@ -1,0 +1,49 @@
+{
+  "nombre": "Press Overhead Tsunami",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/tsunami-overhead-press",
+  "video_url": "https://api.smartworkout.app/asset/video/6b716a00-d183-42ce-b086-45e87bd44dca.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Tsunami Overhead Press is a variation of the traditional overhead press, utilizing a flexible barbell known as the Tsunami Bar. This exercise targets the shoulders, triceps, and upper chest while engaging stabilizing muscles due to the bar's oscillating nature. It enhances strength, stability, and coordination.",
+  "como_realizar": [
+    "Begin by setting up the Tsunami Bar on a squat rack at shoulder height.",
+    "Stand with your feet shoulder-width apart and grip the bar slightly wider than shoulder-width with an overhand grip.",
+    "Unrack the bar and step back, keeping your core engaged and feet firmly planted.",
+    "Position the bar at shoulder level with your elbows slightly in front of your body.",
+    "Press the bar overhead by extending your arms fully, ensuring your head moves slightly forward as the bar passes your face.",
+    "Lower the bar back to shoulder level in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a tight core throughout the movement to stabilize your spine.",
+    "Focus on controlling the bar's oscillations to enhance muscle engagement.",
+    "Keep your wrists straight to avoid unnecessary strain.",
+    "Ensure your elbows are not flaring out excessively during the press.",
+    "Breathe out as you press the bar overhead and inhale as you lower it.",
+    "Start with a lighter weight to master form and balance before progressing."
+  ],
+  "errores_comunes": [
+    "Using excessive weight, leading to improper form and reduced control.",
+    "Failing to engage the core, resulting in an unstable base.",
+    "Arching the lower back excessively, increasing risk of lumbar strain.",
+    "Allowing elbows to flare out too much, reducing shoulder stability.",
+    "Not maintaining a straight wrist position, causing unnecessary wrist strain.",
+    "Pressing the bar too far forward, leading to poor shoulder mechanics.",
+    "Neglecting to fully extend the arms overhead, limiting range of motion.",
+    "Lowering the bar too quickly, compromising control and muscle engagement.",
+    "Starting with the bar positioned too low, affecting initial lift mechanics.",
+    "Not keeping the head in a neutral position, causing neck strain."
+  ]
+}

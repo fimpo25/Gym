@@ -1,0 +1,44 @@
+{
+  "nombre": "Curl de Bíceps Inclinado Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-inclinado-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/8b76c1d3-c2ca-4f5f-b01a-ee384e1ab289.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Bíceps Inclinado Sentado es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Se realiza en un banco inclinado, lo que aumenta el rango de movimiento y enfatiza el estiramiento en la parte inferior del movimiento. Este ejercicio ayuda a aumentar el tamaño y la fuerza del bíceps al centrarse en la cabeza larga del bíceps.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 45 grados.",
+    "Siéntate en el banco con la espalda firmemente apoyada en él y los pies planos en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre supino, brazos completamente extendidos y colgando hacia abajo.",
+    "Mantén los codos cerca de tu torso y levanta las pesas hacia tus hombros contrayendo los bíceps.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando una contracción máxima.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado en todo momento para maximizar el compromiso muscular.",
+    "Evita balancearte o usar el impulso para levantar las pesas.",
+    "Concéntrate en mantener tus codos estacionarios; solo tus antebrazos deben moverse.",
+    "Asegúrate de un rango completo de movimiento extendiendo y contrayendo completamente tus brazos.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo durante el ejercicio.",
+    "Exhala al levantar las pesas e inhala al bajarlas."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás en el banco, reduciendo el compromiso del bíceps.",
+    "Usar el impulso para levantar las pesas, lo que lleva a un pobre aislamiento muscular.",
+    "Permitir que los codos se desplacen hacia adelante, disminuyendo la tensión en los bíceps.",
+    "Enroscar las muñecas en la parte superior del movimiento, desviando el enfoque de los bíceps.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Levantar los hombros durante el curl, involucrando innecesariamente los trapecios.",
+    "Realizar el movimiento demasiado rápido, comprometiendo el control.",
+    "No mantener la espalda plana contra el banco, arriesgando tensión en la parte baja de la espalda."
+  ]
+}

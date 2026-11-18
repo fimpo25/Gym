@@ -1,0 +1,48 @@
+{
+  "nombre": "Buenos Días en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/buenos-dias-en-multipower",
+  "video_url": "https://api.smartworkout.app/asset/video/0dfbc34e-703c-43ba-ae9d-25f8a5e85443.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "BACK"
+  ],
+  "descripcion": "El ejercicio de Buenos Días en Máquina Smith es un ejercicio compuesto que se enfoca en la cadena posterior, centrándose principalmente en la parte baja de la espalda, los glúteos y los isquiotibiales. Implica flexionarse en las caderas mientras se mantiene una columna neutral, utilizando la Máquina Smith para guiar el movimiento de manera segura.",
+  "como_realizar": [
+    "Coloca la barra de la máquina Smith a la altura de los hombros y posiciónate debajo de ella, apoyando la barra sobre tus trapecios superiores.",
+    "Párate con los pies al ancho de los hombros, con los dedos apuntando ligeramente hacia afuera.",
+    "Desbloquea la barra girándola hacia adelante y da un paso atrás para despejar los topes de seguridad.",
+    "Mantén el pecho hacia arriba y el núcleo comprometido mientras flexionas las caderas, empujándolas hacia atrás.",
+    "Baja el torso hasta que esté casi paralelo al suelo, manteniendo una ligera flexión en las rodillas.",
+    "Invierte el movimiento impulsándote con los talones y extendiendo las caderas para volver a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el movimiento para evitar la tensión en la parte baja de la espalda.",
+    "Activa tus músculos del core para estabilizar tu torso y proteger tu columna.",
+    "Concéntrate en flexionar las caderas en lugar de doblar la cintura.",
+    "Mantén una ligera flexión en las rodillas para reducir el estrés en las articulaciones.",
+    "Controla el descenso y el ascenso para maximizar el compromiso muscular y prevenir lesiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Asegúrate de que tus pies permanezcan planos en el suelo durante todo el ejercicio."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Colocar la barra demasiado alta en el cuello, causando incomodidad y posible tensión.",
+    "Doblar las rodillas en exceso, convirtiendo el movimiento en una sentadilla.",
+    "No inclinarse en las caderas, lo que lleva a un mal compromiso de la cadena posterior.",
+    "Permitir que la barra se desplace hacia adelante, aumentando la tensión en la parte baja de la espalda.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Moverse demasiado rápido, reduciendo el control y el compromiso muscular.",
+    "No mantener una línea recta desde la cabeza hasta el coxis."
+  ]
+}

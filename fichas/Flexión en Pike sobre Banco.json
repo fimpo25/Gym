@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión en Pike sobre Banco",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/pike-push-up-on-bench",
+  "video_url": "https://api.smartworkout.app/asset/video/b1903952-7b6a-4865-bdfa-05033c19f9ae.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Pike Push Up On Bench is a bodyweight exercise targeting the shoulders, triceps, and upper chest. It involves elevating the feet on a bench to increase the angle of the body, which shifts more emphasis onto the shoulders compared to a standard push-up.",
+  "como_realizar": [
+    "Begin by positioning yourself in front of a bench. Place your feet on the bench and your hands on the floor, shoulder-width apart.",
+    "Walk your hands back towards the bench until your body forms an inverted V shape, with your hips elevated and head pointing downwards.",
+    "Keep your legs straight and core engaged throughout the movement.",
+    "Lower your head towards the floor by bending your elbows, keeping them slightly flared out.",
+    "Pause briefly when your head is close to the floor, then push through your palms to extend your arms and return to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your hands are placed firmly on the ground to maintain stability.",
+    "Focus on keeping your core tight to prevent sagging or arching of the back.",
+    "Control the movement by lowering slowly and pushing up with steady force.",
+    "Keep your elbows at a slight angle rather than flaring them directly out to reduce strain on the joints.",
+    "Adjust the height of the bench if needed to modify difficulty; a higher bench increases difficulty by shifting more weight onto the shoulders.",
+    "Breathing is crucial: inhale as you lower down and exhale as you push up."
+  ],
+  "errores_comunes": [
+    "Hands placed too wide, reducing shoulder engagement.",
+    "Elbows flaring out excessively, increasing shoulder strain.",
+    "Hips not elevated high enough, decreasing emphasis on shoulders.",
+    "Head looking forward instead of down, causing neck strain.",
+    "Feet positioned too far from the bench, reducing leverage and control.",
+    "Lowering body too quickly, leading to poor control and form.",
+    "Failing to engage core, causing instability and lower back strain.",
+    "Not achieving full range of motion, limiting shoulder activation.",
+    "Allowing shoulders to shrug, reducing effectiveness and increasing tension."
+  ]
+}

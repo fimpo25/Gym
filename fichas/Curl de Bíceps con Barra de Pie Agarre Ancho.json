@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Bíceps con Barra de Pie Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-barra-de-pie-con-agarre-ancho",
+  "video_url": "https://api.smartworkout.app/asset/video/513c4873-55c4-4588-ab4d-044ccc0654f5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Barra de Pie con Agarre Ancho es un ejercicio de aislamiento que se enfoca en el bíceps braquial, enfatizando particularmente la cabeza corta debido al agarre ancho. Este ejercicio ayuda a desarrollar la fuerza general del brazo y la masa muscular, mejorando el pico de los bíceps.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una barra con un agarre amplio, palmas hacia adelante.",
+    "Asegúrate de que tu agarre sea más ancho que el ancho de los hombros para enfocar la cabeza corta de los bíceps.",
+    "Mantén los codos cerca de tu torso y una ligera flexión en las rodillas para estabilidad.",
+    "Eleva la barra hacia arriba contrayendo tus bíceps, manteniendo los brazos superiores estacionarios.",
+    "Continúa levantando hasta que tus bíceps estén completamente contraídos y la barra esté a nivel de los hombros.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tus bíceps.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control durante todo el descenso.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos estacionarios para maximizar el compromiso del bíceps.",
+    "Evita balancearte o usar impulso; controla el movimiento para una mejor activación muscular.",
+    "Exhala al levantar la barra e inhala al bajarla.",
+    "Mantén el núcleo comprometido durante todo el ejercicio para mantener una postura adecuada.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar el impulso balanceando el cuerpo para levantar la barra.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del torso.",
+    "Enroscar las muñecas en la parte superior del movimiento, lo que puede tensar las muñecas.",
+    "No extender completamente los brazos en la parte inferior, reduciendo el rango de movimiento.",
+    "Inclinarse hacia atrás excesivamente, lo que puede tensar la parte baja de la espalda.",
+    "No mantener el núcleo comprometido, lo que lleva a la inestabilidad.",
+    "Levantar la barra demasiado rápido, reduciendo el compromiso muscular.",
+    "Agarrar la barra demasiado fuerte, causando tensión innecesaria en los antebrazos.",
+    "Permitir que los hombros se muevan hacia adelante, desactivando los bíceps."
+  ]
+}

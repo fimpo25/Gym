@@ -1,0 +1,37 @@
+{
+  "nombre": "Curl de Bíceps en Polea de Espaldas",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-en-polea-(de-espaldas)",
+  "video_url": "https://api.smartworkout.app/asset/video/4111ad25-be51-42f9-aa08-323486c44cc0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Cable Bayesiano (De Espaldas) es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Implica el uso de una máquina de cables con la polea colocada en una posición baja. Este ejercicio enfatiza el estiramiento y la contracción del bíceps al mantener la tensión durante todo el movimiento, haciéndolo efectivo para la hipertrofia.",
+  "como_realizar": [
+    "Coloca la polea del cable en una posición baja y adjunta un solo mango.",
+    "Párate de espaldas a la máquina de cables, sosteniendo el mango con un agarre supino.",
+    "Da un paso hacia adelante para crear tensión en el cable, posicionando tu brazo ligeramente detrás de tu cuerpo.",
+    "Mantén tu codo fijo en su lugar y lleva el mango hacia tu hombro contrayendo tus bíceps.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción.",
+    "Baja lentamente el mango de regreso a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en las rodillas para mayor estabilidad.",
+    "Mantén tu núcleo comprometido para evitar balanceos o arqueos de la espalda.",
+    "Concéntrate en mantener el codo estacionario para aislar efectivamente los bíceps.",
+    "Evita usar el impulso; controla tanto la fase de elevación como la de descenso.",
+    "Asegúrate de un rango completo de movimiento extendiendo y contrayendo completamente los bíceps.",
+    "Exhala al levantar y inhala al bajar el peso."
+  ],
+  "errores_comunes": []
+}

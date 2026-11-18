@@ -1,0 +1,48 @@
+{
+  "nombre": "Step Up con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-step-up",
+  "video_url": "https://api.smartworkout.app/asset/video/e9929636-da62-40f4-83f0-2819af76d507.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Dumbbell Step-up is a compound lower body exercise that primarily targets the quadriceps, hamstrings, and glutes. It also engages the core for stabilization. This exercise involves stepping onto an elevated platform with one leg while holding dumbbells in each hand, then stepping back down to the starting position.",
+  "como_realizar": [
+    "Stand upright with your feet shoulder-width apart, holding a dumbbell in each hand at your sides.",
+    "Position yourself in front of a sturdy platform or bench that is approximately knee height.",
+    "Step onto the platform with your right foot, pressing through the heel to lift your body up.",
+    "Bring your left foot up to meet your right foot on the platform, standing tall.",
+    "Step back down with your left foot first, followed by your right foot to return to the starting position.",
+    "Repeat for the desired number of repetitions, then switch legs."
+  ],
+  "consejos": [
+    "Ensure the platform is stable and can support your weight before starting the exercise.",
+    "Keep your chest up and shoulders back throughout the movement to maintain good posture.",
+    "Engage your core muscles to help stabilize your body as you step up and down.",
+    "Focus on pressing through the heel of the stepping foot to maximize glute activation.",
+    "Control the movement as you step down to avoid any impact on your joints.",
+    "Start with lighter weights to master the form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Using momentum to lift the body instead of engaging the glutes and quads.",
+    "Allowing the knee to cave inward during the step-up.",
+    "Stepping too far forward, causing overextension of the hip.",
+    "Not fully extending the stepping leg at the top of the movement.",
+    "Pushing off with the back leg instead of driving through the heel of the front foot.",
+    "Holding dumbbells too far from the body, causing balance issues.",
+    "Leaning forward excessively, placing strain on the lower back.",
+    "Failing to maintain a neutral spine throughout the movement.",
+    "Allowing the heel of the stepping foot to lift off the box or bench.",
+    "Descending too quickly, losing control and stability."
+  ]
+}

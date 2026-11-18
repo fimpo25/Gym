@@ -1,0 +1,46 @@
+{
+  "nombre": "Lu Raises con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-lu-raises",
+  "video_url": "https://api.smartworkout.app/asset/video/0cd0d3d3-33c2-4ff4-ac9a-2c591ae0700a.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Dumbbell Lu Raise, inspired by Olympic weightlifter Lu Xiaojun, is a shoulder exercise that targets the lateral deltoids. It involves lifting dumbbells to the side with a controlled motion, emphasizing shoulder stability and muscle engagement.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in each hand with a neutral grip.",
+    "Keep your arms straight but not locked, and position the dumbbells in front of your thighs.",
+    "Engage your core and maintain a slight bend in your knees.",
+    "Raise the dumbbells laterally to shoulder height, keeping your elbows slightly bent.",
+    "Pause briefly at the top of the movement, ensuring your shoulders are engaged.",
+    "Lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on using your shoulders to lift the weights, not your arms.",
+    "Maintain a slow and controlled motion throughout the exercise.",
+    "Avoid swinging or using momentum to lift the dumbbells.",
+    "Keep your core engaged to support your lower back.",
+    "Start with lighter weights to master the form before progressing to heavier ones.",
+    "Ensure your wrists remain neutral and do not bend during the lift.",
+    "Breathe out as you lift the weights and inhale as you lower them."
+  ],
+  "errores_comunes": [
+    "Using momentum to lift the weights instead of controlled muscle engagement.",
+    "Allowing the elbows to flare out excessively, reducing shoulder activation.",
+    "Raising the dumbbells above shoulder height, which can strain the shoulder joint.",
+    "Not keeping a slight bend in the elbows, leading to joint stress.",
+    "Engaging the traps instead of focusing on the deltoids.",
+    "Standing with an arched back, which can lead to poor posture and reduced effectiveness.",
+    "Holding the breath instead of maintaining a steady breathing pattern.",
+    "Using weights that are too heavy, compromising form and control."
+  ]
+}

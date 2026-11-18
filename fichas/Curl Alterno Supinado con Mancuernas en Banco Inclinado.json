@@ -1,0 +1,49 @@
+{
+  "nombre": "Curl Alterno Supinado con Mancuernas en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-alterno-supinado-con-mancuernas-en-banco-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/a0cf9d35-9654-4208-8851-908e1b46992c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Alterno Supinado con Mancuernas en Banco Inclinado es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Realizado en un banco inclinado, enfatiza la cabeza larga del bíceps al mantener un agarre supinado (palmas hacia arriba) durante todo el movimiento. Este ejercicio ayuda a desarrollar la fuerza y el tamaño del bíceps, al tiempo que también involucra los antebrazos.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Sujeta una mancuerna en cada mano con los brazos completamente extendidos y las palmas hacia adelante (agarre supinado).",
+    "Mantén los codos cerca de tu torso y flexiona una mancuerna hacia tu hombro contrayendo los bíceps.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando una contracción máxima.",
+    "Baja lentamente la mancuerna de nuevo a la posición inicial.",
+    "Repite el movimiento con el brazo opuesto.",
+    "Continúa alternando los brazos durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita balancearte o usar el impulso para levantar las pesas; concéntrate en aislar los bíceps.",
+    "Mantén los codos estacionarios y cerca de tus costados para evitar la participación de los hombros.",
+    "Exhala mientras levantas el peso e inhala mientras lo bajas.",
+    "Asegúrate de que tu espalda permanezca presionada contra el banco para evitar arquearla.",
+    "Usa un peso más ligero si tienes dificultades para mantener la forma adecuada."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar el peso en lugar de una contracción muscular controlada.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Inclinarse excesivamente hacia atrás en el banco inclinado, comprometiendo la forma.",
+    "No supinar completamente la muñeca, limitando la activación del bíceps.",
+    "Balancear las mancuernas, lo que lleva a un pobre aislamiento muscular.",
+    "Levantar los hombros durante el curl, involucrando los trapecios en lugar de los bíceps.",
+    "No mantener una posición neutral de la muñeca, aumentando la tensión en las articulaciones.",
+    "No bajar completamente la mancuerna, acortando el rango de movimiento.",
+    "Curlar ambos brazos simultáneamente, en lugar de alternar, lo que puede reducir el enfoque y el control.",
+    "Apresurarse en el movimiento, lo que puede llevar a la pérdida de control y compromiso."
+  ]
+}

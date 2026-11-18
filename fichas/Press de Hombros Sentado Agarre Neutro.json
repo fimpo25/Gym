@@ -1,0 +1,47 @@
+{
+  "nombre": "Press de Hombros Sentado Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/seated-shoulder-press-neutral-grip",
+  "video_url": "https://api.smartworkout.app/asset/video/3f390c7d-ccc9-4c71-9eed-2209f72fd8fa.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "The Seated Shoulder Press Neutral Grip is an upper body exercise targeting the deltoid muscles, particularly the anterior and lateral heads, as well as engaging the triceps and upper chest. This exercise is performed using a pair of dumbbells or a specialized machine, with a neutral grip to reduce stress on the shoulder joints and enhance stability.",
+  "como_realizar": [
+    "Sit on a bench with back support, ensuring your feet are flat on the floor and your back is straight.",
+    "Hold a dumbbell in each hand with a neutral grip (palms facing each other) at shoulder height.",
+    "Engage your core to stabilize your torso and keep your elbows slightly in front of your body.",
+    "Press the dumbbells upward until your arms are fully extended but not locked out.",
+    "Pause briefly at the top of the movement, maintaining control.",
+    "Slowly lower the dumbbells back to the starting position at shoulder height.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability and prevent arching of the lower back.",
+    "Use a controlled motion to avoid using momentum, which can reduce effectiveness and increase injury risk.",
+    "Ensure that your elbows remain slightly in front of your body to maintain proper shoulder alignment.",
+    "Avoid locking out your elbows at the top to keep tension on the muscles and protect your joints.",
+    "Start with lighter weights to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Arching the lower back excessively, which can strain the spine.",
+    "Allowing elbows to flare out, reducing shoulder engagement.",
+    "Pressing the weights too far forward, missing the vertical path.",
+    "Using momentum by bouncing weights, reducing muscle activation.",
+    "Failing to keep feet flat on the floor, affecting stability.",
+    "Not maintaining a neutral wrist position, leading to wrist strain.",
+    "Lowering the weights too quickly, compromising control.",
+    "Not aligning wrists directly above elbows, reducing leverage.",
+    "Neglecting to engage the core, leading to instability.",
+    "Raising weights unevenly, causing muscle imbalance."
+  ]
+}

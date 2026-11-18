@@ -1,0 +1,47 @@
+{
+  "nombre": "Front Lever",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/front-lever",
+  "video_url": "https://api.smartworkout.app/asset/video/bc0c7cee-2b89-494b-a888-9b1b820141db.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BICEPS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Front Lever is an advanced calisthenics exercise that requires significant core, back, and shoulder strength. It involves holding the body in a horizontal position parallel to the ground while hanging from a bar. This exercise primarily targets the latissimus dorsi, core muscles, and shoulders, with secondary engagement of the biceps and forearms.",
+  "como_realizar": [
+    "Begin by hanging from a pull-up bar with an overhand grip, hands shoulder-width apart.",
+    "Engage your core and lats to lift your legs and torso until your body is parallel to the ground.",
+    "Keep your arms straight and maintain a hollow body position with your shoulders retracted.",
+    "Hold the position for as long as possible while maintaining control and proper form.",
+    "Slowly lower your body back to the starting position."
+  ],
+  "consejos": [
+    "Start with tuck front levers to build strength before attempting the full front lever.",
+    "Focus on engaging your core and lats throughout the movement to maintain stability.",
+    "Practice scapular retraction by pulling your shoulder blades down and together.",
+    "Keep your body in a straight line from head to toes to ensure proper form.",
+    "Incorporate negative reps by lowering slowly from the front lever position to build strength."
+  ],
+  "errores_comunes": [
+    "Bending the elbows instead of keeping them straight, reducing leverage and effectiveness.",
+    "Allowing the hips to sag, which disengages the core and alters body alignment.",
+    "Using momentum to achieve the position, leading to poor muscle engagement and control.",
+    "Failing to engage the scapular muscles, resulting in shoulder instability.",
+    "Positioning the head incorrectly, such as looking down, which can disrupt body alignment.",
+    "Not maintaining a horizontal body line, causing uneven muscle activation.",
+    "Neglecting to keep the legs together and straight, which affects balance and core engagement.",
+    "Rushing the progression, leading to poor form and increased risk of muscle strain."
+  ]
+}

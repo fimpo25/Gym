@@ -1,0 +1,53 @@
+{
+  "nombre": "Peso Muerto en Déficit",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/deficit-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/45112f12-de8c-429d-beb7-2767d31293ff.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "CALVES",
+    "FOREARMS",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Deficit Deadlift is a variation of the conventional deadlift performed while standing on an elevated surface, typically 1-3 inches high. This exercise increases the range of motion, targeting the posterior chain muscles, including the hamstrings, glutes, and lower back, more intensely. It is particularly beneficial for improving strength off the floor in standard deadlifts.",
+  "como_realizar": [
+    "Place a platform or weight plate on the floor to create a deficit of 1-3 inches.",
+    "Stand on the platform with your feet hip-width apart and toes pointing forward.",
+    "Position the barbell over the middle of your feet and grip it with your hands just outside your knees.",
+    "Engage your core, retract your shoulder blades, and keep your back straight.",
+    "Take a deep breath, then push through your heels to lift the barbell off the ground.",
+    "Extend your hips and knees simultaneously until you are standing upright with the barbell in front of your thighs.",
+    "Lower the barbell back to the ground in a controlled manner by hinging at the hips and bending your knees."
+  ],
+  "consejos": [
+    "Ensure that your back remains straight throughout the lift to avoid injury.",
+    "Focus on engaging your core muscles to maintain stability during the movement.",
+    "Start with a lower weight to master the form before increasing the load.",
+    "Keep the bar close to your body as you lift to maintain proper leverage.",
+    "Use a mixed grip if necessary to improve grip strength and control.",
+    "Avoid rounding your shoulders; keep them retracted and tight throughout the lift."
+  ],
+  "errores_comunes": [
+    "Starting with hips too low, turning the movement into more of a squat than a deadlift.",
+    "Rounding the lower back, increasing the risk of spinal injury.",
+    "Letting the bar drift too far from the body, reducing leverage and control.",
+    "Failing to engage the lats, leading to poor bar path and instability.",
+    "Using excessive range of motion, causing unnecessary strain on the lower back.",
+    "Pulling with the arms instead of driving through the legs, reducing power and efficiency.",
+    "Not maintaining a neutral spine throughout the lift, compromising form and safety.",
+    "Losing tension at the bottom of the lift, hindering force production and control."
+  ]
+}

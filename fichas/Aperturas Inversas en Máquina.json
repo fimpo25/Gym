@@ -1,0 +1,37 @@
+{
+  "nombre": "Aperturas Inversas en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/aperturas-inversas-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/8fbdcdbf-aec7-4d3a-8e45-b34615e25c4f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "Las aperturas inversas en máquina se enfocan en los deltoides posteriores, la parte superior de la espalda y los músculos trapecios. Este ejercicio se realiza utilizando una máquina de aperturas inversas, que proporciona estabilidad y aísla eficazmente los músculos traseros del hombro. Es ideal para mejorar la fuerza del hombro y la postura.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura de los hombros cuando estés sentado.",
+    "Siéntate en la máquina con el pecho contra el cojín y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre neutral, palmas enfrentadas.",
+    "Mantén los codos ligeramente doblados y conserva este ángulo durante todo el movimiento.",
+    "Exhala y tira de las manijas hacia afuera y hacia atrás en un movimiento en arco hasta que tus brazos estén en línea con tus hombros.",
+    "Aprieta los omóplatos juntos en el punto máximo del movimiento.",
+    "Inhala y regresa lentamente a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu pecho permanezca firmemente contra el cojín para evitar usar el impulso.",
+    "Concéntrate en apretar tus omóplatos juntos en lugar de solo mover tus brazos.",
+    "Mantén los movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita bloquear tus codos; mantenlos ligeramente doblados para reducir la tensión en las articulaciones.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": []
+}

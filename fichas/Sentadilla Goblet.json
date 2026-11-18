@@ -1,0 +1,53 @@
+{
+  "nombre": "Sentadilla Goblet",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/goblet-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/bf7cdba1-f763-4816-8921-a10c86f7a026.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "FUNCTIONAL",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Goblet Squat is a lower-body exercise that primarily targets the quadriceps, glutes, and hamstrings. It involves holding a weight, typically a dumbbell or kettlebell, close to the chest while performing a squat. This exercise helps improve core stability, balance, and overall leg strength.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and hold a dumbbell or kettlebell with both hands at chest level.",
+    "Keep your elbows close to your body and ensure the weight is secure.",
+    "Engage your core and keep your chest up as you begin to lower your body by bending at the hips and knees.",
+    "Descend until your thighs are parallel to the floor or as low as your flexibility allows.",
+    "Ensure your knees track over your toes and do not cave inward.",
+    "Push through your heels to return to the starting position, fully extending your hips and knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the movement to avoid injury.",
+    "Focus on keeping your weight distributed evenly across your feet.",
+    "Avoid letting your knees extend past your toes during the descent.",
+    "Keep the weight close to your body to maintain balance and control.",
+    "Breathe in as you lower into the squat and exhale as you push back up.",
+    "If you're new to this exercise, start with a lighter weight to master the form before progressing."
+  ],
+  "errores_comunes": [
+    "Holding the dumbbell too far from the chest, causing imbalance and strain on the arms.",
+    "Allowing the knees to cave inward, increasing stress on the knee joints.",
+    "Not squatting deep enough, limiting engagement of the glutes and hamstrings.",
+    "Rounding the back, leading to potential lower back strain.",
+    "Lifting the heels off the ground, reducing stability and power.",
+    "Allowing the elbows to flare out, compromising control and form.",
+    "Leaning too far forward, shifting weight away from the heels.",
+    "Failing to engage the core, reducing overall stability and control.",
+    "Descending too quickly, losing control and risking improper form.",
+    "Not maintaining a neutral spine, increasing the risk of spinal stress."
+  ]
+}

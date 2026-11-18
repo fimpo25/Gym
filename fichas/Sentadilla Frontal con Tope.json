@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla Frontal con Tope",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/pin-front-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/897e43d3-ded2-403f-815b-0ecad5d228c6.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Pin Front Squat is a variation of the traditional front squat where the barbell is set on safety pins within a power rack. This exercise emphasizes quadriceps strength, core stability, and proper squat mechanics by limiting the range of motion and allowing for a controlled pause at the bottom position.",
+  "como_realizar": [
+    "Set the safety pins in a power rack at a height that allows you to squat to parallel or slightly below.",
+    "Position the barbell on the safety pins and stand with your feet shoulder-width apart.",
+    "Grip the barbell with an overhand grip, elbows pointing forward, and position it across your shoulders, resting on your deltoids.",
+    "Engage your core and lift the barbell off the pins by extending your legs to stand up straight.",
+    "Initiate the squat by bending at the hips and knees, lowering your body until the barbell lightly touches the pins.",
+    "Pause briefly at the bottom, maintaining tension in your muscles.",
+    "Drive through your heels to extend your hips and knees, returning to a standing position."
+  ],
+  "consejos": [
+    "Ensure that your elbows remain high throughout the movement to keep the barbell stable on your shoulders.",
+    "Focus on maintaining an upright torso to prevent leaning forward excessively.",
+    "Use a controlled tempo when lowering into the squat to maximize muscle engagement.",
+    "Keep your core tight throughout the exercise to support your lower back and maintain balance.",
+    "Adjust the pin height based on your flexibility and comfort level to ensure proper depth without compromising form."
+  ],
+  "errores_comunes": [
+    "Allowing the elbows to drop, causing the bar to roll forward and lose control.",
+    "Not engaging the core, leading to a loss of stability and potential back strain.",
+    "Failing to maintain an upright torso, resulting in excessive forward lean.",
+    "Starting the squat too low, causing the pins to interfere with the movement.",
+    "Using a grip that's too wide or too narrow, affecting bar stability and control.",
+    "Descending too quickly, which can lead to bouncing off the pins and loss of form.",
+    "Not setting the pins at the correct height, leading to incomplete range of motion.",
+    "Neglecting to keep the knees aligned with the toes, increasing knee stress.",
+    "Rising unevenly, which can cause imbalance and shift the weight improperly."
+  ]
+}

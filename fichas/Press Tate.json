@@ -1,0 +1,42 @@
+{
+  "nombre": "Press Tate",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/press-tate",
+  "video_url": "https://api.smartworkout.app/asset/video/9889d45d-1949-405f-a3fa-fddedeec7692.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Tate Press es un ejercicio de aislamiento que se enfoca principalmente en el tríceps braquial. Se realiza con mancuernas e implica un movimiento de presión único que enfatiza las cabezas medial y larga del tríceps. Este ejercicio es beneficioso para desarrollar la fuerza y el tamaño del tríceps, y puede incorporarse en entrenamientos centrados en la parte superior del cuerpo o en los brazos.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo para mayor estabilidad.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral (palmas enfrentadas) y extiende los brazos directamente sobre tu pecho.",
+    "Dobla los codos para bajar las mancuernas hacia tu pecho, manteniendo los brazos superiores estacionarios y cerca de tu cuerpo.",
+    "A medida que bajas las mancuernas, inclínalas hacia adentro para que se acerquen entre sí cerca de tu pecho.",
+    "Presiona las mancuernas hacia arriba extendiendo los codos, volviendo a la posición inicial con los brazos completamente extendidos.",
+    "Repite el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén los codos pegados al cuerpo para maximizar el trabajo de los tríceps.",
+    "Usa un peso que te permita realizar el ejercicio con la forma y control adecuados.",
+    "Concéntrate en un movimiento lento y controlado, especialmente durante la fase de descenso, para aumentar la tensión muscular.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener una tensión continua en los tríceps.",
+    "Asegúrate de que tu espalda permanezca plana en el banco durante todo el ejercicio para prevenir tensiones."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso de los tríceps.",
+    "Usar peso excesivo, comprometiendo la forma y el control.",
+    "No mantener los brazos superiores perpendiculares al cuerpo.",
+    "No extender completamente los brazos en la parte superior del movimiento.",
+    "Bajar las mancuernas demasiado, arriesgando tensión en los hombros.",
+    "Apresurar el movimiento, reduciendo el tiempo bajo tensión.",
+    "Descuidar mantener las muñecas rectas, causando estrés en las articulaciones.",
+    "Involucrar los hombros en lugar de aislar los tríceps."
+  ]
+}

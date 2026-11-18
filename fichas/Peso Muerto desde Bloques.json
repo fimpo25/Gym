@@ -1,0 +1,55 @@
+{
+  "nombre": "Peso Muerto desde Bloques",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/peso-muerto-desde-bloques",
+  "video_url": "https://api.smartworkout.app/asset/video/3d94287e-914f-41e7-96d2-ce75b5446186.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "CALVES",
+    "FOREARMS",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Peso Muerto desde Bloques es una variación del peso muerto convencional donde la barra se eleva sobre bloques, reduciendo el rango de movimiento. Este ejercicio se enfoca en la cadena posterior, incluyendo los glúteos, isquiotibiales y la parte baja de la espalda, permitiendo levantar más peso debido a la distancia de levantamiento acortada. Es especialmente útil para mejorar la fuerza en el bloqueo y abordar puntos de estancamiento en el peso muerto.",
+  "como_realizar": [
+    "Coloca bloques o discos para elevar la barra a la altura deseada, típicamente justo debajo o al nivel de las rodillas.",
+    "Párate con los pies al ancho de las caderas, posicionando la parte media del pie debajo de la barra.",
+    "Agarra la barra con un agarre por encima del hombro o mixto.",
+    "Activa tu núcleo y mantén la espalda recta mientras flexionas las caderas y doblas ligeramente las rodillas.",
+    "Levanta la barra extendiendo las caderas y las rodillas simultáneamente, manteniendo la barra cerca de tu cuerpo.",
+    "Ponte completamente erguido en la parte superior del levantamiento, apretando los glúteos.",
+    "Baja la barra de nuevo a los bloques de manera controlada, flexionando las caderas y las rodillas."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca recta durante todo el levantamiento para prevenir lesiones.",
+    "Concéntrate en activar los músculos del core para mantener la estabilidad durante el levantamiento.",
+    "Mantén la barra cerca de tu cuerpo para maximizar el apalancamiento y la eficiencia.",
+    "Usa un agarre mixto si es necesario para mejorar la fuerza y el control del agarre.",
+    "Comienza con un peso manejable para dominar la forma antes de progresar a cargas más pesadas.",
+    "Concéntrate en empujar con los talones al levantar para activar eficazmente la cadena posterior."
+  ],
+  "errores_comunes": [
+    "Comenzar con las caderas demasiado altas, lo que lleva a una tensión excesiva en la parte baja de la espalda.",
+    "Redondear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las rodillas se inclinen hacia adentro durante el levantamiento.",
+    "No activar el core, lo que resulta en pérdida de estabilidad.",
+    "Tirar con los brazos en lugar de impulsar con las piernas.",
+    "Colocar los bloques demasiado altos, reduciendo excesivamente el rango de movimiento.",
+    "Usar el impulso para levantar en lugar de un movimiento controlado.",
+    "No mantener la barra cerca del cuerpo durante todo el levantamiento.",
+    "No bloquear las caderas en la parte superior del movimiento.",
+    "Soltar la barra demasiado rápido, arriesgando la pérdida de control."
+  ]
+}

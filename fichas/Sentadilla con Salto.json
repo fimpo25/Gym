@@ -1,0 +1,53 @@
+{
+  "nombre": "Sentadilla con Salto",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/jump-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/7f64e722-a96b-4ae0-b3ed-8ae13841257b.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Air Squat is a fundamental bodyweight exercise targeting the lower body, specifically the quadriceps, hamstrings, glutes, and calves. It also engages the core for stability and balance. This exercise is essential for building foundational strength and improving mobility.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and toes slightly pointed out.",
+    "Engage your core and keep your chest up while maintaining a neutral spine.",
+    "Begin the movement by pushing your hips back as if sitting into a chair.",
+    "Bend your knees and lower your body until your thighs are parallel to the ground or as low as your mobility allows.",
+    "Ensure your knees track over your toes and do not cave inward.",
+    "Keep your weight distributed evenly through your heels and midfoot.",
+    "Pause briefly at the bottom of the squat.",
+    "Drive through your heels to return to the starting position, fully extending your hips and knees."
+  ],
+  "consejos": [
+    "Warm up properly before performing air squats to prevent injury.",
+    "Focus on maintaining a straight back throughout the movement to protect your spine.",
+    "Keep your gaze forward to help maintain balance and posture.",
+    "If you struggle with depth, work on ankle and hip mobility exercises.",
+    "Practice in front of a mirror to ensure proper form and alignment.",
+    "Engage your core throughout the exercise to enhance stability and control.",
+    "Start with a slow tempo to master technique before increasing speed or adding variations."
+  ],
+  "errores_comunes": [
+    "Landing with knees caving inward, increasing knee joint stress.",
+    "Not keeping the chest up, leading to poor posture and potential lower back strain.",
+    "Failing to engage core muscles, reducing stability and control.",
+    "Jumping without fully extending the hips, limiting power output.",
+    "Landing on toes instead of the whole foot, decreasing balance and increasing ankle strain.",
+    "Not bending knees enough during the squat phase, reducing range of motion.",
+    "Allowing heels to lift off the ground during the squat, leading to instability.",
+    "Using momentum instead of controlled muscle engagement, reducing effectiveness."
+  ]
+}

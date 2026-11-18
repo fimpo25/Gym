@@ -1,0 +1,48 @@
+{
+  "nombre": "Encogimiento Invertido",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimiento-invertido",
+  "video_url": "https://api.smartworkout.app/asset/video/e32f659d-4105-4e85-a04c-bf376b6da5be.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Encogimiento Invertido es un ejercicio que se enfoca principalmente en los músculos trapecios, especialmente en los trapecios inferiores. Consiste en colgarse de una barra y usar la depresión de los hombros para levantar ligeramente el cuerpo, involucrando la parte superior de la espalda y los hombros. Este ejercicio ayuda a mejorar la estabilidad de los hombros y la postura.",
+  "como_realizar": [
+    "Comienza colgándote de una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo recto, evitando cualquier balanceo.",
+    "Deprime tus hombros tirándolos hacia abajo, alejándolos de tus orejas, levantando ligeramente tu cuerpo hacia arriba.",
+    "Mantén la posición superior por un momento, enfocándote en apretar los músculos del trapecio inferior.",
+    "Relaja lentamente tus hombros de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea seguro en la barra para mantener la estabilidad durante todo el ejercicio.",
+    "Concéntrate en mover solo los hombros; evita doblar los codos o usar el impulso.",
+    "Mantén tu núcleo comprometido para evitar balanceos y mantener la forma adecuada.",
+    "Respira de manera constante, exhalando al deprimir los hombros e inhalando al regresar al inicio.",
+    "Comienza con pocas repeticiones para dominar la forma antes de aumentar el volumen."
+  ],
+  "errores_comunes": [
+    "Permitir que los hombros se inclinen hacia adelante en lugar de mantenerlos retraídos.",
+    "No mantener una línea recta del cuerpo desde la cabeza hasta los talones.",
+    "Usar el impulso para levantar los hombros en lugar de un compromiso muscular controlado.",
+    "No deprimir completamente las escápulas, limitando el rango de movimiento.",
+    "Involucrar los brazos en lugar de centrarse en la cintura escapular.",
+    "Dejar que las caderas se hundan, lo que compromete la alineación del cuerpo.",
+    "Descuidar respirar de manera constante, lo que lleva a tensión y menor control.",
+    "Apresurar el movimiento, lo que reduce la efectividad y el control."
+  ]
+}

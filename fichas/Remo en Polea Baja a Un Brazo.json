@@ -1,0 +1,50 @@
+{
+  "nombre": "Remo en Polea Baja a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-cable-low-row",
+  "video_url": "https://api.smartworkout.app/asset/video/8f7ee107-e5d9-4556-84a1-e03e8edacffb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS"
+  ],
+  "descripcion": "The Single Arm Cable Row is an isolation exercise targeting the latissimus dorsi, rhomboids, and trapezius muscles. It enhances unilateral strength and improves muscle symmetry by allowing each side of the body to work independently. This exercise also engages the biceps and forearms as secondary muscles.",
+  "como_realizar": [
+    "Attach a single handle to a low pulley cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grip the handle with one hand, palm facing inward.",
+    "Step back slightly to create tension in the cable, keeping your knees slightly bent.",
+    "Hinge forward slightly at the hips while maintaining a straight back.",
+    "Pull the handle towards your torso, keeping your elbow close to your body.",
+    "Squeeze your shoulder blade at the peak of the movement.",
+    "Slowly extend your arm back to the starting position under control.",
+    "Complete the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to avoid lower back strain.",
+    "Focus on pulling with your back muscles rather than your arm to maximize effectiveness.",
+    "Keep your core engaged to stabilize your body during the movement.",
+    "Avoid using momentum; control the weight throughout both phases of the lift.",
+    "Ensure full range of motion by fully extending and contracting your arm.",
+    "Breathe out as you pull the handle towards you and inhale as you return to starting position."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to momentum-based movement instead of controlled muscle engagement.",
+    "Leaning back excessively, reducing the focus on the targeted muscles.",
+    "Not keeping the core engaged, resulting in loss of stability and improper form.",
+    "Allowing the shoulder to elevate or roll forward, reducing lat engagement.",
+    "Pulling with the arm rather than initiating the movement with the back muscles.",
+    "Not maintaining a neutral spine, increasing the risk of back strain.",
+    "Failing to fully retract the shoulder blade at the end of the pull, limiting range of motion.",
+    "Allowing the wrist to bend excessively, which can lead to strain and reduced effectiveness.",
+    "Not returning the handle to the starting position fully, shortening the range of motion.",
+    "Twisting the torso instead of keeping it stable, which can lead to imbalance and reduced focus on the working muscles."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Larsen con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-larsen-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/aa5076ef-fa6e-47bc-9e61-10a759bf9762.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press Larsen con mancuernas es una variación del press de banca que enfatiza la fuerza y estabilidad de la parte superior del cuerpo. Se realiza con mancuernas manteniendo los pies fuera del suelo, lo que aumenta el compromiso del core y reduce el impulso de las piernas, enfocándose más en el pecho, los hombros y los tríceps.",
+  "como_realizar": [
+    "Acuéstate en un banco con una mancuerna en cada mano, palmas hacia adelante.",
+    "Colócate de manera que tu cabeza, hombros y glúteos estén en contacto con el banco.",
+    "Levanta los pies del suelo y extiende las piernas rectas o dóblalas en las rodillas para reducir el impulso de las piernas.",
+    "Comienza con las mancuernas a la altura del pecho, codos doblados aproximadamente a 90 grados.",
+    "Presiona las mancuernas hacia arriba hasta que tus brazos estén completamente extendidos sobre tu pecho.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando control y estabilidad.",
+    "Baja las mancuernas de nuevo a la posición inicial con un movimiento controlado.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el ejercicio para estabilizar tu cuerpo.",
+    "Concéntrate en mantener las escápulas retraídas para proteger tus hombros.",
+    "Evita arquear excesivamente la espalda; mantenla neutral para prevenir tensiones.",
+    "Controla el descenso de las mancuernas para maximizar el compromiso muscular.",
+    "Asegúrate de que tus muñecas permanezcan en una posición neutral para evitar tensiones.",
+    "Exhala al presionar hacia arriba e inhala al bajar las mancuernas.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del núcleo.",
+    "No mantener los pies fuera del suelo, lo que lleva a la pérdida de estabilidad.",
+    "Permitir que los codos se abran demasiado, aumentando la tensión en los hombros.",
+    "Bajar las mancuernas demasiado rápido, comprometiendo el control.",
+    "No llevar las mancuernas al nivel del pecho, limitando el rango de movimiento.",
+    "Usar el impulso para levantar las pesas, reduciendo la activación muscular.",
+    "Descuidar mantener una posición neutral de la muñeca, arriesgando tensión en la muñeca.",
+    "Inhalar mientras se presionan las pesas hacia arriba, afectando el patrón de respiración.",
+    "No mantener las escápulas retraídas, lo que lleva a la inestabilidad del hombro."
+  ]
+}

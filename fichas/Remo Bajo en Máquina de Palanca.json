@@ -1,0 +1,50 @@
+{
+  "nombre": "Remo Bajo en Máquina de Palanca",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/lever-low-row",
+  "video_url": "https://api.smartworkout.app/asset/video/6c516964-9cfe-4217-a70e-f9267088708f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Lever Low Row is a strength training exercise targeting the muscles of the back, specifically the latissimus dorsi, rhomboids, and trapezius. This exercise is performed using a lever machine designed to simulate the rowing motion, providing a controlled environment to focus on muscle contraction and form.",
+  "como_realizar": [
+    "Adjust the seat height so that your chest is comfortably against the chest pad and your feet are flat on the floor.",
+    "Select an appropriate weight on the machine that allows you to perform the exercise with proper form.",
+    "Sit on the machine with your chest against the pad and grasp the handles with a neutral grip (palms facing each other).",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Begin by pulling the handles towards your torso, squeezing your shoulder blades together at the end of the movement.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the back muscles.",
+    "Slowly return to the starting position, fully extending your arms while maintaining control of the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your movements are slow and controlled to maximize muscle engagement and minimize risk of injury.",
+    "Focus on squeezing your shoulder blades together at the peak of each repetition to enhance muscle activation.",
+    "Avoid using momentum or leaning back excessively; keep your torso stable throughout the exercise.",
+    "Adjust the seat and chest pad as needed to ensure proper alignment and comfort during the exercise.",
+    "Breathe out as you pull the handles towards you and inhale as you return to the starting position.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using momentum by swinging the torso instead of controlled movement.",
+    "Pulling with the arms rather than engaging the back muscles.",
+    "Shrugging the shoulders up instead of keeping them down and back.",
+    "Allowing the elbows to flare out too wide, reducing back engagement.",
+    "Failing to fully retract the shoulder blades at the end of the pull.",
+    "Leaning too far forward or backward, affecting balance and form.",
+    "Not adjusting the seat height, leading to improper alignment.",
+    "Pulling the bar too high or too low, missing optimal range of motion.",
+    "Gripping the handles too tightly, causing forearm fatigue."
+  ]
+}

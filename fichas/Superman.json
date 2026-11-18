@@ -1,0 +1,48 @@
+{
+  "nombre": "Superman",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/superman",
+  "video_url": "https://api.smartworkout.app/asset/video/6be7b85a-6751-4d54-ab7c-5bd8671160b5.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El ejercicio Superman es un movimiento con el peso del cuerpo que se enfoca en la parte baja de la espalda, los glúteos y los isquiotibiales. Consiste en acostarse boca abajo y levantar simultáneamente los brazos y las piernas para activar la cadena posterior.",
+  "como_realizar": [
+    "Acuéstate boca abajo en una colchoneta con los brazos extendidos frente a ti y las piernas rectas.",
+    "Mantén el cuello en una posición neutral mirando al suelo.",
+    "Levanta simultáneamente los brazos y las piernas del suelo, activando tu núcleo y glúteos.",
+    "Mantén la posición superior por un momento mientras aprietas los músculos de la espalda.",
+    "Baja lentamente los brazos y las piernas de nuevo a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular.",
+    "Evita arquear el cuello; mantenlo alineado con tu columna vertebral.",
+    "Activa tu núcleo durante todo el ejercicio para mantener la estabilidad.",
+    "Respira de manera constante, exhalando al levantar e inhalando al bajar.",
+    "Comienza con levantamientos más pequeños si eres nuevo en este ejercicio para desarrollar fuerza gradualmente."
+  ],
+  "errores_comunes": [
+    "Levantar la cabeza demasiado alto, causando tensión en el cuello.",
+    "Arquear excesivamente la parte baja de la espalda, provocando incomodidad.",
+    "No activar el core, reduciendo la estabilidad.",
+    "Levantar los brazos y las piernas de manera desigual, causando desequilibrio.",
+    "Contener la respiración, lo que puede aumentar la tensión.",
+    "No extender completamente los brazos y las piernas, limitando el rango de movimiento.",
+    "Apresurar el movimiento, sacrificando el control.",
+    "Permitir que los hombros se encojan, reduciendo la efectividad."
+  ]
+}

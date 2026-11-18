@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Piso con Kettlebell a un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-piso-con-kettlebell-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/2b488d23-3813-4729-b1bd-cab6f1053f8a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Press de Piso con Kettlebell a Una Mano es un ejercicio de fuerza que se enfoca en el pecho, tríceps y hombros. Consiste en presionar una kettlebell desde una posición acostada en el suelo, centrándose en la fuerza y estabilidad unilateral.",
+  "como_realizar": [
+    "Acuéstate de espaldas en el suelo con las rodillas dobladas y los pies planos.",
+    "Sujeta una pesa rusa en una mano con un agarre por encima, colocándola cerca de tu pecho.",
+    "Extiende tu brazo libre hacia un lado para mantener el equilibrio.",
+    "Presiona la pesa rusa hacia arriba hasta que tu brazo esté completamente extendido, manteniendo la muñeca recta y alineada con el antebrazo.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tu hombro permanezca estable.",
+    "Baja lentamente la pesa rusa de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Asegúrate de que tu codo esté a un ángulo de 45 grados con respecto a tu cuerpo durante el press para proteger la articulación del hombro.",
+    "Concéntrate en un movimiento controlado, especialmente durante la fase de descenso, para maximizar el compromiso muscular.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Si eres nuevo en este ejercicio, comienza con una kettlebell más ligera para dominar la técnica antes de aumentar el peso.",
+    "Mantén una posición neutral de la muñeca para prevenir tensiones y asegurar una transferencia efectiva de fuerza."
+  ],
+  "errores_comunes": [
+    "Permitir que el hombro se levante del suelo, reduciendo la estabilidad y el control.",
+    "No mantener la muñeca recta, lo que lleva a perder el control sobre la pesa rusa.",
+    "No activar el core, lo que resulta en una falta de apoyo y un posible desequilibrio.",
+    "Usar una pesa rusa demasiado pesada, comprometiendo la forma y aumentando la tensión en el hombro.",
+    "Permitir que el codo se abra excesivamente, poniendo un estrés indebido en la articulación del hombro.",
+    "No mantener una columna neutral, lo que puede llevar a una mala postura y reducir la efectividad.",
+    "Apresurarse en el movimiento, sacrificando el control y la precisión.",
+    "Descuidar mantener los pies firmemente plantados en el suelo, reduciendo la estabilidad general.",
+    "Bajar la pesa rusa demasiado rápido, arriesgando la pérdida de control y posibles lesiones."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Curl de Bíceps en Banco Scott con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-en-banco-scott-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/0c14d042-5f2f-483e-a81d-e96f1803f5ac.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Bíceps en Banco Scott con Barra es un ejercicio de aislamiento que se enfoca en el bíceps braquial, realizado con una barra en un banco Scott. Este ejercicio enfatiza la contracción máxima del bíceps al minimizar el movimiento de los hombros y proporcionar una plataforma estable para los brazos.",
+  "como_realizar": [
+    "Ajusta el banco de predicador para que tus brazos superiores descansen cómodamente en el cojín y tus pies estén planos en el suelo.",
+    "Siéntate en el banco y agarra la barra con un agarre en supinación, manos a la altura de los hombros.",
+    "Extiende completamente tus brazos, permitiendo que la barra cuelgue frente a ti mientras mantienes una ligera flexión en los codos para mantener la tensión en los bíceps.",
+    "Curl la barra hacia arriba contrayendo tus bíceps, manteniendo tus brazos superiores estacionarios contra el cojín.",
+    "Continúa el curl hasta que tus antebrazos estén verticales o ligeramente más allá, asegurando una contracción completa de los bíceps.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tus brazos superiores firmemente presionados contra el cojín para aislar efectivamente los bíceps.",
+    "Evita usar el impulso o balancear tu cuerpo para levantar el peso; mantén una forma estricta para un máximo compromiso muscular.",
+    "Controla la fase de descenso del curl para maximizar la tensión y el crecimiento muscular.",
+    "Usa un peso moderado que te permita realizar todas las repeticiones con la forma adecuada sin comprometer la técnica.",
+    "Asegúrate de un rango completo de movimiento extendiendo y contrayendo completamente tus brazos durante cada repetición.",
+    "Considera usar una barra EZ curl si se siente más cómoda en tus muñecas en comparación con una barra recta."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a una mala forma y uso de impulso.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "No extender completamente los brazos, reduciendo el rango de movimiento.",
+    "Inclinarse hacia atrás o usar la espalda para levantar el peso.",
+    "Rebotar la barra en el soporte para ganar impulso.",
+    "No mantener las muñecas rectas, lo que lleva a tensión.",
+    "Levantar los hombros en lugar de aislar los bíceps.",
+    "Dejar caer la barra demasiado rápido, perdiendo el control."
+  ]
+}

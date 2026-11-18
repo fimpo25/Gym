@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla",
+  "video_url": "https://api.smartworkout.app/asset/video/2180a136-5fa4-4c98-a9ae-8477a89b9402.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La sentadilla es un ejercicio fundamental para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y músculos del core. Se realiza bajando las caderas desde una posición de pie y luego regresando a la posición de pie, manteniendo la espalda recta y los pies planos en el suelo.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, con los dedos ligeramente apuntando hacia afuera.",
+    "Activa tu núcleo y mantén el pecho erguido.",
+    "Dobla las rodillas y empuja las caderas hacia atrás como si te sentaras en una silla.",
+    "Baja tu cuerpo hasta que tus muslos estén al menos paralelos al suelo.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos sin colapsar hacia adentro.",
+    "Empuja a través de tus talones para regresar a la posición inicial.",
+    "Mantén una columna neutral durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén el peso en los talones para mantener el equilibrio y la estabilidad.",
+    "Concéntrate en mantener el pecho levantado para evitar redondear la espalda.",
+    "Usa un espejo o pide a un compañero que revise tu forma para asegurar una alineación adecuada.",
+    "Comienza con sentadillas con el peso corporal antes de añadir peso para dominar la forma.",
+    "Inhala al bajar y exhala al subir.",
+    "Calienta adecuadamente antes de hacer sentadillas para prevenir lesiones."
+  ],
+  "errores_comunes": [
+    "Permitir que las rodillas se inclinen hacia adentro durante el movimiento.",
+    "Redondear la parte baja de la espalda en la parte inferior de la sentadilla.",
+    "No mantener el pecho hacia arriba y los hombros hacia atrás.",
+    "Dejar que los talones se levanten del suelo.",
+    "Descender demasiado rápido sin control.",
+    "No alcanzar la profundidad completa, deteniéndose demasiado alto.",
+    "Inclinarse demasiado hacia adelante, desplazando el peso hacia los dedos de los pies.",
+    "No activar los músculos del core para la estabilidad.",
+    "Usar el impulso en lugar del compromiso muscular para levantarse.",
+    "Colocar los pies demasiado juntos o demasiado separados para el equilibrio."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Zancada Trasera en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/zancada-trasera-en-multipower",
+  "video_url": "https://api.smartworkout.app/asset/video/e133134a-9818-418f-9031-03b425cb38db.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Zancada Trasera en Smith es un ejercicio para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y pantorrillas. Utilizar la máquina Smith proporciona estabilidad y control, haciéndolo adecuado tanto para principiantes como para levantadores avanzados. Este ejercicio ayuda a mejorar el equilibrio, la coordinación y la fuerza general de las piernas.",
+  "como_realizar": [
+    "Coloca la barra de la máquina Smith a la altura de los hombros.",
+    "Párate debajo de la barra y colócala sobre la parte superior de tu espalda. Agarra la barra con ambas manos un poco más anchas que el ancho de los hombros.",
+    "Desbloquea la barra empujando hacia arriba y da un paso adelante con un pie.",
+    "Da un paso hacia atrás con una pierna en posición de zancada, asegurándote de que tu rodilla delantera esté alineada con tu tobillo.",
+    "Baja la rodilla trasera hacia el suelo sin dejar que toque, manteniendo el torso erguido.",
+    "Empuja con el talón de tu pie delantero para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Asegúrate de que tu rodilla delantera no se extienda más allá de tus dedos del pie para evitar tensión en la articulación de la rodilla.",
+    "Mantén la espalda recta y activa tu núcleo durante todo el movimiento para lograr estabilidad.",
+    "Concéntrate en un descenso y ascenso controlados para maximizar el compromiso muscular.",
+    "Ajusta la posición de tus pies para encontrar una postura cómoda que permita un rango completo de movimiento.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Colocar los pies demasiado juntos, causando inestabilidad y mal equilibrio.",
+    "Permitir que la rodilla delantera se extienda más allá de los dedos del pie, aumentando el estrés en la articulación de la rodilla.",
+    "Dejar caer la rodilla trasera demasiado rápido, lo que lleva a una falta de control y posible tensión.",
+    "No mantener el torso erguido, resultando en una inclinación excesiva hacia adelante y efectividad reducida.",
+    "No activar el core, lo que compromete la estabilidad y el control.",
+    "Usar demasiado peso, lo que lleva a una forma comprometida y mayor riesgo de lesión.",
+    "Permitir que el pie delantero gire hacia afuera, reduciendo la alineación y el compromiso muscular.",
+    "Descuidar empujar a través del talón del pie delantero, minimizando la activación de los glúteos.",
+    "Apresurarse en el movimiento, lo que reduce la tensión muscular y el control.",
+    "No mantener un ritmo constante, causando un compromiso muscular desigual."
+  ]
+}

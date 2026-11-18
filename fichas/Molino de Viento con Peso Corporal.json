@@ -1,0 +1,51 @@
+{
+  "nombre": "Molino de Viento con Peso Corporal",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/molino-de-viento-con-peso-corporal",
+  "video_url": "https://api.smartworkout.app/asset/video/657823d2-0269-4a23-8a9d-06de4520e352.mp4",
+  "tags": [
+    "MOBILITY",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Molino de Viento con Peso Corporal es un ejercicio dinámico que se enfoca en el núcleo, los hombros y las caderas. Mejora la flexibilidad, la estabilidad y la coordinación al requerir movimiento rotacional y equilibrio. Este ejercicio se realiza sin ningún equipo, lo que lo hace accesible para todos los niveles de condición física.",
+  "como_realizar": [
+    "Párate con los pies un poco más anchos que el ancho de los hombros y los dedos de los pies apuntando ligeramente hacia afuera.",
+    "Extiende los brazos hacia los lados a la altura de los hombros, formando una T con tu cuerpo.",
+    "Desplaza tu peso hacia tu pierna derecha, doblando ligeramente la rodilla derecha mientras mantienes la pierna izquierda recta.",
+    "Gira tu torso hacia la derecha, bajando tu mano izquierda hacia tu pie derecho mientras mantienes el brazo derecho extendido hacia arriba.",
+    "Mantén la mirada en tu mano derecha mientras te inclinas en las caderas y mantienes la espalda recta.",
+    "Pausa brevemente en la parte inferior del movimiento, luego regresa a la posición inicial invirtiendo el movimiento.",
+    "Repite el movimiento en el lado opuesto, desplazando el peso hacia tu pierna izquierda y bajando tu mano derecha hacia tu pie izquierdo."
+  ],
+  "consejos": [
+    "Activa tu núcleo durante todo el ejercicio para mantener el equilibrio y apoyar la parte baja de tu espalda.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar la estabilidad y efectividad.",
+    "Asegúrate de que tus rodillas no colapsen hacia adentro; mantenlas alineadas con tus dedos de los pies durante el movimiento.",
+    "Respira de manera constante, inhalando al bajar en el molino de viento y exhalando al regresar a la posición de pie.",
+    "Si eres nuevo en este ejercicio, practica frente a un espejo para asegurar una forma y alineación adecuadas.",
+    "Para aumentar la dificultad, intenta realizar el molino de viento en una superficie inestable como una esterilla de yoga o un cojín de equilibrio."
+  ],
+  "errores_comunes": [
+    "Rotar el torso en lugar de flexionar en las caderas.",
+    "Permitir que las rodillas se doblen excesivamente, reduciendo el compromiso de los isquiotibiales.",
+    "No mantener la espalda recta y neutral, lo que lleva a una mala postura.",
+    "No mantener el brazo de apoyo alineado con el hombro, arriesgando tensión en el hombro.",
+    "Torcer la columna en lugar de mantener un núcleo estable.",
+    "Dejar caer la cabeza hacia adelante, causando tensión en el cuello.",
+    "Alcanzar demasiado hacia abajo, comprometiendo la forma y el equilibrio.",
+    "Descuidar el compromiso de los músculos del núcleo, reduciendo la estabilidad.",
+    "Moverse demasiado rápido, sacrificando control y precisión.",
+    "No mantener los pies firmemente plantados, lo que lleva a la inestabilidad."
+  ]
+}

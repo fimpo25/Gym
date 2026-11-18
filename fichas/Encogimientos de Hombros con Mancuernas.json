@@ -1,0 +1,32 @@
+{
+  "nombre": "Encogimientos de Hombros con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimientos-de-hombros-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/e27d907f-ce86-45c5-ad37-edab75f4c66c.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Encogimientos de Hombros con Mancuernas se enfocan en los músculos trapecios, que se encuentran en la parte superior de la espalda y el cuello. Este ejercicio ayuda a desarrollar fuerza y masa en el trapecio superior, mejorando la postura y la estabilidad de los hombros.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano a los lados.",
+    "Mantén los brazos rectos y deja que las mancuernas cuelguen naturalmente.",
+    "Inhala profundamente, luego exhala mientras levantas los hombros directamente hacia las orejas.",
+    "Mantén la contracción en la parte superior por un momento, asegurándote de sentir la tensión en los músculos trapecios.",
+    "Baja lentamente los hombros de regreso a la posición inicial mientras inhalas.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para evitar tensión en la parte baja de la espalda.",
+    "Evita rodar los hombros; concéntrate en levantarlos directamente hacia arriba y hacia abajo.",
+    "Usa un movimiento controlado para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Comienza con pesas más ligeras para perfeccionar la forma antes de avanzar a mancuernas más pesadas.",
+    "Mantén el núcleo comprometido para ayudar a estabilizar tu cuerpo durante el movimiento."
+  ],
+  "errores_comunes": []
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión y Flexión de Piernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/extension-y-flexion-de-piernas",
+  "video_url": "https://api.smartworkout.app/asset/video/baa54657-a374-4b05-ae76-6961022ef3d8.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El ejercicio 'Dentro y Fuera' se centra en el núcleo y está dirigido a los músculos abdominales, en particular el recto abdominal y los oblicuos. Implica una posición sentada donde las piernas se extienden y luego se llevan hacia el pecho, activando el núcleo durante todo el movimiento.",
+  "como_realizar": [
+    "Siéntate en el suelo con las piernas extendidas frente a ti y las manos colocadas ligeramente detrás de tus caderas para apoyo.",
+    "Inclínate ligeramente hacia atrás, manteniendo la espalda recta y el núcleo comprometido.",
+    "Levanta los pies del suelo, equilibrándote sobre los huesos de la cadera.",
+    "Simultáneamente lleva las rodillas hacia el pecho mientras mantienes el núcleo apretado.",
+    "Extiende las piernas de nuevo a la posición inicial sin dejar que toquen el suelo.",
+    "Repite el movimiento el número deseado de repeticiones, manteniendo el control y el equilibrio en todo momento."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido en todo momento para proteger tu espalda baja y maximizar la activación abdominal.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para asegurar una forma adecuada y efectividad.",
+    "Si encuentras difícil mantener el equilibrio, intenta colocar tus manos más atrás o doblar ligeramente los codos para obtener soporte adicional.",
+    "Para aumentar la dificultad, realiza el ejercicio sin usar las manos para apoyo o agrega pesas en los tobillos para mayor resistencia.",
+    "Mantén un patrón de respiración constante; exhala al llevar las rodillas hacia adentro e inhala al extenderlas hacia afuera."
+  ],
+  "errores_comunes": [
+    "No mantener la espalda recta, lo que lleva a redondear la columna vertebral.",
+    "Permitir que los pies toquen el suelo entre repeticiones, reduciendo el compromiso muscular.",
+    "No extender completamente las piernas, limitando el rango de movimiento.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo la efectividad.",
+    "No comprometer el núcleo, resultando en una mala estabilización.",
+    "Colocar las manos demasiado atrás, causando tensión en las muñecas.",
+    "Permitir que las rodillas se abran hacia afuera, desalineando el patrón de movimiento.",
+    "Contener la respiración, lo que lleva a una tensión innecesaria y reduce la resistencia."
+  ]
+}

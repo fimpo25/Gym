@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión Profunda en Barras Paralelas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-profunda-en-barras-paralelas",
+  "video_url": "https://api.smartworkout.app/asset/video/7b5d548e-b3c8-4dc8-b120-94363928e4af.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Profunda en Barras Paralelas es un ejercicio avanzado para la parte superior del cuerpo que se enfoca en el pecho, los tríceps y los hombros. Al realizar este ejercicio en barras paralelas, aumentas el rango de movimiento en comparación con las flexiones estándar, lo que mejora el compromiso muscular y el desarrollo de la fuerza.",
+  "como_realizar": [
+    "Colócate entre dos barras paralelas con las manos agarrando las barras un poco más anchas que el ancho de los hombros.",
+    "Extiende las piernas detrás de ti, manteniendo el cuerpo recto desde la cabeza hasta los talones.",
+    "Baja el cuerpo doblando los codos hasta que el pecho esté por debajo del nivel de las barras.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando un estiramiento profundo en los músculos del pecho.",
+    "Empuja a través de las palmas para extender los brazos y regresar a la posición inicial.",
+    "Repite el número deseado de repeticiones mientras mantienes la forma adecuada."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener una línea recta del cuerpo.",
+    "Evita abrir demasiado los codos; mantenlos a unos 45 grados para proteger tus hombros.",
+    "Controla el descenso para maximizar la tensión muscular y prevenir lesiones.",
+    "Concéntrate en un rango completo de movimiento para mejorar la activación y el crecimiento muscular.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Si eres nuevo en este ejercicio, comienza con un rango de movimiento más pequeño y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, reduciendo la estabilidad del hombro.",
+    "Bajar los hombros demasiado, arriesgando pinzamiento del hombro.",
+    "No mantener el core comprometido, llevando a una espalda baja hundida.",
+    "No mantener una posición neutral del cuello, causando tensión en el cuello.",
+    "Usar un rango de movimiento limitado, impidiendo la activación completa del músculo.",
+    "Apresurar el movimiento, sacrificando control y forma.",
+    "Permitir que las muñecas se doblen excesivamente, aumentando la tensión en las muñecas.",
+    "No alinear las muñecas directamente debajo de los hombros, causando desequilibrio.",
+    "Descuidar comprometer los músculos del pecho, reduciendo la efectividad de la flexión.",
+    "Permitir que el cuerpo se hunda de manera desigual, creando un desarrollo muscular asimétrico."
+  ]
+}

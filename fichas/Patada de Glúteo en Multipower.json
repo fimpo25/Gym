@@ -1,0 +1,42 @@
+{
+  "nombre": "Patada de Glúteo en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-machibe-glute-kickback",
+  "video_url": "https://api.smartworkout.app/asset/video/57f7f0c5-0355-43de-b1ad-5a065aba75d1.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Smith Machine Glute Kickback is a lower body exercise targeting the gluteal muscles. It utilizes the Smith machine to provide stability and control, allowing for focused activation of the glutes. This exercise is beneficial for building strength and muscle definition in the posterior chain.",
+  "como_realizar": [
+    "Set the Smith machine bar to a low position, just above the floor.",
+    "Stand facing the machine, positioning one foot under the bar with your knee slightly bent.",
+    "Grip the machine's frame for support and balance.",
+    "Engage your core and slowly extend your leg backward, pushing the bar with your foot.",
+    "Squeeze your glutes at the top of the movement, ensuring full extension without arching your back.",
+    "Slowly return to the starting position, controlling the movement.",
+    "Complete the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your standing leg to ensure stability.",
+    "Focus on squeezing your glutes throughout the movement for maximum activation.",
+    "Keep your core engaged to prevent lower back strain.",
+    "Avoid using momentum; control the movement both up and down.",
+    "Ensure that your movements are slow and deliberate to maximize muscle engagement."
+  ],
+  "errores_comunes": [
+    "Allowing the lower back to arch excessively, leading to poor form and reduced glute engagement.",
+    "Positioning the body too far from the Smith machine, causing instability and ineffective movement.",
+    "Using momentum to swing the leg instead of controlled muscle engagement.",
+    "Placing the foot too high on the bar, resulting in an awkward range of motion and reduced effectiveness.",
+    "Failing to keep the supporting leg slightly bent, which can lead to balance issues and improper form.",
+    "Neglecting to engage the core, leading to a lack of stability and potential strain on the lower back.",
+    "Not aligning the hips properly, causing uneven weight distribution and reduced glute activation.",
+    "Raising the leg too high, which can shift focus away from the glutes and increase risk of lower back strain."
+  ]
+}

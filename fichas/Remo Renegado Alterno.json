@@ -1,0 +1,55 @@
+{
+  "nombre": "Remo Renegado Alterno",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-renegado-alterno",
+  "video_url": "https://api.smartworkout.app/asset/video/f6854155-c34a-42ec-9ab5-a4148670164a.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Renegado Alterno es un ejercicio compuesto que trabaja la espalda, los hombros y el core. Consiste en realizar un movimiento de remo mientras se está en posición de plancha, alternando los brazos para activar los músculos estabilizadores y mejorar el equilibrio y la coordinación.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos agarrando mancuernas colocadas al ancho de los hombros. Tu cuerpo debe formar una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo para mantener la estabilidad y evitar que tus caderas se hundan o roten.",
+    "Remo una mancuerna hacia tu cadera retrayendo tu omóplato y doblando tu codo, manteniendo el codo cerca de tu cuerpo.",
+    "Baja la mancuerna de nuevo a la posición inicial con control.",
+    "Repite el movimiento de remo con el brazo opuesto mientras mantienes la forma de plancha.",
+    "Continúa alternando los brazos durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los pies un poco más anchos que el ancho de los hombros para una mejor estabilidad.",
+    "Concéntrate en juntar los omóplatos durante cada remo para maximizar el compromiso de la espalda.",
+    "Mantén una posición neutral del cuello mirando ligeramente hacia adelante, no hacia abajo ni hacia arriba.",
+    "Evita rotar las caderas; mantenlas cuadradas al suelo durante todo el ejercicio.",
+    "Si mantener el equilibrio es un desafío, comienza con pesas más ligeras o realiza el ejercicio sin mancuernas para desarrollar primero la fuerza del núcleo.",
+    "Respira de manera constante, exhalando mientras subes la mancuerna e inhalando mientras la bajas."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o se eleven, comprometiendo la alineación de la columna.",
+    "Rotar el torso excesivamente, reduciendo el compromiso del core.",
+    "Usar impulso en lugar de movimiento controlado, disminuyendo la activación muscular.",
+    "No estabilizar el hombro, aumentando el riesgo de tensión en el hombro.",
+    "Remar la mancuerna demasiado alto, haciendo que el codo se abra.",
+    "No mantener una posición neutral del cuello, lo que lleva a la tensión.",
+    "Colocar los pies demasiado juntos, reduciendo el equilibrio y la estabilidad.",
+    "Descuidar el compromiso del core, debilitando la efectividad del ejercicio.",
+    "Apresurar el movimiento, sacrificando la forma y el control."
+  ]
+}

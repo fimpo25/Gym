@@ -1,0 +1,52 @@
+{
+  "nombre": "Remo Invertido Australiano",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-invertido-(australiano)",
+  "video_url": "https://api.smartworkout.app/asset/video/664c116a-080b-41b1-b386-f26405cea34f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Invertido, también conocido como Pull-Up Australiano, es un ejercicio con el peso corporal que se enfoca en la parte superior de la espalda, los hombros y los bíceps. Consiste en llevar el pecho hacia una barra mientras el cuerpo está suspendido horizontalmente debajo de ella. Este ejercicio es efectivo para desarrollar fuerza y mejorar la postura.",
+  "como_realizar": [
+    "Coloca una barra en un soporte a la altura de la cintura o utiliza una barra de máquina Smith.",
+    "Acuéstate debajo de la barra con el pecho directamente debajo de ella y extiende las piernas completamente.",
+    "Agarra la barra con un agarre por encima, con las manos un poco más anchas que el ancho de los hombros.",
+    "Activa tu núcleo y glúteos para mantener tu cuerpo en una línea recta desde la cabeza hasta los talones.",
+    "Tira de tu pecho hacia la barra retrayendo los omóplatos y doblando los codos.",
+    "Haz una pausa en la parte superior cuando tu pecho casi toque la barra.",
+    "Baja de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu cuerpo rígido y evita que las caderas se hundan para mantener una forma adecuada.",
+    "Concéntrate en juntar tus omóplatos en la parte superior del movimiento.",
+    "Ajusta la altura de la barra para aumentar o disminuir la dificultad; las barras más bajas lo hacen más difícil.",
+    "Asegúrate de que tu cabeza permanezca en una posición neutral durante todo el ejercicio.",
+    "Exhala al subir e inhala al bajar.",
+    "Si te resulta demasiado desafiante, dobla las rodillas y coloca los pies planos en el suelo para obtener apoyo."
+  ],
+  "errores_comunes": [
+    "Caderas caídas debido a la falta de compromiso del núcleo, lo que lleva a una alineación incorrecta.",
+    "Tirar con los brazos en lugar de comprometer los músculos de la espalda, reduciendo la efectividad.",
+    "Abrir los codos excesivamente, lo que puede tensar los hombros.",
+    "No llevar el pecho a la barra, limitando el rango de movimiento.",
+    "Usar el impulso para completar el movimiento en lugar de un movimiento controlado.",
+    "Permitir que los hombros se redondeen hacia adelante, comprometiendo la postura.",
+    "Colocar los pies demasiado cerca, reduciendo la estabilidad y el rango de movimiento.",
+    "No mantener una línea recta desde la cabeza hasta los talones, afectando la forma.",
+    "No retraer las escápulas, disminuyendo la activación de los músculos de la espalda.",
+    "Arqueo excesivo de la parte baja de la espalda, lo que puede causar incomodidad."
+  ]
+}

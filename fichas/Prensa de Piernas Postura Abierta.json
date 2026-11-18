@@ -1,0 +1,46 @@
+{
+  "nombre": "Prensa de Piernas Postura Abierta",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/leg-press-wide-stance",
+  "video_url": "https://api.smartworkout.app/asset/video/b9dc9c07-54d1-41a6-a25a-5cff3e9be2d6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Leg Press Wide Stance is a compound lower body exercise targeting the quadriceps, hamstrings, glutes, and adductors. By positioning the feet wider than shoulder-width apart on the platform, this variation emphasizes the inner thighs and glutes more than a standard leg press.",
+  "como_realizar": [
+    "Sit on the leg press machine with your back and head firmly against the seat pad.",
+    "Place your feet on the platform wider than shoulder-width apart, toes slightly pointed out.",
+    "Grip the handles on either side of the seat for stability.",
+    "Unlock the safety bars by pressing the platform slightly and releasing the lock.",
+    "Lower the platform by bending your knees until they form a 90-degree angle or slightly deeper, ensuring your knees align with your toes.",
+    "Press through your heels to extend your legs and return to the starting position without locking your knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your back flat against the seat to avoid lower back strain.",
+    "Ensure your knees track over your toes to prevent knee injury.",
+    "Do not lock your knees at the top of the movement to maintain tension on the muscles.",
+    "Focus on pushing through your heels to engage more of your glutes and hamstrings.",
+    "Control the descent of the platform to maximize muscle engagement and reduce injury risk."
+  ],
+  "errores_comunes": [
+    "Feet positioned too high or too low on the platform, leading to improper muscle engagement.",
+    "Allowing knees to collapse inward, which can strain the knee joints.",
+    "Locking out the knees at the top of the movement, increasing joint stress.",
+    "Using too much weight, compromising form and control.",
+    "Failing to maintain a flat back against the seat, reducing core stability.",
+    "Not aligning knees with toes, which can cause knee discomfort.",
+    "Descending too quickly, reducing muscle tension and control.",
+    "Inadequate depth, limiting full muscle activation.",
+    "Pushing through the toes instead of the heels, shifting focus away from the glutes and hamstrings."
+  ]
+}

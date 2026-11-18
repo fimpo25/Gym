@@ -1,0 +1,47 @@
+{
+  "nombre": "Aperturas con Mancuernas en Banco Declinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/aperturas-con-mancuernas-en-banco-declinado",
+  "video_url": "https://api.smartworkout.app/asset/video/1805d036-6125-4455-a2f1-d7e789457916.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura con Mancuernas en Banco Declinado es un ejercicio de aislamiento que se enfoca en los músculos pectorales, particularmente en la parte inferior del pecho. Consiste en recostarse en un banco declinado y realizar un movimiento de apertura con mancuernas, lo que ayuda a mejorar la definición y fuerza del pecho.",
+  "como_realizar": [
+    "Ajusta un banco declinado a un ángulo de 15-30 grados y recuéstate sobre él con una mancuerna en cada mano.",
+    "Coloca tus pies de manera segura bajo las almohadillas para mantener la estabilidad.",
+    "Sujeta las mancuernas sobre tu pecho con las palmas enfrentadas y los brazos ligeramente doblados.",
+    "Inhala y baja lentamente las mancuernas en un movimiento en arco hacia los lados hasta sentir un estiramiento en el pecho.",
+    "Mantén los codos ligeramente doblados durante todo el movimiento para reducir la tensión en las articulaciones.",
+    "Exhala y lleva las mancuernas de regreso a la posición inicial usando el mismo movimiento en arco.",
+    "Repite para el número deseado de repeticiones, manteniendo el control durante cada repetición."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda esté presionada contra el banco para evitar tensión innecesaria en la parte baja de la espalda.",
+    "Concéntrate en usar los músculos del pecho para mover las pesas en lugar de depender del impulso.",
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para protegerlos de la hiperextensión.",
+    "Controla la velocidad del movimiento, especialmente al bajar las pesas, para maximizar el compromiso muscular.",
+    "Evita que las mancuernas se toquen en la parte superior del movimiento para mantener la tensión en los músculos del pecho.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos bajen demasiado, lo que lleva a una tensión excesiva en los hombros.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "No mantener una ligera flexión en los codos, aumentando el estrés en las articulaciones.",
+    "No mantener la espalda plana en el banco, reduciendo el compromiso del pecho.",
+    "Permitir que las muñecas se doblen, lo que lleva a una posible tensión en las muñecas.",
+    "Levantar la cabeza del banco, causando tensión en el cuello.",
+    "No controlar el descenso, arriesgando una lesión en el hombro.",
+    "Acercar demasiado las mancuernas en la parte superior, reduciendo la tensión en el pecho.",
+    "Arquear excesivamente la espalda, desviando el enfoque del pecho."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Abdominales con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/a3caa058-de3c-4f94-9890-fc860559bf3c.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Abdominal con Peso es un ejercicio avanzado para el core que se enfoca en los músculos abdominales añadiendo resistencia mediante el uso de un disco de pesas o una mancuerna. Este ejercicio mejora la fuerza, estabilidad y resistencia del core, convirtiéndolo en una adición efectiva a cualquier rutina de entrenamiento de fuerza.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las rodillas dobladas y los pies planos en el suelo, a la altura de las caderas.",
+    "Sujeta un disco de pesas o una mancuerna contra tu pecho con ambas manos.",
+    "Activa los músculos del core llevando tu ombligo hacia la columna vertebral.",
+    "Exhala mientras levantas la parte superior de tu cuerpo del suelo de manera controlada, enrollando tu torso hacia las rodillas.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tu core permanezca activado.",
+    "Inhala mientras bajas lentamente la parte superior de tu cuerpo de regreso a la posición inicial, manteniendo el control durante todo el descenso.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los pies planos en el suelo durante todo el movimiento para mantener la estabilidad.",
+    "Evita usar el impulso; concéntrate en activar los músculos del core para un levantamiento controlado.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a pesos más pesados.",
+    "Mantén una posición neutral del cuello mirando hacia adelante en lugar de meter la barbilla en el pecho.",
+    "Asegúrate de que el movimiento sea suave y controlado tanto al subir como al bajar para maximizar el compromiso muscular.",
+    "Si experimentas alguna molestia en la parte baja de la espalda, reevalúa tu forma o reduce el peso utilizado."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar el peso en lugar de comprometer los músculos del core.",
+    "Sostener el peso demasiado lejos del pecho, aumentando la tensión en la parte baja de la espalda.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, reduciendo el compromiso del core.",
+    "Apresurarse en el movimiento, llevando a un control deficiente y efectividad reducida.",
+    "Levantar la cabeza y el cuello primero, causando tensión y reduciendo la activación del core.",
+    "No comprometer completamente los músculos abdominales, confiando en los flexores de la cadera en su lugar.",
+    "Realizar un rango de movimiento limitado, no utilizando completamente los músculos del core.",
+    "Contener la respiración durante el movimiento, aumentando la tensión y reduciendo la eficiencia."
+  ]
+}

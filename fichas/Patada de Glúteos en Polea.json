@@ -1,0 +1,48 @@
+{
+  "nombre": "Patada de Glúteos en Polea",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/patada-de-gluteos-en-polea",
+  "video_url": "https://api.smartworkout.app/asset/video/9e81ed9f-200d-405e-976c-ac9592d9086d.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS"
+  ],
+  "descripcion": "La Patada de Glúteos con Cable es un ejercicio de aislamiento que se enfoca en el glúteo mayor. Consiste en extender la cadera contra resistencia, generalmente utilizando una máquina de cables, para mejorar la fuerza y definición de los glúteos.",
+  "como_realizar": [
+    "Coloca una correa de tobillo en una máquina de polea baja y asegúrala alrededor de tu tobillo.",
+    "Párate de frente a la máquina, sosteniéndote del marco para apoyo.",
+    "Desplaza tu peso hacia la pierna que no está trabajando y dobla ligeramente la rodilla.",
+    "Con una ligera flexión en la rodilla de la pierna que trabaja, extiende la pierna hacia atrás en un movimiento controlado.",
+    "Aprieta los glúteos en la parte superior del movimiento, asegurándote de que tu espalda permanezca recta.",
+    "Vuelve lentamente a la posición inicial sin dejar que la pila de pesas toque.",
+    "Completa el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Concéntrate en apretar los glúteos en el punto máximo de cada patada para una contracción máxima.",
+    "Mantén una columna neutral durante todo el ejercicio para evitar tensiones en la parte baja de la espalda.",
+    "Mantén el núcleo comprometido para estabilizar tu cuerpo durante el movimiento.",
+    "Evita balancear la pierna; controla el movimiento para maximizar el compromiso muscular.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Asegúrate de que el movimiento provenga de la articulación de la cadera, no de arquear la espalda."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un movimiento basado en el impulso en lugar de un compromiso muscular controlado.",
+    "Arquear excesivamente la parte baja de la espalda, lo que desvía el enfoque de los glúteos y aumenta el estrés en la columna vertebral.",
+    "No mantener el core comprometido, reduciendo la estabilidad y el control durante el ejercicio.",
+    "Permitir que la rodilla de la pierna de trabajo se doble excesivamente, lo que disminuye la efectividad de la activación del glúteo.",
+    "No mantener una columna neutral, lo que puede llevar a una forma incorrecta y una menor activación de los glúteos.",
+    "Balancear la pierna en lugar de realizar una patada controlada, lo que disminuye la activación muscular.",
+    "Posicionar el cuerpo demasiado erguido, lo que puede desviar el enfoque hacia la parte baja de la espalda en lugar de los glúteos.",
+    "No lograr una extensión completa de la cadera, limitando el rango de movimiento y la activación del glúteo.",
+    "Permitir que la pierna de apoyo se bloquee, reduciendo el equilibrio y la estabilidad.",
+    "No mantener el pie flexionado, lo que puede disminuir la activación de los glúteos."
+  ]
+}

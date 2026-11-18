@@ -1,0 +1,44 @@
+{
+  "nombre": "Dead Bug con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/dead-bug-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/402cba6a-63d1-4179-8c0a-e5d2ee40f3d1.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Bicho Muerto con Peso es un ejercicio de fortalecimiento del core que mejora la estabilidad y la coordinación. Consiste en acostarse de espaldas mientras se sostiene un peso y mover los brazos y las piernas de manera controlada para activar eficazmente los músculos abdominales.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con los brazos extendidos hacia el techo, sosteniendo una mancuerna o un disco de peso en ambas manos.",
+    "Levanta las piernas del suelo, doblando las rodillas en un ángulo de 90 grados para que los muslos estén perpendiculares al suelo.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Baja lentamente tu brazo derecho y tu pierna izquierda hacia el suelo simultáneamente, manteniendo la parte baja de la espalda presionada contra la colchoneta.",
+    "Vuelve a la posición inicial y repite el movimiento con tu brazo izquierdo y pierna derecha.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener una columna neutral durante el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Mantén los movimientos lentos y controlados para maximizar el compromiso del núcleo.",
+    "Asegúrate de que tu espalda baja permanezca en contacto con la colchoneta en todo momento.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a pesos más pesados.",
+    "Respira de manera constante, exhalando al bajar las extremidades e inhalando al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Levantar la parte baja de la espalda del suelo, reduciendo el compromiso del core.",
+    "Permitir que el peso tire demasiado hacia atrás los brazos, forzando los hombros.",
+    "Bajar demasiado las piernas, causando arqueo en la parte baja de la espalda.",
+    "Mover los brazos y las piernas demasiado rápido, perdiendo control y estabilidad.",
+    "Contener la respiración, lo que lleva a un aumento de la tensión y una reducción de la activación del core.",
+    "Usar pesos demasiado pesados, comprometiendo la forma y el control.",
+    "No mantener la cabeza y el cuello en una posición neutral, causando tensión.",
+    "No comprometer los músculos del core durante todo el movimiento.",
+    "Dejar que las rodillas se doblen excesivamente, reduciendo el desafío en el core."
+  ]
+}

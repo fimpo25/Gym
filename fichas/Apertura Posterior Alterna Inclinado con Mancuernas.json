@@ -1,0 +1,46 @@
+{
+  "nombre": "Apertura Posterior Alterna Inclinado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/alternate-bent-over-dumbbell-reverse-fly",
+  "video_url": "https://api.smartworkout.app/asset/video/06daec78-0e2d-40ff-b974-778e7a5646ab.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Alternate Bent Over Dumbbell Reverse Fly is an isolation exercise targeting the rear deltoids, upper back, and rhomboids. It involves bending at the hips while maintaining a neutral spine and lifting dumbbells laterally in an alternating fashion.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in each hand with a neutral grip.",
+    "Hinge at the hips to bend forward until your torso is almost parallel to the floor, keeping your back straight and knees slightly bent.",
+    "Let your arms hang down naturally with a slight bend in the elbows.",
+    "Engage your core and lift one dumbbell out to the side, keeping your elbow slightly bent, until it reaches shoulder height.",
+    "Lower the dumbbell back to the starting position while simultaneously lifting the opposite dumbbell.",
+    "Continue alternating sides for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain stability.",
+    "Avoid using momentum; focus on controlled movements to isolate the target muscles.",
+    "Maintain a slight bend in the elbows to reduce strain on the joints.",
+    "Ensure your back remains flat and avoid rounding your shoulders.",
+    "Breathe out as you lift the dumbbell and inhale as you lower it.",
+    "Start with lighter weights to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using too much momentum and swinging the weights.",
+    "Lifting the dumbbells too high, causing shoulder strain.",
+    "Not engaging the core, leading to instability.",
+    "Allowing the wrists to bend instead of keeping them straight.",
+    "Standing too upright, reducing the effectiveness of the exercise.",
+    "Failing to retract the shoulder blades fully.",
+    "Moving the elbows too far forward, reducing back muscle activation.",
+    "Not controlling the descent of the weights."
+  ]
+}

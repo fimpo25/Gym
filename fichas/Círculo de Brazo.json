@@ -1,0 +1,43 @@
+{
+  "nombre": "Círculo de Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/circulo-de-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/b65dda81-6835-4edb-a6e9-8c5d057c1fd6.mp4",
+  "tags": [
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Círculos de Brazos son un ejercicio de calentamiento dinámico que se enfoca en los hombros, deltoides y brazos superiores. Este ejercicio ayuda a mejorar la movilidad de los hombros, aumentar el flujo sanguíneo y preparar la parte superior del cuerpo para entrenamientos más intensos. Consiste en rotar los brazos en movimientos circulares, que pueden realizarse tanto hacia adelante como hacia atrás.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros y los brazos extendidos hacia los lados a la altura de los hombros.",
+    "Mantén las palmas hacia abajo y los brazos paralelos al suelo.",
+    "Comienza a hacer pequeños círculos con los brazos rotándolos hacia adelante.",
+    "Aumenta gradualmente el tamaño de los círculos mientras mantienes el control y la estabilidad.",
+    "Después de completar un número determinado de rotaciones, invierte la dirección y realiza círculos hacia atrás.",
+    "Mantén un patrón de respiración constante durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Activa tus músculos del core para mantener el equilibrio y la estabilidad durante el ejercicio.",
+    "Mantén tus movimientos controlados para evitar forzar las articulaciones de los hombros.",
+    "Comienza con círculos más pequeños para calentar los músculos antes de avanzar a círculos más grandes.",
+    "Concéntrate en movimientos suaves y fluidos en lugar de velocidad para maximizar la efectividad.",
+    "Asegúrate de que tus hombros permanezcan relajados y no se encorven hacia tus orejas.",
+    "Realiza círculos de brazos como parte de una rutina de calentamiento integral para mejorar el rendimiento general del entrenamiento."
+  ],
+  "errores_comunes": [
+    "Rotar los brazos demasiado rápido, lo que lleva a la pérdida de control y una menor activación muscular.",
+    "Usar un rango de movimiento demasiado amplio, causando tensión en las articulaciones del hombro.",
+    "Permitir que los brazos caigan por debajo de la altura de los hombros, reduciendo la efectividad.",
+    "No activar los músculos del core, lo que lleva a una mala postura y equilibrio.",
+    "Mantener los brazos demasiado rígidos, limitando la fluidez y el rango de movimiento.",
+    "No mantener un movimiento circular constante, causando una activación muscular desigual.",
+    "Contener la respiración, lo que puede aumentar la tensión y reducir la resistencia.",
+    "Inclinarse hacia adelante o hacia atrás, interrumpiendo la alineación y activación adecuadas."
+  ]
+}

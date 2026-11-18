@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Piernas Rectas Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-piernas-rectas-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/869b2894-d82f-4f8a-b393-d658a2f6617d.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Elevación de Piernas Rectas Acostado es un ejercicio efectivo que se enfoca en los músculos abdominales inferiores. Consiste en levantar las piernas mientras estás acostado boca arriba, involucrando el núcleo para estabilizar el cuerpo y controlar el movimiento. Este ejercicio ayuda a mejorar la fuerza y estabilidad del núcleo.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas y los brazos a los lados, con las palmas hacia abajo.",
+    "Mantén las piernas rectas y juntas, luego levántalas lentamente hacia el techo mientras mantienes el núcleo comprometido.",
+    "Levanta las piernas hasta que formen un ángulo de 90 grados con tu torso o tan alto como puedas sin levantar la parte baja de la espalda del suelo.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tu núcleo permanezca apretado.",
+    "Baja lentamente las piernas de nuevo a la posición inicial, manteniendo el control y evitando caídas repentinas.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la parte baja de tu espalda presionada contra la colchoneta durante todo el ejercicio para evitar tensión.",
+    "Activa tus músculos del core tirando de tu ombligo hacia tu columna vertebral.",
+    "Exhala al levantar las piernas e inhala al bajarlas.",
+    "Si te resulta difícil mantener las piernas rectas, dobla ligeramente las rodillas para reducir la tensión.",
+    "Comienza con un rango de movimiento más pequeño si eres principiante y aumenta gradualmente a medida que adquieras fuerza.",
+    "Evita usar el impulso; concéntrate en movimientos lentos y controlados para una efectividad máxima."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, lo que reduce el compromiso del core.",
+    "Levantar las piernas demasiado alto, causando que la pelvis se incline y se desactiven los abdominales.",
+    "Usar el impulso para balancear las piernas en lugar de un movimiento controlado.",
+    "No mantener las piernas rectas, doblar las rodillas durante el levantamiento.",
+    "No comprometer los músculos del core, depender de los flexores de la cadera en su lugar.",
+    "Permitir que los pies toquen el suelo entre repeticiones, perdiendo tensión.",
+    "Levantar la cabeza o los hombros del suelo, forzando el cuello.",
+    "Respirar incorrectamente, contener la respiración en lugar de exhalar durante el levantamiento."
+  ]
+}

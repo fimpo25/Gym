@@ -1,0 +1,49 @@
+{
+  "nombre": "Caminata Monster hacia Adelante con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/forward-band-monster-walk",
+  "video_url": "https://api.smartworkout.app/asset/video/345c5a82-61eb-496b-a488-597f0da2f7e4.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "BALANCE",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Forward Band Monster Walk is a lower body exercise that targets the gluteus medius, hip abductors, and stabilizers. It involves walking forward with a resistance band placed around the legs, typically just above the knees, to create tension and activate the muscles effectively.",
+  "como_realizar": [
+    "Place a resistance band around your legs, just above your knees.",
+    "Stand with your feet shoulder-width apart and slightly bend your knees.",
+    "Engage your core and keep your chest up.",
+    "Step forward with your right foot, maintaining tension in the band.",
+    "Follow with your left foot, keeping the band taut throughout.",
+    "Continue walking forward for the desired number of steps or distance.",
+    "Maintain a controlled pace and avoid letting your knees collapse inward."
+  ],
+  "consejos": [
+    "Ensure the resistance band is tight enough to provide adequate tension without restricting movement.",
+    "Focus on keeping your knees aligned with your toes to prevent inward collapse.",
+    "Maintain an upright posture with a slight forward lean to engage the core effectively.",
+    "Perform the exercise slowly to maximize muscle activation and control.",
+    "If you feel discomfort in your knees, try adjusting the band's position or reducing its tension."
+  ],
+  "errores_comunes": [
+    "Allowing the knees to cave inward, reducing glute engagement.",
+    "Stepping too wide, causing loss of tension in the band.",
+    "Leaning forward excessively, shifting focus away from the glutes.",
+    "Not keeping feet parallel, leading to improper muscle activation.",
+    "Using a band with too little resistance, minimizing effectiveness.",
+    "Dragging feet instead of lifting, reducing muscle activation.",
+    "Failing to maintain a slight bend in the knees, straining joints.",
+    "Moving too quickly, compromising control and form.",
+    "Not maintaining an upright torso, affecting balance and posture."
+  ]
+}

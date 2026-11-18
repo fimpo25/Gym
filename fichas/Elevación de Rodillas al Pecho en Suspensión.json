@@ -1,0 +1,49 @@
+{
+  "nombre": "Elevación de Rodillas al Pecho en Suspensión",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-rodillas-al-pecho-en-suspension",
+  "video_url": "https://api.smartworkout.app/asset/video/baeb8def-dfaa-46a9-998a-c6129cf21463.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "FOREARMS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El ejercicio de Elevación de Rodillas al Pecho Colgado se enfoca en los músculos abdominales, especialmente en los abdominales inferiores, y también activa los flexores de la cadera. Se realiza colgándose de una barra de dominadas y llevando las rodillas hacia el pecho de manera controlada.",
+  "como_realizar": [
+    "Agarra una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Permite que tu cuerpo cuelgue libremente con los brazos completamente extendidos y los pies fuera del suelo.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Lentamente levanta tus rodillas hacia tu pecho flexionando las caderas y las rodillas.",
+    "Pausa brevemente en la parte superior del movimiento cuando tus muslos estén paralelos al suelo o más altos.",
+    "Baja tus piernas de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de tener un agarre firme en la barra para mantener la estabilidad durante todo el ejercicio.",
+    "Concéntrate en usar tus músculos abdominales para levantar las rodillas en lugar de balancear las piernas.",
+    "Mantén los movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita usar el impulso; esto reduce la efectividad del ejercicio.",
+    "Exhala al levantar las rodillas e inhala al bajarlas de nuevo.",
+    "Si te resulta difícil mantener el cuerpo estable, intenta involucrar ligeramente los omóplatos para obtener soporte adicional."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo excesivamente en lugar de usar movimientos controlados.",
+    "No activar los músculos del core, confiando demasiado en los brazos.",
+    "Llevar las rodillas solo hasta la mitad, sin alcanzar el rango completo de movimiento.",
+    "Arquear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Usar el impulso para levantar las rodillas en lugar de la contracción muscular.",
+    "Dejar que los hombros se encojan hacia las orejas, perdiendo estabilidad escapular.",
+    "No mantener las rodillas juntas, lo que lleva a un compromiso muscular desigual.",
+    "Dejar caer las piernas demasiado rápido en el descenso, arriesgando tensión en la parte baja de la espalda."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Apertura Baja con Mancuerna Unilateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-baja-con-mancuerna-unilateral",
+  "video_url": "https://api.smartworkout.app/asset/video/f3e26a21-190d-409d-893a-298e58c857ee.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura Baja con Mancuerna a un Brazo es un ejercicio de aislamiento que se enfoca en los músculos pectorales, especialmente en la parte inferior del pecho. Implica un movimiento de un solo brazo que ayuda a mejorar la simetría y el control muscular. Este ejercicio también involucra los hombros y los músculos estabilizadores del core.",
+  "como_realizar": [
+    "Comienza seleccionando una mancuerna de peso adecuado y acuéstate en un banco plano con los pies firmemente plantados en el suelo.",
+    "Sujeta la mancuerna en una mano con un agarre neutral (palma hacia adentro) y extiende tu brazo directamente sobre tu pecho.",
+    "Coloca tu otra mano en la cadera o agárrate al banco para mayor estabilidad.",
+    "Con una ligera flexión en el codo, baja lentamente la mancuerna hacia un lado en un movimiento en arco hasta que sientas un estiramiento en el pecho.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurándote de que tu brazo no baje por debajo del nivel del hombro.",
+    "Activa los músculos del pecho para llevar la mancuerna de regreso a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en el codo durante todo el ejercicio para reducir el estrés en la articulación.",
+    "Concéntrate en usar los músculos del pecho para controlar el movimiento en lugar de depender del impulso.",
+    "Mantén el núcleo comprometido para estabilizar el cuerpo y evitar un arqueo excesivo de la espalda.",
+    "Realiza el ejercicio lentamente y con control para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Asegúrate de que tus omóplatos permanezcan retraídos y presionados contra el banco para un mejor soporte."
+  ],
+  "errores_comunes": [
+    "Usar un peso demasiado pesado, lo que lleva a movimientos incontrolados.",
+    "Permitir que el hombro rote hacia adelante, causando tensión.",
+    "No mantener una ligera flexión en el codo, aumentando el estrés en las articulaciones.",
+    "Levantar la mancuerna demasiado alto, reduciendo el compromiso muscular.",
+    "Bajar el brazo demasiado, arriesgando un pinzamiento del hombro.",
+    "No mantener el núcleo comprometido, resultando en una mala estabilidad.",
+    "No mantener la muñeca neutral, lo que lleva a una tensión innecesaria.",
+    "Usar el impulso en lugar de una contracción muscular controlada."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Flexiones Cerradas Tríceps",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexiones-cerradas-(triceps)",
+  "video_url": "https://api.smartworkout.app/asset/video/4e2b04eb-1d5b-43a0-898a-c23d4ad8de63.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La flexión con agarre cerrado es un ejercicio con el peso del cuerpo que se enfoca en los tríceps, el pecho y los hombros. Al colocar las manos más juntas que en una flexión estándar, esta variación pone más énfasis en los tríceps mientras sigue involucrando eficazmente el pecho y los hombros.",
+  "como_realizar": [
+    "Comienza en una posición de plancha con el cuerpo recto desde la cabeza hasta los talones.",
+    "Coloca las manos directamente debajo del pecho, más cerca que el ancho de los hombros.",
+    "Mantén los codos pegados al cuerpo durante todo el movimiento.",
+    "Baja el cuerpo doblando los codos hasta que el pecho casi toque el suelo.",
+    "Empuja con las palmas para extender los brazos y regresar a la posición inicial.",
+    "Mantén una línea recta desde la cabeza hasta los talones durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu núcleo comprometido para mantener una línea recta del cuerpo.",
+    "Asegúrate de que tus codos permanezcan cerca de tus costados para maximizar el compromiso del tríceps.",
+    "Controla el movimiento tanto al bajar como al subir para una mejor activación muscular.",
+    "Si es demasiado desafiante, realiza el ejercicio sobre tus rodillas mientras mantienes la forma adecuada.",
+    "Inhala al bajar y exhala al empujar hacia arriba."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso de los tríceps.",
+    "Codos que se abren excesivamente, aumentando la tensión en los hombros.",
+    "Caderas que se hunden o levantan, comprometiendo la estabilidad del núcleo.",
+    "No bajar el pecho completamente al suelo, limitando el rango de movimiento.",
+    "Permitir que los hombros se encojan, causando tensión en el cuello.",
+    "Apresurarse en las repeticiones, sacrificando el control y la forma.",
+    "No mantener una línea recta desde la cabeza hasta los talones, llevando a una mala postura.",
+    "Manos no alineadas debajo de los hombros, afectando el equilibrio y la efectividad."
+  ]
+}

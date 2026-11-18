@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl Nórdico Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/reverse-nordic-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/9c940613-f1ee-435e-8f81-b8895854ef48.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Kneeling Sissy Squat is a bodyweight exercise that targets the quadriceps, with secondary emphasis on the core and hip flexors. This variation involves kneeling on the ground, which reduces strain on the knees and allows for a greater focus on the quads by isolating them more effectively.",
+  "como_realizar": [
+    "Begin by kneeling on a padded surface with your knees hip-width apart.",
+    "Keep your torso upright and engage your core muscles.",
+    "Cross your arms over your chest or place your hands on your hips for balance.",
+    "Slowly lean back while keeping your hips extended and maintaining a straight line from your knees to your shoulders.",
+    "Lower yourself until you feel a stretch in your quadriceps, ensuring that your back remains straight.",
+    "Pause briefly at the bottom of the movement, then engage your quads to return to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on maintaining a straight line from shoulders to knees throughout the movement to maximize quad engagement.",
+    "Engage your core to prevent arching your back as you lean back.",
+    "Start with a small range of motion if you're new to this exercise and gradually increase as you become more comfortable.",
+    "Perform the exercise slowly and with control to ensure proper form and reduce the risk of injury.",
+    "If you experience knee discomfort, ensure that you're not sitting back onto your heels, but rather leaning back while keeping hips extended."
+  ],
+  "errores_comunes": [
+    "Leaning back too quickly, losing control and risking lower back strain.",
+    "Failing to engage the core, leading to excessive arching of the lower back.",
+    "Allowing the hips to drop, reducing the effectiveness of the exercise.",
+    "Not maintaining a straight line from knees to shoulders, compromising form.",
+    "Overextending the knees, increasing stress on the joint.",
+    "Using momentum to return to the starting position instead of controlled movement.",
+    "Neglecting to activate the quadriceps, reducing muscle engagement.",
+    "Positioning the feet too far apart, which can destabilize the movement.",
+    "Rushing through repetitions, which can lead to improper form and reduced benefits."
+  ]
+}

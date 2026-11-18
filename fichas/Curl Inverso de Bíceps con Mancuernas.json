@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl Inverso de Bíceps con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-inverso-de-biceps-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/b4f1df3d-dc09-43cc-830c-8d91e96c4451.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS"
+  ],
+  "descripcion": "El Curl Inverso de Bíceps con Mancuernas es un ejercicio que se enfoca en el bíceps braquial, con énfasis en los músculos braquial y braquiorradial. Esta variación implica un agarre en pronación, lo que desvía parte del enfoque del bíceps hacia los músculos del antebrazo, proporcionando un entrenamiento equilibrado para los brazos.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano con un agarre prono (palmas hacia abajo).",
+    "Mantén los codos cerca de tu torso y los brazos superiores estacionarios durante todo el movimiento.",
+    "Exhala mientras levantas las pesas hacia arriba doblando los codos, manteniendo las muñecas rectas.",
+    "Continúa levantando hasta que tus antebrazos estén verticales o ligeramente más allá, asegurando la máxima contracción de los bíceps.",
+    "Inhala mientras bajas lentamente las mancuernas de nuevo a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado para maximizar el compromiso muscular y minimizar el impulso.",
+    "Concéntrate en mantener tus muñecas rectas para evitar tensiones innecesarias y asegurar una forma adecuada.",
+    "Activa tu núcleo para estabilizar tu cuerpo y evitar balanceos durante el ejercicio.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Asegúrate de un rango completo de movimiento extendiendo y contrayendo completamente tus brazos con cada repetición."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar las pesas en lugar de un movimiento controlado.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del torso.",
+    "No extender completamente los brazos en la parte inferior del movimiento.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales.",
+    "Inclinarse hacia atrás excesivamente para levantar pesas más pesadas.",
+    "Involucrar los hombros en lugar de aislar los bíceps.",
+    "No mantener un ritmo constante durante todo el ejercicio.",
+    "Usar un ancho de agarre incorrecto que reduce la activación del bíceps.",
+    "No mantener la espalda recta, lo que lleva a una mala postura."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Estiramiento Global",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/estiramiento-global",
+  "video_url": "https://api.smartworkout.app/asset/video/a9fe5358-5acd-41be-888f-08c2d4787f8c.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "El Mejor Estiramiento del Mundo es un ejercicio dinámico que trabaja múltiples grupos musculares, mejorando la flexibilidad, la movilidad y el movimiento funcional en general. Es especialmente efectivo para calentar el cuerpo antes de un entrenamiento, enfocándose en las caderas, los isquiotibiales, la columna torácica y los hombros.",
+  "como_realizar": [
+    "Comienza en una posición de pie con los pies separados al ancho de las caderas.",
+    "Da un paso hacia adelante con tu pie derecho en una posición de zancada profunda, manteniendo la pierna izquierda extendida detrás de ti.",
+    "Coloca ambas manos en el suelo dentro de tu pie derecho.",
+    "Baja la rodilla izquierda al suelo y mantén la rodilla derecha alineada sobre tu tobillo derecho.",
+    "Gira tu torso hacia la derecha y extiende tu brazo derecho hacia el techo, siguiendo tu mano con la mirada.",
+    "Mantén esta posición por unos segundos, luego regresa tu mano al suelo.",
+    "Desplaza tu peso hacia atrás para estirar el isquiotibial derecho enderezando tu pierna derecha mientras mantienes la rodilla izquierda en el suelo.",
+    "Regresa a la posición inicial y repite en el lado opuesto."
+  ],
+  "consejos": [
+    "Asegúrate de que tu rodilla delantera no se extienda más allá de tus dedos del pie para proteger la articulación de la rodilla.",
+    "Activa tu núcleo durante todo el movimiento para mantener el equilibrio y la estabilidad.",
+    "Concéntrate en una respiración controlada; inhala al rotar y exhala al regresar a la posición inicial.",
+    "Mantén la espalda recta y evita redondear los hombros durante el estiramiento.",
+    "Realiza el estiramiento de manera lenta y deliberada para maximizar las ganancias de flexibilidad."
+  ],
+  "errores_comunes": [
+    "No mantener una línea recta desde la cabeza hasta el talón durante la posición de plancha.",
+    "Permitir que las caderas se hundan o se eleven demasiado en la posición de plancha.",
+    "No extender completamente la pierna trasera durante la zancada.",
+    "No mantener la rodilla delantera alineada sobre el tobillo en la zancada.",
+    "Rotar el torso sin involucrar los músculos del core.",
+    "Permitir que los hombros se encojan o se tensen durante el alcance del brazo.",
+    "Realizar el estiramiento demasiado rápido, reduciendo el control y la efectividad.",
+    "No respirar de manera constante, lo que lleva a tensión y reducción del rango de movimiento."
+  ]
+}

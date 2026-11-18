@@ -1,0 +1,39 @@
+{
+  "nombre": "Fondos Lastrados",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/fondos-lastrados",
+  "video_url": "https://api.smartworkout.app/asset/video/00807615-ad39-4288-9b27-b33d9e3c7eb3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los fondos con peso son un ejercicio compuesto que se enfoca en el pecho, los tríceps y los hombros. Al añadir peso, aumentas la resistencia, mejorando la fuerza muscular y la hipertrofia. Este ejercicio se realiza utilizando barras paralelas y peso adicional, generalmente sujeto a un cinturón de fondos.",
+  "como_realizar": [
+    "Asegura un disco de pesas a un cinturón de inmersión y ajústalo alrededor de tu cintura.",
+    "Agarra firmemente las barras paralelas con las palmas hacia adentro.",
+    "Levántate del suelo enderezando los brazos y soporta el peso de tu cuerpo.",
+    "Inclínate ligeramente hacia adelante para comprometer más efectivamente los músculos del pecho.",
+    "Baja tu cuerpo doblando los codos hasta que tus brazos superiores estén paralelos al suelo.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Empuja a través de tus palmas para extender los brazos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus hombros estén retraídos y hacia abajo para proteger las articulaciones del hombro.",
+    "Mantén una ligera inclinación hacia adelante para apuntar más eficazmente a los músculos del pecho.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para mayor estabilidad.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener la tensión en los músculos.",
+    "Controla el descenso para prevenir la tensión en las articulaciones del hombro.",
+    "Comienza con pesos más ligeros para dominar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": []
+}

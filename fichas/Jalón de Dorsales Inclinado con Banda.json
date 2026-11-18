@@ -1,0 +1,49 @@
+{
+  "nombre": "Jalón de Dorsales Inclinado con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/band-bent-over-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/494fc248-87a5-4e26-9ebf-dc27f1e71ae4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Band Bent Over Lat Pulldown is an exercise targeting the latissimus dorsi muscles, utilizing resistance bands to simulate the motion of a traditional lat pulldown. This exercise is performed in a bent-over position, engaging the core and stabilizing muscles for improved posture and strength.",
+  "como_realizar": [
+    "Secure a resistance band to a stable anchor point above head height.",
+    "Stand with feet shoulder-width apart and hold the band handles with an overhand grip.",
+    "Bend at the hips, keeping your back straight and knees slightly bent, until your torso is nearly parallel to the ground.",
+    "Extend your arms fully in front of you, keeping tension on the band.",
+    "Pull the band down towards your hips by driving your elbows back and squeezing your shoulder blades together.",
+    "Pause briefly at the bottom of the movement, ensuring maximum contraction in the lats.",
+    "Slowly return to the starting position with controlled movement.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to prevent lower back strain.",
+    "Engage your core muscles to stabilize your body during the movement.",
+    "Focus on pulling with your elbows rather than your hands to better engage the lat muscles.",
+    "Ensure that there is constant tension on the band throughout the exercise for maximum effectiveness.",
+    "Control both phases of the movement—pulling down and returning up—to maximize muscle engagement.",
+    "Keep your neck relaxed and avoid shrugging your shoulders during the exercise."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of keeping a neutral spine.",
+    "Pulling with the arms rather than engaging the lats.",
+    "Allowing the band to go slack at the top of the movement.",
+    "Using momentum instead of controlled movement.",
+    "Standing too upright, reducing the effectiveness of the exercise.",
+    "Not hinging properly at the hips, leading to poor form.",
+    "Failing to keep shoulders down and away from ears.",
+    "Overextending the elbows at the bottom of the pulldown.",
+    "Improper grip width, either too narrow or too wide.",
+    "Neglecting to brace the core throughout the exercise."
+  ]
+}

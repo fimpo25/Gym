@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Bíceps con Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-agarre-cerrado",
+  "video_url": "https://api.smartworkout.app/asset/video/1697d9aa-f9f3-43f8-a164-792beb19232c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps con Agarre Cerrado es un ejercicio de aislamiento que se enfoca en el bíceps braquial, enfatizando particularmente la cabeza corta del bíceps. Este ejercicio implica el uso de una barra o una barra EZ con un agarre estrecho para maximizar el compromiso del bíceps y minimizar la participación del antebrazo.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una barra o barra EZ con un agarre en supinación. Tus manos deben estar posicionadas cerca una de la otra, aproximadamente a 6-8 pulgadas de distancia.",
+    "Mantén los codos cerca de tu torso y una ligera flexión en las rodillas para estabilidad.",
+    "Exhala mientras levantas la barra hacia arriba flexionando los codos, manteniendo los brazos superiores estacionarios. Concéntrate en contraer los bíceps durante todo el movimiento.",
+    "Continúa levantando hasta que tus bíceps estén completamente contraídos y la barra esté a nivel de los hombros.",
+    "Haz una breve pausa en la parte superior del movimiento, luego inhala mientras bajas lentamente la barra de regreso a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea estrecho pero cómodo para evitar una tensión innecesaria en las muñecas.",
+    "Mantén los codos pegados y estacionarios para aislar efectivamente los bíceps.",
+    "Concéntrate en un movimiento lento y controlado para maximizar la tensión muscular y evitar usar el impulso.",
+    "Mantén una columna neutral y activa tu núcleo durante todo el ejercicio para apoyar una postura adecuada.",
+    "Evita bloquear los codos en la parte inferior del movimiento para mantener una tensión constante en los bíceps.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a movimientos de balanceo o sacudidas.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "No extender completamente los brazos en la parte inferior del curl.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales, causando tensión.",
+    "Inclinarse hacia atrás excesivamente, desviando el enfoque de los bíceps a la espalda.",
+    "Mover los codos hacia adelante durante el curl, reduciendo la tensión en los bíceps.",
+    "Apresurarse en las repeticiones, sacrificando el control y la forma.",
+    "No mantener un ancho de agarre consistente, afectando la activación muscular."
+  ]
+}

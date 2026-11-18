@@ -1,0 +1,42 @@
+{
+  "nombre": "Crunch con Brazo Recto y Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-con-brazo-recto-y-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/c014bfaf-4c7c-4d2d-9611-269045756e2a.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch con Brazos Rectos y Peso es un ejercicio abdominal que se enfoca en el recto abdominal y los oblicuos. Esta variación implica sostener un peso sobre el pecho con los brazos rectos, aumentando la resistencia y la intensidad.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las rodillas dobladas y los pies planos en el suelo.",
+    "Sujeta un disco de pesas o una mancuerna con ambas manos, extendiendo los brazos rectos por encima de tu pecho.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Levanta tus hombros y la parte superior de tu espalda del suelo, manteniendo los brazos rectos y alcanzando hacia el techo.",
+    "Mantén la contracción en la parte superior por un momento, luego baja lentamente de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los brazos rectos pero no bloqueados para evitar la tensión en las articulaciones.",
+    "Concéntrate en usar tus músculos abdominales para levantar, no tu cuello o brazos.",
+    "Exhala al levantar y inhala al bajar de nuevo.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a pesos más pesados.",
+    "Mantén un movimiento lento y controlado durante todo el ejercicio para maximizar el compromiso muscular."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para balancear el peso en lugar de comprometer los músculos del core.",
+    "Permitir que la parte baja de la espalda se levante del suelo, reduciendo el compromiso abdominal.",
+    "Sostener el peso demasiado hacia atrás, causando tensión en los hombros y reduciendo la activación del core.",
+    "Doblar los codos, lo que desvía el enfoque del core hacia los brazos.",
+    "Levantar los hombros demasiado alto, causando tensión en el cuello y reduciendo el aislamiento del core.",
+    "Moverse demasiado rápido, lo que compromete el control y la efectividad del ejercicio.",
+    "No mantener la cabeza alineada con la columna, lo que lleva a molestias en el cuello.",
+    "No extender completamente los brazos, disminuyendo el rango de movimiento y el compromiso del core."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Curl de Arrastre con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-arrastre-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/64fd3334-fd85-4118-9d1a-a408bcfffeb5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Arrastre con Barra es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Destaca la cabeza larga del bíceps al minimizar la participación del hombro y centrarse en la flexión del codo. Este ejercicio se realiza con una barra y requiere una forma estricta para maximizar el compromiso del bíceps y minimizar el impulso.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una barra con un agarre en supinación (palmas hacia arriba) a la altura de la cadera.",
+    "Mantén los codos cerca de tu torso y ligeramente detrás de tu cuerpo durante todo el movimiento.",
+    "Inicia el curl arrastrando la barra hacia arriba a lo largo de tu cuerpo, manteniéndola lo más cerca posible de tu torso.",
+    "Concéntrate en contraer tus bíceps para levantar la barra, asegurándote de que tus hombros permanezcan inmóviles.",
+    "Continúa levantando hasta que la barra alcance el nivel del pecho o tan alto como sea cómodamente posible sin mover los hombros hacia adelante.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tus bíceps.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control y manteniéndola cerca de tu cuerpo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una postura recta durante todo el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Evita usar impulso; concéntrate en un movimiento lento y controlado para maximizar la activación del bíceps.",
+    "Mantén los codos ligeramente detrás de tu cuerpo para enfatizar la cabeza larga de los bíceps.",
+    "Asegúrate de que tus hombros no se muevan hacia adelante durante el curl para aislar efectivamente los bíceps.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Activa tus músculos del core para estabilizar tu cuerpo durante el levantamiento.",
+    "Exhala mientras levantas la barra e inhala mientras la bajas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se muevan hacia adelante en lugar de mantenerlos bloqueados a los lados.",
+    "Usar el impulso balanceando el cuerpo o inclinándose hacia atrás para levantar la barra.",
+    "Levantar la barra demasiado alto, haciendo que los hombros se involucren en lugar de aislar los bíceps.",
+    "No mantener la barra cerca del cuerpo durante todo el movimiento.",
+    "Agarrar la barra demasiado ancho, lo que puede reducir el compromiso del bíceps y aumentar la participación del hombro.",
+    "Usar un peso demasiado pesado, lo que lleva a una forma y control comprometidos.",
+    "No mantener una posición recta de la muñeca, lo que puede causar tensión en la muñeca.",
+    "Apresurarse en el movimiento, reduciendo el tiempo bajo tensión para los bíceps.",
+    "Descuidar contraer completamente los bíceps en la parte superior del movimiento."
+  ]
+}

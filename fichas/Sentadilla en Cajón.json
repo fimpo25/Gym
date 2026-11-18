@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla en Cajón",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/box-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/f49ae37e-88ad-4fcf-ae51-e3e888076b48.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Box Squat is a strength training exercise that targets the quadriceps, hamstrings, glutes, and lower back. It involves squatting down to a box or bench, which helps in maintaining proper form and depth. This exercise is particularly useful for improving squat technique, building power, and enhancing overall lower body strength.",
+  "como_realizar": [
+    "Position a box or bench behind you at a height where your thighs are parallel to the ground when seated.",
+    "Stand with your feet shoulder-width apart, toes slightly pointed out.",
+    "Hold a barbell across your upper back with an overhand grip, keeping your chest up and core engaged.",
+    "Initiate the movement by pushing your hips back and bending your knees to lower yourself towards the box.",
+    "Descend under control until you lightly touch the box with your glutes, ensuring not to sit or rest on it.",
+    "Drive through your heels to return to the starting position, extending your hips and knees fully."
+  ],
+  "consejos": [
+    "Ensure the box height allows for proper squat depth without compromising form.",
+    "Focus on maintaining a neutral spine throughout the movement.",
+    "Keep your core tight to support your lower back and prevent rounding.",
+    "Control the descent to avoid crashing onto the box; aim for a gentle touch.",
+    "Engage your glutes and hamstrings as you push through your heels to stand up.",
+    "Keep your knees aligned with your toes to prevent inward collapse."
+  ],
+  "errores_comunes": [
+    "Not sitting back far enough, leading to excessive knee forward movement.",
+    "Allowing knees to cave inward instead of tracking over toes.",
+    "Failing to maintain a neutral spine, resulting in rounding of the lower back.",
+    "Bouncing off the box instead of pausing and controlling the descent.",
+    "Using a box that is too high, limiting the range of motion.",
+    "Not engaging the core, leading to instability and loss of balance.",
+    "Rising onto toes instead of keeping weight on heels and mid-foot.",
+    "Standing up without driving through the hips, relying too much on the quads.",
+    "Using momentum to stand up instead of controlled muscle engagement.",
+    "Placing feet too close together, reducing stability and power."
+  ]
+}

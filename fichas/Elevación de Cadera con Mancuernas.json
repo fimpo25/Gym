@@ -1,0 +1,51 @@
+{
+  "nombre": "Elevación de Cadera con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/elevacion-de-cadera-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/a72f7404-e861-484b-800f-ad61e25ffcf2.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Empuje de Cadera con Mancuernas es un ejercicio para la parte inferior del cuerpo que se enfoca principalmente en el glúteo mayor, mientras también involucra los isquiotibiales y el core. Consiste en levantar las caderas del suelo impulsando a través de los talones, con una mancuerna colocada sobre las caderas para añadir resistencia. Este ejercicio es efectivo para desarrollar fuerza y masa muscular en los glúteos.",
+  "como_realizar": [
+    "Siéntate en el suelo con la parte superior de la espalda apoyada contra un banco, las rodillas dobladas y los pies planos en el suelo.",
+    "Coloca una mancuerna horizontalmente sobre tus caderas, sujetándola firmemente con ambas manos.",
+    "Activa tu núcleo y empuja con los talones para levantar tus caderas hacia el techo.",
+    "En la parte superior del movimiento, tu cuerpo debe formar una línea recta desde los hombros hasta las rodillas.",
+    "Aprieta los glúteos en la parte superior y mantén la posición por un momento.",
+    "Baja lentamente las caderas de nuevo a la posición inicial sin tocar el suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la parte superior de tu espalda esté firmemente presionada contra el banco para mayor estabilidad.",
+    "Mantén la barbilla hacia abajo para mantener una columna neutral durante todo el movimiento.",
+    "Concéntrate en apretar los glúteos en la parte superior de cada repetición para maximizar la activación.",
+    "Evita arquear la parte baja de la espalda; mantén el compromiso del core para protegerla.",
+    "Comienza con una mancuerna más ligera para dominar la forma antes de aumentar el peso.",
+    "Controla tanto el ascenso como el descenso de cada repetición para un compromiso muscular óptimo."
+  ],
+  "errores_comunes": [
+    "Colocar la mancuerna demasiado alta o demasiado baja en las caderas, provocando desequilibrio y efectividad reducida.",
+    "No alinear los hombros con el banco, causando una distribución desigual de la fuerza.",
+    "Permitir que las rodillas se inclinen hacia adentro, reduciendo la activación de los glúteos.",
+    "Hiperextender la parte baja de la espalda en la parte superior del movimiento, aumentando el riesgo de lesión.",
+    "No lograr una extensión completa de la cadera, limitando el compromiso de los glúteos.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo la activación muscular.",
+    "Colocar los pies demasiado lejos del cuerpo, desviando el enfoque de los glúteos.",
+    "Apresurarse en el ejercicio sin un ritmo controlado, disminuyendo la efectividad.",
+    "No mantener la barbilla recogida, provocando tensión en el cuello.",
+    "Permitir que los talones se levanten del suelo, reduciendo la estabilidad y la potencia."
+  ]
+}

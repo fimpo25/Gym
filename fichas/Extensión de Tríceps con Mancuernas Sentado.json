@@ -1,0 +1,42 @@
+{
+  "nombre": "Extensión de Tríceps con Mancuernas Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-mancuernas-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/5cd8faa4-bb41-4bb4-bbda-0aa6146f696b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps Sentado con Mancuerna es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos por encima de la cabeza mientras estás sentado, utilizando una mancuerna para añadir resistencia. Este ejercicio enfatiza la cabeza larga del tríceps y ayuda a desarrollar la fuerza y el tamaño de los brazos.",
+  "como_realizar": [
+    "Siéntate en un banco con respaldo, pies planos en el suelo.",
+    "Sujeta una mancuerna con ambas manos, palmas hacia arriba, y levántala por encima de la cabeza hasta que tus brazos estén completamente extendidos.",
+    "Mantén los codos cerca de tu cabeza y estacionarios durante todo el movimiento.",
+    "Baja lentamente la mancuerna detrás de tu cabeza doblando los codos, manteniendo los brazos superiores quietos.",
+    "Haz una pausa breve en la parte inferior del movimiento, luego extiende tus brazos para volver a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa un peso que te permita mantener la forma adecuada durante todo el ejercicio.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y evitar arquear la espalda.",
+    "Evita abrir los codos hacia afuera para asegurar el máximo compromiso de los tríceps.",
+    "Realiza el movimiento lentamente y con control para maximizar la tensión muscular.",
+    "Inhala al bajar la mancuerna y exhala al extender los brazos hacia arriba."
+  ],
+  "errores_comunes": [
+    "Los codos se abren en lugar de mantenerse cerca de la cabeza, reduciendo el compromiso de los tríceps.",
+    "Arquear la espalda excesivamente, lo que lleva a una mala postura y posible tensión en la parte baja de la espalda.",
+    "Usar demasiado peso, causando un movimiento basado en el impulso en lugar de una extensión controlada.",
+    "No extender completamente los brazos en la parte superior del movimiento, limitando la activación de los tríceps.",
+    "Bajar los codos demasiado, lo que puede reducir la efectividad del ejercicio.",
+    "No mantener el core comprometido, lo que lleva a inestabilidad y pérdida de control.",
+    "Permitir que la mancuerna se desplace hacia atrás, colocando un estrés innecesario en los hombros.",
+    "Apresurarse en las repeticiones, lo que compromete la forma y reduce la tensión muscular."
+  ]
+}

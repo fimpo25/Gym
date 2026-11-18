@@ -1,0 +1,42 @@
+{
+  "nombre": "Elevación de Pantorrilla de Pie con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-standing-calf-raises",
+  "video_url": "https://api.smartworkout.app/asset/video/2c1d9b96-6616-4813-83bf-71943b2ec41d.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Dumbbell Standing Calf Raises target the calf muscles, specifically the gastrocnemius and soleus. This exercise is performed while standing and holding a dumbbell in each hand, providing resistance to enhance muscle growth and strength in the lower legs.",
+  "como_realizar": [
+    "Stand upright with your feet shoulder-width apart. Hold a dumbbell in each hand with your arms hanging naturally by your sides.",
+    "Position your feet so that the balls of your feet are on the edge of a raised platform or step, allowing your heels to hang off.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Slowly raise your heels by extending your ankles as high as possible, contracting your calf muscles at the top of the movement.",
+    "Pause briefly at the top, then slowly lower your heels back to the starting position, allowing them to drop slightly below the platform level for a full stretch.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a controlled motion throughout the exercise to maximize muscle engagement and prevent injury.",
+    "Focus on a full range of motion by fully extending and contracting your calves with each repetition.",
+    "Keep your knees slightly bent to reduce strain on the joints and maintain balance.",
+    "Use a weight that allows you to perform the exercise with proper form without compromising control.",
+    "Inhale as you lower your heels and exhale as you raise them to maintain steady breathing."
+  ],
+  "errores_comunes": [
+    "Using too much weight, causing improper form and reduced range of motion.",
+    "Allowing the heels to drop too low, leading to excessive stretch and potential strain.",
+    "Bouncing at the bottom of the movement instead of controlled lifting.",
+    "Not fully extending the ankles at the top, missing full contraction of the calves.",
+    "Leaning forward or backward, shifting focus away from the calves.",
+    "Failing to maintain a stable core, leading to balance issues.",
+    "Holding dumbbells incorrectly, causing wrist or shoulder strain.",
+    "Rushing through repetitions, reducing muscle engagement."
+  ]
+}

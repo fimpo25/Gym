@@ -1,0 +1,46 @@
+{
+  "nombre": "Crunch Declinado con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-declinado-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/176f118d-4de9-47b6-b93e-cb3aa1493f7b.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch Declinado con Peso es un ejercicio avanzado para los abdominales que se enfoca en el recto abdominal y los oblicuos. Consiste en realizar un crunch en un banco declinado mientras se sostiene un disco de pesas o una mancuerna, aumentando la resistencia y la intensidad.",
+  "como_realizar": [
+    "Configura un banco declinado a un ángulo moderado, típicamente entre 30 a 45 grados.",
+    "Siéntate en el banco y asegura tus pies bajo las almohadillas para garantizar estabilidad.",
+    "Sujeta un disco de peso o una mancuerna contra tu pecho con ambas manos.",
+    "Recuéstate hasta que la parte superior de tu cuerpo esté paralela al banco, manteniendo una ligera flexión en tus rodillas.",
+    "Activa los músculos del core y levanta la parte superior de tu cuerpo hacia tus rodillas de manera controlada.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción de los músculos abdominales.",
+    "Baja lentamente la parte superior de tu cuerpo de regreso a la posición inicial sin dejar que tu espalda se arquee excesivamente.",
+    "Repite para el número deseado de repeticiones, manteniendo el control durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Elige un peso adecuado que te desafíe sin comprometer la forma.",
+    "Concéntrate en usar tus músculos abdominales en lugar de tirar con el cuello o los brazos.",
+    "Exhala al subir en el crunch e inhala al regresar a la posición inicial.",
+    "Mantén los movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita usar el impulso; asegúrate de que cada repetición sea deliberada y enfocada.",
+    "Mantén una columna neutral durante el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Comienza con pesos más ligeros si eres nuevo en este ejercicio y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar el torso en lugar de activar los músculos del core.",
+    "Permitir que la placa de peso descanse sobre el pecho, reduciendo el desafío para los abdominales.",
+    "Tirar del cuello hacia adelante con las manos, causando tensión y reduciendo la activación del core.",
+    "Subir demasiado alto, lo que desvía la tensión de los abdominales hacia los flexores de la cadera.",
+    "No mantener la parte baja de la espalda en contacto con el banco, lo que lleva a una forma incorrecta.",
+    "Contener la respiración, lo que puede aumentar la presión arterial y reducir el rendimiento.",
+    "Realizar el movimiento demasiado rápido, sacrificando el control y el compromiso muscular.",
+    "No mantener una columna neutral, lo que puede llevar a molestias y disminuir la efectividad."
+  ]
+}

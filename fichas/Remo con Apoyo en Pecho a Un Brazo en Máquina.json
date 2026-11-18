@@ -1,0 +1,45 @@
+{
+  "nombre": "Remo con Apoyo en Pecho a Un Brazo en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-chest-supported-row-machine",
+  "video_url": "https://api.smartworkout.app/asset/video/2fd35a2b-ac9a-4a3b-8c68-47735e1e95d3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Single Arm Chest Supported Row Machine is a strength training exercise that targets the upper back muscles, particularly the latissimus dorsi, rhomboids, and trapezius. This exercise involves using a machine with a chest pad for support, allowing for isolated rowing movements with one arm at a time. It helps improve muscle balance and coordination while minimizing strain on the lower back.",
+  "como_realizar": [
+    "Adjust the seat and chest pad of the row machine to fit your body size, ensuring your chest is firmly supported.",
+    "Sit on the machine with your feet flat on the floor and your chest against the pad.",
+    "Grasp the handle with one hand, keeping your arm fully extended.",
+    "Engage your core and pull the handle towards your torso by retracting your shoulder blade and bending your elbow.",
+    "Pause briefly when the handle is close to your body, ensuring maximum contraction in the back muscles.",
+    "Slowly extend your arm back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Ensure that your chest remains in contact with the pad throughout the exercise to maintain proper form and support.",
+    "Focus on pulling with your back muscles rather than using your arm to ensure effective engagement of target muscles.",
+    "Keep movements slow and controlled to maximize muscle activation and reduce risk of injury.",
+    "Avoid rotating your torso during the exercise; maintain stability by engaging your core.",
+    "Adjust the weight so that you can complete all repetitions with proper form without straining.",
+    "Breathe out as you pull the handle towards you and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to poor form and momentum-based movement.",
+    "Allowing the shoulder to roll forward instead of keeping it retracted.",
+    "Not maintaining a neutral spine and letting the back arch excessively.",
+    "Pulling with the bicep instead of focusing on engaging the back muscles.",
+    "Leaning too far forward or backward, losing chest contact with the pad.",
+    "Not fully extending the arm at the bottom of the movement.",
+    "Using a jerking motion instead of controlled, smooth movement.",
+    "Neglecting to keep the core engaged for stability.",
+    "Twisting the torso instead of keeping it aligned and stable."
+  ]
+}

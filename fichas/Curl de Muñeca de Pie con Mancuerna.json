@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl de Muñeca de Pie con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-de-pie-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/671aad72-9577-45f3-8ba5-41957dbc6189.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca de Pie con Mancuernas es un ejercicio de aislamiento que se centra en los flexores del antebrazo. Consiste en flexionar la muñeca mientras se sostiene una mancuerna, enfocándose en fortalecer y aumentar la resistencia de los músculos del antebrazo.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano con un agarre supino.",
+    "Coloca tus brazos a los lados, permitiendo que tus muñecas cuelguen justo frente a tus muslos.",
+    "Mantén tus codos cerca de tu cuerpo y estacionarios durante todo el movimiento.",
+    "Lentamente riza tus muñecas hacia arriba, contrayendo los músculos del antebrazo.",
+    "Pausa brevemente en la parte superior del movimiento para una contracción máxima.",
+    "Baja las mancuernas de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea firme pero no demasiado apretado para evitar tensión innecesaria en las manos.",
+    "Concéntrate en usar solo tu muñeca para levantar el peso, manteniendo tus brazos y codos estacionarios.",
+    "Realiza el movimiento lentamente para maximizar el compromiso muscular y el control.",
+    "Evita usar el impulso; controla tanto la fase ascendente como la descendente del curl.",
+    "Comienza con pesos más ligeros para perfeccionar la forma antes de avanzar a mancuernas más pesadas.",
+    "Mantén una columna neutral y evita inclinarte hacia adelante o hacia atrás durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a una mala forma y a una reducción del rango de movimiento.",
+    "Permitir que los codos se abran, reduciendo el aislamiento de la muñeca.",
+    "Doblar excesivamente las muñecas, causando tensión y posible incomodidad.",
+    "No mantener una postura estable y erguida, afectando el equilibrio y el control.",
+    "Mover los hombros o los brazos superiores, reduciendo el compromiso de la muñeca.",
+    "Realizar el movimiento demasiado rápido, llevando a un levantamiento basado en el impulso en lugar de en el compromiso muscular.",
+    "No extender completamente las muñecas en la parte inferior del movimiento, limitando el rango completo de movimiento.",
+    "Agarrar las mancuernas demasiado fuerte, causando tensión innecesaria en los antebrazos."
+  ]
+}

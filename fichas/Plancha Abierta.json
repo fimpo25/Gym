@@ -1,0 +1,55 @@
+{
+  "nombre": "Plancha Abierta",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/plancha-abierta",
+  "video_url": "https://api.smartworkout.app/asset/video/7a83fd9b-36b8-4d53-a758-695f1de5f869.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Plancha Abierta es un ejercicio avanzado de peso corporal que requiere una fuerza, equilibrio y coordinación significativos. Consiste en mantener el cuerpo paralelo al suelo con los brazos rectos y las piernas separadas, sostenido únicamente por las manos. Este ejercicio se enfoca principalmente en los músculos de los hombros, el core y la parte baja de la espalda.",
+  "como_realizar": [
+    "Comienza en una posición de flexión con las manos separadas al ancho de los hombros.",
+    "Desplaza tu peso hacia adelante sobre tus manos, manteniendo los brazos rectos.",
+    "Activa tu núcleo y levanta las piernas del suelo, separándolas en una posición de apertura.",
+    "Mantén una línea recta desde la cabeza hasta los dedos de los pies, manteniendo el cuerpo paralelo al suelo.",
+    "Mantén la posición el mayor tiempo posible mientras mantienes la forma adecuada.",
+    "Baja lentamente las piernas al suelo para volver a la posición inicial."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas estén directamente debajo de tus hombros para un soporte óptimo.",
+    "Mantén tu núcleo apretado para mantener el equilibrio y prevenir que te hundas.",
+    "Comienza con progresiones de plancha en tuck si eres nuevo en los ejercicios de plancha.",
+    "Practica regularmente para desarrollar la fuerza y el equilibrio necesarios para este movimiento avanzado.",
+    "Concéntrate en una respiración controlada para ayudar a mantener la estabilidad durante la posición.",
+    "Considera usar paralelas para mayor comodidad de las muñecas y apalancamiento."
+  ],
+  "errores_comunes": [
+    "Caderas demasiado altas, creando una posición de pica en lugar de una línea corporal plana.",
+    "Codos doblados, reduciendo la estabilidad y aumentando la tensión en las articulaciones.",
+    "Hombros no protractados, lo que lleva a un mal compromiso escapular.",
+    "Pies demasiado juntos, perdiendo la posición de straddle y el equilibrio.",
+    "Núcleo no comprometido, causando hundimiento en la parte baja de la espalda.",
+    "Muñecas no alineadas bajo los hombros, comprometiendo el equilibrio y el control.",
+    "Falta de inclinación hacia adelante, impidiendo una distribución adecuada del peso.",
+    "Rodillas dobladas, interrumpiendo la alineación de las piernas rectas necesaria para el ejercicio.",
+    "Tensión inadecuada en las piernas, reduciendo la rigidez general del cuerpo."
+  ]
+}

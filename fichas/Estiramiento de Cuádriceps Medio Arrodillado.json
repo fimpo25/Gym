@@ -1,0 +1,45 @@
+{
+  "nombre": "Estiramiento de Cuádriceps Medio Arrodillado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/half-kneeling-quad-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/9811921a-a1fd-47dd-956d-0b101242f966.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Half Kneeling Quad Stretch is a flexibility exercise targeting the quadriceps muscles. It is performed in a half-kneeling position, which allows for a deep stretch of the front thigh muscles while also engaging the hip flexors. This stretch is beneficial for improving flexibility, reducing muscle tightness, and enhancing overall lower body mobility.",
+  "como_realizar": [
+    "Begin in a half-kneeling position with your right knee on the ground and your left foot flat in front of you, forming a 90-degree angle at both knees.",
+    "Keep your torso upright and engage your core muscles to maintain balance.",
+    "Reach back with your right hand and gently grasp your right ankle or foot.",
+    "Slowly pull your right foot towards your glutes, feeling a stretch in the front of your right thigh.",
+    "Hold the stretch for 20-30 seconds, ensuring you maintain steady breathing.",
+    "Release the stretch and switch sides to repeat with the left leg."
+  ],
+  "consejos": [
+    "Ensure your front knee is aligned over your ankle to maintain proper form and prevent strain.",
+    "Keep your hips square and facing forward to maximize the effectiveness of the stretch.",
+    "If you have difficulty reaching your ankle, use a strap or towel looped around your foot for assistance.",
+    "Focus on keeping your back straight and avoid arching to prevent lower back strain.",
+    "Perform this stretch after workouts or during cool-downs to help reduce muscle tightness."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, reducing the stretch on the quad.",
+    "Arching the lower back excessively, causing strain.",
+    "Not keeping the hips square, leading to misalignment.",
+    "Failing to engage the glutes, decreasing stretch effectiveness.",
+    "Allowing the knee of the stretching leg to flare outwards.",
+    "Not maintaining a stable base with the front foot.",
+    "Pulling the foot too aggressively, risking knee strain.",
+    "Neglecting to keep the torso upright and stable.",
+    "Holding the stretch for too short a duration to be effective.",
+    "Allowing the pelvis to tilt anteriorly, reducing stretch intensity."
+  ]
+}

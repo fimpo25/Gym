@@ -1,0 +1,49 @@
+{
+  "nombre": "Apertura de Cable Unilateral de Abajo hacia Arriba",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-cable-unilateral-de-abajo-hacia-arriba",
+  "video_url": "https://api.smartworkout.app/asset/video/ed8f531d-acde-4cc8-acc4-9796e34f42a3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura con Cable de Abajo hacia Arriba con un Brazo es un ejercicio de aislamiento que se enfoca en los músculos pectorales, especialmente en la parte superior del pecho. Consiste en tirar de un cable desde una posición baja hacia una posición alta a través del cuerpo, involucrando el pecho, los hombros y el núcleo para la estabilización. Este ejercicio ayuda a desarrollar la simetría del pecho y a mejorar la definición muscular.",
+  "como_realizar": [
+    "Coloca la polea del cable en la posición más baja y adjunta un solo mango.",
+    "Párate de lado a la máquina de cables con los pies separados al ancho de los hombros.",
+    "Agarra el mango con una mano, manteniendo el brazo extendido pero ligeramente doblado en el codo.",
+    "Coloca tu cuerpo de manera que tu brazo de trabajo esté cruzado frente a tu cuerpo a nivel de la cadera.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas para mayor estabilidad.",
+    "Exhala mientras tiras del mango hacia arriba y a través de tu cuerpo en un movimiento de barrido hasta que alcance la altura del hombro.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los músculos del pecho.",
+    "Inhala mientras regresas lentamente a la posición inicial, controlando el peso en todo momento.",
+    "Completa el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Concéntrate en usar los músculos del pecho para mover el peso en lugar de depender de tus brazos o hombros.",
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y prevenir movimientos innecesarios.",
+    "Ajusta la altura del cable si es necesario para asegurar un rango completo de movimiento sin incomodidad.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Comenzar con el cable demasiado alto, reduciendo el rango de movimiento.",
+    "Permitir que el hombro se levante excesivamente, causando tensión.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Sobreextender el brazo, arriesgando una lesión en el hombro.",
+    "Girar el torso en lugar de aislar el movimiento del brazo.",
+    "No mantener una ligera flexión en el codo, causando estrés en la articulación.",
+    "Descuidar colocar los pies en una postura estable, afectando el equilibrio.",
+    "Dejar que la muñeca se doble, reduciendo la tensión en el músculo objetivo.",
+    "Tirar con el bíceps en lugar de enfocarse en la contracción del pecho."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Press Francés con Barra en Banco Declinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/press-frances-con-barra-en-banco-declinado",
+  "video_url": "https://api.smartworkout.app/asset/video/3fbeb75c-a067-4be2-830d-cb1319440a97.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Press Francés con Barra en Banco Declinado es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Realizado en un banco declinado, este ejercicio enfatiza la cabeza larga del tríceps al aumentar el rango de movimiento y proporcionar un ángulo de resistencia único. Es efectivo para desarrollar masa y fuerza en los tríceps.",
+  "como_realizar": [
+    "Ajusta un banco declinado a un ángulo moderado y asegura tus pies bajo las almohadillas para los pies.",
+    "Recuéstate en el banco con la cabeza más baja que los pies, asegurándote de que tu espalda esté apoyada.",
+    "Sujeta una barra con un agarre por encima del hombro (palmas hacia afuera).",
+    "Extiende completamente tus brazos sobre tu pecho, manteniendo una ligera flexión en los codos para mantener la tensión.",
+    "Inhala y baja lentamente la barra hacia tu frente doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Pausa brevemente cuando la barra esté justo por encima de tu frente o ligeramente detrás de ella.",
+    "Exhala y presiona la barra de regreso a la posición inicial extendiendo los codos, enfocándote en contraer tus tríceps.",
+    "Repite el número deseado de repeticiones mientras mantienes el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tu cabeza durante todo el movimiento para maximizar el compromiso del tríceps.",
+    "Evita abrir los codos hacia afuera para prevenir la tensión en los hombros y mantener el enfoque en los tríceps.",
+    "Controla el descenso de la barra para evitar golpear tu frente y asegurar que se mantenga la tensión muscular.",
+    "Usa un observador si levantas pesado para asegurar la seguridad y la forma adecuada.",
+    "Calienta a fondo antes de realizar este ejercicio para prevenir la tensión en la articulación del codo.",
+    "Concéntrate en movimientos lentos y controlados en lugar de usar el impulso para levantar el peso."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso del tríceps.",
+    "Bajar la barra demasiado, causando incomodidad en los hombros.",
+    "Arquear la espalda excesivamente, llevando a una pobre estabilidad del núcleo.",
+    "Usar el impulso para levantar la barra, comprometiendo el control.",
+    "No mantener una posición consistente de la muñeca, arriesgando tensión en la muñeca.",
+    "Descuidar mantener los codos estacionarios, desviando el enfoque de los tríceps.",
+    "Descender demasiado rápido, reduciendo la tensión muscular.",
+    "Bloquear los codos en la parte superior, disminuyendo el tiempo bajo tensión."
+  ]
+}

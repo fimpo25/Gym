@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Predicador Supinado con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-predicador-supinado-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/5615a074-10b6-4385-afc2-ca5c08c7cca0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps en Banco Scott con Mancuernas y Agarre Supino es un ejercicio de aislamiento que se enfoca en el bíceps braquial, enfatizando específicamente la cabeza corta. Consiste en levantar una mancuerna con un agarre supino (palmas hacia arriba) mientras se está sentado en un banco Scott, lo que estabiliza el brazo superior y minimiza la participación de otros grupos musculares.",
+  "como_realizar": [
+    "Ajusta el banco de predicador para que tus brazos superiores descansen cómodamente en el cojín con tus axilas en el borde superior.",
+    "Siéntate y sostén una mancuerna en una mano con un agarre supinado (palma hacia arriba).",
+    "Extiende completamente tu brazo, permitiendo que la mancuerna cuelgue sin bloquear tu codo.",
+    "Flexiona la mancuerna hacia arriba contrayendo tus bíceps, manteniendo tu brazo superior estacionario contra el cojín.",
+    "Continúa flexionando hasta que tus bíceps estén completamente contraídos y la mancuerna esté a nivel del hombro.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tus bíceps.",
+    "Baja lentamente la mancuerna de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite el número deseado de repeticiones, luego cambia de brazo."
+  ],
+  "consejos": [
+    "Asegúrate de que tus brazos superiores permanezcan en contacto con el cojín durante todo el ejercicio para aislar eficazmente los bíceps.",
+    "Concéntrate en usar un movimiento lento y controlado para maximizar la tensión muscular y evitar que el impulso ayude en el levantamiento.",
+    "Evita bloquear tus codos en la parte inferior del movimiento para mantener una tensión continua en los bíceps.",
+    "Exhala mientras levantas el peso e inhala mientras lo bajas.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a mancuernas más pesadas.",
+    "Mantén tu muñeca recta y alineada con tu antebrazo para prevenir tensiones o lesiones."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps y aumentando la tensión en los hombros.",
+    "Levantar las mancuernas demasiado rápido, usando el impulso en lugar de la contracción muscular controlada.",
+    "No extender completamente los brazos en la parte inferior del movimiento, limitando el rango de movimiento y la activación del bíceps.",
+    "Enroscar las muñecas en la parte superior del movimiento, desviando el enfoque de los bíceps hacia los antebrazos.",
+    "Colocar el asiento demasiado alto o demasiado bajo, causando una alineación incorrecta del brazo y reduciendo la efectividad del ejercicio.",
+    "Dejar que los hombros se inclinen hacia adelante, disminuyendo el aislamiento del bíceps y aumentando la participación del hombro.",
+    "Usar un peso excesivo, lo que lleva a una forma comprometida y posible tensión en los codos.",
+    "No mantener un agarre supinado durante todo el curl, reduciendo el compromiso del bíceps."
+  ]
+}

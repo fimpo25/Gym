@@ -1,0 +1,44 @@
+{
+  "nombre": "Crunch Giratorio de Rodillas con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-giratorio-de-rodillas-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/adae5f93-01ec-42a9-988d-11d5a362dea6.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch Giratorio de Rodillas con Banda es un ejercicio de core que se enfoca en los oblicuos y los músculos abdominales. Implica el uso de una banda de resistencia para añadir tensión, mejorando el compromiso muscular durante el movimiento giratorio. Este ejercicio se realiza en una posición de rodillas, lo que ayuda a estabilizar la parte inferior del cuerpo mientras se concentra en el movimiento rotacional del torso.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje estable a la altura del hombro.",
+    "Arrodíllate en el suelo con tu lado hacia el punto de anclaje, sosteniendo la banda con ambas manos.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Gira tu torso alejándote del punto de anclaje, tirando de la banda a través de tu cuerpo.",
+    "Pausa brevemente al final del giro, asegurando la máxima contracción de los oblicuos.",
+    "Vuelve lentamente a la posición inicial con control.",
+    "Completa el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien sujeta para evitar que retroceda.",
+    "Concéntrate en usar los músculos del core para girar, en lugar de depender de la fuerza de los brazos.",
+    "Mantén un patrón de respiración constante, exhalando al girar e inhalando al regresar.",
+    "Mantén las caderas estables y evita el movimiento excesivo en la parte inferior del cuerpo.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio para dominar la forma antes de aumentar la tensión.",
+    "Realiza este ejercicio lentamente para maximizar el compromiso muscular y el control."
+  ],
+  "errores_comunes": [
+    "No mantener el core comprometido durante todo el movimiento, lo que lleva a una activación muscular ineficaz.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, poniendo un estrés indebido en la columna vertebral.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo la efectividad del ejercicio.",
+    "No alinear adecuadamente las caderas y los hombros, causando un compromiso muscular desigual.",
+    "Torcer el torso demasiado, lo que puede tensar la parte baja de la espalda y los oblicuos.",
+    "Descuidar mantener una posición de rodillas estable, resultando en pérdida de equilibrio.",
+    "Tensión incorrecta de la banda, ya sea demasiado floja o demasiado apretada, afectando los niveles de resistencia.",
+    "Dejar que la cabeza y el cuello lideren el movimiento, causando tensión y reduciendo la activación del core."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Peso Muerto Rumano con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/cable-romanian-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/f74dd58c-8915-4ae9-8073-b45716321ec2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Cable Romanian Deadlift is a variation of the traditional Romanian Deadlift, utilizing a cable machine to provide constant tension throughout the movement. This exercise primarily targets the hamstrings, glutes, and lower back, while also engaging the core for stability.",
+  "como_realizar": [
+    "Set the cable machine to the lowest setting and attach a straight bar or rope handle.",
+    "Stand facing the cable machine with feet hip-width apart and grasp the handle with both hands using an overhand grip.",
+    "Step back slightly to create tension in the cable, keeping your arms straight and shoulders back.",
+    "Engage your core and maintain a slight bend in your knees.",
+    "Hinge at the hips, pushing them back while keeping your back straight and chest up.",
+    "Lower the handle towards your shins until you feel a stretch in your hamstrings.",
+    "Pause briefly at the bottom of the movement, then drive your hips forward to return to the starting position."
+  ],
+  "consejos": [
+    "Keep your back flat and avoid rounding your shoulders throughout the movement.",
+    "Focus on hinging at the hips rather than bending at the waist.",
+    "Maintain a slight bend in your knees to protect them from strain.",
+    "Engage your core to help stabilize your spine during the exercise.",
+    "Control the movement both on the way down and up to maximize muscle engagement.",
+    "Start with a lighter weight to master form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Bending the knees excessively, turning it into a squat.",
+    "Allowing the cable to pull the shoulders forward, losing scapular retraction.",
+    "Not hinging at the hips, leading to an improper movement pattern.",
+    "Using momentum instead of controlled movement throughout the exercise.",
+    "Lifting the weight too high, causing hyperextension of the back.",
+    "Not engaging the core, leading to instability and poor posture.",
+    "Letting the hips drop instead of keeping them aligned with the shoulders.",
+    "Pulling with the arms instead of focusing on hip extension.",
+    "Standing too close or too far from the cable machine, affecting tension and form."
+  ]
+}

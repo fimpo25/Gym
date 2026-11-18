@@ -1,0 +1,47 @@
+{
+  "nombre": "Empuje de Cadera en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/empuje-de-cadera-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/a4fd5689-0e83-4c76-86a5-6210d445ccea.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BACK",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Empuje de Cadera en Máquina es un ejercicio para la parte inferior del cuerpo que se enfoca principalmente en el glúteo mayor. Consiste en utilizar una máquina especializada para realizar movimientos de extensión de cadera mientras se está sentado o acostado, proporcionando resistencia para mejorar la fuerza y la hipertrofia de los glúteos. Este ejercicio es efectivo para desarrollar potencia y mejorar el rendimiento atlético.",
+  "como_realizar": [
+    "Ajusta el asiento y el respaldo de la máquina para adaptarlos a tu tamaño corporal, asegurándote de que tus hombros estén cómodamente apoyados.",
+    "Siéntate en la máquina con la espalda contra el respaldo y coloca tus pies planos sobre la plataforma, a la altura de los hombros.",
+    "Asegura la almohadilla sobre tus caderas, asegurándote de que esté ajustada pero no demasiado apretada.",
+    "Activa tu núcleo y empuja con los talones para levantar tus caderas hasta que tus muslos estén paralelos al suelo, apretando los glúteos en la parte superior del movimiento.",
+    "Baja lentamente tus caderas de nuevo a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener una columna neutral durante el ejercicio para evitar tensiones en la parte baja de la espalda.",
+    "Asegúrate de que tus rodillas permanezcan alineadas con tus dedos de los pies durante el empuje para prevenir lesiones en las rodillas.",
+    "Controla el movimiento tanto al subir como al bajar para maximizar el compromiso muscular.",
+    "Experimenta con la colocación de los pies para apuntar a diferentes áreas de los glúteos; posturas más amplias pueden involucrar más al glúteo medio.",
+    "Mantén la barbilla ligeramente metida y la mirada hacia adelante para mantener una alineación adecuada del cuello."
+  ],
+  "errores_comunes": [
+    "Colocar los pies demasiado hacia adelante o demasiado cerca del cuerpo, lo que lleva a una activación ineficaz de los glúteos.",
+    "Arquear excesivamente la parte baja de la espalda, lo que puede desviar la tensión de los glúteos hacia la parte baja de la espalda.",
+    "No mantener una posición neutral del cuello, causando una tensión innecesaria en la columna cervical.",
+    "No extender completamente las caderas en la parte superior del movimiento, reduciendo la activación de los glúteos.",
+    "Permitir que las rodillas se inclinen hacia adentro, lo que puede llevar a una alineación incorrecta y una reducción de la activación de los glúteos.",
+    "Usar impulso en lugar de un movimiento controlado, disminuyendo la efectividad del ejercicio.",
+    "Descuidar la activación del core, lo que puede comprometer la estabilidad y reducir la potencia.",
+    "Ajustar la almohadilla de la máquina demasiado alta o demasiado baja en las caderas, lo que lleva a incomodidad y una distribución incorrecta de la fuerza.",
+    "Apresurarse en las repeticiones, lo que puede llevar a una mala forma y una menor activación muscular."
+  ]
+}

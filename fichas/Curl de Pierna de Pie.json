@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Pierna de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/curl-de-pierna-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/be8cca5d-566c-492f-92a7-80e432da7ef5.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Pierna de Pie es un ejercicio de aislamiento que se enfoca en los isquiotibiales. Se realiza utilizando una máquina de curl de pierna donde el usuario se mantiene erguido, activando los isquiotibiales mediante la flexión de la rodilla. Este ejercicio ayuda a fortalecer la cadena posterior y a mejorar la estabilidad de la rodilla.",
+  "como_realizar": [
+    "Ajusta la máquina para que el cojín descanse cómodamente contra la parte posterior de tu pierna inferior, justo por encima del tobillo.",
+    "Ponte de pie con el torso recto y agárrate a las asas de la máquina para obtener apoyo.",
+    "Coloca tus pies a la altura de las caderas y asegúrate de que tu pierna de trabajo esté alineada con la palanca de la máquina.",
+    "Activa tu núcleo y mantén la pierna de apoyo ligeramente doblada para mantener el equilibrio.",
+    "Exhala mientras flexionas la rodilla para elevar tu pierna de trabajo hacia arriba, llevando el talón hacia los glúteos.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción en los isquiotibiales.",
+    "Inhala mientras bajas lentamente la pierna de nuevo a la posición inicial de manera controlada.",
+    "Repite el número deseado de repeticiones antes de cambiar a la otra pierna."
+  ],
+  "consejos": [
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso de los isquiotibiales.",
+    "Mantén la parte superior del cuerpo estable y evita balancearte o usar impulso durante el ejercicio.",
+    "Asegúrate de que la almohadilla esté posicionada correctamente para evitar incomodidad o tensión en el tobillo.",
+    "Mantén una ligera flexión en la pierna de apoyo para ayudar con el equilibrio y la estabilidad.",
+    "Concéntrate en apretar los isquiotibiales en la parte superior de cada curl para una activación muscular óptima.",
+    "Evita bloquear la rodilla al regresar a la posición inicial para mantener la tensión en los músculos."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso de los isquiotibiales.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "Arquear la parte baja de la espalda, arriesgando tensión.",
+    "No alinear las rodillas con el punto de pivote de la máquina.",
+    "Permitir que las rodillas se desplacen hacia adelante o hacia atrás.",
+    "No extender completamente la pierna en la parte inferior del movimiento.",
+    "Flexionar la pierna demasiado rápido, lo que lleva a una mala activación muscular.",
+    "No mantener las caderas estables, causando movimiento innecesario.",
+    "Bloquear las rodillas en la parte superior del movimiento, arriesgando estrés en las articulaciones.",
+    "Descuidar ajustar la máquina para adaptarse al tamaño corporal individual."
+  ]
+}

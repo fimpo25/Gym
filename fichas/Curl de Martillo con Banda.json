@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Martillo con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-martillo-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/5f18c6e4-1d2c-4c4a-b2fe-7bc0be4525f7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Martillo con Banda es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial del brazo superior. Consiste en usar una banda de resistencia para realizar un movimiento de curl con un agarre neutral, lo que enfatiza los antebrazos y proporciona tensión constante durante todo el movimiento.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, anclando la parte media de la banda de resistencia bajo tus pies.",
+    "Sujeta los extremos de la banda con un agarre neutral (palmas enfrentadas) a los lados.",
+    "Mantén los codos cerca de tu torso y la espalda recta.",
+    "Lleva tus manos hacia los hombros doblando los codos, manteniendo las muñecas rectas.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción en tus brazos.",
+    "Baja lentamente las manos de nuevo a la posición inicial, manteniendo el control de la tensión de la banda.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien anclada bajo tus pies para evitar que se deslice.",
+    "Mantén un agarre neutral durante todo el ejercicio para enfocar efectivamente el músculo braquial.",
+    "Concéntrate en mantener tus codos estacionarios; solo tus antebrazos deben moverse durante el curl.",
+    "Activa tus músculos del core para mantener una postura estable y evitar balanceos.",
+    "Controla tanto la fase ascendente como la descendente del curl para un máximo compromiso muscular.",
+    "Evita usar el impulso; realiza cada repetición con movimientos deliberados y controlados.",
+    "Ajusta el nivel de resistencia cambiando la longitud de la banda o usando una banda con diferente tensión."
+  ],
+  "errores_comunes": [
+    "Usar un impulso excesivo para levantar la banda, reduciendo el compromiso muscular.",
+    "Permitir que los codos se abran, reduciendo el aislamiento del bíceps.",
+    "Enroscar las muñecas en la parte superior del movimiento, desviando el enfoque de los bíceps.",
+    "Pararse demasiado lejos del punto de anclaje, causando una tensión insuficiente en la banda.",
+    "Inclinarse hacia atrás durante el curl, forzando la parte baja de la espalda.",
+    "No mantener una posición neutral de la muñeca, aumentando el riesgo de tensión en la muñeca.",
+    "Apresurarse en el movimiento, sacrificando el control y la activación muscular.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento."
+  ]
+}

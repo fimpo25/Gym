@@ -1,0 +1,55 @@
+{
+  "nombre": "Flexión de Brazos en Plancha Completa",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazos-en-plancha-completa",
+  "video_url": "https://api.smartworkout.app/asset/video/97d75736-ef32-4193-a46f-4671aac36e9a.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "La Flexión de Plancha Completa es un ejercicio avanzado de calistenia que requiere una fuerza significativa en la parte superior del cuerpo, equilibrio y estabilidad del núcleo. Consiste en realizar una flexión mientras se mantiene una posición corporal horizontal paralela al suelo, sostenida solo por las manos. Este ejercicio se enfoca principalmente en los hombros, el pecho, los tríceps y los músculos del núcleo.",
+  "como_realizar": [
+    "Comienza en una posición de plancha con las manos colocadas al ancho de los hombros en el suelo.",
+    "Desplaza tu peso hacia adelante sobre tus manos, levantando los pies del suelo.",
+    "Activa tu núcleo y mantén una línea recta desde la cabeza hasta los pies, manteniendo tu cuerpo paralelo al suelo.",
+    "Baja tu cuerpo doblando los codos mientras mantienes la posición de planche.",
+    "Empuja de nuevo hacia arriba hasta la posición inicial sin perder la forma.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas sean fuertes y flexibles para manejar la presión de este ejercicio.",
+    "Concéntrate en activar tu núcleo para mantener el equilibrio y la estabilidad durante todo el movimiento.",
+    "Practica con progresiones como el tuck planche o el straddle planche si aún no puedes realizar un full planche push-up.",
+    "Mantén los codos cerca de tu cuerpo para maximizar el compromiso del tríceps y mantener el control.",
+    "Respira de manera constante y uniforme para ayudar a mantener el enfoque y la resistencia durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan, lo que lleva a una pérdida de compromiso del core.",
+    "No mantener una línea recta del cuerpo desde la cabeza hasta los talones.",
+    "Doblar los codos en exceso, reduciendo el desafío y la efectividad.",
+    "No activar los músculos escapulares, causando inestabilidad en los hombros.",
+    "Permitir que las muñecas se colapsen, aumentando la tensión y el riesgo de lesión.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "Colocación incorrecta de las manos, afectando el equilibrio y la activación muscular.",
+    "Descuidar mantener las piernas juntas y rectas, reduciendo la tensión y el control.",
+    "Apresurarse en el movimiento, comprometiendo la forma y el control."
+  ]
+}

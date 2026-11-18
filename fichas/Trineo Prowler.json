@@ -1,0 +1,50 @@
+{
+  "nombre": "Trineo Prowler",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/trineo-prowler",
+  "video_url": "https://api.smartworkout.app/asset/video/34ce9ea2-b70c-4b34-ab0c-5bbd3a90d11d.mp4",
+  "tags": [
+    "STRENGTH",
+    "CARDIO",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Trineo Prowler es un equipo versátil utilizado para fuerza y acondicionamiento. Consiste en empujar o tirar de un trineo con peso a través de una superficie, involucrando múltiples grupos musculares, incluyendo las piernas, el core y la parte superior del cuerpo. Este ejercicio es excelente para desarrollar potencia, resistencia y condición cardiovascular.",
+  "como_realizar": [
+    "Comienza cargando el trineo con una cantidad adecuada de peso. Empieza ligero si eres nuevo en este ejercicio.",
+    "Colócate detrás del trineo. Coloca tus manos en las manijas o en la barra horizontal, dependiendo del diseño del trineo.",
+    "Adopta una postura inclinada hacia adelante con la espalda recta y el núcleo comprometido. Mantén los pies separados al ancho de los hombros.",
+    "Impulsa con tus piernas y empuja el trineo hacia adelante usando zancadas poderosas. Mantén un ritmo constante y controlado durante todo el ejercicio.",
+    "Para tirar del trineo, sujeta correas al trineo y agárralas firmemente. Camina hacia atrás o hacia adelante mientras tiras, manteniendo el núcleo apretado y los movimientos controlados."
+  ],
+  "consejos": [
+    "Concéntrate en mantener un núcleo fuerte durante el movimiento para prevenir tensiones en la parte baja de la espalda.",
+    "Mantén tus zancadas consistentes y evita extender demasiado las piernas; esto ayuda a mantener el equilibrio y el control.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de aumentar la carga.",
+    "Asegúrate de tener suficiente espacio para realizar el ejercicio de manera segura, libre de obstáculos.",
+    "Usa este ejercicio como parte de un circuito para acondicionamiento o como un ejercicio independiente para desarrollar fuerza."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, causando pérdida de equilibrio y control.",
+    "Usar los brazos para empujar en lugar de involucrar el núcleo y las piernas.",
+    "Las caderas se elevan demasiado, reduciendo la salida de potencia y la eficiencia.",
+    "Pies demasiado juntos, lo que lleva a la inestabilidad.",
+    "Dar pasos demasiado largos, causando pérdida de impulso.",
+    "Permitir que la espalda se redondee, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "Empujar con los codos bloqueados, reduciendo la generación de fuerza.",
+    "Descuidar mantener una columna neutral durante todo el movimiento.",
+    "No activar los glúteos, limitando la potencia y la velocidad.",
+    "Comenzar con demasiado peso, comprometiendo la forma y el control."
+  ]
+}

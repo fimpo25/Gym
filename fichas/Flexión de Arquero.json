@@ -1,0 +1,49 @@
+{
+  "nombre": "Flexión de Arquero",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-de-arquero",
+  "video_url": "https://api.smartworkout.app/asset/video/d6d078a4-e818-46f9-a1a2-33ce24b4ad6e.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión de Arquero es un ejercicio avanzado de peso corporal que se enfoca en el pecho, tríceps y hombros, mientras también activa el núcleo y los músculos estabilizadores. Implica una colocación más amplia de las manos y el desplazamiento del peso corporal de un lado a otro, imitando el movimiento de tensar un arco.",
+  "como_realizar": [
+    "Comienza en una posición de flexión estándar con las manos colocadas más anchas que el ancho de los hombros.",
+    "Extiende un brazo completamente hacia el lado, manteniéndolo recto, mientras el otro brazo permanece doblado.",
+    "Baja tu cuerpo hacia el brazo doblado, manteniendo el núcleo apretado y la espalda recta.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurándote de que tu pecho esté cerca del suelo.",
+    "Empuja a través del brazo doblado para volver a la posición inicial.",
+    "Desplaza tu peso hacia el lado opuesto y repite el movimiento con el otro brazo."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén colocadas más anchas que el ancho de los hombros para permitir un cambio de peso adecuado.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad y prevenir que las caderas se hundan.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Inhala mientras bajas tu cuerpo y exhala mientras te empujas hacia arriba.",
+    "Si eres nuevo en este ejercicio, comienza con una versión modificada realizándolo de rodillas o usando una superficie elevada para apoyo."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o se eleven, lo que lleva a un mal compromiso del núcleo.",
+    "No mantener los codos a un ángulo de 45 grados, lo que puede tensar las articulaciones del hombro.",
+    "No extender completamente el brazo que no está trabajando, reduciendo la efectividad del ejercicio.",
+    "Dejar caer la cabeza en lugar de mantener una posición neutral del cuello.",
+    "Distribución desigual del peso entre los brazos, causando desequilibrio.",
+    "Apresurar el movimiento, lo que lleva a un mal control y una activación muscular reducida.",
+    "No bajar el pecho lo suficientemente cerca del suelo, limitando el rango de movimiento.",
+    "Permitir que los hombros se encojan, lo que desactiva los músculos del pecho."
+  ]
+}

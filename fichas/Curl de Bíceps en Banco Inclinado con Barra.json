@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl de Bíceps en Banco Inclinado con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-en-banco-inclinado-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/a424a5fe-3dce-4fe7-a98d-2d75c50fdbaa.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl Prono Inclinado con Barra es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Realizado en un banco inclinado, este ejercicio enfatiza la cabeza larga del bíceps al reducir la participación del hombro y aumentar el rango de movimiento. Es ideal para desarrollar la fuerza y el tamaño máximo del bíceps.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 45 grados y coloca una barra al pie del banco.",
+    "Acuéstate boca abajo en el banco con el pecho apoyado y los pies firmemente plantados en el suelo.",
+    "Agarra la barra con un agarre supino a la anchura de los hombros, permitiendo que tus brazos cuelguen rectos hacia abajo.",
+    "Mantén los codos cerca de tu cuerpo y flexiona la barra hacia arriba contrayendo tus bíceps.",
+    "Levanta hasta que tus antebrazos estén verticales, luego haz una breve pausa en la parte superior del movimiento.",
+    "Baja lentamente la barra de nuevo a la posición inicial, extendiendo completamente tus brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu pecho permanezca en contacto con el banco durante todo el ejercicio para mantener la forma adecuada.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada curl para una contracción máxima.",
+    "Evita usar el impulso; controla el movimiento tanto hacia arriba como hacia abajo.",
+    "Mantén tus muñecas rectas y evita doblarlas durante el levantamiento para prevenir tensiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Levantar los codos del banco, reduciendo el compromiso del bíceps.",
+    "Usar el impulso para levantar la barra, lo que lleva a una mala activación muscular.",
+    "Permitir que las muñecas se doblen excesivamente, causando tensión.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Enroscar la barra demasiado rápido, reduciendo el control.",
+    "Arquear la espalda, lo que puede llevar a una forma incorrecta.",
+    "Dejar que los hombros se inclinen hacia adelante, desenganchando los bíceps.",
+    "Usar demasiado peso, comprometiendo la forma y el control."
+  ]
+}

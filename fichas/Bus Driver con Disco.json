@@ -1,0 +1,44 @@
+{
+  "nombre": "Bus Driver con Disco",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/plate-bus-driver",
+  "video_url": "https://api.smartworkout.app/asset/video/b3fa888f-f539-4bd1-a51b-d4c87627dc19.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Plate Bus Driver is a core and shoulder stability exercise that mimics the motion of turning a steering wheel. It primarily targets the deltoids, rotator cuff muscles, and engages the core for stabilization. This exercise is performed using a weight plate and is effective for improving shoulder mobility and strength.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a weight plate with both hands at the 3 o'clock and 9 o'clock positions.",
+    "Extend your arms straight out in front of you at shoulder height, keeping a slight bend in your elbows.",
+    "Engage your core to stabilize your body and prevent swaying.",
+    "Rotate the plate to the left, as if turning a steering wheel, until your left hand is higher than your right.",
+    "Return to the starting position and then rotate the plate to the right until your right hand is higher than your left.",
+    "Continue alternating sides in a controlled manner for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your shoulders relaxed and avoid shrugging them up towards your ears.",
+    "Maintain a slight bend in your elbows to reduce strain on the joints.",
+    "Focus on slow and controlled movements to maximize muscle engagement.",
+    "Ensure that your core remains tight throughout the exercise to support your lower back.",
+    "Start with a lighter weight to master the form before progressing to heavier plates."
+  ],
+  "errores_comunes": [
+    "Holding the plate too low, reducing shoulder engagement.",
+    "Using a plate that's too heavy, compromising form and control.",
+    "Allowing the elbows to flare out excessively, straining the shoulders.",
+    "Rounding the back, leading to poor posture and core disengagement.",
+    "Moving the plate too quickly, sacrificing muscle tension and control.",
+    "Failing to keep the core tight, reducing stability and effectiveness.",
+    "Twisting the torso instead of rotating the arms, causing improper movement.",
+    "Neglecting to keep the wrists straight, increasing strain on the joints.",
+    "Inconsistent plate rotation speed, leading to uneven muscle activation."
+  ]
+}

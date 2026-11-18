@@ -1,0 +1,43 @@
+{
+  "nombre": "Press de Hombros Sentado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/seated-dumbbell-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/4b524c2d-e6f6-4f01-8057-04afd34a6ea0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated Dumbbell Shoulder Press is a compound exercise targeting the deltoid muscles, particularly the anterior and medial heads, as well as engaging the triceps and upper chest. This exercise is performed while seated, providing stability and allowing for better focus on shoulder muscle activation.",
+  "como_realizar": [
+    "Sit on a bench with back support, feet flat on the floor, and hold a dumbbell in each hand at shoulder height with palms facing forward.",
+    "Engage your core to stabilize your torso and keep your back pressed against the bench.",
+    "Press the dumbbells upward until your arms are fully extended overhead, without locking your elbows.",
+    "Pause briefly at the top of the movement, then slowly lower the dumbbells back to the starting position at shoulder height.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Choose a weight that allows you to maintain proper form throughout the set.",
+    "Keep your movements controlled and avoid using momentum to lift the weights.",
+    "Ensure your elbows remain slightly in front of your body to reduce shoulder joint strain.",
+    "Focus on keeping your wrists straight and aligned with your forearms to prevent injury.",
+    "Breathing is crucial: exhale as you press up and inhale as you lower the weights."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to compromised form and control.",
+    "Arching the lower back excessively, increasing strain on the spine.",
+    "Failing to keep the elbows directly under the wrists, causing instability.",
+    "Allowing the dumbbells to drift too far forward or backward, losing shoulder engagement.",
+    "Not fully extending the arms at the top, reducing the range of motion.",
+    "Lowering the dumbbells too quickly, sacrificing control and muscle tension.",
+    "Letting the shoulders shrug upwards, engaging the traps instead of the deltoids.",
+    "Not maintaining a neutral wrist position, risking wrist strain.",
+    "Neglecting to engage the core, leading to a lack of stability.",
+    "Starting with the dumbbells too low, not engaging the shoulders effectively."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Bíceps Alterno",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-alterno",
+  "video_url": "https://api.smartworkout.app/asset/video/7ff591e4-d0e1-4f8d-a368-3c5e17e86ba4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Bíceps Alterno es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Consiste en levantar una mancuerna a la vez, permitiendo una contracción focalizada y mejorando la simetría muscular. Este ejercicio ayuda a desarrollar la fuerza y el tamaño del brazo, enfatizando el pico del bíceps.",
+  "como_realizar": [
+    "Párate erguido con una mancuerna en cada mano, brazos completamente extendidos y palmas hacia tu cuerpo.",
+    "Mantén los codos cerca de tu torso durante todo el movimiento.",
+    "Flexiona la mancuerna derecha contrayendo tu bíceps, rotando tu muñeca para que la palma mire hacia arriba mientras levantas.",
+    "Continúa levantando hasta que tu bíceps esté completamente contraído y la mancuerna esté a nivel del hombro.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tu bíceps.",
+    "Baja lentamente la mancuerna de regreso a la posición inicial, rotando tu muñeca de nuevo a una posición neutral.",
+    "Repite el movimiento con el brazo izquierdo mientras mantienes el brazo derecho inmóvil.",
+    "Continúa alternando brazos para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado; evita balancearte o usar el impulso para levantar las pesas.",
+    "Concéntrate en apretar tu bíceps en la parte superior de cada curl para una contracción máxima.",
+    "Mantén tu núcleo comprometido y la espalda recta para prevenir cualquier movimiento o tensión no deseada.",
+    "Asegúrate de un rango completo de movimiento extendiendo completamente tu brazo en la parte inferior de cada repetición.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a mancuernas más pesadas.",
+    "Exhala mientras levantas la pesa y inhala mientras la bajas."
+  ],
+  "errores_comunes": [
+    "Balancear las pesas, usando el impulso en lugar de un compromiso muscular controlado.",
+    "Levantar los codos, convirtiendo el ejercicio en un movimiento de hombros.",
+    "Enroscar las muñecas, reduciendo la activación de los bíceps y arriesgando tensión en las muñecas.",
+    "No extender completamente los brazos, limitando el rango de movimiento y el compromiso muscular.",
+    "Inclinarse hacia atrás, comprometiendo la postura y reduciendo el aislamiento de los bíceps.",
+    "Usar pesas que son demasiado pesadas, llevando a una forma comprometida y control reducido.",
+    "Apresurar el movimiento, impidiendo la contracción y relajación completa de los bíceps.",
+    "Permitir que los hombros se redondeen hacia adelante, reduciendo la estabilidad y el enfoque en los bíceps."
+  ]
+}

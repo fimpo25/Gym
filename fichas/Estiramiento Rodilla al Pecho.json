@@ -1,0 +1,45 @@
+{
+  "nombre": "Estiramiento Rodilla al Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/knee-to-chest-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/57e3218c-4482-438f-8177-2812406c9f8d.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Knee To Chest Stretch is a flexibility exercise targeting the lower back, hips, and glutes. It helps improve mobility and relieve tension in the lumbar region.",
+  "como_realizar": [
+    "Lie flat on your back on a mat with your legs extended and arms at your sides.",
+    "Bend your right knee and gently pull it towards your chest using both hands.",
+    "Keep your left leg extended on the floor, ensuring your lower back remains in contact with the mat.",
+    "Hold the stretch for 20-30 seconds while breathing deeply.",
+    "Release the right knee and return to the starting position.",
+    "Repeat the stretch with your left knee."
+  ],
+  "consejos": [
+    "Ensure your head and shoulders remain relaxed on the mat throughout the stretch.",
+    "Avoid pulling too hard; the movement should be gentle to prevent strain.",
+    "Focus on maintaining a steady breathing pattern to enhance relaxation.",
+    "If you feel discomfort in your lower back, reduce the range of motion.",
+    "Perform this stretch after workouts to aid in recovery and flexibility."
+  ],
+  "errores_comunes": [
+    "Pulling the knee too forcefully towards the chest, causing strain on the lower back.",
+    "Allowing the opposite leg to lift off the ground, reducing the stretch's effectiveness.",
+    "Holding the knee with the hands incorrectly, leading to poor alignment and reduced stretch.",
+    "Not engaging the core, resulting in an arched lower back and decreased stretch efficiency.",
+    "Tilting the pelvis upward, which can cause discomfort and lessen the stretch's impact.",
+    "Rushing through the stretch without maintaining a steady hold, reducing muscle relaxation.",
+    "Holding the breath, which can increase tension and limit the stretch's benefits."
+  ]
+}

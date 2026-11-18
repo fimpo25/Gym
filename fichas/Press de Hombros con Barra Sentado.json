@@ -1,0 +1,47 @@
+{
+  "nombre": "Press de Hombros con Barra Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/press-de-hombros-con-barra-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/1d1db66c-c992-4878-96a8-6581de5079e6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Hombros con Barra Sentado es un ejercicio compuesto que se centra en los músculos deltoides, particularmente en los deltoides anteriores, mientras también involucra los tríceps y la parte superior del pecho. Este ejercicio se realiza sentado, proporcionando estabilidad y permitiendo un mayor enfoque en la fuerza y la hipertrofia de los hombros.",
+  "como_realizar": [
+    "Siéntate en un banco con respaldo, asegurándote de que tus pies estén planos en el suelo para mayor estabilidad.",
+    "Agarra la barra con un agarre por encima ligeramente más ancho que el ancho de los hombros.",
+    "Levanta la barra del soporte y sostenla a la altura de los hombros con los codos doblados y alineados debajo de las muñecas.",
+    "Activa tu núcleo y presiona la barra por encima de la cabeza hasta que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Baja lentamente la barra de nuevo a la posición inicial a la altura de los hombros.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda presionada contra el banco para evitar arquearla durante el levantamiento.",
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener la tensión en los hombros.",
+    "Asegúrate de que tus muñecas permanezcan rectas y alineadas con tus antebrazos para reducir la tensión.",
+    "Exhala mientras presionas la barra hacia arriba e inhala mientras la bajas."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, lo que puede tensar la columna vertebral.",
+    "No comprometer el núcleo, lo que lleva a inestabilidad y mala postura.",
+    "Permitir que los codos se abran demasiado, reduciendo el compromiso del hombro.",
+    "Bajar la barra demasiado detrás de la cabeza, arriesgando el pinzamiento del hombro.",
+    "Usar el impulso para levantar la barra en lugar de una contracción muscular controlada.",
+    "No alinear las muñecas directamente debajo de la barra, causando tensión en las muñecas.",
+    "Comenzar con la barra demasiado baja, reduciendo el rango de movimiento y efectividad.",
+    "Descuidar colocar las escápulas hacia abajo y hacia atrás, lo que lleva a una mala mecánica del hombro.",
+    "Agarrar la barra demasiado ancha, lo que puede reducir el control y aumentar el estrés en los hombros."
+  ]
+}

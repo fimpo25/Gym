@@ -1,0 +1,48 @@
+{
+  "nombre": "Zancada Lateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/side-lunges",
+  "video_url": "https://api.smartworkout.app/asset/video/303e9fb8-4337-4855-be14-1ca06e5685de.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "Side lunges, also known as lateral lunges, are a lower body exercise that targets the quadriceps, hamstrings, glutes, and adductors. This movement enhances balance, flexibility, and strength by engaging multiple muscle groups and stabilizing muscles.",
+  "como_realizar": [
+    "Stand with your feet hip-width apart and your hands on your hips or clasped in front of your chest.",
+    "Take a large step to the right, bending your right knee while keeping your left leg straight.",
+    "Lower your hips down and back as if sitting into a chair, ensuring your right knee does not extend past your toes.",
+    "Keep your chest up and core engaged throughout the movement.",
+    "Push off with your right foot to return to the starting position.",
+    "Repeat on the left side."
+  ],
+  "consejos": [
+    "Maintain a neutral spine by keeping your back straight and chest lifted.",
+    "Focus on pushing through the heel of the bent leg to engage the glutes effectively.",
+    "Ensure that your knee is aligned with your toes to prevent strain on the joint.",
+    "Start with a smaller step if you're new to this exercise to maintain balance and control.",
+    "Inhale as you step out and exhale as you push back to the starting position."
+  ],
+  "errores_comunes": [
+    "Knee collapsing inward during the lunge, increasing strain on the knee joint.",
+    "Not keeping the chest up and shoulders back, leading to a rounded back.",
+    "Stepping too far to the side, causing loss of balance and control.",
+    "Allowing the heel of the lunging leg to lift off the ground, reducing stability.",
+    "Failing to push the hips back, which limits glute and hamstring engagement.",
+    "Not bending the knee enough, resulting in insufficient range of motion.",
+    "Leaning too far forward, shifting weight onto the toes instead of the heel.",
+    "Rushing through the movement, compromising form and muscle engagement.",
+    "Not keeping the non-lunging leg straight, reducing the stretch and effectiveness."
+  ]
+}

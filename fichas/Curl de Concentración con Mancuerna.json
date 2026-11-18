@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Concentración con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-concentracion-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/69f4b2c0-5582-47a4-b901-9faacf963719.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Concentración con Mancuerna es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Destaca la contracción máxima del bíceps, permitiendo un compromiso y desarrollo muscular enfocado. Este ejercicio se realiza sentado, con el brazo en trabajo estabilizado contra el muslo interno, asegurando una forma estricta y minimizando el impulso.",
+  "como_realizar": [
+    "Siéntate en un banco con las piernas separadas y los pies planos en el suelo.",
+    "Sujeta una mancuerna en una mano con un agarre en supinación.",
+    "Inclínate ligeramente hacia adelante y apoya tu codo contra el interior de tu muslo.",
+    "Comienza con tu brazo completamente extendido y la mancuerna cerca del suelo.",
+    "Flexiona el codo para levantar la mancuerna hacia tu hombro.",
+    "Aprieta tus bíceps en la parte superior del movimiento.",
+    "Baja lentamente la mancuerna de nuevo a la posición inicial.",
+    "Completa el número deseado de repeticiones y cambia de brazo."
+  ],
+  "consejos": [
+    "Mantén tu brazo superior estacionario; solo tu antebrazo debe moverse.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada curl para una contracción máxima.",
+    "Evita usar el impulso; realiza cada repetición de manera controlada.",
+    "Exhala mientras levantas el peso e inhala mientras lo bajas.",
+    "Asegúrate de que tu codo permanezca presionado contra tu muslo para mantener la forma adecuada.",
+    "Comienza con un peso más ligero para dominar la técnica antes de progresar."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar el peso en lugar de un movimiento controlado.",
+    "Permitir que el codo se aleje del muslo interno, reduciendo la aislación.",
+    "Doblar la muñeca en la parte superior del movimiento, desviando el enfoque de los bíceps.",
+    "Balancear el cuerpo para obtener ventaja en lugar de mantener una postura estable.",
+    "No extender completamente el brazo en la parte inferior, limitando el rango de movimiento.",
+    "Apresurarse a través de las repeticiones sin enfocarse en la contracción muscular.",
+    "Dejar caer o rotar el hombro hacia adelante, comprometiendo la forma.",
+    "Sujetar la mancuerna demasiado floja, causando falta de control."
+  ]
+}

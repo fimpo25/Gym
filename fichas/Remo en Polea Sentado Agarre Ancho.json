@@ -1,0 +1,48 @@
+{
+  "nombre": "Remo en Polea Sentado Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/seated-cable-wide-grip-row",
+  "video_url": "https://api.smartworkout.app/asset/video/fc6ec290-0fd3-4133-9901-ce9facb094eb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Wide Grip Seated Row is a strength training exercise targeting the upper back muscles, including the latissimus dorsi, rhomboids, and trapezius. This exercise is performed using a cable row machine with a wide grip attachment, which emphasizes the outer portions of the back and helps improve posture and upper body strength.",
+  "como_realizar": [
+    "Sit on the seated row machine with your feet firmly placed on the foot platform and knees slightly bent.",
+    "Grasp the wide grip handle with both hands, palms facing down, and arms fully extended.",
+    "Keep your back straight and chest up as you pull the handle towards your torso by retracting your shoulder blades.",
+    "Continue pulling until your elbows are at your sides and the handle is close to your abdomen.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly extend your arms back to the starting position while maintaining control of the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to avoid lower back strain.",
+    "Focus on pulling with your back muscles rather than your arms to maximize engagement of the target muscles.",
+    "Avoid leaning too far forward or backward; keep your torso stable during the movement.",
+    "Exhale as you pull the handle towards you and inhale as you return to the starting position.",
+    "Adjust the seat height if necessary to ensure that your arms are parallel to the floor when extended."
+  ],
+  "errores_comunes": [
+    "Leaning too far back, turning the exercise into a lower back movement instead of targeting the upper back.",
+    "Shrugging shoulders, which engages the traps more than the lats and rhomboids.",
+    "Using momentum by jerking the weight, reducing muscle engagement and control.",
+    "Allowing the elbows to flare out excessively, which can strain the shoulders.",
+    "Failing to retract the shoulder blades, leading to poor activation of the back muscles.",
+    "Rounding the back, increasing the risk of spinal injury.",
+    "Not fully extending the arms at the start, limiting the range of motion.",
+    "Pulling the bar too high, which can cause the wrists to bend awkwardly.",
+    "Gripping the bar too tightly, leading to forearm fatigue before the back muscles are fully worked.",
+    "Neglecting to keep the chest up, reducing the effectiveness of the movement."
+  ]
+}

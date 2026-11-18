@@ -1,0 +1,48 @@
+{
+  "nombre": "Press Inclinado Convergente",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inclinado-convergente",
+  "video_url": "https://api.smartworkout.app/asset/video/103ff85e-ab8f-404e-8adb-d04196937f6f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho con Martillo en Inclinación es un ejercicio compuesto que se enfoca en la parte superior de los músculos pectorales, además de involucrar los deltoides anteriores y los tríceps. Este ejercicio se realiza en un banco inclinado utilizando mancuernas, con un agarre neutral para enfatizar la activación muscular y reducir el estrés en las articulaciones del hombro.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con los pies planos en el suelo y la espalda firmemente contra el banco.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral, palmas enfrentadas.",
+    "Coloca las mancuernas a la altura de los hombros, con los codos doblados aproximadamente a 90 grados.",
+    "Presiona las mancuernas hacia arriba hasta que tus brazos estén completamente extendidos, manteniendo las muñecas rectas.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de no bloquear los codos.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un agarre neutral durante todo el ejercicio para minimizar la tensión en los hombros.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y prevenir lesiones.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo durante el press.",
+    "Evita bloquear los codos en la parte superior para mantener la tensión en los músculos.",
+    "Asegúrate de que tus pies permanezcan planos en el suelo para un mejor equilibrio y soporte.",
+    "Ajusta el ángulo del banco si sientes incomodidad en los hombros."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del core y aumentando la tensión en la parte baja de la espalda.",
+    "Permitir que los codos se abran demasiado, lo que puede colocar un estrés innecesario en las articulaciones del hombro.",
+    "No mantener un ritmo controlado, lo que lleva a levantar con impulso y reduce la activación muscular.",
+    "No extender completamente los brazos en la parte superior del press, limitando el rango de movimiento y el compromiso muscular.",
+    "Bajar las pesas demasiado rápido, lo que puede reducir el control y aumentar el riesgo de lesiones.",
+    "Colocar el banco en una inclinación demasiado pronunciada, desviando el enfoque del pecho superior a los hombros.",
+    "Descuidar mantener las muñecas rectas, lo que puede llevar a molestias o tensión en las muñecas.",
+    "No retraer las escápulas, lo que puede disminuir la estabilidad y la activación del pecho."
+  ]
+}

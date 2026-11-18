@@ -1,0 +1,46 @@
+{
+  "nombre": "Elevación de Pantorrilla en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-calf-raises",
+  "video_url": "https://api.smartworkout.app/asset/video/9d9d595a-6020-4948-b7cb-e2215d94ef25.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Smith Calf Raises are a strength training exercise targeting the calf muscles, primarily the gastrocnemius and soleus. Utilizing the Smith machine provides stability, allowing for controlled movement and focus on muscle contraction. This exercise is effective for building calf strength and size.",
+  "como_realizar": [
+    "Position yourself under the Smith machine bar with the balls of your feet on a raised platform or block, heels hanging off.",
+    "Adjust the bar to rest comfortably across your upper back and shoulders.",
+    "Unlock the bar by rotating it forward and ensure your feet are shoulder-width apart.",
+    "Engage your core and keep your knees slightly bent throughout the exercise.",
+    "Raise your heels by extending your ankles, lifting as high as possible onto your toes.",
+    "Pause at the top of the movement for a moment to maximize contraction.",
+    "Slowly lower your heels back to the starting position, feeling a stretch in your calves.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slow and controlled motion to maximize muscle engagement.",
+    "Focus on squeezing the calf muscles at the top of each rep.",
+    "Keep your core engaged to maintain balance and stability.",
+    "Avoid locking your knees; keep them slightly bent to reduce strain.",
+    "Ensure full range of motion by lowering your heels below parallel if possible.",
+    "Use a weight that allows you to perform all reps with proper form."
+  ],
+  "errores_comunes": [
+    "Using too much weight, compromising form and range of motion.",
+    "Placing feet too far forward or backward, misaligning the body.",
+    "Allowing heels to drop too low, risking Achilles strain.",
+    "Failing to fully extend the ankles, limiting calf engagement.",
+    "Bouncing at the bottom instead of controlled movement.",
+    "Locking knees, reducing calf activation and increasing joint stress.",
+    "Leaning forward or backward, causing imbalance.",
+    "Not maintaining a stable core, leading to poor posture.",
+    "Neglecting to keep toes pointing straight ahead, altering muscle focus.",
+    "Rushing through reps, sacrificing muscle tension and control."
+  ]
+}

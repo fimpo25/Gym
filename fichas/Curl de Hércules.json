@@ -1,0 +1,42 @@
+{
+  "nombre": "Curl de Hércules",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-hercules",
+  "video_url": "https://api.smartworkout.app/asset/video/e1c3abfb-dec6-4540-b591-3d843bb6d2c4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Cable Alto es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Se realiza utilizando una máquina de cables con la polea colocada en una posición alta. Este ejercicio enfatiza la contracción máxima del bíceps, promoviendo el crecimiento muscular y la definición.",
+  "como_realizar": [
+    "Coloca un asa en cada lado de la polea alta de una máquina de cruce de cables.",
+    "Párate en el centro de la máquina con los pies separados al ancho de los hombros.",
+    "Agarra las asas con un agarre supino, con los brazos extendidos a los lados, paralelos al suelo.",
+    "Mantén los codos fijos y lleva las asas hacia tu cabeza flexionando los codos.",
+    "Aprieta los bíceps en la parte superior del movimiento, luego regresa lentamente a la posición inicial.",
+    "Mantén el control durante todo el movimiento y evita balancearte o usar impulso."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos fijos en su lugar para maximizar el compromiso del bíceps.",
+    "Controla el peso tanto en la fase de levantamiento como en la de descenso para aumentar la tensión muscular.",
+    "Exhala mientras llevas las manijas hacia ti e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tus muñecas permanezcan rectas para evitar tensiones innecesarias.",
+    "Ajusta el peso para que puedas realizar de 8 a 12 repeticiones con la forma adecuada."
+  ],
+  "errores_comunes": [
+    "Balancear las pesas en lugar de usar movimientos controlados.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Usar el impulso para levantar las pesas, sin aislar los bíceps.",
+    "Inclinarse hacia atrás excesivamente, forzando la parte baja de la espalda.",
+    "No extender completamente los brazos en la parte inferior del movimiento.",
+    "Enroscar las muñecas, lo que desvía la tensión de los bíceps.",
+    "Usar pesas demasiado pesadas, comprometiendo la forma.",
+    "No mantener los hombros hacia abajo y hacia atrás, lo que lleva a la implicación de los hombros."
+  ]
+}

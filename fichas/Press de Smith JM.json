@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Smith JM",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/press-de-smith-jm",
+  "video_url": "https://api.smartworkout.app/asset/video/b56fc4c5-658a-4b82-9f07-b4e3a20f6f37.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Press JM en Máquina Smith es una variación especializada del press de banca diseñada para trabajar los tríceps de manera más intensa, mientras se involucran también el pecho y los hombros. Se realiza utilizando una máquina Smith, que proporciona una trayectoria guiada de la barra, permitiendo un mayor enfoque en la contracción muscular y la estabilidad.",
+  "como_realizar": [
+    "Coloca el banco con una ligera inclinación bajo la máquina Smith. Ajusta la altura de la barra para que puedas desengancharla cómodamente con los brazos completamente extendidos.",
+    "Recuéstate en el banco y posiciónate de manera que tus ojos estén directamente debajo de la barra. Agarra la barra con un agarre en pronación al ancho de los hombros.",
+    "Desengancha la barra y bájala hacia la parte inferior de tu pecho, manteniendo los codos cerca de tu cuerpo.",
+    "Detente cuando la barra esté a aproximadamente una pulgada por encima de tu pecho, luego empújala hacia arriba extendiendo los codos hasta que tus brazos estén completamente extendidos.",
+    "Repite el número deseado de repeticiones, manteniendo el control de la barra durante todo el movimiento."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos cerca de tu cuerpo para maximizar el trabajo de los tríceps.",
+    "Usa un ritmo controlado para evitar rebotar la barra en tu pecho, lo que puede reducir la efectividad y aumentar el riesgo de lesiones.",
+    "Comienza con un peso más ligero para dominar la técnica antes de avanzar a cargas más pesadas.",
+    "Asegúrate de que tu agarre sea firme pero no demasiado apretado para mantener el control sin tensión innecesaria en los antebrazos.",
+    "Mantén los pies planos en el suelo para la estabilidad y activa tu núcleo durante todo el ejercicio."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo la activación de los tríceps.",
+    "Codos saliendo excesivamente, aumentando la tensión en los hombros.",
+    "Trayectoria de la barra no vertical, llevando a un compromiso muscular desigual.",
+    "Bajar la barra demasiado rápido, causando pérdida de control.",
+    "No bajar la barra al nivel del pecho, limitando el rango de movimiento.",
+    "Arquear la espalda excesivamente, arriesgando tensión en la parte baja de la espalda.",
+    "No mantener las muñecas rectas, aumentando la tensión en las muñecas.",
+    "No activar los músculos del core, llevando a inestabilidad.",
+    "Usar el impulso para levantar la barra, reduciendo la activación muscular.",
+    "Bloquear los codos con fuerza, arriesgando estrés en las articulaciones."
+  ]
+}

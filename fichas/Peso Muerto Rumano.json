@@ -1,0 +1,40 @@
+{
+  "nombre": "Peso Muerto Rumano",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/peso-muerto-rumano",
+  "video_url": "https://api.smartworkout.app/asset/video/5fe03c5a-63ef-4cb9-9721-e7361ab7abe8.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "FOREARMS",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Peso Muerto Rumano (RDL) es un ejercicio compuesto que se enfoca principalmente en los isquiotibiales, glúteos y la parte baja de la espalda. Implica una flexión en las caderas mientras se mantiene una ligera flexión en las rodillas, permitiendo un estiramiento profundo en la cadena posterior. Este ejercicio es efectivo para desarrollar fuerza y masa muscular en la parte inferior del cuerpo y mejorar la movilidad general de la cadera.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de las caderas, sosteniendo una barra con un agarre por encima frente a tus muslos.",
+    "Mantén el pecho hacia arriba, los hombros hacia atrás y el núcleo comprometido durante todo el movimiento.",
+    "Inicia el movimiento empujando tus caderas hacia atrás mientras mantienes una ligera flexión en tus rodillas.",
+    "Baja la barra a lo largo de tus piernas, manteniéndola cerca de tu cuerpo, hasta que sientas un estiramiento en tus isquiotibiales.",
+    "Asegúrate de que tu espalda permanezca recta y evita redondear tus hombros.",
+    "Haz una pausa breve en la parte inferior del movimiento, luego impulsa tus caderas hacia adelante para regresar a la posición inicial."
+  ],
+  "consejos": [
+    "Concéntrate en flexionar las caderas en lugar de doblar la cintura para maximizar el compromiso de los isquiotibiales.",
+    "Mantén la barra cerca de tu cuerpo para mantener el equilibrio y reducir la tensión en la parte baja de la espalda.",
+    "Activa los músculos del core para estabilizar la columna vertebral durante todo el ejercicio.",
+    "Evita bloquear las rodillas; mantén una ligera flexión para protegerlas de una tensión excesiva.",
+    "Controla el descenso de la barra; evita dejarla caer demasiado rápido para asegurar una activación muscular adecuada.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": []
+}

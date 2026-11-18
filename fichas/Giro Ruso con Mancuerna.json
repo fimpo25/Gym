@@ -1,0 +1,43 @@
+{
+  "nombre": "Giro Ruso con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-ruso-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/5b03cb86-2014-46e2-bb10-8cd533212fa5.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro Ruso con Mancuerna es un ejercicio para el core que se enfoca en los músculos oblicuos, mejorando la fuerza y estabilidad rotacional. Consiste en sentarse en el suelo con las rodillas dobladas, sosteniendo una mancuerna con ambas manos, y rotar el torso de lado a lado.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos. Sostén una mancuerna con ambas manos frente a tu pecho.",
+    "Inclínate ligeramente hacia atrás para comprometer tu núcleo, manteniendo la espalda recta.",
+    "Levanta los pies del suelo, equilibrándote sobre tus glúteos si es posible. Alternativamente, mantén los pies en el suelo para mayor estabilidad.",
+    "Gira tu torso hacia la derecha, llevando la mancuerna al lado de tu cadera.",
+    "Regresa al centro y luego gira hacia el lado izquierdo.",
+    "Continúa alternando lados de manera controlada durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio y el control.",
+    "Muévete lenta y deliberadamente para maximizar el compromiso muscular y evitar usar el impulso.",
+    "Si eres nuevo en este ejercicio, comienza sin una mancuerna o usa un peso más ligero para enfocarte en la forma.",
+    "Asegúrate de que tu espalda permanezca recta; evita redondear los hombros o arquear la parte baja de la espalda.",
+    "Respira de manera constante, exhalando al girar e inhalando al regresar al centro."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, causando tensión en la parte baja de la espalda.",
+    "Redondear los hombros, llevando a una mala postura y menor compromiso del core.",
+    "Usar impulso en lugar de movimiento controlado, disminuyendo la efectividad.",
+    "Sostener la mancuerna demasiado lejos del cuerpo, aumentando la tensión en los hombros.",
+    "No rotar completamente el torso, limitando el rango de movimiento.",
+    "Permitir que los pies se levanten del suelo, reduciendo la estabilidad.",
+    "No comprometer el core, trasladando el esfuerzo a los brazos y hombros.",
+    "Torcer el cuello en lugar del torso, causando incomodidad."
+  ]
+}

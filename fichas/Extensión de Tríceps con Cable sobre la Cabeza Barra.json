@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps con Cable sobre la Cabeza Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-cable-por-encima-de-la-cabeza-(barra)",
+  "video_url": "https://api.smartworkout.app/asset/video/4a2ccbda-2b47-448a-985f-b57e36a24c11.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Cable por Encima de la Cabeza (barra) es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos por encima de la cabeza mientras se sostiene una barra conectada a una máquina de cable, trabajando eficazmente la cabeza larga del tríceps. Este ejercicio ayuda a desarrollar fuerza y definición muscular en la parte superior de los brazos.",
+  "como_realizar": [
+    "Conecta una barra recta a la polea alta de una máquina de cables.",
+    "Ponte de pie de espaldas a la máquina, agarrando la barra con ambas manos usando un agarre por encima.",
+    "Da un paso adelante ligeramente para crear tensión en el cable y coloca tus pies al ancho de los hombros.",
+    "Levanta la barra por encima de la cabeza, manteniendo los codos cerca de la cabeza y el núcleo comprometido.",
+    "Inhala y baja lentamente la barra detrás de la cabeza doblando los codos, manteniendo un movimiento controlado.",
+    "Exhala y extiende los brazos de regreso a la posición inicial enderezando los codos, asegurando la contracción completa de los tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus codos estacionarios y cerca de tu cabeza durante todo el movimiento para maximizar el compromiso de los tríceps.",
+    "Mantén una ligera flexión en tus rodillas para mejorar el equilibrio y la estabilidad.",
+    "Activa tus músculos del core para evitar el arqueo de la parte baja de la espalda durante el ejercicio.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Concéntrate en movimientos lentos y controlados para mejorar la activación muscular y reducir el riesgo de lesiones.",
+    "Evita bloquear completamente tus codos en la parte superior del movimiento para mantener la tensión en los tríceps."
+  ],
+  "errores_comunes": [
+    "Codos hacia afuera, reduciendo el compromiso de los tríceps.",
+    "Inclinarse demasiado hacia adelante, causando tensión en la parte baja de la espalda.",
+    "Usar el impulso para levantar el peso, llevando a una mala activación muscular.",
+    "Ancho de agarre incorrecto, afectando el rango de movimiento y control.",
+    "No extender completamente los brazos en la parte superior, limitando la contracción de los tríceps.",
+    "Arquear la espalda en exceso, aumentando el riesgo de lesión.",
+    "Permitir que las muñecas se doblen, reduciendo el control y la eficiencia.",
+    "Comenzar con los codos demasiado hacia adelante, comprometiendo la forma.",
+    "Apresurarse en las repeticiones, sacrificando el compromiso muscular adecuado."
+  ]
+}

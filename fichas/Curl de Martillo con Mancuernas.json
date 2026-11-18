@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Martillo con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-martillo-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/42bee169-b8e8-4142-8707-dcb1f8267e31.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Martillo con Mancuernas es un ejercicio de aislamiento que se enfoca en los músculos braquial, braquiorradial y bíceps braquial. Se realiza con mancuernas y utiliza un agarre neutral, lo que enfatiza los antebrazos y la cabeza externa de los bíceps.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros y sostén una mancuerna en cada mano con un agarre neutral, palmas enfrentadas.",
+    "Mantén los codos cerca de tu torso y la espalda recta.",
+    "Flexiona los pesos doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Continúa levantando hasta que tus antebrazos estén verticales o ligeramente más allá de la vertical.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando tus bíceps.",
+    "Baja lentamente las mancuernas de regreso a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita balancear las pesas o usar el impulso para levantarlas.",
+    "Mantén las muñecas rectas y evita doblarlas durante el curl.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada repetición para una contracción máxima.",
+    "Asegúrate de que tus codos permanezcan pegados a tu cuerpo para aislar eficazmente los bíceps.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo o usar el impulso para levantar las pesas en lugar de aislar los bíceps.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del torso.",
+    "Usar pesas demasiado pesadas, lo que lleva a una forma incorrecta y menor compromiso muscular.",
+    "No mantener una posición neutral de la muñeca, lo que puede causar tensión.",
+    "No extender completamente los brazos en la parte inferior del movimiento, limitando el rango de movimiento.",
+    "Enroscar las muñecas en la parte superior del movimiento en lugar de mantenerlas rectas.",
+    "Inclinarse hacia atrás excesivamente, lo que reduce la activación del bíceps y aumenta la tensión en la parte baja de la espalda.",
+    "Mover los hombros hacia adelante o hacia arriba, lo que desvía el enfoque de los bíceps."
+  ]
+}

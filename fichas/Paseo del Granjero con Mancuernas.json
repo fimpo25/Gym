@@ -1,0 +1,53 @@
+{
+  "nombre": "Paseo del Granjero con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/paseo-del-granjero-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/a03d7da3-fdf6-4b10-8330-432b19579828.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CALVES",
+    "QUADRICEPS"
+  ],
+  "descripcion": "Los Paseos del Granjero con Mancuernas son un ejercicio de fuerza funcional que se enfoca en el agarre, los antebrazos, los hombros, los trapecios y el core. Este ejercicio consiste en caminar una distancia determinada mientras se sostiene una mancuerna en cada mano, manteniendo una postura erguida. Mejora la estabilidad general y la resistencia.",
+  "como_realizar": [
+    "Selecciona un par de mancuernas con un peso desafiante pero manejable.",
+    "Párate con los pies al ancho de los hombros y coloca las mancuernas en el suelo al lado de cada pie.",
+    "Dobla ligeramente las rodillas y flexiona las caderas para recoger las mancuernas con un agarre firme.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras levantas las mancuernas del suelo.",
+    "Mantén una postura erguida con los hombros hacia atrás y la cabeza mirando hacia adelante.",
+    "Comienza a caminar hacia adelante lenta y constantemente durante una distancia o tiempo establecido mientras mantienes las mancuernas a tus lados.",
+    "Concéntrate en mantener tu núcleo apretado y evitar cualquier balanceo o inclinación.",
+    "Una vez que llegues al final de la distancia o tiempo, coloca cuidadosamente las mancuernas de nuevo en el suelo."
+  ],
+  "consejos": [
+    "Elige un peso que desafíe tu agarre pero que te permita mantener la forma adecuada durante todo el ejercicio.",
+    "Mantén los hombros relajados y evita encogerlos hacia las orejas.",
+    "Mantén un ritmo constante para asegurar el control y el equilibrio durante la caminata.",
+    "Concéntrate en respirar de manera constante; exhala al dar un paso hacia adelante e inhala al estabilizarte.",
+    "Si el espacio es limitado, realiza el ejercicio en el lugar marchando en el sitio mientras sostienes las mancuernas.",
+    "Asegúrate de que tu núcleo esté comprometido durante todo el ejercicio para proteger tu espalda baja de tensiones."
+  ],
+  "errores_comunes": [
+    "Usar pesos demasiado pesados, comprometiendo la forma y el control.",
+    "Permitir que los hombros se redondeen hacia adelante, desactivando los músculos de la parte superior de la espalda.",
+    "Inclinarse hacia un lado, causando una distribución desigual de la carga.",
+    "Caminar con una postura encorvada, aumentando la tensión en la parte baja de la espalda.",
+    "Dar pasos excesivamente grandes o pequeños, afectando el equilibrio.",
+    "No mantener una columna neutral, aumentando el riesgo de lesiones.",
+    "Agarrar las mancuernas demasiado flojamente, arriesgando una caída.",
+    "Permitir que el núcleo se desactive, reduciendo la estabilidad.",
+    "Caminar demasiado rápido, sacrificando el control y la forma.",
+    "Sostener las mancuernas demasiado lejos del cuerpo, aumentando la tensión."
+  ]
+}

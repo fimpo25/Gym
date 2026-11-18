@@ -1,0 +1,51 @@
+{
+  "nombre": "Dominadas Asistidas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/dominadas-asistidas",
+  "video_url": "https://api.smartworkout.app/asset/video/51ffe5a7-e431-4ab1-8f79-98c41856a8b7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "La Dominada Asistida es un ejercicio de entrenamiento de fuerza que se enfoca en los músculos de la espalda, los hombros y los brazos. Se realiza utilizando una máquina que proporciona un peso de contrapeso para ayudar a levantar el cuerpo, lo que lo hace adecuado para aquellos que están desarrollando la fuerza necesaria para realizar dominadas sin asistencia. Este ejercicio involucra principalmente los músculos dorsal ancho, bíceps y trapecio.",
+  "como_realizar": [
+    "Ajusta el peso en la máquina de dominadas asistidas para proporcionar el soporte necesario.",
+    "Párate en la plataforma o arrodíllate en el cojín, dependiendo del diseño de la máquina.",
+    "Agarra las asas de dominadas con un agarre por encima, ligeramente más ancho que el ancho de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo recto al comenzar el movimiento.",
+    "Tira de ti hacia arriba llevando los codos hacia abajo y hacia atrás hasta que tu barbilla esté por encima de la barra.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la contracción completa de los músculos de la espalda.",
+    "Baja lentamente de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea firme pero relajado para evitar tensión innecesaria en tus antebrazos.",
+    "Concéntrate en involucrar los músculos de tu espalda en lugar de tirar con tus brazos.",
+    "Mantén un movimiento constante y controlado durante cada repetición para maximizar el compromiso muscular.",
+    "Evita balancearte o usar el impulso para completar la dominada; el control es clave.",
+    "Ajusta el peso de asistencia a medida que ganas fuerza para reducir gradualmente la dependencia de la máquina.",
+    "Mantén tus hombros hacia abajo y alejados de tus orejas para evitar tensiones y promover una forma adecuada.",
+    "Exhala al subir y inhala al bajar de nuevo."
+  ],
+  "errores_comunes": [
+    "Usar demasiada asistencia, reduciendo el compromiso muscular y la efectividad.",
+    "Permitir que el cuerpo se balancee, llevando a un movimiento basado en el impulso en lugar de la activación muscular.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento y la activación muscular.",
+    "Tirar con los brazos en lugar de comprometer los músculos de la espalda, reduciendo el desarrollo de la espalda.",
+    "Encoger los hombros hacia las orejas, causando tensión en el cuello y los hombros.",
+    "Inclinarse hacia atrás excesivamente, alterando el patrón de movimiento y reduciendo la efectividad.",
+    "No mantener un núcleo estable, llevando a una mala alineación y control del cuerpo.",
+    "Agarrar la barra incorrectamente, causando tensión en las muñecas y reduciendo la eficiencia del tirón.",
+    "Apresurarse en el movimiento, sacrificando el control y la forma.",
+    "No comprometer las escápulas, limitando la activación muscular de la espalda y las ganancias de fuerza."
+  ]
+}

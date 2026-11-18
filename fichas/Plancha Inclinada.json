@@ -1,0 +1,53 @@
+{
+  "nombre": "Plancha Inclinada",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/plancha-inclinada",
+  "video_url": "https://api.smartworkout.app/asset/video/c67d256e-815d-4bb4-89df-a6eff0632d35.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Plancha Inclinada es un ejercicio avanzado de peso corporal que se enfoca en los hombros, el pecho y el núcleo. Requiere una fuerza y equilibrio significativos, ya que implica mantener el cuerpo paralelo al suelo con solo las manos tocando el piso. Este ejercicio es una progresión hacia la plancha completa, enfatizando la fuerza de los hombros y la estabilidad del núcleo.",
+  "como_realizar": [
+    "Comienza en una posición de flexión con las manos separadas al ancho de los hombros y los dedos apuntando hacia adelante.",
+    "Inclina tu cuerpo hacia adelante desplazando tu peso sobre tus manos, manteniendo los brazos rectos.",
+    "Activa tu núcleo y glúteos para mantener una línea recta desde la cabeza hasta los talones.",
+    "Mantén los pies juntos y levántalos ligeramente del suelo, equilibrándote sobre tus manos.",
+    "Mantén esta posición el mayor tiempo posible, manteniendo el control y la estabilidad.",
+    "Vuelve lentamente a la posición inicial invirtiendo el movimiento."
+  ],
+  "consejos": [
+    "Concéntrate en activar tus músculos del core para mantener la estabilidad durante todo el ejercicio.",
+    "Comienza con retenciones cortas y aumenta gradualmente la duración a medida que desarrollas fuerza.",
+    "Asegúrate de que tus hombros estén protraídos y deprimidos para protegerlos de lesiones.",
+    "Practica inclinarte hacia adelante de manera incremental para encontrar tu punto de equilibrio sin sobreextenderte.",
+    "Usa paralelas o bloques de yoga si la flexibilidad de la muñeca es un factor limitante.",
+    "Incorpora ejercicios de fortalecimiento de muñecas en tu rutina para apoyar este movimiento."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan, perdiendo la línea recta desde los hombros hasta los pies.",
+    "No protruir las escápulas, resultando en inestabilidad del hombro.",
+    "Colocar las manos demasiado hacia adelante, reduciendo el apalancamiento y el control.",
+    "Doblar los codos, llevando a una participación insuficiente de los brazos.",
+    "No activar el core, causando tensión en la parte baja de la espalda.",
+    "Inclinarse demasiado hacia adelante, arriesgando tensión en las muñecas.",
+    "Descuidar mantener la tensión en las piernas, causando pérdida de equilibrio.",
+    "Apresurar el movimiento, llevando a una mala forma y control."
+  ]
+}

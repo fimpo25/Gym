@@ -1,0 +1,35 @@
+{
+  "nombre": "Aducción de Cadera Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/aduccion-de-cadera-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/a4b1cb57-543c-4cbc-880a-8277129d06b7.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El ejercicio de Aducción de Cadera Sentado se enfoca en los músculos aductores del interior de los muslos. Se realiza utilizando una máquina especializada que te permite juntar las piernas contra resistencia. Este ejercicio es beneficioso para fortalecer y tonificar los músculos del interior de los muslos, mejorando la estabilidad y el equilibrio.",
+  "como_realizar": [
+    "Ajusta el asiento y el respaldo de la máquina de aducción de cadera para asegurar comodidad y alineación adecuada.",
+    "Siéntate en la máquina con la espalda firmemente contra el respaldo y los pies colocados en los reposapiés.",
+    "Coloca tus piernas separadas, posicionando tus rodillas contra las palancas acolchadas.",
+    "Agarra las manijas a cada lado del asiento para estabilidad.",
+    "Exhala y lleva lentamente tus rodillas juntas contrayendo los músculos internos del muslo.",
+    "Pausa brevemente en el punto de contracción máxima, asegurando un rango completo de movimiento.",
+    "Inhala y regresa gradualmente a la posición inicial, controlando la resistencia en todo momento.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca recta y presionada contra el respaldo durante todo el ejercicio para evitar tensiones.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular y prevenir lesiones.",
+    "Comienza con un peso ligero para dominar la forma adecuada antes de avanzar a cargas más pesadas.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante el ejercicio.",
+    "Evita bloquear las rodillas en cualquier momento durante el movimiento para proteger tus articulaciones.",
+    "Exhala al juntar las rodillas e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": []
+}

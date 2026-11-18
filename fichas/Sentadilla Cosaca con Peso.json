@@ -1,0 +1,51 @@
+{
+  "nombre": "Sentadilla Cosaca con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/weighted-cossack-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/9ac962ba-977f-4b70-8be3-09347be531b8.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Weighted Cossack Squat is a unilateral lower body exercise that targets the quadriceps, hamstrings, glutes, and adductors. It involves performing a deep lateral squat while holding a weight, such as a dumbbell or kettlebell, to increase resistance and improve strength, balance, and flexibility.",
+  "como_realizar": [
+    "Stand with your feet wider than shoulder-width apart, toes pointing slightly outward.",
+    "Hold a dumbbell or kettlebell with both hands close to your chest.",
+    "Shift your weight onto your right leg, bending the knee and pushing your hips back as you lower into a squat.",
+    "Keep your left leg straight with the foot flat on the ground or with the heel slightly raised if necessary.",
+    "Lower yourself until your right thigh is parallel to the ground or as low as your flexibility allows.",
+    "Push through your right heel to return to the starting position.",
+    "Repeat the movement on the left side."
+  ],
+  "consejos": [
+    "Maintain an upright torso throughout the movement to ensure proper form.",
+    "Engage your core muscles to stabilize your body and protect your lower back.",
+    "Focus on keeping your knee aligned with your toes to avoid unnecessary strain.",
+    "Start with a light weight or no weight at all to master the technique before progressing.",
+    "Perform the exercise slowly and controlled to maximize muscle engagement and balance.",
+    "Inhale as you lower into the squat and exhale as you push back up to the starting position."
+  ],
+  "errores_comunes": [
+    "Leaning forward excessively, which shifts the load away from the targeted leg.",
+    "Allowing the knee to cave inward, increasing stress on the joint.",
+    "Rising onto the toes of the working leg, reducing stability and engagement.",
+    "Holding the weight too far from the body, causing balance issues.",
+    "Failing to keep the non-working leg straight, limiting range of motion.",
+    "Dropping the hips too low without maintaining control, risking strain.",
+    "Not engaging the core, leading to a lack of support and balance.",
+    "Using momentum to rise instead of controlled muscle activation.",
+    "Neglecting to keep the chest up, which can lead to rounding of the back."
+  ]
+}

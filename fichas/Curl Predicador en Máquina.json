@@ -1,0 +1,39 @@
+{
+  "nombre": "Curl Predicador en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-predicador-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/adeb3342-c693-46f9-899c-77824d265e42.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl en Máquina Predicador es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Implica el uso de una máquina de curl predicador para realizar curls de bíceps controlados, enfatizando la contracción máxima del bíceps. Este ejercicio ayuda a desarrollar el tamaño y la fuerza de los bíceps al proporcionar tensión constante durante todo el movimiento.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus brazos superiores descansen cómodamente en el cojín de predicador.",
+    "Siéntate y agarra las manijas o la barra con un agarre en supinación, a la altura de los hombros.",
+    "Asegúrate de que tus brazos superiores estén planos contra el cojín y tu pecho esté firmemente presionado contra él.",
+    "Comienza con los brazos completamente extendidos, pero evita bloquear los codos.",
+    "Eleva el peso hacia arriba contrayendo los bíceps, manteniendo los brazos superiores estacionarios.",
+    "Continúa elevando hasta que tus antebrazos estén verticales o ligeramente más allá de vertical para una contracción máxima.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando los bíceps.",
+    "Baja lentamente el peso de nuevo a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tus brazos superiores estacionarios para maximizar el compromiso del bíceps.",
+    "Evita usar el impulso; realiza cada repetición con movimientos controlados.",
+    "Ajusta la configuración de la máquina para asegurar un rango completo de movimiento sin sobreextender.",
+    "Mantén una ligera flexión en los codos en la parte inferior para mantener la tensión en los bíceps.",
+    "Exhala mientras levantas el peso y inhala al bajarlo.",
+    "Asegúrate de que tus muñecas permanezcan rectas durante todo el ejercicio para evitar tensiones."
+  ],
+  "errores_comunes": []
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla con Landmine",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/landmine-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/b236976c-f082-4b02-b47a-670d925d8d81.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Landmine Squat is a compound exercise that targets the quadriceps, glutes, and core. It involves using a landmine attachment, which is a barbell anchored at one end, allowing for a unique range of motion. This exercise is beneficial for building lower body strength and improving balance and coordination.",
+  "como_realizar": [
+    "Position the barbell in the landmine attachment, ensuring it is securely anchored.",
+    "Stand facing the barbell with your feet shoulder-width apart.",
+    "Grip the end of the barbell with both hands, holding it close to your chest.",
+    "Engage your core and keep your chest up as you begin to lower into a squat by bending your knees and pushing your hips back.",
+    "Descend until your thighs are parallel to the ground or as low as your mobility allows.",
+    "Drive through your heels to return to the starting position, extending your hips and knees fully.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the movement to avoid unnecessary strain on your back.",
+    "Keep your weight distributed evenly across your feet to ensure stability.",
+    "Focus on engaging your core muscles to support your lower back during the squat.",
+    "Ensure that your knees track over your toes as you descend to prevent knee injuries.",
+    "Control the movement both on the way down and up to maximize muscle engagement.",
+    "Adjust your stance width if necessary to find a comfortable position that allows for optimal squat depth."
+  ],
+  "errores_comunes": [
+    "Feet positioned too close together, limiting stability and range of motion.",
+    "Barbell held too far from the chest, reducing control and increasing lower back strain.",
+    "Knees caving inward during the squat, leading to poor alignment and potential joint stress.",
+    "Heels lifting off the ground, reducing stability and shifting weight forward.",
+    "Back rounding at the bottom of the squat, risking spinal alignment issues.",
+    "Failing to engage the core, leading to poor posture and balance.",
+    "Descending too quickly, compromising control and increasing risk of injury.",
+    "Not squatting to a sufficient depth, limiting muscle engagement and effectiveness.",
+    "Allowing the elbows to flare out, reducing upper body stability."
+  ]
+}

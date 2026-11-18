@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación Lateral en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/269bac17-0419-4bcf-ade9-2ea9f50f4278.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La elevación lateral en máquina es un ejercicio de aislamiento que se enfoca en los músculos del deltoides lateral. Implica el uso de una máquina especializada que proporciona estabilidad y movimiento controlado, permitiendo un enfoque en el compromiso muscular. Este ejercicio es ideal para aumentar el ancho de los hombros y mejorar la simetría de los mismos.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura de los hombros cuando estés sentado.",
+    "Siéntate con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre neutral, palmas hacia abajo.",
+    "Comienza con los brazos a los lados, codos ligeramente doblados.",
+    "Exhala y levanta las manijas hacia afuera y hacia arriba hasta la altura de los hombros, manteniendo los codos ligeramente doblados durante todo el movimiento.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la máxima contracción de los deltoides laterales.",
+    "Inhala y baja lentamente las manijas de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén tu núcleo comprometido para estabilizar tu torso durante el ejercicio.",
+    "Evita usar el impulso; concéntrate en usar los músculos de los hombros para levantar el peso.",
+    "Asegúrate de que tus codos permanezcan ligeramente doblados durante todo el ejercicio para prevenir la tensión en las articulaciones.",
+    "Ajusta la configuración de peso de la máquina para que coincida con tu nivel de fuerza, permitiendo una forma adecuada durante todas las repeticiones.",
+    "Concéntrate en la respiración; exhala al levantar e inhala al bajar los pesos."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a levantar con impulso en lugar de un movimiento controlado.",
+    "Encoger los hombros hacia arriba en lugar de aislar los deltoides laterales.",
+    "Inclinarse hacia adelante o hacia atrás, lo que desvía el enfoque de los músculos objetivo.",
+    "Permitir que las muñecas se doblen, reduciendo la tensión en los deltoides.",
+    "Levantar los brazos demasiado alto, lo que puede estresar innecesariamente las articulaciones del hombro.",
+    "No ajustar correctamente la altura del asiento, desalineando la articulación del hombro con el punto de pivote de la máquina.",
+    "No mantener una ligera flexión en los codos, lo que puede llevar a tensión en las articulaciones.",
+    "Apresurarse en las repeticiones, comprometiendo el compromiso muscular y el control."
+  ]
+}

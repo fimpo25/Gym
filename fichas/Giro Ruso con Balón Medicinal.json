@@ -1,0 +1,46 @@
+{
+  "nombre": "Giro Ruso con Balón Medicinal",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-ruso-con-balon-medicinal",
+  "video_url": "https://api.smartworkout.app/asset/video/c5d39f15-cf79-441b-90ec-6c4a1eb29de7.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El giro ruso con balón medicinal es un ejercicio de core que se enfoca en los músculos oblicuos, mejorando la fuerza rotacional y la estabilidad. Consiste en sentarse en el suelo con las piernas elevadas y girar el torso mientras se sostiene un balón medicinal.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos en el suelo.",
+    "Inclínate ligeramente hacia atrás para activar tu núcleo, manteniendo la espalda recta.",
+    "Levanta los pies del suelo, equilibrándote sobre tus huesos de la cadera.",
+    "Sujeta una pelota medicinal con ambas manos cerca de tu pecho.",
+    "Gira tu torso hacia la derecha, llevando la pelota medicinal al lado de tu cadera.",
+    "Regresa al centro, luego gira hacia el lado izquierdo.",
+    "Continúa alternando lados de manera controlada."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio.",
+    "Concéntrate en rotar tu torso en lugar de solo mover tus brazos.",
+    "Mantén un patrón de respiración constante; exhala al girar, inhala al regresar al centro.",
+    "Si levantar los pies es demasiado desafiante, mantenlos en el suelo para mayor estabilidad.",
+    "Asegúrate de que tus movimientos sean lentos y controlados para maximizar el compromiso muscular.",
+    "Comienza con un balón medicinal más ligero y aumenta el peso a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, causando tensión en la parte baja de la espalda.",
+    "Usar los brazos en lugar del torso para mover la pelota, reduciendo el compromiso del core.",
+    "Permitir que las rodillas se tambaleen, llevando a la pérdida de estabilidad.",
+    "Girar demasiado rápido, comprometiendo el control y la forma.",
+    "No rotar completamente el torso, limitando el rango de movimiento.",
+    "Contener la respiración en lugar de mantener una respiración constante.",
+    "Redondear la espalda, aumentando el riesgo de lesión en la espalda.",
+    "Mantener los pies planos en el suelo, reduciendo la activación del core.",
+    "Usar una pelota medicinal demasiado pesada, llevando a una forma incorrecta."
+  ]
+}

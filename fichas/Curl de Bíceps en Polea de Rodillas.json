@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Bíceps en Polea de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-en-polea-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/538bae6b-f014-425a-9c91-f12e80b53651.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Cable Arrodillado es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Implica el uso de una máquina de cables para proporcionar tensión constante durante el movimiento, mejorando el compromiso muscular. Este ejercicio se realiza en una posición arrodillada, lo que ayuda a estabilizar el cuerpo y enfocar el esfuerzo en los bíceps.",
+  "como_realizar": [
+    "Conecta una barra recta o EZ-curl a una polea baja en una máquina de cables.",
+    "Arrodíllate frente a la máquina, manteniendo la espalda recta y el núcleo comprometido.",
+    "Agarra la barra con un agarre en supinación, manos al ancho de los hombros.",
+    "Coloca tus codos cerca de tus costados, asegurándote de que permanezcan estacionarios durante todo el ejercicio.",
+    "Comienza con los brazos completamente extendidos y el cable tenso.",
+    "Flexiona los codos para llevar la barra hacia tus hombros, manteniendo los brazos superiores estacionarios.",
+    "Aprieta tus bíceps en la parte superior del movimiento.",
+    "Baja lentamente la barra de regreso a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y evita arquear la espalda durante el ejercicio.",
+    "Concéntrate en mantener los codos fijos en su lugar para maximizar el compromiso del bíceps.",
+    "Controla el movimiento tanto al subir como al bajar para aumentar la tensión muscular.",
+    "Exhala al levantar el peso y inhala al bajarlo.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, desplazando el peso hacia los dedos de los pies en lugar de los talones.",
+    "Permitir que las rodillas se inclinen hacia adentro durante la fase de sentadilla.",
+    "Usar el impulso para levantar el peso en lugar de una contracción muscular controlada.",
+    "No extender completamente los brazos en la parte inferior del curl, limitando el rango de movimiento.",
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Estar demasiado cerca o demasiado lejos de la máquina de cables, afectando la tensión y la forma.",
+    "No activar el core, lo que lleva a una mala estabilidad y equilibrio.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales, reduciendo el compromiso del bíceps.",
+    "Subir a los dedos de los pies durante el curl, perdiendo equilibrio y control.",
+    "Ignorar la fase excéntrica dejando caer el peso demasiado rápido."
+  ]
+}

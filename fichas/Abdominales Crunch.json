@@ -1,0 +1,45 @@
+{
+  "nombre": "Abdominales Crunch",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-crunch",
+  "video_url": "https://api.smartworkout.app/asset/video/b980df05-5c31-428d-85e2-4fd60362a453.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los abdominales son un ejercicio de core que se enfoca principalmente en el músculo recto abdominal. Este ejercicio ayuda a fortalecer el core, mejorar la postura y aumentar la resistencia abdominal en general. Se realiza acostándote de espaldas y levantando la parte superior del cuerpo hacia las rodillas utilizando los músculos abdominales.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las rodillas dobladas y los pies planos en el suelo, separados al ancho de las caderas.",
+    "Coloca tus manos detrás de la cabeza con los codos apuntando hacia afuera. Evita tirar de tu cuello.",
+    "Activa tu núcleo llevando tu ombligo hacia la columna vertebral.",
+    "Levanta tus omóplatos del suelo contrayendo tus músculos abdominales. Exhala mientras levantas.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de no tirar con el cuello o los brazos.",
+    "Inhala mientras bajas lentamente de nuevo a la posición inicial sin dejar que tus hombros toquen completamente el suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus movimientos controlados y evita usar el impulso para levantarte.",
+    "Concéntrate en usar tus abdominales para levantarte en lugar de tirar con el cuello o los brazos.",
+    "Mantén un pequeño espacio entre tu barbilla y el pecho para evitar tensar el cuello.",
+    "Exhala al subir y inhala al regresar a la posición inicial para un mejor compromiso del core.",
+    "Asegúrate de que tu zona lumbar permanezca en contacto con la colchoneta durante todo el ejercicio para proteger tu columna.",
+    "Comienza con un número manejable de repeticiones y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Tirar del cuello con las manos en lugar de activar el core.",
+    "Levantar la parte baja de la espalda del suelo, reduciendo la activación del core.",
+    "Usar el impulso para levantar el torso en lugar de un movimiento controlado.",
+    "No activar completamente los músculos abdominales durante todo el movimiento.",
+    "Levantar los hombros demasiado alto, convirtiendo el crunch en un sit-up.",
+    "Meter la barbilla demasiado al pecho, forzando el cuello.",
+    "Permitir que los codos se colapsen hacia adentro, reduciendo la efectividad.",
+    "No mantener los pies planos en el suelo, lo que lleva a la inestabilidad.",
+    "Contener la respiración en lugar de mantener una respiración constante.",
+    "Realizar el movimiento demasiado rápido, sacrificando la forma por la velocidad."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "nombre": "Elevación Lateral Inclinado a Un Brazo con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-dumbbell-incline-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/5075da53-79db-48a1-b26d-800233a0e625.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Dumbbell Incline One Arm Lateral Raise is an isolation exercise targeting the lateral deltoid muscles. It is performed on an incline bench, allowing for a greater range of motion and increased muscle activation. This exercise helps in building shoulder width and improving overall shoulder aesthetics.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Sit sideways on the bench with your non-working side against the backrest.",
+    "Hold a dumbbell in your working hand with a neutral grip, arm hanging down naturally.",
+    "Keep your core engaged and maintain a slight bend in your elbow.",
+    "Raise the dumbbell out to the side until your arm is parallel to the floor.",
+    "Pause briefly at the top of the movement, then slowly lower the dumbbell back to the starting position.",
+    "Repeat for the desired number of repetitions and switch arms."
+  ],
+  "consejos": [
+    "Ensure your movements are controlled to maximize muscle engagement.",
+    "Avoid using momentum; focus on using the deltoid to lift the weight.",
+    "Keep your torso stable and avoid leaning or twisting during the exercise.",
+    "Exhale as you lift the dumbbell and inhale as you lower it.",
+    "Start with a lighter weight to master form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to swinging and loss of control.",
+    "Allowing the shoulder to shrug, reducing isolation of the lateral deltoid.",
+    "Failing to maintain a slight bend in the elbow, causing joint strain.",
+    "Raising the arm too high, engaging the trapezius instead of the deltoid.",
+    "Not keeping the torso stable against the bench, causing unnecessary movement.",
+    "Performing the movement too quickly, reducing muscle engagement.",
+    "Allowing the wrist to bend, leading to improper force distribution.",
+    "Neglecting to keep the palm facing down, altering the target muscle group."
+  ]
+}

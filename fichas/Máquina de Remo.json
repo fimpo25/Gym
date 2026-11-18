@@ -1,0 +1,54 @@
+{
+  "nombre": "Máquina de Remo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/maquina-de-remo",
+  "video_url": "https://api.smartworkout.app/asset/video/530f6d88-7795-4bde-bd76-c95f480a8955.mp4",
+  "tags": [
+    "CARDIO",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La máquina de remo, también conocida como ergómetro, es un dispositivo de entrenamiento cardiovascular y de fuerza que simula la acción de remar en el agua. Involucra múltiples grupos musculares, incluidos las piernas, la espalda, los brazos y el core, proporcionando un entrenamiento de cuerpo completo. La máquina consta de un asiento deslizante, reposapiés con correas y un mango conectado a un volante o mecanismo de resistencia.",
+  "como_realizar": [
+    "Ajusta los reposapiés para que las correas estén seguras sobre las bolas de tus pies.",
+    "Siéntate en el asiento deslizante y agarra el mango con ambas manos usando un agarre por encima.",
+    "Comienza con las rodillas dobladas y las espinillas verticales, inclinándote ligeramente hacia adelante en las caderas.",
+    "Empuja con las piernas mientras mantienes los brazos rectos hasta que estén completamente extendidos.",
+    "Una vez que tus piernas estén rectas, inclínate ligeramente hacia atrás y tira del mango hacia tus costillas inferiores.",
+    "Invierte el movimiento extendiendo primero los brazos, luego doblando las rodillas para volver a la posición inicial."
+  ],
+  "consejos": [
+    "Mantén la espalda recta durante todo el movimiento para evitar tensiones.",
+    "Concéntrate en impulsar con las piernas; ellas deben iniciar el movimiento.",
+    "Mantén el core comprometido para estabilizar tu cuerpo durante el ejercicio.",
+    "Asegúrate de realizar transiciones suaves entre fases para mantener el ritmo y la eficiencia.",
+    "Evita encorvar los hombros; mantenlos relajados y hacia abajo.",
+    "Comienza con una configuración de baja resistencia para dominar la técnica antes de aumentar la intensidad."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Usar solo los brazos en lugar de involucrar las piernas y el núcleo.",
+    "Inclinarse demasiado hacia atrás al final de la remada.",
+    "No extender completamente las piernas durante la fase de impulso.",
+    "Doblar las rodillas demasiado pronto durante la fase de recuperación.",
+    "Agarrar el mango demasiado fuerte, causando tensión innecesaria.",
+    "Tirar del mango hacia el pecho en lugar de las costillas inferiores.",
+    "Apresurar la fase de recuperación, llevando a un ritmo pobre.",
+    "No ajustar el nivel del amortiguador adecuadamente para el nivel de condición física.",
+    "Dejar que las rodillas se abran en lugar de mantenerlas alineadas."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Flexiones Diamante",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexiones-diamante",
+  "video_url": "https://api.smartworkout.app/asset/video/07f93f63-e9df-4c88-9e05-5cd48c85d6dd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "Las Flexiones Diamante son un ejercicio con el peso del cuerpo que se enfoca en los tríceps, el pecho y los hombros. Esta variación de la flexión estándar implica colocar las manos juntas debajo del pecho, formando un diamante con los pulgares y los dedos índices. Esta posición aumenta la activación de los tríceps en comparación con las flexiones regulares.",
+  "como_realizar": [
+    "Comienza en una posición de plancha con tu cuerpo en línea recta desde la cabeza hasta los talones.",
+    "Coloca tus manos directamente debajo de tu pecho, formando una forma de diamante con los pulgares y los dedos índices tocándose.",
+    "Mantén los codos cerca de tu cuerpo mientras bajas el pecho hacia tus manos doblando los codos.",
+    "Baja hasta que tu pecho casi toque la parte posterior de tus manos.",
+    "Empuja a través de tus palmas para extender los codos y regresar a la posición inicial.",
+    "Mantén el núcleo apretado y evita hundir o arquear la espalda durante todo el movimiento."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén posicionadas correctamente para maximizar el compromiso de los tríceps.",
+    "Mantén tu núcleo comprometido para mantener una alineación corporal adecuada.",
+    "Si eres nuevo en este ejercicio, comienza de rodillas para desarrollar fuerza antes de avanzar a las flexiones completas.",
+    "Concéntrate en un movimiento lento y controlado para aumentar la activación muscular.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Evita que tus codos se abran hacia los lados; mantenlos cerca de tu cuerpo."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado separadas, reduciendo el compromiso del tríceps.",
+    "Codos que se abren excesivamente, aumentando la tensión en los hombros.",
+    "Caderas hundiéndose o elevándose, comprometiendo la estabilidad del núcleo.",
+    "Rango de movimiento inadecuado, limitando la activación muscular.",
+    "Apresurarse en las repeticiones, disminuyendo el control y la efectividad.",
+    "Cuello adelantado, llevando a una mala alineación de la columna.",
+    "Hombros encogiéndose, reduciendo la estabilidad escapular.",
+    "No mantener el cuerpo en línea recta, afectando la postura.",
+    "Manos posicionadas demasiado cerca del pecho, causando incomodidad en las muñecas."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "nombre": "Extensión de Tríceps con Mancuernas Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-mancuernas-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/0362de59-d154-4177-8a06-086ec08261ff.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Mancuernas Acostado, también conocida como 'rompecráneos', es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Se realiza acostado en un banco con una mancuerna en cada mano, extendiendo los brazos para trabajar los tríceps a través de un rango completo de movimiento.",
+  "como_realizar": [
+    "Acuéstate boca arriba en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre por encima, brazos completamente extendidos sobre tu pecho.",
+    "Mantén los codos estacionarios y cerca de tu cabeza durante todo el movimiento.",
+    "Baja lentamente las mancuernas doblando los codos hasta que estén justo por encima de tu frente.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Extiende tus brazos de nuevo a la posición inicial contrayendo tus tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado para evitar usar el impulso.",
+    "Mantén los codos pegados para maximizar el compromiso de los tríceps.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener la tensión en los tríceps.",
+    "Usa un observador si levantas pesas pesadas para garantizar la seguridad.",
+    "Comienza con pesas más ligeras para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Concéntrate en apretar los tríceps en la parte superior de cada repetición para una contracción máxima."
+  ],
+  "errores_comunes": []
+}

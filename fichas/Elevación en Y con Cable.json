@@ -1,0 +1,49 @@
+{
+  "nombre": "Elevación en Y con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-en-y-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/39fab75e-ff70-4412-9188-8777dadf2d7f.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "La elevación en Y con cable es un ejercicio de aislamiento que se enfoca en los hombros, específicamente en los músculos deltoides. Implica el uso de una máquina de cables para realizar un movimiento en forma de Y, lo que ayuda a desarrollar la fuerza y estabilidad de los hombros.",
+  "como_realizar": [
+    "Coloca la máquina de cables en una posición de polea baja y acopla manijas individuales a cada lado.",
+    "Párate frente a la máquina con los pies separados al ancho de los hombros, sosteniendo una manija en cada mano.",
+    "Da un paso atrás ligeramente para crear tensión en los cables, manteniendo los brazos rectos y a los lados.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas.",
+    "Levanta los brazos diagonalmente hacia arriba y hacia afuera en forma de Y hasta que estén a la altura de los hombros.",
+    "Pausa brevemente en la parte superior del movimiento mientras aprietas los omóplatos juntos.",
+    "Baja lentamente las manijas de regreso a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Evita usar el impulso; concéntrate en movimientos controlados para maximizar el compromiso muscular.",
+    "Asegúrate de que tus hombros permanezcan relajados y no se encojan durante el levantamiento.",
+    "Mantén una ligera flexión en los codos para reducir la tensión en las articulaciones.",
+    "Exhala al levantar los cables e inhala al bajarlos.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, causando una forma incorrecta y momentum.",
+    "Inclinarse hacia atrás o arquear excesivamente la parte baja de la espalda.",
+    "Levantar los cables por encima de la altura de los hombros, provocando tensión en los hombros.",
+    "No comprometer el núcleo, resultando en inestabilidad.",
+    "Permitir que las muñecas se doblen, reduciendo la tensión en los hombros.",
+    "Encoger los hombros en lugar de mantenerlos abajo y hacia atrás.",
+    "No mantener una ligera flexión en los codos, causando tensión en las articulaciones.",
+    "Usar un movimiento brusco en lugar de un levantamiento y descenso controlado.",
+    "Dejar que los cables tiren de los brazos hacia atrás durante la fase excéntrica.",
+    "Descuidar mantener el cuello neutral, provocando tensión en el cuello."
+  ]
+}

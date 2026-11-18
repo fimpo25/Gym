@@ -1,0 +1,41 @@
+{
+  "nombre": "Inclinación Lateral de Pie con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/inclinacion-lateral-de-pie-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/08ab9632-5bd0-4222-8381-225d1293f13c.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Inclinación Lateral de Pie con Mancuerna es un ejercicio de aislamiento que se enfoca en los músculos oblicuos a los lados del abdomen. También involucra la parte baja de la espalda y ayuda a mejorar la estabilidad y flexibilidad del core. Este ejercicio se realiza con una mancuerna en una mano mientras se está de pie.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros, sosteniendo una mancuerna en tu mano derecha con el brazo completamente extendido a tu lado.",
+    "Coloca tu mano izquierda en la cadera o detrás de la cabeza para apoyo.",
+    "Activa tu núcleo y dobla lentamente la cintura hacia el lado derecho, bajando la mancuerna hacia el suelo.",
+    "Pausa brevemente en la parte inferior del movimiento, sintiendo un estiramiento en tu oblicuo izquierdo.",
+    "Regresa a la posición inicial contrayendo los músculos oblicuos izquierdos.",
+    "Completa el número deseado de repeticiones en un lado antes de cambiar la mancuerna a la otra mano y repetir en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular y minimizar el riesgo de lesiones.",
+    "Evita usar el impulso; concéntrate en usar tus músculos oblicuos para levantarte de nuevo a la posición inicial.",
+    "Mantén una columna neutral durante todo el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Asegúrate de que tus caderas permanezcan estacionarias; solo tu parte superior del cuerpo debe moverse durante el ejercicio.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a mancuernas más pesadas."
+  ],
+  "errores_comunes": [
+    "Inclinarse hacia adelante en lugar de estrictamente hacia el lado, lo que reduce el compromiso de los oblicuos.",
+    "Usar el impulso para balancear la mancuerna en lugar de un movimiento controlado, lo que lleva a una mala activación muscular.",
+    "Permitir que los hombros roten, lo que desvía el enfoque de los oblicuos.",
+    "Sostener la mancuerna demasiado lejos del cuerpo, causando tensión innecesaria en el hombro.",
+    "Inclinarse demasiado, lo que puede causar tensión en la parte baja de la espalda debido a un rango de movimiento excesivo.",
+    "No mantener el núcleo comprometido durante todo el movimiento, reduciendo la efectividad.",
+    "Usar un peso demasiado pesado, comprometiendo la forma y aumentando el riesgo de lesión.",
+    "Descuidar realizar el ejercicio en ambos lados por igual, lo que lleva a desequilibrios musculares."
+  ]
+}

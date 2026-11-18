@@ -1,0 +1,46 @@
+{
+  "nombre": "Elevación de Piernas Rectas en Barras Paralelas",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-piernas-rectas-en-barras-paralelas",
+  "video_url": "https://api.smartworkout.app/asset/video/0cb429b4-c12b-430a-b513-0cfbbdf6a9f2.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "La Elevación de Piernas Rectas en Barras Paralelas es un ejercicio de fortalecimiento del core que se enfoca en los músculos abdominales, flexores de la cadera y estabilizadores. Consiste en levantar las piernas manteniendo una postura recta, utilizando barras paralelas para apoyo.",
+  "como_realizar": [
+    "Comienza posicionándote entre las barras de inmersión, agarrando firmemente cada barra con las palmas hacia adentro.",
+    "Levanta tu cuerpo del suelo extendiendo completamente los brazos, manteniendo los hombros comprometidos y alejados de las orejas.",
+    "Activa los músculos del core y estira las piernas, manteniéndolas juntas.",
+    "Levanta lentamente las piernas frente a ti hasta que estén paralelas al suelo, manteniendo una línea recta desde la cabeza hasta los dedos de los pies.",
+    "Mantén la posición brevemente en la parte superior, asegurándote de que tu core permanezca tenso.",
+    "Baja las piernas de nuevo a la posición inicial de manera controlada sin balancearte ni usar impulso.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para evitar el arqueo de la parte baja de la espalda.",
+    "Evita balancearte o usar el impulso para levantar las piernas; concéntrate en movimientos controlados.",
+    "Si te resulta difícil mantener las piernas rectas, comienza con las rodillas dobladas y progresa gradualmente a levantamientos de piernas rectas a medida que desarrollas fuerza.",
+    "Asegúrate de que tus hombros permanezcan estables y no se encojan hacia tus orejas durante el ejercicio.",
+    "Respira de manera constante; exhala al levantar las piernas e inhala al bajarlas."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas en lugar de levantarlas con control.",
+    "Permitir que los hombros se encojan o se eleven durante el movimiento.",
+    "No mantener el núcleo comprometido durante todo el ejercicio.",
+    "Doblar las rodillas en lugar de mantener las piernas rectas.",
+    "Arquear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Levantar las piernas demasiado alto, causando que la parte baja de la espalda se redondee.",
+    "Usar el impulso para levantar las piernas en lugar de la fuerza muscular.",
+    "No alinear adecuadamente las muñecas y los codos, lo que lleva a la inestabilidad.",
+    "Descuidar la estabilización de las escápulas, resultando en tensión en los hombros."
+  ]
+}

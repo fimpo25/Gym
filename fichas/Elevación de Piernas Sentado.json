@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación de Piernas Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-piernas-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/9a715b23-65b7-4eb9-9943-1e0642f45ee8.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación de Piernas Sentado es un ejercicio que se enfoca en los músculos abdominales inferiores. Consiste en levantar las piernas mientras estás sentado, involucrando el núcleo para estabilidad y control. Este ejercicio ayuda a mejorar la fuerza y estabilidad del núcleo, esenciales para la condición física general y la prevención de lesiones.",
+  "como_realizar": [
+    "Siéntate en un banco o silla con la espalda recta y los pies planos en el suelo.",
+    "Coloca tus manos a los lados para apoyo, agarrando los bordes del banco o silla.",
+    "Activa tu core tirando de tu ombligo hacia tu columna.",
+    "Levanta lentamente tus piernas del suelo, manteniéndolas rectas o ligeramente dobladas en las rodillas.",
+    "Eleva tus piernas hasta que estén paralelas al suelo o tan alto como te sea cómodo.",
+    "Mantén la posición brevemente, enfocándote en apretar tus abdominales inferiores.",
+    "Baja lentamente tus piernas de regreso a la posición inicial sin dejarlas tocar el suelo.",
+    "Repite la cantidad deseada de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta y evita inclinarte hacia atrás para mantener una forma adecuada.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Exhala al levantar las piernas e inhala al bajarlas.",
+    "Si te resulta difícil mantener las piernas rectas, intenta doblar ligeramente las rodillas.",
+    "Para aumentar la dificultad, sostiene un peso entre los pies o usa pesas para tobillos.",
+    "Asegúrate de que tus hombros permanezcan relajados y no encorvados durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, lo que reduce el compromiso de los músculos abdominales.",
+    "Usar impulso en lugar de movimientos controlados, lo que lleva a una activación muscular reducida.",
+    "No mantener la espalda recta, lo que puede tensar la parte baja de la espalda.",
+    "Permitir que las piernas caigan demasiado rápido, reduciendo la efectividad del ejercicio.",
+    "No extender completamente las piernas, limitando el rango de movimiento y el compromiso muscular.",
+    "Redondear los hombros hacia adelante, lo que puede causar molestias en el cuello y los hombros.",
+    "Contener la respiración, lo que puede aumentar la presión arterial innecesariamente.",
+    "Involucrar más los flexores de la cadera que el núcleo, reduciendo el enfoque en los músculos abdominales."
+  ]
+}

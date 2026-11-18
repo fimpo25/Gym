@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación Frontal con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-cable-front-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/d316ecca-558f-4579-83aa-9191bb1f869d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The One-Arm Cable Front Raise is an isolation exercise targeting the anterior deltoid muscle. It involves lifting a cable handle in front of the body using one arm, which helps in developing shoulder strength and stability. This exercise is performed using a cable machine, allowing for constant tension throughout the movement.",
+  "como_realizar": [
+    "Stand facing a cable machine with your feet shoulder-width apart.",
+    "Attach a single handle to the low pulley and set the appropriate weight.",
+    "Grasp the handle with one hand, palm facing down, and step back slightly to create tension in the cable.",
+    "Keep your arm straight but not locked, and maintain a slight bend in your elbow.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Slowly raise the handle in front of you to shoulder height, keeping your arm extended.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the shoulder muscle.",
+    "Lower the handle back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Focus on maintaining a slow and controlled motion to maximize muscle engagement.",
+    "Avoid using momentum by swinging your body; keep movements deliberate and steady.",
+    "Ensure your shoulder does not elevate towards your ear during the lift; keep it relaxed and down.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Keep your wrist neutral throughout the exercise to prevent strain.",
+    "Breathe out as you lift the handle and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to swinging or using momentum instead of controlled movement.",
+    "Leaning backward or forward, compromising core stability and balance.",
+    "Lifting the cable above shoulder height, which can strain the shoulder joint.",
+    "Allowing the wrist to bend rather than keeping it neutral, reducing tension on the target muscles.",
+    "Not engaging the core, resulting in a lack of support for the movement.",
+    "Shrugging the shoulder during the lift, which shifts focus away from the front deltoid.",
+    "Failing to maintain a slight bend in the elbow, increasing strain on the joint.",
+    "Neglecting to control the eccentric phase, letting the weight drop instead of lowering it slowly.",
+    "Standing too close or too far from the cable machine, affecting the tension and effectiveness of the exercise."
+  ]
+}

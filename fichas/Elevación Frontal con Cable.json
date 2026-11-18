@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevación Frontal con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-frontal-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/1f8d830e-0023-4bb6-b778-deb8d598227f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "La Elevación Frontal con Cable es un ejercicio de aislamiento que se enfoca en los deltoides anteriores. Consiste en levantar un mango de cable frente al cuerpo, involucrando los músculos del hombro para elevar el brazo. Este ejercicio ayuda a desarrollar la fuerza del hombro y mejorar la definición muscular.",
+  "como_realizar": [
+    "Acopla una barra recta o un mango individual al polea baja de una máquina de cables.",
+    "Párate de espaldas a la máquina, con los pies separados al ancho de los hombros, y agarra el mango con un agarre por encima.",
+    "Coloca tus brazos rectos hacia abajo frente a tus muslos con una ligera flexión en los codos.",
+    "Activa tu núcleo y mantén la espalda recta durante todo el movimiento.",
+    "Exhala mientras levantas el mango hacia adelante y hacia arriba hasta que tus brazos estén paralelos al suelo.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando tensión en los hombros.",
+    "Inhala mientras bajas lentamente el mango de regreso a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita usar el impulso; concéntrate en usar los músculos de los hombros para levantar el peso.",
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir la tensión en las articulaciones.",
+    "Asegúrate de que tus hombros no se encojan durante el levantamiento; mantenlos abajo y relajados.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Mantén tu núcleo apretado para estabilizar tu cuerpo y evitar el arqueo de la espalda."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a movimientos de balanceo o sacudidas.",
+    "Inclinarse hacia atrás en exceso, lo que reduce el compromiso de los hombros.",
+    "Levantar los brazos por encima del nivel de los hombros, causando tensión innecesaria.",
+    "Involucrar los trapecios en lugar de enfocarse en los deltoides frontales.",
+    "Permitir que las muñecas se doblen, reduciendo la tensión en los hombros.",
+    "Usar el impulso en lugar de movimientos controlados y constantes.",
+    "No mantener una ligera flexión en los codos, aumentando el estrés en las articulaciones.",
+    "Comenzar el movimiento con el cable demasiado lejos del cuerpo, reduciendo el rango de movimiento.",
+    "No mantener el core comprometido, lo que lleva a una mala postura y equilibrio."
+  ]
+}

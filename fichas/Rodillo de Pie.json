@@ -1,0 +1,42 @@
+{
+  "nombre": "Rodillo de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/roll-foot",
+  "video_url": "https://api.smartworkout.app/asset/video/02470813-9726-427f-97b1-4de8a824714f.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The 'Roll Foot' exercise is designed to improve foot mobility, flexibility, and relieve tension in the plantar fascia. It involves using a small ball or foam roller to massage the bottom of the foot, which can help alleviate discomfort and improve overall foot health.",
+  "como_realizar": [
+    "Sit on a chair with your feet flat on the ground.",
+    "Place a small ball or foam roller under one foot.",
+    "Apply gentle pressure and roll the ball from the heel to the toes.",
+    "Focus on any tight or tender areas, spending extra time there.",
+    "Continue rolling for 1-2 minutes per foot.",
+    "Switch to the other foot and repeat the process."
+  ],
+  "consejos": [
+    "Use a tennis ball for a softer massage or a lacrosse ball for deeper pressure.",
+    "Maintain a relaxed posture to avoid unnecessary tension in your legs and back.",
+    "Perform this exercise daily to maintain flexibility and prevent foot discomfort.",
+    "If you experience sharp pain, reduce pressure or consult a healthcare professional.",
+    "Incorporate deep breathing to enhance relaxation during the exercise."
+  ],
+  "errores_comunes": [
+    "Rolling the foot too quickly, leading to a lack of control and ineffective muscle engagement.",
+    "Applying uneven pressure, causing improper muscle activation and potential discomfort.",
+    "Not maintaining a straight leg, which can lead to incorrect posture and reduced effectiveness.",
+    "Failing to engage the core, resulting in loss of balance and stability.",
+    "Allowing the ankle to collapse inward or outward, risking strain on the ligaments.",
+    "Using a range of motion that is too limited, reducing the exercise's benefits.",
+    "Neglecting to align the foot properly, which can lead to uneven muscle work and potential strain."
+  ]
+}

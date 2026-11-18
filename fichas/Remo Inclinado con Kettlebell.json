@@ -1,0 +1,53 @@
+{
+  "nombre": "Remo Inclinado con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/bent-over-kettlebell-row",
+  "video_url": "https://api.smartworkout.app/asset/video/87732c0a-5922-46b3-aa94-c0fa6a8f6b73.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Bent Over Kettlebell Row is a compound exercise targeting the upper back, shoulders, and arms. It involves pulling a kettlebell towards your torso while maintaining a bent-over position, engaging the core for stability and balance.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a kettlebell in each hand with an overhand grip.",
+    "Bend your knees slightly and hinge at the hips to lower your torso until it is almost parallel to the floor.",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Let the kettlebells hang at arm's length from your shoulders.",
+    "Pull the kettlebells towards your ribcage by bending your elbows and squeezing your shoulder blades together.",
+    "Pause briefly at the top of the movement.",
+    "Slowly lower the kettlebells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to prevent injury.",
+    "Engage your core to help stabilize your body as you row.",
+    "Focus on pulling with your back muscles rather than just using your arms.",
+    "Avoid rounding your shoulders; keep them pulled back and down.",
+    "Control the movement on both the upward and downward phases for maximum effectiveness.",
+    "Ensure that your head is in line with your spine; avoid looking up or down excessively.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Allowing the shoulders to shrug instead of keeping them down and back.",
+    "Pulling the kettlebell with the arms instead of engaging the back muscles.",
+    "Using momentum to lift the kettlebell instead of controlled movement.",
+    "Standing too upright, reducing the effectiveness of the bent-over position.",
+    "Not keeping the elbow close to the body during the row.",
+    "Lifting the kettlebell too high, causing shoulder strain.",
+    "Failing to engage the core for stability.",
+    "Neglecting to keep the neck in a neutral position, leading to strain.",
+    "Using a grip that is too loose, compromising control of the kettlebell."
+  ]
+}

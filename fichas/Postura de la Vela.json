@@ -1,0 +1,43 @@
+{
+  "nombre": "Postura de la Vela",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/postura-de-la-vela",
+  "video_url": "https://api.smartworkout.app/asset/video/03a8d199-c270-4632-9ebb-2ba9f97714c7.mp4",
+  "tags": [
+    "BALANCE",
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Postura de la Vela, también conocida como Sarvangasana en yoga, es un ejercicio de inversión que fortalece los hombros, el cuello y los músculos del core. Mejora el equilibrio, la flexibilidad y la circulación al elevar las piernas por encima del corazón.",
+  "como_realizar": [
+    "Acuéstate boca arriba con los brazos a los lados y las piernas extendidas.",
+    "Activa tu núcleo y levanta las piernas hacia el techo, manteniéndolas rectas.",
+    "Coloca tus manos en la parte baja de tu espalda para apoyarte mientras levantas las caderas del suelo.",
+    "Continúa levantando tus piernas y torso hasta que formen una línea recta perpendicular al suelo.",
+    "Mantén la barbilla ligeramente metida para proteger tu cuello y mantén la posición durante varias respiraciones.",
+    "Para liberar, baja lentamente tu espalda y piernas al suelo de manera controlada."
+  ],
+  "consejos": [
+    "Asegúrate de que tu peso esté soportado por tus hombros y brazos superiores, no por tu cuello.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Concéntrate en mantener una línea recta desde los hombros hasta los pies para una alineación adecuada.",
+    "Usa una manta doblada bajo tus hombros si necesitas soporte o comodidad adicional.",
+    "Evita girar la cabeza mientras estás en la postura de la vela para prevenir tensiones en el cuello."
+  ],
+  "errores_comunes": [
+    "No alinear correctamente los hombros y el cuello, lo que lleva a una tensión innecesaria en la columna cervical.",
+    "Permitir que las piernas se desplacen hacia atrás, causando desequilibrio y presión en el cuello.",
+    "Enganchar el core de manera inadecuada, resultando en una falta de estabilidad y control.",
+    "Colocar el peso en la cabeza en lugar de distribuirlo uniformemente a través de los hombros.",
+    "No usar los brazos para apoyar la espalda, lo que lleva a una mala postura y posible incomodidad.",
+    "Doblar las rodillas en lugar de mantener las piernas rectas, reduciendo la efectividad de la postura.",
+    "Descuidar el compromiso de los glúteos y los muslos, lo que puede desestabilizar la postura.",
+    "Contener la respiración, lo que puede aumentar la tensión y reducir el equilibrio."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "nombre": "Kickboxing",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/kickboxing",
+  "video_url": "https://api.smartworkout.app/asset/video/17ddef3e-7230-4232-aa61-70969f7575b5.mp4",
+  "tags": [
+    "CARDIO",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK"
+  ],
+  "descripcion": "El kickboxing es un entrenamiento de alta intensidad que combina elementos del boxeo tradicional con técnicas de artes marciales. Involucra golpes, patadas y movimientos defensivos, proporcionando un entrenamiento de cuerpo completo que mejora la resistencia cardiovascular, la fuerza, la agilidad y la coordinación. El kickboxing se puede realizar en diversos entornos, incluidos gimnasios y estudios de fitness, a menudo como parte de una clase grupal o sesión de entrenamiento individual.",
+  "como_realizar": [
+    "Comienza con un calentamiento adecuado para preparar tus músculos y articulaciones. Esto puede incluir estiramientos dinámicos y ejercicios de cardio ligero.",
+    "Párate en una postura de combate con los pies separados al ancho de los hombros, un pie ligeramente hacia adelante y las rodillas ligeramente flexionadas.",
+    "Mantén las manos cerca de tu cara para protegerte, con los codos cerca del cuerpo.",
+    "Practica golpes básicos como jabs, cruces, ganchos y uppercuts. Concéntrate en la forma y el control.",
+    "Incorpora patadas como patadas frontales, patadas circulares y patadas laterales. Asegúrate de mantener el equilibrio y la técnica adecuados.",
+    "Combina golpes y patadas en combinaciones para mejorar la coordinación y la fluidez.",
+    "Mantén un patrón de respiración constante; exhala con cada golpe o patada para obtener potencia.",
+    "Enfría después de tu sesión con estiramientos estáticos para mejorar la flexibilidad y reducir el dolor muscular."
+  ],
+  "consejos": [
+    "Concéntrate en mantener una forma adecuada para prevenir lesiones y maximizar la efectividad.",
+    "Comienza con técnicas básicas antes de avanzar a combinaciones más complejas.",
+    "Activa tu núcleo durante todo el entrenamiento para mejorar el equilibrio y la potencia.",
+    "Usa un espejo o grábate para verificar tu forma y hacer los ajustes necesarios.",
+    "Mantente ligero sobre tus pies para mejorar la agilidad y rapidez en los movimientos.",
+    "Hidrátate adecuadamente antes, durante y después de tu entrenamiento para mantener los niveles de rendimiento.",
+    "Escucha a tu cuerpo y modifica los ejercicios si experimentas incomodidad o dolor."
+  ],
+  "errores_comunes": [
+    "Bajar las manos durante los golpes, dejando la cara desprotegida.",
+    "Sobreextender los golpes, provocando pérdida de equilibrio y control.",
+    "No pivotar el pie durante las patadas, reduciendo la potencia y arriesgando tensión en la rodilla.",
+    "Lanzar las patadas demasiado rápido, causando desactivación muscular.",
+    "Inclinarse hacia atrás excesivamente durante las patadas, comprometiendo el equilibrio.",
+    "No activar el core, reduciendo la potencia y estabilidad general.",
+    "Ancho de postura incorrecto, afectando la movilidad y generación de potencia.",
+    "Golpear con los codos bloqueados, aumentando la tensión en las articulaciones.",
+    "No retraer los golpes rápidamente, ralentizando las combinaciones.",
+    "Rotación de cadera inadecuada durante los golpes, reduciendo la potencia.",
+    "No mantener un patrón de respiración consistente, conduciendo a la fatiga.",
+    "Mala alineación de las muñecas durante los golpes, aumentando el riesgo de lesión en la muñeca."
+  ]
+}

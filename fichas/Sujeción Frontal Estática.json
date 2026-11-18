@@ -1,0 +1,46 @@
+{
+  "nombre": "Sujeción Frontal Estática",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/static-front-hold",
+  "video_url": "https://api.smartworkout.app/asset/video/7fe38efc-2dbc-4108-853d-5ca57a80bef9.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Static Front Hold, also known as the Front Lever Hold, is an advanced isometric exercise targeting the core, shoulders, and back muscles. It requires significant strength and control to maintain a horizontal position while hanging from a bar.",
+  "como_realizar": [
+    "Begin by hanging from a pull-up bar with an overhand grip, hands shoulder-width apart.",
+    "Engage your core and glutes to stabilize your body.",
+    "Lift your legs and torso until your body is parallel to the ground, forming a straight line from head to heels.",
+    "Keep your arms straight and shoulders engaged throughout the hold.",
+    "Maintain the position for as long as possible, focusing on controlled breathing."
+  ],
+  "consejos": [
+    "Ensure your core is fully engaged to prevent sagging or arching of the back.",
+    "Start with tuck holds if you're unable to maintain a full front hold initially.",
+    "Focus on keeping your body rigid and aligned; imagine a straight line from head to heels.",
+    "Practice regularly to build the necessary strength and endurance for longer holds.",
+    "Use progressive overload by gradually increasing hold duration as you become stronger."
+  ],
+  "errores_comunes": [
+    "Hips too high, creating an inverted V shape instead of a straight line.",
+    "Sagging hips, causing lower back strain and poor core engagement.",
+    "Head tilted up or down, misaligning the spine.",
+    "Shoulders not directly over elbows, reducing stability and effectiveness.",
+    "Arms too far apart, decreasing shoulder and core activation.",
+    "Feet too wide apart, reducing core challenge.",
+    "Holding breath, leading to tension and reduced endurance.",
+    "Engaging lower back instead of core muscles.",
+    "Allowing shoulder blades to collapse, reducing upper body stability."
+  ]
+}

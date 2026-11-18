@@ -1,0 +1,45 @@
+{
+  "nombre": "Puente de Glúteos con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/b5b2db70-8b95-448f-a858-a4808cc4e141.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos con Barra es un ejercicio compuesto que se enfoca en los músculos glúteos, principalmente el glúteo mayor. Consiste en levantar las caderas del suelo mientras se sostiene una barra sobre las caderas, activando eficazmente la parte inferior del cuerpo y el core.",
+  "como_realizar": [
+    "Comienza sentándote en el suelo con la parte superior de la espalda apoyada contra un banco y los pies planos en el suelo, a la altura de las caderas.",
+    "Rueda una barra sobre tus piernas hasta que esté posicionada directamente sobre tus caderas. Usa un cojín para proteger tus caderas si es necesario.",
+    "Activa tu núcleo y aprieta tus glúteos mientras empujas con los talones para levantar tus caderas hacia el techo.",
+    "Asegúrate de que tu cuerpo forme una línea recta desde los hombros hasta las rodillas en la parte superior del movimiento.",
+    "Pausa brevemente en la parte superior, luego baja lentamente tus caderas de nuevo a la posición inicial sin tocar el suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la barbilla hacia abajo y la mirada hacia adelante para mantener una columna neutral durante el movimiento.",
+    "Concéntrate en apretar los glúteos en la parte superior de cada repetición para un máximo compromiso muscular.",
+    "Evita arquear la parte baja de la espalda; mantén una línea recta desde los hombros hasta las rodillas.",
+    "Asegúrate de que tus pies estén firmemente colocados en el suelo y no se muevan durante el ejercicio.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Colocar la barra demasiado alta en las caderas, lo que lleva a incomodidad y reduce la efectividad.",
+    "Arquear excesivamente la parte baja de la espalda, causando tensión y reduciendo la activación de los glúteos.",
+    "Permitir que las rodillas colapsen hacia adentro, lo que disminuye el compromiso de los glúteos y puede tensar las rodillas.",
+    "No mantener los pies planos en el suelo, reduciendo la estabilidad y la potencia.",
+    "Usar el impulso para levantar la barra en lugar de una contracción muscular controlada.",
+    "No extender completamente las caderas en la parte superior, limitando la activación de los glúteos.",
+    "Colocar los pies demasiado separados o demasiado juntos, afectando el equilibrio y el compromiso muscular.",
+    "Apresurarse en las repeticiones, lo que puede comprometer la forma y el control.",
+    "Descuidar el compromiso del núcleo, lo que lleva a inestabilidad y mala postura."
+  ]
+}

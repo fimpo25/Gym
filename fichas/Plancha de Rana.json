@@ -1,0 +1,54 @@
+{
+  "nombre": "Plancha de Rana",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/plancha-de-rana",
+  "video_url": "https://api.smartworkout.app/asset/video/4701f532-aae4-49c7-a450-28b966feba6c.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "BICEPS",
+    "CHEST",
+    "FOREARMS",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "La Plancha de Rana es un ejercicio avanzado de peso corporal que se centra en desarrollar fuerza y equilibrio en la parte superior del cuerpo y el núcleo. Consiste en sostener el cuerpo paralelo al suelo solo con las manos, mientras las rodillas descansan sobre los codos. Este ejercicio trabaja los hombros, el pecho, los tríceps y los músculos del núcleo, mejorando la estabilidad y el control.",
+  "como_realizar": [
+    "Comienza en una posición de cuclillas con los pies juntos y las manos colocadas a la anchura de los hombros en el suelo.",
+    "Inclínate hacia adelante, doblando ligeramente los codos, y coloca las rodillas en la parte posterior de tus brazos superiores cerca de los codos.",
+    "Desplaza tu peso hacia adelante sobre tus manos mientras levantas los pies del suelo, manteniendo el equilibrio.",
+    "Activa tu núcleo y mantén la espalda plana, asegurándote de que tu cuerpo permanezca paralelo al suelo.",
+    "Mantén esta posición el mayor tiempo posible mientras mantienes una respiración constante.",
+    "Para salir, baja suavemente los pies al suelo y vuelve a la posición de cuclillas."
+  ],
+  "consejos": [
+    "Calienta a fondo antes de intentar la Frog Planche para prevenir lesiones.",
+    "Concéntrate en activar tus músculos centrales para mantener el equilibrio y la estabilidad.",
+    "Practica mantener la posición por períodos cortos inicialmente, aumentando gradualmente la duración a medida que desarrollas fuerza.",
+    "Mantén la mirada ligeramente hacia adelante para ayudar a mantener el equilibrio y la alineación.",
+    "Si tienes dificultades con el equilibrio, intenta practicar contra una pared para obtener apoyo adicional.",
+    "Asegúrate de que tus muñecas estén directamente debajo de tus hombros para distribuir el peso de manera uniforme."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado separadas, reduciendo la estabilidad y el control.",
+    "Codos no completamente bloqueados, lo que lleva a una insuficiente participación del brazo.",
+    "Caderas hundiéndose por debajo del nivel de los hombros, causando una mala alineación.",
+    "Cabeza posicionada demasiado baja, interrumpiendo el equilibrio.",
+    "No involucrar los músculos del core, resultando en una falta de tensión corporal.",
+    "Permitir que las rodillas descansen sobre los codos, reduciendo el desafío y la efectividad.",
+    "Apresurarse a la posición sin un calentamiento adecuado, aumentando el riesgo de tensión.",
+    "Descuidar extender los dedos para una mejor distribución del peso.",
+    "Contener la respiración, lo que puede causar pérdida de enfoque y estabilidad."
+  ]
+}

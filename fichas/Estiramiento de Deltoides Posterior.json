@@ -1,0 +1,42 @@
+{
+  "nombre": "Estiramiento de Deltoides Posterior",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/rear-deltoid-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/34c6ed5e-15f3-47c0-8df1-53fad7011506.mp4",
+  "tags": [
+    "STRETCH",
+    "MOBILITY",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Rear Deltoid Stretch targets the posterior deltoid muscles, helping to improve shoulder flexibility and reduce tension. This stretch is essential for maintaining shoulder health, especially after upper body workouts.",
+  "como_realizar": [
+    "Stand or sit with your back straight and shoulders relaxed.",
+    "Extend one arm across your body at shoulder height.",
+    "Use your opposite hand to gently pull the extended arm towards your chest.",
+    "Hold the stretch for 15-30 seconds, feeling a gentle stretch in the back of your shoulder.",
+    "Release and repeat on the other side."
+  ],
+  "consejos": [
+    "Keep your shoulders down and relaxed to avoid unnecessary tension.",
+    "Do not force the stretch; it should feel comfortable and not painful.",
+    "Breathe deeply and evenly throughout the stretch to enhance relaxation.",
+    "Perform this stretch after workouts to aid in muscle recovery and flexibility.",
+    "Ensure your back remains straight to maximize the effectiveness of the stretch."
+  ],
+  "errores_comunes": [
+    "Pulling the arm too aggressively across the body, causing strain on the shoulder joint.",
+    "Allowing the shoulder to rise towards the ear, disengaging the rear deltoid.",
+    "Twisting the torso instead of keeping it stable, reducing the effectiveness of the stretch.",
+    "Failing to keep the arm straight, which decreases the stretch intensity on the rear deltoid.",
+    "Not engaging the core to maintain posture, leading to an imbalanced stretch.",
+    "Holding the stretch for too short a duration, preventing adequate muscle lengthening.",
+    "Using momentum to pull the arm across the body, which reduces control and precision."
+  ]
+}

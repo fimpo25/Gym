@@ -1,0 +1,47 @@
+{
+  "nombre": "Sentadilla Zercher en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-zercher-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/cb990a74-bb47-4c1e-b09d-da66b5e98429.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Zercher Squat is a compound lower body exercise performed using a Smith machine. It targets the quadriceps, hamstrings, glutes, and core muscles. The barbell is held in the crook of the elbows, which requires additional stabilization and engages the upper body muscles. This variation provides a controlled movement path due to the Smith machine's fixed bar path, making it suitable for lifters looking to focus on form and muscle engagement.",
+  "como_realizar": [
+    "Set the Smith machine bar to about waist height.",
+    "Stand close to the bar and position it in the crook of your elbows, with your arms bent and hands clasped together.",
+    "Step back slightly so that your feet are shoulder-width apart and toes are slightly pointed out.",
+    "Engage your core and keep your chest up as you begin to lower into a squat by bending at the hips and knees.",
+    "Descend until your thighs are parallel to the ground or as far as your mobility allows.",
+    "Push through your heels to return to the starting position, keeping your back straight and core engaged throughout the movement.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the bar is securely locked in place before beginning the exercise.",
+    "Maintain a neutral spine throughout the movement to avoid unnecessary strain on your back.",
+    "Focus on keeping your elbows close to your body to maintain control of the barbell.",
+    "Use a moderate weight that allows you to perform the exercise with proper form.",
+    "Breathe in as you lower into the squat and exhale as you push back up to standing.",
+    "Keep your knees aligned with your toes to prevent inward or outward collapse during the squat."
+  ],
+  "errores_comunes": [
+    "Placing the bar too high on the forearms, causing discomfort and instability.",
+    "Leaning too far forward, shifting weight onto the toes instead of keeping it centered.",
+    "Allowing knees to cave inward during the squat, reducing stability and engagement of the glutes.",
+    "Descending too quickly, leading to loss of control and potential for improper form.",
+    "Not reaching sufficient depth, limiting range of motion and muscle activation.",
+    "Rounding the lower back, increasing the risk of spinal strain.",
+    "Failing to engage the core, resulting in a lack of support and balance.",
+    "Pushing hips backward excessively, causing an imbalance and improper squat mechanics.",
+    "Using momentum to rise instead of controlled muscle engagement.",
+    "Neglecting to maintain a neutral head position, which can lead to neck strain."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Prensa de Piernas a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-press",
+  "video_url": "https://api.smartworkout.app/asset/video/354c350e-cfd2-4d62-b73a-b0e90132499f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS"
+  ],
+  "descripcion": "The Single Leg Press is a lower body exercise that targets the quadriceps, hamstrings, and glutes. It is performed using a leg press machine and focuses on one leg at a time, allowing for improved muscle balance and unilateral strength development.",
+  "como_realizar": [
+    "Adjust the seat of the leg press machine so that your back is fully supported and your knees are at a 90-degree angle when your foot is on the platform.",
+    "Place one foot on the platform with your toes pointing slightly outward and ensure your knee is aligned with your foot.",
+    "Grip the side handles for stability and keep your back flat against the seat.",
+    "Push through your heel to extend your leg, keeping a slight bend in your knee at the top of the movement to avoid locking it.",
+    "Slowly lower the platform back to the starting position, ensuring control throughout the movement.",
+    "Complete the desired number of repetitions for one leg before switching to the other."
+  ],
+  "consejos": [
+    "Ensure your knee does not extend past your toes during the movement to reduce stress on the joint.",
+    "Focus on pushing through your heel rather than your toes to better engage the glutes and hamstrings.",
+    "Maintain a controlled tempo throughout both the concentric (pressing) and eccentric (lowering) phases of the exercise.",
+    "Keep your core engaged to stabilize your torso and prevent lower back strain.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Breathe out as you press the platform away and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Allowing the knee to collapse inward, leading to improper alignment and increased stress on the joint.",
+    "Failing to maintain a stable core, which can cause the lower back to arch and reduce overall stability.",
+    "Using too much weight, resulting in incomplete range of motion and decreased muscle engagement.",
+    "Pushing through the toes instead of the heel, which shifts the focus away from the glutes and hamstrings.",
+    "Locking the knee at the top of the movement, increasing the risk of joint strain.",
+    "Allowing the hips to lift off the seat, which compromises lower back safety and reduces exercise effectiveness.",
+    "Moving too quickly, sacrificing control and muscle engagement for speed.",
+    "Neglecting to adjust the seat position properly, leading to poor leg alignment and reduced range of motion."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Jalón con Cable Agarre Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/cable-reverse-grip-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/86b78084-018b-4c3c-be8e-3e2ddddc8a64.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Cable Reverse Grip Pulldown is an upper body exercise targeting the latissimus dorsi, biceps, and forearms. It involves pulling a cable bar down towards the chest with an underhand grip, emphasizing the lower lats and providing a unique angle of muscle engagement compared to traditional pulldowns.",
+  "como_realizar": [
+    "Attach a straight or EZ-curl bar to the high pulley of a cable machine.",
+    "Sit on the bench or seat with your feet flat on the floor, securing your thighs under the support pads.",
+    "Grasp the bar with an underhand grip (palms facing you), hands shoulder-width apart.",
+    "Lean slightly back at the hips while keeping your chest up and core engaged.",
+    "Pull the bar down towards your upper chest by driving your elbows down and back.",
+    "Squeeze your shoulder blades together at the bottom of the movement.",
+    "Slowly extend your arms to return to the starting position, maintaining control of the weight throughout."
+  ],
+  "consejos": [
+    "Keep your elbows close to your body throughout the movement to maximize lat engagement.",
+    "Avoid using momentum; focus on controlled movements for optimal muscle activation.",
+    "Maintain a slight arch in your lower back to support proper posture.",
+    "Exhale as you pull the bar down and inhale as you return to the starting position.",
+    "Ensure that your grip is firm but not overly tight to prevent forearm fatigue."
+  ],
+  "errores_comunes": [
+    "Using excessive weight, leading to poor form and momentum-based movement.",
+    "Allowing shoulders to elevate, reducing lat engagement and increasing neck strain.",
+    "Leaning too far back, turning the exercise into a row rather than a pulldown.",
+    "Pulling the bar down too low, causing wrist strain and reducing lat activation.",
+    "Failing to retract shoulder blades, limiting back muscle engagement.",
+    "Using a fast, uncontrolled motion, which reduces muscle tension and effectiveness.",
+    "Not fully extending arms at the top, limiting range of motion and muscle stretch.",
+    "Gripping the bar too tightly, causing forearm fatigue and reducing focus on lats."
+  ]
+}

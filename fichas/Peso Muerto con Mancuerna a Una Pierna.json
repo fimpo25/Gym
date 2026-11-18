@@ -1,0 +1,50 @@
+{
+  "nombre": "Peso Muerto con Mancuerna a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-dumbbell-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/b3afcd6d-2e91-4f77-8253-65574de589c3.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Single Leg Dumbbell Deadlift is a unilateral exercise targeting the hamstrings, glutes, and core. It enhances balance, stability, and coordination while improving lower body strength. This exercise requires a dumbbell and focuses on maintaining proper form to prevent injury.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart, holding a dumbbell in your right hand.",
+    "Shift your weight onto your left leg, keeping a slight bend in the knee.",
+    "Hinge at the hips to lower the dumbbell towards the ground while extending your right leg straight behind you.",
+    "Keep your back flat and core engaged throughout the movement.",
+    "Lower the dumbbell until your torso is parallel to the ground or as far as your flexibility allows.",
+    "Return to the starting position by driving through your left heel and bringing your right leg forward.",
+    "Repeat for the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Focus on maintaining a neutral spine throughout the exercise to avoid lower back strain.",
+    "Engage your core muscles to help stabilize your body during the movement.",
+    "Control the descent and ascent of the dumbbell to maximize muscle engagement.",
+    "Keep your gaze fixed on a point on the floor to help maintain balance.",
+    "Start with a lighter weight to perfect your form before progressing to heavier dumbbells.",
+    "Ensure that your supporting knee remains slightly bent and does not lock out during the exercise."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Allowing the knee of the standing leg to lock out or hyperextend.",
+    "Letting the hips rotate or open up instead of staying square.",
+    "Dropping the chest too low, reducing the effectiveness of the hinge.",
+    "Failing to engage the core, leading to instability.",
+    "Holding the dumbbell too far from the body, increasing strain on the lower back.",
+    "Not controlling the descent, leading to a loss of balance.",
+    "Using momentum to return to standing rather than controlled muscle engagement.",
+    "Neglecting to keep the shoulder blades retracted and stable.",
+    "Allowing the non-working leg to drift too far from the midline."
+  ]
+}

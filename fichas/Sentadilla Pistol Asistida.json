@@ -1,0 +1,52 @@
+{
+  "nombre": "Sentadilla Pistol Asistida",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-pistol-asistida",
+  "video_url": "https://api.smartworkout.app/asset/video/a7891e33-9847-4d55-a737-6f17c2ddcfc0.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Pistol Asistida es una variación de la sentadilla a una sola pierna que utiliza soporte para ayudar en el equilibrio y control. Este ejercicio se enfoca en los cuádriceps, glúteos, isquiotibiales y músculos del core, mientras mejora la fuerza y estabilidad unilateral.",
+  "como_realizar": [
+    "Párate erguido junto a un soporte resistente, como un rack de sentadillas o barras paralelas, con los pies separados al ancho de las caderas.",
+    "Sujétate al soporte con una mano para mantener el equilibrio.",
+    "Levanta una pierna del suelo, extendiéndola recta frente a ti.",
+    "Activa tu núcleo y baja lentamente tu cuerpo en una sentadilla sobre la pierna de apoyo, manteniendo el pecho hacia arriba y la espalda recta.",
+    "Desciende tan bajo como puedas cómodamente mientras mantienes el control y el equilibrio.",
+    "Empuja a través del talón de tu pie de apoyo para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu núcleo comprometido durante todo el movimiento para mantener la estabilidad.",
+    "Usa el soporte solo tanto como sea necesario para mantener el equilibrio; intenta depender más de la fuerza de tus piernas con el tiempo.",
+    "Mantén tu rodilla alineada con tus dedos del pie para evitar cualquier colapso hacia adentro o hacia afuera.",
+    "Controla el descenso y el ascenso para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Comienza con un soporte más alto si es necesario y gradualmente trabaja hacia usar menos asistencia a medida que ganas fuerza."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, causando desequilibrio y tensión en la rodilla.",
+    "No mantener el pie de apoyo plano en el suelo, lo que lleva a la inestabilidad.",
+    "Permitir que la rodilla se incline hacia adentro, aumentando el riesgo de lesión en la rodilla.",
+    "No activar el core, resultando en un equilibrio y control deficientes.",
+    "Bajar demasiado rápido en la sentadilla, perdiendo el control y arriesgando una distensión muscular.",
+    "No extender completamente la pierna que no trabaja, reduciendo la efectividad del ejercicio.",
+    "Usar demasiada asistencia, lo que limita el desarrollo de la fuerza.",
+    "Redondear la espalda, lo que puede llevar a una mala postura y tensión en la espalda.",
+    "No mantener el torso erguido, afectando el equilibrio y la profundidad de la sentadilla.",
+    "Permitir que el talón de la pierna de trabajo se levante del suelo, comprometiendo la estabilidad."
+  ]
+}

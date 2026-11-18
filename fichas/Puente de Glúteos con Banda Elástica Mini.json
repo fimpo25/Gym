@@ -1,0 +1,49 @@
+{
+  "nombre": "Puente de Glúteos con Banda Elástica Mini",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos-con-banda-elastica-mini",
+  "video_url": "https://api.smartworkout.app/asset/video/82830b77-6737-455f-b690-62f724d00027.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos con Banda Elástica es un ejercicio efectivo para la parte inferior del cuerpo que se enfoca en los músculos glúteos, isquiotibiales y el core. Al utilizar una banda de resistencia mini colocada por encima de las rodillas, esta variación aumenta la activación muscular y las demandas de estabilidad.",
+  "como_realizar": [
+    "Acuéstate de espaldas con las rodillas dobladas y los pies planos en el suelo, separados al ancho de las caderas. Coloca una banda de resistencia mini justo por encima de las rodillas.",
+    "Activa tu núcleo y presiona tu espalda baja contra el suelo.",
+    "Empuja a través de tus talones para levantar tus caderas hacia el techo, apretando tus glúteos en la parte superior del movimiento.",
+    "Asegúrate de que tu cuerpo forme una línea recta desde los hombros hasta las rodillas en el punto máximo del puente.",
+    "Mantén la posición por un momento en la parte superior, luego baja lentamente tus caderas de regreso a la posición inicial sin dejar que toquen el suelo.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para proteger tu espalda baja.",
+    "Concéntrate en apretar tus glúteos al levantar y bajar tus caderas.",
+    "Evita arquear tu espalda; mantén una posición neutral de la columna.",
+    "Asegúrate de que tus rodillas permanezcan alineadas con tus dedos de los pies y no se inclinen hacia adentro.",
+    "Controla el movimiento tanto al subir como al bajar para obtener la máxima efectividad.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio y progresa a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Colocar la banda elástica demasiado alta o demasiado baja en los muslos, reduciendo la tensión y efectividad.",
+    "Pies posicionados demasiado cerca o demasiado lejos de los glúteos, afectando el rango de movimiento y la activación muscular.",
+    "Permitir que las rodillas colapsen hacia adentro, reduciendo el compromiso de los glúteos y aumentando la tensión en las rodillas.",
+    "Levantar las caderas demasiado alto, causando hiperextensión de la parte baja de la espalda y reduciendo la activación de los glúteos.",
+    "No comprometer el core, lo que lleva a una falta de estabilidad y posible incomodidad en la parte baja de la espalda.",
+    "Moverse demasiado rápido, sacrificando el control y reduciendo el tiempo bajo tensión para los glúteos.",
+    "No apretar los glúteos en la parte superior del movimiento, limitando la activación y el crecimiento muscular.",
+    "Permitir que los talones se levanten del suelo, desviando el enfoque de los glúteos a las pantorrillas.",
+    "Dejar caer las caderas demasiado rápido en el descenso, reduciendo el control y aumentando el riesgo de lesión."
+  ]
+}

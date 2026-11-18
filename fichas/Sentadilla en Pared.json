@@ -1,0 +1,46 @@
+{
+  "nombre": "Sentadilla en Pared",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/wall-sit",
+  "video_url": "https://api.smartworkout.app/asset/video/28b0adc7-9bff-49dc-9a4f-b546745a4345.mp4",
+  "tags": [
+    "STRENGTH",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Wall Sit is an isometric exercise that targets the quadriceps, hamstrings, and glutes. It involves holding a seated position against a wall without any support from a chair, engaging the lower body muscles to maintain the position.",
+  "como_realizar": [
+    "Stand with your back against a wall and feet shoulder-width apart.",
+    "Slowly slide down the wall until your thighs are parallel to the ground, forming a 90-degree angle at your knees.",
+    "Ensure your knees are directly above your ankles and not extending past your toes.",
+    "Keep your back flat against the wall and hold this position for the desired amount of time.",
+    "To finish, slowly slide back up the wall to a standing position."
+  ],
+  "consejos": [
+    "Maintain a straight line from your head to your hips to ensure proper posture.",
+    "Engage your core muscles to help stabilize your body during the exercise.",
+    "Focus on keeping your weight distributed evenly across both feet.",
+    "Breathe steadily throughout the exercise to maintain endurance.",
+    "Start with shorter durations and gradually increase as you build strength."
+  ],
+  "errores_comunes": [
+    "Knees extending beyond toes, increasing knee strain.",
+    "Hips positioned too high, reducing quadriceps engagement.",
+    "Back not flat against the wall, compromising support.",
+    "Feet placed too close together, affecting balance.",
+    "Feet placed too far from the wall, reducing stability.",
+    "Neck and head not aligned with spine, causing discomfort.",
+    "Arms resting on thighs, reducing core activation.",
+    "Holding breath, leading to unnecessary tension.",
+    "Uneven weight distribution on feet, causing imbalance.",
+    "Failing to maintain a 90-degree angle at knees, reducing effectiveness."
+  ]
+}

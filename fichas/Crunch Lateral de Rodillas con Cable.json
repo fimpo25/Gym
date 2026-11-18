@@ -1,0 +1,44 @@
+{
+  "nombre": "Crunch Lateral de Rodillas con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-lateral-de-rodillas-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/c6d00884-56cf-4526-9ed9-4161b98d659e.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch Lateral de Rodillas con Cable es un ejercicio de aislamiento que se enfoca en los músculos oblicuos. Implica el uso de una máquina de cable para proporcionar resistencia mientras se realiza un crunch lateral desde una posición de rodillas. Este ejercicio ayuda a mejorar la estabilidad del core y la fuerza de los oblicuos.",
+  "como_realizar": [
+    "Coloca un mango individual en una polea baja de una máquina de cables.",
+    "Arrodíllate en el suelo con tu costado hacia la máquina, manteniendo las rodillas a la altura de las caderas.",
+    "Agarra el mango con la mano más cercana a la máquina y coloca la otra mano detrás de la cabeza.",
+    "Activa tu núcleo y tira del mango hacia abajo doblando el torso de lado hacia la máquina.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando la máxima contracción de los oblicuos.",
+    "Vuelve lentamente a la posición inicial, manteniendo el control en todo momento.",
+    "Completa el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Concéntrate en usar tus músculos oblicuos para realizar el crunch, en lugar de tirar con el brazo.",
+    "Mantén una línea recta desde tu cabeza hasta tus rodillas durante todo el ejercicio.",
+    "Evita inclinarte hacia adelante o hacia atrás; mantén el movimiento estrictamente lateral.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de aumentar la resistencia.",
+    "Exhala mientras te acercas a la máquina y inhala al regresar al inicio."
+  ],
+  "errores_comunes": [
+    "Alinear incorrectamente el cuerpo, lo que lleva a un compromiso desigual de los músculos.",
+    "Permitir que el cable tire del cuerpo en lugar de controlar el movimiento.",
+    "Usar demasiado peso, lo que provoca dependencia del impulso en lugar de la contracción muscular.",
+    "No mantener el core comprometido, reduciendo la efectividad del ejercicio.",
+    "Inclinarse hacia adelante o hacia atrás en lugar de mantener una línea recta desde la cabeza hasta las rodillas.",
+    "Girar el torso en lugar de realizar una flexión lateral pura.",
+    "No regresar completamente a la posición inicial, limitando el rango de movimiento.",
+    "Tirar con los brazos en lugar de iniciar el movimiento desde los oblicuos.",
+    "Descuidar la estabilización de la parte inferior del cuerpo, causando movimiento innecesario y desequilibrio."
+  ]
+}

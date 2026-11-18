@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación Frontal con Disco Drive",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/plate-front-raise-drive",
+  "video_url": "https://api.smartworkout.app/asset/video/f80b8b3f-58a4-4e7e-8c22-8269b6a7aa52.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Front Plate Raises With Rotation is a compound exercise that targets the shoulders, specifically the anterior deltoids, while also engaging the core for stability. This exercise involves lifting a weight plate in front of the body and adding a rotational movement to enhance shoulder mobility and strength.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a weight plate with both hands at the 3 and 9 o'clock positions.",
+    "Start with the plate at thigh level, arms fully extended but not locked.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Lift the plate in front of you to shoulder height, keeping your arms straight.",
+    "Once at shoulder height, rotate your torso to one side while maintaining the plate's height.",
+    "Return to the center and lower the plate back to the starting position.",
+    "Repeat the lift and rotation to the opposite side.",
+    "Perform the desired number of repetitions, alternating sides."
+  ],
+  "consejos": [
+    "Ensure your movements are controlled to avoid using momentum.",
+    "Keep your shoulders down and relaxed to prevent tension in the neck.",
+    "Focus on engaging your core to maintain balance during the rotation.",
+    "Use a moderate weight that allows you to perform the exercise with proper form.",
+    "Breathe out as you lift and rotate, and inhale as you return to the starting position.",
+    "Maintain a slight bend in your knees for better stability."
+  ],
+  "errores_comunes": [
+    "Using momentum to lift the plate instead of controlled muscle engagement.",
+    "Lifting the plate above shoulder height, causing unnecessary strain on the shoulders.",
+    "Allowing the elbows to bend, reducing the effectiveness of the exercise.",
+    "Leaning back excessively, which can lead to lower back strain.",
+    "Failing to engage the core, resulting in poor stability and balance.",
+    "Gripping the plate too tightly, causing forearm fatigue.",
+    "Raising the plate unevenly, leading to imbalanced muscle activation.",
+    "Neglecting to maintain a neutral spine, increasing the risk of back injury."
+  ]
+}

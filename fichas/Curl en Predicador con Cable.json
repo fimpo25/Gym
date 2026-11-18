@@ -1,0 +1,48 @@
+{
+  "nombre": "Curl en Predicador con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-en-predicador-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/901d6b71-e16f-43e1-a2c0-598bd8d4b59f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Predicador con Cable es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Utiliza una máquina de cables con un banco de predicador ajustable para proporcionar tensión constante durante el movimiento, mejorando la hipertrofia y la fuerza muscular. Este ejercicio es particularmente efectivo para enfatizar el pico del bíceps y mejorar la estética del brazo.",
+  "como_realizar": [
+    "Ajusta el banco predicador para que tus brazos superiores descansen cómodamente sobre el cojín con los codos ligeramente doblados.",
+    "Acopla una barra recta o EZ-curl a la polea baja de una máquina de cables.",
+    "Siéntate en el banco predicador y agarra la barra con un agarre en supinación, manos a la altura de los hombros.",
+    "Comienza con los brazos completamente extendidos, manteniendo la tensión en el cable.",
+    "Eleva la barra hacia arriba contrayendo tus bíceps, manteniendo tus brazos superiores estacionarios contra el cojín.",
+    "Haz una pausa breve en la parte superior del movimiento cuando tus antebrazos estén verticales y tus bíceps completamente contraídos.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control y la tensión en tus bíceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta y evita inclinarte hacia adelante durante el curl para mantener una forma adecuada.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada curl para una contracción máxima.",
+    "Usa un ritmo controlado; evita balancearte o usar el impulso para levantar el peso.",
+    "Asegúrate de tener un rango completo de movimiento extendiendo completamente tus brazos en la parte inferior de cada repetición.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas.",
+    "Mantén un agarre firme en la barra para asegurar estabilidad y control durante todo el ejercicio."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Inclinarse hacia atrás o usar el impulso del cuerpo para levantar el peso.",
+    "Ajustar el banco demasiado alto o demasiado bajo, desalineando los brazos.",
+    "Usar un peso demasiado pesado, comprometiendo la forma.",
+    "No extender completamente los brazos en la parte inferior del movimiento.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales.",
+    "Dejar que los hombros se encorven hacia adelante, tensionando el cuello.",
+    "Apresurarse a través de las repeticiones sin un movimiento controlado.",
+    "Colocar el asiento demasiado lejos del cable, reduciendo la tensión."
+  ]
+}

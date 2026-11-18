@@ -1,0 +1,47 @@
+{
+  "nombre": "Estiramiento Mariposa Inclinado hacia Adelante",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/butterfly-lean-forward-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/0f334696-ffa7-419b-b505-ab2cf9c7e845.mp4",
+  "tags": [
+    "STRETCH",
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Butterfly Lean Forward Stretch is a flexibility exercise targeting the inner thighs, hips, and lower back. It helps improve range of motion, reduce muscle tension, and enhance overall flexibility. This stretch is beneficial for athletes and individuals looking to increase mobility in the hip area.",
+  "como_realizar": [
+    "Sit on the floor with your back straight and legs bent at the knees.",
+    "Bring the soles of your feet together, allowing your knees to drop outward.",
+    "Hold your feet with your hands and pull them gently towards your body.",
+    "Inhale deeply, then exhale as you lean forward from the hips, keeping your back straight.",
+    "Lean forward as far as comfortable, feeling a stretch in the inner thighs and hips.",
+    "Hold the position for 20-30 seconds while breathing deeply.",
+    "Slowly return to the starting position."
+  ],
+  "consejos": [
+    "Keep your spine straight to avoid unnecessary strain on your lower back.",
+    "Focus on leaning forward from the hips rather than rounding your back.",
+    "Use a yoga block or cushion under your knees if you need additional support.",
+    "Perform this stretch after a workout when muscles are warm for better flexibility gains.",
+    "Breathe deeply throughout the stretch to help relax the muscles and increase stretch effectiveness."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of hinging at the hips.",
+    "Pulling the feet too close to the body, causing discomfort.",
+    "Pressing the knees down forcefully with the hands.",
+    "Leaning forward without engaging the core.",
+    "Allowing the shoulders to hunch up towards the ears.",
+    "Bouncing or jerking forward instead of moving slowly and steadily.",
+    "Not keeping the spine elongated throughout the stretch."
+  ]
+}

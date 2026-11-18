@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl de Muñeca en Polea",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-en-polea",
+  "video_url": "https://api.smartworkout.app/asset/video/1aa353a2-35bf-49cb-a595-44d93c0f6975.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca en Cable es un ejercicio de aislamiento que se enfoca en los flexores del antebrazo. Consiste en usar una máquina de cable para realizar curls de muñeca, lo que ayuda a desarrollar fuerza y resistencia en los antebrazos. Este ejercicio es beneficioso para mejorar la fuerza de agarre y la estabilidad general del brazo.",
+  "como_realizar": [
+    "Coloca la máquina de cables en una posición baja y acopla una barra recta.",
+    "Siéntate en un banco frente a la máquina de cables, con los pies planos en el suelo.",
+    "Agarra la barra con un agarre supino, manos a la altura de los hombros, y apoya tus antebrazos en tus muslos o en un banco, permitiendo que tus muñecas cuelguen sobre el borde.",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el ejercicio.",
+    "Lentamente, riza tus muñecas hacia arriba contrayendo los músculos del antebrazo, manteniendo los antebrazos estacionarios.",
+    "Mantén la contracción en la parte superior por un breve momento.",
+    "Baja la barra de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar solo tu muñeca para levantar el peso; evita mover los codos o los hombros.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada y aumenta gradualmente a medida que desarrollas fuerza.",
+    "Mantén un movimiento lento y controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Exhala mientras flexionas las muñecas hacia arriba e inhala mientras las bajas de nuevo.",
+    "Asegúrate de que tu agarre en la barra sea firme pero no demasiado apretado para evitar tensiones innecesarias."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a una forma incorrecta y un control reducido de la muñeca.",
+    "Permitir que los codos se levanten del banco, desconectando los músculos del antebrazo.",
+    "Rizar la muñeca demasiado rápido, sacrificando el control y el compromiso muscular.",
+    "No extender completamente las muñecas, limitando el rango de movimiento y la efectividad.",
+    "Inclinar el cuerpo hacia adelante, reduciendo la tensión en los músculos del antebrazo.",
+    "No mantener una posición neutral de la muñeca al inicio, aumentando la tensión.",
+    "Usar el impulso para levantar el peso en lugar de una flexión controlada de la muñeca.",
+    "Descuidar mantener un ritmo constante, lo que lleva a un trabajo muscular desigual."
+  ]
+}

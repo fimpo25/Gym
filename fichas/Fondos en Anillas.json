@@ -1,0 +1,49 @@
+{
+  "nombre": "Fondos en Anillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/fondos-en-anillas",
+  "video_url": "https://api.smartworkout.app/asset/video/3aa98cd7-48fe-4447-81fa-35f4427be512.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Los fondos en anillas son un ejercicio compuesto para la parte superior del cuerpo que se realiza utilizando anillas de gimnasia. Este ejercicio se enfoca principalmente en los tríceps, el pecho y los hombros, mientras que también involucra el núcleo para la estabilización. La inestabilidad de las anillas aumenta la dificultad, requiriendo una mayor activación y control muscular.",
+  "como_realizar": [
+    "Ajusta los anillos de gimnasia a una altura donde puedas alcanzarlos cómodamente mientras estás de pie.",
+    "Agarra los anillos firmemente con las palmas hacia adentro y los brazos completamente extendidos.",
+    "Levanta los pies del suelo, sosteniendo el peso de tu cuerpo con los brazos rectos.",
+    "Activa tu núcleo y mantén una columna neutral durante todo el movimiento.",
+    "Baja lentamente tu cuerpo doblando los codos hasta que tus hombros estén por debajo de tus codos.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Presiona a través de tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que los anillos estén a una altura que permita un rango completo de movimiento sin tocar el suelo.",
+    "Mantén los codos cerca de tu cuerpo para maximizar el compromiso de los tríceps y reducir la tensión en los hombros.",
+    "Concéntrate en movimientos controlados para mantener el equilibrio y prevenir el balanceo.",
+    "Si eres nuevo en los fondos en anillos, considera usar una banda de resistencia para asistencia o realizar repeticiones negativas para desarrollar fuerza.",
+    "Mantén el núcleo apretado durante todo el ejercicio para estabilizar tu cuerpo y prevenir un balanceo excesivo.",
+    "Inhala al bajar y exhala al empujar hacia arriba para optimizar el rendimiento."
+  ],
+  "errores_comunes": [
+    "No mantener los codos cerca del cuerpo, lo que reduce el compromiso del tríceps.",
+    "Permitir que los hombros se encojan, lo que lleva a una tensión innecesaria y reduce la estabilidad.",
+    "No lograr un rango completo de movimiento al detenerse demasiado alto, lo que limita la activación muscular.",
+    "Bajar demasiado, causando una tensión excesiva en los hombros y potenciales lesiones.",
+    "Usar impulso o balanceo, lo que disminuye el control y la efectividad.",
+    "No mantener una posición neutral de la muñeca, aumentando la tensión en la muñeca.",
+    "No mantener el núcleo comprometido, lo que lleva a una pérdida de equilibrio y control.",
+    "Inclinarse demasiado hacia adelante, desviando el enfoque de los tríceps al pecho."
+  ]
+}

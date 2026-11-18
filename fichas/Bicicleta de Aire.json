@@ -1,0 +1,45 @@
+{
+  "nombre": "Bicicleta de Aire",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/bicicleta-de-aire",
+  "video_url": "https://api.smartworkout.app/asset/video/711f47e0-a60d-4c18-9d30-f18cea0f36f9.mp4",
+  "tags": [
+    "CARDIO",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Bicicleta de Aire, también conocida como bicicleta de ventilador, es una bicicleta estática diseñada para proporcionar un entrenamiento de cuerpo completo. Cuenta con un gran ventilador que crea resistencia basada en la velocidad de pedaleo y el movimiento de los brazos del usuario. Este ejercicio es efectivo para el acondicionamiento cardiovascular, la quema de grasa y el aumento de la resistencia.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus piernas tengan una ligera flexión en la parte inferior del pedaleo.",
+    "Siéntate en la bicicleta con los pies firmemente en los pedales y las manos agarrando los manillares.",
+    "Comienza a pedalear con las piernas mientras simultáneamente empujas y tiras de los manillares con los brazos.",
+    "Mantén un ritmo constante, asegurándote de que tus movimientos sean suaves y controlados.",
+    "Mantén el núcleo comprometido y la espalda recta durante todo el ejercicio.",
+    "Para aumentar la intensidad, pedalea más rápido y empuja más fuerte con los brazos."
+  ],
+  "consejos": [
+    "Asegúrate de que el asiento esté a la altura correcta para evitar tensión en las rodillas.",
+    "Concéntrate en mantener un ritmo constante entre tus brazos y piernas para una eficiencia óptima.",
+    "Activa tu núcleo para estabilizar tu cuerpo y mejorar la transferencia de potencia.",
+    "Comienza con un ritmo moderado para calentar antes de aumentar la intensidad.",
+    "Utiliza el entrenamiento por intervalos alternando entre ráfagas de alta intensidad y períodos de recuperación para maximizar los beneficios cardiovasculares.",
+    "Mantén una respiración constante y controlada para mantener la resistencia durante sesiones más largas."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo el compromiso del core.",
+    "Tirar del cuello en lugar de comprometer el core.",
+    "Permitir que los codos se abran, reduciendo la eficiencia.",
+    "Usar el impulso en lugar de un movimiento controlado.",
+    "No extender completamente las piernas, limitando el rango de movimiento.",
+    "Torcer excesivamente el torso, arriesgando tensión en la parte baja de la espalda.",
+    "No sincronizar los movimientos de la parte superior e inferior del cuerpo.",
+    "Apresurarse en las repeticiones, comprometiendo la forma.",
+    "Descuidar mantener la parte baja de la espalda presionada contra el suelo."
+  ]
+}

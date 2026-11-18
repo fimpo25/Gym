@@ -1,0 +1,44 @@
+{
+  "nombre": "Curl de Bíceps con Barra EZ Agarre Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-biceps-con-barra-ez-agarre-inverso",
+  "video_url": "https://api.smartworkout.app/asset/video/efced1a3-97b1-4175-b3cb-14d9c3701ff9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS"
+  ],
+  "descripcion": "El Curl de Bíceps con Agarre Inverso en Barra EZ es un ejercicio de aislamiento que se enfoca en el bíceps braquial, con énfasis en el braquial y los músculos del antebrazo. Este ejercicio utiliza una barra EZ con un agarre inverso (palmas hacia abajo) para reducir la tensión en las muñecas mientras se trabaja eficazmente la parte superior de los brazos.",
+  "como_realizar": [
+    "Párate derecho con los pies al ancho de los hombros, sosteniendo una barra EZ con un agarre inverso (palmas hacia abajo).",
+    "Mantén los codos cerca de tu torso y tus brazos superiores estacionarios durante todo el movimiento.",
+    "Exhala y levanta la barra hacia arriba contrayendo tus bíceps, levantando hasta que tus antebrazos estén verticales.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la máxima contracción de los bíceps.",
+    "Inhala y baja lentamente la barra de regreso a la posición inicial, extendiendo completamente tus brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa un peso que te permita mantener la forma adecuada durante todas las repeticiones.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para levantar la barra.",
+    "Mantén las muñecas rectas para minimizar la tensión y maximizar el compromiso del bíceps.",
+    "Activa tu núcleo para mantener la estabilidad y evitar el balanceo durante el ejercicio.",
+    "Asegúrate de un rango completo de movimiento extendiendo y contrayendo completamente los brazos con cada repetición."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a una mala forma y levantamiento basado en el impulso.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Balancear el cuerpo o usar la parte baja de la espalda para levantar la barra.",
+    "No mantener una posición neutral de la muñeca, causando tensión.",
+    "No extender completamente los brazos en la parte inferior del movimiento.",
+    "Rizar la barra demasiado alto, causando la participación de los hombros.",
+    "Apresurarse en las repeticiones sin un movimiento controlado.",
+    "Descuidar mantener el núcleo comprometido, resultando en inestabilidad."
+  ]
+}

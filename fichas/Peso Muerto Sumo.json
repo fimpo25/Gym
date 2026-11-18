@@ -1,0 +1,57 @@
+{
+  "nombre": "Peso Muerto Sumo",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/peso-muerto-sumo",
+  "video_url": "https://api.smartworkout.app/asset/video/1d684df6-e4cb-44f9-9dab-9183bd016dd6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "CALVES",
+    "FOREARMS",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Peso Muerto Sumo es un ejercicio compuesto que se enfoca principalmente en los músculos de la cadena posterior, incluyendo los glúteos, isquiotibiales y la parte baja de la espalda, al mismo tiempo que involucra los cuádriceps y aductores. Esta variación del peso muerto implica una postura más amplia y un torso más erguido en comparación con el peso muerto convencional, lo que puede reducir el estrés en la parte baja de la espalda y permitir un mayor énfasis en la movilidad y fuerza de las caderas.",
+  "como_realizar": [
+    "Párate con los pies más separados que el ancho de los hombros, con los dedos de los pies apuntando ligeramente hacia afuera.",
+    "Colócate cerca de la barra de modo que esté sobre la mitad de tus pies.",
+    "Dobla las caderas y las rodillas para bajar tu cuerpo, manteniendo el pecho hacia arriba y la espalda recta.",
+    "Agarra la barra con ambas manos dentro de tus rodillas, usando un agarre doble por encima o mixto.",
+    "Activa tu núcleo y lleva los hombros hacia atrás antes de iniciar el levantamiento.",
+    "Empuja a través de tus talones y extiende tus caderas y rodillas para levantar la barra, manteniéndola cerca de tu cuerpo.",
+    "Párate completamente erguido con los hombros hacia atrás en la parte superior del levantamiento.",
+    "Baja la barra de nuevo al suelo de manera controlada doblando las caderas y las rodillas."
+  ],
+  "consejos": [
+    "Concéntrate en mantener el pecho hacia arriba y la espalda recta durante el movimiento para prevenir lesiones.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos del pie al levantar para mantener una forma adecuada.",
+    "Activa los músculos del core antes de levantar para estabilizar la columna y mejorar la transferencia de potencia.",
+    "Comienza con pesos más ligeros para dominar la forma antes de progresar a cargas más pesadas.",
+    "Usa un agarre mixto si es necesario para mejorar la fuerza de agarre y el control sobre pesos más pesados.",
+    "Mantén una posición neutral de la cabeza mirando hacia adelante o ligeramente hacia abajo durante el levantamiento."
+  ],
+  "errores_comunes": [
+    "Pies posicionados demasiado estrechos, reduciendo estabilidad y potencia.",
+    "Caderas colocadas demasiado altas, causando tensión excesiva en la parte baja de la espalda.",
+    "Hombros no alineados sobre la barra, llevando a un mal apalancamiento.",
+    "Rodillas colapsando hacia adentro, aumentando el riesgo de lesión en la rodilla.",
+    "Barra alejándose de las espinillas, comprometiendo el equilibrio.",
+    "Espalda redondeándose excesivamente, arriesgando lesión en la columna.",
+    "No activar los dorsales, resultando en una falta de tensión en la parte superior del cuerpo.",
+    "Tirar con los brazos en lugar de empujar con las piernas.",
+    "No bloquear completamente las caderas en la parte superior del levantamiento.",
+    "Descender demasiado rápido, perdiendo el control de la barra.",
+    "No mantener una columna neutral durante todo el movimiento."
+  ]
+}

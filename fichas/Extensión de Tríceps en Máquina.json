@@ -1,0 +1,44 @@
+{
+  "nombre": "Extensión de Tríceps en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/0fcf2043-dd4a-4582-b886-850671d55e1f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps en Máquina es un ejercicio de aislamiento que se enfoca en el músculo tríceps braquial. Consiste en extender los codos contra la resistencia proporcionada por una máquina, permitiendo un compromiso controlado y enfocado de los tríceps. Este ejercicio es ideal para desarrollar fuerza y masa en los tríceps mientras se minimiza la participación de otros grupos musculares.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus brazos superiores estén paralelos al suelo al agarrar las manijas.",
+    "Siéntate y planta firmemente tus pies en el suelo, asegurándote de que tu espalda esté apoyada por el asiento.",
+    "Agarra las manijas con un agarre neutral o en pronación, dependiendo del diseño de la máquina.",
+    "Comienza con los codos doblados aproximadamente a 90 grados.",
+    "Extiende tus brazos empujando las manijas hacia adelante hasta que tus codos estén completamente extendidos pero no bloqueados.",
+    "Pausa brevemente en la parte superior del movimiento para maximizar la contracción.",
+    "Vuelve lentamente a la posición inicial doblando los codos de manera controlada.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan estacionarios durante todo el movimiento para aislar eficazmente los tríceps.",
+    "Evita usar impulso; concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Mantén tu núcleo comprometido y una columna neutral para prevenir tensiones innecesarias en la parte baja de la espalda.",
+    "Ajusta el peso adecuadamente; comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Exhala al extender los brazos e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "No ajustar la altura del asiento, lo que lleva a una alineación incorrecta de los codos y los hombros.",
+    "Permitir que los codos se abran, reduciendo el compromiso de los tríceps.",
+    "Usar el impulso para levantar el peso en lugar de movimientos controlados.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Bloquear los codos en la parte inferior del movimiento, aumentando el estrés en las articulaciones.",
+    "Dejar que las muñecas se doblen excesivamente, causando tensión y reduciendo la efectividad.",
+    "Inclinarse hacia adelante o hacia atrás, alterando la postura y el compromiso muscular.",
+    "Seleccionar demasiado peso, comprometiendo la forma y el control."
+  ]
+}

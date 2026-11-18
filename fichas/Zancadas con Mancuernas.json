@@ -1,0 +1,48 @@
+{
+  "nombre": "Zancadas con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/zancadas-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/301f616a-681a-4c81-aa3a-8c58ce8f0299.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "Las zancadas con mancuernas son un ejercicio compuesto para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y pantorrillas. Este ejercicio también involucra el core para estabilización y equilibrio. Consiste en dar un paso hacia adelante con una pierna mientras se sostiene una mancuerna en cada mano, bajando las caderas hasta que ambas rodillas estén dobladas aproximadamente a 90 grados.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de las caderas, sosteniendo una mancuerna en cada mano a los lados.",
+    "Da un paso hacia adelante con el pie derecho, manteniendo el torso erguido y el núcleo comprometido.",
+    "Baja el cuerpo doblando ambas rodillas hasta que el muslo delantero esté paralelo al suelo y la rodilla trasera esté justo por encima del suelo.",
+    "Asegúrate de que la rodilla delantera esté alineada sobre el tobillo y no se extienda más allá de los dedos del pie.",
+    "Empuja con el talón del pie delantero para regresar a la posición inicial.",
+    "Repite el movimiento con la pierna izquierda para completar una repetición completa."
+  ],
+  "consejos": [
+    "Mantén una postura erguida durante todo el movimiento para evitar inclinarte hacia adelante.",
+    "Activa tus músculos del core para ayudar a mantener el equilibrio y la estabilidad.",
+    "Mantén tu rodilla delantera alineada con tu tobillo para evitar tensión en la articulación.",
+    "Usa un movimiento controlado al avanzar y regresar a la posición inicial.",
+    "Selecciona un peso adecuado que te permita realizar el ejercicio con la forma correcta.",
+    "Concéntrate en empujar con el talón de tu pie delantero durante la fase ascendente para una máxima activación de los glúteos."
+  ],
+  "errores_comunes": [
+    "Permitir que la rodilla delantera se extienda más allá de los dedos del pie, aumentando el estrés en la articulación de la rodilla.",
+    "Inclinar el torso demasiado hacia adelante, reduciendo la efectividad y aumentando la tensión en la parte baja de la espalda.",
+    "No mantener la espalda recta, lo que lleva a una mala postura y una menor activación del core.",
+    "Usar el impulso para levantarse en lugar de un movimiento controlado, reduciendo la activación muscular.",
+    "Dar un paso demasiado estrecho o demasiado ancho, comprometiendo el equilibrio y la estabilidad.",
+    "No mantener el pie delantero plano, causando inestabilidad y una distribución ineficaz de la fuerza.",
+    "Permitir que la rodilla trasera toque el suelo, lo que puede llevar a lesiones o pérdida de control.",
+    "Sostener las mancuernas demasiado lejos del cuerpo, aumentando la tensión en los hombros y brazos.",
+    "No activar el core, resultando en una reducción del equilibrio y la potencia.",
+    "Apresurar el movimiento, llevando a una mala forma y un mayor riesgo de distensión muscular."
+  ]
+}

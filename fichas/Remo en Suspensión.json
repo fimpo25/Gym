@@ -1,0 +1,52 @@
+{
+  "nombre": "Remo en Suspensión",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-en-suspension",
+  "video_url": "https://api.smartworkout.app/asset/video/73cbd3f6-28ef-457d-8750-06326aea4300.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo en Suspensión es un ejercicio con el peso corporal realizado utilizando correas de suspensión. Se enfoca en los músculos de la parte superior de la espalda, incluyendo los romboides, trapecio y dorsal ancho, así como los bíceps y el core. Este ejercicio mejora la fuerza de la parte superior del cuerpo, la estabilidad y la postura.",
+  "como_realizar": [
+    "Ajusta las correas de suspensión para que cuelguen a la altura de la cintura.",
+    "Párate frente al punto de anclaje y agarra las manijas con un agarre por encima.",
+    "Inclínate hacia atrás hasta que tu cuerpo esté en un ángulo, manteniendo los pies a la altura de los hombros.",
+    "Activa tu núcleo y mantén una línea recta desde la cabeza hasta los talones.",
+    "Tira de tu pecho hacia las manijas retrayendo los omóplatos y doblando los codos.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los omóplatos juntos.",
+    "Extiende lentamente los brazos para volver a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que las correas estén bien ancladas antes de comenzar.",
+    "Mantén tu cuerpo en línea recta durante todo el movimiento para involucrar efectivamente tu núcleo.",
+    "Concéntrate en tirar con los músculos de la espalda en lugar de depender únicamente de tus brazos.",
+    "Controla el movimiento tanto al subir como al bajar para maximizar el compromiso muscular.",
+    "Ajusta la posición de tus pies para aumentar o disminuir la dificultad; alejarte más del punto de anclaje aumenta la resistencia.",
+    "Mantén una posición neutral del cuello mirando ligeramente hacia adelante en lugar de hacia arriba o abajo.",
+    "Exhala al subir y inhala al bajar."
+  ],
+  "errores_comunes": [
+    "Tirar con los brazos en lugar de involucrar los músculos de la espalda.",
+    "Permitir que las caderas se hundan, perdiendo una línea recta del cuerpo.",
+    "Usar el impulso para completar el movimiento en lugar de un movimiento controlado.",
+    "Encoger los hombros hacia las orejas durante el remo.",
+    "No retraer completamente las escápulas en la parte superior del movimiento.",
+    "Comenzar con el cuerpo demasiado erguido, reduciendo el rango de movimiento.",
+    "Dejar que los codos se abran excesivamente, lo que puede tensar los hombros.",
+    "No mantener una posición neutral del cuello, lo que lleva a la tensión.",
+    "Apresurarse en el ejercicio sin pausar en el rango final."
+  ]
+}

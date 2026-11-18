@@ -1,0 +1,41 @@
+{
+  "nombre": "Curl de Muñeca con Mancuerna a Una Mano",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-con-mancuerna-a-una-mano",
+  "video_url": "https://api.smartworkout.app/asset/video/bf03dca1-be41-4535-827b-7121113da8a3.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca con Mancuerna a Una Mano es un ejercicio de aislamiento que se enfoca en los músculos del antebrazo, específicamente en los flexores de la muñeca. Ayuda a desarrollar la fuerza de agarre y el tamaño del antebrazo. Este ejercicio se realiza con una sola mancuerna, lo que permite una contracción enfocada y control de los músculos flexores de la muñeca.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, sosteniendo una mancuerna en una mano.",
+    "Apoya tu antebrazo en tu muslo o en un banco, con la muñeca colgando del borde y la palma hacia arriba.",
+    "Agarra la mancuerna firmemente y permite que tu muñeca se extienda hacia abajo, bajando el peso lentamente.",
+    "Riza la mancuerna hacia arriba flexionando tu muñeca, apretando en la parte superior del movimiento.",
+    "Baja la mancuerna de nuevo a la posición inicial de manera controlada.",
+    "Repite el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Mantén tu antebrazo inmóvil y solo mueve tu muñeca para asegurar el aislamiento adecuado de los flexores de la muñeca.",
+    "Usa un peso moderado que te permita realizar el ejercicio con buena forma en todas las repeticiones.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular y evitar lesiones.",
+    "Respira de manera constante durante el ejercicio; exhala al levantar el peso e inhala al bajarlo.",
+    "Asegúrate de que tu agarre en la mancuerna sea firme pero no demasiado apretado para evitar tensión innecesaria en el antebrazo."
+  ],
+  "errores_comunes": [
+    "Usar un peso demasiado pesado, causando pérdida de control y mala forma.",
+    "Doblar excesivamente el codo, reduciendo el compromiso de la muñeca.",
+    "Permitir que la mancuerna ruede hacia los dedos, disminuyendo la tensión en los músculos del antebrazo.",
+    "No extender completamente la muñeca en la parte inferior del movimiento, limitando el rango de movimiento.",
+    "Enroscar la muñeca demasiado rápido, descuidando la tensión muscular y el control.",
+    "No estabilizar el antebrazo en un banco o rodilla, lo que lleva a movimientos innecesarios.",
+    "Sujetar la mancuerna con un agarre flojo, reduciendo la activación del antebrazo.",
+    "Inclinar el torso hacia adelante o hacia atrás, alterando el equilibrio y el enfoque en la muñeca."
+  ]
+}

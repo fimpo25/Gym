@@ -1,0 +1,51 @@
+{
+  "nombre": "Perro Boca Abajo",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/perro-boca-abajo",
+  "video_url": "https://api.smartworkout.app/asset/video/887e07da-82bf-41fa-9f57-1241fb789c2b.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Perro Boca Abajo es una postura fundamental de yoga que fortalece la parte superior del cuerpo, estira los isquiotibiales, las pantorrillas y la columna, y mejora la flexibilidad general. A menudo se utiliza como una postura de transición en secuencias de yoga y puede ayudar a mejorar la postura y el equilibrio.",
+  "como_realizar": [
+    "Comienza en tus manos y rodillas con las muñecas alineadas debajo de tus hombros y las rodillas debajo de tus caderas.",
+    "Extiende los dedos y presiona firmemente en el suelo con las palmas.",
+    "Mete los dedos de los pies y levanta las rodillas del suelo, elevando las caderas hacia el techo.",
+    "Endereza las piernas tanto como sea posible sin bloquear las rodillas, formando una V invertida con tu cuerpo.",
+    "Mantén la cabeza entre los brazos, las orejas alineadas con los brazos superiores, y mira hacia tus pies o el ombligo.",
+    "Mantén la posición durante varias respiraciones, manteniendo un patrón de respiración constante y profundo.",
+    "Para liberar, baja las rodillas de nuevo al suelo y regresa a la posición inicial."
+  ],
+  "consejos": [
+    "Activa tus músculos del core para apoyar la parte baja de la espalda y mantener la estabilidad.",
+    "Si tienes isquiotibiales tensos, mantén una ligera flexión en las rodillas para evitar tensiones.",
+    "Concéntrate en levantar a través de las caderas en lugar de empujar a través de los hombros para evitar tensión en el cuello.",
+    "Distribuye el peso de manera uniforme entre las manos y los pies para mantener el equilibrio.",
+    "Asegúrate de que tus dedos estén bien abiertos para un mejor agarre y estabilidad.",
+    "Usa esta postura como una oportunidad para alargar la columna vertebral extendiéndote a través del coxis."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado separadas, reduciendo la estabilidad y el compromiso de los hombros.",
+    "Pies posicionados demasiado juntos, limitando la base de apoyo.",
+    "Talones levantados en exceso, reduciendo el estiramiento de los isquiotibiales y las pantorrillas.",
+    "Espalda baja arqueada, aumentando la tensión en la columna lumbar.",
+    "Hombros encogidos hacia las orejas, causando tensión y reduciendo el espacio del cuello.",
+    "Peso distribuido de manera desigual entre manos y pies, llevando a un desequilibrio.",
+    "Codos doblados, reduciendo el compromiso de los brazos y la estabilidad de los hombros.",
+    "Cuello excesivamente estirado, causando tensión innecesaria.",
+    "Caderas no levantadas lo suficiente, comprometiendo la forma de V invertida.",
+    "Dedos no extendidos ampliamente, reduciendo el agarre y la estabilidad."
+  ]
+}

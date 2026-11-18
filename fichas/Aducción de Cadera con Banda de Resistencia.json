@@ -1,0 +1,49 @@
+{
+  "nombre": "Aducción de Cadera con Banda de Resistencia",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/aduccion-de-cadera-con-banda-de-resistencia",
+  "video_url": "https://api.smartworkout.app/asset/video/99abb674-b99e-4497-8bde-19bf7467fc7f.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "El ejercicio de Aducción de Cadera con Banda de Resistencia se enfoca en los músculos del muslo interno, específicamente los aductores. Implica el uso de una banda de resistencia para crear tensión, lo que ayuda a fortalecer y tonificar los muslos internos. Este ejercicio es beneficioso para mejorar la estabilidad de la cadera y la fuerza general del tren inferior.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje firme a la altura del tobillo.",
+    "Párate de lado al punto de anclaje y coloca el extremo libre de la banda alrededor de tu tobillo interior.",
+    "Aléjate del punto de anclaje hasta que haya tensión en la banda.",
+    "Párate con los pies al ancho de los hombros, manteniendo el núcleo comprometido y la espalda recta.",
+    "Desplaza tu peso hacia la pierna más alejada del punto de anclaje.",
+    "Lentamente lleva la pierna con la banda a través de tu cuerpo hacia la pierna de apoyo, manteniéndola recta.",
+    "Haz una pausa breve en la contracción máxima, luego regresa lentamente a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien anclada para evitar que se deslice durante el ejercicio.",
+    "Mantén una ligera flexión en las rodillas para reducir la tensión en las articulaciones.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para balancear la pierna.",
+    "Mantén el núcleo comprometido durante todo el ejercicio para mantener el equilibrio y la estabilidad.",
+    "Comienza con una banda de resistencia más ligera y aumenta gradualmente a medida que desarrollas fuerza.",
+    "Realiza este ejercicio cerca de una pared u objeto resistente para apoyo si es necesario."
+  ],
+  "errores_comunes": [
+    "Permitir que el torso se incline o balancee en lugar de mantener una posición erguida.",
+    "Usar el impulso para balancear la pierna en lugar de un movimiento controlado.",
+    "Colocar la banda de resistencia demasiado alta o demasiado baja en la pierna, reduciendo la efectividad.",
+    "No mantener la pierna de apoyo estable, causando problemas de equilibrio.",
+    "No activar el core, lo que lleva a una mala estabilización.",
+    "Realizar el movimiento demasiado rápido, comprometiendo el compromiso muscular.",
+    "Permitir que el pie de la pierna en movimiento gire hacia afuera o hacia adentro en lugar de mantenerlo neutral.",
+    "Extender la pierna más allá de un rango de movimiento cómodo, arriesgando una distensión."
+  ]
+}

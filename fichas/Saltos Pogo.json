@@ -1,0 +1,50 @@
+{
+  "nombre": "Saltos Pogo",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/saltos-pogo",
+  "video_url": "https://api.smartworkout.app/asset/video/6fdb44c7-988a-4dc4-b196-7c2ab75bc595.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "CARDIO",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "Los Saltos Pogo son un ejercicio pliométrico diseñado para mejorar la explosividad, agilidad y coordinación del tren inferior. Este ejercicio se centra principalmente en los gemelos, pero también involucra los cuádriceps, isquiotibiales y glúteos. Se realiza rebotando en el suelo con una mínima flexión de rodillas, enfocándose en movimientos rápidos y repetitivos.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de las caderas y los brazos a los lados.",
+    "Activa tu núcleo y mantén el pecho erguido.",
+    "Comienza rebotando sobre las puntas de los pies, manteniendo las rodillas ligeramente flexionadas.",
+    "Usa una flexión mínima de las rodillas para impulsarte rápidamente hacia arriba.",
+    "Aterriza suavemente sobre las puntas de los pies e inmediatamente rebota en el siguiente salto.",
+    "Mantén un ritmo constante y concéntrate en movimientos rápidos y controlados.",
+    "Continúa durante el número deseado de repeticiones o duración de tiempo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio.",
+    "Concéntrate en aterrizar suavemente para reducir el impacto en tus articulaciones.",
+    "Usa tus brazos para ayudar a mantener el ritmo y el equilibrio.",
+    "Comienza con un rango de movimiento pequeño y aumenta gradualmente a medida que te sientas más cómodo.",
+    "Asegúrate de que tus rodillas permanezcan ligeramente flexionadas para absorber el impacto de manera efectiva.",
+    "Realiza este ejercicio en una superficie plana y estable para prevenir lesiones.",
+    "Incorpora los Pogo Jumps en tu rutina de calentamiento para activar los músculos de la parte inferior del cuerpo."
+  ],
+  "errores_comunes": [
+    "Aterrizar con los pies planos en lugar de en las puntas de los pies, reduciendo el efecto de resorte y aumentando el impacto en las articulaciones.",
+    "Permitir que las rodillas se inclinen hacia adentro durante los saltos, lo que lleva a una mala alineación y posible tensión en las rodillas.",
+    "No activar los músculos del core, resultando en una falta de estabilidad y control durante el ejercicio.",
+    "Usar un movimiento excesivo de los brazos, lo que puede desequilibrar y reducir la eficiencia del salto.",
+    "No mantener un ritmo constante, causando saltos desiguales y un mayor riesgo de perder el equilibrio.",
+    "Saltar demasiado alto, lo que puede llevar a una pérdida de control y mecánicas de aterrizaje incorrectas.",
+    "Descuidar mantener el pecho hacia arriba y los hombros hacia atrás, lo que puede llevar a una postura encorvada y una reducción en la potencia.",
+    "Aterrizar con las rodillas bloqueadas, aumentando el riesgo de tensión en las articulaciones y reduciendo la absorción de impactos."
+  ]
+}

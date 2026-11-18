@@ -1,0 +1,51 @@
+{
+  "nombre": "Peso Muerto con Barra Trampa",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/trap-bar-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/221e7f28-672b-4b70-83b6-857053801b68.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Trap Bar Deadlift is a compound exercise targeting the lower body, particularly the quadriceps, hamstrings, glutes, and lower back. It utilizes a hexagonal barbell, allowing for a more upright torso position and reducing stress on the lower back compared to a conventional deadlift.",
+  "como_realizar": [
+    "Stand in the center of the trap bar with feet shoulder-width apart.",
+    "Bend at the hips and knees to grip the handles of the trap bar firmly.",
+    "Keep your chest up, shoulders back, and spine neutral.",
+    "Engage your core and push through your heels to lift the bar by extending your hips and knees.",
+    "Stand fully upright with your shoulders back and chest proud at the top of the movement.",
+    "Lower the bar back to the ground by bending at the hips and knees, maintaining a neutral spine throughout."
+  ],
+  "consejos": [
+    "Ensure your feet are positioned evenly in the center of the trap bar for balance.",
+    "Focus on keeping your chest up and shoulders retracted to maintain a strong back position.",
+    "Engage your core muscles throughout the lift to protect your lower back.",
+    "Drive through your heels rather than your toes to maximize power and stability.",
+    "Control the descent of the bar to prevent injury and maintain form.",
+    "Practice with lighter weights to perfect form before increasing load."
+  ],
+  "errores_comunes": [
+    "Starting with hips too low, resembling a squat rather than a deadlift.",
+    "Allowing the knees to cave inward during the lift.",
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Lifting with the arms instead of driving through the legs.",
+    "Not engaging the core to stabilize the torso.",
+    "Hyperextending the lower back at the top of the lift.",
+    "Pulling the bar too quickly off the ground, sacrificing control.",
+    "Not keeping the shoulders down and back, leading to shoulder rounding.",
+    "Standing too far forward or backward within the trap bar.",
+    "Failing to lock out fully at the top of the movement.",
+    "Using an incorrect grip width, leading to imbalance.",
+    "Not aligning the feet properly under the hips."
+  ]
+}

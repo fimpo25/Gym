@@ -1,0 +1,50 @@
+{
+  "nombre": "Peso Muerto a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/e19ce929-9375-47fc-8da8-a19ae38ed460.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Single-Leg Deadlift is a unilateral exercise that targets the hamstrings, glutes, and core. It enhances balance, stability, and coordination while also improving lower body strength. This exercise can be performed with bodyweight, dumbbells, or kettlebells.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart and hold a dumbbell in your right hand.",
+    "Shift your weight onto your left leg, keeping a slight bend in the knee.",
+    "Hinge at the hips, extending your right leg straight behind you while lowering the dumbbell towards the ground.",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Lower until your torso is parallel to the floor or as far as your flexibility allows.",
+    "Return to the starting position by driving through your left heel and bringing your right leg forward.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Focus on maintaining a neutral spine to prevent lower back strain.",
+    "Engage your core muscles to enhance stability and control.",
+    "Keep the movement slow and controlled to maximize muscle engagement.",
+    "Use a mirror to ensure proper form and alignment during the exercise.",
+    "If balance is an issue, perform the exercise near a wall or use a support for stability.",
+    "Start with lighter weights to master the form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Allowing the hips to rotate outward instead of keeping them square.",
+    "Bending the standing knee excessively or locking it completely.",
+    "Dropping the chest too low, causing a loss of balance.",
+    "Failing to engage the core, leading to instability.",
+    "Not extending the non-weight-bearing leg fully behind.",
+    "Using momentum instead of controlled movement.",
+    "Letting the shoulders hunch forward instead of keeping them retracted.",
+    "Neglecting to keep the weight close to the body.",
+    "Rushing the movement, compromising form and balance."
+  ]
+}

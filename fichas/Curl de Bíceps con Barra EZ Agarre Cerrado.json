@@ -1,0 +1,42 @@
+{
+  "nombre": "Curl de Bíceps con Barra EZ Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-barra-ez-agarre-cerrado",
+  "video_url": "https://api.smartworkout.app/asset/video/5eac3e49-98b5-4d60-958f-074471e8d811.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl con barra EZ de agarre cerrado es un ejercicio de aislamiento que se enfoca en el bíceps braquial, con un compromiso adicional del braquial y los músculos del antebrazo. Este ejercicio utiliza una barra EZ, que tiene una forma en zigzag para reducir la tensión en las muñecas y los codos, permitiendo un agarre más cómodo. El agarre cerrado enfatiza específicamente la porción interna del bíceps, promoviendo el crecimiento muscular y el desarrollo de la fuerza.",
+  "como_realizar": [
+    "Ponte de pie con los pies separados al ancho de los hombros y sujeta una barra EZ con un agarre cerrado, palmas hacia arriba. Tus manos deben estar aproximadamente a 6-8 pulgadas de distancia.",
+    "Mantén los codos cerca de tu torso y una ligera flexión en las rodillas para mayor estabilidad.",
+    "Exhala mientras levantas la barra hacia arriba flexionando los codos, manteniendo los brazos superiores inmóviles. Concéntrate en contraer los bíceps.",
+    "Continúa levantando hasta que la barra esté a nivel de los hombros y tus bíceps estén completamente contraídos.",
+    "Haz una pausa breve en la parte superior del movimiento, luego inhala mientras bajas lentamente la barra de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan cerca de tu cuerpo durante todo el ejercicio para maximizar el compromiso del bíceps.",
+    "Evita balancearte o usar el impulso para levantar la barra; concéntrate en movimientos controlados para apuntar efectivamente a los bíceps.",
+    "Mantén tus muñecas rectas para prevenir tensiones innecesarias y reducir el riesgo de lesiones.",
+    "Activa tus músculos del core para mantener el equilibrio y la estabilidad durante el ejercicio.",
+    "Ajusta ligeramente el ancho de tu agarre si experimentas incomodidad en las muñecas; encuentra una posición que se sienta natural y cómoda."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar el peso en lugar de una contracción muscular controlada.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Enroscar las muñecas en la parte superior del movimiento, causando tensión innecesaria.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Inclinarse hacia atrás excesivamente, arriesgando tensión en la parte baja de la espalda.",
+    "Agarrar la barra demasiado fuerte, causando fatiga en los antebrazos.",
+    "Apresurarse en las repeticiones sin enfocarse en la contracción muscular.",
+    "No mantener los codos cerca del torso, reduciendo la efectividad."
+  ]
+}

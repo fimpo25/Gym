@@ -1,0 +1,42 @@
+{
+  "nombre": "Crunch Lateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-lateral",
+  "video_url": "https://api.smartworkout.app/asset/video/4ede9603-15f3-4af1-82e4-51c799dce69e.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch Lateral es un ejercicio abdominal que se enfoca en los músculos oblicuos. Implica una flexión lateral de la columna, activando los músculos laterales del abdomen para mejorar la estabilidad y definición del core.",
+  "como_realizar": [
+    "Acuéstate de lado en una colchoneta con las rodillas dobladas y apiladas una sobre la otra.",
+    "Coloca tu brazo inferior extendido en el suelo para apoyo y tu mano superior detrás de la cabeza.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Levanta la parte superior de tu cuerpo hacia tu cadera, contrayendo tus oblicuos.",
+    "Mantén la contracción por un momento en la parte superior del movimiento.",
+    "Baja lentamente de nuevo a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Concéntrate en usar tus oblicuos para levantar el torso en lugar de tirar con el cuello o los hombros.",
+    "Mantén los movimientos controlados y evita usar el impulso para asegurar el máximo compromiso muscular.",
+    "Exhala al subir en el crunch e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tu cuello permanezca en una posición neutral durante todo el ejercicio para evitar tensiones.",
+    "Realiza el ejercicio lentamente para mantener la tensión en los músculos y mejorar la efectividad."
+  ],
+  "errores_comunes": [
+    "Levantar la cabeza con el cuello en lugar de activar los músculos oblicuos.",
+    "Usar el impulso para balancear la parte superior del cuerpo en lugar de una contracción muscular controlada.",
+    "Permitir que la parte baja de la espalda se levante del suelo, reduciendo el compromiso del core.",
+    "No mantener el codo abierto, lo que lleva a una tensión en el hombro.",
+    "No activar completamente los oblicuos al girar insuficientemente hacia la rodilla.",
+    "Tirar de la cabeza con las manos, causando tensión en el cuello.",
+    "Descuidar mantener el core apretado durante todo el movimiento.",
+    "Realizar el movimiento demasiado rápido, sacrificando la forma por la velocidad."
+  ]
+}

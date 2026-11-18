@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación de Cadera",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/elevacion-de-cadera",
+  "video_url": "https://api.smartworkout.app/asset/video/cc569985-59d1-481f-9418-9a43a9900089.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BACK",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Elevación de Cadera es un ejercicio compuesto que se enfoca principalmente en el glúteo mayor, con activación secundaria de los isquiotibiales y los cuádriceps. Consiste en levantar las caderas hacia arriba contra resistencia mientras la parte superior de la espalda está apoyada en un banco o plataforma, involucrando eficazmente la cadena posterior.",
+  "como_realizar": [
+    "Siéntate en el suelo con la parte superior de la espalda apoyada en un banco y los pies planos en el suelo, a la anchura de las caderas.",
+    "Rueda una barra sobre tus piernas hasta que esté directamente sobre tus caderas.",
+    "Activa tu núcleo y empuja con los talones para levantar las caderas hacia arriba, extendiéndolas completamente mientras mantienes la barbilla recogida.",
+    "Aprieta los glúteos en la parte superior del movimiento y mantén la posición por un momento.",
+    "Baja las caderas de manera controlada para volver a la posición inicial."
+  ],
+  "consejos": [
+    "Asegúrate de que tus rodillas estén alineadas con tus dedos de los pies durante todo el movimiento para prevenir tensión en las rodillas.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y prevenir la hiperextensión de la parte baja de la espalda.",
+    "Concéntrate en apretar los glúteos en la parte superior del levantamiento para una máxima activación muscular.",
+    "Usa una barra acolchada o un cojín para barra para reducir el malestar en tus caderas durante el ejercicio.",
+    "Comienza con pesos más ligeros para perfeccionar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Pies colocados demasiado hacia adelante o demasiado cerca de los glúteos, afectando el compromiso de los glúteos.",
+    "Hiperextender la parte baja de la espalda en la parte superior del movimiento, arriesgando tensión lumbar.",
+    "No lograr una extensión completa de la cadera, lo que lleva a una activación incompleta de los glúteos.",
+    "Permitir que las rodillas se inclinen hacia adentro, reduciendo el compromiso de los estabilizadores de glúteos y caderas.",
+    "Usar impulso en lugar de movimiento controlado, disminuyendo la activación muscular.",
+    "Posición incorrecta de la cabeza y el cuello, lo que puede causar tensión en el cuello.",
+    "No mantener el core comprometido, lo que lleva a una compensación de la parte baja de la espalda.",
+    "Colocar la barra demasiado alta o demasiado baja en las caderas, causando incomodidad o inestabilidad.",
+    "Levantar los dedos del suelo, lo que puede desviar el enfoque de los glúteos."
+  ]
+}

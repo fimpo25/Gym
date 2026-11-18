@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Inclinado con Dos Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-inclinado-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/ef0f8115-83f3-4113-8eeb-ec93fa64456a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Remo Inclinado con Mancuernas es un ejercicio compuesto que se enfoca en la parte superior de la espalda, los hombros y los brazos. Implica inclinarse en las caderas manteniendo la espalda recta y tirar de las mancuernas hacia el torso, involucrando múltiples grupos musculares, incluidos el dorsal ancho, los romboides, el trapecio y los bíceps.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una mancuerna en cada mano con un agarre neutral.",
+    "Dobla ligeramente las rodillas y flexiona las caderas para bajar el torso hasta que esté casi paralelo al suelo, manteniendo la espalda recta.",
+    "Deja que las mancuernas cuelguen a la longitud de los brazos desde tus hombros.",
+    "Activa tu núcleo y tira de las mancuernas hacia tu caja torácica doblando los codos y juntando los omóplatos.",
+    "Haz una pausa breve en la parte superior del movimiento, luego baja lentamente las mancuernas de regreso a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta durante todo el ejercicio para prevenir lesiones.",
+    "Concéntrate en apretar los omóplatos juntos en la parte superior del movimiento para una contracción máxima.",
+    "Evita usar impulso; controla el peso durante las fases de levantamiento y bajada.",
+    "Mantén una ligera flexión en las rodillas para ayudar a estabilizar tu cuerpo.",
+    "Asegúrate de que tu cabeza esté alineada con tu columna para evitar tensión en el cuello.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Usar el impulso para levantar las pesas en lugar de movimientos controlados.",
+    "Permitir que los codos se abran excesivamente.",
+    "No inclinarse lo suficiente hacia adelante, reduciendo el rango de movimiento.",
+    "Estar demasiado erguido, convirtiéndolo más en un remo vertical.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Jalar las mancuernas demasiado más allá del torso.",
+    "Descuidar retraer las escápulas en la parte superior del movimiento.",
+    "Mantener la cabeza en una posición antinatural, ya sea demasiado arriba o abajo.",
+    "No mantener los pies firmemente plantados, lo que lleva a problemas de equilibrio."
+  ]
+}

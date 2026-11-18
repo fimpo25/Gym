@@ -1,0 +1,42 @@
+{
+  "nombre": "Círculos de Brazos",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/arm-circles",
+  "video_url": "https://api.smartworkout.app/asset/video/1271bd6d-3db2-4209-8106-a49f5639af68.mp4",
+  "tags": [
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Shoulder circles are a dynamic warm-up exercise targeting the shoulder joints and surrounding muscles. This exercise helps improve mobility, flexibility, and blood flow to the shoulder area, reducing the risk of injury during more intense workouts.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and arms relaxed by your sides.",
+    "Lift your shoulders towards your ears in a shrugging motion.",
+    "Begin to move your shoulders in a circular motion, first moving them forward, up, back, and down.",
+    "Complete the desired number of repetitions in the forward direction.",
+    "Reverse the direction of the circles, moving your shoulders backward, up, forward, and down.",
+    "Maintain a smooth and controlled motion throughout the exercise."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain good posture during the exercise.",
+    "Perform the circles slowly to maximize the stretch and control.",
+    "Focus on making large circles to fully engage the shoulder joint.",
+    "Breathe naturally and avoid holding your breath.",
+    "Start with smaller circles if you feel any discomfort or tightness."
+  ],
+  "errores_comunes": [
+    "Performing circles too quickly, leading to loss of control and muscle engagement.",
+    "Using overly large circles, which can strain the shoulder joint.",
+    "Allowing the shoulders to hunch up towards the ears, causing tension in the neck.",
+    "Not maintaining a stable core, resulting in unnecessary torso movement.",
+    "Failing to keep arms fully extended, reducing the effectiveness of the exercise.",
+    "Neglecting to engage the shoulder muscles, relying too much on momentum.",
+    "Starting with arms too low, limiting the range of motion and shoulder activation.",
+    "Rotating arms unevenly, causing imbalance and uneven muscle work."
+  ]
+}

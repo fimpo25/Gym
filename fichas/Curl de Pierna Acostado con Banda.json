@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Pierna Acostado con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/band-lying-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/c88cb36a-86e7-4460-877a-fb9e02d1821a.mp4",
+  "tags": [
+    "STRENGTH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Band Lying Leg Curl is an isolation exercise targeting the hamstrings. It involves using a resistance band to perform leg curls while lying face down. This exercise helps in strengthening the hamstrings and improving knee flexion.",
+  "como_realizar": [
+    "Attach a resistance band to a sturdy anchor point at floor level.",
+    "Lie face down on a mat, with your legs extended and feet close to the anchor point.",
+    "Secure the other end of the band around your ankles.",
+    "Keep your core engaged and hips pressed into the ground.",
+    "Flex your knees, pulling your heels towards your glutes against the band's resistance.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction in the hamstrings.",
+    "Slowly extend your legs back to the starting position, maintaining control throughout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the band is securely anchored to prevent slippage during the exercise.",
+    "Keep your hips and pelvis stable by engaging your core muscles.",
+    "Focus on a slow and controlled movement to maximize muscle engagement.",
+    "Avoid using momentum; let the hamstrings do the work.",
+    "Adjust the band's tension by changing its length or using a band with different resistance levels.",
+    "Breathe out as you curl your legs up and inhale as you lower them back down."
+  ],
+  "errores_comunes": [
+    "Positioning the band too high on the legs, reducing tension and effectiveness.",
+    "Arching the lower back, which disengages the hamstrings and can strain the spine.",
+    "Using momentum to complete the curl, leading to poor muscle engagement.",
+    "Allowing the knees to flare out, which shifts focus away from the hamstrings.",
+    "Failing to maintain a controlled tempo, resulting in a lack of muscle activation.",
+    "Not fully extending the legs at the start, limiting the range of motion.",
+    "Curling the legs too quickly, reducing time under tension for the muscles.",
+    "Neglecting to keep the hips pressed into the ground, causing instability."
+  ]
+}

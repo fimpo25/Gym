@@ -1,0 +1,50 @@
+{
+  "nombre": "Caminata en Cinta Inclinada",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/treadmill-climbing",
+  "video_url": "https://api.smartworkout.app/asset/video/5fba5177-2460-49b1-9f3a-8f0da0bed7f0.mp4",
+  "tags": [
+    "CARDIO",
+    "MOTOR",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "Treadmill Climbing is a cardiovascular exercise that simulates uphill walking or running. It primarily targets the lower body muscles, including the quadriceps, hamstrings, glutes, and calves, while also engaging the core for stability. This exercise is effective for improving cardiovascular endurance, burning calories, and enhancing leg strength.",
+  "como_realizar": [
+    "Begin by setting the treadmill to a low speed and a moderate incline to warm up.",
+    "Gradually increase the incline to simulate climbing. Adjust speed as necessary to maintain a steady pace.",
+    "Maintain an upright posture with your shoulders back and core engaged.",
+    "Use a natural arm swing to help balance and maintain rhythm.",
+    "Focus on landing softly on your feet to reduce impact on the joints.",
+    "Continue climbing for your desired duration or until you reach your target heart rate."
+  ],
+  "consejos": [
+    "Start with a gentle incline and gradually increase it as you become more comfortable.",
+    "Keep your core tight to support your lower back and improve balance.",
+    "Avoid holding onto the treadmill handles unless necessary for balance.",
+    "Monitor your heart rate to ensure you are working within your target zone for optimal cardiovascular benefits.",
+    "Stay hydrated before, during, and after your workout to maintain performance and recovery.",
+    "Incorporate interval training by alternating between different inclines and speeds for added intensity."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing strain on the lower back.",
+    "Gripping the handrails tightly, reducing the workout's effectiveness.",
+    "Using a stride that is too short, limiting range of motion.",
+    "Allowing the hips to drop, leading to poor posture and engagement.",
+    "Setting the incline too high, causing excessive stress on the knees.",
+    "Running instead of walking, which can lead to balance issues.",
+    "Failing to engage the core, reducing stability and control.",
+    "Overstriding, which can lead to joint discomfort and inefficiency.",
+    "Not maintaining a steady pace, resulting in inconsistent effort."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Powell Raise Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/incline-powell-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/7adc5966-ccdc-4fe7-ac44-9adf61232e13.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Incline Powell Raise is an isolation exercise targeting the rear deltoids, upper back, and rotator cuff muscles. It is performed on an incline bench to enhance the range of motion and muscle engagement. This exercise helps improve shoulder stability and posture.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Lie face down on the bench with your chest and stomach supported, feet firmly planted on the ground.",
+    "Hold a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Extend your arms straight down towards the floor, keeping a slight bend in your elbows.",
+    "Raise the dumbbells outward and upward in a wide arc until your arms are parallel to the floor.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability.",
+    "Avoid using momentum; focus on controlled movements to maximize muscle engagement.",
+    "Ensure your head remains in a neutral position, aligned with your spine.",
+    "Start with lighter weights to perfect your form before progressing to heavier loads.",
+    "Breathe out as you lift the weights and inhale as you lower them.",
+    "If you feel strain in your neck or lower back, adjust your position or reduce the weight."
+  ],
+  "errores_comunes": [
+    "Lifting the weight too high, causing shoulder impingement.",
+    "Using momentum instead of controlled movement, reducing muscle engagement.",
+    "Allowing the torso to rotate, reducing focus on the target muscles.",
+    "Incorrect bench angle, leading to ineffective muscle activation.",
+    "Gripping the weights too tightly, causing unnecessary tension in the arms.",
+    "Not maintaining a neutral spine, increasing the risk of lower back strain.",
+    "Failing to retract the shoulder blades, limiting scapular movement.",
+    "Raising the arms too quickly and lowering too slowly, disrupting proper muscle contraction.",
+    "Allowing the elbows to flare out excessively, altering the intended movement path."
+  ]
+}

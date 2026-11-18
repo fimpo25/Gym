@@ -1,0 +1,44 @@
+{
+  "nombre": "Remo al Mentón con Barra Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/barbell-narrow-grip-upright-row",
+  "video_url": "https://api.smartworkout.app/asset/video/00adea9e-0267-4a00-8f1a-02d749c6576c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Barbell Narrow Grip Upright Row is a compound exercise targeting the shoulders and upper back, with secondary engagement of the biceps and forearms. It involves lifting a barbell vertically along the front of your body using a narrow grip, emphasizing the deltoids and trapezius muscles.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a barbell with an overhand grip, hands positioned close together.",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Lift the barbell vertically along your body, leading with your elbows until they are at shoulder height.",
+    "Pause briefly at the top of the movement, ensuring your elbows are higher than your wrists.",
+    "Lower the barbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a narrow grip to maximize shoulder and upper back engagement.",
+    "Focus on lifting with your elbows rather than your hands to target the correct muscles.",
+    "Avoid swinging or using momentum; keep the movement controlled and steady.",
+    "Keep your shoulders relaxed at the start to prevent unnecessary tension in the neck.",
+    "Exhale as you lift the barbell and inhale as you lower it for optimal breathing technique."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and reduced control.",
+    "Lifting the bar too high, causing shoulder impingement.",
+    "Allowing the elbows to drop below the wrists, reducing muscle engagement.",
+    "Using a grip that's too narrow, increasing wrist strain.",
+    "Rounding the shoulders forward, leading to poor posture and reduced effectiveness.",
+    "Jerking the bar up instead of using a controlled motion.",
+    "Failing to engage the core, resulting in a lack of stability.",
+    "Not keeping the wrists straight, causing unnecessary strain.",
+    "Leaning back excessively, putting strain on the lower back.",
+    "Neglecting to maintain a steady tempo, reducing muscle activation."
+  ]
+}

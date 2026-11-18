@@ -1,0 +1,41 @@
+{
+  "nombre": "Abdominales Invertidos",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-invertidos",
+  "video_url": "https://api.smartworkout.app/asset/video/a03e99ef-269f-476b-88c1-3c7599894aa1.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los abdominales invertidos son un ejercicio abdominal que se enfoca en la parte inferior del recto abdominal. Este movimiento implica curvar la pelvis hacia la caja torácica mientras estás acostado de espaldas, activando eficazmente los músculos del core.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas y los brazos a los lados, con las palmas hacia abajo.",
+    "Dobla las rodillas en un ángulo de 90 grados y levanta los pies del suelo de manera que tus muslos queden perpendiculares al piso.",
+    "Activa tu core llevando el ombligo hacia la columna.",
+    "Exhala mientras levantas las caderas del suelo, llevando las rodillas hacia el pecho. Mantén el movimiento controlado.",
+    "Inhala mientras bajas lentamente las caderas de nuevo a la posición inicial sin dejar que los pies toquen el suelo.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar tus músculos centrales para levantar tus caderas en lugar de balancear tus piernas.",
+    "Mantén el movimiento lento y controlado para maximizar el compromiso muscular y reducir el impulso.",
+    "Evita arquear la espalda; mantén una columna neutral durante todo el ejercicio.",
+    "Coloca tus manos debajo de tus glúteos para obtener soporte adicional si es necesario.",
+    "Exhala durante la fase de esfuerzo al levantar tus caderas e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Usar el impulso en lugar de un movimiento controlado.",
+    "Levantar la parte baja de la espalda demasiado alto del suelo.",
+    "No comprometer adecuadamente los músculos del core.",
+    "Tirar del cuello hacia adelante con las manos.",
+    "No mantener las rodillas dobladas en un ángulo de 90 grados.",
+    "Permitir que los pies toquen el suelo entre repeticiones.",
+    "Arquear la parte baja de la espalda durante el movimiento.",
+    "Balancear las piernas en lugar de levantar con el core."
+  ]
+}

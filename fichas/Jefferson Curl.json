@@ -1,0 +1,49 @@
+{
+  "nombre": "Jefferson Curl",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/jefferson-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/1e41b9a4-43bf-4995-94c5-d12dbe32883a.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "STRETCH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Jefferson Curl is a mobility and flexibility exercise targeting the posterior chain, particularly the hamstrings, lower back, and spinal erectors. It involves a controlled, weighted spinal flexion from a standing position, promoting spinal articulation and flexibility.",
+  "como_realizar": [
+    "Begin by standing on an elevated surface with feet hip-width apart, holding a light barbell or dumbbell with both hands.",
+    "Keep your arms straight and let the weight hang in front of you.",
+    "Slowly tuck your chin to your chest and begin to roll down through your spine, vertebra by vertebra.",
+    "Allow your upper back to round as you continue to lower the weight towards the floor.",
+    "Keep your knees slightly bent and focus on maintaining control throughout the movement.",
+    "Once you reach your maximum comfortable range of motion, pause briefly.",
+    "Reverse the movement by slowly rolling up through your spine, vertebra by vertebra, until you return to the starting position."
+  ],
+  "consejos": [
+    "Start with a very light weight to ensure proper form and control.",
+    "Focus on moving slowly and deliberately to maximize spinal articulation.",
+    "Maintain a slight bend in the knees to reduce strain on the lower back.",
+    "Engage your core throughout the movement for stability.",
+    "Breathe steadily; exhale as you roll down and inhale as you roll up.",
+    "Avoid forcing the range of motion; only go as far as is comfortable."
+  ],
+  "errores_comunes": [
+    "Rounding the lower back excessively instead of maintaining a controlled curve throughout the spine.",
+    "Bending the knees too much, reducing the stretch on the posterior chain.",
+    "Not engaging the core, leading to a lack of stability and control.",
+    "Allowing the shoulders to slump forward instead of keeping them retracted.",
+    "Using too much weight, compromising form and increasing injury risk.",
+    "Moving too quickly, which limits the effectiveness of the stretch and control.",
+    "Not maintaining a neutral neck position, causing strain on the cervical spine.",
+    "Failing to hinge at the hips, reducing the stretch on the hamstrings and lower back.",
+    "Not descending fully, limiting the range of motion and stretch benefits."
+  ]
+}

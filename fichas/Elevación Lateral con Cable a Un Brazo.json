@@ -1,0 +1,46 @@
+{
+  "nombre": "Elevación Lateral con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-cable-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/42988dc5-536d-483f-a19e-c0871210d667.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Single Arm Cable Side Lateral Raise is an isolation exercise targeting the lateral deltoid muscles. It involves lifting a cable handle to the side of the body, focusing on shoulder abduction. This exercise helps in building shoulder width and improving shoulder stability.",
+  "como_realizar": [
+    "Stand sideways to a cable machine with your feet shoulder-width apart.",
+    "Set the pulley to the lowest position and attach a single handle.",
+    "Grasp the handle with the hand furthest from the machine, keeping your arm straight and close to your body.",
+    "Engage your core and maintain a slight bend in your knees.",
+    "Slowly lift the handle out to the side until your arm is parallel to the floor.",
+    "Pause briefly at the top of the movement, ensuring you feel the contraction in your shoulder.",
+    "Lower the handle back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Keep your movements slow and controlled to maximize muscle engagement.",
+    "Avoid using momentum; focus on using your shoulder muscles to lift the weight.",
+    "Maintain a slight bend in your elbow throughout the exercise to reduce joint strain.",
+    "Ensure your torso remains upright and stable, avoiding any leaning or twisting.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Breathe out as you lift the weight and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to momentum-based swinging rather than controlled lifting.",
+    "Raising the arm above shoulder height, causing unnecessary strain on the shoulder joint.",
+    "Allowing the torso to lean excessively, reducing the isolation of the deltoid muscle.",
+    "Failing to maintain a slight bend in the elbow, increasing stress on the elbow joint.",
+    "Not keeping the wrist neutral, which can lead to wrist strain.",
+    "Starting the movement with the cable too slack, reducing tension on the muscle.",
+    "Allowing the shoulder to internally rotate, which can disengage the lateral deltoid.",
+    "Neglecting to engage the core, leading to instability and poor posture during the exercise.",
+    "Rushing through the movement without pausing at the top, decreasing muscle activation.",
+    "Not returning to the starting position with control, risking loss of tension and form."
+  ]
+}

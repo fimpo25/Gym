@@ -1,0 +1,48 @@
+{
+  "nombre": "Plancha Lateral con Abducción de Cadera",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/plancha-lateral-con-abduccion-de-cadera",
+  "video_url": "https://api.smartworkout.app/asset/video/b69a962b-2f68-4bb6-ba46-1b722ba57b6f.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "ABS"
+  ],
+  "descripcion": "La Abducción de Cadera en Plancha Lateral es un ejercicio avanzado para el núcleo y la parte inferior del cuerpo que se enfoca en los oblicuos, el glúteo medio y los abductores de la cadera. Mejora la estabilidad del núcleo, el equilibrio y la fuerza en los músculos laterales del cuerpo.",
+  "como_realizar": [
+    "Comienza acostándote de lado con las piernas extendidas y apiladas una sobre la otra.",
+    "Coloca tu codo directamente debajo de tu hombro para apoyar la parte superior de tu cuerpo.",
+    "Activa tu núcleo y levanta tus caderas del suelo, formando una línea recta desde la cabeza hasta los talones.",
+    "Una vez en la posición de plancha lateral, levanta tu pierna superior lo más alto posible sin comprometer la forma.",
+    "Mantén la posición brevemente, luego baja lentamente tu pierna de nuevo a la posición inicial.",
+    "Mantén un núcleo estable durante todo el movimiento y evita que tus caderas caigan.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Asegúrate de que tu codo esté directamente debajo de tu hombro para prevenir tensiones.",
+    "Mantén tu cuerpo en una línea recta desde la cabeza hasta los talones para una forma óptima.",
+    "Activa tus músculos del core para mantener la estabilidad durante el ejercicio.",
+    "Concéntrate en movimientos controlados al levantar y bajar la pierna.",
+    "Evita rotar tus caderas o hombros; mantenlos alineados con el suelo.",
+    "Respira de manera constante durante el ejercicio para mantener el enfoque y la resistencia.",
+    "Si eres nuevo en este ejercicio, comienza con tiempos de sostén más cortos y aumenta gradualmente la duración a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Dejar caer las caderas demasiado bajo, causando pérdida de compromiso y alineación del núcleo.",
+    "Permitir que la pierna superior caiga por debajo del nivel de la cadera, reduciendo la efectividad de la abducción.",
+    "No mantener una línea recta desde la cabeza hasta los talones, llevando a una alineación corporal incorrecta.",
+    "Rotar el torso hacia adelante o hacia atrás, lo que interrumpe el equilibrio y la activación muscular.",
+    "Descuidar mantener el hombro de apoyo estable, aumentando la tensión y el riesgo de incomodidad en el hombro.",
+    "Mover la pierna superior demasiado rápido, comprometiendo el control y la activación muscular.",
+    "Sobreextender la pierna superior, causando tensión innecesaria en la articulación de la cadera.",
+    "Doblar el brazo de apoyo, reduciendo la estabilidad y la activación del núcleo."
+  ]
+}

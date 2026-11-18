@@ -1,0 +1,46 @@
+{
+  "nombre": "Crunches de Bicicleta con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunches-de-bicicleta-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/7609f336-3372-4db7-b3e5-dd70634cd39e.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "Los abdominales en bicicleta con banda son un ejercicio para fortalecer el núcleo que se enfoca en los músculos abdominales, especialmente los oblicuos, mientras se incorporan bandas de resistencia para aumentar la intensidad. Este ejercicio mejora la estabilidad del núcleo y aumenta la fuerza rotacional.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas y una banda de resistencia alrededor de ambos pies.",
+    "Coloca tus manos detrás de la cabeza con los codos abiertos, asegurándote de no tirar del cuello.",
+    "Levanta los hombros de la colchoneta en posición de crunch y simultáneamente lleva la rodilla derecha hacia el pecho mientras extiendes la pierna izquierda hacia afuera.",
+    "Gira el torso para llevar el codo izquierdo hacia la rodilla derecha, activando los oblicuos.",
+    "Cambia de lado extendiendo la pierna derecha y llevando la rodilla izquierda hacia el pecho, girando para llevar el codo derecho hacia la rodilla izquierda.",
+    "Continúa alternando lados de manera controlada durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el movimiento lento y controlado para maximizar el compromiso muscular y prevenir lesiones.",
+    "Concéntrate en usar los músculos del core para girar, en lugar de tirar del cuello con las manos.",
+    "Asegúrate de que la banda de resistencia esté bien sujeta alrededor de ambos pies para mantener una tensión constante durante todo el ejercicio.",
+    "Exhala al girar e inhala al volver a la posición inicial para una técnica de respiración óptima.",
+    "Mantén una ligera flexión en la pierna extendida para mantener la tensión en la banda y evitar que se deslice."
+  ],
+  "errores_comunes": [
+    "Usar una banda de resistencia que es demasiado apretada, limitando el rango de movimiento.",
+    "Tirar del cuello con las manos, causando tensión y reduciendo el compromiso del core.",
+    "Permitir que la parte baja de la espalda se arquee fuera del suelo, desactivando el core.",
+    "Girar el torso sin extender completamente la pierna, reduciendo la activación de los oblicuos.",
+    "Moverse demasiado rápido, sacrificando el control y la forma.",
+    "No mantener los codos abiertos, limitando la rotación del torso.",
+    "No mantener la barbilla ligeramente metida, lo que lleva a la tensión en el cuello.",
+    "Usar el impulso en lugar de la contracción muscular controlada.",
+    "Respiración inconsistente, dificultando la estabilidad del core.",
+    "Dejar que la banda de resistencia se deslice, causando tensión desigual."
+  ]
+}

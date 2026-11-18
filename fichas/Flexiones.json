@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexiones",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones",
+  "video_url": "https://api.smartworkout.app/asset/video/04e5def2-7ed5-4847-b027-ac66bdc658d7.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La flexión de brazos es un ejercicio con el peso del cuerpo que se enfoca principalmente en el pecho, los tríceps y los hombros. También activa el núcleo y los músculos estabilizadores, convirtiéndolo en un entrenamiento integral para la parte superior del cuerpo. Las flexiones de brazos se pueden realizar en cualquier lugar y son fundamentales para desarrollar fuerza y resistencia.",
+  "como_realizar": [
+    "Comienza en una posición de plancha con las manos colocadas un poco más anchas que el ancho de los hombros y los pies juntos. Tu cuerpo debe formar una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna para mantener una posición neutral de la columna.",
+    "Baja tu cuerpo doblando los codos, manteniéndolos a un ángulo de 45 grados con respecto a tu torso. Desciende hasta que tu pecho casi toque el suelo.",
+    "Haz una pausa breve en la parte inferior, luego empuja a través de tus palmas para extender los codos y regresar a la posición inicial.",
+    "Asegúrate de que tu cuerpo permanezca en una línea recta durante todo el movimiento sin hundir ni arquear la espalda."
+  ],
+  "consejos": [
+    "Mantén los codos a un ángulo de 45 grados para proteger tus hombros y maximizar el compromiso del pecho.",
+    "Mantén el núcleo apretado durante todo el ejercicio para evitar que tus caderas se hundan.",
+    "Concéntrate en movimientos controlados; evita rebotar en el suelo al final de la flexión.",
+    "Si tienes dificultades con las flexiones completas, comienza con flexiones de rodillas o flexiones inclinadas para desarrollar fuerza.",
+    "Inhala mientras te bajas y exhala mientras te empujas hacia arriba."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan, lo que lleva a tensión en la parte baja de la espalda.",
+    "Abrir los codos demasiado, aumentando el estrés en los hombros.",
+    "No mantener una línea recta desde la cabeza hasta los talones.",
+    "No comprometer los músculos del core, comprometiendo la estabilidad.",
+    "Rango de movimiento inadecuado, no bajar completamente el pecho al suelo.",
+    "Manos posicionadas demasiado hacia adelante, reduciendo el compromiso del pecho.",
+    "Estirar el cuello o mirar hacia arriba, causando tensión en el cuello.",
+    "Apresurarse en las repeticiones, sacrificando la forma por la velocidad.",
+    "Bloquear los codos en la parte superior, perdiendo tensión muscular.",
+    "Distribución de peso desigual, favoreciendo un lado."
+  ]
+}

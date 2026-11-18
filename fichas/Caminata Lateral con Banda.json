@@ -1,0 +1,48 @@
+{
+  "nombre": "Caminata Lateral con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/caminata-lateral-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/57c46878-e761-48a4-a216-b3d345d56a24.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "BALANCE",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Caminata Lateral en Cuclillas (Monstruo) es un ejercicio dinámico que se enfoca en el glúteo medio, los abductores de la cadera y los cuádriceps. Consiste en realizar una sentadilla mientras se da un paso lateralmente, a menudo utilizando una banda de resistencia para aumentar la intensidad. Este ejercicio mejora la estabilidad de la cadera, fortalece la parte inferior del cuerpo y mejora las capacidades de movimiento lateral.",
+  "como_realizar": [
+    "Coloca una banda de resistencia alrededor de tus piernas justo por encima de las rodillas.",
+    "Párate con los pies al ancho de los hombros y baja a una posición de sentadilla, manteniendo el pecho hacia arriba y la espalda recta.",
+    "Activa tu núcleo y mantén la tensión en la banda durante todo el movimiento.",
+    "Da un paso lateral hacia la derecha con tu pie derecho, seguido por tu pie izquierdo, manteniendo la posición de sentadilla.",
+    "Da de 3 a 5 pasos hacia la derecha, luego invierte el movimiento dando un paso hacia la izquierda con tu pie izquierdo, seguido por tu pie derecho.",
+    "Continúa alternando lados durante el número deseado de repeticiones o tiempo."
+  ],
+  "consejos": [
+    "Mantén las rodillas alineadas con los dedos de los pies para evitar el colapso hacia adentro durante el movimiento.",
+    "Mantén una posición de sentadilla baja para maximizar el compromiso de los glúteos y los muslos.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para asegurar una activación muscular adecuada.",
+    "Usa un espejo o pide retroalimentación para asegurarte de mantener la forma adecuada durante todo el ejercicio.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio y aumenta gradualmente la resistencia a medida que te sientas más cómodo."
+  ],
+  "errores_comunes": [
+    "Permitir que las rodillas se inclinen hacia adentro, reduciendo el compromiso de los glúteos.",
+    "Dar pasos demasiado amplios, causando pérdida de control.",
+    "Inclinarse hacia adelante excesivamente, desviando el enfoque de los músculos de la cadera.",
+    "No mantener una ligera flexión en las rodillas, reduciendo la estabilidad.",
+    "No mantener los pies paralelos, llevando a una activación muscular incorrecta.",
+    "Elevarse durante el movimiento, disminuyendo la tensión en los músculos objetivo.",
+    "Usar impulso en lugar de movimientos controlados, arriesgando la pérdida de equilibrio.",
+    "Descuidar mantener el core comprometido, comprometiendo la postura y la alineación."
+  ]
+}

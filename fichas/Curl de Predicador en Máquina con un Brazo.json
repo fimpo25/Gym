@@ -1,0 +1,50 @@
+{
+  "nombre": "Curl de Predicador en Máquina con un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-predicador-en-maquina-con-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/57ba28f4-8296-4810-a3f1-d282307c3ce6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Predicador en Máquina con un Brazo es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Este ejercicio se realiza utilizando una máquina de curl de predicador, lo que permite un movimiento controlado y una contracción focalizada del bíceps. Ayuda a aumentar la masa muscular y a mejorar el pico del bíceps.",
+  "como_realizar": [
+    "Ajusta la altura del asiento de la máquina de curl predicador para que tu brazo superior descanse cómodamente en el cojín.",
+    "Selecciona un peso apropiado en la máquina.",
+    "Siéntate y coloca tu brazo en el cojín con la axila ajustada contra el borde superior.",
+    "Agarra el mango con un agarre en supinación (palma hacia arriba).",
+    "Mantén la espalda recta y los pies planos en el suelo.",
+    "Lentamente levanta el mango hacia arriba contrayendo tu bíceps, manteniendo tu brazo superior estacionario.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción.",
+    "Baja lentamente el mango de regreso a la posición inicial, extendiendo completamente tu brazo sin bloquear el codo.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Concéntrate en usar un rango completo de movimiento para maximizar el compromiso del bíceps.",
+    "Evita usar el impulso; controla tanto la fase ascendente como la descendente del curl.",
+    "Asegúrate de que tu hombro permanezca estable y no se levante del cojín durante el ejercicio.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Mantén tu muñeca recta y alineada con tu antebrazo para prevenir tensiones.",
+    "Exhala al levantar el peso e inhala al bajarlo para mantener un ritmo de respiración adecuado."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo la aislamiento del bíceps.",
+    "Permitir que el hombro se levante, involucrando los músculos incorrectos.",
+    "Usar el impulso para levantar el peso, comprometiendo el control.",
+    "No extender completamente el brazo, limitando el rango de movimiento.",
+    "Enroscar la muñeca en la parte superior, reduciendo la activación del bíceps.",
+    "Ajustar el asiento demasiado bajo, desalineando el codo con el punto de pivote.",
+    "Dejar que el codo se abra, disminuyendo el enfoque en el bíceps.",
+    "Apresurarse en las repeticiones, sacrificando la forma por la velocidad.",
+    "No ajustar la máquina para la longitud del brazo, llevando a una forma incorrecta.",
+    "No mantener el brazo superior estacionario, reduciendo la aislamiento."
+  ]
+}

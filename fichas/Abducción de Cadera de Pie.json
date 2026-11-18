@@ -1,0 +1,42 @@
+{
+  "nombre": "Abducción de Cadera de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/abduccion-de-cadera-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/4f239d80-8b4d-4c0b-af95-da9c526a549d.mp4",
+  "tags": [
+    "MOBILITY",
+    "BALANCE",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Abducción de Cadera de Pie es un ejercicio que se enfoca en los músculos glúteo medio y mínimo, así como en el tensor de la fascia lata. Ayuda a mejorar la estabilidad y la fuerza de la cadera, lo cual es esencial para diversas actividades atléticas y movimientos diarios.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de las caderas. Puedes sostenerte de una superficie estable como una pared o una silla para mantener el equilibrio.",
+    "Desplaza tu peso hacia la pierna izquierda, manteniéndola ligeramente doblada.",
+    "Levanta la pierna derecha hacia un lado tan alto como puedas sin inclinar el torso. Mantén los dedos del pie apuntando hacia adelante.",
+    "Haz una pausa en la parte superior del movimiento, luego baja lentamente la pierna de nuevo a la posición inicial.",
+    "Completa el número deseado de repeticiones y luego cambia a la otra pierna."
+  ],
+  "consejos": [
+    "Mantén una postura recta durante todo el ejercicio para activar los músculos correctos.",
+    "Evita inclinarte hacia el lado al levantar la pierna; concéntrate en aislar el movimiento en la cadera.",
+    "Controla el movimiento tanto al levantar como al bajar la pierna para maximizar el compromiso muscular.",
+    "Comienza con un rango de movimiento pequeño si eres nuevo en este ejercicio, aumentando gradualmente a medida que ganas fuerza.",
+    "Incorpora bandas de resistencia alrededor de tus tobillos para aumentar la dificultad una vez que domines la forma básica."
+  ],
+  "errores_comunes": [
+    "Inclinar el torso hacia un lado en lugar de mantenerlo erguido, reduciendo la efectividad.",
+    "Mover la pierna demasiado rápido, lo que lleva a la pérdida de control y desactivación muscular.",
+    "Levantar la pierna demasiado alto, causando rotación de la cadera y reduciendo la activación muscular objetivo.",
+    "Permitir que la pierna de apoyo se doble, lo que disminuye la estabilidad y el compromiso.",
+    "No involucrar el core, lo que lleva a un equilibrio y postura deficientes.",
+    "Apuntar los dedos de los pies hacia arriba, lo que desvía el enfoque de los abductores de la cadera.",
+    "No mantener una columna neutral, lo que resulta en una alineación incorrecta.",
+    "Usar el impulso en lugar de contracciones musculares controladas, disminuyendo la efectividad."
+  ]
+}

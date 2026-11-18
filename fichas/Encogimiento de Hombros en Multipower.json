@@ -1,0 +1,42 @@
+{
+  "nombre": "Encogimiento de Hombros en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/smith-shoulder-shrug",
+  "video_url": "https://api.smartworkout.app/asset/video/ca048f3f-7813-4368-8c5e-942aadeb98ae.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Smith Shoulder Shrug is an isolation exercise targeting the trapezius muscles. Utilizing the Smith machine provides a controlled environment, allowing for a focus on muscle contraction and minimizing the risk of injury. This exercise is ideal for building strength and size in the upper back and neck area.",
+  "como_realizar": [
+    "Set the Smith machine bar to a height just below your waist.",
+    "Stand with your feet shoulder-width apart, positioning yourself under the bar.",
+    "Grip the bar with an overhand grip, hands slightly wider than shoulder-width.",
+    "Unlock the bar by rotating it forward, keeping your arms straight.",
+    "Lift your shoulders towards your ears in a shrugging motion, squeezing the trapezius muscles at the top.",
+    "Hold the contraction briefly, then slowly lower your shoulders back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain stability throughout the exercise.",
+    "Avoid using momentum; focus on slow and controlled movements.",
+    "Ensure your elbows remain straight to isolate the trapezius muscles effectively.",
+    "Exhale as you lift your shoulders and inhale as you lower them.",
+    "Start with a lighter weight to perfect your form before increasing the load.",
+    "Maintain a neutral spine position throughout to prevent strain on the lower back."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to improper form and reduced range of motion.",
+    "Failing to keep the shoulders back and down, causing excessive neck strain.",
+    "Raising the shoulders too high, resulting in disengagement of the target muscles.",
+    "Using momentum instead of controlled movements, reducing muscle activation.",
+    "Not maintaining a straight posture, which can lead to poor muscle engagement.",
+    "Allowing the wrists to bend excessively, increasing the risk of wrist strain.",
+    "Neglecting to engage the core, leading to instability and potential back strain."
+  ]
+}

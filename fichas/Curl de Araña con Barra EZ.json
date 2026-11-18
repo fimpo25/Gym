@@ -1,0 +1,48 @@
+{
+  "nombre": "Curl de Araña con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-arana-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/0c2106f4-0de3-4cdf-9c0c-6676929e8a4b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Araña con Barra EZ es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Se realiza utilizando una barra EZ mientras se está acostado boca abajo en un banco inclinado, lo que permite un mayor rango de movimiento y un mayor compromiso muscular. Este ejercicio enfatiza la contracción máxima del bíceps y minimiza la participación de los hombros.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de aproximadamente 45 grados.",
+    "Acuéstate boca abajo en el banco con el pecho apoyado y los pies firmemente plantados en el suelo.",
+    "Agarra la barra EZ con un agarre en supinación (palmas hacia arriba), con las manos a la altura de los hombros.",
+    "Deja que tus brazos cuelguen rectos hacia abajo, perpendiculares al suelo.",
+    "Manteniendo los codos estacionarios, levanta la barra hacia arriba contrayendo los bíceps.",
+    "Continúa levantando hasta que tus antebrazos estén verticales o ligeramente más allá de la vertical para una contracción máxima.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los bíceps.",
+    "Baja lentamente la barra de nuevo a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan fijos y no se muevan hacia adelante durante el curl para mantener el enfoque en los bíceps.",
+    "Usa un tempo controlado para maximizar la tensión muscular durante todo el movimiento.",
+    "Evita balancearte o usar impulso; concéntrate en aislar los bíceps.",
+    "Selecciona un peso que te permita realizar todas las repeticiones con la forma adecuada.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad en el banco inclinado.",
+    "Exhala mientras subes la barra e inhala mientras la bajas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Usar el impulso para levantar la barra, comprometiendo el aislamiento muscular.",
+    "Ángulo incorrecto del banco, llevando a una posición inadecuada de los brazos.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "No controlar la fase excéntrica, reduciendo la efectividad.",
+    "Agarrar la barra demasiado fuerte, causando fatiga en los antebrazos.",
+    "Arquear la espalda, arriesgando tensión y reduciendo el enfoque en los bíceps.",
+    "Colocar los codos demasiado hacia adelante, disminuyendo la tensión en los bíceps."
+  ]
+}

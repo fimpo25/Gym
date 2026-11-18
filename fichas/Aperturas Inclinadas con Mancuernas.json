@@ -1,0 +1,47 @@
+{
+  "nombre": "Aperturas Inclinadas con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/aperturas-inclinadas-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/168d5fa2-455a-4bf2-9b1e-9a6dbe85a820.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura con Mancuernas en Banco Inclinado Bajo es un ejercicio de aislamiento que se enfoca en la parte superior de los músculos pectorales. Se realiza en un banco inclinado, lo que enfatiza la cabeza clavicular del pectoral mayor. Este ejercicio también involucra los deltoides anteriores y estabiliza la articulación del hombro.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con una mancuerna en cada mano, descansándolas sobre tus muslos.",
+    "Recuéstate en el banco y levanta las mancuernas por encima de tu pecho, con las palmas enfrentándose entre sí.",
+    "Dobla ligeramente los codos y baja las mancuernas en un movimiento en arco hasta que sientas un estiramiento en tu pecho.",
+    "Haz una breve pausa en la parte inferior del movimiento.",
+    "Lleva las mancuernas de regreso a la posición inicial usando el mismo movimiento en arco, enfocándote en apretar los músculos del pecho.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir el estrés en las articulaciones.",
+    "Mantén tus movimientos controlados y evita usar el impulso para levantar las pesas.",
+    "Concéntrate en sentir un estiramiento en el pecho en la parte inferior del movimiento y una contracción en la parte superior.",
+    "Asegúrate de que tu espalda y cabeza permanezcan firmemente contra el banco para mantener la forma adecuada.",
+    "Comienza con pesas más ligeras para dominar la forma antes de progresar a cargas más pesadas.",
+    "Exhala al levantar las pesas e inhala al bajarlas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos bajen demasiado, causando tensión excesiva en los hombros.",
+    "Usar pesas demasiado pesadas, lo que lleva a movimientos incontrolados.",
+    "No mantener una ligera flexión en los codos, aumentando el estrés en las articulaciones.",
+    "No mantener las escápulas retraídas, reduciendo el compromiso del pecho.",
+    "Acercar demasiado las mancuernas en la parte superior, perdiendo tensión en el pecho.",
+    "Arquear la espalda excesivamente, comprometiendo la estabilidad del núcleo.",
+    "Usar el impulso para levantar las pesas en lugar de una acción muscular controlada.",
+    "Dejar que las muñecas se doblen hacia atrás, causando tensión en los antebrazos.",
+    "No alinear correctamente el banco, alterando el ángulo del ejercicio."
+  ]
+}

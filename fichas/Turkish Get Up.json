@@ -1,0 +1,62 @@
+{
+  "nombre": "Turkish Get Up",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/turkish-get-up",
+  "video_url": "https://api.smartworkout.app/asset/video/1d37e077-fe0f-4171-bb0c-6b7e1886a3ab.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Turkish Get Up is a full-body exercise that enhances strength, stability, and mobility. It involves transitioning from a lying position to standing while holding a weight overhead, typically a kettlebell. This exercise engages multiple muscle groups including the shoulders, core, hips, and legs.",
+  "como_realizar": [
+    "Lie on your back with your right leg bent and foot flat on the floor. Extend your left leg straight out.",
+    "Hold a kettlebell in your right hand with your arm extended towards the ceiling. Keep your eyes on the kettlebell throughout the movement.",
+    "Press through your right foot and roll onto your left hip and forearm.",
+    "Push up onto your left hand, keeping the kettlebell stable overhead.",
+    "Lift your hips off the ground by pressing through your right foot and left hand.",
+    "Sweep your left leg back into a kneeling position under your body.",
+    "Align your torso upright by adjusting your kneeling position.",
+    "Stand up by driving through your right foot to come to a standing position with the kettlebell overhead.",
+    "Reverse the steps to return to the starting position."
+  ],
+  "consejos": [
+    "Start with a light weight to master the technique before progressing to heavier weights.",
+    "Maintain a strong grip on the kettlebell and keep your wrist straight to ensure stability.",
+    "Focus on controlled movements; avoid rushing through each step.",
+    "Engage your core throughout the exercise to maintain balance and control.",
+    "Keep your eyes on the kettlebell at all times to help maintain alignment and focus.",
+    "Practice each segment of the movement separately if you're new to this exercise.",
+    "Ensure that each transition is smooth and deliberate, particularly when moving from kneeling to standing."
+  ],
+  "errores_comunes": [
+    "Rushing through the movement without maintaining control.",
+    "Not keeping the wrist straight and aligned with the forearm.",
+    "Allowing the shoulder to collapse instead of keeping it packed.",
+    "Failing to keep the eyes on the kettlebell throughout the movement.",
+    "Not using the non-working arm to assist in the initial roll to elbow.",
+    "Letting the knee cave in during the lunge portion.",
+    "Raising the hips too high during the transition to the hand.",
+    "Not aligning the back knee with the front foot during the lunge.",
+    "Neglecting to engage the core throughout the entire exercise.",
+    "Using the lower back instead of the hips to drive the movement."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Press Overhead con Kettlebell a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-kettlebell-overhead-press",
+  "video_url": "https://api.smartworkout.app/asset/video/6f0b219a-a3bc-436a-b40b-752905c17732.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "The one-arm kettlebell press is a compound exercise that targets the shoulders, triceps, and core. It involves pressing a kettlebell overhead with one arm while maintaining stability and control. This exercise enhances unilateral strength and improves shoulder mobility and stability.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a kettlebell in one hand at shoulder height.",
+    "Engage your core and keep your back straight.",
+    "Press the kettlebell overhead by extending your arm fully, keeping your wrist straight.",
+    "Pause briefly at the top, ensuring your arm is in line with your ear.",
+    "Lower the kettlebell back to the starting position with control.",
+    "Repeat for the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Ensure your wrist remains neutral and aligned with your forearm throughout the movement.",
+    "Engage your core to maintain balance and prevent leaning to one side.",
+    "Focus on a slow and controlled motion to maximize muscle engagement.",
+    "Keep your elbow close to your body during the press to ensure proper form.",
+    "Breathe out as you press the kettlebell up and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Pressing the kettlebell too far forward instead of directly overhead, leading to shoulder strain.",
+    "Allowing the wrist to bend excessively, which can cause discomfort and reduce control.",
+    "Failing to engage the core, resulting in an unstable base and potential lower back stress.",
+    "Leaning to one side during the press, which can create imbalance and uneven muscle activation.",
+    "Using momentum by bending the knees excessively, reducing the effectiveness of the shoulder workout.",
+    "Not fully extending the arm at the top of the press, limiting the range of motion and muscle engagement.",
+    "Allowing the shoulder to shrug up towards the ear, which can lead to tension and improper form.",
+    "Holding the kettlebell too far away from the body at the start, causing unnecessary strain on the shoulder."
+  ]
+}

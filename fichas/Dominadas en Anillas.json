@@ -1,0 +1,51 @@
+{
+  "nombre": "Dominadas en Anillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/dominadas-en-anillas",
+  "video_url": "https://api.smartworkout.app/asset/video/07b3da97-8101-4701-9932-f0ccdafec332.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Las Dominadas en Anillas son un ejercicio de peso corporal realizado con anillas de gimnasia. Se enfocan principalmente en los músculos de la parte superior de la espalda, bíceps y hombros, mientras que también involucran el core para la estabilización. Este ejercicio mejora la fuerza de agarre y mejora la fuerza y coordinación general del tren superior.",
+  "como_realizar": [
+    "Ajusta los anillos a una altura donde puedas colgarte con los brazos completamente extendidos sin que tus pies toquen el suelo.",
+    "Agarra los anillos con un agarre neutral (palmas enfrentadas) y cuelga con el cuerpo recto, activando tu núcleo.",
+    "Inicia el movimiento retrayendo tus omóplatos y llevando tu pecho hacia los anillos.",
+    "Continúa tirando hasta que tu barbilla esté por encima del nivel de los anillos.",
+    "Baja lentamente de nuevo a la posición inicial con control, extendiendo completamente tus brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el movimiento para evitar balanceos.",
+    "Concéntrate en juntar tus omóplatos mientras te elevas.",
+    "Mantén los codos cerca de tu cuerpo para maximizar el compromiso del bíceps.",
+    "Asegúrate de tener un rango completo de movimiento extendiendo completamente los brazos en la parte inferior de cada repetición.",
+    "Controla el descenso para desarrollar fuerza excéntrica y prevenir lesiones.",
+    "Si eres nuevo en las dominadas con anillas, considera usar una banda de resistencia para asistencia."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para balancear el cuerpo en lugar de un movimiento controlado.",
+    "No extender completamente los brazos en la parte inferior del movimiento.",
+    "Permitir que los hombros se eleven hacia las orejas, perdiendo el compromiso escapular.",
+    "Tirar con los brazos en lugar de iniciar el movimiento con los músculos de la espalda.",
+    "No mantener los anillos cerca del cuerpo, lo que lleva a codos abiertos.",
+    "No mantener un núcleo estable, causando un movimiento excesivo del cuerpo.",
+    "No mantener las muñecas en una posición neutral, lo que lleva a tensión.",
+    "Presión de agarre inconsistente, lo que lleva a problemas de estabilidad y control.",
+    "Apresurar el descenso, perdiendo el compromiso muscular excéntrico."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nombre": "Jalón al Pecho con Cable a una Mano en Posición de Medio Arrodillado",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/jalon-al-pecho-con-cable-a-una-mano-en-posicion-de-medio-arrodillado",
+  "video_url": "https://api.smartworkout.app/asset/video/81cbd4a9-4c7c-4472-9594-64d0ec5ce5cf.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Jalón de Espalda con Cable en Medio Arrodillado con un Brazo se enfoca en el dorsal ancho, promoviendo la fuerza y estabilidad unilateral. Este ejercicio activa el núcleo, mejora la movilidad del hombro y realza la simetría muscular al aislar cada lado de la espalda.",
+  "como_realizar": [
+    "Coloca la máquina de cables en una posición alta y adjunta un mango individual.",
+    "Arrodíllate sobre una rodilla con el pie opuesto plano en el suelo, asegurando que tu torso esté erguido.",
+    "Agarra el mango con el brazo completamente extendido sobre la cabeza, con la palma hacia adelante.",
+    "Activa tu núcleo y tira del mango hacia tu hombro, manteniendo el codo cerca de tu cuerpo.",
+    "Haz una pausa breve en la parte inferior del movimiento, sintiendo la contracción en tu dorsal.",
+    "Vuelve lentamente a la posición inicial, manteniendo el control en todo momento.",
+    "Completa el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca recta y evita inclinarte hacia adelante o hacia atrás durante el ejercicio.",
+    "Concéntrate en tirar con los músculos de la espalda en lugar de con el brazo para maximizar el compromiso del dorsal.",
+    "Mantén una posición neutral de la muñeca para evitar tensiones innecesarias.",
+    "Mantén tus movimientos lentos y controlados para mejorar la activación muscular y prevenir lesiones.",
+    "Exhala al tirar hacia abajo e inhala al regresar a la posición inicial.",
+    "Ajusta el peso para que puedas realizar cada repetición con la forma adecuada."
+  ],
+  "errores_comunes": [
+    "Tirar con el brazo en lugar de involucrar los dorsales.",
+    "Permitir que el hombro se encoja hacia la oreja.",
+    "Torcer el torso en lugar de mantenerlo estable.",
+    "Usar impulso en lugar de un movimiento controlado.",
+    "No extender completamente el brazo en la parte superior del movimiento.",
+    "Arrodillarse demasiado cerca o demasiado lejos de la máquina de cables.",
+    "No mantener una columna neutral durante todo el ejercicio.",
+    "Descuidar involucrar el core para la estabilidad.",
+    "Tirar del cable demasiado hacia abajo más allá de la línea del hombro.",
+    "Agarrar el mango demasiado fuerte, causando fatiga en el antebrazo."
+  ]
+}

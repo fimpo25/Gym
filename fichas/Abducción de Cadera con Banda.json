@@ -1,0 +1,46 @@
+{
+  "nombre": "Abducción de Cadera con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/abduccion-de-cadera-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/465b9349-3c5e-4107-b56f-5da23ba2e73d.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Abducción de Cadera con Banda es un ejercicio que se enfoca en los músculos glúteo medio y mínimo, así como en el tensor de la fascia lata. Consiste en usar una banda de resistencia para crear tensión, lo que ayuda a fortalecer y estabilizar las caderas. Este ejercicio es beneficioso para mejorar la estabilidad de la cadera, potenciar el rendimiento atlético y prevenir lesiones.",
+  "como_realizar": [
+    "Coloca una banda de resistencia alrededor de tus piernas, justo por encima de las rodillas.",
+    "Párate con los pies separados al ancho de los hombros y dobla ligeramente las rodillas.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Lentamente mueve una pierna hacia un lado contra la resistencia de la banda, manteniendo los dedos de los pies apuntando hacia adelante.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima tensión en la banda.",
+    "Regresa tu pierna a la posición inicial con control.",
+    "Repite el número deseado de repeticiones, luego cambia a la otra pierna."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté lo suficientemente ajustada para proporcionar una tensión adecuada durante todo el movimiento.",
+    "Concéntrate en mantener un núcleo estable y evita inclinarte hacia un lado.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Respira de manera constante durante el ejercicio, exhalando al abducir la pierna.",
+    "Para aumentar la dificultad, usa una banda de resistencia más pesada o realiza más repeticiones."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, lo que reduce el compromiso de los glúteos.",
+    "Permitir que las rodillas se inclinen hacia adentro, lo que lleva a una mala alineación.",
+    "Usar demasiada resistencia, causando movimientos compensatorios.",
+    "No mantener el core comprometido, resultando en pérdida de estabilidad.",
+    "Moverse demasiado rápido, lo que disminuye la activación muscular.",
+    "No mantener una ligera flexión en la pierna de apoyo, reduciendo el equilibrio.",
+    "Descuidar mantener la pelvis nivelada, lo que lleva a una caída de la cadera.",
+    "Permitir que la banda retroceda incontrolablemente, arriesgando tensión en las articulaciones.",
+    "No mantener los dedos de los pies apuntando hacia adelante, alterando el enfoque muscular.",
+    "Usar un rango de movimiento demasiado corto, limitando la efectividad."
+  ]
+}

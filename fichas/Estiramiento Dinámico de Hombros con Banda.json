@@ -1,0 +1,46 @@
+{
+  "nombre": "Estiramiento Dinámico de Hombros con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/estiramiento-dinamico-de-hombros-con-banda-elastica",
+  "video_url": "https://api.smartworkout.app/asset/video/fb552ef7-a0e9-44d5-bed1-d0192234d886.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "El Estiramiento Dinámico de Hombros con Banda de Calentamiento está diseñado para aumentar la movilidad y flexibilidad de los hombros, preparando los músculos y articulaciones para una actividad física más intensa. Este ejercicio utiliza una banda de resistencia para facilitar el estiramiento dinámico, enfocándose en los deltoides, los músculos del manguito rotador y los tejidos conectivos circundantes.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una banda de resistencia con ambas manos frente a ti.",
+    "Extiende los brazos rectos frente a ti a la altura de los hombros, manteniendo una ligera tensión en la banda.",
+    "Lentamente levanta los brazos por encima de la cabeza mientras mantienes la tensión en la banda, asegurándote de que los codos permanezcan ligeramente doblados.",
+    "Una vez que tus brazos estén completamente extendidos por encima de la cabeza, tira suavemente de la banda para aumentar el estiramiento en los hombros.",
+    "Mantén el estiramiento por un momento, luego regresa lentamente a la posición inicial bajando los brazos frente a ti.",
+    "Repite el movimiento de 10 a 15 repeticiones, enfocándote en un movimiento controlado y una tensión constante."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad y prevenir la tensión en la parte baja de la espalda.",
+    "Concéntrate en movimientos suaves y controlados en lugar de la velocidad para maximizar la efectividad del estiramiento.",
+    "Asegúrate de que la banda de resistencia tenga la tensión adecuada; debe proporcionar un desafío pero no causar incomodidad.",
+    "Respira de manera constante durante el ejercicio, inhalando al levantar los brazos y exhalando al bajarlos.",
+    "Si sientes algún dolor o incomodidad en los hombros, reduce el rango de movimiento o usa una banda de resistencia más ligera."
+  ],
+  "errores_comunes": [
+    "Usar demasiada resistencia, causando tensión y limitando el rango de movimiento.",
+    "Permitir que la banda retroceda sin control, arriesgando tensión en el hombro.",
+    "No mantener el core comprometido, llevando a una mala postura y un estiramiento ineficaz.",
+    "Levantar los hombros hacia las orejas, causando tensión en el cuello.",
+    "Doblar los codos en exceso, reduciendo la efectividad del estiramiento.",
+    "Arquear la espalda, lo que puede llevar a una forma incorrecta y un estiramiento reducido.",
+    "Moverse demasiado rápido, impidiendo que los músculos se comprometan completamente.",
+    "No mantener una postura estable, llevando a un desequilibrio y menor control.",
+    "Descuidar mantener las muñecas rectas, causando tensión innecesaria."
+  ]
+}

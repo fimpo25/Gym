@@ -1,0 +1,47 @@
+{
+  "nombre": "Crunch Abdominal de Pie con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-abdominal-de-pie-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/883749ad-f278-4d93-b235-226fb1b728a4.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch de Abdominales de Pie con Cable es un ejercicio de aislamiento que se enfoca en los músculos abdominales, específicamente el recto abdominal. Implica el uso de una máquina de cables para proporcionar resistencia, permitiendo un compromiso controlado y efectivo de los músculos del core.",
+  "como_realizar": [
+    "Coloca un mango de cuerda en la polea alta de una máquina de cables.",
+    "Párate frente a la máquina con los pies al ancho de los hombros, sosteniendo la cuerda con ambas manos.",
+    "Da un paso atrás ligeramente para crear tensión en el cable y coloca tus manos a los lados de tu cabeza.",
+    "Activa tu núcleo y dobla ligeramente las rodillas.",
+    "Exhala mientras contraes tus abdominales, llevando tus codos hacia tus muslos mientras mantienes estable la parte inferior de tu cuerpo.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurando una contracción máxima de los abdominales.",
+    "Inhala mientras regresas lentamente a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tu cabeza durante todo el ejercicio para mantener una forma adecuada.",
+    "Concéntrate en usar tus músculos abdominales para bajar en lugar de depender de la fuerza de los brazos.",
+    "Mantén una ligera flexión en las rodillas para ayudar a estabilizar tu cuerpo durante el movimiento.",
+    "Evita tirar con los brazos; en su lugar, inicia el movimiento desde tu núcleo.",
+    "Controla el movimiento tanto al bajar como al subir para maximizar el compromiso muscular.",
+    "Asegúrate de exhalar durante el crunch e inhalar al regresar al inicio."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a depender del impulso en lugar de la activación muscular.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, reduciendo la activación del core.",
+    "Tirar con los brazos en lugar de iniciar el movimiento desde el core.",
+    "No mantener una posición neutral del cuello, causando tensión.",
+    "No comprometer completamente los abdominales a lo largo de todo el rango de movimiento.",
+    "Inclinarse demasiado hacia adelante, desviando la tensión del core.",
+    "Usar un rango de movimiento limitado, impidiendo la contracción completa del músculo.",
+    "Apresurarse en las repeticiones, comprometiendo la forma y el control.",
+    "Estar demasiado lejos de la máquina de cables, lo que lleva a una tensión inadecuada.",
+    "Descuidar la respiración adecuada, lo que puede afectar la estabilidad del core."
+  ]
+}

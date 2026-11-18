@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión con Palmada",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-con-palmada",
+  "video_url": "https://api.smartworkout.app/asset/video/3eee6526-9f25-4102-be30-39d783599365.mp4",
+  "tags": [
+    "STRENGTH",
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión con Aplauso es un ejercicio pliométrico avanzado que mejora la fuerza del tren superior, la explosividad y la coordinación. Se enfoca principalmente en el pecho, los tríceps y los hombros, mientras también involucra el núcleo para la estabilidad.",
+  "como_realizar": [
+    "Comienza en una posición de flexión estándar con las manos separadas al ancho de los hombros y el cuerpo formando una línea recta desde la cabeza hasta los talones.",
+    "Baja el cuerpo doblando los codos hasta que el pecho casi toque el suelo.",
+    "Impúlsate hacia arriba con suficiente fuerza para levantar las manos del suelo.",
+    "Rápidamente aplaude con las manos mientras estás en el aire.",
+    "Vuelve a colocar las manos en la posición inicial para atraparte y procede inmediatamente a la siguiente repetición."
+  ],
+  "consejos": [
+    "Asegúrate de mantener el core comprometido durante todo el movimiento para mantener una línea corporal recta.",
+    "Concéntrate en generar potencia desde el pecho y los tríceps durante la fase de empuje.",
+    "Practica flexiones regulares primero para desarrollar fuerza básica antes de intentar flexiones con aplauso.",
+    "Comienza con aplausos pequeños si eres nuevo en este ejercicio y aumenta gradualmente la altura de tu salto a medida que te sientas más cómodo.",
+    "Mantén un descenso controlado para prevenir lesiones y asegurar transiciones suaves entre repeticiones."
+  ],
+  "errores_comunes": [
+    "No comprometer los músculos del core, lo que lleva a una espalda baja hundida.",
+    "Permitir que los codos se abran excesivamente, reduciendo la potencia y el control.",
+    "Fuerza de empuje insuficiente, resultando en un aplauso incompleto o fallido.",
+    "Aterrizar con los codos bloqueados, aumentando el estrés en las articulaciones.",
+    "Descuidar mantener una línea recta del cuerpo desde la cabeza hasta los talones.",
+    "Realizar el ejercicio demasiado rápido, sacrificando la forma por la velocidad.",
+    "No lograr un rango completo de movimiento, limitando la activación muscular.",
+    "Colocación inconsistente de las manos al aterrizar, causando desequilibrio.",
+    "Estabilidad insuficiente del hombro, arriesgando tensión en el hombro."
+  ]
+}

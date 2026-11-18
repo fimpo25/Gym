@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Ancho con Banda Anclaje Alto",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/band-high-anchor-wide-row",
+  "video_url": "https://api.smartworkout.app/asset/video/2612c1c3-30b3-4d16-9c9a-d77d9da258b7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Band High Anchor Wide Row is an exercise targeting the upper back muscles, including the rhomboids, trapezius, and rear deltoids. It involves pulling a resistance band anchored at a high point towards your chest with elbows flared out, promoting scapular retraction and shoulder stability.",
+  "como_realizar": [
+    "Anchor a resistance band at a high point above your head level.",
+    "Stand facing the anchor point with feet shoulder-width apart.",
+    "Hold the band handles with an overhand grip, arms extended forward.",
+    "Step back to create tension in the band while maintaining a slight bend in your knees.",
+    "Engage your core and keep your back straight.",
+    "Pull the band towards your chest by driving your elbows out and back, squeezing your shoulder blades together.",
+    "Pause briefly at the peak contraction, ensuring full scapular retraction.",
+    "Slowly extend your arms back to the starting position, maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the anchor point is secure to prevent slipping during the exercise.",
+    "Keep your core engaged throughout to maintain balance and posture.",
+    "Focus on squeezing your shoulder blades together at the peak of each row.",
+    "Avoid using momentum; perform the movement in a controlled manner.",
+    "Maintain a slight bend in your knees to stabilize your stance.",
+    "Keep your wrists straight to avoid unnecessary strain."
+  ],
+  "errores_comunes": [
+    "Pulling with the arms instead of engaging the back muscles.",
+    "Allowing the shoulders to elevate during the row.",
+    "Leaning back excessively, using momentum instead of controlled movement.",
+    "Standing too far from the anchor point, causing excessive band tension.",
+    "Rounding the upper back instead of maintaining a neutral spine.",
+    "Failing to fully retract the shoulder blades at the end of the row.",
+    "Not keeping the elbows at shoulder height, leading to incorrect muscle activation.",
+    "Using a grip that is too narrow, reducing the effectiveness of the exercise."
+  ]
+}

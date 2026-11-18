@@ -1,0 +1,35 @@
+{
+  "nombre": "Elevación de Pantorrilla en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/machine-calf-raises",
+  "video_url": "https://api.smartworkout.app/asset/video/679ce80f-6359-4b23-8e21-b385445fc7fc.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Machine Calf Raises target the calf muscles, primarily the gastrocnemius and soleus. This exercise is performed using a specialized machine that allows for controlled movement and resistance, making it effective for building strength and size in the lower leg muscles.",
+  "como_realizar": [
+    "Adjust the seat and foot platform of the calf raise machine to fit your height.",
+    "Sit on the machine with your back straight and feet positioned on the platform, toes pointing forward.",
+    "Place your knees under the padded lever and ensure they are slightly bent.",
+    "Grip the handles or sides of the seat for stability.",
+    "Press through the balls of your feet to lift your heels as high as possible, contracting your calf muscles.",
+    "Pause briefly at the top of the movement for maximum contraction.",
+    "Slowly lower your heels back to the starting position, maintaining control throughout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your knees remain slightly bent throughout to avoid locking them.",
+    "Focus on a full range of motion to maximize muscle activation.",
+    "Control the descent to prevent bouncing or using momentum.",
+    "Keep your core engaged to maintain stability and prevent leaning forward or backward.",
+    "Adjust resistance appropriately; start with lighter weights to perfect form before increasing load.",
+    "Perform slow, deliberate movements to enhance muscle engagement and reduce injury risk."
+  ],
+  "errores_comunes": []
+}

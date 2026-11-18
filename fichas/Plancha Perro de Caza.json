@@ -1,0 +1,53 @@
+{
+  "nombre": "Plancha Perro de Caza",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/bird-dog-plank",
+  "video_url": "https://api.smartworkout.app/asset/video/1b1565ae-0669-46e4-bdf9-8d6841904aed.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "CHEST",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Bird Dog Plank is a core stabilization exercise that combines elements of the traditional plank and the bird dog exercise. It targets the core, lower back, and glutes while also engaging the shoulders and improving balance and coordination.",
+  "como_realizar": [
+    "Start in a high plank position with your hands directly under your shoulders and your body forming a straight line from head to heels.",
+    "Engage your core muscles to maintain stability.",
+    "Simultaneously lift your right arm and left leg, keeping them straight and parallel to the floor.",
+    "Hold this position for a few seconds while maintaining balance.",
+    "Return your right arm and left leg to the starting position.",
+    "Repeat the movement with your left arm and right leg.",
+    "Continue alternating sides for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on keeping your hips level and avoid letting them rotate as you lift your arm and leg.",
+    "Keep your gaze slightly ahead of you to maintain a neutral neck position.",
+    "Engage your glutes and core throughout the movement to enhance stability.",
+    "If you find it difficult to maintain balance, try performing the exercise on all fours instead of in a plank position.",
+    "Breathe steadily throughout the exercise to help maintain focus and control."
+  ],
+  "errores_comunes": [
+    "Lifting the leg too high, causing lower back arching.",
+    "Dropping the hips instead of keeping them level.",
+    "Allowing the head to drop or crane upwards, misaligning the neck.",
+    "Failing to engage the core, leading to sagging in the lower back.",
+    "Rushing the movement, compromising balance and control.",
+    "Extending the arm and leg without maintaining a straight line.",
+    "Rotating the torso instead of keeping it stable.",
+    "Placing the supporting hand or knee too far from the body, reducing stability.",
+    "Holding the breath instead of maintaining steady breathing."
+  ]
+}

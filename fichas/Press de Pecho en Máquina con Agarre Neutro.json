@@ -1,0 +1,46 @@
+{
+  "nombre": "Press de Pecho en Máquina con Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-pecho-en-maquina-con-agarre-neutro",
+  "video_url": "https://api.smartworkout.app/asset/video/3244b1e1-06ca-4632-8c38-9c325835ba9d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Press de Pecho en Máquina con Agarre de Martillo es un ejercicio de resistencia que se enfoca en los músculos pectorales, específicamente en la cabeza esternal del pectoral mayor. También involucra los tríceps y los deltoides anteriores. La posición de agarre de martillo permite una alineación neutral de la muñeca, reduciendo la tensión en las muñecas y los hombros.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura del pecho cuando estés sentado.",
+    "Siéntate y planta firmemente los pies en el suelo, separados al ancho de los hombros.",
+    "Agarra las manijas con un agarre neutral (palmas enfrentadas).",
+    "Mantén la espalda presionada contra el asiento y activa tu núcleo.",
+    "Presiona las manijas hacia adelante extendiendo completamente los brazos sin bloquear los codos.",
+    "Pausa brevemente en la extensión completa, luego regresa lentamente a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu asiento esté ajustado correctamente para mantener una forma adecuada y prevenir lesiones.",
+    "Mantén una posición neutral de la muñeca para evitar tensiones innecesarias.",
+    "Concéntrate en un movimiento lento y controlado durante todo el ejercicio.",
+    "Evita bloquear los codos en la extensión completa para mantener la tensión en los músculos.",
+    "Activa tu núcleo para estabilizar tu cuerpo durante el press.",
+    "Exhala al presionar hacia adelante e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Comenzar con el asiento demasiado bajo, haciendo que las manijas se alineen por debajo del nivel del pecho.",
+    "Permitir que los hombros se levanten del banco durante el press.",
+    "Usar un agarre demasiado ancho, reduciendo el rango de movimiento.",
+    "Bloquear los codos en la parte superior del movimiento, colocando un estrés innecesario en las articulaciones.",
+    "No mantener la espalda plana contra el respaldo, lo que lleva a arquearse.",
+    "Usar el impulso para empujar el peso en lugar de un compromiso muscular controlado.",
+    "No retraer las escápulas, lo que puede llevar a una tensión en los hombros.",
+    "Permitir que las muñecas se doblen excesivamente, reduciendo la potencia y el control.",
+    "Acercar demasiado las manijas, causando que los codos se abran excesivamente.",
+    "No ajustar la configuración de la máquina para el tamaño corporal individual, lo que lleva a una forma incorrecta."
+  ]
+}

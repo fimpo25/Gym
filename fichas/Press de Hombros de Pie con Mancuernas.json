@@ -1,0 +1,45 @@
+{
+  "nombre": "Press de Hombros de Pie con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/standing-dumbbell-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/a2e436e2-758d-41cb-9672-a813adde7526.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "The Standing Dumbbell Shoulder Press is a compound exercise targeting the deltoid muscles, particularly the anterior and medial heads, while also engaging the triceps and upper chest. This exercise enhances shoulder strength, stability, and overall upper body muscle coordination.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in each hand at shoulder height with an overhand grip.",
+    "Engage your core to stabilize your body and maintain a neutral spine throughout the movement.",
+    "Press the dumbbells upward until your arms are fully extended overhead, keeping your elbows slightly bent to avoid locking them out.",
+    "Pause briefly at the top of the movement, ensuring that the dumbbells are directly above your shoulders.",
+    "Slowly lower the dumbbells back to the starting position at shoulder height, maintaining control throughout the descent.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core tight to prevent excessive arching of your lower back during the press.",
+    "Focus on a controlled tempo, both when pressing up and lowering the weights down.",
+    "Ensure that your wrists remain straight and aligned with your forearms to reduce strain.",
+    "Avoid flaring your elbows too far out to the sides; keep them slightly forward to protect your shoulder joints.",
+    "Breath out as you press the weights up and inhale as you lower them down.",
+    "Start with lighter weights to master proper form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Arching the lower back excessively, leading to poor spinal alignment.",
+    "Allowing the elbows to flare out too wide, reducing shoulder engagement.",
+    "Not fully extending the arms overhead, limiting range of motion.",
+    "Dropping the dumbbells too low, causing shoulder strain.",
+    "Using momentum by bending the knees, reducing muscle control.",
+    "Failing to engage the core, compromising stability.",
+    "Holding the dumbbells too far forward, shifting tension away from the shoulders.",
+    "Rushing through reps, sacrificing form and control."
+  ]
+}

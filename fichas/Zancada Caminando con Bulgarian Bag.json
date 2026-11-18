@@ -1,0 +1,50 @@
+{
+  "nombre": "Zancada Caminando con Bulgarian Bag",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/bulgarian-bag-walking-lunges",
+  "video_url": "https://api.smartworkout.app/asset/video/3c831c1e-ee45-4dc8-9ad4-b8c00b35fca0.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "Bulgarian Bag Walking Lunges are a dynamic lower body exercise that targets the quadriceps, hamstrings, glutes, and core. This exercise involves performing lunges while carrying a Bulgarian Bag, adding resistance and challenging balance and coordination.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart, holding the Bulgarian Bag securely over your shoulders.",
+    "Step forward with your right foot, lowering your hips until both knees are bent at approximately 90 degrees.",
+    "Ensure your front knee is directly above your ankle and your back knee is hovering just above the ground.",
+    "Push through the heel of your front foot to rise and bring your back foot forward to step into the next lunge.",
+    "Continue alternating legs, maintaining an upright torso and steady pace.",
+    "Complete the desired number of repetitions or distance."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain balance.",
+    "Focus on a smooth, controlled motion rather than speed.",
+    "Ensure your front knee does not extend past your toes to protect your joints.",
+    "Use a weight that challenges you but allows you to maintain proper form.",
+    "Breathe steadily, inhaling as you lower and exhaling as you push back up.",
+    "Start with a lighter bag if you're new to this exercise to master the form."
+  ],
+  "errores_comunes": [
+    "Allowing the knee to cave inward during the lunge, which can strain the knee joint.",
+    "Leaning the torso too far forward, reducing engagement of the glutes and core.",
+    "Taking steps that are too short, limiting the range of motion and effectiveness.",
+    "Failing to keep the front knee aligned over the ankle, increasing stress on the knee.",
+    "Not maintaining a stable grip on the Bulgarian Bag, leading to poor upper body control.",
+    "Rising onto the toes of the front foot, which can destabilize the movement.",
+    "Letting the back knee touch the ground, reducing control and increasing impact risk.",
+    "Neglecting to engage the core, leading to a loss of balance and stability.",
+    "Using momentum to move forward rather than controlled muscle engagement.",
+    "Allowing the shoulders to round forward, which can lead to poor posture."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Elevación Lateral Posterior en T en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-incline-rear-lateral-t-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/690a8f6a-5e32-4ac5-ae61-cf2b700ca4c4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Dumbbell Incline Rear Lateral Raise is an isolation exercise targeting the rear deltoids, as well as engaging the upper back muscles including the rhomboids and trapezius. It is performed on an incline bench to allow for a greater range of motion and to minimize the involvement of other muscle groups.",
+  "como_realizar": [
+    "Set an adjustable bench to a 30-45 degree incline.",
+    "Hold a dumbbell in each hand with a neutral grip, palms facing each other.",
+    "Lie face down on the bench with your chest supported and feet firmly on the ground.",
+    "Extend your arms downward, allowing them to hang naturally with a slight bend in the elbows.",
+    "Engage your core and keep your head aligned with your spine.",
+    "Raise the dumbbells out to the sides in a wide arc, squeezing your shoulder blades together at the top of the movement.",
+    "Lower the dumbbells back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your movements slow and controlled to maximize muscle engagement.",
+    "Focus on squeezing your shoulder blades together at the top of each rep.",
+    "Avoid using momentum; let your muscles do the work.",
+    "Maintain a slight bend in your elbows throughout the exercise to reduce joint strain.",
+    "Ensure that your chest stays in contact with the bench to prevent using other muscle groups.",
+    "Start with lighter weights to perfect your form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Lifting too heavy, compromising form and control.",
+    "Using momentum instead of controlled muscle engagement.",
+    "Allowing elbows to bend, reducing effectiveness.",
+    "Raising weights too high, causing shoulder strain.",
+    "Not maintaining a neutral spine, risking lower back strain.",
+    "Failing to engage core for stability.",
+    "Shrugging shoulders, reducing target muscle activation.",
+    "Incorrect bench angle, altering muscle engagement.",
+    "Neglecting to squeeze shoulder blades at the top.",
+    "Allowing wrists to bend, risking strain."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Extensión de Tríceps en Suspensión",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-suspension",
+  "video_url": "https://api.smartworkout.app/asset/video/77c3a42e-c7ed-4cee-b282-75b25cb5fe1c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps en Suspensión es un ejercicio para la parte superior del cuerpo que se enfoca en el tríceps braquial utilizando correas de suspensión. Requiere estabilidad del núcleo y activa los músculos de los hombros, el pecho y el núcleo para mantener una forma adecuada. Este ejercicio es efectivo para desarrollar la fuerza de los tríceps y mejorar la definición general de los brazos.",
+  "como_realizar": [
+    "Asegura las correas de suspensión a un punto de anclaje por encima de la altura de la cabeza.",
+    "Párate de espaldas al punto de anclaje, sosteniendo las asas con un agarre por encima.",
+    "Extiende tus brazos frente a ti a la altura de los hombros, manteniendo una ligera flexión en los codos.",
+    "Inclínate ligeramente hacia adelante, manteniendo una línea recta desde la cabeza hasta los talones.",
+    "Dobla los codos para bajar tu cuerpo hacia adelante, manteniendo los brazos superiores estacionarios.",
+    "Detente cuando tus manos estén cerca de tu frente, asegurándote de que los codos permanezcan cerca de tu cabeza.",
+    "Presiona a través de tus palmas para extender tus brazos de regreso a la posición inicial.",
+    "Repite durante el número deseado de repeticiones mientras mantienes el control y la forma."
+  ],
+  "consejos": [
+    "Asegúrate de que las correas de suspensión estén ajustadas a una longitud que te permita mantener la tensión durante todo el movimiento.",
+    "Mantén el núcleo comprometido y el cuerpo alineado para evitar que la espalda se hunda o arquee.",
+    "Concéntrate en mover solo la articulación del codo; evita balancearte o usar impulso.",
+    "Controla la velocidad del movimiento, especialmente al bajar el cuerpo, para maximizar el compromiso muscular.",
+    "Mantén una posición neutral de la muñeca durante todo el ejercicio para reducir la tensión en las articulaciones.",
+    "Si eres nuevo en este ejercicio, comienza con una posición más vertical y aumenta gradualmente el ángulo a medida que ganas fuerza."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran en lugar de mantenerlos cerca de la cabeza.",
+    "Comenzar con el cuerpo demasiado hacia adelante, reduciendo la tensión en los tríceps.",
+    "Inclinarse hacia atrás en exceso, desviando el enfoque de los tríceps.",
+    "No mantener una línea recta desde la cabeza hasta los talones, causando desactivación del core.",
+    "Doblarse en las caderas, llevando a una alineación corporal incorrecta.",
+    "Usar el impulso para extender los brazos en lugar de un movimiento controlado.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Permitir que los hombros se encojan hacia las orejas, causando tensión en el cuello.",
+    "Agarrar las asas demasiado fuerte, llevando a la fatiga del antebrazo.",
+    "Dejar caer las caderas durante la extensión, comprometiendo la estabilidad."
+  ]
+}

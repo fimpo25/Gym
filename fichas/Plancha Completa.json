@@ -1,0 +1,57 @@
+{
+  "nombre": "Plancha Completa",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/plancha-completa",
+  "video_url": "https://api.smartworkout.app/asset/video/ab288c63-7b82-4955-83b0-6d36fcb29ea2.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "GLUTEUS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Plancha Completa es un ejercicio avanzado de peso corporal que requiere una fuerza, equilibrio y coordinación significativos. Consiste en mantener el cuerpo paralelo al suelo, sostenido solo por las manos, con los brazos rectos y las piernas extendidas detrás de ti. Este ejercicio se enfoca principalmente en los hombros, el pecho, el núcleo y la parte baja de la espalda.",
+  "como_realizar": [
+    "Comienza en una posición de plancha con las manos separadas al ancho de los hombros y los dedos apuntando hacia adelante.",
+    "Activa tu núcleo y glúteos para mantener tu cuerpo en línea recta.",
+    "Desplaza tu peso hacia adelante sobre tus manos mientras mantienes los brazos rectos.",
+    "Levanta los pies del suelo activando tus músculos del núcleo y la parte baja de la espalda.",
+    "Mantén una posición paralela al suelo con las piernas completamente extendidas.",
+    "Mantén la posición el mayor tiempo posible mientras mantienes la forma.",
+    "Para salir, baja lentamente los pies de nuevo al suelo y regresa a una posición de plancha."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas estén calentadas antes de intentar el Full Planche para prevenir lesiones.",
+    "Comienza con progresiones como el tuck planche o el straddle planche para desarrollar fuerza gradualmente.",
+    "Concéntrate en mantener tus brazos rectos y bloqueados durante todo el ejercicio para mayor estabilidad.",
+    "Activa tu core y glúteos constantemente para mantener una línea corporal recta.",
+    "Practica regularmente para mejorar el equilibrio y la resistencia muscular necesaria para mantener la posición.",
+    "Considera usar paralelas para mayor comodidad en las muñecas y mayor apalancamiento."
+  ],
+  "errores_comunes": [
+    "Caderas demasiado altas, causando una espalda arqueada y pérdida de compromiso del core.",
+    "Hombros no protractados, lo que lleva a una estabilidad escapular insuficiente.",
+    "Codos no completamente bloqueados, reduciendo el soporte del brazo y aumentando la tensión.",
+    "Manos colocadas demasiado anchas, afectando el equilibrio y la alineación del hombro.",
+    "Pies no juntos, interrumpiendo la línea del cuerpo y aumentando la dificultad.",
+    "Falta de flexibilidad en las muñecas, causando una posición incorrecta de las manos e incomodidad.",
+    "Tensión del core inadecuada, llevando a caderas caídas y mayor estrés en la parte baja de la espalda.",
+    "Posición de la cabeza demasiado alta o baja, causando tensión en el cuello y desalineación.",
+    "Confiar en el impulso en lugar de la fuerza controlada, arriesgando tensión en las articulaciones."
+  ]
+}

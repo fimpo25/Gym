@@ -1,0 +1,47 @@
+{
+  "nombre": "Toques de Dedos",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/toques-de-dedos",
+  "video_url": "https://api.smartworkout.app/asset/video/b91ad743-b140-4756-8088-75b681a36ec6.mp4",
+  "tags": [
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los Toques de Pies son un ejercicio para el core que se enfoca en los músculos abdominales, específicamente en el recto abdominal. Este ejercicio consiste en acostarse de espaldas y extender las manos hacia los pies, activando el core para levantar los hombros del suelo.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas hacia el techo.",
+    "Mantén los brazos extendidos directamente sobre el pecho, con las palmas enfrentadas.",
+    "Activa tu núcleo llevando el ombligo hacia la columna vertebral.",
+    "Exhala y levanta los hombros de la colchoneta, alcanzando con las yemas de los dedos hacia los dedos de los pies.",
+    "Mantén la posición superior brevemente, asegurando la máxima contracción de los músculos abdominales.",
+    "Inhala y baja lentamente los hombros de nuevo a la colchoneta, manteniendo el control.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la parte baja de la espalda presionada contra la colchoneta durante todo el ejercicio para evitar tensiones.",
+    "Concéntrate en usar tus músculos abdominales para levantarte en lugar de tirar con el cuello o los hombros.",
+    "Mantén un movimiento constante y controlado; evita usar el impulso para llegar más alto.",
+    "Si te resulta difícil mantener las piernas rectas, dóblalas ligeramente pero asegúrate de que permanezcan elevadas.",
+    "Exhala al subir y inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Doblar las rodillas en exceso, reduciendo el compromiso de los isquiotibiales.",
+    "Redondear la espalda en lugar de inclinarse en las caderas.",
+    "Alcanzar hacia adelante con los brazos en lugar de enfocarse en el movimiento del torso.",
+    "No comprometer el núcleo, lo que lleva a una falta de estabilidad.",
+    "Realizar el movimiento demasiado rápido, sacrificando el control.",
+    "No mantener una columna neutral, aumentando la tensión en la parte baja de la espalda.",
+    "Extender demasiado los brazos, causando tensión en los hombros.",
+    "Descuidar la respiración adecuada, reduciendo el flujo de oxígeno y la resistencia."
+  ]
+}

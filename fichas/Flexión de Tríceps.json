@@ -1,0 +1,45 @@
+{
+  "nombre": "Flexión de Tríceps",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-triceps",
+  "video_url": "https://api.smartworkout.app/asset/video/024873d2-7e67-4ffc-a9bf-84db47317bda.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "Las Flexiones de Tríceps son un ejercicio con el peso del cuerpo que se enfoca en los músculos tríceps braquiales, además de involucrar el pecho, los hombros y el core. Se realiza en posición de plancha, requiriendo estabilidad y fuerza para aislar y trabajar eficazmente los tríceps.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos colocadas directamente debajo de los hombros, brazos completamente extendidos.",
+    "Mantén tu cuerpo en una línea recta desde la cabeza hasta los talones, activando el núcleo y los glúteos.",
+    "Baja tu cuerpo doblando los codos, manteniéndolos cerca de tus costados mientras desciendes.",
+    "Continúa bajando hasta que tu pecho esté justo por encima del suelo.",
+    "Empuja a través de tus palmas para extender los brazos y volver a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una línea recta desde la cabeza hasta los talones durante todo el movimiento para evitar que la espalda se hunda o arquee.",
+    "Mantén los codos pegados al cuerpo para maximizar el compromiso de los tríceps y reducir la tensión en los hombros.",
+    "Activa tu núcleo y glúteos para mantener la estabilidad y evitar que las caderas se hundan.",
+    "Inhala al bajar y exhala al subir.",
+    "Si te resulta difícil mantener la forma, realiza el ejercicio sobre las rodillas manteniendo la misma alineación."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso de los tríceps y desplazando el enfoque hacia los músculos del pecho.",
+    "Codos que se abren hacia afuera, lo que disminuye la activación de los tríceps y aumenta la tensión en los hombros.",
+    "Caderas que se hunden o se levantan demasiado, lo que lleva a un mal compromiso del núcleo y posible tensión en la parte baja de la espalda.",
+    "No bajar completamente el cuerpo, limitando el rango de movimiento y la activación de los tríceps.",
+    "No mantener una línea recta desde la cabeza hasta los talones, causando desalineación y distribución ineficiente de la fuerza.",
+    "Apresurarse en las repeticiones, reduciendo el control y aumentando el riesgo de una forma incorrecta.",
+    "Permitir que los hombros se colapsen, lo que puede llevar a tensión en el cuello y menor participación de los tríceps.",
+    "Descuidar el compromiso del núcleo, resultando en inestabilidad y disminución de la efectividad general."
+  ]
+}

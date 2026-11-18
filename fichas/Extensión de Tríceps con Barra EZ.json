@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/c00bb56c-4f78-4833-a488-6df479e49308.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Empuje de Tríceps con Barra EZ es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Este ejercicio se realiza utilizando una máquina de cables con un accesorio de barra EZ, que permite un agarre más ergonómico, reduciendo la tensión en las muñecas. Engancha eficazmente los tríceps, especialmente las cabezas lateral y larga, promoviendo el crecimiento y la definición muscular.",
+  "como_realizar": [
+    "Coloca una barra EZ en la polea alta de una máquina de cables.",
+    "Párate frente a la máquina con los pies al ancho de los hombros.",
+    "Agarra la barra EZ con un agarre por encima (palmas hacia abajo) a la altura de los hombros.",
+    "Mantén los codos cerca de tus costados y ligeramente doblados.",
+    "Comienza con la barra a la altura del pecho, manteniendo la tensión en el cable.",
+    "Empuja la barra hacia abajo extendiendo los codos hasta que tus brazos estén completamente extendidos.",
+    "Haz una pausa breve en la parte inferior del movimiento para una contracción máxima.",
+    "Vuelve lentamente a la posición inicial, controlando el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante todo el ejercicio.",
+    "Evita usar el impulso; concéntrate en movimientos controlados para una mejor activación muscular.",
+    "Asegúrate de que tus codos permanezcan estacionarios y cerca de tu cuerpo para aislar eficazmente los tríceps.",
+    "Ajusta el peso para que puedas completar cada repetición con la forma adecuada sin comprometer la técnica.",
+    "Exhala al empujar hacia abajo e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso del tríceps y aumentando la implicación del hombro.",
+    "Permitir que los codos se abran, lo que desvía el enfoque de los tríceps.",
+    "Usar el impulso balanceando el cuerpo, lo que lleva a un aislamiento muscular deficiente.",
+    "No extender completamente los brazos en la parte inferior del movimiento, limitando la activación del tríceps.",
+    "No mantener una posición neutral de la muñeca, lo que puede causar tensión en las muñecas.",
+    "Llevar la barra demasiado alta durante la fase excéntrica, reduciendo la tensión en los tríceps.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, lo que puede afectar el rango de movimiento y el compromiso muscular.",
+    "Apresurarse en el ejercicio, lo que compromete el control y la forma."
+  ]
+}

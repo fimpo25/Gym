@@ -1,0 +1,48 @@
+{
+  "nombre": "Zancada Caminando con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-walking-lunges",
+  "video_url": "https://api.smartworkout.app/asset/video/d478be3b-f434-4b80-8fff-3eba57247ed5.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "Dumbbell Walking Lunges are a compound lower body exercise targeting the quadriceps, hamstrings, glutes, and calves. This movement also engages the core for stabilization, improving balance and coordination. By adding dumbbells, the exercise increases resistance, enhancing muscle strength and endurance.",
+  "como_realizar": [
+    "Stand upright with feet shoulder-width apart, holding a dumbbell in each hand at your sides.",
+    "Step forward with your right foot, lowering your hips until both knees are bent at approximately 90-degree angles. Ensure your front knee is directly above your ankle and your back knee hovers just above the ground.",
+    "Push through the heel of your right foot to rise and bring your left foot forward, stepping into the next lunge.",
+    "Continue alternating legs for the desired number of repetitions or distance.",
+    "Maintain an upright torso throughout the movement, keeping your core engaged."
+  ],
+  "consejos": [
+    "Keep your chest up and shoulders back to maintain proper posture.",
+    "Focus on a controlled descent to maximize muscle engagement.",
+    "Ensure your front knee does not extend past your toes to prevent strain on the knee joint.",
+    "Use a mirror to check form and alignment during the exercise.",
+    "Start with lighter weights to master form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Allowing the front knee to extend past the toes, increasing strain on the knee joint.",
+    "Leaning the torso too far forward, reducing engagement of the glutes and core.",
+    "Using too much weight, compromising form and control.",
+    "Taking steps that are too short, limiting range of motion and muscle activation.",
+    "Failing to keep the back knee close to the ground, reducing the effectiveness of the lunge.",
+    "Letting the front foot collapse inward, causing ankle instability.",
+    "Not maintaining a straight back, leading to poor posture and reduced core engagement.",
+    "Rushing the movement, sacrificing balance and control.",
+    "Holding the dumbbells incorrectly, leading to shoulder strain.",
+    "Neglecting to engage the core, resulting in less stability and balance."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión en Pike",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/pike-push-up",
+  "video_url": "https://api.smartworkout.app/asset/video/e30b3f83-ac42-404a-9f1e-f4ab9da0e228.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "Pike Push Ups are a bodyweight exercise targeting the shoulders, triceps, and upper chest. This exercise mimics the overhead pressing movement and is performed in a pike position, which increases the load on the shoulders compared to regular push-ups.",
+  "como_realizar": [
+    "Begin in a downward dog position with your hands shoulder-width apart and your feet hip-width apart.",
+    "Walk your feet closer to your hands to form an inverted V shape with your body.",
+    "Keep your legs straight and your hips high, ensuring your back is flat.",
+    "Lower your head towards the ground by bending your elbows, keeping them pointed outwards.",
+    "Stop when your head is just above the ground, then push through your palms to extend your arms and return to the starting position.",
+    "Maintain a neutral neck position throughout the movement."
+  ],
+  "consejos": [
+    "Focus on keeping your core engaged to maintain balance and stability.",
+    "Ensure that your elbows are not flaring out excessively; they should be at about a 45-degree angle from your body.",
+    "If you're new to this exercise, start with a smaller range of motion and gradually increase as you build strength.",
+    "Keep your movements controlled and avoid bouncing at the bottom of the push-up.",
+    "Practice proper breathing by inhaling as you lower yourself and exhaling as you push back up."
+  ],
+  "errores_comunes": [
+    "Hands placed too far apart, reducing shoulder engagement.",
+    "Elbows flaring out excessively, increasing strain on the shoulders.",
+    "Not maintaining a straight line from hips to hands, leading to poor form.",
+    "Allowing the head to drop too low, risking neck strain.",
+    "Failing to engage the core, causing a loss of stability.",
+    "Not controlling the descent, leading to a lack of muscle tension.",
+    "Inadequate range of motion, limiting shoulder activation.",
+    "Hips sagging, reducing effectiveness and increasing lower back strain.",
+    "Feet positioned too close to hands, compromising balance and form.",
+    "Rushing the movement, sacrificing control and precision."
+  ]
+}

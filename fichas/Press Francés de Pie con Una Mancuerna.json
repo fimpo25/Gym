@@ -1,0 +1,42 @@
+{
+  "nombre": "Press Francés de Pie con Una Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/press-frances-de-pie-con-una-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/1a9df420-28bd-40d6-a41d-52b1b9fd45e9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Press Francés de Pie con Una Mancuerna es un ejercicio de aislamiento que se enfoca en los tríceps. Consiste en sostener una sola mancuerna con ambas manos y extender los brazos por encima de la cabeza, concentrándose en la contracción de los músculos tríceps. Este ejercicio ayuda a desarrollar fuerza y definición en la parte superior del brazo.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, manteniendo una ligera flexión en las rodillas para estabilidad.",
+    "Sujeta una mancuerna con ambas manos, entrelazando los dedos alrededor del mango.",
+    "Levanta la mancuerna por encima de la cabeza hasta que tus brazos estén completamente extendidos, manteniendo los codos cerca de la cabeza.",
+    "Inhala mientras bajas lentamente la mancuerna detrás de la cabeza doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Exhala y extiende los brazos de regreso a la posición inicial, enfocándote en contraer los tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio y apoyar la parte baja de la espalda.",
+    "Evita abrir los codos hacia afuera; mantenlos cerca de tu cabeza para maximizar el compromiso de los tríceps.",
+    "Controla la velocidad del movimiento, especialmente al bajar la mancuerna, para mantener la tensión en los tríceps.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a mancuernas más pesadas.",
+    "Asegúrate de no bloquear los codos en la parte superior del movimiento para mantener la tensión en los músculos."
+  ],
+  "errores_comunes": [
+    "Los codos se abren en lugar de mantenerse cerca de la cabeza.",
+    "Arquear la espalda en exceso, lo que lleva a un mal compromiso del core.",
+    "Usar el impulso para levantar el peso en lugar de movimientos controlados.",
+    "No extender completamente los brazos en la parte superior del movimiento.",
+    "Permitir que las muñecas se doblen en lugar de mantenerlas neutrales.",
+    "Bajar la mancuerna demasiado detrás de la cabeza, aumentando la tensión en los hombros.",
+    "Involucrar más los hombros que los tríceps durante el levantamiento.",
+    "Pararse con los pies demasiado juntos, reduciendo el equilibrio y la estabilidad."
+  ]
+}

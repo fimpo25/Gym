@@ -1,0 +1,41 @@
+{
+  "nombre": "Estiramiento de Tríceps sobre la Cabeza",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/estiramiento-de-triceps-por-encima-de-la-cabeza",
+  "video_url": "https://api.smartworkout.app/asset/video/7b1d0db3-9a6f-4602-826f-752475f3e91b.mp4",
+  "tags": [
+    "STRETCH",
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento de Tríceps por Encima de la Cabeza es un ejercicio de estiramiento estático que se enfoca en los músculos tríceps braquial. Ayuda a mejorar la flexibilidad y el rango de movimiento en los hombros y brazos, reduciendo el riesgo de lesiones y favoreciendo la recuperación muscular.",
+  "como_realizar": [
+    "Párate o siéntate con la espalda recta y los pies separados al ancho de los hombros.",
+    "Levanta tu brazo derecho por encima de la cabeza, doblando el codo para llevar tu mano derecha hacia el centro de la parte superior de tu espalda.",
+    "Usa tu mano izquierda para empujar suavemente tu codo derecho, profundizando el estiramiento.",
+    "Mantén la posición durante 15-30 segundos, sintiendo el estiramiento en los tríceps y el hombro.",
+    "Suelta y cambia de brazo, repitiendo el estiramiento en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener una postura estable durante todo el estiramiento.",
+    "Evita arquear la espalda; mantenla recta para prevenir tensiones.",
+    "Respira profunda y consistentemente para ayudar a relajar tus músculos durante el estiramiento.",
+    "Si sientes algún dolor o incomodidad, afloja un poco hasta encontrar un estiramiento cómodo.",
+    "Realiza este estiramiento después de los entrenamientos para ayudar en la recuperación muscular y la flexibilidad."
+  ],
+  "errores_comunes": [
+    "No mantener el codo apuntando directamente hacia arriba, causando desalineación y reduciendo la efectividad del estiramiento.",
+    "Permitir que la espalda se arquee excesivamente, lo que puede llevar a una tensión en la parte baja de la espalda.",
+    "No activar los músculos del core, resultando en una mala postura y estabilidad.",
+    "Tirar del codo demasiado agresivamente, arriesgando una tensión en el hombro.",
+    "Sostener el estiramiento con la muñeca doblada, reduciendo el estiramiento en los tríceps.",
+    "No mantener la cabeza en una posición neutral, lo que lleva a molestias en el cuello.",
+    "Permitir que el hombro se eleve hacia la oreja, reduciendo el aislamiento del estiramiento en los tríceps."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Estiramiento de Rodilla al Pecho Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/estiramiento-de-rodilla-al-pecho-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/4f0d0450-0e72-47dc-80ab-df9b3fe6b566.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento de Rodilla al Pecho Acostado es un ejercicio de flexibilidad que se enfoca en la parte baja de la espalda y los glúteos. Ayuda a aliviar la tensión en la columna lumbar y mejora la movilidad general en el área de la cadera.",
+  "como_realizar": [
+    "Acuéstate boca arriba sobre una colchoneta con las piernas extendidas y los brazos a los lados.",
+    "Dobla la rodilla derecha y llévala lentamente hacia el pecho, usando ambas manos para acercarla suavemente.",
+    "Mantén la pierna izquierda extendida en el suelo, asegurándote de que la parte baja de la espalda permanezca en contacto con la colchoneta.",
+    "Mantén el estiramiento durante 20-30 segundos, respirando profundamente y relajándote en la posición.",
+    "Suelta la rodilla derecha y vuelve a la posición inicial.",
+    "Repite el estiramiento con la rodilla izquierda."
+  ],
+  "consejos": [
+    "Asegúrate de que tu cabeza y hombros permanezcan relajados sobre la colchoneta durante todo el estiramiento.",
+    "Evita tirar demasiado de tu rodilla; el estiramiento debe ser suave y cómodo.",
+    "Concéntrate en mantener la pierna extendida recta y en contacto con el suelo para maximizar el estiramiento en la parte baja de la espalda.",
+    "Realiza este estiramiento lentamente y con control para evitar movimientos bruscos que puedan causar tensión.",
+    "Inhala profundamente mientras llevas la rodilla hacia el pecho y exhala mientras mantienes el estiramiento."
+  ],
+  "errores_comunes": [
+    "Jalar la rodilla con demasiada fuerza hacia el pecho, causando tensión en la parte baja de la espalda.",
+    "Permitir que la pierna opuesta se levante del suelo, reduciendo la efectividad del estiramiento.",
+    "Arquear la espalda en lugar de mantenerla plana en el suelo, lo que lleva a un estiramiento inadecuado de la parte baja de la espalda.",
+    "Contener la respiración en lugar de respirar profunda y uniformemente, lo que puede aumentar la tensión en el cuerpo.",
+    "Agarrar directamente la articulación de la rodilla, lo que puede ejercer presión innecesaria sobre la rodilla.",
+    "No activar los músculos del core, lo que resulta en menos estabilidad y control durante el estiramiento.",
+    "Apresurar el movimiento en lugar de mantener el estiramiento el tiempo suficiente para permitir que los músculos se relajen."
+  ]
+}

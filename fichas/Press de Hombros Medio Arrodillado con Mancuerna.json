@@ -1,0 +1,48 @@
+{
+  "nombre": "Press de Hombros Medio Arrodillado con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-half-kneeling-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/4f12bae7-9afe-48ef-85d2-116d65f9ff3b.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "The Dumbbell Half Kneeling Shoulder Press is an exercise that targets the deltoids, triceps, and core. It involves pressing a dumbbell overhead while in a half-kneeling position, which helps improve shoulder stability and core engagement.",
+  "como_realizar": [
+    "Begin by kneeling on the floor with your right knee down and left foot flat on the ground in front of you, forming a 90-degree angle with your left knee.",
+    "Hold a dumbbell in your right hand at shoulder height with your palm facing forward.",
+    "Engage your core to maintain an upright torso and stabilize your position.",
+    "Press the dumbbell overhead by extending your arm fully, keeping your wrist straight and aligned with your shoulder.",
+    "Slowly lower the dumbbell back to the starting position at shoulder height.",
+    "Complete the desired number of repetitions, then switch sides to perform the exercise with your left knee down and right foot forward."
+  ],
+  "consejos": [
+    "Keep your core tight throughout the movement to prevent arching of the lower back.",
+    "Ensure that your front foot is firmly planted on the ground for stability.",
+    "Maintain a neutral spine by keeping your head aligned with your spine and looking straight ahead.",
+    "Avoid shrugging your shoulders as you press; keep them down and away from your ears.",
+    "Control the movement on both the upward and downward phases to maximize muscle engagement.",
+    "Start with a lighter weight to master form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Leaning back excessively instead of maintaining a neutral spine.",
+    "Allowing the front knee to collapse inward instead of keeping it aligned with the toes.",
+    "Pressing the dumbbell too far forward instead of directly overhead.",
+    "Failing to engage the core, leading to instability.",
+    "Using momentum to lift the weight instead of controlled movement.",
+    "Not keeping the elbow under the wrist, causing misalignment.",
+    "Allowing the shoulder to shrug instead of keeping it down and back.",
+    "Holding the dumbbell too close to the body, limiting range of motion.",
+    "Neglecting to keep the back leg's toes tucked under for stability.",
+    "Dropping the dumbbell too quickly on the descent, losing control."
+  ]
+}

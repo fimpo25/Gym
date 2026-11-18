@@ -1,0 +1,44 @@
+{
+  "nombre": "Giro Ruso con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-ruso-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/442d326f-92ed-48da-8b69-a0f0d6ff4244.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro Ruso con Banda es un ejercicio de core que se enfoca en los músculos oblicuos, ayudando a mejorar la fuerza y estabilidad rotacional. Este ejercicio implica girar el torso mientras se sostiene una banda de resistencia, lo que añade tensión y desafía los músculos del core de manera más efectiva que solo con el peso corporal.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos. Sostén una banda de resistencia con ambas manos, manteniéndola tensa.",
+    "Inclínate ligeramente hacia atrás para activar tu core, manteniendo la espalda recta y evitando redondear los hombros.",
+    "Ancla la banda bajo tus pies o haz que un compañero la sostenga firme para crear resistencia.",
+    "Gira tu torso hacia la derecha, tirando de la banda a través de tu cuerpo mientras mantienes los brazos extendidos.",
+    "Vuelve a la posición central, luego gira hacia el lado izquierdo de manera controlada.",
+    "Continúa alternando lados durante el número deseado de repeticiones, manteniendo la tensión en la banda en todo momento."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu espalda baja.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Asegúrate de que tus hombros y caderas se muevan juntos como una unidad para evitar tensiones innecesarias.",
+    "Exhala al girar hacia cada lado e inhala al regresar al centro.",
+    "Si sientes incomodidad en la parte baja de la espalda, reduce el rango de movimiento o ajusta tu postura."
+  ],
+  "errores_comunes": [
+    "Usar una banda de resistencia demasiado pesada, lo que lleva a una forma comprometida.",
+    "Inclinarse demasiado hacia atrás, causando tensión en la parte baja de la espalda.",
+    "Confiar en el movimiento de los brazos en lugar de rotar el torso.",
+    "No mantener el núcleo comprometido durante todo el ejercicio.",
+    "Permitir que las rodillas se muevan excesivamente, reduciendo la activación del núcleo.",
+    "Rotar demasiado rápido, resultando en pérdida de control.",
+    "No mantener una columna neutral, aumentando el riesgo de lesiones.",
+    "No mantener los pies en el suelo, lo que lleva a la inestabilidad.",
+    "Girar solo los hombros en lugar de todo el torso."
+  ]
+}

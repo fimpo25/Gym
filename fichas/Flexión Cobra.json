@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión Cobra",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-cobra",
+  "video_url": "https://api.smartworkout.app/asset/video/fd700ead-1da5-4d2e-8278-3b0e16873d40.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Cobra es un ejercicio dinámico con el peso del cuerpo que combina elementos de una flexión tradicional con un movimiento de extensión de espalda, enfocándose en el pecho, tríceps, hombros y parte baja de la espalda. Mejora la fuerza y flexibilidad de la parte superior del cuerpo mientras activa el núcleo.",
+  "como_realizar": [
+    "Comienza en una posición prona en el suelo con las piernas extendidas y los pies juntos.",
+    "Coloca tus manos debajo de tus hombros, con las palmas planas en el suelo.",
+    "Activa tu núcleo y presiona a través de tus palmas para levantar tu pecho del suelo, extendiendo completamente tus brazos mientras mantienes los codos cerca de tu cuerpo.",
+    "Simultáneamente, arquea tu espalda y levanta tu cabeza hacia el techo, asemejando una pose de cobra.",
+    "Mantén la posición superior brevemente, luego baja lentamente tu pecho de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tu cuerpo durante todo el movimiento para maximizar el compromiso de los tríceps.",
+    "Concéntrate en movimientos controlados para mejorar la activación muscular y prevenir lesiones.",
+    "Asegúrate de que tu núcleo esté comprometido para mantener la estabilidad y proteger tu espalda baja.",
+    "Exhala al empujar hacia arriba e inhala al bajar.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan hacia el suelo, reduciendo el compromiso del core.",
+    "Abrir los codos demasiado, aumentando la tensión en los hombros.",
+    "No extender completamente los brazos en la parte superior del movimiento, limitando el rango de movimiento.",
+    "Levantar los hombros hacia las orejas, causando tensión en el cuello.",
+    "No mantener los codos cerca del cuerpo durante el descenso, disminuyendo la activación de los tríceps.",
+    "Arquear excesivamente la parte baja de la espalda, llevando a posibles molestias en la zona lumbar.",
+    "Apresurarse en el movimiento, sacrificando el control y la forma.",
+    "No comprometer los glúteos y los muslos, reduciendo la estabilidad general."
+  ]
+}

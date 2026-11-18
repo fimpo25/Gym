@@ -1,0 +1,51 @@
+{
+  "nombre": "Zancada Lateral con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-side-lunges",
+  "video_url": "https://api.smartworkout.app/asset/video/ba3f0650-6d8b-4463-b188-d1239ac4614c.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "GLUTEUS"
+  ],
+  "descripcion": "Dumbbell Side Lunges target the muscles of the lower body, including the quadriceps, hamstrings, glutes, and inner thighs. This exercise enhances balance, stability, and lateral movement strength.",
+  "como_realizar": [
+    "Stand upright with feet hip-width apart, holding a dumbbell in each hand at your sides.",
+    "Step out to the right side with your right foot, bending your right knee while keeping your left leg straight.",
+    "Lower your hips back and down as you lunge, ensuring your right knee does not extend past your toes.",
+    "Keep your chest up and core engaged throughout the movement.",
+    "Push through your right foot to return to the starting position.",
+    "Repeat on the left side, stepping out with your left foot.",
+    "Continue alternating sides for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a straight back and avoid leaning forward during the lunge.",
+    "Ensure your knees are aligned with your toes to prevent injury.",
+    "Start with lighter weights to focus on form before increasing resistance.",
+    "Engage your core muscles to maintain balance and stability.",
+    "Control the movement speed; avoid rushing through reps for better muscle engagement.",
+    "Keep breathing steadily; exhale as you push back to the starting position."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing strain on the lower back.",
+    "Allowing the knee to extend beyond the toes, increasing knee stress.",
+    "Failing to keep the chest up, leading to poor posture.",
+    "Not engaging the core, resulting in loss of balance.",
+    "Using too heavy dumbbells, compromising form and control.",
+    "Not stepping wide enough, limiting range of motion.",
+    "Letting the trailing leg collapse inward, reducing stability.",
+    "Pushing off with the wrong foot, causing uneven muscle engagement.",
+    "Neglecting to keep the front foot flat, affecting balance.",
+    "Rushing the movement, sacrificing control and effectiveness."
+  ]
+}

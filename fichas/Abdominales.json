@@ -1,0 +1,45 @@
+{
+  "nombre": "Abdominales",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales",
+  "video_url": "https://api.smartworkout.app/asset/video/a718bf85-e487-49ee-9c84-9c198ca3b432.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "Los abdominales son un ejercicio central que se enfoca en los músculos abdominales. Consisten en levantar la parte superior del cuerpo desde una posición acostada hasta una posición sentada, involucrando el recto abdominal, los oblicuos y los flexores de la cadera. Este ejercicio ayuda a mejorar la fuerza y estabilidad del núcleo.",
+  "como_realizar": [
+    "Acuéstate de espaldas sobre una colchoneta con las rodillas dobladas y los pies planos en el suelo, a la altura de las caderas.",
+    "Coloca las yemas de los dedos ligeramente detrás de las orejas, manteniendo los codos abiertos.",
+    "Activa tu núcleo llevando el ombligo hacia la columna vertebral.",
+    "Exhala mientras levantas la parte superior del cuerpo hacia las rodillas, manteniendo la parte baja de la espalda presionada contra el suelo.",
+    "Haz una pausa en la parte superior del movimiento, asegurándote de que tu torso esté erguido y la columna neutral.",
+    "Inhala mientras bajas lentamente de nuevo a la posición inicial con control.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los pies planos en el suelo durante todo el movimiento para mantener la estabilidad.",
+    "Evita tirar de tu cuello con las manos; usa tus músculos centrales para levantar.",
+    "Concéntrate en un movimiento suave y controlado en lugar de la velocidad para maximizar la efectividad.",
+    "Mantén la barbilla ligeramente metida para evitar tensión en el cuello.",
+    "Asegúrate de que tu zona lumbar permanezca en contacto con el suelo durante la fase inicial del levantamiento.",
+    "Exhala al levantar y inhala al bajar para mantener un ritmo de respiración adecuado."
+  ],
+  "errores_comunes": [
+    "Usar el impulso balanceando los brazos o moviendo el cuello hacia adelante.",
+    "Anclar los pies bajo un objeto, lo que puede reducir el compromiso del core.",
+    "Levantar la parte baja de la espalda del suelo, llevando a una excesiva arqueadura de la columna.",
+    "No comprometer los músculos del core, confiando en los flexores de la cadera en su lugar.",
+    "Realizar un rango de movimiento parcial, no alcanzando completamente la posición superior.",
+    "Tirar del cuello con las manos, aumentando la tensión en la columna cervical.",
+    "Apresurarse en las repeticiones, sacrificando la forma por la velocidad.",
+    "Contener la respiración, lo que puede aumentar innecesariamente la presión intraabdominal."
+  ]
+}

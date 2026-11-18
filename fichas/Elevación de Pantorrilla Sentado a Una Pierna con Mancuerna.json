@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Pantorrilla Sentado a Una Pierna con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-seated-calf-raise-with-dumbbell",
+  "video_url": "https://api.smartworkout.app/asset/video/59f2e347-fb5b-4384-bb24-1c91293b3348.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Single-Leg Seated Calf Raise with Dumbbell is an isolation exercise targeting the calf muscles, specifically the gastrocnemius and soleus. This exercise is performed seated, allowing for focused contraction of one leg at a time, enhancing muscle symmetry and strength.",
+  "como_realizar": [
+    "Sit on a bench with your feet flat on the floor and knees bent at a 90-degree angle.",
+    "Place a dumbbell on top of your right knee, holding it securely with your hand.",
+    "Position the ball of your right foot on an elevated surface, such as a step or block, allowing your heel to hang off.",
+    "Keep your left foot flat on the floor for stability.",
+    "Slowly raise your right heel as high as possible by contracting your calf muscle.",
+    "Pause at the top of the movement for a moment to maximize contraction.",
+    "Lower your heel back down below the level of the step to stretch the calf muscle.",
+    "Repeat for the desired number of repetitions before switching to the left leg."
+  ],
+  "consejos": [
+    "Ensure that only your ankle joint is moving; keep your knee and hip joints stable.",
+    "Focus on a full range of motion to effectively engage the calf muscles.",
+    "Maintain a controlled pace throughout the exercise to prevent momentum from reducing effectiveness.",
+    "Use a weight that allows you to perform the exercise with proper form while still challenging your muscles.",
+    "Keep your core engaged to maintain balance and prevent unnecessary movement.",
+    "Breathe out as you lift your heel and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor control and reduced range of motion.",
+    "Allowing the heel to drop too quickly, missing the eccentric phase.",
+    "Not fully extending the ankle at the top of the movement, limiting calf engagement.",
+    "Leaning too far forward or backward, affecting balance and muscle activation.",
+    "Holding the dumbbell improperly, causing strain on the wrist or forearm.",
+    "Bouncing at the bottom of the movement, reducing muscle tension.",
+    "Failing to keep the knee stable, leading to knee joint strain.",
+    "Neglecting to keep the core engaged, compromising posture and control.",
+    "Performing the exercise too quickly, reducing effectiveness and increasing injury risk."
+  ]
+}

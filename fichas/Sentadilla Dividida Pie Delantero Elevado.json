@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla Dividida Pie Delantero Elevado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/split-squat-front-foot-elevated",
+  "video_url": "https://api.smartworkout.app/asset/video/fc3eac85-3592-407e-becc-71c1301b1b3e.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Split Squat Front Foot Elevated is a lower body exercise that targets the quadriceps, glutes, and hamstrings. Elevating the front foot increases the range of motion, enhancing muscle activation and flexibility. This exercise also engages the core for stability and balance.",
+  "como_realizar": [
+    "Begin by standing in front of a platform or step, about 6-12 inches high.",
+    "Place your right foot on the platform, ensuring your heel is firmly planted.",
+    "Step back with your left foot, positioning it so that both knees can bend comfortably.",
+    "Keep your torso upright and engage your core.",
+    "Lower your body by bending both knees until your right thigh is parallel to the ground.",
+    "Ensure your right knee does not extend beyond your toes.",
+    "Push through your right heel to return to the starting position.",
+    "Complete the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Maintain an upright posture throughout the movement to protect your lower back.",
+    "Focus on a slow and controlled descent to maximize muscle engagement.",
+    "Keep your core tight to help maintain balance and stability.",
+    "Ensure your front knee tracks over your toes to avoid unnecessary strain.",
+    "Adjust the height of the platform according to your flexibility and comfort level.",
+    "Use a mirror to check form and alignment during the exercise."
+  ],
+  "errores_comunes": [
+    "Knee extends beyond toes, increasing stress on the joint.",
+    "Back leg is too straight, reducing range of motion and muscle engagement.",
+    "Torso leans forward excessively, shifting focus away from target muscles.",
+    "Front foot is not fully supported, leading to instability.",
+    "Hips are not squared, causing uneven weight distribution.",
+    "Front knee caves inward, risking knee strain.",
+    "Inadequate depth, limiting muscle activation.",
+    "Rushed movements, reducing control and effectiveness.",
+    "Uneven weight distribution between legs, leading to imbalance.",
+    "Neglecting core engagement, compromising stability."
+  ]
+}

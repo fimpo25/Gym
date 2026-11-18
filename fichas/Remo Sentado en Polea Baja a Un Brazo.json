@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Sentado en Polea Baja a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-low-cable-seated-row",
+  "video_url": "https://api.smartworkout.app/asset/video/b0b70c55-e720-403a-8a99-a1eef643aa75.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Single Arm Low Cable Seated Row is an isolation exercise targeting the latissimus dorsi, rhomboids, and biceps. It involves pulling a cable handle towards your torso while seated, focusing on unilateral muscle engagement and improving muscular balance.",
+  "como_realizar": [
+    "Sit on the cable row machine with your feet firmly placed on the foot platform and knees slightly bent.",
+    "Grasp the handle with one hand using a neutral grip, keeping your arm fully extended.",
+    "Engage your core and maintain a straight back throughout the movement.",
+    "Pull the handle towards your waist by retracting your shoulder blade and bending your elbow.",
+    "Pause briefly when the handle reaches your torso, ensuring maximum contraction in the back muscles.",
+    "Slowly extend your arm back to the starting position, maintaining control over the weight.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Keep your chest up and shoulders down to avoid unnecessary strain on the neck.",
+    "Focus on pulling with your back muscles rather than just your arm to maximize engagement.",
+    "Avoid leaning too far back or using momentum; keep movements controlled and deliberate.",
+    "Ensure a full range of motion by fully extending and contracting the arm during each repetition.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Breathe out as you pull the handle towards you and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Using excessive weight leading to momentum-based pulling rather than controlled muscle engagement.",
+    "Allowing the shoulder to elevate instead of keeping it down and back throughout the movement.",
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Twisting the torso instead of keeping it stable and facing forward.",
+    "Overextending the arm at the end of the movement, causing the shoulder to rotate forward.",
+    "Not fully retracting the shoulder blade, reducing engagement of the back muscles.",
+    "Pulling with the arm instead of initiating the movement with the back muscles.",
+    "Leaning too far back, which shifts focus away from the targeted muscles.",
+    "Allowing the wrist to bend, which can lead to strain and reduced effectiveness.",
+    "Neglecting to pause at the peak contraction, missing out on optimal muscle engagement."
+  ]
+}

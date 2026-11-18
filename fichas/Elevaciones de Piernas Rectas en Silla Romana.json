@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevaciones de Piernas Rectas en Silla Romana",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevaciones-de-piernas-rectas-en-silla-romana",
+  "video_url": "https://api.smartworkout.app/asset/video/7991982d-a69a-4220-95e5-df5676bb2a88.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "Las Elevaciones de Piernas Rectas en la Silla del Capitán son un ejercicio efectivo para el core que se enfoca en el recto abdominal y los flexores de la cadera. Consiste en elevar las piernas mientras se está suspendido en una Silla del Capitán, que proporciona soporte para la espalda y los brazos, permitiendo un trabajo abdominal aislado.",
+  "como_realizar": [
+    "Colócate en la silla del capitán con la espalda firmemente contra el respaldo y los antebrazos descansando sobre las almohadillas de los brazos. Agarra las manijas para estabilidad.",
+    "Asegúrate de que tu cuerpo esté estable y tus hombros relajados. Tus piernas deben colgar rectas hacia abajo, con los pies juntos.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Levanta lentamente tus piernas rectas frente a ti hasta que estén paralelas al suelo, manteniéndolas juntas y rectas.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando una contracción completa de los músculos abdominales.",
+    "Baja tus piernas de nuevo a la posición inicial de manera controlada sin balancearte ni usar impulso.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento lento y controlado para maximizar el compromiso del núcleo y minimizar el impulso.",
+    "Mantén tu espalda presionada contra el cojín para evitar el arqueo y mantener una forma adecuada.",
+    "Concéntrate en la respiración; exhala al levantar las piernas e inhala al bajarlas.",
+    "Comienza con las rodillas dobladas si te resulta difícil mantener las piernas rectas al principio, luego progresa a levantar las piernas rectas a medida que desarrollas fuerza.",
+    "Evita balancear las piernas o usar el impulso para levantarlas; esto reduce la efectividad del ejercicio.",
+    "Asegúrate de que tus hombros permanezcan relajados durante todo el ejercicio para evitar tensiones innecesarias."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas en lugar de levantarlas de manera controlada.",
+    "Arquear excesivamente la espalda durante el movimiento.",
+    "Usar el impulso en lugar de la activación muscular.",
+    "No mantener las piernas rectas durante todo el ejercicio.",
+    "Permitir que los hombros se encojan o se encorven.",
+    "No activar adecuadamente los músculos del core.",
+    "Dejar caer las piernas demasiado rápido en el descenso.",
+    "Inclinarse demasiado hacia adelante o hacia atrás en la silla.",
+    "Agarrar las manijas demasiado fuerte, causando tensión en los brazos.",
+    "No mantener una postura estable y erguida."
+  ]
+}

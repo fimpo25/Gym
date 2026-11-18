@@ -1,0 +1,59 @@
+{
+  "nombre": "Clean and Jerk con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/kettlebell-clean-and-jerk",
+  "video_url": "https://api.smartworkout.app/asset/video/e9b0e158-d142-4499-9c68-89cd63e8c621.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Kettlebell Clean and Jerk is a dynamic, full-body exercise that combines strength, power, and endurance. It involves lifting a kettlebell from the ground to the shoulder (clean) and then pressing it overhead (jerk). This exercise targets multiple muscle groups including the shoulders, legs, core, and back, making it an effective compound movement for building functional strength.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and place a kettlebell between your feet.",
+    "Bend at the hips and knees to grip the kettlebell with one hand, keeping your back straight.",
+    "Drive through your heels to lift the kettlebell off the ground, extending your hips and knees explosively.",
+    "As the kettlebell rises, pull it close to your body and rotate your wrist to bring it to shoulder height in a rack position.",
+    "Once stabilized, dip slightly by bending your knees and then drive through your legs to press the kettlebell overhead.",
+    "Lock out your arm at the top of the movement, ensuring your elbow is straight and bicep is close to your ear.",
+    "Lower the kettlebell back to the rack position at your shoulder before returning it to the ground with control."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain stability and protect your lower back.",
+    "Focus on using your hips for power during the clean phase rather than relying solely on your arm strength.",
+    "Ensure a smooth transition from clean to jerk by maintaining balance and control in the rack position.",
+    "Practice proper breathing: inhale before lifting, exhale during exertion as you press overhead.",
+    "Start with a lighter kettlebell to master technique before progressing to heavier weights.",
+    "Maintain a neutral spine throughout the exercise to prevent injury."
+  ],
+  "errores_comunes": [
+    "Using too much arm strength instead of driving with the hips.",
+    "Failing to keep the kettlebell close to the body during the clean.",
+    "Allowing the kettlebell to crash onto the forearm during the catch.",
+    "Not fully extending the hips and knees during the drive phase.",
+    "Pressing the kettlebell overhead with a bent elbow.",
+    "Not engaging the core to stabilize the movement.",
+    "Overarching the lower back during the jerk phase.",
+    "Allowing the knees to cave in during the dip and drive.",
+    "Not maintaining a neutral wrist position when holding the kettlebell.",
+    "Rushing the transition between the clean and jerk phases.",
+    "Losing balance by not distributing weight evenly on the feet.",
+    "Failing to lock out the elbow and shoulder at the top of the jerk."
+  ]
+}

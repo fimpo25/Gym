@@ -1,0 +1,47 @@
+{
+  "nombre": "Pullover de Dorsales con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/dumbbell-lat-pullover",
+  "video_url": "https://api.smartworkout.app/asset/video/9615a139-577e-4dfa-a5d2-77200f3e3b5d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Dumbbell Pullover is a compound exercise that primarily targets the chest and latissimus dorsi muscles, while also engaging the triceps and core. It is performed lying on a bench with a single dumbbell held in both hands, extending the arms over the chest and lowering the weight behind the head.",
+  "como_realizar": [
+    "Lie flat on a bench, ensuring your upper back and shoulders are supported, with your feet firmly planted on the floor.",
+    "Hold a dumbbell with both hands, palms facing upward, and extend your arms straight above your chest.",
+    "Keep a slight bend in your elbows to reduce joint strain.",
+    "Inhale deeply and slowly lower the dumbbell in an arc behind your head until you feel a stretch in your chest and lats.",
+    "Pause briefly at the bottom of the movement.",
+    "Exhale as you reverse the motion, bringing the dumbbell back to the starting position above your chest.",
+    "Repeat for the desired number of repetitions, maintaining control throughout the exercise."
+  ],
+  "consejos": [
+    "Ensure your head and neck are relaxed throughout the movement to avoid unnecessary tension.",
+    "Focus on maintaining a controlled motion; avoid using momentum to lift the weight.",
+    "Engage your core to stabilize your body and prevent arching of the lower back.",
+    "Select an appropriate weight that allows you to perform the exercise with proper form without compromising range of motion.",
+    "Keep your elbows slightly bent to protect your joints and focus on muscle engagement.",
+    "Perform this exercise slowly to maximize muscle tension and effectiveness."
+  ],
+  "errores_comunes": [
+    "Arching the lower back excessively, reducing core engagement.",
+    "Allowing elbows to flare out, decreasing lat activation.",
+    "Lowering the dumbbell too far behind the head, risking shoulder strain.",
+    "Using momentum instead of controlled movement, reducing muscle tension.",
+    "Failing to keep the head and neck in a neutral position, leading to neck strain.",
+    "Not fully extending the arms, limiting the range of motion.",
+    "Starting with too heavy a weight, compromising form and control.",
+    "Rushing through the exercise, preventing proper muscle contraction."
+  ]
+}

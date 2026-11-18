@@ -1,0 +1,49 @@
+{
+  "nombre": "Dominadas Trasnuca Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/wide-grip-rear-pull-up",
+  "video_url": "https://api.smartworkout.app/asset/video/e4176ece-488a-44df-8ca7-b51bb92a5378.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Wide Grip Rear Pull Up is a compound upper body exercise targeting the latissimus dorsi, trapezius, and rhomboids. This exercise emphasizes the back muscles while also engaging the biceps and forearms. It is performed using a pull-up bar with a wide overhand grip, pulling the body upwards until the chin clears the bar.",
+  "como_realizar": [
+    "Stand under a pull-up bar and reach up to grasp it with an overhand grip, hands placed wider than shoulder-width apart.",
+    "Engage your core and retract your shoulder blades to stabilize your upper body.",
+    "Begin the movement by pulling your chest towards the bar, leading with your elbows and keeping them pointed outwards.",
+    "Continue pulling until your chin is above the bar, ensuring your back muscles are fully engaged.",
+    "Pause briefly at the top of the movement, then slowly lower yourself back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on squeezing your shoulder blades together at the top of the movement to maximize back engagement.",
+    "Avoid swinging or using momentum; maintain a controlled motion throughout.",
+    "If you struggle with full pull-ups, use resistance bands for assistance or perform negative pull-ups by focusing on the lowering phase.",
+    "Ensure your grip is secure but not overly tight to prevent forearm fatigue.",
+    "Keep your body straight and avoid arching your back during the exercise."
+  ],
+  "errores_comunes": [
+    "Using momentum to swing the body instead of controlled movement.",
+    "Failing to engage the core, leading to an unstable body position.",
+    "Pulling the bar behind the neck, which can strain the shoulders.",
+    "Allowing the elbows to flare excessively, reducing lat engagement.",
+    "Not fully extending the arms at the bottom of the movement.",
+    "Rounding the shoulders forward, leading to poor posture and engagement.",
+    "Pulling with the arms instead of focusing on the back muscles.",
+    "Using a grip that is too wide, reducing range of motion and control.",
+    "Not retracting the shoulder blades at the start of the pull.",
+    "Failing to maintain a neutral neck position, leading to neck strain."
+  ]
+}

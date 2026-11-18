@@ -1,0 +1,49 @@
+{
+  "nombre": "Dominadas en L",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/l-pull-up",
+  "video_url": "https://api.smartworkout.app/asset/video/5091ab03-7171-41b4-93cc-eca01e7d493f.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The L Pull-Up is an advanced bodyweight exercise that combines a pull-up with an isometric hold in an L-sit position. This exercise targets the upper back, biceps, core, and hip flexors, demanding significant strength and stability.",
+  "como_realizar": [
+    "Start by hanging from a pull-up bar with an overhand grip, hands shoulder-width apart.",
+    "Engage your core and lift your legs to form a 90-degree angle at the hips, creating an 'L' shape with your body.",
+    "Keep your legs straight and parallel to the ground throughout the movement.",
+    "Pull yourself up by engaging your back and biceps until your chin is above the bar.",
+    "Lower yourself back to the starting position in a controlled manner while maintaining the L-sit position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your core is engaged throughout to maintain the L-sit position.",
+    "Focus on controlled movements to maximize muscle engagement and reduce injury risk.",
+    "If you struggle with the L-sit position, practice leg raises separately to build strength.",
+    "Keep your shoulders down and back to avoid unnecessary strain on the neck.",
+    "Breath steadily; exhale as you pull up and inhale as you lower down.",
+    "Start with fewer reps or use assistance bands if needed, gradually increasing difficulty as you gain strength."
+  ],
+  "errores_comunes": [
+    "Swinging the legs instead of maintaining a static L position, reducing core engagement.",
+    "Failing to keep the legs parallel to the ground, compromising the L shape.",
+    "Using momentum to initiate the pull, leading to less muscle activation.",
+    "Allowing the shoulders to shrug, which can strain the neck and upper back.",
+    "Not fully extending the arms at the bottom, limiting range of motion.",
+    "Arching the back excessively, which can lead to improper form and potential lower back strain.",
+    "Pulling with the arms only and not engaging the back muscles effectively.",
+    "Neglecting to keep the core tight, resulting in a loss of stability and control."
+  ]
+}

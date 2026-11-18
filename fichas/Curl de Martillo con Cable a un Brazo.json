@@ -1,0 +1,48 @@
+{
+  "nombre": "Curl de Martillo con Cable a un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-martillo-con-cable-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/ac23cca5-fa5f-4968-a147-ca9769a13715.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Martillo con Cable a un Brazo es un ejercicio de aislamiento que se enfoca en el bíceps braquial, con énfasis en los músculos braquial y braquiorradial. Este ejercicio utiliza una máquina de cable para mantener una tensión constante durante el movimiento, promoviendo el crecimiento muscular y la fuerza en la parte superior del brazo.",
+  "como_realizar": [
+    "Coloca un mango individual en una polea baja de una máquina de cables.",
+    "Párate con los pies separados al ancho de los hombros, mirando hacia la máquina.",
+    "Agarra el mango con una mano usando un agarre neutral (martillo), con el pulgar hacia arriba.",
+    "Da un paso atrás ligeramente para crear tensión en el cable, manteniendo el brazo completamente extendido.",
+    "Mantén el codo cerca de tu torso y la muñeca recta.",
+    "Exhala mientras flexionas el codo para llevar el mango hacia tu hombro.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción de los bíceps.",
+    "Inhala mientras bajas lentamente el mango de regreso a la posición inicial, manteniendo el control.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén un agarre neutral durante todo el ejercicio para trabajar diferentes partes de los bíceps.",
+    "Concéntrate en mantener el codo estacionario para maximizar el compromiso del bíceps.",
+    "Evita balancearte o usar el impulso; controla el movimiento para una mejor activación muscular.",
+    "Mantén el núcleo comprometido y la postura erguida para evitar tensiones innecesarias en la parte baja de la espalda.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a movimientos de balanceo o tirones.",
+    "Permitir que el codo se desplace hacia adelante o hacia atrás en lugar de mantenerlo estacionario.",
+    "Involucrar el hombro para levantar el peso en lugar de aislar el bíceps.",
+    "No mantener una posición neutral de la muñeca, causando tensión innecesaria.",
+    "No extender completamente el brazo en la parte inferior del movimiento.",
+    "Enroscar la muñeca en la parte superior del movimiento, reduciendo el compromiso del bíceps.",
+    "Inclinarse hacia atrás o usar el impulso del cuerpo para ayudar en el curl.",
+    "No controlar la fase excéntrica, dejando caer el peso demasiado rápido.",
+    "Pararse demasiado lejos de la máquina de cables, alterando la línea de tracción."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Remo Alto Inclinado Sentado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/remo-alto-inclinado-sentado-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/2478ca0d-5b68-424c-8473-310bf31576ce.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "El Remo Alto Inclinado Sentado con Mancuernas es un ejercicio de aislamiento que se enfoca en los deltoides posteriores, la parte superior de la espalda y los músculos trapecios. Este movimiento implica inclinarse hacia adelante mientras estás sentado y tirar de las mancuernas hacia el torso, concentrándose en apretar los omóplatos juntos.",
+  "como_realizar": [
+    "Siéntate en el borde de un banco con los pies planos en el suelo, sosteniendo una mancuerna en cada mano.",
+    "Inclínate hacia adelante en las caderas hasta que tu torso esté ligeramente por encima de paralelo al suelo, manteniendo la espalda recta.",
+    "Deja que tus brazos cuelguen hacia abajo con una ligera flexión en los codos, palmas enfrentándose entre sí.",
+    "Exhala y tira de las mancuernas hacia tu torso apretando los omóplatos juntos.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la máxima contracción en los deltoides traseros.",
+    "Inhala y baja lentamente las mancuernas de regreso a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Evita usar el impulso; concéntrate en movimientos controlados para apuntar eficazmente a los deltoides posteriores.",
+    "Asegúrate de que tu espalda permanezca recta y evita redondear los hombros durante el movimiento.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada y el rango completo de movimiento.",
+    "Concéntrate en apretar tus omóplatos juntos en la parte superior de cada repetición para una activación máxima."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Usar el impulso para levantar las pesas en lugar de movimientos controlados.",
+    "Permitir que los codos caigan por debajo del nivel de los hombros durante el levantamiento.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Encoger los hombros en lugar de retraer las escápulas.",
+    "Levantar la cabeza y mirar hacia adelante en lugar de mantener el cuello alineado con la columna.",
+    "Permitir que las muñecas se doblen en lugar de mantenerlas rectas.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "No extender completamente los brazos en la posición inicial.",
+    "Permitir que las rodillas se abran hacia afuera en lugar de mantenerlas alineadas con las caderas."
+  ]
+}

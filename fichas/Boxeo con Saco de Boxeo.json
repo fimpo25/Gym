@@ -1,0 +1,57 @@
+{
+  "nombre": "Boxeo con Saco de Boxeo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/boxeo-con-saco-de-boxeo",
+  "video_url": "https://api.smartworkout.app/asset/video/8d12dabe-ce8c-49d2-a0d9-5a0080e2aeee.mp4",
+  "tags": [
+    "CARDIO",
+    "FUNCTIONAL",
+    "EXPLOSIVE"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "CALVES",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El boxeo con saco de golpes es un ejercicio cardiovascular y de entrenamiento de fuerza que consiste en golpear un saco pesado con varios tipos de golpes. Este ejercicio mejora la coordinación mano-ojo, desarrolla la fuerza en la parte superior del cuerpo, aumenta la resistencia cardiovascular y ayuda a aliviar el estrés. Involucra los músculos de los hombros, brazos, pecho y núcleo.",
+  "como_realizar": [
+    "Ponte en una posición de boxeo con los pies separados al ancho de los hombros, el pie dominante ligeramente hacia atrás.",
+    "Mantén las rodillas ligeramente flexionadas y el peso equilibrado en las puntas de los pies.",
+    "Levanta las manos a la altura de la barbilla, codos cerca del cuerpo y puños cerrados.",
+    "Comienza con golpes básicos: jab con la mano delantera, cruzado con la mano trasera.",
+    "Gira las caderas y los hombros para obtener potencia mientras mantienes el núcleo comprometido.",
+    "Mantén un ritmo constante y respira de manera consistente durante todo el ejercicio.",
+    "Incorpora combinaciones de golpes como jab-cruzado, gancho y uppercut.",
+    "Concéntrate en la precisión y la velocidad en lugar de solo la potencia."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas estén rectas al hacer contacto con la bolsa para evitar lesiones.",
+    "Mantén tus movimientos fluidos y controlados para mejorar la técnica y la eficiencia.",
+    "Calienta a fondo antes de comenzar para prevenir distensiones musculares o lesiones.",
+    "Usa vendas o guantes para proteger tus manos y muñecas durante el entrenamiento.",
+    "Practica el juego de pies junto con los golpes para mejorar la agilidad y el equilibrio.",
+    "Comienza despacio para centrarte en la forma antes de aumentar la velocidad o la intensidad.",
+    "Mantente relajado; la tensión puede reducir la velocidad y aumentar la fatiga.",
+    "Cambia regularmente las combinaciones para mantener el entrenamiento desafiante y atractivo."
+  ],
+  "errores_comunes": [
+    "Pararse demasiado cerca del saco, limitando la extensión y potencia del golpe.",
+    "Inclinarse hacia adelante en exceso, causando desequilibrio y movilidad reducida.",
+    "No mantener las manos arriba, dejando el rostro desprotegido.",
+    "Golpear con los codos bloqueados, aumentando la tensión en las articulaciones.",
+    "No rotar las caderas y los hombros, reduciendo la efectividad del golpe.",
+    "Sobreextender los golpes, arriesgando tensión en el hombro.",
+    "No involucrar los músculos del core, llevando a una estabilidad deficiente.",
+    "Bajar las manos después de golpear, creando aperturas para contraataques.",
+    "Pararse con los pies planos, obstaculizando el movimiento rápido y la agilidad.",
+    "Golpear sin la alineación adecuada de la muñeca, aumentando el riesgo de lesión en la muñeca.",
+    "Ignorar el ritmo de respiración, llevando a una fatiga temprana."
+  ]
+}

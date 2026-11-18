@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevaciones de Rodillas Colgado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevaciones-de-rodillas-colgado",
+  "video_url": "https://api.smartworkout.app/asset/video/13180fc4-ea8c-4813-8361-68da03eb24fc.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Las Elevaciones de Rodillas Colgado son un ejercicio efectivo para el core que se enfoca en los músculos abdominales inferiores, los flexores de la cadera y estabiliza todo el core. Este ejercicio se realiza colgándose de una barra de dominadas y levantando las rodillas hacia el pecho mientras se mantiene el control y la estabilidad.",
+  "como_realizar": [
+    "Agarra una barra de dominadas con un agarre por encima, manos al ancho de los hombros.",
+    "Activa tu núcleo y cuélgate con los brazos completamente extendidos y las piernas rectas.",
+    "Levanta lentamente las rodillas hacia el pecho flexionando las caderas.",
+    "Mantén la espalda recta y evita balancearte o usar impulso.",
+    "Haz una pausa breve en la parte superior del movimiento cuando tus muslos estén paralelos al suelo.",
+    "Baja las piernas de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de tener un agarre firme en la barra para mantener la estabilidad durante todo el ejercicio.",
+    "Concéntrate en usar tus músculos abdominales para levantar las rodillas, no el impulso.",
+    "Controla tu respiración; exhala al levantar las rodillas, inhala al bajarlas.",
+    "Para aumentar la dificultad, intenta extender las piernas en lugar de mantenerlas dobladas.",
+    "Evita arquear la espalda; mantenla neutral para proteger tu columna vertebral.",
+    "Si te resulta difícil evitar el balanceo, practica con una ligera flexión en las rodillas."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo para ganar impulso en lugar de usar los músculos del core para levantar las rodillas.",
+    "No comprometer el core, lo que lleva a depender de los flexores de la cadera y reduce la efectividad.",
+    "Arquear la espalda en exceso, lo que puede tensar la parte baja de la espalda.",
+    "No levantar las rodillas lo suficientemente alto, limitando el rango de movimiento y la activación del core.",
+    "Permitir que los hombros se encojan o se tensen, reduciendo la estabilidad y el control.",
+    "Usar un agarre desigual o un desequilibrio en la fuerza de agarre, causando un movimiento asimétrico.",
+    "Dejar caer las piernas demasiado rápido sin un descenso controlado, arriesgando tensión en la parte baja de la espalda.",
+    "Doblar los codos en exceso, lo que puede desviar el enfoque del core."
+  ]
+}

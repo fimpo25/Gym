@@ -1,0 +1,55 @@
+{
+  "nombre": "Push Press con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/push-press-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/5f36f500-8cfe-4c4f-a4ba-0ec33c72261e.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Empuje con Barra es un ejercicio compuesto que se enfoca principalmente en los hombros, tríceps y parte superior del pecho. Implica el uso de las piernas para ayudar a impulsar la barra por encima de la cabeza, permitiendo manejar cargas más pesadas en comparación con un press estricto. Este ejercicio mejora la potencia, la fuerza y la coordinación.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros y agarra la barra con un agarre por encima ligeramente más ancho que el ancho de los hombros.",
+    "Coloca la barra a la altura de los hombros, descansando sobre la parte superior del pecho y los deltoides frontales.",
+    "Activa tu núcleo y mantén el pecho hacia arriba.",
+    "Dobla ligeramente las rodillas para iniciar una bajada, luego extiende explosivamente las piernas para impulsar la barra hacia arriba.",
+    "A medida que la barra pasa por encima de tu cabeza, extiende completamente los brazos por encima.",
+    "Controla el descenso de la barra de regreso a la posición inicial a la altura de los hombros.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de tener un agarre firme en la barra para mantener el control durante todo el movimiento.",
+    "Mantén los codos ligeramente delante de la barra antes de iniciar el press.",
+    "Usa tus piernas para generar potencia durante la fase inicial del levantamiento.",
+    "Mantén una columna neutral y evita una curvatura excesiva de la parte baja de la espalda.",
+    "Concéntrate en una transición suave del impulso de las piernas a la extensión de los brazos.",
+    "Practica con pesos más ligeros para perfeccionar la forma antes de aumentar la carga.",
+    "Exhala mientras presionas la barra por encima de la cabeza e inhala al bajarla."
+  ],
+  "errores_comunes": [
+    "Usar un arco excesivo en la parte baja de la espalda durante el press.",
+    "No comprometer los músculos del core para la estabilidad.",
+    "Iniciar el press con los brazos en lugar de las piernas.",
+    "Permitir que las rodillas se inclinen hacia adentro durante el dip.",
+    "Usar demasiada fuerza de las piernas, convirtiéndolo en un push jerk.",
+    "Presionar la barra hacia adelante en lugar de hacia arriba.",
+    "No extender completamente las caderas y las rodillas en la parte superior.",
+    "Apresurar la fase de dip y drive, perdiendo el control.",
+    "Descuidar bloquear los codos en la parte superior.",
+    "Dejar caer la barra demasiado rápido."
+  ]
+}

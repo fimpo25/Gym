@@ -1,0 +1,48 @@
+{
+  "nombre": "Press Plano con Mancuernas Unilateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-plano-con-mancuernas-unilateral",
+  "video_url": "https://api.smartworkout.app/asset/video/5ad0fcdc-a1cd-4d26-a219-d451352dc27f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Mancuerna a un Brazo es un ejercicio unilateral para el pecho que trabaja los músculos pectorales, tríceps y deltoides. Este ejercicio mejora la simetría muscular, la estabilidad del core y la fuerza general al involucrar los músculos estabilizadores para mantener el equilibrio.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una mancuerna en una mano con un agarre por encima, brazo extendido sobre tu pecho.",
+    "Coloca tu mano libre en la cadera o extiéndela hacia el lado para mantener el equilibrio.",
+    "Baja la mancuerna lentamente hacia el lado de tu pecho, manteniendo el codo en un ángulo de 45 grados.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Presiona la mancuerna de nuevo a la posición inicial extendiendo completamente tu brazo.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Activa tu núcleo durante todo el ejercicio para mantener la estabilidad y prevenir la rotación.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para levantar el peso.",
+    "Mantén las escápulas retraídas y presionadas contra el banco para un mejor soporte.",
+    "Asegúrate de que tu muñeca permanezca recta y alineada con tu antebrazo para prevenir tensiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que el hombro se levante del banco, reduciendo la estabilidad.",
+    "Abrir demasiado el codo, colocando un estrés indebido en la articulación del hombro.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo el compromiso del núcleo.",
+    "Bajar demasiado la mancuerna, arriesgando una tensión en el hombro.",
+    "No mantener los pies firmemente plantados en el suelo, reduciendo el equilibrio.",
+    "Usar el impulso para levantar el peso en lugar de un compromiso muscular controlado.",
+    "No mantener una posición neutral de la muñeca, lo que lleva a una posible tensión en la muñeca.",
+    "Descuidar el compromiso del núcleo, resultando en una mala estabilización.",
+    "Permitir que el brazo no trabajado se desplace, interrumpiendo el equilibrio general.",
+    "Apresurarse en el ejercicio, sacrificando la forma por la velocidad."
+  ]
+}

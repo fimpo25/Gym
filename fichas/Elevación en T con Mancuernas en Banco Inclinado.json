@@ -1,0 +1,52 @@
+{
+  "nombre": "Elevación en T con Mancuernas en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-en-t-con-mancuernas-en-banco-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/6a593a24-996a-4a8d-b73c-e83a6f73cc43.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "La Elevación en T con Mancuernas en Banco Inclinado es un ejercicio que se enfoca en la parte superior de la espalda, específicamente en los deltoides posteriores, el trapecio y los romboides. Consiste en levantar mancuernas mientras se está acostado en un banco inclinado, formando una forma de 'T' con los brazos. Este ejercicio ayuda a mejorar la postura y la estabilidad de los hombros.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Acuéstate boca abajo en el banco con el pecho apoyado y los pies firmemente en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral (palmas enfrentadas).",
+    "Extiende tus brazos rectos hacia el suelo.",
+    "Activa tu núcleo y mantén la cabeza en una posición neutral.",
+    "Levanta tus brazos hacia los lados hasta que estén paralelos al suelo, formando una forma de 'T'.",
+    "Aprieta tus omóplatos juntos en la parte superior del movimiento.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa pesos ligeros para mantener la forma adecuada y el control durante todo el ejercicio.",
+    "Concéntrate en apretar los omóplatos juntos al levantar las mancuernas.",
+    "Mantén los codos ligeramente doblados para reducir la tensión en las articulaciones.",
+    "Evita usar el impulso; realiza cada repetición de manera controlada.",
+    "Mantén una columna neutral manteniendo la cabeza alineada con el torso.",
+    "Exhala al levantar los pesos e inhala al bajarlos."
+  ],
+  "errores_comunes": [
+    "Levantar las mancuernas demasiado alto, causando pinzamiento en el hombro.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo el compromiso muscular.",
+    "Permitir que el pecho se levante del banco, comprometiendo la estabilidad.",
+    "Arquear excesivamente la parte baja de la espalda, llevando a una mala postura.",
+    "No mantener una ligera flexión en los codos, aumentando la tensión en las articulaciones.",
+    "No retraer las escápulas, limitando la activación de la parte superior de la espalda.",
+    "Levantar los brazos demasiado rápido, disminuyendo el tiempo bajo tensión.",
+    "Sostener las mancuernas demasiado cerca del cuerpo, reduciendo el rango de movimiento.",
+    "Descuidar mantener el cuello en una posición neutral, causando tensión.",
+    "Usar pesos que son demasiado pesados, llevando a una ruptura de la forma."
+  ]
+}

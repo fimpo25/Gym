@@ -1,0 +1,45 @@
+{
+  "nombre": "Rana Oscilante",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/rocking-frog",
+  "video_url": "https://api.smartworkout.app/asset/video/47e66bbf-b52a-4510-9a98-80d6e0421da7.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Rocking Frog is a dynamic stretch exercise that targets the hips, groin, and lower back. It helps improve flexibility and mobility in these areas, making it beneficial for athletes and individuals looking to enhance their range of motion.",
+  "como_realizar": [
+    "Begin by kneeling on the floor with your knees spread wide apart and your feet together behind you.",
+    "Place your hands on the floor in front of you, keeping your arms straight.",
+    "Lower your hips back towards your heels while keeping your back straight and chest open.",
+    "Rock forward gently, bringing your chest closer to the floor while maintaining a straight back.",
+    "Continue to rock back and forth slowly, feeling the stretch in your hips and groin.",
+    "Perform for the desired number of repetitions or time duration."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain stability throughout the movement.",
+    "Focus on controlled movements rather than speed to maximize the stretch.",
+    "Breathe deeply and consistently to help relax your muscles during the stretch.",
+    "If you feel any discomfort in your knees, place a cushion or mat underneath them for added support.",
+    "Ensure that your movements are smooth and fluid to avoid any jerking motions."
+  ],
+  "errores_comunes": [
+    "Allowing the knees to splay too wide, reducing hip engagement.",
+    "Failing to maintain a neutral spine, leading to lower back strain.",
+    "Rocking too quickly, compromising control and stability.",
+    "Not engaging the core, resulting in poor balance and support.",
+    "Positioning the feet incorrectly, affecting the range of motion.",
+    "Letting the shoulders collapse, reducing upper body support.",
+    "Inadequate weight distribution, causing uneven movement."
+  ]
+}

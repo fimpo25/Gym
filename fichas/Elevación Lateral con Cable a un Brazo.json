@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación Lateral con Cable a un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-con-cable-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/40a86ba4-092b-4e96-87f5-e0d59761d12a.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación Lateral con Cable a un Brazo es un ejercicio de aislamiento que se enfoca en los músculos deltoides laterales. Consiste en levantar un solo brazo hacia el lado utilizando una máquina de cables, proporcionando tensión constante durante el movimiento. Este ejercicio ayuda a desarrollar el ancho de los hombros y mejorar la estabilidad del hombro.",
+  "como_realizar": [
+    "Párate de lado a una máquina de polea baja con los pies separados al ancho de los hombros.",
+    "Coloca un mango simple en la polea baja y agárralo con tu mano exterior, con la palma hacia abajo.",
+    "Coloca tu mano no trabajadora en la cadera o agárrate a la máquina para apoyo.",
+    "Mantén tu brazo de trabajo ligeramente doblado en el codo y mantén este ángulo durante todo el ejercicio.",
+    "Exhala y levanta tu brazo hacia el lado hasta que esté paralelo al suelo.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando el control.",
+    "Inhala y baja lentamente el mango de nuevo a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en el codo para reducir la tensión en la articulación.",
+    "Concéntrate en moverte a través de la articulación del hombro, no del codo o la muñeca.",
+    "Mantén tu núcleo comprometido para mantener el equilibrio y la estabilidad.",
+    "Evita balancearte o usar impulso; controla el movimiento en todo momento.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia.",
+    "Asegúrate de que tu hombro permanezca abajo y alejado de tu oreja durante todo el levantamiento.",
+    "Realiza el ejercicio frente a un espejo para monitorear la forma y la alineación."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a levantar con impulso en lugar de un movimiento controlado.",
+    "Inclinarse o girar el torso para compensar el peso, reduciendo el compromiso del hombro.",
+    "Levantar el brazo por encima del nivel del hombro, lo que puede poner un estrés innecesario en la articulación del hombro.",
+    "Permitir que la muñeca se doble, causando tensión y reduciendo la efectividad del entrenamiento de hombros.",
+    "No mantener una ligera flexión en el codo, lo que puede llevar a tensión en la articulación.",
+    "No mantener el núcleo comprometido, resultando en inestabilidad y reducción de la aislación de los músculos del hombro.",
+    "Comenzar el movimiento con el cable demasiado atrás del cuerpo, limitando el rango de movimiento.",
+    "Apresurarse en el ejercicio, lo que disminuye el compromiso muscular y el control.",
+    "Descuidar mantener las escápulas retraídas, llevando a una mala postura y reducción de la activación del hombro."
+  ]
+}

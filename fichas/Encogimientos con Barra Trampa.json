@@ -1,0 +1,43 @@
+{
+  "nombre": "Encogimientos con Barra Trampa",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/trap-bar-shrugs",
+  "video_url": "https://api.smartworkout.app/asset/video/cea71d9f-fedb-4fb9-a3f2-197f7df52147.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Trap Bar Shrugs are an exercise targeting the trapezius muscles, performed using a trap bar. This movement emphasizes the upper trapezius and helps improve shoulder stability and posture. The trap bar allows for a neutral grip, which can reduce strain on the wrists and shoulders compared to a straight barbell.",
+  "como_realizar": [
+    "Stand inside the trap bar with your feet shoulder-width apart.",
+    "Bend your knees slightly and grasp the handles with a neutral grip.",
+    "Keep your back straight and chest up as you stand tall with the trap bar.",
+    "Engage your core and pull your shoulders up towards your ears in a shrugging motion.",
+    "Hold the contraction at the top for a moment, then slowly lower your shoulders back down.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on lifting with your shoulders rather than using momentum.",
+    "Keep your elbows slightly bent but fixed throughout the movement.",
+    "Avoid rolling your shoulders; lift them straight up and down.",
+    "Maintain a neutral spine to prevent lower back strain.",
+    "Exhale as you lift your shoulders and inhale as you lower them.",
+    "Start with a lighter weight to ensure proper form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and reduced range of motion.",
+    "Failing to keep the core engaged, resulting in a lack of stability.",
+    "Allowing the shoulders to roll forward instead of moving straight up and down.",
+    "Shrugging too quickly, which reduces muscle engagement and control.",
+    "Not fully contracting the traps at the top of the movement.",
+    "Bending the elbows, which shifts focus away from the traps.",
+    "Leaning forward or backward, compromising balance and form.",
+    "Neglecting to keep the neck in a neutral position, leading to strain."
+  ]
+}

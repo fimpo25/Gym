@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Declinado en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-declinado-en-multipower",
+  "video_url": "https://api.smartworkout.app/asset/video/9ade43c0-728d-462c-8845-d0080e8cf37d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca Declinado en Máquina Smith es un ejercicio compuesto que se enfoca en la parte inferior de los músculos pectorales, con una participación secundaria de los tríceps y los deltoides anteriores. Utilizar la máquina Smith proporciona estabilidad y control, permitiendo una contracción focalizada de los músculos del pecho mientras se minimiza el riesgo de lesiones. Este ejercicio se realiza en un banco declinado ajustado en un ángulo, lo que desplaza el énfasis hacia la parte inferior del pecho.",
+  "como_realizar": [
+    "Ajusta el banco declinado a un ángulo de 15-30 grados bajo la barra de la máquina Smith.",
+    "Recuéstate en el banco con los pies asegurados bajo las almohadillas o firmemente plantados en el suelo.",
+    "Agarra la barra un poco más ancha que el ancho de los hombros, asegurando que las muñecas estén rectas y alineadas con los antebrazos.",
+    "Desmonta la barra girando las muñecas o liberando los seguros, manteniendo los brazos extendidos.",
+    "Baja la barra lentamente hacia la parte inferior del pecho, manteniendo el control y los codos a un ángulo de 45 grados respecto al cuerpo.",
+    "Haz una pausa breve cuando la barra esté justo por encima del pecho, asegurando tensión en los músculos.",
+    "Presiona la barra de nuevo a la posición inicial extendiendo los brazos, sin bloquear los codos en la parte superior.",
+    "Repite para las repeticiones deseadas, luego vuelve a colocar la barra de manera segura."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca plana contra el banco durante todo el movimiento para evitar tensiones.",
+    "Concéntrate en movimientos controlados; evita rebotar la barra en tu pecho para prevenir lesiones.",
+    "Mantén tu núcleo comprometido para la estabilidad y para apoyar la forma adecuada durante cada repetición.",
+    "Ajusta la colocación de las manos si es necesario para asegurar comodidad y un compromiso muscular óptimo.",
+    "Calienta a fondo antes de realizar series pesadas para preparar músculos y articulaciones.",
+    "La respiración es crucial: inhala al bajar la barra y exhala al presionarla hacia arriba."
+  ],
+  "errores_comunes": [
+    "Ajustar el banco con una inclinación demasiado pronunciada, lo que desvía el enfoque del pecho hacia los hombros.",
+    "Colocar las manos demasiado anchas o demasiado estrechas en la barra, lo que lleva a un compromiso muscular inadecuado.",
+    "No mantener una posición estable de los hombros, lo que puede provocar tensión en los hombros.",
+    "No mantener los pies firmemente plantados en el suelo, reduciendo la estabilidad y la potencia.",
+    "Permitir que la barra rebote en el pecho, reduciendo la tensión muscular y el control.",
+    "Bajar la barra demasiado rápido, comprometiendo el control y aumentando el riesgo de perder el equilibrio.",
+    "No extender completamente los brazos en la parte superior del movimiento, limitando el rango de movimiento.",
+    "Arquear la espalda en exceso, lo que puede tensar la parte baja de la espalda.",
+    "Involucrar demasiado los tríceps al abrir los codos en lugar de mantenerlos a un ángulo de 45 grados.",
+    "Descuidar el compromiso del núcleo, lo que lleva a inestabilidad y mala forma."
+  ]
+}

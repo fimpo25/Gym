@@ -1,0 +1,51 @@
+{
+  "nombre": "Sentadilla Frontal en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-front-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/abc86c91-411a-4aed-8864-091077c5f2bd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Front Squat is a compound exercise targeting the quadriceps, glutes, and core muscles. It utilizes the Smith machine to provide stability and control, making it suitable for lifters who want to focus on form and muscle activation without the need for a spotter.",
+  "como_realizar": [
+    "Set the bar on the Smith machine at shoulder height.",
+    "Stand with your feet shoulder-width apart and position yourself under the bar.",
+    "Cross your arms over your chest and rest the bar across your front deltoids.",
+    "Unrack the bar by rotating it forward and step back slightly.",
+    "Keep your chest up, core engaged, and back straight.",
+    "Lower your body by bending at the knees and hips until your thighs are parallel to the floor.",
+    "Push through your heels to return to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your elbows remain high throughout the movement to keep the bar stable.",
+    "Focus on maintaining a neutral spine to prevent lower back strain.",
+    "Engage your core muscles to enhance stability and control during the squat.",
+    "Keep your knees aligned with your toes to avoid unnecessary stress on the joints.",
+    "Breathe in as you lower into the squat and exhale as you push back up."
+  ],
+  "errores_comunes": [
+    "Placing feet too far forward, causing imbalance and excessive knee stress.",
+    "Allowing knees to cave inward, leading to improper alignment and potential knee injury.",
+    "Failing to maintain an upright torso, resulting in excessive forward lean and lower back strain.",
+    "Not keeping the barbell close to the body, increasing stress on shoulders and wrists.",
+    "Descending too quickly, reducing control and increasing risk of losing balance.",
+    "Not reaching sufficient depth, limiting muscle engagement and effectiveness.",
+    "Rounding the upper back, compromising spinal alignment and reducing core stability.",
+    "Neglecting to engage the core, leading to poor posture and increased risk of injury.",
+    "Using too much weight, sacrificing form for load and risking injury."
+  ]
+}

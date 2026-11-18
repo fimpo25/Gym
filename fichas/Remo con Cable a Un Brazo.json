@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-cable-row",
+  "video_url": "https://api.smartworkout.app/asset/video/6374054c-8663-4847-82a9-b97716cadb15.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Single Arm Chest Supported Row Cable is an isolation exercise targeting the upper back muscles, particularly the latissimus dorsi, rhomboids, and trapezius. This exercise is performed using a cable machine with a bench set at an incline to support the chest, allowing for a focused contraction of the back muscles while minimizing strain on the lower back.",
+  "como_realizar": [
+    "Set an adjustable bench to a 30-45 degree incline in front of a cable machine.",
+    "Attach a single handle to the low pulley of the cable machine.",
+    "Lie face down on the bench with your chest supported and feet firmly planted on the ground.",
+    "Grab the handle with one hand, keeping your arm extended and shoulder relaxed.",
+    "Pull the handle towards your hip, squeezing your shoulder blade towards your spine.",
+    "Pause briefly at the top of the movement for maximum contraction.",
+    "Slowly extend your arm back to the starting position under control.",
+    "Complete the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Ensure your chest remains in contact with the bench throughout the exercise to maintain stability.",
+    "Focus on pulling with your back muscles rather than your arm to maximize engagement of the target muscles.",
+    "Keep your movements slow and controlled to enhance muscle activation and reduce injury risk.",
+    "Avoid rotating your torso; keep it stable to isolate the back muscles effectively.",
+    "Exhale as you pull the handle towards you and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward or backward, disrupting balance and core engagement.",
+    "Allowing the shoulder to elevate, which can lead to neck strain.",
+    "Using momentum instead of controlled movement, reducing muscle activation.",
+    "Not fully extending the arm at the start, limiting range of motion.",
+    "Rotating the torso excessively, which shifts focus away from the target muscles.",
+    "Rounding the back, increasing risk of lower back strain.",
+    "Gripping the handle too tightly, causing forearm fatigue.",
+    "Pulling the elbow too far past the torso, leading to shoulder impingement.",
+    "Neglecting to engage the lats, reducing effectiveness of the exercise.",
+    "Allowing the wrist to bend, which can cause unnecessary strain."
+  ]
+}

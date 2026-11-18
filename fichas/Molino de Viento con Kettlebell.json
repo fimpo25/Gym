@@ -1,0 +1,54 @@
+{
+  "nombre": "Molino de Viento con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/kettlebell-windmill",
+  "video_url": "https://api.smartworkout.app/asset/video/7bb5a812-f0c3-42bc-99c3-595ca64efdf3.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "STRETCH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Kettlebell Windmill is a compound exercise that targets the core, shoulders, and hips. It enhances flexibility, stability, and strength, particularly in the obliques and shoulder girdle. This exercise requires balance and coordination, making it effective for improving overall functional fitness.",
+  "como_realizar": [
+    "Begin by standing with your feet slightly wider than shoulder-width apart. Hold a kettlebell in one hand and press it overhead, keeping your arm straight.",
+    "Turn your feet approximately 45 degrees away from the arm holding the kettlebell.",
+    "Shift your weight onto the leg opposite the kettlebell and push your hip out to the side.",
+    "Keeping your eyes on the kettlebell, slowly lower your torso by bending at the hips. Your free hand should slide down your leg towards the floor.",
+    "Continue lowering until you feel a stretch in your hamstrings or until your hand reaches the floor.",
+    "Pause briefly at the bottom position, then engage your core and glutes to return to the starting position.",
+    "Repeat for the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain stability and protect your lower back.",
+    "Focus on maintaining a straight line from the kettlebell to your shoulder to ensure proper alignment.",
+    "Move slowly and with control to maximize muscle engagement and minimize risk of injury.",
+    "If you're new to this exercise, start with a lighter kettlebell to master the form before progressing to heavier weights.",
+    "Ensure that your knees remain soft but not bent excessively; this helps in maintaining balance and proper form.",
+    "Breathing is crucial: inhale as you lower into the windmill position and exhale as you return to standing."
+  ],
+  "errores_comunes": [
+    "Rotating the torso instead of hinging at the hips, leading to poor form and reduced muscle engagement.",
+    "Failing to keep the kettlebell arm fully extended, which can compromise shoulder stability.",
+    "Allowing the knees to bend excessively, reducing the stretch in the hamstrings and obliques.",
+    "Not keeping the eyes on the kettlebell, which can destabilize the shoulder and affect balance.",
+    "Leaning forward instead of laterally, causing improper weight distribution and potential back strain.",
+    "Using too heavy a kettlebell, leading to compromised form and increased injury risk.",
+    "Neglecting to engage the core, resulting in a lack of stability and control throughout the movement.",
+    "Rushing the movement, which can lead to loss of balance and ineffective muscle activation."
+  ]
+}

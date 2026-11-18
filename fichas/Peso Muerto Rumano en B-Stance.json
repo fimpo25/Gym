@@ -1,0 +1,52 @@
+{
+  "nombre": "Peso Muerto Rumano en B-Stance",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/b-stance-romanian-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/ad7961a3-0d2b-45d0-937e-83b2b812d482.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "The B Stance Romanian Deadlift is a unilateral variation of the traditional Romanian Deadlift, designed to target the hamstrings, glutes, and lower back. This exercise involves a staggered stance where one foot is positioned slightly behind the other, allowing for greater emphasis on the front leg while maintaining balance and stability.",
+  "como_realizar": [
+    "Stand with your feet hip-width apart. Shift your weight onto your right foot and place your left foot slightly behind you, toes touching the ground for balance.",
+    "Hold a dumbbell or barbell in front of your thighs with an overhand grip, keeping your arms straight.",
+    "Engage your core and keep your back straight as you hinge at the hips, lowering the weight towards the floor. Your right knee should have a slight bend.",
+    "Lower the weight until you feel a stretch in your right hamstring, ensuring your back remains flat and your shoulders are pulled back.",
+    "Push through your right heel to return to the starting position, keeping the movement controlled.",
+    "Complete the desired number of repetitions on one side before switching to the other leg."
+  ],
+  "consejos": [
+    "Focus on maintaining a neutral spine throughout the movement to prevent lower back strain.",
+    "Keep your core engaged to help stabilize your body and maintain balance.",
+    "Ensure that most of your weight is on the front leg to maximize muscle engagement.",
+    "Move slowly and with control to fully engage the hamstrings and glutes.",
+    "Avoid rounding your back as you lower the weight; keep your chest open and shoulders back.",
+    "Start with lighter weights to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing excessive strain on the lower back.",
+    "Not keeping the back straight, leading to rounding of the spine.",
+    "Allowing the front knee to bend excessively, reducing hamstring engagement.",
+    "Failing to maintain a neutral spine throughout the movement.",
+    "Using the back leg for support instead of balance, reducing load on the working leg.",
+    "Raising the torso too quickly, compromising control and muscle engagement.",
+    "Not hinging at the hips, resulting in a squat-like movement.",
+    "Allowing the shoulders to round forward, disengaging the upper back muscles.",
+    "Dropping the weights too low, causing unnecessary stress on the lower back.",
+    "Not engaging the core, leading to instability and poor balance.",
+    "Using momentum to lift the weight instead of controlled muscle activation.",
+    "Positioning the back foot too far behind, causing imbalance and reduced effectiveness."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Patada de Burro",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/patada-de-burro",
+  "video_url": "https://api.smartworkout.app/asset/video/316eb28f-c0b2-4a9c-80f7-1f7569302031.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Patada de Burro es un ejercicio para la parte inferior del cuerpo que se enfoca en el glúteo mayor, diseñado para mejorar la fuerza, estabilidad y tono muscular. Principalmente activa los glúteos mientras también involucra el núcleo y los isquiotibiales. Este ejercicio se realiza a cuatro patas, lo que lo hace accesible para varios niveles de condición física.",
+  "como_realizar": [
+    "Comienza en cuatro patas con las manos directamente debajo de los hombros y las rodillas debajo de las caderas.",
+    "Activa tu núcleo para mantener una columna neutral durante el movimiento.",
+    "Levanta una pierna, manteniendo la rodilla doblada a 90 grados, y lleva la planta del pie hacia el techo.",
+    "Aprieta los glúteos en la parte superior del movimiento y mantén por un breve momento.",
+    "Baja la pierna de nuevo a la posición inicial con control.",
+    "Repite el número deseado de repeticiones antes de cambiar a la otra pierna."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para evitar que la parte baja de la espalda se arquee.",
+    "Concéntrate en apretar los glúteos en la parte superior de cada repetición para una máxima activación.",
+    "Mantén un ritmo constante y evita usar el impulso para levantar la pierna.",
+    "Asegúrate de que tu cuello permanezca alineado con tu columna mirando hacia el suelo.",
+    "Para mayor resistencia, considera usar pesas en los tobillos o una banda de resistencia alrededor de los muslos."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso de los glúteos.",
+    "Permitir que la pelvis se incline o gire, comprometiendo la estabilidad.",
+    "Usar impulso en lugar de movimiento controlado, disminuyendo la activación muscular.",
+    "Extender la pierna demasiado alto, llevando a una forma incorrecta y posible tensión en la parte baja de la espalda.",
+    "No mantener el core comprometido, resultando en pérdida de equilibrio.",
+    "Doblar excesivamente la rodilla de apoyo, desviando el enfoque de los músculos objetivo.",
+    "Apuntar los dedos de los pies en lugar de mantener el pie flexionado, reduciendo la participación de los isquiotibiales.",
+    "Dejar caer la cabeza o mirar hacia arriba, causando tensión en el cuello."
+  ]
+}

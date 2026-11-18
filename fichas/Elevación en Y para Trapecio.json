@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevación en Y para Trapecio",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-en-y-para-trapecio",
+  "video_url": "https://api.smartworkout.app/asset/video/cc55d692-cee9-4513-8d6f-c987fe4fcd14.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Elevación en Y para Trapecios es un ejercicio de aislamiento que se enfoca en los músculos trapecios, especialmente en las fibras inferiores y medias, así como en los deltoides posteriores. Se realiza con pesos ligeros para centrarse en la activación muscular y mejorar la estabilidad del hombro y la postura.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo un par de mancuernas ligeras en cada mano.",
+    "Inclínate ligeramente en las caderas y las rodillas, manteniendo la espalda recta y el pecho hacia arriba.",
+    "Deja que tus brazos cuelguen naturalmente con las palmas enfrentándose entre sí.",
+    "Activa tu núcleo y levanta los brazos en forma de Y hasta que estén en línea con tus oídos.",
+    "Pausa brevemente en la parte superior, apretando los omóplatos juntos.",
+    "Baja lentamente las pesas de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa pesos ligeros para mantener la forma adecuada y concentrarte en la activación muscular.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita encoger los hombros; concéntrate en usar tus trapecios y deltoides posteriores.",
+    "Mantén una ligera flexión en los codos durante todo el movimiento.",
+    "Asegúrate de que tu núcleo esté comprometido para apoyar la parte baja de tu espalda.",
+    "Realiza el ejercicio frente a un espejo para monitorear la forma y la alineación."
+  ],
+  "errores_comunes": [
+    "Levantar pesas demasiado pesadas, lo que lleva a la pérdida de control y mala forma.",
+    "Encoger los hombros en lugar de mantenerlos abajo y retraídos.",
+    "Arquear excesivamente la parte baja de la espalda, causando tensión y reduciendo la efectividad.",
+    "Usar el impulso para balancear los brazos en lugar de un movimiento controlado y constante.",
+    "No comprometer el núcleo, lo que resulta en inestabilidad y reducción del aislamiento del hombro.",
+    "Permitir que los codos se doblen, lo que desvía el enfoque de los trapecios.",
+    "Levantar los brazos demasiado alto, causando un estrés innecesario en la articulación del hombro.",
+    "No mantener una posición neutral del cuello, lo que lleva a una posible tensión en el cuello."
+  ]
+}

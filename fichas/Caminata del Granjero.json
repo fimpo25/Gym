@@ -1,0 +1,52 @@
+{
+  "nombre": "Caminata del Granjero",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/caminata-del-granjero",
+  "video_url": "https://api.smartworkout.app/asset/video/b6d37450-7d81-4f16-bde4-92f75e2969cf.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CALVES",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Caminata del Granjero es un ejercicio de fuerza y acondicionamiento que consiste en caminar mientras se sostienen pesas pesadas en cada mano. Se enfoca principalmente en los antebrazos, la fuerza de agarre, los hombros, los trapecios, el core y las piernas. Este ejercicio imita la acción de cargar cargas pesadas, haciéndolo funcional y beneficioso para el desarrollo general de la fuerza.",
+  "como_realizar": [
+    "Selecciona un par de mancuernas o pesas rusas pesadas que puedas llevar cómodamente durante una distancia o tiempo determinado.",
+    "Párate con los pies a la altura de los hombros y las pesas descansando a tus lados.",
+    "Activa los músculos del core para mantener una postura recta.",
+    "Levanta las pesas del suelo extendiendo tus caderas y rodillas mientras mantienes la espalda recta.",
+    "Comienza a caminar hacia adelante a un ritmo constante, manteniendo una postura erguida y los hombros hacia atrás.",
+    "Continúa caminando durante la distancia o tiempo deseado, enfocándote en mantener el control sobre las pesas.",
+    "Una vez completado, baja cuidadosamente las pesas al suelo doblando las rodillas y las caderas."
+  ],
+  "consejos": [
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas.",
+    "Mantén la cabeza erguida y la mirada hacia adelante para ayudar a mantener una postura adecuada durante la caminata.",
+    "Concéntrate en apretar los omóplatos para evitar que los hombros se redondeen.",
+    "Activa tu núcleo durante todo el ejercicio para apoyar la parte baja de la espalda y mantener la estabilidad.",
+    "Respira de manera constante y evita contener la respiración; exhala al dar pasos hacia adelante.",
+    "Asegúrate de tener suficiente espacio para caminar con seguridad sin obstáculos en tu camino.",
+    "Si experimentas alguna molestia en la parte baja de la espalda, reevalúa tu forma o reduce el peso."
+  ],
+  "errores_comunes": [
+    "Permitir que los hombros se redondeen hacia adelante, desconectando los músculos de la parte superior de la espalda.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "Caminar con un paso desigual, lo que lleva a desequilibrio e inestabilidad.",
+    "No mantener el núcleo comprometido, resultando en una falta de estabilidad del tronco.",
+    "Dejar que las pesas se balanceen excesivamente, lo que puede causar pérdida de control.",
+    "No mantener una columna neutral, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "Agarrar las pesas demasiado flojamente, arriesgando el fallo del agarre.",
+    "Dar zancadas demasiado largas, reduciendo el control y la eficiencia.",
+    "Descuidar mantener la cabeza en una posición neutral, lo que lleva a tensión en el cuello."
+  ]
+}

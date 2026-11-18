@@ -1,0 +1,43 @@
+{
+  "nombre": "Fondos de Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/fondos-de-pecho",
+  "video_url": "https://api.smartworkout.app/asset/video/fbf1e1b8-2f58-4847-b28b-7b6f387bb0d4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Los fondos en barras paralelas se enfocan en el pecho, tríceps y hombros. Este ejercicio compuesto enfatiza la parte inferior de los músculos pectorales y ayuda a desarrollar fuerza y masa en la parte superior del cuerpo. La forma adecuada es crucial para maximizar la efectividad y prevenir lesiones.",
+  "como_realizar": [
+    "Comienza agarrando las barras paralelas con las palmas hacia adentro y los brazos completamente extendidos.",
+    "Levanta tu cuerpo del suelo enderezando los brazos, manteniendo el torso ligeramente inclinado hacia adelante.",
+    "Dobla los codos para bajar tu cuerpo hasta que tus brazos superiores estén paralelos al suelo o ligeramente por debajo.",
+    "Haz una pausa breve en la parte inferior del movimiento, luego empuja a través de tus palmas para extender los brazos y regresar a la posición inicial.",
+    "Mantén un movimiento controlado durante todo el ejercicio, evitando cualquier balanceo o movimiento brusco."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener la estabilidad y el control durante el ejercicio.",
+    "Inclinarse ligeramente hacia adelante enfatizará la activación del pecho sobre los tríceps.",
+    "Evita bloquear los codos en la parte superior para mantener la tensión en los músculos.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Si eres nuevo en este ejercicio, considera usar una máquina de dips asistida o bandas de resistencia para apoyo."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, lo que desvía el enfoque del pecho hacia los tríceps y los hombros.",
+    "Abrir los codos en exceso, aumentando la tensión en los hombros y reduciendo el compromiso del pecho.",
+    "Descender demasiado bajo, arriesgando pinzamiento en los hombros y estrés en las articulaciones.",
+    "No mantener un núcleo estable, lo que lleva a un balanceo innecesario y menor control.",
+    "Apresurar el movimiento, comprometiendo la forma y la activación muscular.",
+    "Bloquear los codos en la parte superior, colocando un estrés indebido en las articulaciones.",
+    "No activar los músculos del pecho activamente, reduciendo la efectividad del ejercicio."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nombre": "Push Press con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/push-press-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/2a725fc8-be67-4061-b80e-783cb70f0d30.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Hombros con Mancuernas es un ejercicio compuesto que trabaja los hombros, tríceps y la parte superior del pecho. Implica una ligera flexión de las rodillas seguida de un empuje explosivo para levantar las mancuernas por encima de la cabeza. Este ejercicio mejora la potencia y la fuerza en la parte superior del cuerpo y mejora la coordinación y el equilibrio.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano a la altura de los hombros con las palmas hacia adelante.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Dobla ligeramente las rodillas para iniciar una pequeña flexión.",
+    "Extiende explosivamente las piernas mientras simultáneamente presionas las mancuernas por encima de la cabeza.",
+    "Extiende completamente los brazos en la parte superior del movimiento sin bloquear los codos.",
+    "Baja lentamente las mancuernas de nuevo a la altura de los hombros controlando el descenso.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Usa tus piernas para generar potencia durante la fase inicial del levantamiento.",
+    "Concéntrate en un descenso controlado para maximizar el compromiso muscular.",
+    "Mantén los codos ligeramente delante de tu cuerpo en lugar de abrirlos para mantener la estabilidad del hombro.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de progresar a cargas más pesadas.",
+    "Asegúrate de que tu cabeza esté alineada con tu columna; evita inclinarla hacia adelante o hacia atrás durante el press."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a una mala forma y control reducido.",
+    "No comprometer el core, resultando en una falta de estabilidad.",
+    "Permitir que las rodillas se inclinen hacia adentro durante la fase de descenso.",
+    "Inclinarse demasiado hacia adelante, colocando un estrés indebido en la parte baja de la espalda.",
+    "No extender completamente las caderas y las rodillas, reduciendo la salida de potencia.",
+    "Presionar las mancuernas hacia adelante en lugar de directamente sobre la cabeza.",
+    "Encoger los hombros excesivamente, causando tensión en el cuello.",
+    "Usar el impulso en lugar de un movimiento controlado para levantar las pesas.",
+    "Descuidar mantener los codos ligeramente delante del cuerpo al inicio.",
+    "Dejar caer las mancuernas demasiado rápido, arriesgando tensión en los hombros."
+  ]
+}

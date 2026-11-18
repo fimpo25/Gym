@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl de Cuello",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/neck-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/ab8b948f-2b47-4253-98a1-e01d75af17f6.mp4",
+  "tags": [
+    "STRENGTH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The neck curl is an isolation exercise targeting the neck flexor muscles, primarily the sternocleidomastoid. It helps in strengthening the neck, improving posture, and enhancing overall neck stability. This exercise is typically performed lying on a bench or flat surface with controlled movements to ensure safety and effectiveness.",
+  "como_realizar": [
+    "Lie on your back on a flat bench with your head hanging off the edge.",
+    "Place a small weight plate or resistance band across your forehead.",
+    "Keep your shoulders relaxed and your body stable throughout the exercise.",
+    "Slowly curl your chin towards your chest by flexing your neck.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the neck muscles.",
+    "Slowly return to the starting position with control, avoiding any sudden movements.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Start with a light weight to avoid strain and gradually increase as you build strength.",
+    "Focus on slow, controlled movements to maximize muscle engagement and minimize injury risk.",
+    "Maintain a neutral spine and avoid lifting your shoulders during the exercise.",
+    "Ensure that your breathing is steady; exhale as you curl up and inhale as you return to the starting position.",
+    "Perform this exercise at the end of your workout to prevent fatigue from affecting other exercises.",
+    "If you experience any discomfort or pain, stop immediately and reassess your form or consult a professional."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to strain on neck muscles.",
+    "Not keeping the chin tucked, resulting in improper neck alignment.",
+    "Lifting the head too high, causing excessive cervical spine extension.",
+    "Failing to engage neck flexor muscles, reducing exercise effectiveness.",
+    "Jerking movements instead of controlled, smooth motion.",
+    "Allowing shoulders to lift off the ground, altering exercise focus.",
+    "Holding breath, increasing tension and reducing control."
+  ]
+}

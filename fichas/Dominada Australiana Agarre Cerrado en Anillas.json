@@ -1,0 +1,50 @@
+{
+  "nombre": "Dominada Australiana Agarre Cerrado en Anillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/narrow-grip-australian-pull-up-with-rings",
+  "video_url": "https://api.smartworkout.app/asset/video/b5e7b51b-e8a8-46ec-9fcf-d3b03675c072.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Narrow Grip Australian Pull-Up With Rings is a bodyweight exercise that targets the upper back, biceps, and forearms. It involves pulling your body towards rings while maintaining a narrow grip, emphasizing the engagement of the upper back muscles and arms. This exercise is performed with the body in a horizontal position, making it an effective way to build strength and improve stability in the upper body.",
+  "como_realizar": [
+    "Set up a pair of gymnastic rings at waist height.",
+    "Stand facing the rings and grab them with a narrow, neutral grip, palms facing each other.",
+    "Walk your feet forward until your body is in a straight line from head to heels, leaning back with your arms fully extended.",
+    "Engage your core and glutes to maintain a straight body position.",
+    "Pull your chest towards the rings by bending your elbows and squeezing your shoulder blades together.",
+    "Pause briefly at the top of the movement when your chest is near the rings.",
+    "Slowly lower yourself back to the starting position with control, fully extending your arms.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your body straight by engaging your core throughout the movement.",
+    "Focus on squeezing your shoulder blades together as you pull up to maximize upper back engagement.",
+    "Maintain a controlled motion both when pulling up and lowering down to enhance muscle activation.",
+    "Ensure that your grip on the rings is firm but not overly tight to avoid unnecessary tension in the forearms.",
+    "Adjust the height of the rings or your foot position to modify the difficulty level of the exercise.",
+    "Breathe out as you pull yourself up and breathe in as you lower yourself down."
+  ],
+  "errores_comunes": [
+    "Incorrect wrist alignment, leading to unnecessary strain.",
+    "Elbows flaring out, reducing lat engagement.",
+    "Sagging hips, causing core disengagement.",
+    "Pulling with shoulders instead of back, limiting effectiveness.",
+    "Inadequate range of motion, not fully extending arms.",
+    "Rushing the movement, sacrificing control and form.",
+    "Overarching the lower back, increasing injury risk.",
+    "Gripping the rings too tightly, causing forearm fatigue.",
+    "Allowing rings to rotate excessively, reducing stability."
+  ]
+}

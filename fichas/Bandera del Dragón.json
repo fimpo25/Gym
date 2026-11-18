@@ -1,0 +1,46 @@
+{
+  "nombre": "Bandera del Dragón",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/bandera-del-dragon",
+  "video_url": "https://api.smartworkout.app/asset/video/1b5c4294-0a50-4e62-b394-a89ceab6b6dc.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Bandera del Dragón es un ejercicio avanzado para el core que se enfoca principalmente en el recto abdominal, los oblicuos y los flexores de la cadera. Requiere una fuerza y control significativos, ya que implica mantener una posición corporal recta mientras se bajan y levantan las piernas desde una posición supina. Este ejercicio también involucra los dorsales, los hombros y los glúteos para la estabilización.",
+  "como_realizar": [
+    "Acuéstate plano en un banco o en el suelo con la cabeza cerca del borde.",
+    "Agarra los lados del banco o ancla tus manos detrás de tu cabeza para obtener soporte.",
+    "Activa tu núcleo y levanta tus piernas y caderas del banco, manteniendo tu cuerpo recto desde los hombros hasta los dedos de los pies.",
+    "Mantén una posición corporal rígida mientras bajas lentamente las piernas hacia el banco sin dejar que tu espalda se arquee.",
+    "Pausa justo por encima del banco, luego levanta tus piernas de nuevo a la posición inicial usando movimientos controlados.",
+    "Repite el número deseado de repeticiones mientras mantienes la forma."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu cuerpo lo más recto posible para maximizar el compromiso del núcleo.",
+    "El control es clave; realiza cada repetición lentamente para evitar usar el impulso.",
+    "Mantén tus hombros presionados contra el banco para estabilizar la parte superior de tu cuerpo.",
+    "Si eres nuevo en este ejercicio, comienza con un rango de movimiento parcial y aumenta gradualmente a medida que ganas fuerza.",
+    "Activa tus glúteos y dorsales para ayudar a mantener una posición estable durante todo el movimiento."
+  ],
+  "errores_comunes": [
+    "Permitir que la parte baja de la espalda se arquee fuera del banco, reduciendo el compromiso del core.",
+    "Liderar con las piernas en lugar de levantar las caderas y el torso como una unidad.",
+    "Dejar caer las caderas demasiado rápido, perdiendo control y estabilidad.",
+    "No mantener una línea recta desde los hombros hasta los pies, causando hundimiento.",
+    "Usar el impulso en lugar de la contracción muscular controlada para levantar y bajar.",
+    "No comprometer los dorsales y los hombros para estabilizar la parte superior del cuerpo.",
+    "Comenzar con demasiado rango de movimiento, lo que lleva a una mala forma.",
+    "Contener la respiración, lo que puede aumentar la tensión y reducir la resistencia.",
+    "Colocar las manos demasiado juntas, limitando la estabilidad y el soporte."
+  ]
+}

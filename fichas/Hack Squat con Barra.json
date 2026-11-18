@@ -1,0 +1,47 @@
+{
+  "nombre": "Hack Squat con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/barbell-hack-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/594dbe4c-f506-489f-b891-daf6538fa6d9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Barbell Hack Squat is a compound lower body exercise that primarily targets the quadriceps, with secondary emphasis on the hamstrings, glutes, and calves. It involves lifting a barbell from behind the legs while maintaining an upright torso, similar to a reverse deadlift.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and position a loaded barbell behind your legs.",
+    "Bend at the knees and hips to lower your body, keeping your back straight and chest up.",
+    "Grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart.",
+    "Engage your core and drive through your heels to lift the barbell by extending your hips and knees.",
+    "Keep the bar close to your body as you stand up fully, maintaining an upright torso.",
+    "Lower the barbell back to the starting position in a controlled manner by bending your knees and hips."
+  ],
+  "consejos": [
+    "Ensure your knees track over your toes to avoid unnecessary strain.",
+    "Keep your core engaged throughout the movement to protect your lower back.",
+    "Focus on driving through your heels to maximize quadriceps activation.",
+    "Maintain a neutral spine by keeping your chest up and shoulders back.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Avoid rounding your back; keep it straight to prevent injury."
+  ],
+  "errores_comunes": [
+    "Allowing the knees to cave inward during the lift.",
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Starting with the bar too far from the heels, leading to poor balance.",
+    "Rising onto the toes instead of keeping the heels grounded.",
+    "Using the arms to lift the bar instead of focusing on leg drive.",
+    "Failing to engage the core for stability throughout the movement.",
+    "Descending too quickly, losing control of the weight.",
+    "Not squatting deep enough to achieve full range of motion.",
+    "Letting the bar drift away from the body during the lift.",
+    "Using excessive weight, compromising form and control."
+  ]
+}

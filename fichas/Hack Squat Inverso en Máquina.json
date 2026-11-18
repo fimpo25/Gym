@@ -1,0 +1,46 @@
+{
+  "nombre": "Hack Squat Inverso en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/machine-reverse-hack-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/163a1ff0-9c1a-4d1c-8152-74af5899ddda.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Machine Reverse Hack Squat is a compound lower body exercise that primarily targets the quadriceps, hamstrings, and glutes. It involves using a hack squat machine in reverse position, allowing for a different angle of muscle engagement compared to traditional squats. This exercise helps in building strength and muscle mass in the lower body while reducing stress on the spine.",
+  "como_realizar": [
+    "Adjust the machine to fit your height and load the desired weight.",
+    "Position yourself facing the machine with your shoulders under the pads and feet shoulder-width apart on the platform.",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Slowly lower your body by bending your knees until your thighs are parallel to the platform.",
+    "Push through your heels to return to the starting position, ensuring full extension of the knees without locking them.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your feet are positioned correctly on the platform to maintain balance and target the intended muscles.",
+    "Keep your core tight to support your lower back and maintain proper form.",
+    "Avoid locking your knees at the top of the movement to prevent joint strain.",
+    "Focus on a controlled descent and ascent to maximize muscle engagement.",
+    "Use a weight that allows you to perform the exercise with proper form throughout all repetitions."
+  ],
+  "errores_comunes": [
+    "Feet positioned too far forward, causing excessive knee stress.",
+    "Allowing knees to cave inward during the movement.",
+    "Not maintaining a neutral spine, leading to back rounding.",
+    "Placing the shoulders too low on the pads, reducing stability.",
+    "Using too much weight, compromising form and control.",
+    "Failing to engage the core, resulting in poor balance.",
+    "Rising onto toes instead of keeping heels grounded.",
+    "Descending too quickly, reducing muscle engagement.",
+    "Not achieving full depth, limiting range of motion benefits.",
+    "Locking out knees at the top, reducing tension on muscles."
+  ]
+}

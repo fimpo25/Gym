@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación de Pantorrilla de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/standing-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/e760851c-8843-42df-ab2f-0bc433ed2758.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Standing Calf Raise is an isolation exercise targeting the calf muscles, primarily the gastrocnemius and soleus. It involves lifting the heels off the ground while standing, thereby engaging the calves to elevate the body. This exercise can be performed with body weight or additional resistance using a barbell or dumbbells.",
+  "como_realizar": [
+    "Stand upright with your feet shoulder-width apart on a flat surface or on the edge of a raised platform for greater range of motion.",
+    "If using weights, hold a dumbbell in each hand by your sides or position a barbell across your upper back.",
+    "Keep your core engaged and back straight throughout the exercise.",
+    "Slowly lift your heels off the ground by pushing through the balls of your feet, raising your body upward.",
+    "Pause at the top of the movement, squeezing your calf muscles.",
+    "Lower your heels back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on maintaining balance and control throughout the movement to maximize calf engagement.",
+    "Ensure that your knees remain slightly bent to avoid locking them during the exercise.",
+    "For increased intensity, perform the exercise on one leg at a time or use additional weight.",
+    "Avoid bouncing at the top of the movement; instead, hold for a brief pause to enhance muscle contraction.",
+    "Inhale as you lower your heels and exhale as you lift them to maintain proper breathing rhythm."
+  ],
+  "errores_comunes": [
+    "Bouncing at the bottom instead of using controlled movements.",
+    "Not achieving a full range of motion by stopping short at the top or bottom.",
+    "Leaning forward or backward, causing imbalance and improper muscle engagement.",
+    "Allowing the heels to drop too low, which can overstretch the Achilles tendon.",
+    "Using momentum instead of engaging the calf muscles to lift the body.",
+    "Placing feet too far apart, which reduces the effectiveness of the exercise.",
+    "Not keeping the knees slightly bent, leading to locked joints and reduced muscle activation.",
+    "Failing to keep the core engaged, resulting in poor posture and stability.",
+    "Performing the exercise too quickly, which decreases muscle tension and control."
+  ]
+}

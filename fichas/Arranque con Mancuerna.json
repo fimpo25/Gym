@@ -1,0 +1,55 @@
+{
+  "nombre": "Arranque con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-snatch",
+  "video_url": "https://api.smartworkout.app/asset/video/03578af9-3e67-49db-b5e6-406c15255a6e.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "FOREARMS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The one-arm dumbbell snatch is a dynamic, full-body exercise that primarily targets the shoulders, back, and legs. It enhances power, coordination, and explosiveness by involving multiple muscle groups in a single, fluid motion.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in one hand between your legs.",
+    "Bend your knees slightly and hinge at the hips to lower the dumbbell towards the floor.",
+    "Explosively extend your hips and knees while pulling the dumbbell upward close to your body.",
+    "As the dumbbell reaches shoulder height, quickly rotate your elbow under it and extend your arm overhead.",
+    "Lock out your arm at the top position, keeping your core engaged and body stable.",
+    "Lower the dumbbell back to the starting position in a controlled manner."
+  ],
+  "consejos": [
+    "Focus on generating power from your hips and legs rather than relying solely on your arm strength.",
+    "Keep the dumbbell close to your body during the upward pull to maintain control and efficiency.",
+    "Engage your core throughout the movement to stabilize your body and prevent injury.",
+    "Practice with lighter weights initially to perfect form before progressing to heavier loads.",
+    "Ensure a firm grip on the dumbbell to maintain control during the snatch."
+  ],
+  "errores_comunes": [
+    "Starting with feet too wide or too narrow, affecting balance and power generation.",
+    "Using arms too early instead of driving with hips and legs.",
+    "Not keeping the dumbbell close to the body during the pull phase.",
+    "Failing to fully extend hips and knees before pulling the dumbbell overhead.",
+    "Catching the dumbbell with a bent elbow instead of locking it out overhead.",
+    "Allowing the back to round instead of maintaining a neutral spine.",
+    "Using a weight that is too heavy, compromising form and control.",
+    "Neglecting to engage core muscles, leading to instability.",
+    "Landing with feet too far apart, reducing stability in the catch position.",
+    "Not controlling the descent, leading to a potential loss of balance."
+  ]
+}

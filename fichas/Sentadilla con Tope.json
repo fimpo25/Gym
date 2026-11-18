@@ -1,0 +1,52 @@
+{
+  "nombre": "Sentadilla con Tope",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/pin-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/f632705a-a10d-4e48-9cd0-ae0944256913.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Pin Squat is a variation of the traditional squat where the barbell is lifted from a set of safety pins or supports within a power rack. This exercise focuses on building strength and power by eliminating the stretch reflex, forcing the lifter to generate force from a dead stop. It is particularly useful for improving sticking points in the squat and enhancing overall squat performance.",
+  "como_realizar": [
+    "Set the safety pins in a power rack at the desired height, typically at or just below parallel to your squat depth.",
+    "Position the barbell on the pins and load it with an appropriate weight.",
+    "Stand under the bar with your feet shoulder-width apart and position it across your upper back, ensuring it is centered.",
+    "Grip the bar firmly with your hands slightly wider than shoulder-width apart.",
+    "Engage your core, retract your shoulder blades, and maintain a neutral spine.",
+    "Lift the bar off the pins by driving through your heels and extending your hips and knees simultaneously.",
+    "Pause briefly at the top, then lower the bar back to the pins by bending your hips and knees, maintaining control throughout.",
+    "Ensure that each rep starts from a dead stop on the pins to maximize effectiveness."
+  ],
+  "consejos": [
+    "Focus on maintaining a strong core throughout the movement to protect your lower back.",
+    "Use a controlled tempo when lowering the bar to ensure proper form and reduce injury risk.",
+    "Start with a lighter weight to master technique before progressing to heavier loads.",
+    "Ensure that your knees track over your toes to avoid unnecessary strain on the joints.",
+    "Experiment with different pin heights to target specific weaknesses in your squat."
+  ],
+  "errores_comunes": [
+    "Setting the pins too high, limiting the range of motion and reducing effectiveness.",
+    "Setting the pins too low, leading to excessive depth and potential loss of control.",
+    "Failing to maintain a neutral spine, increasing the risk of back strain.",
+    "Allowing knees to cave inward, which can lead to knee discomfort.",
+    "Not engaging the core, resulting in instability and poor posture.",
+    "Rising too quickly, sacrificing control and muscle engagement.",
+    "Improper foot placement, causing imbalance and reduced power output.",
+    "Neglecting to keep the chest up, leading to forward lean and poor form.",
+    "Using too much weight, compromising form and increasing injury risk.",
+    "Bouncing off the pins, which reduces tension and control."
+  ]
+}

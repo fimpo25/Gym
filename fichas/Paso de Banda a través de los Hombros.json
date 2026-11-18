@@ -1,0 +1,45 @@
+{
+  "nombre": "Paso de Banda a través de los Hombros",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/paso-de-banda-a-traves-de-los-hombros",
+  "video_url": "https://api.smartworkout.app/asset/video/e31f0ad1-f6e3-49c2-92f1-fa74e2d62826.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "El ejercicio Paso de Banda a través de los Hombros es un ejercicio de movilidad diseñado para mejorar la flexibilidad y el rango de movimiento de los hombros. Implica el uso de una banda de resistencia para guiar los brazos a través de un arco completo por encima de la cabeza, promoviendo la salud de las articulaciones y preparando los hombros para actividades más intensas.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una banda de resistencia con ambas manos. La banda debe estar tensa pero no excesivamente estirada.",
+    "Comienza con las manos frente a tus muslos, manteniendo los brazos rectos y manteniendo la tensión en la banda.",
+    "Levanta lentamente los brazos por encima de la cabeza, manteniéndolos rectos y manteniendo la tensión en la banda.",
+    "Continúa moviendo los brazos hacia atrás hasta que la banda llegue detrás de tu espalda, o hasta donde tu movilidad de hombros lo permita.",
+    "Invierte el movimiento llevando los brazos de nuevo por encima de la cabeza hasta la posición inicial frente a tus muslos.",
+    "Realiza el movimiento lentamente y con control, enfocándote en mantener la tensión en la banda en todo momento."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia tenga la longitud y resistencia adecuadas para permitir un rango completo de movimiento sin tensión excesiva.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y evitar el arqueo de la parte baja de la espalda durante el movimiento.",
+    "Si experimentas incomodidad o dolor, reduce el rango de movimiento o usa una banda de resistencia más ligera.",
+    "Concéntrate en movimientos suaves y controlados en lugar de velocidad para maximizar los beneficios de la movilidad del hombro.",
+    "Realiza este ejercicio como parte de tu rutina de calentamiento para preparar tus hombros para ejercicios más exigentes."
+  ],
+  "errores_comunes": [
+    "Usar una banda de resistencia que es demasiado apretada, limitando el rango de movimiento.",
+    "Permitir que los codos se doblen, reduciendo el compromiso de los hombros.",
+    "Arquear excesivamente la parte baja de la espalda, llevando a una mala postura.",
+    "Elevar los hombros hacia las orejas, causando tensión en el cuello.",
+    "Mover la banda demasiado rápido, perdiendo control y efectividad.",
+    "No mantener el núcleo comprometido, resultando en inestabilidad.",
+    "No mantener la muñeca recta, causando tensión en las articulaciones.",
+    "Comenzar con la banda demasiado cerca del cuerpo, restringiendo el movimiento."
+  ]
+}

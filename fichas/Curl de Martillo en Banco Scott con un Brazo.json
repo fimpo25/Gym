@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Martillo en Banco Scott con un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-martillo-en-banco-scott-con-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/a8b129b7-e2c0-4716-954a-dda8daeb78a3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Martillo en Banco Scott con un Brazo es un ejercicio de aislamiento que se enfoca en los músculos braquial, braquiorradial y bíceps braquial. Se realiza utilizando un banco Scott y una mancuerna, centrándose en el desarrollo de la fuerza del antebrazo y la parte superior del brazo. Este ejercicio enfatiza la parte externa del bíceps y mejora la fuerza de agarre.",
+  "como_realizar": [
+    "Ajusta el asiento del banco predicador para que tu brazo superior descanse cómodamente en el cojín con tu axila en el borde superior.",
+    "Siéntate en el banco y agarra una mancuerna con un agarre neutral (pulgar apuntando hacia arriba).",
+    "Extiende tu brazo completamente sobre el cojín, manteniendo una ligera flexión en el codo para mantener la tensión.",
+    "Flexiona la mancuerna hacia arriba contrayendo tus bíceps, manteniendo la muñeca recta y el codo estacionario.",
+    "Haz una pausa breve en la parte superior del movimiento cuando tu antebrazo esté vertical.",
+    "Baja lentamente la mancuerna de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Asegúrate de que tu brazo superior permanezca en contacto con el cojín durante todo el movimiento para aislar eficazmente los bíceps.",
+    "Usa un movimiento controlado; evita balancearte o usar el impulso para levantar el peso.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada curl para una contracción máxima.",
+    "Mantén tu núcleo comprometido y una postura estable para evitar cualquier movimiento innecesario.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a mancuernas más pesadas.",
+    "Exhala al subir el curl e inhala al bajar el peso para una técnica de respiración óptima."
+  ],
+  "errores_comunes": [
+    "Permitir que el codo se aleje del cojín, reduciendo la aislación de los bíceps.",
+    "Usar el impulso balanceando el brazo o el cuerpo, disminuyendo el compromiso muscular.",
+    "Enroscar la muñeca en la parte superior del movimiento, causando tensión en la articulación de la muñeca.",
+    "No extender completamente el brazo en la parte inferior, limitando el rango de movimiento.",
+    "Colocar el hombro demasiado alto, llevando a una alineación incorrecta y efectividad reducida.",
+    "Agarrar la mancuerna demasiado fuerte, causando fatiga en el antebrazo antes de que los bíceps estén completamente trabajados.",
+    "Inclinarse hacia adelante o hacia atrás, comprometiendo la postura y la aislación muscular.",
+    "Apresurarse en el movimiento, reduciendo el control y aumentando el riesgo de una forma incorrecta."
+  ]
+}

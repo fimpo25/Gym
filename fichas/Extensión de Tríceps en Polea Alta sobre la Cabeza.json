@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps en Polea Alta sobre la Cabeza",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-polea-alta-por-encima-de-la-cabeza",
+  "video_url": "https://api.smartworkout.app/asset/video/a10f25d3-573f-4f64-8df2-2acf5f2ea25b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps por Encima de la Cabeza en Polea Alta es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos por encima de la cabeza utilizando una máquina de cables, lo que proporciona tensión constante durante todo el movimiento. Este ejercicio es efectivo para desarrollar fuerza y definición en los tríceps.",
+  "como_realizar": [
+    "Conecta una cuerda a una polea alta en una máquina de cables.",
+    "Párate de espaldas a la máquina, agarra la cuerda con ambas manos y da un paso hacia adelante para crear tensión en el cable.",
+    "Coloca tus pies a la altura de los hombros y inclínate ligeramente hacia adelante en la cintura.",
+    "Extiende tus brazos por encima de la cabeza, manteniendo los codos cerca de tu cabeza y el núcleo comprometido.",
+    "Baja lentamente la cuerda detrás de tu cabeza doblando los codos mientras mantienes los brazos superiores estacionarios.",
+    "Haz una pausa brevemente cuando tus antebrazos estén paralelos al suelo.",
+    "Extiende tus brazos de regreso a la posición inicial contrayendo tus tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos lo más cerca posible de tu cabeza para maximizar el compromiso de los tríceps.",
+    "Mantén una ligera inclinación hacia adelante para estabilizar tu cuerpo y prevenir la tensión en la parte baja de la espalda.",
+    "Evita usar el impulso; concéntrate en movimientos lentos y controlados para una mejor activación muscular.",
+    "Activa tu núcleo durante todo el ejercicio para mantener el equilibrio y apoyar la parte baja de la espalda.",
+    "Exhala mientras extiendes los brazos e inhala mientras bajas la cuerda detrás de tu cabeza.",
+    "Ajusta el peso para que puedas realizar el ejercicio con la forma adecuada en todas las repeticiones."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, lo que reduce el compromiso de los tríceps.",
+    "Usar un peso excesivo, lo que lleva a un control deficiente y al uso de impulso.",
+    "Permitir que los codos se abran, reduciendo la aislación de los tríceps.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Arquear excesivamente la espalda, aumentando la tensión en la parte baja de la espalda.",
+    "Apresurarse en el movimiento, comprometiendo la tensión muscular.",
+    "No mantener un núcleo estable, afectando el equilibrio y la forma.",
+    "Agarrar el mango demasiado fuerte, causando tensión en los antebrazos."
+  ]
+}

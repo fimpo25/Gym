@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Pierna Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/seated-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/1b19271e-8604-46d5-94a5-6e1fb99b125b.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "CALVES"
+  ],
+  "descripcion": "The Seated Leg Curl is an isolation exercise targeting the hamstring muscles located at the back of the thigh. It is performed using a leg curl machine where the user sits with their legs extended and curls them back towards the body against resistance. This exercise helps in strengthening and toning the hamstrings, improving knee stability and overall leg strength.",
+  "como_realizar": [
+    "Adjust the seat and backrest of the leg curl machine so that your knees align with the pivot point of the machine.",
+    "Sit on the machine with your back firmly against the backrest and place your legs under the padded lever, securing it just above your ankles.",
+    "Grip the handles or sides of the seat for stability.",
+    "Begin with your legs fully extended in front of you.",
+    "Exhale and slowly curl your legs back by bending your knees, bringing your heels as close to your buttocks as possible.",
+    "Hold the contraction for a moment at the bottom of the movement.",
+    "Inhale and slowly return to the starting position with controlled movement, extending your legs fully.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your knees are aligned with the pivot point to prevent strain on your joints.",
+    "Keep your movements slow and controlled to maximize muscle engagement and reduce risk of injury.",
+    "Avoid locking your knees at the top of the movement to maintain tension on the hamstrings.",
+    "Focus on squeezing your hamstrings at the bottom of each curl for maximum contraction.",
+    "Adjust the weight so that you can perform all repetitions with proper form without compromising technique."
+  ],
+  "errores_comunes": [
+    "Setting the machine seat too far back, leading to ineffective engagement of the hamstrings.",
+    "Locking the knees at the start, which can strain the knee joint.",
+    "Using too much weight, causing momentum to take over and reducing muscle activation.",
+    "Not adjusting the ankle pad to rest comfortably above the heels, leading to improper leverage.",
+    "Failing to maintain a controlled tempo, resulting in swinging or jerking motions.",
+    "Allowing the hips to lift off the seat, which reduces isolation of the hamstrings.",
+    "Not completing the full range of motion, limiting muscle engagement and effectiveness.",
+    "Pointing the toes excessively, which can shift focus away from the hamstrings.",
+    "Relying on the lower back for assistance, increasing the risk of strain.",
+    "Rushing through repetitions without proper muscle contraction focus."
+  ]
+}

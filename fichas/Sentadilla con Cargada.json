@@ -1,0 +1,58 @@
+{
+  "nombre": "Sentadilla con Cargada",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/clean-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/856db697-01dd-4a29-99c3-45c0f6cffc7d.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Clean Squat is a compound exercise that combines elements of the clean and the squat. It targets multiple muscle groups, including the quadriceps, hamstrings, glutes, core, and shoulders. This exercise enhances strength, power, and coordination.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and position a barbell over your mid-foot.",
+    "Bend at the hips and knees to grip the barbell with an overhand grip, hands slightly wider than shoulder-width.",
+    "Keep your chest up, back straight, and engage your core.",
+    "Initiate the lift by extending your hips and knees explosively to pull the barbell off the ground.",
+    "As the bar reaches your thighs, shrug your shoulders and pull yourself under the bar into a front squat position.",
+    "Catch the bar on your shoulders with elbows high and upper arms parallel to the ground.",
+    "Lower into a deep squat by bending at the hips and knees while keeping your chest up.",
+    "Drive through your heels to stand back up, maintaining control of the barbell on your shoulders.",
+    "Lower the barbell back to the ground with control to complete one repetition."
+  ],
+  "consejos": [
+    "Focus on keeping your core tight throughout the movement to maintain stability.",
+    "Ensure that your elbows remain high during the catch phase to properly support the barbell.",
+    "Practice with lighter weights initially to perfect form before progressing to heavier loads.",
+    "Use a hook grip for better control of the barbell during the pull phase.",
+    "Keep your weight centered over your mid-foot to maintain balance during both the clean and squat phases.",
+    "Engage in proper warm-up exercises to prepare your muscles for this compound movement."
+  ],
+  "errores_comunes": [
+    "Failing to keep the barbell close to the body during the pull phase, leading to inefficient movement and potential loss of balance.",
+    "Not fully extending the hips and knees in the catch phase, resulting in a weak squat position.",
+    "Allowing the knees to cave inward during the squat, which can strain the knee joints.",
+    "Dropping the elbows too low in the front rack position, causing instability and poor bar control.",
+    "Rounding the back during the lift, increasing the risk of lower back injury.",
+    "Not engaging the core throughout the movement, leading to a lack of stability and control.",
+    "Using too much arm pull instead of relying on the power from the hips and legs.",
+    "Starting with feet too wide apart, which can limit squat depth and power.",
+    "Failing to maintain a neutral spine, compromising posture and efficiency.",
+    "Rising onto the toes during the squat, which can destabilize the lift and reduce power."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "nombre": "Burpee",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/burpee",
+  "video_url": "https://api.smartworkout.app/asset/video/8e97ea66-51cf-4f21-9de6-0528f591129d.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "CARDIO",
+    "FUNCTIONAL",
+    "EXPLOSIVE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El burpee es un ejercicio de cuerpo completo que combina una sentadilla, una flexión y un salto en un movimiento fluido. Está diseñado para mejorar la resistencia cardiovascular, la fuerza y la agilidad. Los burpees se utilizan a menudo en entrenamientos de intervalos de alta intensidad (HIIT) debido a su capacidad para elevar rápidamente la frecuencia cardíaca.",
+  "como_realizar": [
+    "Comienza en una posición de pie con los pies separados al ancho de los hombros.",
+    "Baja tu cuerpo a una posición de sentadilla y coloca tus manos en el suelo frente a ti.",
+    "Lanza tus pies hacia atrás para asumir una posición de plancha, manteniendo tu cuerpo recto y el núcleo comprometido.",
+    "Realiza una flexión bajando tu pecho al suelo y luego empujando de nuevo a la posición de plancha.",
+    "Salta con tus pies hacia adelante para volver a la posición de sentadilla.",
+    "Salta explosivamente en el aire, extendiendo tus brazos por encima de la cabeza.",
+    "Aterriza suavemente e inmediatamente pasa a la siguiente repetición."
+  ],
+  "consejos": [
+    "Mantén un ritmo constante para asegurar una forma adecuada durante todo el ejercicio.",
+    "Activa tu núcleo durante las fases de plancha y flexión para proteger tu espalda baja.",
+    "Concéntrate en aterrizar suavemente sobre las puntas de tus pies durante el salto para reducir el impacto en tus articulaciones.",
+    "Mantén los codos cerca de tu cuerpo durante la flexión para un mejor control y eficiencia.",
+    "Respira de manera consistente: inhala al bajar en la sentadilla y exhala al saltar.",
+    "Si eres principiante, comienza con una versión modificada dando un paso hacia atrás en la plancha en lugar de saltar."
+  ],
+  "errores_comunes": [
+    "Aterrizar con las rodillas hacia adentro, aumentando la tensión en las rodillas.",
+    "No extender completamente las caderas y las rodillas durante el salto, reduciendo la potencia.",
+    "Permitir que la parte baja de la espalda se hunda durante la posición de plancha, arriesgando tensión en la parte baja de la espalda.",
+    "No activar los músculos del core, lo que lleva a la inestabilidad.",
+    "Realizar la flexión con los codos hacia afuera, causando estrés en los hombros.",
+    "Apresurarse en el movimiento, sacrificando la forma por la velocidad.",
+    "No acercar lo suficiente los pies a las manos durante el salto de rana, limitando el rango de movimiento.",
+    "Aterrizar fuertemente sobre los talones o los dedos de los pies, aumentando el impacto en las articulaciones.",
+    "Descuidar mantener una columna neutral durante todo el movimiento.",
+    "Omitir el salto al final, reduciendo el beneficio cardiovascular."
+  ]
+}

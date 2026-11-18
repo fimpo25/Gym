@@ -1,0 +1,50 @@
+{
+  "nombre": "Remo en Polea Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-en-polea-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/24dba583-9cfe-41ea-96bf-8de95ddb2ec7.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Bajo Sentado en Cable es un ejercicio compuesto que se enfoca en los músculos de la parte superior de la espalda, incluyendo el dorsal ancho, los romboides, el trapecio y los bíceps. Consiste en tirar de un mango de cable con peso hacia el torso mientras se está sentado, enfatizando el compromiso de los músculos de la espalda y la postura.",
+  "como_realizar": [
+    "Siéntate en la máquina de remo bajo con los pies firmemente colocados en la plataforma para pies y las rodillas ligeramente dobladas.",
+    "Agarra el mango del cable con ambas manos usando un agarre neutral (palmas enfrentadas).",
+    "Mantén la espalda recta y el pecho hacia arriba mientras te inclinas ligeramente hacia adelante en las caderas para alcanzar el mango.",
+    "Tira del mango hacia tu abdomen retrayendo las escápulas y doblando los codos.",
+    "Pausa brevemente cuando el mango llegue a tu torso, asegurando una contracción completa de los músculos de la espalda.",
+    "Extiende lentamente los brazos de regreso a la posición inicial mientras mantienes el control sobre el peso.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca recta durante todo el movimiento para evitar tensiones.",
+    "Concéntrate en apretar tus omóplatos juntos en el pico de cada remo para un máximo compromiso muscular.",
+    "Evita usar el impulso; realiza cada repetición de manera controlada.",
+    "Mantén tu núcleo comprometido para estabilizar tu torso durante el ejercicio.",
+    "Ajusta la altura del asiento y la colocación de los pies para asegurar una alineación y comodidad adecuadas.",
+    "Exhala mientras tiras del mango hacia ti e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo la tensión en los músculos de la espalda.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "Permitir que los hombros se redondeen hacia adelante, desconectando los músculos de la espalda.",
+    "Tirar con los brazos en lugar de iniciar el movimiento con la espalda.",
+    "Encoger los hombros hacia las orejas, causando tensión en el cuello.",
+    "No retraer completamente las escápulas al final del tirón.",
+    "Extender los codos demasiado hacia atrás, causando sobreextensión.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, afectando el compromiso muscular.",
+    "Dejar que el cable retroceda bruscamente en lugar de controlar la fase de retorno.",
+    "No mantener una columna neutral, lo que lleva a tensión en la parte baja de la espalda."
+  ]
+}

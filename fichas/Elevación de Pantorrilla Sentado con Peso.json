@@ -1,0 +1,43 @@
+{
+  "nombre": "Elevación de Pantorrilla Sentado con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/weighted-seated-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/16f48eef-91b8-4341-80d6-8be38aab50e6.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Weighted Seated Calf Raise is an isolation exercise targeting the calf muscles, specifically the soleus and gastrocnemius. It involves sitting on a machine with a padded lever over the knees and raising the heels by extending the ankles against resistance.",
+  "como_realizar": [
+    "Sit on the calf raise machine and adjust the knee pad to rest comfortably on your thighs.",
+    "Place the balls of your feet on the platform with your heels hanging off.",
+    "Select an appropriate weight and release the safety bar.",
+    "Lower your heels slowly until you feel a stretch in your calves.",
+    "Raise your heels by extending your ankles as high as possible.",
+    "Pause at the top of the movement for a moment to maximize contraction.",
+    "Lower your heels back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your knees remain slightly bent throughout the exercise to avoid joint strain.",
+    "Focus on a full range of motion to effectively engage both the soleus and gastrocnemius muscles.",
+    "Control the movement; avoid bouncing or using momentum to lift the weight.",
+    "Keep your core engaged to maintain stability and prevent excessive movement in other parts of your body.",
+    "Adjust the weight according to your strength level to maintain proper form throughout all repetitions."
+  ],
+  "errores_comunes": [
+    "Placing the balls of the feet too far forward on the platform, reducing range of motion.",
+    "Allowing the heels to drop too quickly, causing a lack of control and potential strain on the Achilles tendon.",
+    "Using excessive weight, leading to poor form and reduced calf muscle engagement.",
+    "Bouncing at the bottom of the movement instead of using a controlled motion.",
+    "Failing to fully extend the ankles at the top of the movement, limiting calf activation.",
+    "Leaning too far forward or backward, causing improper alignment and reduced effectiveness.",
+    "Neglecting to adjust the seat height, resulting in an uncomfortable position and compromised form.",
+    "Engaging the thighs or hips to assist the movement, reducing calf isolation."
+  ]
+}

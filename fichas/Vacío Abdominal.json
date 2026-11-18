@@ -1,0 +1,42 @@
+{
+  "nombre": "Vacío Abdominal",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/vacio-abdominal",
+  "video_url": "https://api.smartworkout.app/asset/video/83a093ae-3f51-476f-a0ce-8244c0948e8c.mp4",
+  "tags": [
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El vacío abdominal es un ejercicio isométrico que se enfoca en el transverso del abdomen, el músculo profundo del núcleo responsable de estabilizar la columna vertebral y mantener la presión abdominal interna. Este ejercicio ayuda a mejorar la fuerza del núcleo, la postura y puede contribuir a una apariencia de cintura más delgada al entrenar el músculo para mantener el abdomen hacia adentro.",
+  "como_realizar": [
+    "Ponte de pie con los pies separados al ancho de los hombros o arrodíllate en el suelo.",
+    "Exhala completamente para vaciar tus pulmones de aire.",
+    "Lleva tu ombligo hacia adentro hacia tu columna vertebral tanto como sea posible.",
+    "Mantén esta posición durante 15-30 segundos mientras mantienes una respiración normal.",
+    "Suelta y relaja tus músculos abdominales.",
+    "Repite durante 3-5 series, aumentando gradualmente el tiempo de retención a medida que progresas."
+  ],
+  "consejos": [
+    "Realiza el ejercicio con el estómago vacío para un mejor control y comodidad.",
+    "Concéntrate en llevar tu ombligo hacia adentro en lugar de aspirar aire.",
+    "Mantén el pecho relajado y evita levantar los hombros durante la contracción.",
+    "Practica regularmente para mejorar el control muscular y la resistencia.",
+    "Incorpora este ejercicio en tu rutina para mejorar la estabilidad general del core."
+  ],
+  "errores_comunes": [
+    "No exhalar completamente antes de meter el abdomen, lo que lleva a una menor activación muscular.",
+    "Permitir que el pecho se eleve durante la contracción, lo que desvía el enfoque del transverso del abdomen.",
+    "No mantener una columna vertebral neutral, causando tensión innecesaria en la parte baja de la espalda.",
+    "Contener la respiración en lugar de usar una respiración controlada, reduciendo la efectividad del ejercicio.",
+    "Activar el recto abdominal en lugar del transverso del abdomen, lo que disminuye el efecto del vacío.",
+    "Realizar el ejercicio con una postura de cabeza hacia adelante, tensionando el cuello y reduciendo la activación del core.",
+    "Apresurarse en el movimiento sin mantener la contracción, limitando la activación muscular.",
+    "Usar fuerza excesiva para meter el abdomen, lo que puede llevar a una distensión muscular."
+  ]
+}

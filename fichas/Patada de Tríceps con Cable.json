@@ -1,0 +1,43 @@
+{
+  "nombre": "Patada de Tríceps con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/patada-de-triceps-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/9d5996b0-863a-4528-86ff-5669983903bd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Cable es un ejercicio de aislamiento que se enfoca en el músculo tríceps braquial. Consiste en extender el brazo detrás del cuerpo utilizando una máquina de cable, lo que proporciona una tensión constante durante todo el movimiento. Este ejercicio ayuda a desarrollar la definición muscular y la fuerza en los tríceps.",
+  "como_realizar": [
+    "Coloca un mango individual en una máquina de cable de polea baja.",
+    "Párate frente a la máquina, sosteniendo el mango con una mano, y da un paso atrás para crear tensión en el cable.",
+    "Inclínate ligeramente hacia adelante en las caderas, manteniendo la espalda recta y las rodillas ligeramente flexionadas.",
+    "Coloca tu brazo superior paralelo a tu torso, con el codo doblado en un ángulo de 90 grados.",
+    "Mantén tu brazo superior inmóvil y extiende tu antebrazo hacia atrás enderezando el codo.",
+    "Aprieta tu tríceps en la parte superior del movimiento, luego regresa lentamente a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para evitar tensiones en la parte baja de la espalda.",
+    "Concéntrate en mantener el brazo superior quieto; solo tu antebrazo debe moverse durante el ejercicio.",
+    "Controla el movimiento para maximizar el compromiso muscular y evitar que el impulso tome el control.",
+    "Exhala al extender el brazo e inhala al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a balanceo y falta de control.",
+    "Permitir que el codo se aleje del cuerpo, reduciendo el compromiso del tríceps.",
+    "No extender completamente el brazo, limitando el rango de movimiento.",
+    "Doblar la muñeca, lo que puede causar tensión y reducir la efectividad.",
+    "Inclinarse demasiado hacia adelante, causando inestabilidad y forma incorrecta.",
+    "No mantener la parte superior del brazo paralela al suelo, reduciendo la aislación del tríceps.",
+    "Usar impulso en lugar de movimiento controlado, disminuyendo la activación muscular.",
+    "Comenzar con el cable demasiado alto, lo que lleva a una alineación incorrecta y reduce la tensión en los tríceps."
+  ]
+}

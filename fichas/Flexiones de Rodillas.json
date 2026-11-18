@@ -1,0 +1,46 @@
+{
+  "nombre": "Flexiones de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/fff998bd-23b3-4735-ab7d-00a59df0e026.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "Las flexiones de rodillas, también conocidas como flexiones modificadas, son un ejercicio apto para principiantes que se enfoca en el pecho, los hombros y los tríceps. Esta variación reduce la carga sobre la parte superior del cuerpo al permitir que las rodillas permanezcan en el suelo, lo que la convierte en una excelente opción para desarrollar fuerza y resistencia en quienes son nuevos en las flexiones o están regresando de una lesión.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo. Coloca tus manos un poco más anchas que el ancho de tus hombros en el suelo.",
+    "Coloca tus rodillas juntas y mantén tus pies levantados del suelo.",
+    "Activa tu núcleo y mantén una línea recta desde tu cabeza hasta tus rodillas.",
+    "Baja tu cuerpo doblando los codos hasta que tu pecho casi toque el suelo.",
+    "Empuja a través de tus palmas para extender tus brazos y volver a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el movimiento para mantener una alineación adecuada.",
+    "Asegúrate de que tus codos estén a un ángulo de 45 grados con respecto a tu cuerpo al bajar.",
+    "Evita arquear la espalda; mantén una línea recta desde la cabeza hasta las rodillas.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Si experimentas molestias en las muñecas, intenta usar barras de flexiones o realiza el ejercicio sobre una superficie suave."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado hacia adelante, causando tensión en los hombros.",
+    "Codos que se abren excesivamente, reduciendo el compromiso de los tríceps.",
+    "Bajar el pecho demasiado, arriesgando una lesión en el hombro.",
+    "No mantener una línea recta desde la cabeza hasta las rodillas, lo que lleva a la desconexión del core.",
+    "No comprometer el core, lo que resulta en un arqueo de la parte baja de la espalda.",
+    "Dejar caer las caderas, causando pérdida de la forma adecuada.",
+    "Rango de movimiento inadecuado, limitando la activación muscular.",
+    "Apresurarse en las repeticiones, sacrificando el control y la forma.",
+    "No mantener los hombros abajo y alejados de las orejas, lo que lleva a tensión en el cuello."
+  ]
+}

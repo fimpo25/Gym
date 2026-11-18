@@ -1,0 +1,44 @@
+{
+  "nombre": "Driver de Pie con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-standing-driver",
+  "video_url": "https://api.smartworkout.app/asset/video/e28b3802-820e-4d5d-9d54-ef0f52194aad.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Dumbbell Standing Driver is a shoulder exercise that primarily targets the deltoids, with secondary engagement of the trapezius and upper chest muscles. This exercise involves holding a dumbbell with both hands and simulating a steering wheel motion, which helps in enhancing shoulder stability and strength.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, maintaining a slight bend in your knees for stability.",
+    "Hold a dumbbell vertically with both hands at chest level, gripping it firmly on each end.",
+    "Engage your core to maintain an upright posture and avoid arching your back.",
+    "Extend your arms straight out in front of you, keeping a slight bend in the elbows to reduce joint strain.",
+    "Rotate the dumbbell to the left as if turning a steering wheel, then return to the center.",
+    "Rotate the dumbbell to the right, then return to the center.",
+    "Continue alternating sides for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to support your lower back.",
+    "Focus on controlled movements; avoid swinging or using momentum.",
+    "Maintain a slight bend in your elbows to protect your joints from strain.",
+    "Ensure that your shoulders remain relaxed and down, away from your ears.",
+    "Breathe steadily, exhaling as you rotate the dumbbell and inhaling as you return to the center.",
+    "Start with a lighter weight to master the form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Using too heavy a weight, leading to loss of control and poor form.",
+    "Allowing the elbows to flare out instead of keeping them in line with the shoulders.",
+    "Not maintaining a neutral spine, resulting in excessive arching or rounding of the back.",
+    "Failing to engage the core, causing instability and potential for balance issues.",
+    "Lifting the dumbbell too high, which can strain the shoulders and neck.",
+    "Not keeping the wrists straight, leading to unnecessary strain on the joints.",
+    "Rushing the movement, which reduces muscle engagement and control.",
+    "Neglecting to keep the feet shoulder-width apart, affecting balance and stability."
+  ]
+}

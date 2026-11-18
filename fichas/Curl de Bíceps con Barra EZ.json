@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Bíceps con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/264a8706-fefc-4dce-a97c-433c4477e265.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps con Barra EZ es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Se realiza utilizando una barra EZ, que tiene una forma en zig-zag que permite un agarre más natural, reduciendo la tensión en las muñecas y los antebrazos. Este ejercicio es efectivo para aumentar el tamaño y la fuerza del bíceps.",
+  "como_realizar": [
+    "Párate derecho con los pies al ancho de los hombros, sosteniendo la barra EZ con un agarre en supinación en las secciones anguladas.",
+    "Mantén los codos cerca de tu torso y la espalda recta.",
+    "Exhala y eleva la barra hacia arriba contrayendo los bíceps, manteniendo los brazos superiores estacionarios.",
+    "Continúa levantando hasta que los bíceps estén completamente contraídos y la barra esté a nivel de los hombros.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los bíceps.",
+    "Inhala y baja lentamente la barra de regreso a la posición inicial, extendiendo completamente los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa un movimiento controlado para maximizar el compromiso muscular y evitar balancear la barra.",
+    "Concéntrate en mantener tus codos estacionarios para aislar efectivamente los bíceps.",
+    "Mantén una ligera flexión en tus rodillas para estabilizar tu cuerpo durante el ejercicio.",
+    "Elige un peso que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Mantén tu núcleo comprometido para apoyar tu espalda baja y mantener la postura.",
+    "Evita usar el impulso; deja que tus bíceps hagan el trabajo para obtener resultados óptimos."
+  ],
+  "errores_comunes": [
+    "Usar el impulso balanceando el cuerpo para levantar la barra.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del torso.",
+    "No extender completamente los brazos en la parte inferior del movimiento.",
+    "Enroscar las muñecas en lugar de mantenerlas rectas.",
+    "Inclinarse hacia atrás excesivamente para levantar pesos más pesados.",
+    "Levantar los hombros en lugar de aislar los bíceps.",
+    "Realizar el ejercicio demasiado rápido, sacrificando el control.",
+    "No activar el core para estabilizar el cuerpo.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, afectando el compromiso del bíceps."
+  ]
+}

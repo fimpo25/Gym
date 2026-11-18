@@ -1,0 +1,42 @@
+{
+  "nombre": "Patada de Aleteo Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/patada-de-aleteo-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/7fafdbf1-dc16-455c-8f2e-542e0b6686f3.mp4",
+  "tags": [
+    "CORE",
+    "CARDIO"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Patada Flutter Sentado es un ejercicio abdominal que se enfoca en los abdominales inferiores, flexores de la cadera y oblicuos. Consiste en realizar un movimiento de aleteo con las piernas mientras se está sentado, involucrando los músculos del core para mantener la estabilidad y el control.",
+  "como_realizar": [
+    "Siéntate en el borde de un banco o superficie resistente con las piernas extendidas frente a ti.",
+    "Coloca tus manos ligeramente detrás de tus caderas para apoyo, manteniendo la espalda recta y el pecho levantado.",
+    "Inclínate ligeramente hacia atrás para activar los músculos del core.",
+    "Levanta ambas piernas del suelo unos centímetros mientras las mantienes rectas.",
+    "Comienza a alternar el movimiento de tus piernas hacia arriba y hacia abajo en un movimiento de aleteo, manteniendo el movimiento controlado y constante.",
+    "Continúa con los aleteos durante el número deseado de repeticiones o duración de tiempo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Asegúrate de que tu espalda permanezca recta y evita redondear los hombros.",
+    "Realiza el movimiento lentamente y con control para maximizar el compromiso muscular.",
+    "Respira de manera constante y evita contener la respiración durante el ejercicio.",
+    "Si experimentas alguna molestia en la parte baja de la espalda, ajusta tu postura o reduce el rango de movimiento."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, causando tensión en la parte baja de la espalda.",
+    "Usar el impulso en lugar de movimientos controlados de las piernas.",
+    "No comprometer el núcleo, lo que lleva a una efectividad reducida.",
+    "Permitir que las piernas caigan demasiado bajo, reduciendo la tensión en los abdominales.",
+    "Patear demasiado alto, desviando el enfoque de los músculos del núcleo.",
+    "Redondear los hombros, lo que puede llevar a tensión en el cuello.",
+    "Contener la respiración, lo que puede aumentar la fatiga.",
+    "No mantener las piernas rectas, reduciendo la intensidad del ejercicio."
+  ]
+}

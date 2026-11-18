@@ -1,0 +1,46 @@
+{
+  "nombre": "Abducción de Cadera Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/abduccion-de-cadera-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/c62558bf-df0f-4f89-b476-7003a5bfabc6.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El ejercicio de Abducción de Cadera Sentado se enfoca en los músculos abductores de la cadera, principalmente el glúteo medio y el menor. Se realiza utilizando una máquina especializada donde te sientas con las piernas juntas y las separas contra resistencia. Este ejercicio ayuda a mejorar la estabilidad de la cadera, el equilibrio y la fuerza general del tren inferior.",
+  "como_realizar": [
+    "Ajusta el asiento y el respaldo de la máquina para asegurar que tus rodillas estén alineadas con el punto de pivote de la máquina.",
+    "Siéntate en la máquina con la espalda recta y los pies planos sobre los reposapiés.",
+    "Coloca tus rodillas dentro de las palancas acolchadas, manteniéndolas juntas.",
+    "Agarra las asas o los lados del asiento para estabilidad.",
+    "Exhala y empuja lentamente tus rodillas hacia afuera tanto como sea cómodo, activando los abductores de la cadera.",
+    "Pausa brevemente en el punto más amplio, asegurando tensión en los músculos.",
+    "Inhala y regresa lentamente a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para evitar tensión en la parte baja de la espalda.",
+    "Concéntrate en usar los músculos de la cadera en lugar de empujar con los pies o las piernas.",
+    "Controla el movimiento tanto al separar como al juntar las rodillas para maximizar el compromiso muscular.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de aumentar la resistencia.",
+    "Evita bloquear las rodillas en cualquier momento durante el ejercicio para mantener una tensión continua en los músculos.",
+    "Mantén una respiración constante; exhala durante el esfuerzo e inhala al regresar al inicio."
+  ],
+  "errores_comunes": [
+    "Inclinarse hacia atrás en exceso, reduciendo el compromiso de los abductores de la cadera.",
+    "Usar el impulso para balancear las piernas, lo que lleva a una mala activación muscular.",
+    "Permitir que las rodillas colapsen hacia adentro, forzando las rodillas.",
+    "Colocar los pies demasiado juntos, limitando el rango de movimiento.",
+    "No mantener una columna neutral, causando tensión en la parte baja de la espalda.",
+    "No controlar la fase de retorno, perdiendo tensión en los músculos objetivo.",
+    "Sentarse demasiado hacia adelante o hacia atrás, desalineando las caderas con el eje de la máquina.",
+    "Usar demasiado peso, comprometiendo la forma y el control."
+  ]
+}

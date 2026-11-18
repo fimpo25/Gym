@@ -1,0 +1,49 @@
+{
+  "nombre": "Salto al Cajón a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-box-jump",
+  "video_url": "https://api.smartworkout.app/asset/video/130ca241-a71a-47a9-a116-df23353371af.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "BALANCE",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The One Leg Box Jump is a plyometric exercise that targets the lower body, focusing on the quadriceps, hamstrings, glutes, and calves. It enhances explosive power, balance, and coordination by requiring the athlete to jump onto a box or platform using one leg. This exercise is beneficial for athletes looking to improve their single-leg strength and stability.",
+  "como_realizar": [
+    "Stand in front of a sturdy box or platform with your feet hip-width apart.",
+    "Shift your weight onto one leg, bending the knee slightly to prepare for the jump.",
+    "Swing your arms back to generate momentum.",
+    "Explosively jump onto the box using the power from your standing leg, swinging your arms forward for additional lift.",
+    "Land softly on the box with the same leg, ensuring your knee is slightly bent to absorb impact.",
+    "Step down carefully with the opposite leg and repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Ensure the box is stable and at an appropriate height for your skill level to prevent injury.",
+    "Focus on maintaining balance throughout the movement by engaging your core muscles.",
+    "Use your arms effectively to help propel you upwards during the jump.",
+    "Start with a lower box height if you're new to this exercise and gradually increase as you gain confidence and strength.",
+    "Keep your landing soft by bending your knee slightly upon impact to reduce stress on your joints."
+  ],
+  "errores_comunes": [
+    "Failing to maintain a stable core throughout the jump, leading to loss of balance.",
+    "Not using the arms effectively for momentum, reducing jump height.",
+    "Landing with the knee collapsing inward, increasing strain on the joint.",
+    "Jumping without fully engaging the glutes, hamstrings, and quads, reducing power.",
+    "Not aligning the hips, knees, and ankles properly during takeoff and landing.",
+    "Landing too stiffly, which can lead to joint stress.",
+    "Using a box that is too high, causing improper form and potential falls.",
+    "Failing to control the descent, leading to an unstable landing."
+  ]
+}

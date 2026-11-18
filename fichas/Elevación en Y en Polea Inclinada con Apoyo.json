@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevación en Y en Polea Inclinada con Apoyo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/cable-incline-y-raise-back-supported",
+  "video_url": "https://api.smartworkout.app/asset/video/38388e28-0819-4f2e-a1ec-5b030a2c7787.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Cable Incline Y Raise Back Supported is an isolation exercise targeting the upper back and shoulders, specifically the rear deltoids, trapezius, and rhomboids. This exercise is performed on an incline bench with cables, allowing for a controlled range of motion and constant tension on the muscles.",
+  "como_realizar": [
+    "Set an incline bench at a 30-45 degree angle and position it between two low cable pulleys.",
+    "Attach single handle attachments to each cable pulley.",
+    "Sit on the bench facing the cables, with your chest supported against the incline pad.",
+    "Grab each handle with a neutral grip (palms facing each other).",
+    "Start with your arms extended downward in front of you, maintaining a slight bend in the elbows.",
+    "Raise your arms upward and outward in a Y shape until they are in line with your body.",
+    "Squeeze your shoulder blades together at the top of the movement.",
+    "Slowly lower the handles back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain stability throughout the exercise.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum contraction.",
+    "Avoid using momentum; perform the movement slowly and with control.",
+    "Ensure that your elbows remain slightly bent throughout to reduce strain on the joints.",
+    "Adjust the bench angle if necessary to target different parts of your upper back and shoulders.",
+    "Start with lighter weights to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using too much weight, causing momentum to take over and reducing muscle engagement.",
+    "Failing to maintain a stable core, leading to excessive arching of the back.",
+    "Allowing the shoulders to shrug, which shifts focus away from the targeted muscles.",
+    "Not fully extending the arms, resulting in incomplete range of motion.",
+    "Bending the elbows too much, turning the exercise into a row rather than a raise.",
+    "Moving the cables too quickly, reducing time under tension and control.",
+    "Incorrect bench angle, which can alter the exercise's effectiveness and target muscles.",
+    "Not keeping the head aligned with the spine, leading to neck strain."
+  ]
+}

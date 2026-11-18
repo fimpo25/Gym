@@ -1,0 +1,49 @@
+{
+  "nombre": "Flexión de Brazos con Agarre Invertido",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazos-con-agarre-invertido",
+  "video_url": "https://api.smartworkout.app/asset/video/5ce1c351-558a-4f7b-8459-877fe9e54fd6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "La Flexión de Brazos Inversa es una variación de la flexión de brazos tradicional que se enfoca en el pecho, tríceps y hombros, con énfasis en la flexibilidad de las muñecas y la fuerza del antebrazo. Este ejercicio consiste en realizar una flexión de brazos con los dedos apuntando hacia los pies, lo que requiere mayor movilidad de las muñecas y ofrece un desafío único para los músculos de la parte superior del cuerpo.",
+  "como_realizar": [
+    "Comienza en una posición estándar de flexiones con las manos colocadas al ancho de los hombros.",
+    "Gira tus manos de manera que tus dedos apunten hacia tus pies, asegurándote de que tus muñecas estén cómodas.",
+    "Mantén tu cuerpo en una línea recta desde la cabeza hasta los talones, activando tu núcleo durante todo el movimiento.",
+    "Baja tu cuerpo doblando los codos hasta que tu pecho casi toque el suelo.",
+    "Empuja a través de tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Calienta bien tus muñecas antes de intentar este ejercicio para prevenir tensiones.",
+    "Mantén el núcleo apretado para mantener tu cuerpo alineado y evitar que las caderas se hundan.",
+    "Comienza con un rango de movimiento más pequeño si experimentas molestias en las muñecas, aumentando gradualmente a medida que mejora la flexibilidad.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Si es necesario, realiza el ejercicio sobre tus rodillas para reducir la intensidad mientras mantienes la forma adecuada.",
+    "Asegúrate de distribuir el peso de manera uniforme en ambas manos para mantener el equilibrio y la estabilidad."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado separadas, lo que lleva a una disminución de la estabilidad y un aumento de la tensión en las muñecas.",
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso del tríceps y aumentando el estrés en los hombros.",
+    "No mantener el core comprometido, resultando en una espalda baja caída y pérdida de la forma adecuada.",
+    "Doblar excesivamente las muñecas, lo que puede causar incomodidad y reducir el apalancamiento.",
+    "No mantener una línea recta desde la cabeza hasta los talones, lo que lleva a un movimiento ineficiente y posible tensión en la parte baja de la espalda.",
+    "Descender demasiado rápido, lo que puede causar pérdida de control y reducir la activación muscular.",
+    "No lograr un rango completo de movimiento, limitando el compromiso muscular y la efectividad del ejercicio.",
+    "Permitir que los hombros se eleven hacia las orejas, causando tensión y reduciendo la estabilidad escapular."
+  ]
+}

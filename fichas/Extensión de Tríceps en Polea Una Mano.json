@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps en Polea Una Mano",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-polea-una-mano",
+  "video_url": "https://api.smartworkout.app/asset/video/19fc8063-2a01-4e3d-8bef-6171d3fa77b8.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La extensión de tríceps con cable a un brazo es un ejercicio de aislamiento que se enfoca en los tríceps. Consiste en extender el codo para empujar hacia abajo una manija de cable usando un brazo, concentrándose en el músculo tríceps braquial. Este ejercicio ayuda a desarrollar fuerza y definición en los tríceps, mejorando la estética del brazo superior y la fuerza funcional.",
+  "como_realizar": [
+    "Coloca un mango individual en la polea alta de una máquina de cables.",
+    "Párate frente a la máquina de cables con los pies al ancho de los hombros.",
+    "Agarra el mango con una mano, con la palma hacia abajo, y da un paso atrás ligeramente para crear tensión en el cable.",
+    "Coloca tu codo cerca de tu cuerpo, doblado a unos 90 grados.",
+    "Mantén tu brazo superior estacionario y extiende tu codo para empujar el mango hacia abajo hasta que tu brazo esté completamente extendido.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando una contracción completa de los tríceps.",
+    "Regresa lentamente a la posición inicial doblando tu codo.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y evita inclinarte hacia adelante o hacia atrás durante el ejercicio.",
+    "Concéntrate en mantener tu brazo superior estacionario; solo tu antebrazo debe moverse.",
+    "Controla el movimiento en todo momento; evita usar el impulso para empujar el peso hacia abajo.",
+    "Exhala mientras empujas hacia abajo e inhala al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de aumentar la resistencia.",
+    "Mantén la muñeca recta y evita doblarla durante el movimiento para prevenir tensiones."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un movimiento basado en el impulso en lugar de un movimiento controlado.",
+    "Permitir que el codo se abra en lugar de mantenerlo cerca del cuerpo.",
+    "Inclinarse hacia adelante en exceso, lo que reduce el compromiso de los tríceps.",
+    "No extender completamente el brazo en la parte inferior del movimiento.",
+    "No mantener la muñeca recta, causando tensión innecesaria.",
+    "Usar el hombro para iniciar el movimiento en lugar de aislar los tríceps.",
+    "Permitir que el cable tire del brazo hacia atrás demasiado rápido, perdiendo tensión en los tríceps.",
+    "Descuidar mantener el núcleo comprometido, resultando en pérdida de estabilidad."
+  ]
+}

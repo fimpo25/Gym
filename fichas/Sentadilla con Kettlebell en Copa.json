@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla con Kettlebell en Copa",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/sentadilla-con-kettlebell-en-copa",
+  "video_url": "https://api.smartworkout.app/asset/video/9c1f8ba5-796d-4e11-882d-e769eae4a705.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Sentadilla Sumo con Kettlebell es un ejercicio para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y muslos internos. Consiste en sostener un kettlebell con ambas manos mientras se realiza una sentadilla con una postura amplia, similar a la postura de un luchador de sumo. Este ejercicio ayuda a mejorar la fuerza, estabilidad y flexibilidad en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies más anchos que el ancho de los hombros y los dedos ligeramente apuntando hacia afuera.",
+    "Sujeta una pesa rusa con ambas manos frente a ti, permitiendo que cuelgue entre tus piernas.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras comienzas a bajar tu cuerpo doblando las caderas y las rodillas.",
+    "Haz una sentadilla hasta que tus muslos estén paralelos al suelo o tan bajo como tu flexibilidad lo permita.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos y no se inclinen hacia adentro.",
+    "Empuja a través de tus talones para regresar a la posición inicial, enderezando tus piernas y manteniendo la espalda erguida.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta y evita redondear los hombros durante la sentadilla.",
+    "Concéntrate en activar tu núcleo durante todo el movimiento para una mejor estabilidad.",
+    "Asegúrate de mantener el peso distribuido uniformemente en ambos pies.",
+    "Controla el movimiento al bajar para evitar caer demasiado rápido en la sentadilla.",
+    "Inhala al bajar en la sentadilla y exhala al empujar de nuevo hacia arriba para ponerte de pie.",
+    "Ajusta el ancho de tu postura si es necesario para asegurar comodidad y una forma adecuada."
+  ],
+  "errores_comunes": [
+    "Sujetar la pesa rusa demasiado lejos del pecho, causando inestabilidad.",
+    "Permitir que las rodillas se colapsen hacia adentro durante la sentadilla, llevando a una mala alineación.",
+    "Hacer la sentadilla demasiado superficial, sin alcanzar una posición paralela o más profunda.",
+    "Redondear la espalda en lugar de mantener una columna neutral durante el movimiento.",
+    "No activar el core, resultando en pérdida de control y equilibrio.",
+    "Subir sobre los dedos de los pies en lugar de mantener los talones en el suelo.",
+    "Dejar que los codos se abran excesivamente, reduciendo el compromiso del tren superior.",
+    "Dejar caer la pesa rusa demasiado baja, lo que puede afectar la postura y el equilibrio.",
+    "No controlar el descenso, llevando a una caída rápida y posible tensión."
+  ]
+}

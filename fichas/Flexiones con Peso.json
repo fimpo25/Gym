@@ -1,0 +1,47 @@
+{
+  "nombre": "Flexiones con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/44442a7f-b7c0-4ae4-afba-96adf71f1c22.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión con Peso es un ejercicio compuesto para la parte superior del cuerpo que se enfoca en el pecho, los hombros y los tríceps. Al añadir peso, esta variación aumenta la resistencia, mejorando la fuerza y la resistencia muscular. Requiere una forma adecuada para garantizar la seguridad y efectividad.",
+  "como_realizar": [
+    "Comienza colocando un disco de pesas o un chaleco con peso en tu espalda. Asegúrate de que el peso esté centrado y seguro.",
+    "Adopta una posición de flexión estándar con las manos un poco más anchas que el ancho de los hombros y los pies juntos.",
+    "Activa tu núcleo para mantener una línea recta desde la cabeza hasta los talones.",
+    "Baja tu cuerpo doblando los codos hasta que tu pecho casi toque el suelo.",
+    "Empuja a través de tus palmas para extender tus brazos y volver a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Comienza con un peso manejable para dominar la forma antes de aumentar la resistencia.",
+    "Mantén tus codos a un ángulo de 45 grados con respecto a tu cuerpo para proteger tus hombros.",
+    "Mantén una columna neutral activando tu núcleo durante todo el movimiento.",
+    "Asegúrate de que el peso esté estable en tu espalda para evitar desplazamientos durante el ejercicio.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Si usas un disco de pesas, pide a un compañero que te ayude a colocarlo y quitarlo de manera segura."
+  ],
+  "errores_comunes": [
+    "Colocar el peso demasiado alto en la espalda, lo que lleva a una tensión en los hombros.",
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso de los tríceps.",
+    "Dejar caer las caderas, causando tensión en la parte baja de la espalda.",
+    "No mantener una posición neutral del cuello, lo que lleva a molestias en el cuello.",
+    "No activar el core, resultando en una estabilidad y forma deficientes.",
+    "Bajar demasiado rápido sin control, arriesgando lesiones en los hombros y muñecas.",
+    "No lograr un rango completo de movimiento, limitando la activación muscular.",
+    "Distribución desigual del peso, causando desequilibrio y posible tensión muscular.",
+    "Colocación incorrecta de las manos, reduciendo la activación del pecho y los hombros.",
+    "Bloquear los codos en la parte superior, aumentando el estrés en las articulaciones."
+  ]
+}

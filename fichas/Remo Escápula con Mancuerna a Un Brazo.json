@@ -1,0 +1,45 @@
+{
+  "nombre": "Remo Escápula con Mancuerna a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-dumbbell-bent-over-scapula-row",
+  "video_url": "https://api.smartworkout.app/asset/video/f1a7d50b-6a6e-46fb-9fe3-db6a742acd7a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The One-Arm Dumbbell Bent Over Scapula Row targets the upper back muscles, particularly the scapular retractors and stabilizers. This exercise helps improve posture and shoulder stability by focusing on the movement of the scapulae. It is performed with one arm at a time, allowing for greater focus on each side of the body.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a dumbbell in one hand.",
+    "Bend your knees slightly and hinge at the hips to lean forward, keeping your back straight and core engaged.",
+    "Let the arm holding the dumbbell hang straight down from your shoulder.",
+    "Retract your scapula by pulling your shoulder blade towards your spine while keeping your arm straight.",
+    "Pause briefly at the top of the movement, ensuring full scapular retraction.",
+    "Slowly release the scapula back to the starting position.",
+    "Repeat for the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to prevent lower back strain.",
+    "Focus on moving the scapula rather than bending the elbow; this is not a traditional row.",
+    "Keep your core engaged to stabilize your body and maintain balance.",
+    "Perform the movement slowly and with control to maximize muscle engagement.",
+    "Use a lighter weight to ensure proper form and avoid using momentum."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using the arm muscles primarily instead of focusing on scapular retraction.",
+    "Allowing the shoulder to roll forward at the bottom of the movement.",
+    "Pulling the dumbbell too high, causing shoulder impingement.",
+    "Twisting the torso instead of keeping it stable.",
+    "Moving too quickly, sacrificing control and engagement.",
+    "Not fully retracting the scapula at the top of the movement.",
+    "Failing to keep the supporting arm and leg stable.",
+    "Using momentum instead of controlled muscle contraction.",
+    "Positioning the feet too close together, reducing stability."
+  ]
+}

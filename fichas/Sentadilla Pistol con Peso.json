@@ -1,0 +1,51 @@
+{
+  "nombre": "Sentadilla Pistol con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-pistol-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/94bd5d78-efe8-41e7-9ae6-6656dc501b1d.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Pistol con Peso es un ejercicio avanzado para la parte inferior del cuerpo que se enfoca en los cuádriceps, glúteos, isquiotibiales y el core. Consiste en realizar una sentadilla con una sola pierna mientras se sostiene un peso, mejorando la fuerza, el equilibrio y la coordinación. Este ejercicio requiere una flexibilidad y estabilidad significativas, por lo que es adecuado para atletas experimentados.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de las caderas y sostén una mancuerna o kettlebell cerca de tu pecho.",
+    "Extiende una pierna hacia adelante, manteniéndola recta y fuera del suelo.",
+    "Activa tu núcleo y baja lentamente tu cuerpo en una sentadilla sobre la pierna de apoyo, manteniendo el pecho hacia arriba y la espalda recta.",
+    "Desciende hasta que tu muslo esté paralelo al suelo o tan bajo como tu flexibilidad lo permita.",
+    "Pausa brevemente en la parte inferior del movimiento, luego presiona a través de tu talón para regresar a la posición inicial.",
+    "Completa el número deseado de repeticiones en una pierna antes de cambiar a la otra."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el movimiento para asegurar el equilibrio y la estabilidad.",
+    "Concéntrate en mantener la rodilla alineada con los dedos del pie para prevenir lesiones.",
+    "Si eres nuevo en este ejercicio, comienza sin pesas para dominar la forma antes de agregar resistencia.",
+    "Usa un banco o caja para apoyo si es necesario al aprender el movimiento.",
+    "Controla el descenso y el ascenso para maximizar el compromiso muscular y evitar el uso de impulso."
+  ],
+  "errores_comunes": [
+    "Inclinarse hacia adelante en exceso, causando desequilibrio y posible tensión en la rodilla.",
+    "Permitir que la pierna no trabajadora caiga o toque el suelo, reduciendo la efectividad del ejercicio.",
+    "No mantener la espalda recta, lo que lleva a una mala postura y menor compromiso del core.",
+    "Usar impulso en lugar de movimiento controlado, aumentando el riesgo de pérdida de equilibrio.",
+    "No hacer la sentadilla lo suficientemente profunda, limitando el rango de movimiento y la activación muscular.",
+    "Permitir que la rodilla de la pierna trabajadora se incline hacia adentro, aumentando el riesgo de lesión en la rodilla.",
+    "Sostener el peso incorrectamente, lo que puede llevar a un mal equilibrio y tensión en las muñecas.",
+    "Descuidar el compromiso de los glúteos y los isquiotibiales, reduciendo la estabilidad y potencia general.",
+    "Subir sobre los dedos del pie de la pierna trabajadora, alterando el equilibrio y el compromiso muscular adecuado.",
+    "Apresurarse en el movimiento, lo que puede comprometer la forma y aumentar el riesgo de lesiones."
+  ]
+}

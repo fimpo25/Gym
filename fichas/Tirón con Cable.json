@@ -1,0 +1,51 @@
+{
+  "nombre": "Tirón con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/tiron-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/2d7d0c6f-8cd7-49c4-a2db-7140d77fa691.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Tirón de Cable es un ejercicio compuesto que se enfoca en la cadena posterior, centrándose principalmente en los glúteos, isquiotibiales y la parte baja de la espalda. Consiste en tirar de un accesorio de cable a través de las piernas mientras se mantiene una posición de bisagra de cadera, promoviendo la fuerza y estabilidad en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Ajusta la máquina de cable a la posición más baja y coloca una cuerda como mango.",
+    "Párate de espaldas a la máquina, con el cable entre las piernas y los pies separados al ancho de los hombros.",
+    "Agarra la cuerda con ambas manos entre tus piernas, con las palmas enfrentadas.",
+    "Da un paso hacia adelante para crear tensión en el cable, manteniendo los brazos rectos.",
+    "Flexiona las caderas, empujando los glúteos hacia atrás mientras mantienes una ligera flexión en las rodillas.",
+    "Mantén la espalda recta y el pecho hacia arriba mientras bajas el torso hasta sentir un estiramiento en los isquiotibiales.",
+    "Impulsa con los talones y extiende las caderas hacia adelante para volver a la posición inicial.",
+    "Aprieta los glúteos en la parte superior del movimiento sin hiperextender la parte baja de la espalda."
+  ],
+  "consejos": [
+    "Concéntrate en flexionar las caderas en lugar de agacharte para maximizar el compromiso de los glúteos y los isquiotibiales.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad y proteger tu zona lumbar.",
+    "Asegúrate de que tus rodillas permanezcan ligeramente dobladas y no se bloqueen durante el ejercicio.",
+    "Mantén una columna neutral manteniendo el pecho hacia arriba y los hombros hacia atrás mientras realizas el movimiento.",
+    "Comienza con un peso más ligero para dominar la forma adecuada antes de progresar a cargas más pesadas.",
+    "Controla el movimiento tanto al bajar como al subir para maximizar la activación muscular."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, desplazando el peso hacia los dedos de los pies en lugar de mantenerlo en los talones.",
+    "Redondear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Usar los brazos para tirar del cable en lugar de hacer una bisagra en las caderas.",
+    "Permitir que las rodillas se inclinen hacia adentro en lugar de mantenerlas alineadas con los dedos de los pies.",
+    "Estar demasiado cerca de la máquina de cables, limitando el rango de movimiento.",
+    "No extender completamente las caderas en la parte superior del movimiento.",
+    "Tirar del cable demasiado alto, causando una excesiva arqueadura de la parte baja de la espalda.",
+    "Moverse demasiado rápido, sacrificando el control y el compromiso.",
+    "No activar los glúteos y los isquiotibiales, confiando demasiado en la parte baja de la espalda."
+  ]
+}

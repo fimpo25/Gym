@@ -1,0 +1,47 @@
+{
+  "nombre": "Sentadilla con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/cd1b2803-4a4f-4672-809e-6bd9e726b5be.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla con Mancuernas es un ejercicio compuesto para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y pantorrillas. También involucra el core para la estabilización. Este ejercicio se realiza sosteniendo una mancuerna en cada mano mientras se ejecuta el movimiento de sentadilla.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una mancuerna en cada mano a los lados.",
+    "Mantén el pecho hacia arriba, los hombros hacia atrás y el núcleo comprometido durante todo el movimiento.",
+    "Inicia la sentadilla doblando las caderas y las rodillas, bajando el cuerpo hasta que los muslos estén paralelos al suelo.",
+    "Asegúrate de que tus rodillas sigan la línea de los dedos de los pies y no se extiendan más allá de ellos.",
+    "Empuja a través de tus talones para volver a la posición inicial, enderezando las piernas y poniéndote de pie.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para prevenir lesiones.",
+    "Concéntrate en mantener tu peso distribuido uniformemente a través de tus pies.",
+    "Evita que tus rodillas colapsen hacia adentro; mantenlas alineadas con tus dedos de los pies.",
+    "Controla el movimiento tanto al bajar como al subir para maximizar el compromiso muscular.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Inhala al bajar en la sentadilla y exhala al empujar hacia arriba."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las rodillas se inclinen hacia adentro en lugar de alinearse sobre los dedos de los pies.",
+    "Levantar los talones del suelo en lugar de mantenerlos planos.",
+    "Sujetar las mancuernas incorrectamente, causando desequilibrio.",
+    "Hacer una sentadilla demasiado superficial, sin alcanzar el paralelo o más bajo.",
+    "Inclinarse demasiado hacia adelante, desplazando el peso hacia los dedos de los pies.",
+    "No activar el core, lo que lleva a la inestabilidad.",
+    "Subir de manera desigual, causando movimiento lateral.",
+    "Bajar demasiado rápido sin un descenso controlado.",
+    "No mantener el pecho erguido, lo que lleva a un colapso hacia adelante."
+  ]
+}

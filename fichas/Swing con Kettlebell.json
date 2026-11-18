@@ -1,0 +1,54 @@
+{
+  "nombre": "Swing con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/kettlebell-swing",
+  "video_url": "https://api.smartworkout.app/asset/video/91af3147-3eda-47d5-9fcf-cb58713eb7a4.mp4",
+  "tags": [
+    "STRENGTH",
+    "CARDIO",
+    "EXPLOSIVE",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The kettlebell swing is a dynamic, full-body exercise that primarily targets the posterior chain, including the glutes, hamstrings, and lower back. It also engages the core and shoulders, providing both strength and cardiovascular benefits. This exercise involves swinging a kettlebell from between the legs to shoulder height using a hip hinge motion.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, toes slightly turned out, and a kettlebell placed about a foot in front of you.",
+    "Hinge at the hips by pushing your butt back while maintaining a slight bend in the knees. Keep your back straight and chest up.",
+    "Grip the kettlebell handle with both hands using an overhand grip.",
+    "Swing the kettlebell back between your legs, keeping it close to your groin.",
+    "Drive your hips forward explosively to swing the kettlebell up to shoulder height. Your arms should remain straight but relaxed.",
+    "Let the kettlebell fall back down naturally as you hinge at the hips again to repeat the motion.",
+    "Continue for the desired number of repetitions, maintaining control throughout."
+  ],
+  "consejos": [
+    "Focus on using your hips to generate power rather than lifting with your arms.",
+    "Keep your core engaged throughout the movement to protect your lower back.",
+    "Ensure that your shoulders remain relaxed and do not shrug during the swing.",
+    "Maintain a neutral spine position to avoid rounding your back.",
+    "Breathe out as you swing the kettlebell up and inhale as it comes down.",
+    "Start with a lighter kettlebell to master form before progressing to heavier weights.",
+    "Keep your eyes forward and avoid looking down to maintain proper posture."
+  ],
+  "errores_comunes": [
+    "Using the arms to lift the kettlebell instead of driving the movement with the hips.",
+    "Rounding the back instead of maintaining a neutral spine throughout the swing.",
+    "Squatting instead of hinging at the hips, which reduces power and can strain the knees.",
+    "Letting the kettlebell swing too low or too high, leading to loss of control and balance.",
+    "Failing to engage the core, resulting in reduced stability and potential lower back strain.",
+    "Standing too upright at the top of the swing, preventing full hip extension.",
+    "Allowing the knees to cave inwards, which can lead to knee discomfort or injury.",
+    "Gripping the kettlebell too tightly, causing unnecessary tension in the forearms.",
+    "Not using the glutes to drive the movement, leading to decreased power and efficiency."
+  ]
+}

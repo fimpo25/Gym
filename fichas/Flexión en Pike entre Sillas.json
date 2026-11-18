@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexión en Pike entre Sillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/pike-push-up-between-chairs",
+  "video_url": "https://api.smartworkout.app/asset/video/6d505fd7-5436-48eb-b17f-4832a7381695.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Pike Push Up Between Chairs is an advanced bodyweight exercise targeting the shoulders, triceps, and upper chest. It involves elevating your hands and feet on chairs, creating a pike position to increase the range of motion and intensity. This exercise requires significant shoulder strength and stability.",
+  "como_realizar": [
+    "Place two sturdy chairs shoulder-width apart for your hands and one chair behind you for your feet.",
+    "Position yourself in a pike position with your hands on the chairs and your feet elevated on the third chair.",
+    "Ensure your body forms an inverted V shape with hips raised high.",
+    "Lower your head towards the ground by bending your elbows, keeping them slightly flared out.",
+    "Pause briefly when your head is close to the floor, then push through your palms to return to the starting position.",
+    "Maintain a neutral neck position throughout the movement."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain balance and stability.",
+    "Focus on controlled movements to maximize muscle engagement.",
+    "Ensure the chairs are stable and won't slip during the exercise.",
+    "If you're new to this exercise, start with lower elevation or perform regular pike push-ups on the floor.",
+    "Breathe in as you lower down and exhale as you push back up.",
+    "Keep your elbows slightly bent at the top of the movement to maintain tension in the muscles."
+  ],
+  "errores_comunes": [
+    "Feet positioned too far forward or backward, disrupting balance and reducing effectiveness.",
+    "Hands placed too wide or too narrow on the chairs, leading to poor shoulder engagement.",
+    "Head dropping too low, causing neck strain and loss of alignment.",
+    "Hips not elevated high enough, reducing shoulder activation.",
+    "Elbows flaring out excessively, increasing shoulder strain.",
+    "Insufficient range of motion, limiting muscle engagement.",
+    "Rushing through the movement, compromising control and form.",
+    "Core not engaged, leading to sagging hips and poor stability.",
+    "Failing to keep a straight line from hips to head, affecting posture and effectiveness."
+  ]
+}

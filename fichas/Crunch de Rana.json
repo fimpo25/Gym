@@ -1,0 +1,44 @@
+{
+  "nombre": "Crunch de Rana",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-de-rana",
+  "video_url": "https://api.smartworkout.app/asset/video/bfd5f760-da9c-4311-8a37-8d6b8c7c1d03.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch de Rana es un ejercicio abdominal que se enfoca en el recto abdominal y los oblicuos. Implica un movimiento de crunch mientras se mantiene una posición de piernas similar a la de una rana, lo que aumenta el compromiso del núcleo y desafía la estabilidad.",
+  "como_realizar": [
+    "Acuéstate boca arriba con las rodillas dobladas y los pies planos en el suelo.",
+    "Junta las plantas de los pies y deja que las rodillas caigan hacia afuera, formando una forma de diamante con las piernas.",
+    "Coloca las manos detrás de la cabeza con los codos abiertos, o crúzalos sobre el pecho.",
+    "Activa tu núcleo llevando el ombligo hacia la columna vertebral.",
+    "Exhala mientras levantas la cabeza, los hombros y la parte superior de la espalda del suelo en un movimiento controlado de contracción.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los músculos abdominales.",
+    "Inhala mientras bajas lentamente de nuevo a la posición inicial sin dejar que la cabeza toque el suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la barbilla ligeramente metida para evitar forzar el cuello durante el crunch.",
+    "Concéntrate en usar tus músculos abdominales para levantarte en lugar de tirar de tu cuello o cabeza.",
+    "Asegúrate de que tu zona lumbar permanezca en contacto con el suelo durante todo el ejercicio.",
+    "Controla el movimiento tanto al subir como al bajar para maximizar el compromiso muscular.",
+    "Exhala al subir en el crunch e inhala al regresar a la posición inicial.",
+    "Si sientes molestias en el cuello, intenta colocar una pequeña toalla debajo para soporte."
+  ],
+  "errores_comunes": [
+    "Pies posicionados demasiado altos o demasiado bajos, alterando el equilibrio y el compromiso del núcleo.",
+    "Permitir que las rodillas colapsen hacia adentro, reduciendo la activación de las caderas y el núcleo.",
+    "Tensión en el cuello por tirar de la cabeza en lugar de levantar con el núcleo.",
+    "No mantener la parte baja de la espalda presionada contra el suelo, lo que lleva a una espalda arqueada.",
+    "Usar el impulso para balancear la parte superior del cuerpo en lugar de una contracción controlada del núcleo.",
+    "Rango de movimiento inadecuado, no levantando completamente los hombros del suelo.",
+    "Apresurarse en las repeticiones, comprometiendo la forma y el compromiso muscular.",
+    "Contener la respiración, lo que puede reducir el flujo de oxígeno y aumentar la tensión."
+  ]
+}

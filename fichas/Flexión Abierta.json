@@ -1,0 +1,49 @@
+{
+  "nombre": "Flexión Abierta",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-abiertas",
+  "video_url": "https://api.smartworkout.app/asset/video/1799afbc-3a7a-4035-ae34-b9fe9889daa6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión de Brazos con Manos Anchas es un ejercicio con el peso del cuerpo que se enfoca en el pecho, los hombros y los tríceps. Al colocar las manos más separadas que el ancho de los hombros, se enfatiza la parte externa de los músculos pectorales y se incrementa la participación de los deltoides anteriores.",
+  "como_realizar": [
+    "Comienza en una posición de plancha con las manos colocadas más anchas que el ancho de los hombros en el suelo.",
+    "Mantén tu cuerpo en una línea recta desde la cabeza hasta los talones, activando tu núcleo y glúteos.",
+    "Baja tu pecho hacia el suelo doblando los codos hacia los lados.",
+    "Detente cuando tu pecho esté justo por encima del suelo, asegurándote de que tus codos estén en un ángulo de aproximadamente 90 grados.",
+    "Empuja a través de tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Repite el número deseado de repeticiones mientras mantienes la forma adecuada."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén posicionadas más anchas que el ancho de los hombros para trabajar el pecho de manera efectiva.",
+    "Mantén una línea recta desde la cabeza hasta los talones para prevenir tensión en la parte baja de la espalda.",
+    "Activa tu núcleo durante todo el movimiento para estabilizar tu cuerpo.",
+    "Controla el descenso y evita que tu pecho toque el suelo.",
+    "Concéntrate en la respiración; inhala al bajar y exhala al subir.",
+    "Si tienes dificultades con la forma, comienza sobre tus rodillas y progresa a flexiones completas a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, causando tensión excesiva en los hombros.",
+    "Codos que se abren excesivamente, reduciendo el compromiso del pecho.",
+    "Caderas caídas, provocando tensión en la parte baja de la espalda.",
+    "Rango de movimiento incompleto, limitando la activación muscular.",
+    "Cuello adelantado, causando tensión en el cuello.",
+    "Falta de compromiso del core, resultando en una postura inestable.",
+    "Caer demasiado rápido sin control, aumentando el riesgo de lesiones.",
+    "Manos no alineadas con los hombros, causando incomodidad en las articulaciones.",
+    "Colocación desigual de las manos, llevando a un desequilibrio muscular.",
+    "No mantener una línea recta desde la cabeza hasta los talones."
+  ]
+}

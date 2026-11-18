@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Ancho en Banco Inclinado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/incline-bench-dumbbell-wide-row",
+  "video_url": "https://api.smartworkout.app/asset/video/3ff5debe-55a6-4138-a8ab-5116408c257a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Incline Bench Dumbbell Wide Row is an upper body exercise targeting the upper back, shoulders, and biceps. It involves pulling dumbbells towards your torso while lying face down on an incline bench, emphasizing the rear deltoids, rhomboids, and trapezius muscles. This exercise helps improve posture and upper back strength.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Hold a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Lie face down on the bench with your chest supported and feet firmly on the ground.",
+    "Extend your arms straight down towards the floor.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Pull the dumbbells up towards your sides by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the bench is stable and set at a comfortable angle for your body.",
+    "Focus on squeezing your shoulder blades together at the top of the movement to maximize muscle engagement.",
+    "Keep your neck in a neutral position to avoid strain.",
+    "Use a controlled motion to prevent using momentum, which can reduce effectiveness and increase injury risk.",
+    "Start with lighter weights to master form before progressing to heavier dumbbells.",
+    "Maintain a slight bend in your elbows throughout the exercise to protect your joints."
+  ],
+  "errores_comunes": [
+    "Using too much weight, compromising form and control.",
+    "Allowing the elbows to drop below the back, reducing muscle engagement.",
+    "Arching the back excessively, leading to poor spine alignment.",
+    "Failing to retract the shoulder blades, limiting upper back activation.",
+    "Swinging the dumbbells, using momentum instead of muscle control.",
+    "Not maintaining a stable core, causing body sway.",
+    "Incorrect bench angle, affecting the range of motion.",
+    "Gripping the dumbbells too tightly, causing forearm fatigue.",
+    "Lifting the head, straining the neck."
+  ]
+}

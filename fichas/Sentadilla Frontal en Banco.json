@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla Frontal en Banco",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-frontal-en-banco",
+  "video_url": "https://api.smartworkout.app/asset/video/6b184f47-cf2c-440d-8342-dc459d8611f9.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Frontal con Banco es un ejercicio compuesto para la parte inferior del cuerpo que se enfoca en los cuádriceps, glúteos y el core. Consiste en realizar una sentadilla frontal con la estabilidad adicional de un banco para guiar la profundidad y la forma. Esta variación es especialmente útil para principiantes o aquellos que trabajan en mejorar la profundidad y técnica de la sentadilla.",
+  "como_realizar": [
+    "Coloca un banco detrás de ti a una altura que permita que tus muslos estén paralelos al suelo cuando estés sentado.",
+    "Párate con los pies al ancho de los hombros, con los dedos ligeramente hacia afuera, y coloca una barra sobre la parte frontal de tus hombros, asegurándola con tus manos.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras comienzas a bajar tu cuerpo doblando las caderas y las rodillas.",
+    "Desciende hasta que tus glúteos toquen ligeramente el banco, asegurándote de que tus rodillas sigan la línea de tus dedos de los pies.",
+    "Haz una pausa breve en la parte inferior, luego impulsa a través de tus talones para regresar a la posición inicial, extendiendo completamente tus caderas y rodillas.",
+    "Mantén el torso erguido durante todo el movimiento y evita inclinarte hacia adelante."
+  ],
+  "consejos": [
+    "Mantén los codos altos para mantener la estabilidad de la barra sobre tus hombros.",
+    "Concéntrate en mantener tu peso distribuido uniformemente en tus pies.",
+    "Usa un observador o barras de seguridad si levantas pesos pesados para mayor seguridad.",
+    "Asegúrate de que la altura del banco permita una profundidad de sentadilla adecuada sin comprometer la forma.",
+    "Calienta a fondo antes de realizar este ejercicio para prevenir lesiones.",
+    "Practica con pesos más ligeros inicialmente para perfeccionar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Las rodillas se inclinan hacia adentro durante la sentadilla, lo que lleva a una alineación incorrecta y potencial tensión en las rodillas.",
+    "Los talones se levantan del suelo, reduciendo la estabilidad y trasladando la carga a los dedos de los pies.",
+    "La barra descansa sobre las yemas de los dedos en lugar de los hombros, causando un mal control de la barra.",
+    "Los codos caen hacia adelante, lo que puede hacer que el pecho se colapse y aumentar la tensión en la espalda.",
+    "Hacer la sentadilla demasiado superficial, limitando el compromiso muscular y la efectividad del ejercicio.",
+    "Inclinarse demasiado hacia adelante, aumentando el riesgo de perder el equilibrio y tensar la parte baja de la espalda.",
+    "No comprometer el núcleo, lo que resulta en una estabilidad reducida y potencial incomodidad en la espalda.",
+    "No mantener una columna neutral, lo que puede llevar a un estrés excesivo en la parte baja de la espalda."
+  ]
+}

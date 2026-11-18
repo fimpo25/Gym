@@ -1,0 +1,40 @@
+{
+  "nombre": "Aparato de Agarre Manual",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/aparato-de-agarre-manual",
+  "video_url": "https://api.smartworkout.app/asset/video/5180cc87-9611-488d-b380-42d5cf3cfe9c.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El agarrador de mano es una herramienta de ejercicio compacta diseñada para fortalecer los músculos de los antebrazos, manos y dedos. Consiste en dos mangos conectados por un resorte de resistencia. Su uso regular puede mejorar la fuerza de agarre, aumentar la resistencia y apoyar la salud general de las manos.",
+  "como_realizar": [
+    "Sostén el hand gripper en una mano con la palma hacia adentro.",
+    "Coloca las asas de manera que descansen cómodamente en la palma de tu mano.",
+    "Aprieta las asas juntas usando tus dedos y pulgar hasta que se toquen o se acerquen lo más posible.",
+    "Mantén el apretón por un momento, luego suelta la tensión lentamente.",
+    "Realiza el número deseado de repeticiones y cambia a la otra mano."
+  ],
+  "consejos": [
+    "Comienza con un agarre que ofrezca una resistencia manejable para evitar tensiones.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular.",
+    "Incorpora ejercicios con el agarre de mano en tu rutina 2-3 veces por semana para obtener mejores resultados.",
+    "Asegúrate de entrenar de manera uniforme realizando un número igual de repeticiones con ambas manos.",
+    "Aumenta gradualmente la resistencia o las repeticiones a medida que mejora tu fuerza de agarre."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a una mala forma y control.",
+    "Permitir que la muñeca se doble en lugar de mantenerla recta.",
+    "Apretar demasiado rápido sin un movimiento controlado.",
+    "No cerrar completamente el gripper para un rango completo de movimiento.",
+    "Descuidar abrir completamente el gripper entre repeticiones.",
+    "Sostener el gripper demasiado cerca de las yemas de los dedos en lugar de la base de los dedos.",
+    "Involucrar los hombros o los brazos superiores en lugar de enfocarse en los músculos del antebrazo.",
+    "Apresurarse en las repeticiones sin mantener una tensión constante."
+  ]
+}

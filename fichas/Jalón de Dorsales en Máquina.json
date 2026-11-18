@@ -1,0 +1,50 @@
+{
+  "nombre": "Jalón de Dorsales en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/lat-pulldown-machine",
+  "video_url": "https://api.smartworkout.app/asset/video/f72099c0-fc80-45d0-b174-8fdbc03f7d57.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Lat Pulldown Machine is designed to target the latissimus dorsi muscles in the back, along with secondary engagement of the biceps, shoulders, and upper back. It is a seated exercise where you pull a bar down towards your chest, simulating a pull-up motion.",
+  "como_realizar": [
+    "Adjust the seat height so that your feet are flat on the floor and your thighs are secured under the thigh pads.",
+    "Select an appropriate weight on the machine.",
+    "Grasp the bar with a wide overhand grip, slightly wider than shoulder-width apart.",
+    "Sit down with your back straight and chest up, positioning yourself directly under the bar.",
+    "Pull the bar down towards your upper chest while keeping your elbows pointed down and back.",
+    "Pause briefly at the bottom of the movement, ensuring full contraction of the lats.",
+    "Slowly release the bar back to the starting position with controlled movement.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability and proper form.",
+    "Avoid using momentum; focus on controlled movements to maximize muscle engagement.",
+    "Ensure your shoulders are relaxed and not hunched during the exercise to prevent strain.",
+    "Exhale as you pull the bar down and inhale as you return to the starting position.",
+    "If you experience discomfort in your shoulders or wrists, adjust your grip or consult a trainer."
+  ],
+  "errores_comunes": [
+    "Pulling the bar behind the neck instead of to the chest, which can strain the shoulders and neck.",
+    "Using too much weight, leading to improper form and reduced muscle engagement.",
+    "Leaning back excessively, turning the exercise into more of a row than a pulldown.",
+    "Allowing the bar to snap back up too quickly, reducing control and effectiveness.",
+    "Using arms and biceps to pull instead of engaging the lats.",
+    "Not fully extending the arms at the top of the movement, limiting range of motion.",
+    "Shrugging the shoulders up during the pull, which disengages the lats.",
+    "Gripping the bar too wide or too narrow, which can affect the range of motion and muscle engagement.",
+    "Not keeping the core engaged, leading to poor posture and potential lower back strain."
+  ]
+}

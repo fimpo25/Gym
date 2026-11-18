@@ -1,0 +1,44 @@
+{
+  "nombre": "Desplazamiento con Barra de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/desplazamiento-con-barra---de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/d35b5147-f146-4796-8dce-b27745dc835b.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Deslizamiento con Barra - De Rodillas es un ejercicio de fortalecimiento del núcleo que se enfoca en los abdominales, oblicuos y la parte baja de la espalda. Este movimiento implica deslizar una barra hacia adelante mientras se mantiene un núcleo estable, mejorando la estabilidad y la fuerza en la zona media.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo con una barra frente a ti. Agarra la barra con ambas manos, a la altura de los hombros.",
+    "Activa tu núcleo y mantén la espalda recta. Tus hombros deben estar directamente sobre la barra.",
+    "Lentamente rueda la barra hacia adelante extendiendo tus brazos, manteniendo el núcleo apretado y evitando que la parte baja de la espalda se hunda.",
+    "Rueda hacia adelante tanto como puedas mientras mantienes el control y sin comprometer la forma.",
+    "Pausa brevemente en la posición extendida, luego tira de la barra de regreso a la posición inicial contrayendo los músculos del núcleo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu zona lumbar.",
+    "Evita dejar caer tus caderas; mantén una línea recta desde la cabeza hasta las rodillas.",
+    "Comienza con un rango de movimiento más corto si eres nuevo en este ejercicio y aumenta gradualmente a medida que ganas fuerza.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar la efectividad y reducir el riesgo de lesiones.",
+    "Exhala al extenderte y inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Permitir que la parte baja de la espalda se hunda, llevando a una hiperextensión lumbar.",
+    "No comprometer el núcleo durante todo el movimiento, reduciendo la estabilidad.",
+    "Comenzar con las caderas demasiado hacia adelante, limitando el rango de movimiento.",
+    "Rodar demasiado rápido, perdiendo el control y arriesgando una distensión muscular.",
+    "No mantener una columna neutral, causando estrés innecesario en la espalda.",
+    "Usar los brazos para retroceder en lugar de comprometer el núcleo para regresar.",
+    "No mantener los hombros estables, lo que lleva a una tensión en los hombros.",
+    "Permitir que la barra ruede demasiado lejos, perdiendo el compromiso del núcleo."
+  ]
+}

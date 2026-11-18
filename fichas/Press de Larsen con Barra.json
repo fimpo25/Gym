@@ -1,0 +1,48 @@
+{
+  "nombre": "Press de Larsen con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-larsen-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/1c76c330-7f85-4b5e-a464-1d8bd9ac863e.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press Larsen con barra es una variación del press de banca diseñada para mejorar la fuerza y estabilidad de la parte superior del cuerpo. Se enfoca en el pecho, los hombros y los tríceps, mientras minimiza el impulso de las piernas al mantener los pies elevados del suelo.",
+  "como_realizar": [
+    "Acuéstate en un banco con los ojos directamente debajo de la barra.",
+    "Agarra la barra un poco más ancho que el ancho de los hombros.",
+    "Levanta los pies del suelo y extiende las piernas rectas, manteniéndolas paralelas al suelo.",
+    "Desmonta la barra y colócala directamente sobre tu pecho con los brazos completamente extendidos.",
+    "Baja la barra lentamente hacia tu pecho, manteniendo el control y los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Haz una pausa breve cuando la barra toque tu pecho.",
+    "Presiona la barra de nuevo a la posición inicial extendiendo los brazos, asegurando un movimiento controlado en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Concéntrate en controlar el descenso de la barra para maximizar el compromiso muscular.",
+    "Evita arquear excesivamente la espalda; mantén una posición natural de la columna.",
+    "Asegúrate de que tus muñecas permanezcan rectas y alineadas con tus antebrazos durante el levantamiento.",
+    "Inhala al bajar la barra y exhala al presionarla hacia arriba.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "No mantener un núcleo estable, lo que lleva a una excesiva arqueadura de la parte baja de la espalda.",
+    "Permitir que los pies toquen el suelo, lo que disminuye el compromiso del núcleo deseado.",
+    "Bajar la barra demasiado rápido, resultando en una falta de control y potencial para rebotar en el pecho.",
+    "Abrir los codos en exceso, lo que puede poner un estrés innecesario en las articulaciones del hombro.",
+    "No mantener las muñecas rectas, causando tensión y reduciendo la transferencia de potencia.",
+    "Bajar la barra a un punto inconsistente en el pecho, afectando la activación muscular y la eficiencia del levantamiento.",
+    "Descuidar el compromiso de la parte superior de la espalda y los dorsales, lo que puede comprometer la estabilidad y la potencia de empuje.",
+    "Usar un agarre que sea demasiado ancho o demasiado estrecho, lo que lleva a un apalancamiento subóptimo y un aumento de la tensión en las articulaciones."
+  ]
+}

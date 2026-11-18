@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexión a un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/1ac58147-1cfd-40f2-9aa7-549d8b6e5365.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión con un Brazo es un ejercicio avanzado de peso corporal que trabaja los músculos del pecho, hombros, tríceps y el núcleo. Requiere una fuerza, equilibrio y estabilidad significativos, lo que la convierte en una progresión desafiante desde la flexión estándar.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con los pies un poco más anchos que el ancho de los hombros para una mejor estabilidad.",
+    "Coloca una mano directamente debajo de tu hombro mientras extiendes el otro brazo hacia el lado o detrás de tu espalda.",
+    "Activa tu núcleo y glúteos para mantener una línea recta desde la cabeza hasta los talones.",
+    "Baja tu cuerpo doblando el codo del brazo de apoyo hasta que tu pecho esté justo por encima del suelo.",
+    "Pausa brevemente en la parte inferior, luego empuja a través de tu palma para regresar a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Asegúrate de que tu núcleo esté apretado durante todo el movimiento para prevenir que las caderas se hundan.",
+    "Mantén el codo de apoyo cerca de tu cuerpo al bajar para tener mejor control.",
+    "Comienza con superficies elevadas o variaciones de rodillas si las flexiones de un solo brazo completas son demasiado desafiantes al principio.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Inhala al bajar y exhala al empujar hacia arriba para mantener un ritmo de respiración adecuado."
+  ],
+  "errores_comunes": [
+    "Colocación incorrecta de la mano, demasiado ancha o demasiado estrecha, lo que lleva a un desequilibrio.",
+    "Permitir que las caderas se hundan o se levanten, causando un mal compromiso del núcleo.",
+    "No mantener el cuerpo en línea recta, lo que resulta en desalineación.",
+    "Rotar excesivamente el torso, perdiendo estabilidad y control.",
+    "No involucrar las escápulas, reduciendo la activación de la parte superior del cuerpo.",
+    "Usar impulso en lugar de movimiento controlado, arriesgando tensión muscular.",
+    "Rango de movimiento inadecuado, limitando el compromiso muscular y la efectividad.",
+    "Descuidar estabilizar el brazo que no trabaja, causando desequilibrio.",
+    "Posicionamiento incorrecto de los pies, afectando el equilibrio y el soporte."
+  ]
+}

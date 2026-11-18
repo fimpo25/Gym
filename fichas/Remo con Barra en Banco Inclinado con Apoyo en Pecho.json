@@ -1,0 +1,52 @@
+{
+  "nombre": "Remo con Barra en Banco Inclinado con Apoyo en Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/incline-chest-supported-barbell-row",
+  "video_url": "https://api.smartworkout.app/asset/video/f1af846a-5df1-4bd7-be89-e1eb415031d0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Barbell Incline Row on Bench is a compound exercise targeting the upper back, primarily the rhomboids, trapezius, and rear deltoids. It also engages the biceps and forearms as secondary muscles. This exercise is performed on an incline bench, which helps isolate the upper back muscles more effectively than a flat bench row.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Place a barbell on the floor in front of the bench.",
+    "Lie face down on the bench with your chest supported and feet firmly on the ground.",
+    "Reach down and grasp the barbell with a pronated (overhand) grip, hands shoulder-width apart.",
+    "Engage your core and keep your body stable throughout the movement.",
+    "Pull the barbell towards your chest by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the back muscles.",
+    "Slowly lower the barbell back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to avoid strain on your lower back.",
+    "Focus on squeezing your shoulder blades together at the top of each rep for maximum muscle engagement.",
+    "Avoid using momentum; perform each rep with controlled movements to effectively target the upper back.",
+    "Ensure that your elbows move in line with your body to maintain proper form and prevent shoulder strain.",
+    "Start with a lighter weight to master technique before progressing to heavier loads.",
+    "Keep your neck in a neutral position by looking slightly ahead rather than down at the floor."
+  ],
+  "errores_comunes": [
+    "Lifting the head off the bench, which can strain the neck and misalign the spine.",
+    "Allowing the shoulders to round forward, reducing engagement of the upper back muscles.",
+    "Using momentum to lift the barbell, which decreases muscle activation and control.",
+    "Pulling the barbell too high, causing excessive shoulder elevation and potential impingement.",
+    "Arching the lower back excessively, which can lead to lower back strain.",
+    "Gripping the barbell too wide, limiting range of motion and back muscle engagement.",
+    "Failing to retract the shoulder blades at the top of the movement, reducing back muscle activation.",
+    "Letting the elbows flare out excessively, which can stress the shoulder joints.",
+    "Dropping the barbell too quickly, compromising control and increasing injury risk.",
+    "Not maintaining a stable core, leading to poor form and reduced power output."
+  ]
+}

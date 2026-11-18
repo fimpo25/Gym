@@ -1,0 +1,44 @@
+{
+  "nombre": "Círculos de Cadera",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/circulos-de-cadera",
+  "video_url": "https://api.smartworkout.app/asset/video/a3991973-2fae-48ab-bb5d-1bf7a38e9c52.mp4",
+  "tags": [
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "Los Círculos de Cadera son un ejercicio de calentamiento dinámico que se enfoca en las articulaciones de la cadera, mejorando la flexibilidad y la movilidad. Este ejercicio consiste en rotar las caderas en un movimiento circular, lo que ayuda a aflojar los músculos tensos y preparar el cuerpo para una actividad física más intensa. Es particularmente beneficioso para atletas e individuos que realizan entrenamientos de la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros y coloca las manos en las caderas.",
+    "Activa los músculos del core para mantener el equilibrio y la estabilidad.",
+    "Comienza girando lentamente las caderas en dirección de las agujas del reloj, haciendo círculos grandes.",
+    "Completa de 10 a 15 rotaciones, luego cambia a la dirección contraria a las agujas del reloj para otras 10-15 rotaciones.",
+    "Mantén la parte superior del cuerpo estable y concéntrate en mover solo las caderas."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies permanezcan planos en el suelo durante todo el ejercicio para mantener la estabilidad.",
+    "Concéntrate en movimientos controlados; evita apresurarte en las rotaciones.",
+    "Mantén las rodillas ligeramente flexionadas para reducir la presión en las articulaciones.",
+    "Realiza círculos de cadera como parte de tu rutina de calentamiento para mejorar la movilidad articular antes de realizar ejercicios más extenuantes.",
+    "Si experimentas alguna molestia, reduce el tamaño de los círculos o disminuye la velocidad del movimiento."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas demasiado rápido, lo que lleva a una falta de control y un mal compromiso muscular.",
+    "Permitir que el torso se mueva excesivamente, reduciendo el enfoque en la articulación de la cadera.",
+    "Mantener las piernas demasiado rígidas, lo que limita el rango de movimiento y la efectividad.",
+    "No comprometer los músculos del core, resultando en un movimiento inestable.",
+    "No mantener una base estable con los pies, causando problemas de equilibrio.",
+    "Arquear demasiado la parte baja de la espalda, aumentando el riesgo de tensión.",
+    "Realizar círculos demasiado grandes, lo que lleva a una forma incorrecta y un control reducido.",
+    "Descuidar mantener las rodillas ligeramente dobladas, lo que puede causar molestias en las articulaciones."
+  ]
+}

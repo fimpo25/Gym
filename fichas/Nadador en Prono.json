@@ -1,0 +1,50 @@
+{
+  "nombre": "Nadador en Prono",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/prone-swimmer",
+  "video_url": "https://api.smartworkout.app/asset/video/88323fed-2484-4a9c-b0f3-6e859ffeee8c.mp4",
+  "tags": [
+    "MOBILITY",
+    "CORE",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Prone Swimmer is a bodyweight exercise that targets the muscles of the upper back, shoulders, and core. It mimics the swimming motion while lying face down, enhancing shoulder mobility and stability. This exercise is beneficial for improving posture and strengthening the posterior chain.",
+  "como_realizar": [
+    "Lie face down on the floor with your arms extended straight overhead and legs fully extended.",
+    "Keep your forehead gently resting on the ground to maintain a neutral neck position.",
+    "Engage your core muscles to stabilize your torso throughout the movement.",
+    "Simultaneously lift your right arm and left leg off the ground, keeping them straight.",
+    "Lower them back to the starting position and immediately lift your left arm and right leg.",
+    "Continue alternating sides in a controlled manner, simulating a swimming motion.",
+    "Perform the exercise for a set number of repetitions or time duration."
+  ],
+  "consejos": [
+    "Focus on keeping your movements smooth and controlled to maximize muscle engagement.",
+    "Avoid lifting your head or arching your back excessively; maintain a neutral spine throughout.",
+    "Breathe steadily, exhaling as you lift your limbs and inhaling as you lower them.",
+    "If you experience discomfort in your lower back, reduce the range of motion or perform the exercise on a softer surface.",
+    "To increase difficulty, hold each lift for a moment before switching sides.",
+    "Ensure that your movements are symmetrical to prevent imbalances in muscle development."
+  ],
+  "errores_comunes": [
+    "Lifting the head too high, causing neck strain.",
+    "Arching the lower back excessively, leading to discomfort.",
+    "Failing to engage the core, resulting in poor stability.",
+    "Moving arms and legs too quickly, reducing control.",
+    "Allowing the hips to sway, disrupting alignment.",
+    "Not fully extending the arms and legs, limiting range of motion.",
+    "Holding the breath, causing unnecessary tension.",
+    "Dropping the chest to the floor, compromising posture.",
+    "Neglecting to engage the glutes, weakening lower body involvement.",
+    "Failing to synchronize arm and leg movements, leading to imbalance."
+  ]
+}

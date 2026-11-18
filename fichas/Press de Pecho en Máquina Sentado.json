@@ -1,0 +1,48 @@
+{
+  "nombre": "Press de Pecho en Máquina Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-pecho-en-maquina-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/094a5e9b-b0e4-41fd-b1f4-9f8d02469a97.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho en Máquina de Cables Sentado es un ejercicio compuesto que se enfoca en los músculos pectorales, tríceps y deltoides anteriores. Consiste en empujar un peso hacia adelante utilizando una máquina de cables mientras estás sentado, proporcionando tensión constante durante todo el movimiento.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén al nivel del pecho cuando estés sentado.",
+    "Siéntate con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre por encima, palmas hacia abajo.",
+    "Activa tu núcleo y mantén los codos ligeramente por debajo del nivel de los hombros.",
+    "Presiona las manijas hacia adelante extendiendo los brazos hasta que estén completamente extendidos pero no bloqueados.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los músculos del pecho.",
+    "Vuelve lentamente a la posición inicial doblando los codos y controlando el peso de regreso."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca en contacto con el respaldo durante todo el ejercicio para mantener una forma adecuada.",
+    "Mantén tus movimientos controlados; evita usar el impulso para empujar el peso.",
+    "Concéntrate en apretar los músculos del pecho en el pico de cada repetición para una contracción máxima.",
+    "Ajusta el peso a un nivel manejable que te permita realizar todas las repeticiones con buena forma.",
+    "Exhala al presionar hacia adelante e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso del pecho.",
+    "Permitir que los hombros se eleven, causando tensión en los hombros.",
+    "Abrir demasiado los codos, aumentando el estrés en la articulación del hombro.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "No mantener una posición neutral de la muñeca, arriesgando tensión en la muñeca.",
+    "No extender completamente los brazos, limitando la activación del pecho.",
+    "Redondear la espalda, disminuyendo la estabilidad del núcleo.",
+    "Permitir que los cables se aflojen, perdiendo tensión en los músculos.",
+    "Moverse demasiado rápido, reduciendo el compromiso muscular.",
+    "No ajustar la altura del asiento, desalineando las manijas con el pecho."
+  ]
+}

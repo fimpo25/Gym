@@ -1,0 +1,49 @@
+{
+  "nombre": "Face Pull con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/banded-face-pull",
+  "video_url": "https://api.smartworkout.app/asset/video/221b5c57-a4cc-4f75-a28e-dcb11e92633a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Banded Face Pull is an upper body exercise targeting the rear deltoids, trapezius, and rotator cuff muscles. It helps improve shoulder stability and posture by strengthening the upper back and shoulder girdle. This exercise is performed using a resistance band, making it accessible and effective for various fitness levels.",
+  "como_realizar": [
+    "Attach a resistance band to a stable anchor point at chest height.",
+    "Stand facing the anchor point with feet shoulder-width apart.",
+    "Grasp the ends of the band with an overhand grip, palms facing down.",
+    "Step back until there is tension in the band, arms extended in front of you.",
+    "Engage your core and keep your back straight.",
+    "Pull the band towards your face, leading with your elbows and keeping them high.",
+    "Squeeze your shoulder blades together at the end of the movement.",
+    "Slowly return to the starting position, maintaining tension in the band.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your elbows stay above your wrists throughout the movement to effectively target the rear deltoids.",
+    "Maintain a neutral spine and avoid arching your lower back to prevent strain.",
+    "Focus on squeezing your shoulder blades together at the peak of each repetition for maximum engagement.",
+    "Control the movement both on the pull and release to maintain constant tension on the muscles.",
+    "Start with a lighter resistance band to master form before progressing to heavier resistance."
+  ],
+  "errores_comunes": [
+    "Pulling with the arms instead of focusing on scapular retraction.",
+    "Allowing the elbows to drop below shoulder height.",
+    "Using momentum to complete the movement instead of controlled motion.",
+    "Standing too close or too far from the anchor point, affecting resistance.",
+    "Failing to keep the core engaged, leading to arching of the lower back.",
+    "Not maintaining a neutral neck position, causing strain.",
+    "Overextending the range of motion, risking shoulder joint strain.",
+    "Letting the bands snap back without controlled release."
+  ]
+}

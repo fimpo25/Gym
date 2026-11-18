@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación Lateral Inclinado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/bent-over-dumbbell-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/2ebdc867-f60b-4838-af95-cf69171be570.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "Bent-over lateral raises target the posterior deltoids, upper back, and trapezius muscles. This exercise is performed by bending at the hips with a neutral spine and lifting weights to the side, focusing on shoulder abduction.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart and hold a dumbbell in each hand.",
+    "Bend at the hips, keeping your back straight and knees slightly bent, until your torso is nearly parallel to the floor.",
+    "Let the dumbbells hang directly below your shoulders with palms facing each other.",
+    "Engage your core and keep your neck in line with your spine.",
+    "Raise the dumbbells out to the sides until your arms are parallel to the floor, keeping a slight bend in your elbows.",
+    "Pause briefly at the top of the movement, then slowly lower the weights back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine throughout the exercise to avoid strain on your lower back.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum engagement of the upper back muscles.",
+    "Control the descent of the weights to maximize muscle tension and prevent injury.",
+    "Keep your movements slow and controlled; avoid using momentum to lift the weights.",
+    "Ensure that your head remains in a neutral position by looking at a spot on the floor a few feet in front of you."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using momentum by swinging the body or arms.",
+    "Lifting the dumbbells too high, causing shoulder impingement.",
+    "Allowing the elbows to drop below the wrists during the lift.",
+    "Failing to engage the core for stability.",
+    "Not keeping the head in line with the spine, leading to neck strain.",
+    "Starting the movement with the arms straight instead of slightly bent.",
+    "Letting the shoulders shrug upward instead of staying down and back.",
+    "Performing the exercise too quickly, sacrificing control.",
+    "Not keeping the feet shoulder-width apart for a stable base."
+  ]
+}

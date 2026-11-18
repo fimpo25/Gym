@@ -1,0 +1,52 @@
+{
+  "nombre": "Cargada de Potencia desde Colgado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/hang-power-clean",
+  "video_url": "https://api.smartworkout.app/asset/video/06cb104d-fc7d-49ae-aca0-54bd4fb7e713.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "BICEPS",
+    "FOREARMS",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Hang Power Clean is a dynamic weightlifting exercise that primarily targets the muscles of the posterior chain, including the hamstrings, glutes, and lower back, as well as the shoulders and arms. It involves lifting a barbell from a hanging position to the shoulders in one explosive movement.",
+  "como_realizar": [
+    "Start by standing with your feet shoulder-width apart and holding a barbell with an overhand grip just outside your thighs.",
+    "Bend slightly at the hips and knees, lowering the barbell to just above your knees. This is your starting position.",
+    "Explosively extend your hips and knees while pulling the barbell upward, keeping it close to your body.",
+    "As the bar reaches chest height, rotate your elbows under the bar and catch it on your shoulders in a quarter squat position.",
+    "Stand up straight to complete the movement, then lower the barbell back to the starting position for the next repetition."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain stability and protect your lower back.",
+    "Focus on using your hips and legs to generate power rather than pulling with your arms.",
+    "Ensure that the barbell stays close to your body during the lift to maximize efficiency and control.",
+    "Practice proper timing by coordinating the hip extension with the pull and catch phases of the lift.",
+    "Start with lighter weights to perfect your form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Starting with hips too low or too high, leading to poor initial pull mechanics.",
+    "Not keeping the bar close to the body, causing inefficient bar path and loss of power.",
+    "Using arms too early, reducing the effectiveness of the hip drive.",
+    "Failing to fully extend hips and knees, limiting power generation.",
+    "Catching the bar with elbows down, increasing risk of wrist strain.",
+    "Landing with feet too wide, compromising stability and balance.",
+    "Not engaging core muscles, leading to poor posture and control.",
+    "Rounding the back during the lift, increasing risk of back injury.",
+    "Pulling with the arms instead of driving with the legs and hips.",
+    "Catching the bar with a soft or collapsed torso, reducing control and power."
+  ]
+}

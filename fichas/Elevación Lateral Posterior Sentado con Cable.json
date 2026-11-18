@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación Lateral Posterior Sentado con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-posterior-sentado-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/09df2003-ca3b-4a84-9af2-48c8f0dadab5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "La Elevación Lateral Posterior Sentado con Cable es un ejercicio de aislamiento que se enfoca en los deltoides posteriores. Implica el uso de una máquina de cables para proporcionar tensión constante durante el movimiento, mejorando el compromiso muscular y promoviendo la estabilidad del hombro.",
+  "como_realizar": [
+    "Ajusta la máquina de cables a la posición más baja y coloca un mango individual.",
+    "Siéntate en un banco frente a la máquina de cables con los pies planos en el suelo.",
+    "Inclínate ligeramente hacia adelante en las caderas, manteniendo la espalda recta y el núcleo comprometido.",
+    "Agarra el mango con una mano usando un agarre neutral, con la palma hacia adentro.",
+    "Comienza con el brazo extendido frente a ti, ligeramente por debajo de la altura del hombro.",
+    "Manteniendo una ligera flexión en el codo, levanta el brazo hacia el lado y ligeramente hacia atrás hasta que esté paralelo al suelo.",
+    "Pausa brevemente en la parte superior del movimiento, enfocándote en apretar el deltoides posterior.",
+    "Baja lentamente el mango de regreso a la posición inicial bajo control.",
+    "Completa el número deseado de repeticiones y cambia de brazo."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita usar el impulso; concéntrate en aislar el deltoide posterior.",
+    "Mantén los hombros hacia abajo y relajados para evitar la tensión en el cuello.",
+    "Exhala al levantar el peso e inhala al bajarlo.",
+    "Asegúrate de que tus movimientos sean simétricos en ambos lados para un desarrollo equilibrado."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un movimiento basado en el impulso en lugar de un compromiso muscular controlado.",
+    "Inclinarse demasiado hacia adelante o hacia atrás, causando una alineación incorrecta y reduciendo la activación del músculo objetivo.",
+    "Encoger los hombros durante el levantamiento, lo que desvía el enfoque de los deltoides posteriores hacia los trapecios.",
+    "Permitir que los codos caigan por debajo del nivel de los hombros, disminuyendo el rango de movimiento y la efectividad.",
+    "No mantener una ligera flexión en los codos, lo que puede forzar las articulaciones y reducir el enfoque muscular.",
+    "Apresurarse en las repeticiones, comprometiendo la forma y reduciendo el compromiso muscular.",
+    "No mantener el pecho hacia arriba y el núcleo comprometido, lo que lleva a una espalda redondeada y posible tensión.",
+    "Tirar con las manos en lugar de liderar con los codos, lo que disminuye la activación de los deltoides posteriores."
+  ]
+}

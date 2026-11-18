@@ -1,0 +1,40 @@
+{
+  "nombre": "Rotación Ascendente",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/rotacion-ascendente",
+  "video_url": "https://api.smartworkout.app/asset/video/04b6b7aa-fb63-4aee-9d87-e964666721b0.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Rotación de Abajo hacia Arriba es un ejercicio de estabilidad del core y los hombros que mejora la fuerza y el control rotacional. Se enfoca principalmente en los oblicuos, el transverso del abdomen y los deltoides, mientras también involucra los músculos estabilizadores de las caderas y la parte baja de la espalda.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de los hombros, sosteniendo una mancuerna en una mano.",
+    "Levanta la mancuerna a la altura del hombro, con el codo doblado a 90 grados y la palma hacia arriba.",
+    "Activa tu núcleo y rota tu torso hacia el lado opuesto de la mancuerna, manteniendo las caderas estables.",
+    "Gira lentamente de regreso a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Realiza el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio y la estabilidad.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Asegúrate de que tus caderas permanezcan estables y no roten con tu torso.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Mantén una posición neutral de la columna para evitar tensiones en la parte baja de la espalda."
+  ],
+  "errores_comunes": [
+    "Rotar el torso en lugar de los hombros, reduciendo la efectividad.",
+    "Permitir que los codos se abran, causando pérdida de control.",
+    "Usar el impulso en lugar de un compromiso muscular controlado.",
+    "No mantener una columna neutral, aumentando la tensión en la parte baja de la espalda.",
+    "No mantener el núcleo comprometido, lo que lleva a la inestabilidad.",
+    "Sobreextender el rango de movimiento, arriesgando tensión en los hombros.",
+    "Descuidar alinear las muñecas con los antebrazos, causando incomodidad en las muñecas.",
+    "Contener la respiración, reduciendo el flujo de oxígeno y el rendimiento."
+  ]
+}

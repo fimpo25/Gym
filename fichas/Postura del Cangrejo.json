@@ -1,0 +1,46 @@
+{
+  "nombre": "Postura del Cangrejo",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/postura-del-cangrejo",
+  "video_url": "https://api.smartworkout.app/asset/video/18211330-59ff-4f9e-b412-ab3466fc496b.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Postura del Cangrejo, también conocida como Mesa Invertida, es un ejercicio con el peso corporal que se enfoca en el núcleo, los hombros y los glúteos. Consiste en levantar las caderas del suelo mientras se equilibra sobre las manos y los pies, creando una posición de mesa con el torso paralelo al suelo.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos en el suelo, separados al ancho de las caderas.",
+    "Coloca tus manos detrás de ti, con las palmas planas en el suelo y los dedos apuntando hacia tus pies.",
+    "Activa tu núcleo y presiona a través de tus manos y pies para levantar tus caderas del suelo.",
+    "Alinea tu torso paralelo al suelo, formando una línea recta desde los hombros hasta las rodillas.",
+    "Mantén tu cabeza en una posición neutral o inclínala suavemente hacia atrás si te resulta cómodo.",
+    "Mantén esta posición durante unos segundos mientras mantienes una respiración constante.",
+    "Baja lentamente tus caderas de nuevo a la posición inicial."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén directamente debajo de tus hombros para un soporte óptimo.",
+    "Activa tus glúteos y el núcleo para mantener la estabilidad durante toda la postura.",
+    "Mantén el pecho abierto y los hombros alejados de las orejas para evitar la tensión.",
+    "Concéntrate en mantener una línea recta desde los hombros hasta las rodillas para una alineación adecuada.",
+    "Si experimentas molestias en las muñecas, ajusta la posición de las manos o toma descansos según sea necesario.",
+    "Practica la respiración controlada para ayudar a mantener el equilibrio y la concentración durante la postura."
+  ],
+  "errores_comunes": [
+    "Caderas hundiéndose hacia el suelo en lugar de estar levantadas y alineadas con los hombros y las rodillas.",
+    "Dedos apuntando hacia atrás en lugar de hacia adelante, lo que puede tensar las muñecas.",
+    "Hombros encorvados hacia adelante, reduciendo el compromiso del pecho y llevando a una mala postura.",
+    "Cuello tenso o estirado en lugar de estar en una posición neutral, causando incomodidad.",
+    "Pies colocados demasiado separados o demasiado juntos, afectando el equilibrio y la estabilidad.",
+    "Codos bloqueados e hiperextendidos, aumentando el riesgo de tensión en las articulaciones.",
+    "Músculos del core desactivados, llevando a una falta de soporte para la parte baja de la espalda.",
+    "Respiración inconsistente, lo que puede llevar a tensión y menor resistencia."
+  ]
+}

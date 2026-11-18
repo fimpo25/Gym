@@ -1,0 +1,52 @@
+{
+  "nombre": "Perro Boca Abajo de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/perro-boca-abajo-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/81311858-3f0b-48e7-a043-87855e01e7a9.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "TRICEPS"
+  ],
+  "descripcion": "El Perro Boca Abajo de Pie es una variación de la postura tradicional de yoga Perro Boca Abajo, realizada de pie. Se enfoca principalmente en los hombros, isquiotibiales, pantorrillas y músculos de la espalda, promoviendo la flexibilidad y la fuerza. Este ejercicio es beneficioso para mejorar la postura y aliviar la tensión en la parte superior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies al ancho de las caderas y los brazos a los lados.",
+    "Inhala profundamente y levanta los brazos por encima de la cabeza, manteniéndolos rectos.",
+    "Exhala y flexiona hacia adelante en las caderas, bajando el torso hasta que tus manos alcancen el suelo o una superficie estable como un bloque.",
+    "Mantén las piernas rectas pero no bloqueadas, permitiendo una ligera flexión en las rodillas si es necesario.",
+    "Presiona firmemente las palmas en el suelo o superficie, extendiendo bien los dedos.",
+    "Extiende la columna y empuja las caderas hacia arriba y hacia atrás, formando una 'V' invertida con tu cuerpo.",
+    "Mantén la posición durante varias respiraciones, manteniendo una respiración uniforme.",
+    "Para liberar, camina lentamente tus manos hacia tus pies y enróllate hasta ponerte de pie."
+  ],
+  "consejos": [
+    "Activa tus músculos centrales para apoyar tu espalda baja durante el movimiento.",
+    "Concéntrate en alargar tu columna en lugar de forzar tus talones a tocar el suelo.",
+    "Si tienes isquiotibiales tensos, dobla ligeramente las rodillas para mantener la forma adecuada.",
+    "Mantén la cabeza entre los brazos y mira hacia tus pies para evitar la tensión en el cuello.",
+    "Usa bloques de yoga bajo tus manos si no puedes alcanzar cómodamente el suelo.",
+    "Mantén una distribución de peso uniforme entre manos y pies para evitar sobrecargar cualquier área."
+  ],
+  "errores_comunes": [
+    "Pies demasiado juntos, reduciendo la estabilidad y el equilibrio.",
+    "Manos colocadas demasiado separadas, causando tensión en los hombros.",
+    "Brazos no completamente extendidos, llevando a una mala alineación.",
+    "Caderas no levantadas lo suficientemente alto, disminuyendo la efectividad del estiramiento.",
+    "Espalda arqueada en lugar de recta, aumentando la tensión en la parte baja de la espalda.",
+    "Cuello inclinado hacia adelante, causando tensión en el cuello.",
+    "Talones levantados demasiado alto, reduciendo el compromiso de las pantorrillas.",
+    "Peso distribuido de manera desigual entre manos y pies.",
+    "Hombros encogidos hacia las orejas, creando tensión.",
+    "Rodillas dobladas en exceso, limitando el estiramiento de los isquiotibiales."
+  ]
+}

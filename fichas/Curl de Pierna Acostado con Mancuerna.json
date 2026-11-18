@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Pierna Acostado con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-lying-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/2ebf00ec-a427-4cbb-bbba-24977aec32ab.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "CALVES"
+  ],
+  "descripcion": "The Dumbbell Lying Leg Curl is an isolation exercise targeting the hamstrings. It involves lying face down on a bench and using a dumbbell held between the feet to perform leg curls. This exercise helps in strengthening and toning the hamstrings, improving knee stability, and enhancing overall lower body muscle balance.",
+  "como_realizar": [
+    "Lie face down on a flat bench with your legs fully extended off the end.",
+    "Place a dumbbell securely between your feet, holding it with the arches.",
+    "Keep your hips pressed against the bench and your core engaged.",
+    "Slowly curl the dumbbell upward by bending your knees, bringing your heels towards your glutes.",
+    "Pause at the top of the movement, ensuring maximum contraction in the hamstrings.",
+    "Lower the dumbbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that the dumbbell is securely held between your feet to prevent it from slipping.",
+    "Focus on slow and controlled movements to maximize muscle engagement.",
+    "Keep your hips pressed against the bench to avoid using momentum.",
+    "Engage your core throughout the exercise to maintain stability.",
+    "Avoid locking out your knees at the bottom of the movement to keep tension on the hamstrings.",
+    "Start with a lighter weight to master form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Placing the dumbbell too close to the knees, leading to instability and potential slippage.",
+    "Allowing the hips to lift off the bench, reducing hamstring engagement.",
+    "Using momentum to swing the weights, decreasing muscle activation and control.",
+    "Not fully extending the legs at the bottom, limiting the range of motion.",
+    "Failing to keep the feet flexed, which can disengage the hamstrings.",
+    "Arching the lower back excessively, increasing strain on the lumbar spine.",
+    "Squeezing the dumbbell too tightly, causing tension in the calves instead of the hamstrings.",
+    "Allowing the knees to flare outward, reducing the effectiveness of the exercise."
+  ]
+}

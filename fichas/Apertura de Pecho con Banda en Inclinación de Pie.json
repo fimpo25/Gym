@@ -1,0 +1,47 @@
+{
+  "nombre": "Apertura de Pecho con Banda en Inclinación de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-pecho-con-banda-en-inclinacion-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/d563db4f-f311-485c-bcf7-c115e22a12ca.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Apertura de Pecho con Banda en Inclinación de Pie es un ejercicio que se enfoca en los músculos pectorales, específicamente en la parte superior del pecho. Implica el uso de bandas de resistencia para simular el movimiento de una apertura en un banco inclinado, promoviendo la hipertrofia muscular y la fuerza en el área del pecho. Este ejercicio también involucra los hombros y tríceps como músculos secundarios.",
+  "como_realizar": [
+    "Ancla la banda de resistencia en un punto bajo detrás de ti, como un anclaje de puerta o un poste resistente.",
+    "Párate con los pies separados al ancho de los hombros, mirando en dirección opuesta al punto de anclaje.",
+    "Sujeta las asas de la banda con las palmas hacia adelante, brazos extendidos ligeramente por debajo de la altura de los hombros.",
+    "Da un paso adelante para crear tensión en la banda, manteniendo una ligera flexión en los codos.",
+    "Activa tu núcleo y mantén una ligera inclinación hacia adelante desde las caderas.",
+    "Lleva tus manos juntas frente a ti en un amplio arco, apretando el pecho en el punto máximo del movimiento.",
+    "Vuelve lentamente a la posición inicial, controlando la tensión en la banda.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu núcleo esté comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Mantén una ligera flexión en los codos para reducir la tensión en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho al juntar las manos.",
+    "Controla el movimiento tanto en las fases concéntricas como excéntricas para obtener la máxima efectividad.",
+    "Ajusta tu postura o la tensión de la banda si sientes incomodidad o falta de resistencia.",
+    "Mantén una columna neutral y evita arquear la espalda durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos caigan demasiado bajo, reduciendo el compromiso del pecho.",
+    "Inclinarse demasiado hacia adelante, desviando el enfoque del pecho a los hombros.",
+    "No mantener una ligera flexión en los codos, lo que lleva a la tensión articular.",
+    "Usar el impulso para juntar las bandas, comprometiendo el control muscular.",
+    "No mantener el core comprometido, resultando en una postura inestable.",
+    "Jalar las bandas demasiado hacia atrás, causando una tensión excesiva en los hombros.",
+    "Permitir que las muñecas se doblen, reduciendo la tensión en los músculos del pecho.",
+    "Pararse demasiado cerca o demasiado lejos del punto de anclaje, afectando la consistencia de la tensión.",
+    "Descuidar retraer las escápulas, lo que lleva a una mala postura y efectividad reducida."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "nombre": "Sentadilla Profunda a Pliegue Amplio",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/deep-squat-to-wide-fold-with-foot-hold",
+  "video_url": "https://api.smartworkout.app/asset/video/953b31d7-d930-4408-926b-45090c41250a.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The 'Deep Squat to Wide Fold with Foot Hold' is a dynamic flexibility exercise that combines a deep squat with a forward fold, enhancing lower body mobility and flexibility. This exercise targets the hips, hamstrings, and lower back, promoting improved range of motion and stability.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and toes slightly turned out.",
+    "Lower into a deep squat by bending your knees and pushing your hips back, keeping your chest up and spine neutral.",
+    "Once in the squat position, extend your arms forward for balance.",
+    "From the squat, lean forward and place your hands on the ground in front of you.",
+    "Shift your weight onto your hands and straighten your legs into a wide forward fold.",
+    "Reach for your feet or ankles, holding onto them to deepen the stretch.",
+    "Hold the position for a few seconds, then release and return to the deep squat position.",
+    "Repeat the sequence for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your heels flat on the ground during the deep squat to maintain balance.",
+    "Engage your core throughout the movement to support your lower back.",
+    "Inhale as you lower into the squat and exhale as you transition into the forward fold.",
+    "If you can't reach your feet in the forward fold, hold onto your shins or ankles instead.",
+    "Focus on maintaining a straight back during both the squat and fold to prevent strain.",
+    "Perform this exercise slowly and with control to maximize flexibility benefits."
+  ],
+  "errores_comunes": [
+    "Knees collapsing inward during the squat phase.",
+    "Rounding the back excessively in the wide fold position.",
+    "Failing to maintain a neutral spine throughout the movement.",
+    "Not engaging the core muscles to stabilize the torso.",
+    "Allowing the heels to lift off the ground in the squat.",
+    "Gripping the feet too tightly, causing tension in the arms.",
+    "Not bending the knees enough to achieve a deep squat.",
+    "Shifting weight too far forward onto the toes.",
+    "Inadequate hip hinge during the transition to wide fold.",
+    "Losing balance due to uneven weight distribution.",
+    "Overextending the knees in the wide fold position.",
+    "Neglecting to activate the glutes during the squat."
+  ]
+}

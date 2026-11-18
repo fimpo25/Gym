@@ -1,0 +1,40 @@
+{
+  "nombre": "Curl Martillo con Cuerda en Polea",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-martillo-con-cuerda-en-polea",
+  "video_url": "https://api.smartworkout.app/asset/video/d369166b-0da4-4264-a714-e4e63de71a69.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Martillo con Cuerda en Cable es un ejercicio de aislamiento que se enfoca en los músculos braquial, braquiorradial y bíceps braquial. Utiliza un accesorio de cuerda en una máquina de cable para proporcionar tensión constante durante el movimiento, mejorando el compromiso y crecimiento muscular.",
+  "como_realizar": [
+    "Coloca un mango de cuerda en la polea baja de una máquina de cables.",
+    "Párate frente a la máquina con los pies al ancho de los hombros.",
+    "Agarra la cuerda con un agarre neutral (palmas enfrentadas).",
+    "Mantén los codos cerca de tu torso y la espalda recta.",
+    "Exhala mientras flexionas los codos para levantar la cuerda hacia arriba.",
+    "Continúa levantando hasta que tus antebrazos estén verticales o ligeramente más allá de lo vertical.",
+    "Aprieta tus bíceps en la parte superior del movimiento.",
+    "Inhala mientras bajas lentamente la cuerda de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado para maximizar la tensión muscular.",
+    "Evita balancear tu cuerpo o usar el impulso para levantar el peso.",
+    "Concéntrate en mantener tus codos estacionarios durante todo el ejercicio.",
+    "Activa tu núcleo para estabilizar tu cuerpo durante el movimiento.",
+    "Experimenta con diferentes longitudes de cuerda para encontrar lo que te resulte más cómodo.",
+    "Realiza el ejercicio lentamente para aumentar el tiempo bajo tensión y obtener mejores resultados.",
+    "Asegúrate de tener un rango completo de movimiento extendiendo y contrayendo completamente tus brazos."
+  ],
+  "errores_comunes": []
+}

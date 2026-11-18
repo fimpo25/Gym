@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps en Cable Agarre Invertido a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-cable-con-agarre-invertido-a-una-mano",
+  "video_url": "https://api.smartworkout.app/asset/video/339e99d5-03bb-4616-bca9-f3e24d144ba0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps en Polea con Agarre Inverso a Una Mano es un ejercicio de aislamiento que se enfoca en el tríceps braquial, enfatizando particularmente la cabeza larga. Este ejercicio implica el uso de una máquina de poleas con un accesorio de mango único, permitiendo un agarre inverso que activa los tríceps de manera diferente en comparación con las extensiones tradicionales.",
+  "como_realizar": [
+    "Coloca un mango individual en una polea alta de la máquina de cables.",
+    "Párate frente a la máquina, agarra el mango con un agarre supino (palma hacia arriba) usando una mano.",
+    "Coloca tus pies al ancho de los hombros y dobla ligeramente las rodillas para mayor estabilidad.",
+    "Mantén tu brazo superior cerca de tu cuerpo y tu codo fijo a tu lado.",
+    "Comienza con tu antebrazo paralelo al suelo, luego extiende tu brazo hacia abajo contrayendo tus tríceps.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando la extensión completa del codo.",
+    "Regresa lentamente a la posición inicial con control, manteniendo la tensión en los tríceps en todo momento.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y evita inclinarte hacia adelante o hacia atrás durante el ejercicio.",
+    "Concéntrate en mantener tu codo estacionario; solo tu antebrazo debe moverse.",
+    "Usa un peso más ligero inicialmente para dominar la forma y prevenir tensión en la articulación del codo.",
+    "Activa tus músculos del core para mantener el equilibrio y la estabilidad durante todo el movimiento.",
+    "Exhala al empujar hacia abajo e inhala al regresar a la posición inicial.",
+    "Mantén los movimientos lentos y controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a un movimiento basado en el impulso en lugar de un compromiso muscular controlado.",
+    "Permitir que el codo se abra en lugar de mantenerlo cerca del cuerpo, reduciendo la activación del tríceps.",
+    "Inclinarse hacia adelante en exceso, lo que desvía el enfoque del tríceps a otros grupos musculares.",
+    "No extender completamente el brazo en la parte inferior del movimiento, limitando el rango de movimiento.",
+    "Permitir que la muñeca se doble en lugar de mantener una posición neutral, lo que puede causar incomodidad.",
+    "No mantener el hombro estable, lo que lleva a un movimiento innecesario del hombro y reduce la aislación del tríceps.",
+    "Apresurarse en el ejercicio sin un tempo controlado, lo que disminuye el tiempo bajo tensión para el tríceps.",
+    "Comenzar el movimiento con el hombro en lugar del codo, resultando en un pobre compromiso del tríceps."
+  ]
+}

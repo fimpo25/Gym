@@ -1,0 +1,50 @@
+{
+  "nombre": "Remo Gorila",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/gorilla-row",
+  "video_url": "https://api.smartworkout.app/asset/video/2006990a-8bbe-44ca-b959-9f24c7e4a5cd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Gorilla Row is a unilateral back exercise that targets the latissimus dorsi, rhomboids, and traps while also engaging the core. It is performed with dumbbells and involves a bent-over stance, mimicking the posture of a gorilla. This exercise helps in building strength and stability in the upper back and shoulders.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in each hand.",
+    "Bend your knees slightly and hinge at the hips to lower your torso until it is almost parallel to the floor.",
+    "Keep your back straight and engage your core throughout the movement.",
+    "Let your arms hang straight down from your shoulders with palms facing each other.",
+    "Row one dumbbell towards your hip by bending your elbow and squeezing your shoulder blade towards your spine.",
+    "Lower the dumbbell back to the starting position and repeat with the opposite arm.",
+    "Continue alternating arms for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine by keeping your head aligned with your spine.",
+    "Engage your core to prevent lower back strain.",
+    "Focus on pulling with your back muscles rather than using momentum.",
+    "Keep your elbows close to your body during the row for maximum lat engagement.",
+    "Control the weight throughout the movement, especially when lowering the dumbbell.",
+    "Ensure even distribution of weight on both feet to maintain balance."
+  ],
+  "errores_comunes": [
+    "Hunching the back instead of maintaining a neutral spine.",
+    "Using momentum instead of controlled movements.",
+    "Allowing the elbows to flare out excessively.",
+    "Pulling the weight too high, causing shoulder strain.",
+    "Not engaging the core to stabilize the torso.",
+    "Dropping the chest too low, losing proper posture.",
+    "Neglecting to keep the shoulders retracted.",
+    "Rounding the shoulders forward during the row.",
+    "Failing to keep the feet firmly planted for stability.",
+    "Overextending the arm at the bottom of the row."
+  ]
+}

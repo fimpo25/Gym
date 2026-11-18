@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación de Rodillas en Ab Coaster",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-rodillas-en-ab-coaster",
+  "video_url": "https://api.smartworkout.app/asset/video/1e4902a0-05fc-4ab0-8fcd-5e745eb096af.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación de Rodillas en Ab Coaster es un ejercicio abdominal realizado en una máquina especializada diseñada para trabajar los abdominales inferiores. Implica un movimiento controlado donde las rodillas se elevan hacia el pecho mientras se mantiene un núcleo estable. Este ejercicio ayuda a fortalecer los músculos abdominales, enfocándose particularmente en la región inferior, y también puede involucrar los flexores de la cadera.",
+  "como_realizar": [
+    "Ajusta la altura del asiento en la máquina ab coaster para que tus antebrazos puedan descansar cómodamente en las almohadillas.",
+    "Agarra las manijas firmemente y asegúrate de que tu espalda esté presionada contra el respaldo.",
+    "Coloca tus rodillas en la almohadilla para las rodillas, manteniendo los pies fuera del suelo.",
+    "Activa tu núcleo apretando los músculos abdominales.",
+    "Levanta lentamente tus rodillas hacia tu pecho en un movimiento controlado, exhalando mientras las levantas.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción de los abdominales.",
+    "Inhala mientras bajas lentamente tus rodillas de nuevo a la posición inicial sin dejarlas tocar el suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Concéntrate en usar tus músculos abdominales para levantar las rodillas en lugar de depender del impulso.",
+    "Mantén la cabeza y el cuello relajados durante todo el ejercicio para evitar tensiones innecesarias.",
+    "Asegúrate de que tu espalda permanezca presionada contra el respaldo para estabilizar tu cuerpo.",
+    "Evita movimientos de balanceo o sacudidas para prevenir lesiones y asegurar un enfoque efectivo en los abdominales.",
+    "Comienza con un número manejable de repeticiones y aumenta gradualmente a medida que mejora tu fuerza."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante o hacia atrás, alterando el equilibrio y apuntando a los músculos incorrectos.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo el compromiso muscular.",
+    "No involucrar el núcleo durante todo el ejercicio, lo que lleva a resultados ineficaces.",
+    "Permitir que las rodillas caigan demasiado, disminuyendo el rango de movimiento y la efectividad.",
+    "Agarrar las manijas demasiado fuerte, causando tensión en los hombros y brazos.",
+    "No mantener una columna neutral, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "Balancear las piernas en lugar de levantarlas, comprometiendo la activación del núcleo."
+  ]
+}

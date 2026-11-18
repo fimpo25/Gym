@@ -1,0 +1,50 @@
+{
+  "nombre": "Paseo del Granjero Unilateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/paseo-del-granjero-unilateral",
+  "video_url": "https://api.smartworkout.app/asset/video/11baf506-4fb6-4333-9d0e-a13862654199.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CALVES",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Caminata del Granjero Unilateral es un ejercicio de fuerza y acondicionamiento que se enfoca en el núcleo, la fuerza de agarre y la estabilidad del tren inferior. Consiste en llevar un peso pesado en una mano mientras se camina una distancia específica o durante un tiempo determinado. Este ejercicio desafía el equilibrio y la coordinación, activando los músculos de ambos lados del cuerpo de manera asimétrica.",
+  "como_realizar": [
+    "Selecciona una mancuerna o kettlebell pesada y colócala a tu lado.",
+    "Ponte de pie con los pies separados al ancho de las caderas y activa tu núcleo.",
+    "Dobla las rodillas para recoger el peso con una mano, manteniendo la espalda recta.",
+    "Sujeta el peso de manera segura a tu lado con el brazo completamente extendido.",
+    "Comienza a caminar hacia adelante en línea recta, manteniendo una postura erguida.",
+    "Mantén los hombros nivelados y evita inclinarte hacia un lado.",
+    "Camina una distancia o tiempo determinado, luego cambia de mano y repite."
+  ],
+  "consejos": [
+    "Elige un peso que desafíe tu agarre pero que te permita mantener la forma adecuada.",
+    "Concéntrate en mantener el núcleo apretado para evitar que tu torso se incline.",
+    "Mantén un ritmo constante y una respiración controlada durante toda la caminata.",
+    "Asegúrate de que tus pasos sean uniformes y deliberados para mejorar el equilibrio.",
+    "Cambia de mano regularmente para trabajar ambos lados del cuerpo por igual.",
+    "Usa este ejercicio como parte de una rutina equilibrada para mejorar la fuerza funcional general."
+  ],
+  "errores_comunes": [
+    "Inclinarse excesivamente hacia un lado en lugar de mantener una postura erguida.",
+    "Permitir que el peso se balancee, perdiendo control y estabilidad.",
+    "No comprometer el core, lo que lleva a un equilibrio y postura deficientes.",
+    "Dar pasos demasiado grandes o pequeños, alterando el paso y el equilibrio natural.",
+    "Sostener el peso demasiado lejos del cuerpo, aumentando la tensión en el hombro.",
+    "Descuidar mantener las escápulas retraídas, lo que resulta en una espalda redondeada.",
+    "Caminar demasiado rápido, comprometiendo la forma y el compromiso muscular.",
+    "No mantener la cabeza alineada con la columna, lo que lleva a una tensión en el cuello.",
+    "Usar un peso demasiado pesado, causando movimientos compensatorios y mala forma."
+  ]
+}

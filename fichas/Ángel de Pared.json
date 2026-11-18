@@ -1,0 +1,50 @@
+{
+  "nombre": "Ángel de Pared",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/wall-angel",
+  "video_url": "https://api.smartworkout.app/asset/video/95e65845-1451-4d21-a5d9-fa8b20996ad0.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "CHEST"
+  ],
+  "descripcion": "The Wall Angel exercise is designed to improve shoulder mobility, posture, and scapular stability. It targets the muscles of the upper back, shoulders, and chest by promoting proper alignment and movement patterns.",
+  "como_realizar": [
+    "Stand with your back against a wall, feet shoulder-width apart, and heels about 6 inches away from the wall.",
+    "Ensure your lower back is flat against the wall by engaging your core and slightly tucking your pelvis.",
+    "Raise your arms to shoulder height and bend your elbows at 90 degrees, keeping your upper arms parallel to the floor.",
+    "Press your entire arm, from fingertips to elbows, against the wall.",
+    "Slowly slide your arms upward along the wall while maintaining contact with the wall. Stop when you feel any discomfort or if your arms lose contact with the wall.",
+    "Pause briefly at the top, then slowly slide your arms back down to the starting position.",
+    "Repeat for the desired number of repetitions, focusing on maintaining proper form throughout."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to prevent arching of the lower back.",
+    "Focus on maintaining full contact of your arms with the wall to ensure proper shoulder movement.",
+    "Perform the exercise slowly and with control to maximize its effectiveness.",
+    "If you experience difficulty keeping your arms against the wall, try adjusting your stance or performing shoulder mobility exercises as a warm-up.",
+    "Breathe steadily and avoid holding your breath during the movement."
+  ],
+  "errores_comunes": [
+    "Arms not in contact with the wall throughout the movement.",
+    "Arching the lower back away from the wall.",
+    "Allowing the shoulders to shrug upwards during the exercise.",
+    "Failing to keep the head in contact with the wall.",
+    "Bending the wrists instead of keeping them straight.",
+    "Rushing through the movement without controlled motion.",
+    "Not maintaining a 90-degree angle at the elbows.",
+    "Letting the elbows drift away from the wall.",
+    "Failing to engage the core muscles to stabilize the torso.",
+    "Performing the exercise with a limited range of motion due to tightness."
+  ]
+}

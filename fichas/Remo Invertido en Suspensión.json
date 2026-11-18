@@ -1,0 +1,51 @@
+{
+  "nombre": "Remo Invertido en Suspensión",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-invertido-en-suspension",
+  "video_url": "https://api.smartworkout.app/asset/video/2aaa7550-ab33-430f-ba0e-7cd6b8e95f5b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Invertido en Suspensión es un ejercicio con el peso corporal que se enfoca en la parte superior de la espalda, los hombros y los bíceps. Utiliza correas de suspensión para permitir un ángulo de resistencia personalizable, lo que lo hace adecuado para diversos niveles de condición física. Este ejercicio ayuda a mejorar la postura, la fuerza de la parte superior del cuerpo y la resistencia muscular.",
+  "como_realizar": [
+    "Asegura las correas de suspensión a un punto de anclaje seguro por encima de la altura de la cabeza.",
+    "Ajusta las correas para que las asas estén a la altura de la cintura.",
+    "Párate frente al punto de anclaje y agarra las asas con un agarre por encima.",
+    "Camina hacia adelante con los pies hasta que tu cuerpo esté en el ángulo deseado, manteniendo una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo y mantén tu cuerpo rígido.",
+    "Lleva tu pecho hacia las asas conduciendo los codos hacia atrás y juntando los omóplatos.",
+    "Haz una pausa breve en la parte superior del movimiento.",
+    "Extiende lentamente los brazos para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu núcleo esté comprometido durante todo el movimiento para mantener una línea corporal recta.",
+    "Ajusta el ángulo de tu cuerpo para aumentar o disminuir la dificultad; una posición más horizontal aumenta la resistencia.",
+    "Concéntrate en apretar tus omóplatos juntos en la parte superior del movimiento para una contracción máxima.",
+    "Mantén tus muñecas en una posición neutral para evitar tensiones innecesarias.",
+    "Controla el descenso para maximizar el compromiso muscular y prevenir lesiones.",
+    "Exhala mientras te levantas e inhala mientras te bajas."
+  ],
+  "errores_comunes": [
+    "Tirar con los brazos en lugar de involucrar los músculos de la espalda.",
+    "Dejar que las caderas se hundan o se eleven, perdiendo una línea recta del cuerpo.",
+    "Permitir que los hombros se redondeen hacia adelante durante el tirón.",
+    "No retraer las escápulas en la parte superior del movimiento.",
+    "Usar el impulso para completar el tirón en lugar de un movimiento controlado.",
+    "No mantener una posición neutral de la cabeza y el cuello.",
+    "Agarrar las asas demasiado fuerte, causando fatiga en los antebrazos.",
+    "No lograr un rango completo de movimiento, deteniéndose antes de que el pecho llegue a las asas.",
+    "Comenzar con el cuerpo demasiado vertical, reduciendo la intensidad del ejercicio.",
+    "Abrir los codos demasiado hacia afuera, arriesgando tensión en los hombros."
+  ]
+}

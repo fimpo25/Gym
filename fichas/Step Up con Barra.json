@@ -1,0 +1,46 @@
+{
+  "nombre": "Step Up con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/barbell-step-up",
+  "video_url": "https://api.smartworkout.app/asset/video/31c9c173-599f-414b-bce4-ae32b7558e6a.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Barbell Step-up is a compound lower body exercise that targets the quadriceps, hamstrings, glutes, and calves. It involves stepping onto an elevated platform with a barbell placed across the upper back, requiring balance and coordination.",
+  "como_realizar": [
+    "Begin by setting up a stable platform or bench at knee height.",
+    "Load a barbell with an appropriate weight and place it across your upper back, gripping it firmly with both hands.",
+    "Stand upright with feet shoulder-width apart in front of the platform.",
+    "Step onto the platform with your right foot, pressing through the heel to lift your body upward.",
+    "Bring your left foot up to meet your right foot on the platform.",
+    "Step back down with your left foot first, followed by your right foot to return to the starting position.",
+    "Repeat the movement starting with the left foot for equal repetitions on each side."
+  ],
+  "consejos": [
+    "Ensure the platform is stable to prevent slipping or tipping during the exercise.",
+    "Keep your core engaged throughout the movement to maintain balance and protect your lower back.",
+    "Focus on driving through the heel of the stepping foot to maximize glute and hamstring activation.",
+    "Maintain an upright posture with shoulders back and chest up while stepping up and down.",
+    "Control the descent when stepping down to avoid impact on the knees and maintain balance."
+  ],
+  "errores_comunes": [
+    "Pushing off with the back leg instead of driving through the front heel.",
+    "Allowing the knee to cave inward during the step-up.",
+    "Using too much momentum rather than controlled movement.",
+    "Leaning too far forward or backward during the ascent.",
+    "Placing the barbell too high or too low on the back.",
+    "Failing to fully extend the hip at the top of the movement.",
+    "Stepping down too quickly without control.",
+    "Using a box or step that is too high, leading to improper form.",
+    "Not engaging the core to stabilize the torso.",
+    "Allowing the shoulders to round forward under the barbell."
+  ]
+}

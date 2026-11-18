@@ -1,0 +1,38 @@
+{
+  "nombre": "Jalón de Dorsales Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/wide-grip-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/6fff17b4-6a5a-4a89-a41c-6d25203cab15.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Wide Grip Lat Pulldown is a compound exercise primarily targeting the latissimus dorsi muscles in the back. It also engages the biceps, forearms, and shoulders. This exercise is performed using a cable machine with a wide bar attachment, allowing for a greater range of motion and increased muscle activation in the upper back.",
+  "como_realizar": [
+    "Sit down at the lat pulldown machine and adjust the knee pad to fit snugly against your thighs to prevent your body from lifting during the exercise.",
+    "Grasp the bar with an overhand grip, hands placed wider than shoulder-width apart.",
+    "Lean back slightly at an angle of about 30 degrees while keeping your chest up and core engaged.",
+    "Pull the bar down towards your upper chest by squeezing your shoulder blades together and driving your elbows down and back.",
+    "Pause briefly at the bottom of the movement, ensuring maximum contraction in the lats.",
+    "Slowly release the bar back to the starting position with controlled movement, fully extending your arms."
+  ],
+  "consejos": [
+    "Ensure your grip is wide enough to maximize lat engagement but not so wide that it causes discomfort or strain.",
+    "Keep your core tight throughout the movement to maintain stability and support your lower back.",
+    "Avoid using momentum; focus on controlled movements to effectively target the muscles.",
+    "Exhale as you pull the bar down and inhale as you return to the starting position.",
+    "If you experience shoulder discomfort, try adjusting your grip width or consult with a fitness professional."
+  ],
+  "errores_comunes": []
+}

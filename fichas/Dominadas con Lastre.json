@@ -1,0 +1,49 @@
+{
+  "nombre": "Dominadas con Lastre",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/dominadas-con-lastre",
+  "video_url": "https://api.smartworkout.app/asset/video/380148be-7a79-4a02-8a8b-4c82cf08afc6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Las dominadas lastradas son un ejercicio avanzado para la parte superior del cuerpo que se enfoca en el dorsal ancho, los bíceps y otros músculos de la espalda y los brazos. Al añadir peso, este ejercicio incrementa la resistencia, mejorando la fuerza muscular y la hipertrofia. Requiere una barra de dominadas y peso adicional, generalmente sujeto mediante un cinturón de pesas.",
+  "como_realizar": [
+    "Comienza asegurando un peso a tu cuerpo usando un cinturón de inmersión o un chaleco con peso.",
+    "Párate debajo de una barra de dominadas y agárrala con un agarre por encima, con las manos un poco más anchas que el ancho de los hombros.",
+    "Activa tu núcleo y retrae tus omóplatos para estabilizar tu cuerpo.",
+    "Inicia el tirón llevando tus codos hacia abajo y levantando tu barbilla por encima de la barra.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la contracción completa de los músculos de la espalda.",
+    "Bájate de manera controlada hasta que tus brazos estén completamente extendidos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que el peso añadido esté bien sujeto para prevenir lesiones.",
+    "Concéntrate en mantener una línea recta desde la cabeza hasta los talones activando tu core durante todo el ejercicio.",
+    "Evita balancearte o usar impulso para completar la dominada; apunta a movimientos controlados.",
+    "Si eres nuevo en las dominadas con peso, comienza con un peso más ligero para dominar la forma antes de progresar.",
+    "Mantén los hombros alejados de las orejas para prevenir tensiones innecesarias y promover un adecuado compromiso muscular.",
+    "Exhala al subir e inhala al bajar."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que compromete la forma y el control.",
+    "No involucrar el core, lo que lleva a balanceo o kipping.",
+    "No lograr un rango completo de movimiento, como no bajar completamente o no pasar la barbilla sobre la barra.",
+    "Permitir que los hombros se encojan en lugar de mantenerlos hacia abajo y hacia atrás.",
+    "Usar el impulso en lugar de un movimiento controlado.",
+    "Agarrar la barra demasiado fuerte, lo que puede llevar a fatiga en los antebrazos.",
+    "Descuidar estabilizar las escápulas, causando tensión en los hombros.",
+    "Doblar excesivamente las muñecas, lo que puede llevar a molestias en las muñecas.",
+    "No alinear el cuerpo verticalmente, causando tensión innecesaria en la columna.",
+    "Ignorar los patrones de respiración, lo que lleva a un rendimiento y estabilidad disminuidos."
+  ]
+}

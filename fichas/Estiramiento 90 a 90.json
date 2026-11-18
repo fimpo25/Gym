@@ -1,0 +1,45 @@
+{
+  "nombre": "Estiramiento 90 a 90",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/estiramiento-90-a-90",
+  "video_url": "https://api.smartworkout.app/asset/video/78b343c4-cf54-4d33-aa3a-b9f76c86d533.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Estiramiento 90 a 90 es un ejercicio de flexibilidad dinámica que se enfoca en los rotadores de la cadera y los glúteos. Implica la transición entre dos posiciones sentadas, cada una con un ángulo de 90 grados en las rodillas, para mejorar la movilidad y reducir la tensión en las caderas.",
+  "como_realizar": [
+    "Siéntate en el suelo con las piernas dobladas frente a ti.",
+    "Coloca tu pierna derecha frente a ti con una flexión de 90 grados en la rodilla, la espinilla paralela a tu torso.",
+    "Coloca tu pierna izquierda al lado, también doblada en un ángulo de 90 grados, con la espinilla perpendicular a tu torso.",
+    "Mantén la espalda recta y el pecho hacia arriba durante todo el movimiento.",
+    "Gira lentamente las caderas para cambiar la posición de las piernas, llevando la pierna izquierda al frente y la pierna derecha al lado, manteniendo los ángulos de 90 grados.",
+    "Continúa alternando lados de manera controlada durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener la espalda recta y una postura erguida para maximizar el compromiso de las caderas.",
+    "Muévete lenta y deliberadamente para asegurar una forma adecuada y evitar tensiones innecesarias.",
+    "Si experimentas incomodidad, reduce el rango de movimiento o ajusta ligeramente el ángulo.",
+    "Activa los músculos del core para estabilizar el torso durante las transiciones.",
+    "Realiza este estiramiento como parte de tu rutina de calentamiento o enfriamiento para mejorar la movilidad de las caderas."
+  ],
+  "errores_comunes": [
+    "Rotar el torso demasiado rápido, causando pérdida de control y equilibrio.",
+    "Permitir que las rodillas se levanten del suelo, reduciendo el compromiso de las caderas.",
+    "No mantener las piernas delantera y trasera en ángulos de 90 grados, lo que lleva a un estiramiento ineficaz.",
+    "Inclinar el torso demasiado hacia adelante o hacia atrás, comprometiendo la postura.",
+    "No activar el core, resultando en un movimiento inestable.",
+    "Mover las caderas en lugar de rotarlas, limitando el rango de movimiento.",
+    "Descuidar mantener la columna recta, lo que puede tensar la parte baja de la espalda."
+  ]
+}

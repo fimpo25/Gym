@@ -1,0 +1,46 @@
+{
+  "nombre": "Estiramiento Medio Rana Oscilante",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/rocking-half-frog-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/2d5cc9be-ac8c-45ae-821b-ee35a1937ab3.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Rocking Half Frog Stretch is a dynamic flexibility exercise targeting the hip flexors, adductors, and lower back. It helps improve mobility and reduce tension in the hips, making it beneficial for athletes and individuals with sedentary lifestyles.",
+  "como_realizar": [
+    "Begin on all fours in a tabletop position with your hands directly under your shoulders and knees under your hips.",
+    "Extend one leg straight back while keeping the other knee bent at a 90-degree angle, foot turned out to the side.",
+    "Slowly rock your hips back towards your heels, feeling a stretch in the inner thigh of the bent leg.",
+    "Hold the stretch for a moment, then rock forward to return to the starting position.",
+    "Repeat the rocking motion for the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain stability throughout the movement.",
+    "Ensure your movements are slow and controlled to maximize the stretch and prevent injury.",
+    "Focus on breathing deeply to enhance relaxation and flexibility.",
+    "Adjust the angle of your bent leg to increase or decrease the intensity of the stretch.",
+    "Perform this stretch on a soft surface or mat to protect your knees."
+  ],
+  "errores_comunes": [
+    "Knees placed too close together, reducing stretch effectiveness.",
+    "Hips not aligned with the knees, causing uneven stretch distribution.",
+    "Arching the lower back excessively, leading to potential strain.",
+    "Failing to engage core muscles, resulting in loss of stability.",
+    "Rocking too quickly, preventing proper muscle lengthening.",
+    "Allowing the feet to turn inward or outward, misaligning the stretch.",
+    "Not maintaining a neutral neck position, causing unnecessary tension.",
+    "Neglecting to breathe deeply, reducing relaxation and stretch depth."
+  ]
+}

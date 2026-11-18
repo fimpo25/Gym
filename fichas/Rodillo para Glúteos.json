@@ -1,0 +1,45 @@
+{
+  "nombre": "Rodillo para Glúteos",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/rodillo-para-gluteos",
+  "video_url": "https://api.smartworkout.app/asset/video/dd29ea4c-5985-4a8b-ade9-9e1af9c89751.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Rodillo para Glúteos es un ejercicio de liberación miofascial que se enfoca en los músculos glúteos. Consiste en usar un rodillo de espuma para aplicar presión en los glúteos, ayudando a liberar tensión, mejorar la flexibilidad y potenciar la recuperación muscular.",
+  "como_realizar": [
+    "Siéntate en el suelo con las piernas extendidas y coloca un rodillo de espuma debajo de los glúteos.",
+    "Dobla las rodillas y coloca los pies planos en el suelo.",
+    "Cruza el tobillo derecho sobre la rodilla izquierda para enfocar el glúteo derecho.",
+    "Coloca las manos en el suelo detrás de ti para apoyarte.",
+    "Desplaza tu peso hacia el glúteo derecho y rueda lentamente de adelante hacia atrás desde la parte superior del glúteo hasta la parte inferior.",
+    "Continúa rodando durante 30-60 segundos, enfocándote en cualquier área tensa o sensible.",
+    "Cambia de lado cruzando el tobillo izquierdo sobre la rodilla derecha y repite el proceso para el glúteo izquierdo."
+  ],
+  "consejos": [
+    "Mantén un ritmo constante mientras ruedas para apuntar efectivamente a la tensión muscular.",
+    "Si encuentras un punto particularmente tenso, pausa y mantén la presión durante 20-30 segundos para ayudar a liberar la tensión.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante el ejercicio.",
+    "Respira profundamente y relaja tus músculos tanto como sea posible mientras ruedas.",
+    "Ajusta la presión desplazando más o menos el peso de tu cuerpo sobre el rodillo de espuma."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Usar el impulso para rodar en lugar de movimientos controlados.",
+    "No activar los músculos del core para estabilizar la pelvis.",
+    "Colocar los pies demasiado cerca o demasiado lejos de los glúteos, afectando el apalancamiento.",
+    "Permitir que las rodillas colapsen hacia adentro o se abran hacia afuera.",
+    "No mantener una presión uniforme en ambos pies durante el movimiento.",
+    "Rodar demasiado rápido, reduciendo el compromiso muscular.",
+    "No alinear correctamente el cuerpo en el rodillo de espuma, lo que lleva a un desequilibrio.",
+    "Descuidar respirar de manera constante, causando tensión y reduciendo la efectividad."
+  ]
+}

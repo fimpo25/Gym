@@ -1,0 +1,47 @@
+{
+  "nombre": "Spider Hammer Curl",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/spider-hammer-curl:-curl-martillo-en-arana",
+  "video_url": "https://api.smartworkout.app/asset/video/c795f6c3-f7f3-49d4-b2f9-dd7769bc4715.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Martillo Araña es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial de los brazos. Consiste en levantar mancuernas con un agarre neutral mientras se inclina hacia adelante, generalmente realizado en un banco inclinado. Este ejercicio mejora el grosor de los brazos y la fuerza del antebrazo.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 45 grados.",
+    "Acuéstate boca abajo en el banco, asegurándote de que tu pecho esté apoyado y tus brazos cuelguen rectos hacia abajo.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral (palmas enfrentadas).",
+    "Mantén los codos ligeramente doblados y estacionarios durante todo el movimiento.",
+    "Flexiona los codos para levantar las mancuernas hacia arriba, manteniendo las muñecas rectas.",
+    "Aprieta en la parte superior del movimiento, enfocándote en contraer el braquial.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado para maximizar el compromiso muscular.",
+    "Evita balancear tus brazos o usar el impulso para levantar las pesas.",
+    "Concéntrate en mantener tus codos estacionarios para aislar eficazmente los músculos objetivo.",
+    "Exhala mientras levantas las pesas e inhala mientras las bajas.",
+    "Comienza con pesas más ligeras para asegurar una forma adecuada antes de progresar a cargas más pesadas.",
+    "Asegúrate de que tu pecho permanezca en contacto con el banco para evitar tensión innecesaria en tu espalda."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo para levantar las pesas en lugar de aislar los bíceps.",
+    "Permitir que los codos se desplacen hacia adelante o hacia atrás, reduciendo el compromiso del bíceps.",
+    "Usar un agarre demasiado apretado, causando tensión innecesaria en los antebrazos.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Enroscar las muñecas en la parte superior del movimiento, desviando el enfoque de los bíceps.",
+    "Apresurarse en el movimiento, sacrificando el control y el compromiso muscular.",
+    "Levantar pesas que son demasiado pesadas, comprometiendo la forma y aumentando el riesgo de lesiones.",
+    "No mantener una columna neutral, lo que lleva a una mala postura y posible tensión en la espalda."
+  ]
+}

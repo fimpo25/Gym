@@ -1,0 +1,54 @@
+{
+  "nombre": "Face Pull Supinado con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/cable-supinated-face-pull",
+  "video_url": "https://api.smartworkout.app/asset/video/6c906e89-851b-4230-8d31-5e739273c968.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "BICEPS"
+  ],
+  "descripcion": "The Cable Supinated Face Pull is an upper body exercise targeting the rear deltoids, trapezius, and rotator cuff muscles. It involves pulling a cable towards the face with a supinated grip, emphasizing shoulder external rotation and scapular retraction.",
+  "como_realizar": [
+    "Attach a rope handle to a high pulley on a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the rope with an underhand (supinated) grip, palms facing up.",
+    "Step back slightly to create tension in the cable, keeping arms extended.",
+    "Engage your core and maintain a slight bend in your knees.",
+    "Pull the rope towards your face, leading with your elbows and keeping them high.",
+    "Focus on squeezing your shoulder blades together as you pull.",
+    "Pause briefly when the rope is near your face, ensuring full contraction of the rear deltoids.",
+    "Slowly extend your arms back to the starting position, maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your elbows above shoulder level throughout the movement to maximize rear deltoid engagement.",
+    "Maintain a neutral spine and avoid arching your back during the exercise.",
+    "Use a light to moderate weight to ensure proper form and prevent injury.",
+    "Focus on controlled movements rather than speed to enhance muscle activation.",
+    "Breathe out as you pull the rope towards your face and inhale as you return to the starting position.",
+    "Ensure that your wrists remain straight and avoid excessive wrist flexion or extension."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and excessive momentum.",
+    "Allowing the elbows to drop too low, reducing rear deltoid engagement.",
+    "Pulling the cable too far back, causing shoulder joint strain.",
+    "Failing to keep the wrists in a neutral position, leading to discomfort.",
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Engaging the traps excessively instead of focusing on the rear delts and rotator cuff muscles.",
+    "Standing too far from the cable machine, reducing tension on the muscles.",
+    "Not retracting the shoulder blades fully, limiting muscle activation.",
+    "Using an incorrect grip width, affecting the range of motion and muscle engagement.",
+    "Rushing through the movement, compromising control and effectiveness."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Remo Sentado en Polea Baja Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/seated-cable-low-row-neutral-grip",
+  "video_url": "https://api.smartworkout.app/asset/video/766c2565-2c05-4f70-bc15-4181fe51649d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Cable Low Seated Row Close Bar is a compound exercise targeting the muscles of the back, specifically the latissimus dorsi, rhomboids, and trapezius. It also engages the biceps and forearms as secondary muscles. This exercise is performed using a cable machine with a close-grip attachment, allowing for a full range of motion and effective muscle contraction.",
+  "como_realizar": [
+    "Sit on the bench of a cable row machine with your feet firmly placed on the foot platform.",
+    "Grasp the close-grip bar with both hands, palms facing each other.",
+    "Keep your back straight and slightly lean back at the hips while maintaining a neutral spine.",
+    "Pull the bar towards your lower abdomen by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly when the bar reaches your body, ensuring maximum contraction in your back muscles.",
+    "Slowly extend your arms to return to the starting position, maintaining control throughout the movement.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your shoulders are down and back throughout the movement to maximize back engagement.",
+    "Avoid using momentum; focus on controlled movements for better muscle activation.",
+    "Keep your core engaged to support your lower back and maintain proper posture.",
+    "Exhale as you pull the bar towards you and inhale as you return to the starting position.",
+    "Adjust the seat height or foot placement if necessary to ensure a comfortable range of motion."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using momentum by leaning back excessively.",
+    "Allowing the shoulders to shrug upwards.",
+    "Pulling with the arms instead of engaging the back muscles.",
+    "Not fully retracting the shoulder blades at the end of the pull.",
+    "Letting the elbows flare out too wide.",
+    "Failing to keep the chest up and open.",
+    "Overextending the arms at the start of the pull.",
+    "Not controlling the weight on the return phase.",
+    "Positioning the feet too far forward or backward on the platform."
+  ]
+}

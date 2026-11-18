@@ -1,0 +1,44 @@
+{
+  "nombre": "Extensión de Tríceps en Polea con Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-polea-con-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/42918782-41b8-4d85-9b5e-1a0582156767.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps en Polea con un Brazo es un ejercicio de aislamiento que se enfoca en el músculo tríceps braquial. Se realiza utilizando una máquina de poleas con un accesorio de agarre único, lo que permite un entrenamiento unilateral para corregir desequilibrios musculares y mejorar la simetría de los brazos.",
+  "como_realizar": [
+    "Coloca un mango individual en la polea alta de una máquina de cables.",
+    "Párate frente a la máquina con los pies al ancho de los hombros.",
+    "Agarra el mango con una mano, con la palma hacia abajo, y da un paso atrás ligeramente para crear tensión en el cable.",
+    "Coloca tu brazo superior cerca de tu cuerpo y mantén el codo fijo a tu lado.",
+    "Exhala y empuja el mango hacia abajo extendiendo el codo hasta que tu brazo esté completamente recto.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando una contracción completa de los tríceps.",
+    "Inhala y regresa lentamente a la posición inicial con control, permitiendo que el codo se doble.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido y una ligera flexión en las rodillas para estabilidad.",
+    "Evita usar impulso; concéntrate en movimientos controlados para maximizar el compromiso muscular.",
+    "Asegúrate de que tu muñeca permanezca neutral durante todo el ejercicio para evitar tensiones.",
+    "Concéntrate en apretar los tríceps al final de cada repetición para una contracción óptima.",
+    "Realiza el ejercicio frente a un espejo si es posible para monitorear la forma y prevenir la apertura del codo."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a balancear o sacudir el brazo.",
+    "Permitir que el codo se abra en lugar de mantenerlo cerca del cuerpo.",
+    "No extender completamente el brazo en la parte inferior del movimiento.",
+    "No mantener una posición neutral de la muñeca, causando tensión en la muñeca.",
+    "Inclinarse hacia adelante excesivamente, reduciendo el compromiso del tríceps.",
+    "Usar impulso en lugar de un movimiento controlado.",
+    "No mantener el hombro estable, lo que lleva a la participación del hombro.",
+    "Permitir que el cable tire del brazo hacia arriba demasiado rápido durante la fase excéntrica."
+  ]
+}

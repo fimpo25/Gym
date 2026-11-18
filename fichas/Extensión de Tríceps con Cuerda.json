@@ -1,0 +1,46 @@
+{
+  "nombre": "Extensión de Tríceps con Cuerda",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-cuerda",
+  "video_url": "https://api.smartworkout.app/asset/video/5b3b82b1-8d1d-41e0-b6f7-37c0f3bbf7e9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Cuerda es un ejercicio de aislamiento que se enfoca en los músculos tríceps braquiales. Se realiza utilizando una máquina de poleas con un accesorio de cuerda, enfatizando las cabezas lateral y larga de los tríceps. Este ejercicio ayuda a desarrollar fuerza y definición muscular en la parte superior de los brazos.",
+  "como_realizar": [
+    "Coloca un mango de cuerda en la polea alta de una máquina de cables.",
+    "Párate frente a la máquina con los pies separados al ancho de los hombros.",
+    "Agarra la cuerda con ambas manos, con las palmas enfrentadas, y coloca tus manos a la altura del pecho.",
+    "Mantén los codos cerca de tu cuerpo y dóblalos en un ángulo de 90 grados.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas.",
+    "Empuja la cuerda hacia abajo extendiendo los codos hasta que tus brazos estén completamente extendidos.",
+    "En la parte inferior del movimiento, separa ligeramente los extremos de la cuerda para maximizar la contracción de los tríceps.",
+    "Vuelve lentamente a la posición inicial con control, manteniendo la tensión en los tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos estacionarios durante todo el movimiento para aislar eficazmente los tríceps.",
+    "Evita usar impulso; concéntrate en movimientos controlados para un máximo compromiso muscular.",
+    "Exhala al empujar hacia abajo e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tus muñecas permanezcan neutrales para evitar tensiones y mantener la forma adecuada.",
+    "Ajusta el peso para que puedas realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Mantén una ligera inclinación hacia adelante para estabilizar tu cuerpo sin comprometer la postura."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, lo que desvía el enfoque de los tríceps.",
+    "Usar un peso excesivo, lo que lleva a un movimiento basado en el impulso en lugar de un compromiso muscular controlado.",
+    "Permitir que los codos se abran, reduciendo la activación de los tríceps.",
+    "No extender completamente los brazos, limitando el rango de movimiento y el compromiso muscular.",
+    "Doblar las muñecas en lugar de mantenerlas neutrales, causando tensión innecesaria.",
+    "Apresurarse en el movimiento, lo que disminuye la tensión y el control muscular.",
+    "Estar demasiado cerca de la máquina de cables, reduciendo la efectividad del ejercicio.",
+    "No mantener el núcleo comprometido, lo que lleva a una mala postura y posible tensión en la parte baja de la espalda."
+  ]
+}

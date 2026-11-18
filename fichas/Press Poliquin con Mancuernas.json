@@ -1,0 +1,46 @@
+{
+  "nombre": "Press Poliquin con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-poliquin-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/56b80804-b9ed-4524-a2d7-948c51e2358b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press Poliquin con Mancuernas es un ejercicio para los hombros que se enfoca en los músculos deltoides, especialmente en las cabezas anterior y lateral. Combina elementos de un press de hombros tradicional con un movimiento rotacional único para mejorar la estabilidad y la fuerza del hombro.",
+  "como_realizar": [
+    "Comienza sentándote en un banco con respaldo, sosteniendo una mancuerna en cada mano a la altura de los hombros con las palmas hacia adelante.",
+    "Coloca tus pies planos en el suelo, separados al ancho de los hombros, para mantener la estabilidad.",
+    "Inicia el movimiento presionando las mancuernas hacia arriba mientras simultáneamente giras tus muñecas para que las palmas queden hacia adentro en la parte superior del movimiento.",
+    "Haz una pausa breve en la parte superior, asegurándote de que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial mientras giras tus muñecas de regreso a la posición original con las palmas hacia adelante.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para apoyar tu espalda baja.",
+    "Mantén un movimiento controlado; evita usar el impulso para levantar las pesas.",
+    "Asegúrate de que tus codos permanezcan ligeramente doblados en la parte superior del movimiento para reducir la tensión en las articulaciones.",
+    "Concéntrate en una rotación suave de las muñecas durante el press para maximizar el compromiso del hombro.",
+    "Selecciona un peso adecuado que te permita realizar el ejercicio con la forma adecuada en todas las repeticiones.",
+    "Exhala al presionar hacia arriba e inhala al bajar las pesas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, reduciendo la estabilidad del hombro.",
+    "Usar impulso para levantar las pesas, lo que lleva a un pobre compromiso muscular.",
+    "No mantener una posición neutral de la muñeca, aumentando el estrés en las articulaciones.",
+    "No extender completamente los brazos en la parte superior del movimiento, limitando el rango de movimiento.",
+    "Dejar caer las mancuernas demasiado rápido, perdiendo el control y arriesgando tensión en el hombro.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la estabilidad del núcleo.",
+    "No comprometer el núcleo, reduciendo la efectividad general del ejercicio.",
+    "Colocar los codos demasiado hacia adelante, alterando la activación muscular prevista."
+  ]
+}

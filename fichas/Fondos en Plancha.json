@@ -1,0 +1,54 @@
+{
+  "nombre": "Fondos en Plancha",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/fondos-en-plancha",
+  "video_url": "https://api.smartworkout.app/asset/video/c9e11a50-3f0a-4fce-a4cb-deb79ba7dec0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Los Fondos en Plancha son un ejercicio avanzado de peso corporal que combina elementos de la posición de plancha y el movimiento de fondos. Este ejercicio se enfoca principalmente en los músculos del pecho, hombros, tríceps y el core. Requiere una fuerza significativa en la parte superior del cuerpo, así como equilibrio y coordinación.",
+  "como_realizar": [
+    "Comienza en una posición de planche con las manos en el suelo, los brazos rectos y el cuerpo paralelo al suelo.",
+    "Activa tu core y mantén una posición de cuerpo hueco para mantener tu cuerpo estable.",
+    "Dobla lentamente los codos para bajar tu cuerpo hacia el suelo mientras mantienes las piernas elevadas y rectas.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurándote de que tus codos no se abran excesivamente.",
+    "Presiona con las palmas para enderezar los brazos y regresar a la posición inicial de planche.",
+    "Repite el número deseado de repeticiones mientras mantienes el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Asegúrate de que tus muñecas sean fuertes y flexibles para manejar la presión durante los Planche Dips.",
+    "Concéntrate en mantener tu núcleo apretado para evitar que la parte baja de la espalda se hunda o arquee.",
+    "Practica planche estático para desarrollar una fuerza fundamental antes de intentar los Planche Dips.",
+    "Usa paralelas o barras de flexiones si la flexibilidad de las muñecas es una preocupación.",
+    "Comienza con dips de rango de movimiento parcial si los Planche Dips completos son demasiado desafiantes al principio.",
+    "Mantén un ritmo lento y controlado para maximizar el compromiso muscular y minimizar el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo la estabilidad del hombro.",
+    "No mantener una línea recta del cuerpo, lo que lleva a que las caderas se hundan.",
+    "No activar el core, causando pérdida de equilibrio y control.",
+    "Descender demasiado rápido, comprometiendo la forma y el control.",
+    "No lograr un rango completo de movimiento, limitando el compromiso muscular.",
+    "Colocar las manos demasiado separadas, disminuyendo el compromiso del hombro.",
+    "Doblar excesivamente las muñecas, aumentando la tensión en las articulaciones.",
+    "Inclinarse demasiado hacia adelante, desviando el enfoque de los músculos objetivo.",
+    "Descuidar retraer las escápulas, reduciendo la activación de la parte superior de la espalda."
+  ]
+}

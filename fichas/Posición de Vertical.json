@@ -1,0 +1,55 @@
+{
+  "nombre": "Posición de Vertical",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/handstand-hold",
+  "video_url": "https://api.smartworkout.app/asset/video/334e80db-a836-4a2e-a8a4-6e003280e4d4.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "ISOMETRIC",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "BICEPS",
+    "GLUTEUS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Handstand Hold is an advanced bodyweight exercise that primarily targets the shoulders, arms, and core. It involves balancing the body upside down with hands placed on the ground and feet elevated, requiring strength, stability, and control.",
+  "como_realizar": [
+    "Start in a standing position facing a wall.",
+    "Place your hands shoulder-width apart on the ground about 6-12 inches from the wall.",
+    "Kick up one leg at a time to bring your feet to the wall, achieving an inverted position.",
+    "Engage your core and glutes to maintain a straight line from hands to feet.",
+    "Keep your head neutral, looking slightly between your hands.",
+    "Hold this position for the desired duration, focusing on balance and control.",
+    "To exit, gently lower one leg at a time back to the ground."
+  ],
+  "consejos": [
+    "Ensure your hands are firmly planted on the ground for stability.",
+    "Engage your core muscles to help maintain balance and prevent arching of the back.",
+    "Keep your elbows slightly bent to reduce strain on the joints.",
+    "Practice against a wall initially to build confidence and strength.",
+    "Focus on breathing steadily throughout the hold to maintain calmness and control.",
+    "Gradually increase hold duration as you build strength and stability."
+  ],
+  "errores_comunes": [
+    "Arching the back excessively, leading to poor alignment and balance.",
+    "Failing to engage the core muscles, resulting in instability.",
+    "Allowing the shoulders to shrug, which reduces control and strength.",
+    "Not stacking the wrists, elbows, and shoulders in a straight line, causing imbalance.",
+    "Kicking up with too much force, leading to over-rotation and loss of control.",
+    "Placing hands too wide apart, affecting balance and shoulder positioning.",
+    "Neglecting to engage the glutes, causing the legs to sag or separate.",
+    "Failing to distribute weight evenly across the hands, leading to wrist strain.",
+    "Holding the breath, which can reduce stability and increase tension.",
+    "Looking at the ground instead of between the hands, disrupting neck alignment."
+  ]
+}

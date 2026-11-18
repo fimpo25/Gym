@@ -1,0 +1,46 @@
+{
+  "nombre": "Sentadilla Sissy con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/weighted-sissy-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/59c69e5e-98ce-4844-ad03-97039bc82022.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Weighted Sissy Squat is an advanced lower body exercise targeting the quadriceps. It involves leaning back while keeping the hips extended and adding weight for increased resistance. This exercise requires balance, core stability, and proper technique to prevent injury.",
+  "como_realizar": [
+    "Begin by standing upright with your feet shoulder-width apart. Hold a weight plate or dumbbell close to your chest.",
+    "Engage your core and maintain a straight line from your head to your knees.",
+    "Slowly bend your knees and lean back, keeping your hips extended and torso upright.",
+    "Lower yourself until your knees are fully flexed, ensuring your heels remain on the ground.",
+    "Pause briefly at the bottom of the movement, then push through your heels to return to the starting position."
+  ],
+  "consejos": [
+    "Start with a light weight to master the form before progressing to heavier loads.",
+    "Focus on keeping your core tight throughout the movement to maintain balance.",
+    "Ensure that your knees track over your toes to avoid undue stress on the joints.",
+    "Use a slow and controlled motion to maximize muscle engagement and reduce injury risk.",
+    "Consider using a sissy squat bench for added support if you're new to this exercise."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, shifting weight onto toes instead of keeping balance over midfoot.",
+    "Allowing knees to collapse inward, reducing quad engagement and increasing stress on knees.",
+    "Not maintaining a straight line from shoulders to knees, causing excessive lower back arching.",
+    "Dropping too quickly into the squat, losing control and risking knee strain.",
+    "Failing to keep core engaged, leading to instability and poor posture.",
+    "Using too much weight, compromising form and increasing injury risk.",
+    "Not fully extending hips at the top, missing out on full range of motion.",
+    "Neglecting to keep heels slightly elevated, reducing the effectiveness of the exercise."
+  ]
+}

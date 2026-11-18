@@ -1,0 +1,49 @@
+{
+  "nombre": "Press con Landmine Medio Arrodillado a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-landmine-half-kneeling-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/b0619b94-ab4d-48b5-819a-3e3584554073.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Landmine Half Kneeling One Arm Shoulder Press is an exercise that targets the shoulder muscles, particularly the deltoids, while also engaging the core for stability. This exercise utilizes a landmine setup, which is a barbell anchored at one end, allowing for a unique pressing angle that can reduce strain on the shoulder joint.",
+  "como_realizar": [
+    "Begin by setting up a barbell in a landmine attachment or securely in a corner.",
+    "Kneel on one knee with the opposite foot flat on the ground in front of you, forming a 90-degree angle at both knees.",
+    "Hold the end of the barbell with the hand on the same side as your kneeling leg, keeping your core engaged and torso upright.",
+    "Press the barbell upward and slightly forward until your arm is fully extended, keeping your wrist straight and elbow slightly bent at the top.",
+    "Slowly lower the barbell back to the starting position with control.",
+    "Complete the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Keep your core tight throughout the movement to maintain balance and stability.",
+    "Focus on pressing through your shoulder rather than using momentum from your legs or torso.",
+    "Ensure your elbow stays under your wrist during the press to maintain proper alignment.",
+    "Breathe out as you press the barbell up and inhale as you lower it back down.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Allowing the lower back to arch excessively, reducing core engagement.",
+    "Positioning the knees too close together, compromising stability.",
+    "Failing to align the pressing arm with the landmine path, leading to inefficient movement.",
+    "Using momentum to press the weight instead of controlled muscle engagement.",
+    "Not maintaining a neutral wrist position, increasing strain on the wrist joint.",
+    "Pressing the weight too far forward, missing the vertical pressing path.",
+    "Neglecting to engage the glutes and core, resulting in an unstable base.",
+    "Allowing the shoulder to elevate excessively, causing unnecessary tension.",
+    "Starting with the elbow flared out, reducing shoulder joint stability.",
+    "Rushing the eccentric phase, losing control and muscle activation."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Remo Inclinado con Landmine a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-landmine-bent-over-row",
+  "video_url": "https://api.smartworkout.app/asset/video/c5d41922-e7bd-4e45-925a-bd72ccf6af7e.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The One-Arm Landmine Bent Over Row, also known as the Meadows row, is an effective unilateral exercise targeting the upper back, specifically the lats, rhomboids, and traps. It also engages the core for stabilization. This exercise is performed using a landmine setup, which allows for a unique range of motion and can help improve muscle imbalances.",
+  "como_realizar": [
+    "Position a barbell in a landmine attachment or securely wedge one end into a corner.",
+    "Stand perpendicular to the barbell with your feet shoulder-width apart.",
+    "Bend at the hips and knees slightly, keeping your back straight and chest up.",
+    "Grasp the end of the barbell with one hand, palm facing inward.",
+    "Brace your core and pull the barbell towards your hip by driving your elbow back.",
+    "Squeeze your shoulder blade at the top of the movement.",
+    "Slowly lower the barbell back to the starting position.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Keep your back straight and avoid rounding your shoulders during the movement.",
+    "Focus on pulling with your elbow rather than your hand to engage the back muscles effectively.",
+    "Maintain a slight bend in your knees to support balance and stability.",
+    "Control the weight throughout the exercise to maximize muscle engagement and minimize injury risk.",
+    "Ensure that your core is engaged to prevent excessive twisting or leaning.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to compromised form and reduced muscle engagement.",
+    "Standing too upright, which limits the range of motion and reduces lat activation.",
+    "Rounding the back, increasing the risk of lower back strain.",
+    "Pulling the elbow outwards instead of keeping it close to the body, reducing lat involvement.",
+    "Not maintaining a stable core, leading to unnecessary torso rotation.",
+    "Jerking the weight up instead of using controlled movements, which can lead to muscle disengagement.",
+    "Neglecting to fully extend the arm at the bottom of the movement, limiting the range of motion.",
+    "Failing to keep the shoulder blades retracted, reducing back muscle activation."
+  ]
+}

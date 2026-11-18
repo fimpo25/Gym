@@ -1,0 +1,48 @@
+{
+  "nombre": "Salto en Largo",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/broad-jump",
+  "video_url": "https://api.smartworkout.app/asset/video/05973ca1-7fbb-4aee-856c-9c444204a8f4.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Broad Jump is a plyometric exercise that focuses on developing explosive power in the lower body, particularly targeting the quadriceps, hamstrings, glutes, and calves. It involves jumping forward as far as possible from a standing position, emphasizing both strength and coordination.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart and your arms at your sides.",
+    "Bend your knees slightly and push your hips back into a quarter squat position.",
+    "Swing your arms backward to generate momentum.",
+    "Explosively jump forward as far as you can, swinging your arms forward and extending your legs.",
+    "Land softly on the balls of your feet with your knees slightly bent to absorb the impact.",
+    "Reset your position and repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on using your arms to generate additional momentum during the jump.",
+    "Engage your core throughout the movement to maintain balance and control.",
+    "Ensure a soft landing by bending your knees upon impact to reduce stress on the joints.",
+    "Practice proper form by keeping your chest up and looking forward during the jump.",
+    "Start with shorter jumps to perfect technique before attempting maximum distance."
+  ],
+  "errores_comunes": [
+    "Failing to engage the core muscles, leading to a lack of stability and control during the jump.",
+    "Not using the arms effectively to generate momentum, resulting in a shorter jump distance.",
+    "Landing with stiff legs instead of bending the knees, increasing the risk of knee or ankle injury.",
+    "Starting the jump with an improper squat position, such as knees caving inward or heels lifting off the ground.",
+    "Not maintaining a neutral spine throughout the jump, which can lead to lower back strain.",
+    "Landing on the toes instead of the whole foot, reducing balance and increasing the chance of falling.",
+    "Overextending the knees upon landing, placing excessive stress on the joints.",
+    "Failing to coordinate the hip hinge and knee bend, leading to inefficient power transfer."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Extensión de Espalda con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/extension-de-espalda-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/c809adda-ee2a-4280-b9c6-9ecf894835a6.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Extensión de Espalda con Mancuerna es un ejercicio que se enfoca en los músculos de la parte baja de la espalda, específicamente el erector de la columna. También involucra los glúteos y los isquiotibiales. Este ejercicio ayuda a mejorar la postura y a fortalecer la cadena posterior.",
+  "como_realizar": [
+    "Comienza acostándote boca abajo en un banco de hiperextensión, asegurando tus pies debajo de las almohadillas para pies.",
+    "Sujeta una mancuerna con ambas manos contra tu pecho.",
+    "Asegúrate de que tu cuerpo forme una línea recta desde la cabeza hasta los talones.",
+    "Baja lentamente la parte superior de tu cuerpo hacia el suelo doblando las caderas, manteniendo la espalda recta.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Activa los músculos de la parte baja de la espalda para levantar tu torso de regreso a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Evita redondear la espalda; mantén una posición neutral de la columna.",
+    "Comienza con una mancuerna más ligera para dominar la forma antes de aumentar el peso.",
+    "Controla la velocidad del movimiento para maximizar el compromiso muscular y evitar el impulso.",
+    "Concéntrate en apretar los glúteos en la parte superior del movimiento para una activación adicional."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Usar el impulso para levantar el torso en lugar de un compromiso muscular controlado.",
+    "Sostener la mancuerna demasiado lejos del pecho, causando desequilibrio.",
+    "No comprometer el core, lo que lleva a una falta de estabilidad.",
+    "Levantar el torso demasiado alto, lo que puede tensar la parte baja de la espalda.",
+    "Permitir que la cabeza caiga o se hiperextienda en lugar de mantenerla alineada con la columna.",
+    "Descuidar apretar los glúteos en la parte superior del movimiento.",
+    "Apresurarse en el ejercicio, resultando en una mala forma y efectividad reducida.",
+    "No mantener los pies anclados, lo que lleva a la inestabilidad."
+  ]
+}

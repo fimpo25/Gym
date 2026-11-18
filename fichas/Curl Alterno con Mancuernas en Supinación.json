@@ -1,0 +1,37 @@
+{
+  "nombre": "Curl Alterno con Mancuernas en Supinación",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-alterno-con-mancuernas-en-supinacion",
+  "video_url": "https://api.smartworkout.app/asset/video/279079ca-02fb-4775-ac1a-578138cfbdef.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Alterno Supinado con Mancuernas es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Este ejercicio consiste en levantar una mancuerna con un agarre supinado (palmas hacia arriba), alternando los brazos, para mejorar la simetría muscular y la fuerza en la parte superior del brazo.",
+  "como_realizar": [
+    "Párate erguido con una mancuerna en cada mano, brazos completamente extendidos a los lados y palmas hacia adelante.",
+    "Mantén los codos cerca de tu torso y la espalda recta durante todo el movimiento.",
+    "Flexiona el codo para levantar la mancuerna derecha mientras mantienes la palma hacia arriba.",
+    "Continúa levantando hasta que tu bíceps esté completamente contraído y la mancuerna esté a nivel del hombro.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando el bíceps.",
+    "Baja lentamente la mancuerna de regreso a la posición inicial.",
+    "Repite el movimiento con tu brazo izquierdo mientras mantienes el brazo derecho inmóvil.",
+    "Continúa alternando los brazos para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y minimizar el impulso.",
+    "Evita balancear tu cuerpo o usar tus hombros para levantar las pesas; aísla los bíceps manteniendo los codos estacionarios.",
+    "Exhala mientras levantas la mancuerna e inhala mientras la bajas.",
+    "Asegúrate de un rango completo de movimiento extendiendo completamente tus brazos al final de cada repetición.",
+    "Comienza con pesas más ligeras para perfeccionar la forma antes de avanzar a mancuernas más pesadas."
+  ],
+  "errores_comunes": []
+}

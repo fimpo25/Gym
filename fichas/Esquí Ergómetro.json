@@ -1,0 +1,51 @@
+{
+  "nombre": "Esquí Ergómetro",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/ski-ergometer",
+  "video_url": "https://api.smartworkout.app/asset/video/5bf8b087-7c80-45bb-8c90-3af403f0ddd8.mp4",
+  "tags": [
+    "CARDIO",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Ski Ergometer, often referred to as the SkiErg, is a cardiovascular exercise machine that simulates the motion of Nordic skiing. It primarily targets the upper body, including the shoulders, arms, and core, while also engaging the legs. This machine is ideal for improving aerobic capacity, endurance, and overall strength.",
+  "como_realizar": [
+    "Adjust the resistance level on the SkiErg to match your fitness level.",
+    "Stand with your feet shoulder-width apart, facing the machine.",
+    "Grip the handles firmly with both hands, keeping your arms extended overhead.",
+    "Engage your core and slightly bend your knees.",
+    "Pull the handles down in a smooth motion, bending at the hips and knees while keeping your back straight.",
+    "Drive through your hips and legs as you pull the handles down past your thighs.",
+    "Return to the starting position by extending your arms overhead while maintaining control.",
+    "Repeat the motion for the desired number of repetitions or time duration."
+  ],
+  "consejos": [
+    "Focus on maintaining a strong core throughout the exercise to prevent lower back strain.",
+    "Ensure that your movements are smooth and controlled to maximize efficiency and reduce injury risk.",
+    "Keep your elbows slightly bent at the bottom of the pull to avoid locking out your joints.",
+    "Breathe steadily throughout the exercise; inhale as you return to the starting position and exhale during the pull.",
+    "Start with a lower resistance setting if you're new to using the SkiErg to build endurance and technique before increasing intensity.",
+    "Incorporate intervals by alternating between high-intensity bursts and moderate recovery periods to enhance cardiovascular benefits."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing excessive strain on the lower back.",
+    "Bending the knees too much, reducing efficiency and power output.",
+    "Pulling with the arms only, neglecting engagement of the core and legs.",
+    "Failing to fully extend the arms overhead, limiting range of motion.",
+    "Rounding the shoulders, leading to poor posture and reduced performance.",
+    "Using a jerky motion instead of a smooth, controlled pull.",
+    "Not maintaining a consistent breathing pattern, affecting endurance.",
+    "Allowing the hips to drop, decreasing core stability and power.",
+    "Gripping the handles too tightly, causing unnecessary tension in the forearms.",
+    "Neglecting to engage the lats, reducing power and efficiency."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nombre": "Curl de Muñeca con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/171a5b06-0839-4a18-ad58-88e93756e6b3.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Curls de Muñeca con Barra son un ejercicio de aislamiento que se enfoca en los flexores del antebrazo. Este ejercicio se realiza curvando una barra utilizando solo la articulación de la muñeca, lo que ayuda a fortalecer y aumentar la resistencia en los antebrazos.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo y las rodillas dobladas en un ángulo de 90 grados.",
+    "Sujeta una barra con un agarre en supinación (palmas hacia arriba) y apoya tus antebrazos en tus muslos, permitiendo que tus muñecas cuelguen sobre el borde de tus rodillas.",
+    "Comienza con tus muñecas en una posición neutral, luego lentamente flexiona las muñecas para levantar la barra hacia arriba.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción de los músculos del antebrazo.",
+    "Baja la barra de nuevo a la posición inicial de manera controlada, permitiendo que tus muñecas se extiendan completamente.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus antebrazos estacionarios durante todo el ejercicio para aislar eficazmente los flexores de la muñeca.",
+    "Usa un peso más ligero para enfocarte en la forma y el control en lugar de levantar pesado.",
+    "Realiza el movimiento lentamente para maximizar el compromiso muscular y reducir el impulso.",
+    "Asegúrate de un rango completo de movimiento extendiendo y flexionando completamente tus muñecas durante cada repetición.",
+    "Mantén un agarre firme en la barra para evitar que se deslice durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a una mala forma y reduce el rango de movimiento.",
+    "Permitir que los codos se levanten de los muslos, reduciendo la aislación de los flexores de la muñeca.",
+    "No extender o flexionar completamente las muñecas, limitando el compromiso muscular.",
+    "Usar el impulso al balancear la barra en lugar de un movimiento controlado.",
+    "Agarrar la barra demasiado fuerte, causando tensión innecesaria en el antebrazo.",
+    "Colocar las muñecas demasiado hacia adelante o hacia atrás, forzando las articulaciones.",
+    "Descuidar mantener las muñecas alineadas con los antebrazos, arriesgando tensión.",
+    "Apresurarse en las repeticiones sin enfocarse en la contracción muscular."
+  ]
+}

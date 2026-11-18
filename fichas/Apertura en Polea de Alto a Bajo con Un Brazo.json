@@ -1,0 +1,48 @@
+{
+  "nombre": "Apertura en Polea de Alto a Bajo con Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-en-polea-de-alto-a-bajo-con-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/db9e7f28-0642-4cab-91c4-1ad6dde557a2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Apertura de Cable de Alto a Bajo con un Brazo es un ejercicio de aislamiento que se enfoca en los músculos pectorales, específicamente en la parte inferior del pecho. Consiste en tirar de un cable desde una posición alta hacia una posición baja a través del cuerpo, involucrando el pecho, los hombros y los tríceps. Este ejercicio ayuda a desarrollar la simetría muscular y a mejorar la fuerza unilateral.",
+  "como_realizar": [
+    "Coloca la máquina de cables en una posición alta y acopla un solo mango.",
+    "Párate de lado a la máquina con los pies a la altura de los hombros.",
+    "Agarra el mango con una mano, manteniendo el brazo extendido pero ligeramente doblado en el codo.",
+    "Aléjate de la máquina para crear tensión en el cable.",
+    "Coloca tu mano no activa en la cadera o a tu lado para mantener el equilibrio.",
+    "Activa tu núcleo y mantén el torso erguido durante todo el movimiento.",
+    "Tira del mango hacia abajo y a través de tu cuerpo en un movimiento controlado hasta que llegue al nivel de la cadera.",
+    "Haz una pausa breve en la parte inferior del movimiento, apretando los músculos del pecho.",
+    "Vuelve lentamente a la posición inicial, manteniendo el control del cable.",
+    "Completa el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Concéntrate en usar los músculos del pecho para mover el peso, no los brazos.",
+    "Mantén una ligera flexión en el codo para reducir la tensión en la articulación.",
+    "Mantén una postura estable para evitar balancearte durante el ejercicio.",
+    "Controla la velocidad del movimiento, especialmente al regresar a la posición inicial.",
+    "Asegúrate de que tus omóplatos estén retraídos y hacia abajo durante todo el ejercicio.",
+    "Evita inclinarte hacia adelante o hacia atrás; mantén el torso erguido para una forma adecuada."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, causando pérdida de control y forma incorrecta.",
+    "Permitir que el hombro rote internamente en exceso, provocando tensión.",
+    "No mantener una ligera flexión en el codo, resultando en estrés articular.",
+    "No activar el core, causando inestabilidad y mala postura.",
+    "Inclinarse demasiado hacia adelante o hacia atrás, alterando el equilibrio y la alineación.",
+    "No extender completamente el brazo en la parte superior del movimiento, limitando el rango de movimiento.",
+    "Permitir que el cable tire del brazo hacia atrás demasiado rápido, perdiendo tensión en el músculo.",
+    "Girar el torso en lugar de mantenerlo estable, reduciendo la aislación del músculo pectoral.",
+    "Bajar el brazo demasiado al final del movimiento, arriesgando tensión en el hombro."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "nombre": "Sentadilla Silla en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-chair-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/8fce8fa2-67a7-461d-901f-7c54d11c28df.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Chair Squat is a lower body exercise performed using a Smith machine. It targets the quadriceps, hamstrings, glutes, and calves. The exercise involves squatting down as if sitting on an imaginary chair, providing stability and control through the guided bar path of the Smith machine.",
+  "como_realizar": [
+    "Set the Smith machine bar to shoulder height and lock it in place.",
+    "Stand with your feet shoulder-width apart, positioning yourself under the bar so it rests comfortably across your upper back.",
+    "Grip the bar with both hands slightly wider than shoulder-width apart.",
+    "Unlatch the bar by rotating it forward and step back slightly to clear the safety stops.",
+    "Engage your core and keep your chest up as you begin to lower your body by bending at the hips and knees.",
+    "Descend until your thighs are parallel to the ground or slightly below, ensuring your knees do not extend past your toes.",
+    "Pause briefly at the bottom of the movement, maintaining tension in your legs.",
+    "Push through your heels to return to the starting position, fully extending your hips and knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your back straight and chest lifted throughout the movement to avoid unnecessary strain on your lower back.",
+    "Ensure that your knees track over your toes during the squat to maintain proper alignment and prevent injury.",
+    "Focus on engaging your core muscles to stabilize your torso during the exercise.",
+    "Adjust the foot placement if necessary to find a comfortable position that allows for a full range of motion without compromising form.",
+    "Control the descent and ascent speed to maximize muscle engagement and reduce risk of injury.",
+    "Use a spotter or safety stops if you're lifting heavy weights for added security."
+  ],
+  "errores_comunes": [
+    "Placing feet too far forward, causing excessive forward lean.",
+    "Allowing knees to cave inward during the squat.",
+    "Not lowering to at least parallel, limiting range of motion.",
+    "Rising onto toes instead of keeping heels grounded.",
+    "Failing to engage core, leading to poor stability.",
+    "Using momentum rather than controlled movement.",
+    "Setting the bar too high or too low on the back.",
+    "Neglecting to maintain a neutral spine throughout the movement.",
+    "Pushing through the balls of the feet instead of the heels.",
+    "Rushing the descent, resulting in loss of control."
+  ]
+}

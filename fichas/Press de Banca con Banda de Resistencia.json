@@ -1,0 +1,49 @@
+{
+  "nombre": "Press de Banca con Banda de Resistencia",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-banca-con-banda-de-resistencia",
+  "video_url": "https://api.smartworkout.app/asset/video/ffb47556-bbe3-4055-ab01-a5c1dd93cf2c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Banda de Resistencia es una variación del ejercicio tradicional de press de banca que incorpora bandas de resistencia para aumentar la tensión durante todo el movimiento. Este ejercicio se enfoca en los músculos pectorales, tríceps y deltoides anteriores, mejorando la fuerza y estabilidad en la parte superior del cuerpo.",
+  "como_realizar": [
+    "Asegura una banda de resistencia alrededor de la base de un banco o debajo de tu espalda, asegurando una tensión igual en ambos lados.",
+    "Acuéstate plano en el banco con los pies firmemente plantados en el suelo.",
+    "Agarra la barra con las manos un poco más anchas que el ancho de los hombros, asegurando que la banda de resistencia esté posicionada uniformemente a través de tus palmas.",
+    "Desmonta la barra y colócala directamente sobre tu pecho con los brazos completamente extendidos.",
+    "Baja la barra lentamente hacia tu pecho, manteniendo el control y manteniendo los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Presiona la barra de nuevo a la posición inicial extendiendo completamente los brazos, involucrando tu pecho y tríceps.",
+    "Repite para el número deseado de repeticiones, manteniendo una forma consistente durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté bien anclada para evitar deslizamientos durante el ejercicio.",
+    "Concéntrate en un ritmo controlado; evita rebotar la barra en tu pecho.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y evitar el arqueo de la parte baja de la espalda.",
+    "Ajusta la tensión de la banda de resistencia para que coincida con tu nivel de fuerza para obtener resultados óptimos.",
+    "Exhala mientras presionas la barra hacia arriba e inhala mientras la bajas.",
+    "Calienta adecuadamente antes de realizar este ejercicio para prevenir lesiones."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del núcleo y aumentando la tensión en la columna vertebral.",
+    "Permitir que los codos se abran demasiado, lo que puede ejercer un estrés indebido en las articulaciones del hombro.",
+    "No mantener una posición estable del hombro, lo que puede llevar a un pinzamiento del hombro.",
+    "Usar una banda de resistencia demasiado floja, resultando en una tensión insuficiente y una activación muscular ineficaz.",
+    "Bajar la barra de manera desigual, causando un compromiso muscular desequilibrado y posible tensión.",
+    "No mantener las muñecas rectas, lo que puede llevar a molestias en las muñecas y una transferencia de fuerza reducida.",
+    "Presionar la banda demasiado rápido, sacrificando el control y el compromiso muscular por velocidad.",
+    "No extender completamente los brazos en la parte superior, limitando el rango de movimiento y la activación muscular.",
+    "Usar el impulso para presionar la banda en lugar de contracciones musculares controladas, reduciendo la efectividad.",
+    "Permitir que la banda retroceda sin control, arriesgando la pérdida de equilibrio y posibles lesiones."
+  ]
+}

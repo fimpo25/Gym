@@ -1,0 +1,51 @@
+{
+  "nombre": "Flexión Completa de Muñeca",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-completa-de-muneca",
+  "video_url": "https://api.smartworkout.app/asset/video/f5d0f893-be62-47b0-bef9-a87179120f8f.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión de Muñeca Inversa es un ejercicio avanzado de peso corporal que se enfoca en los antebrazos, muñecas y flexores de los dedos. Consiste en realizar una flexión con las muñecas en una posición invertida, lo que coloca un estrés significativo en las articulaciones de las muñecas y los músculos del antebrazo. Este ejercicio requiere un alto nivel de flexibilidad y fuerza en las muñecas, por lo que es adecuado solo para personas con experiencia.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo con las manos colocadas al ancho de los hombros, con los dedos apuntando hacia tus rodillas.",
+    "Inclínate lentamente hacia adelante, colocando tu peso sobre tus manos mientras mantienes los codos ligeramente doblados.",
+    "Asegúrate de que tus muñecas estén directamente debajo de tus hombros y mantén una línea recta desde tu cabeza hasta tus rodillas.",
+    "Baja tu cuerpo doblando los codos hasta que tu pecho esté cerca del suelo, manteniendo el núcleo comprometido.",
+    "Empuja a través de tus palmas para volver a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Calienta a fondo antes de intentar este ejercicio para preparar tus muñecas y antebrazos.",
+    "Comienza con un rango de movimiento limitado y aumenta gradualmente a medida que desarrollas fuerza y flexibilidad.",
+    "Concéntrate en mantener una posición neutral de la muñeca para minimizar la tensión y reducir el riesgo de lesiones.",
+    "Si experimentas algún dolor o molestia, detente inmediatamente y reevalúa tu forma o consulta a un profesional.",
+    "Incorpora ejercicios de movilidad de muñeca en tu rutina para mejorar la flexibilidad con el tiempo.",
+    "Considera usar una superficie acolchada o una esterilla para reducir la presión sobre las muñecas durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado separadas, reduciendo la estabilidad y el control.",
+    "Permitir que los codos se abran excesivamente, disminuyendo el compromiso de las muñecas.",
+    "Dejar caer las caderas, llevando a una mala alineación y reducción de la activación del core.",
+    "No mantener las muñecas en una posición neutral, aumentando la tensión en las articulaciones.",
+    "Realizar el movimiento demasiado rápido, comprometiendo el control y la efectividad.",
+    "No mantener una línea recta desde la cabeza hasta los talones, causando desalineación.",
+    "Descuidar el compromiso del core, resultando en una sección media caída.",
+    "Doblar las muñecas excesivamente, arriesgando tensión o incomodidad.",
+    "Usar un rango de movimiento limitado, reduciendo la activación muscular.",
+    "Permitir que los hombros se colapsen, disminuyendo el compromiso del tren superior."
+  ]
+}

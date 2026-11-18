@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl en Cable Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-en-cable-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/613727d2-38d1-42a4-aa76-4058def099fb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Cable en Inclinación es un ejercicio de aislamiento que se enfoca en el bíceps braquial, realizado con una máquina de cables y un banco inclinado. Este ejercicio enfatiza el estiramiento en la parte inferior del movimiento, proporcionando tensión constante a lo largo de todo el rango de movimiento.",
+  "como_realizar": [
+    "Coloca un banco inclinado a un ángulo de 45 grados frente a una máquina de polea baja.",
+    "Acopla una barra recta o una barra EZ curl a la polea baja.",
+    "Siéntate en el banco inclinado con la espalda firmemente apoyada en él y los pies planos en el suelo.",
+    "Agarra la barra con un agarre en supinación, manos a la altura de los hombros y brazos completamente extendidos.",
+    "Mantén los codos cerca de tu cuerpo y estacionarios mientras levantas la barra hacia tus hombros.",
+    "Aprieta tus bíceps en la parte superior del movimiento, luego baja lentamente la barra de nuevo a la posición inicial.",
+    "Mantén el control durante todo el ejercicio y evita usar el impulso."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos estacionarios para maximizar el compromiso del bíceps.",
+    "Usa un rango completo de movimiento para asegurar la máxima activación muscular.",
+    "Evita balancear tu cuerpo; mantén la espalda presionada contra el banco.",
+    "Controla el peso durante las fases concéntrica y excéntrica.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo la tensión en los bíceps.",
+    "Usar un peso excesivo, lo que lleva a balanceos impulsados por el impulso.",
+    "Permitir que los codos se abran, disminuyendo el aislamiento del bíceps.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Enroscar las muñecas hacia adentro, causando tensión en las muñecas y reduciendo el compromiso del bíceps.",
+    "No mantener una posición estable de los hombros, desviando el enfoque de los bíceps.",
+    "Apresurarse en las repeticiones, comprometiendo el control muscular y la contracción.",
+    "Descuidar mantener la espalda firmemente contra el banco, alterando la forma."
+  ]
+}

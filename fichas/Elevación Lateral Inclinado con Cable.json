@@ -1,0 +1,43 @@
+{
+  "nombre": "Elevación Lateral Inclinado con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/cable-leaning-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/3b719213-829c-4d3f-af36-e75152ff1fa1.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "The Cable Leaning Lateral Raise is an isolation exercise targeting the lateral deltoid muscles. It involves using a cable machine to provide constant tension throughout the movement, enhancing muscle engagement and development.",
+  "como_realizar": [
+    "Set the cable machine to the lowest setting and attach a single handle.",
+    "Stand sideways to the machine, grasping the handle with the hand furthest from the machine.",
+    "Step away from the machine and lean slightly towards it, maintaining a stable stance.",
+    "With a slight bend in your elbow, raise your arm laterally until it is parallel to the floor.",
+    "Pause briefly at the top of the movement, then slowly lower the handle back to the starting position.",
+    "Repeat for the desired number of repetitions and switch sides."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain stability throughout the exercise.",
+    "Avoid using momentum; focus on controlled movements for maximum muscle activation.",
+    "Maintain a slight bend in your elbow to reduce stress on the joint.",
+    "Ensure your shoulder does not shrug upwards during the lift; keep it down and relaxed.",
+    "Breathe out as you lift the weight and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using too much weight, causing momentum to take over and reducing muscle activation.",
+    "Leaning too far away from the cable, which shifts focus away from the target muscles.",
+    "Raising the arm too high, leading to shoulder impingement risk.",
+    "Allowing the wrist to bend, causing strain and reducing effectiveness.",
+    "Failing to maintain a slight bend in the elbow, which can stress the joints.",
+    "Neglecting to engage the core, resulting in poor balance and control.",
+    "Lifting the shoulder instead of isolating the deltoid, reducing exercise effectiveness.",
+    "Dropping the arm too quickly on the eccentric phase, losing tension on the muscle."
+  ]
+}

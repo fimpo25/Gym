@@ -1,0 +1,47 @@
+{
+  "nombre": "Press Declinado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-declinado-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/c640c2f1-f5fe-4837-ab55-6ad404110306.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Mancuernas en Declive es un ejercicio compuesto que se enfoca en la parte inferior de los músculos pectorales, mientras también involucra los tríceps y los deltoides anteriores. Este ejercicio se realiza en un banco declinado, lo que permite un mayor énfasis en la parte inferior del pecho en comparación con las variaciones planas o inclinadas.",
+  "como_realizar": [
+    "Ajusta el banco a un ángulo de declive de aproximadamente 15 a 30 grados.",
+    "Recuéstate en el banco con los pies asegurados bajo las almohadillas para los pies.",
+    "Sujeta una mancuerna en cada mano con un agarre por encima, palmas hacia adelante.",
+    "Extiende los brazos directamente sobre tu pecho, manteniendo una ligera flexión en los codos.",
+    "Baja las mancuernas lentamente hacia los lados de tu pecho, manteniendo el control durante todo el movimiento.",
+    "Haz una breve pausa en la parte inferior, luego presiona las mancuernas de nuevo a la posición inicial extendiendo los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca plana contra el banco durante todo el ejercicio para mantener la estabilidad.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para levantar las pesas.",
+    "Mantén las muñecas rectas y alineadas con los antebrazos para prevenir tensiones.",
+    "Exhala al presionar las mancuernas hacia arriba e inhala al bajarlas.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas.",
+    "Activa los músculos del core para ayudar a estabilizar tu cuerpo durante el levantamiento."
+  ],
+  "errores_comunes": [
+    "Arquear la espalda excesivamente, reduciendo el compromiso del núcleo y la estabilidad.",
+    "Permitir que los codos se abran demasiado, aumentando la tensión en los hombros.",
+    "Bajar las mancuernas demasiado rápido, comprometiendo el control y el compromiso muscular.",
+    "No bajar las mancuernas al nivel del pecho, limitando el rango de movimiento.",
+    "No mantener las muñecas rectas, lo que lleva a una mala distribución de la fuerza.",
+    "Usar el impulso para levantar las pesas, reduciendo la activación muscular.",
+    "No retraer las escápulas, disminuyendo el compromiso del pecho.",
+    "Ajustar el ángulo de declinación demasiado empinado, causando incomodidad y forma incorrecta.",
+    "Levantar pesas que son demasiado pesadas, comprometiendo la forma y el control."
+  ]
+}

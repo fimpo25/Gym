@@ -1,0 +1,49 @@
+{
+  "nombre": "Seal Row",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/seal-row",
+  "video_url": "https://api.smartworkout.app/asset/video/6c6603d9-c72c-46f8-81ac-ef77425475bd.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Seal Row is a strength training exercise targeting the upper back, specifically the rhomboids, traps, and rear deltoids. It is performed lying face down on a bench with weights, typically dumbbells or a barbell, pulled towards the chest. This exercise helps improve posture and enhances upper body strength.",
+  "como_realizar": [
+    "Set up a flat bench elevated on blocks or platforms to allow full range of motion for the weights.",
+    "Lie face down on the bench with your chest supported and feet planted firmly on the ground.",
+    "Grip the weights (dumbbells or barbell) with an overhand grip, arms fully extended towards the floor.",
+    "Engage your core and keep your body stable throughout the movement.",
+    "Pull the weights towards your chest by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction in the upper back muscles.",
+    "Slowly lower the weights back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the bench is high enough to allow full range of motion without weights touching the ground.",
+    "Focus on squeezing your shoulder blades together at the top of each rep for maximum muscle engagement.",
+    "Keep your neck in a neutral position to avoid strain; do not lift your head during the exercise.",
+    "Maintain a controlled tempo throughout to maximize muscle tension and avoid momentum.",
+    "Start with lighter weights to perfect form before progressing to heavier loads.",
+    "Breathe out as you pull the weights up and inhale as you lower them back down."
+  ],
+  "errores_comunes": [
+    "Lifting the chest off the bench, causing instability and reducing back engagement.",
+    "Using momentum to lift the weights, leading to poor muscle activation.",
+    "Allowing the elbows to flare out excessively, which can strain the shoulders.",
+    "Not fully extending the arms at the bottom, limiting the range of motion.",
+    "Rounding the shoulders forward, which disengages the upper back muscles.",
+    "Pulling the weights too high, causing the wrists to bend awkwardly.",
+    "Failing to maintain a neutral spine, increasing the risk of lower back strain.",
+    "Using too much weight, compromising form and control."
+  ]
+}

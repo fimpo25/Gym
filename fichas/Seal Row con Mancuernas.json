@@ -1,0 +1,47 @@
+{
+  "nombre": "Seal Row con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/dumbbell-seal-row",
+  "video_url": "https://api.smartworkout.app/asset/video/cb909b1a-4be4-47c7-ba5d-ab789bb44ae3.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Dumbbell Lying Row on Rack is an upper body exercise targeting the back muscles, particularly the lats, rhomboids, and traps. This exercise involves lying face down on an elevated bench or rack while pulling dumbbells towards your torso, promoting muscle growth and strength in the upper back.",
+  "como_realizar": [
+    "Set an adjustable bench to a flat position and place it on a rack or platform high enough so that your arms can hang freely without touching the ground.",
+    "Lie face down on the bench with your chest and stomach supported, allowing your arms to hang straight down.",
+    "Grab a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Engage your core and keep your body stable throughout the movement.",
+    "Pull the dumbbells towards your torso by squeezing your shoulder blades together, keeping your elbows close to your body.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction of the back muscles.",
+    "Slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the bench is high enough to allow full range of motion without hitting the floor with the dumbbells.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum back engagement.",
+    "Keep your neck in a neutral position to avoid strain; do not look up or down excessively.",
+    "Maintain a controlled tempo during both lifting and lowering phases to maximize muscle tension.",
+    "Avoid using momentum; rely on muscle strength to lift the weights.",
+    "Start with lighter weights to master form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Lifting the chest off the bench, which reduces isolation of the back muscles.",
+    "Using momentum to lift the weights, leading to reduced muscle engagement.",
+    "Allowing the elbows to flare out excessively, causing improper shoulder alignment.",
+    "Failing to retract the shoulder blades, resulting in poor scapular movement.",
+    "Not fully extending the arms at the bottom, limiting range of motion.",
+    "Arching the lower back, which can lead to strain.",
+    "Holding the dumbbells too close to the body, reducing the effectiveness of the pull.",
+    "Dropping the weights too quickly, losing control and tension in the muscles."
+  ]
+}

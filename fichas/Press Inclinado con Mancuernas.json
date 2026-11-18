@@ -1,0 +1,48 @@
+{
+  "nombre": "Press Inclinado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inclinado-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/5081d5c0-5262-45ba-a047-d3d652978d8a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca Inclinado con Mancuernas es un ejercicio compuesto que se enfoca en la parte superior de los músculos pectorales, así como en los deltoides anteriores y tríceps. Consiste en presionar las mancuernas hacia arriba mientras se está acostado en un banco inclinado, lo que enfatiza más el pecho superior que el press de banca plano.",
+  "como_realizar": [
+    "Ajusta un banco regulable a una inclinación de 30 a 45 grados.",
+    "Siéntate en el banco con una mancuerna en cada mano descansando sobre tus muslos.",
+    "Recuéstate en el banco, posicionando las mancuernas a la altura de los hombros con las palmas hacia adelante.",
+    "Presiona las mancuernas hacia arriba extendiendo los brazos hasta que estén completamente extendidos sobre tu pecho.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial a la altura del pecho.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén planos en el suelo para mantener la estabilidad durante todo el ejercicio.",
+    "Mantén tu núcleo comprometido para mantener una forma adecuada y apoyar tu espalda baja.",
+    "Evita bloquear los codos en la parte superior del movimiento para mantener la tensión en los músculos.",
+    "Controla el movimiento bajando las mancuernas lentamente para maximizar el compromiso muscular.",
+    "Elige un peso que te permita realizar cada repetición con la forma adecuada sin forzar.",
+    "Concéntrate en apretar los músculos del pecho en la parte superior de cada prensa para una contracción máxima."
+  ],
+  "errores_comunes": [
+    "Arquear la espalda excesivamente, llevando a una mala alineación de la columna.",
+    "Permitir que los codos se abran demasiado, reduciendo la estabilidad del hombro.",
+    "Bajar las mancuernas demasiado, causando tensión en los hombros.",
+    "No mantener un ritmo controlado, llevando a un mal compromiso muscular.",
+    "No mantener las muñecas rectas, aumentando la tensión en las muñecas.",
+    "Usar el impulso para levantar, reduciendo la efectividad del ejercicio.",
+    "No ajustar el banco a la inclinación correcta, apuntando a los grupos musculares incorrectos.",
+    "Descuidar el compromiso de los músculos del core, comprometiendo la estabilidad.",
+    "Juntar las mancuernas con demasiada fuerza en la parte superior, arriesgando una lesión en el hombro.",
+    "Permitir que las mancuernas se desalineen, afectando el equilibrio y el control."
+  ]
+}

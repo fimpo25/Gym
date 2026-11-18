@@ -1,0 +1,48 @@
+{
+  "nombre": "Cruce de Polea Medio",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/cruce-de-polea-medio",
+  "video_url": "https://api.smartworkout.app/asset/video/44caa7ce-5e94-41e7-b0d0-5b3153a86b32.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura de Pecho Medio en Polea es un ejercicio de aislamiento que se enfoca en los músculos pectorales, específicamente en la cabeza esternal del pectoral mayor. Se realiza utilizando una máquina de poleas con las manijas colocadas a la altura de los hombros, lo que permite una tensión controlada y constante durante todo el movimiento.",
+  "como_realizar": [
+    "Coloca las poleas del cable a la altura de los hombros y adjunta manijas de agarre simple.",
+    "Párate en el centro de la máquina con los pies al ancho de los hombros y agarra las manijas con un agarre por encima.",
+    "Da un paso adelante ligeramente para crear tensión en los cables, manteniendo una ligera flexión en los codos.",
+    "Coloca tus brazos hacia los lados con las palmas hacia adelante, manteniendo una ligera flexión en los codos.",
+    "Exhala y lleva las manijas juntas frente a tu pecho en un arco amplio, manteniendo los codos ligeramente doblados.",
+    "Aprieta los músculos del pecho en el pico del movimiento, asegurándote de que las manijas se encuentren a nivel del pecho.",
+    "Inhala y regresa lentamente a la posición inicial con control, permitiendo que tus brazos se abran de nuevo hacia los lados.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el movimiento para proteger tus articulaciones.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y evitar balanceos.",
+    "Concéntrate en apretar los músculos del pecho al juntar las manijas para una contracción máxima.",
+    "Evita usar el impulso; realiza cada repetición con movimientos controlados.",
+    "Ajusta el peso para que puedas completar todas las repeticiones con la forma adecuada sin forzar.",
+    "Asegúrate de que tus hombros permanezcan abajo y hacia atrás para evitar tensiones innecesarias en el cuello."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos bajen demasiado, reduciendo el compromiso del pecho.",
+    "Usar demasiado peso, lo que lleva a una mala forma y un movimiento basado en el impulso.",
+    "No mantener una ligera flexión en los codos, causando tensión en las articulaciones.",
+    "No mantener los hombros hacia abajo y hacia atrás, lo que lleva al compromiso de los hombros en lugar del pecho.",
+    "Acercar demasiado las manijas, causando que los cables se aflojen y se pierda tensión.",
+    "Inclinarse demasiado hacia adelante, desviando el enfoque del pecho a los hombros.",
+    "Usar un movimiento brusco en lugar de un movimiento controlado y suave.",
+    "No regresar completamente a la posición inicial, limitando el rango de movimiento y el estiramiento muscular.",
+    "Permitir que las muñecas se doblen, lo que puede llevar a tensión y una activación menos efectiva del pecho."
+  ]
+}

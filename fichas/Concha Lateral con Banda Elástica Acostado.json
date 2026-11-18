@@ -1,0 +1,44 @@
+{
+  "nombre": "Concha Lateral con Banda Elástica Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/concha-lateral-con-banda-elastica-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/295dfc97-9c8a-46e8-8a3d-33f9f52d842c.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Las Almejas Acostadas con Banda son un ejercicio de resistencia que se enfoca en el glúteo medio y los abductores de la cadera. Este ejercicio ayuda a mejorar la estabilidad de la cadera, fortalecer los glúteos y mejorar la función general del tren inferior. Se realiza acostado de lado con una banda de resistencia alrededor de los muslos, justo por encima de las rodillas.",
+  "como_realizar": [
+    "Acuéstate de lado con las piernas apiladas y las rodillas dobladas en un ángulo de 90 grados.",
+    "Coloca una banda de resistencia alrededor de tus muslos, justo por encima de las rodillas.",
+    "Descansa tu cabeza sobre tu brazo inferior y coloca tu mano superior en el suelo frente a ti para apoyo.",
+    "Mantén los pies juntos y activa tu núcleo.",
+    "Levanta tu rodilla superior lo más alto posible sin mover tu pelvis ni separar los pies.",
+    "Pausa en la parte superior del movimiento, luego baja lentamente la rodilla de regreso a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Asegúrate de que tus caderas permanezcan apiladas y no se inclinen hacia atrás durante el movimiento.",
+    "Concéntrate en apretar tus glúteos mientras levantas la rodilla.",
+    "Mantén la tensión en la banda de resistencia durante todo el ejercicio para una máxima efectividad.",
+    "Realiza el movimiento lentamente y con control para comprometer completamente los músculos objetivo.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y prevenir movimientos innecesarios."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se inclinen hacia atrás, reduciendo el compromiso de los glúteos.",
+    "No mantener los pies juntos durante todo el movimiento.",
+    "Levantar la rodilla demasiado alto, causando que la pelvis se incline.",
+    "No mantener una ligera tensión en el core para estabilizar el torso.",
+    "Usar el impulso en lugar de un movimiento controlado para abrir las rodillas.",
+    "Colocar la banda de resistencia demasiado alta en los muslos, reduciendo la efectividad.",
+    "Descuidar alinear el cuerpo en una línea recta desde la cabeza hasta el coxis.",
+    "Permitir que la pierna inferior se mueva, reduciendo la aislación de la pierna superior."
+  ]
+}

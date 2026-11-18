@@ -1,0 +1,51 @@
+{
+  "nombre": "Sentadilla Anderson",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-anderson",
+  "video_url": "https://api.smartworkout.app/asset/video/32cb7e52-a070-4eff-8aa3-4a9abfbbc1ae.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Anderson, también conocida como sentadilla con pines, es una variación de la sentadilla tradicional donde la barra comienza desde un punto muerto sobre pines de seguridad o soportes dentro de un rack de potencia. Este ejercicio se centra en desarrollar fuerza explosiva desde la posición inferior, mejorar los puntos de estancamiento en la sentadilla y aumentar la potencia general del tren inferior.",
+  "como_realizar": [
+    "Coloca los pasadores de seguridad en una jaula de potencia a una altura donde tus muslos estén paralelos al suelo cuando estés en la posición inferior de la sentadilla.",
+    "Coloca la barra en los pasadores de seguridad y cárgala con un peso adecuado.",
+    "Ponte debajo de la barra, colocándola sobre la parte superior de tu espalda, y coloca tus pies al ancho de los hombros.",
+    "Activa tu núcleo y agarra la barra firmemente con ambas manos.",
+    "Impulsa a través de tus talones para levantar la barra de los pasadores, extendiendo tus caderas y rodillas hasta alcanzar una posición de pie.",
+    "Pausa brevemente en la parte superior, luego baja la barra de nuevo a los pasadores con control.",
+    "Reajusta tu posición y repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener un núcleo fuerte durante el levantamiento para asegurar estabilidad y prevenir lesiones.",
+    "Usa un tempo controlado al bajar la barra de regreso a los soportes para maximizar el compromiso muscular.",
+    "Comienza con un peso más ligero para dominar la forma adecuada antes de progresar a cargas más pesadas.",
+    "Asegúrate de que tus pies estén firmemente plantados y empuja a través de tus talones para maximizar la salida de potencia.",
+    "Mantén el pecho hacia arriba y los hombros hacia atrás para mantener una postura adecuada durante el levantamiento.",
+    "Practica técnicas de respiración: inhala antes de levantar de los soportes y exhala al completar el levantamiento."
+  ],
+  "errores_comunes": [
+    "Comenzar con la barra demasiado alta, lo que lleva a una profundidad inadecuada y un rango de movimiento reducido.",
+    "No mantener una columna neutral, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "Permitir que las rodillas se inclinen hacia adentro, lo que puede llevar a estrés en la articulación de la rodilla.",
+    "No involucrar el core, resultando en una estabilidad y control deficientes.",
+    "Usar el impulso para levantar la barra en lugar de un compromiso muscular controlado.",
+    "Posicionamiento incorrecto de los pies, causando desequilibrio y distribución ineficaz de la fuerza.",
+    "Redondear los hombros hacia adelante, comprometiendo el compromiso de la parte superior de la espalda.",
+    "Descuidar ajustar los pasadores de seguridad a la altura correcta, afectando la posición inicial."
+  ]
+}

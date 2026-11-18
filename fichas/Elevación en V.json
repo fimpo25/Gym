@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación en V",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-en-v",
+  "video_url": "https://api.smartworkout.app/asset/video/b056f73f-6295-4119-add2-010385f2457d.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El V-Up es un ejercicio de fortalecimiento del core que se enfoca en los músculos abdominales, particularmente el recto abdominal y los oblicuos. Consiste en levantar simultáneamente la parte superior e inferior del cuerpo para formar una forma de 'V', activando el core durante todo el movimiento.",
+  "como_realizar": [
+    "Acuéstate boca arriba en una colchoneta con las piernas extendidas y los brazos estirados por encima de la cabeza.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Simultáneamente levanta tus piernas y la parte superior de tu cuerpo del suelo, alcanzando tus manos hacia tus pies.",
+    "Mantén las piernas rectas e intenta formar una forma de 'V' con tu cuerpo en la parte superior del movimiento.",
+    "Mantén la posición brevemente, asegurándote de que tu núcleo permanezca activado.",
+    "Baja lentamente tus brazos y piernas de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un movimiento lento y controlado para maximizar el compromiso del núcleo.",
+    "Evita usar el impulso; concéntrate en usar tus músculos abdominales para levantar.",
+    "Mantén el cuello relajado y evita tensarlo mirando hacia el techo.",
+    "Si te resulta difícil mantener las piernas rectas, dobla ligeramente las rodillas al levantar.",
+    "Exhala al levantar hacia la posición 'V' e inhala al bajar.",
+    "Comienza con menos repeticiones si eres nuevo en este ejercicio y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Levantar las piernas demasiado alto, causando que la parte baja de la espalda se arquee excesivamente.",
+    "No activar el núcleo, lo que lleva a una falta de estabilidad y control.",
+    "Usar el impulso balanceando los brazos o las piernas en lugar de un movimiento controlado.",
+    "No mantener las piernas rectas, reduciendo la efectividad del ejercicio.",
+    "No alcanzar los brazos hacia los dedos de los pies, limitando el rango de movimiento.",
+    "Permitir que los hombros se inclinen hacia adelante, reduciendo el compromiso del núcleo.",
+    "No mantener una línea recta desde la cabeza hasta los pies en la parte superior del movimiento.",
+    "Apresurarse en el movimiento, comprometiendo la forma y el control."
+  ]
+}

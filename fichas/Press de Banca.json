@@ -1,0 +1,49 @@
+{
+  "nombre": "Press de Banca",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-banca",
+  "video_url": "https://api.smartworkout.app/asset/video/30f3160a-3a57-426a-a3b9-4eed573310f8.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Barra es un ejercicio compuesto que se enfoca en el pecho, tríceps y hombros. Se realiza acostado en un banco plano mientras se presiona una barra hacia arriba desde el nivel del pecho hasta que los brazos estén completamente extendidos.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo.",
+    "Agarra la barra con las manos un poco más anchas que el ancho de los hombros.",
+    "Desmonta la barra y sostenla directamente sobre tu pecho con los brazos completamente extendidos.",
+    "Baja la barra lentamente hacia tu pecho, manteniendo los codos a unos 45 grados de tu cuerpo.",
+    "Haz una pausa breve cuando la barra toque tu pecho.",
+    "Presiona la barra de nuevo a la posición inicial extendiendo los brazos, asegurándote de que estén completamente bloqueados en la parte superior.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca plana contra el banco durante todo el ejercicio.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y el soporte durante el levantamiento.",
+    "Evita abrir demasiado los codos para reducir la tensión en los hombros.",
+    "Concéntrate en movimientos controlados, tanto al bajar como al presionar la barra.",
+    "Usa un observador por seguridad, especialmente al levantar pesos pesados.",
+    "Calienta adecuadamente antes de realizar series pesadas para prevenir lesiones."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, llevando a una mala alineación de la columna.",
+    "Permitir que los codos se abran demasiado, aumentando la tensión en los hombros.",
+    "Rebotar la barra en el pecho, reduciendo el compromiso muscular y el control.",
+    "Levantar los pies del suelo, desestabilizando el cuerpo.",
+    "No retraer las escápulas, limitando la activación del pecho.",
+    "Agarrar la barra demasiado ancho o demasiado estrecho, afectando el rango de movimiento.",
+    "Bajar la barra demasiado alto en el pecho, arriesgando un pinzamiento en el hombro.",
+    "No mantener una trayectoria consistente de la barra, llevando a un press ineficiente.",
+    "Descuidar mantener las muñecas rectas, causando posible tensión en las muñecas.",
+    "Apresurar el movimiento, comprometiendo la forma y el control."
+  ]
+}

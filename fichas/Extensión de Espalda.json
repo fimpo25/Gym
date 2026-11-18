@@ -1,0 +1,51 @@
+{
+  "nombre": "Extensión de Espalda",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/extension-de-espalda",
+  "video_url": "https://api.smartworkout.app/asset/video/45ae7259-2425-4985-9979-4b1aa0f11df7.mp4",
+  "tags": [
+    "STRENGTH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "El ejercicio de Extensión de Espalda se enfoca en los músculos de la parte baja de la espalda, específicamente el erector de la columna. También involucra los glúteos y los isquiotibiales. Este ejercicio se realiza típicamente en un banco de hiperextensión o silla romana, permitiendo una extensión y flexión controlada de la columna vertebral.",
+  "como_realizar": [
+    "Colócate boca abajo en un banco de hiperextensión con las caderas alineadas con el borde del cojín.",
+    "Asegura tus pies bajo las almohadillas para mantener la estabilidad.",
+    "Cruza los brazos sobre el pecho o coloca las manos detrás de la cabeza.",
+    "Comienza con el cuerpo en una línea recta desde la cabeza hasta los talones.",
+    "Baja lentamente la parte superior del cuerpo hacia el suelo doblándote por las caderas, manteniendo la espalda recta.",
+    "Desciende hasta sentir un ligero estiramiento en los isquiotibiales o hasta que tu torso esté aproximadamente perpendicular al suelo.",
+    "Activa los músculos de la parte baja de la espalda y los glúteos para elevar el torso de nuevo a la posición inicial.",
+    "Evita hiperextender la espalda en la parte superior del movimiento."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante todo el ejercicio para prevenir lesiones.",
+    "Controla la velocidad del movimiento; evita usar el impulso para levantarte.",
+    "Concéntrate en apretar tus glúteos y los músculos de la parte baja de la espalda durante el ascenso.",
+    "Mantén tu cuello alineado con tu columna para evitar tensiones.",
+    "Ajusta la altura del banco para que soporte tus caderas cómodamente sin restringir el movimiento.",
+    "Realiza el ejercicio con movimientos lentos y deliberados para un máximo compromiso muscular.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Hiperextender la parte baja de la espalda más allá de su rango natural de movimiento.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "No comprometer los músculos del core para la estabilización.",
+    "Permitir que la cabeza caiga o se extienda excesivamente.",
+    "Arquear la espalda en lugar de mantener una columna neutral.",
+    "Levantar el torso demasiado alto, causando compresión espinal.",
+    "Colocar los pies demasiado juntos, reduciendo la estabilidad.",
+    "Descuidar alinear adecuadamente las caderas con el cojín.",
+    "Apresurarse en las repeticiones sin la forma adecuada.",
+    "Contener la respiración en lugar de mantener una respiración constante."
+  ]
+}

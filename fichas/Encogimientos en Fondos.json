@@ -1,0 +1,44 @@
+{
+  "nombre": "Encogimientos en Fondos",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimientos-en-fondos",
+  "video_url": "https://api.smartworkout.app/asset/video/cd4f6f25-2d25-41ba-aa80-703b36383753.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "Los Encogimientos en Fondos son un ejercicio para la parte superior del cuerpo que se enfoca en los músculos trapecios y los hombros. Este movimiento implica un gesto de encogimiento mientras sostienes el peso de tu cuerpo en barras paralelas, mejorando la estabilidad y la fuerza de los hombros.",
+  "como_realizar": [
+    "Comienza posicionándote en barras paralelas, sosteniendo el peso de tu cuerpo con los brazos completamente extendidos.",
+    "Mantén los codos bloqueados y el cuerpo recto, activando tu núcleo para estabilidad.",
+    "Inhala profundamente, luego exhala mientras elevas los hombros hacia las orejas en un movimiento de encogimiento.",
+    "Mantén la posición superior brevemente, asegurando la máxima contracción de los músculos trapecios.",
+    "Baja lentamente los hombros de nuevo a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos rectos para aislar eficazmente los músculos trapecios.",
+    "Activa tu núcleo para mantener una posición corporal estable y recta durante todo el ejercicio.",
+    "Realiza el movimiento lentamente para maximizar el compromiso muscular y el control.",
+    "Evita usar el impulso; asegúrate de que cada encogimiento sea deliberado y controlado.",
+    "Respira de manera constante, exhalando al encoger y inhalando al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Permitir que los hombros se inclinen hacia adelante en lugar de mantenerlos retraídos.",
+    "No mantener un núcleo estable, lo que lleva a un balanceo excesivo del cuerpo.",
+    "No deprimir completamente los hombros en la parte superior del movimiento.",
+    "Usar el impulso para levantar el cuerpo en lugar de un compromiso muscular controlado.",
+    "Bloquear los codos, lo que reduce el enfoque en el movimiento de los hombros.",
+    "Encoger los hombros de manera desigual, causando una activación muscular desequilibrada.",
+    "Descuidar mantener el cuello neutral, lo que lleva a una tensión innecesaria.",
+    "Realizar el ejercicio demasiado rápido, comprometiendo la forma y la efectividad."
+  ]
+}

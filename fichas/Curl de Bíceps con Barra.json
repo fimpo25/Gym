@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Bíceps con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/85c25a54-be7e-40a6-a676-4e906f3985d1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps con Barra es un ejercicio fundamental que se enfoca en los músculos bíceps braquial. Consiste en levantar una barra de manera controlada para comprometer y desarrollar eficazmente los bíceps, mejorando la fuerza y el tamaño de los brazos.",
+  "como_realizar": [
+    "Ponte de pie con los pies separados al ancho de los hombros, sosteniendo una barra con un agarre supino.",
+    "Mantén los codos cerca de tu torso y la espalda recta.",
+    "Exhala mientras levantas la barra hacia arriba doblando los codos, manteniéndolos estacionarios.",
+    "Continúa levantando hasta que tus bíceps estén completamente contraídos y la barra esté a la altura de los hombros.",
+    "Mantén la posición contraída por un breve momento mientras aprietas los bíceps.",
+    "Inhala mientras bajas lentamente la barra de nuevo a la posición inicial, extendiendo completamente los brazos."
+  ],
+  "consejos": [
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada sin balancearte ni usar impulso.",
+    "Concéntrate en mantener tus codos estacionarios para maximizar el compromiso del bíceps.",
+    "Mantén un ritmo controlado durante todo el movimiento para mejorar la activación muscular.",
+    "Evita bloquear tus codos en la parte inferior del movimiento para mantener la tensión en los bíceps.",
+    "Mantén tu núcleo comprometido y evita inclinarte hacia atrás al levantar la barra."
+  ],
+  "errores_comunes": [
+    "Usar el impulso balanceando el cuerpo, reduciendo el compromiso del bíceps.",
+    "Permitir que los codos se abran, desviando el enfoque de los bíceps.",
+    "Rizar la barra demasiado alto, causando la participación de los hombros.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Agarrar la barra demasiado ancho o demasiado estrecho, afectando la forma y la activación muscular.",
+    "Doblar las muñecas, lo que lleva a tensión y reduce el enfoque en los bíceps.",
+    "Inclinarse hacia atrás excesivamente, aumentando la tensión en la parte baja de la espalda.",
+    "Apresurar el movimiento, comprometiendo el control y la tensión muscular.",
+    "No mantener el núcleo comprometido, lo que lleva a la inestabilidad."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Alto en Máquina de Palanca",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/lever-high-row",
+  "video_url": "https://api.smartworkout.app/asset/video/7cfa395b-4476-4b5f-9e02-69edc3aecaea.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Lever High Row is a strength training exercise targeting the upper back muscles, specifically the latissimus dorsi, rhomboids, and trapezius. It utilizes a lever machine to provide a guided path of motion, allowing for controlled and isolated muscle engagement. This exercise is ideal for developing back width and thickness.",
+  "como_realizar": [
+    "Adjust the seat height so that the handles are at shoulder level when seated.",
+    "Sit down on the machine with your chest against the pad and feet flat on the floor.",
+    "Grasp the handles with an overhand grip, keeping your arms fully extended.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Pull the handles towards your chest by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the top of the movement, squeezing your shoulder blades together.",
+    "Slowly return to the starting position by extending your arms fully.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your chest remains in contact with the pad to maintain proper form.",
+    "Focus on using your back muscles rather than your arms to pull the weight.",
+    "Keep a controlled tempo, avoiding any jerking or swinging motions.",
+    "Exhale as you pull the handles towards you and inhale as you return to the starting position.",
+    "Adjust the weight to ensure you can perform each repetition with proper form without straining.",
+    "Maintain a slight bend in your elbows at full extension to keep tension on the muscles."
+  ],
+  "errores_comunes": [
+    "Using too much weight, causing form breakdown and momentum-driven movement.",
+    "Not fully engaging the back muscles, relying too much on the arms.",
+    "Rounding the shoulders forward instead of keeping them retracted.",
+    "Allowing the elbows to flare out excessively, reducing back engagement.",
+    "Pulling the handles too far back, leading to hyperextension of the shoulder joint.",
+    "Not maintaining a neutral spine, leading to excessive arching or rounding of the back.",
+    "Jerking the weight instead of using controlled, smooth movements.",
+    "Failing to adjust the seat height properly, misaligning the shoulder joint with the machine axis.",
+    "Neglecting to keep the chest up, reducing the effectiveness of the back muscles.",
+    "Not completing the full range of motion, limiting muscle activation."
+  ]
+}

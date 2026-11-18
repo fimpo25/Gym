@@ -1,0 +1,49 @@
+{
+  "nombre": "Flexión en Pike entre Bancos",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/pike-push-up-between-benches",
+  "video_url": "https://api.smartworkout.app/asset/video/18d18a5f-0715-4878-b9af-8823c041d269.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Pike Push Up Between Benches is an advanced bodyweight exercise targeting the shoulders, triceps, and upper chest. By elevating the feet on benches, this variation increases the range of motion and intensity, simulating an overhead press movement.",
+  "como_realizar": [
+    "Position two benches parallel to each other, about shoulder-width apart.",
+    "Place your feet on one bench and your hands on the other, forming a pike position with your hips elevated.",
+    "Keep your body inverted with your legs straight and core engaged.",
+    "Lower your head towards the floor by bending your elbows, keeping them close to your body.",
+    "Pause briefly at the bottom of the movement, then push through your palms to extend your arms and return to the starting position.",
+    "Maintain control throughout the movement and avoid arching your back."
+  ],
+  "consejos": [
+    "Ensure that both benches are stable and can support your weight.",
+    "Focus on keeping your core tight to maintain balance and proper form.",
+    "Keep your elbows tucked in to engage the triceps more effectively.",
+    "Control the descent to maximize muscle engagement and prevent injury.",
+    "Breathe in as you lower yourself and exhale as you push back up.",
+    "If new to this exercise, start with a lower elevation or perform regular pike push-ups until strength improves."
+  ],
+  "errores_comunes": [
+    "Placing hands too wide or too narrow, affecting shoulder engagement.",
+    "Allowing elbows to flare out excessively, reducing tricep activation.",
+    "Failing to maintain a straight line from hips to shoulders, causing lower back strain.",
+    "Not lowering head between benches, limiting range of motion.",
+    "Rushing through the movement, compromising control and stability.",
+    "Neglecting to engage core, leading to sagging hips.",
+    "Positioning feet too close to hands, reducing the effectiveness of the pike position.",
+    "Overarching the lower back, increasing risk of discomfort or strain.",
+    "Not aligning wrists directly under shoulders, causing wrist discomfort."
+  ]
+}

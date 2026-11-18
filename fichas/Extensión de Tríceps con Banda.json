@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión de Tríceps con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/62a8f0d0-56a5-401c-a20e-5a39902bad3e.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Banda es un ejercicio de aislamiento que se enfoca en los músculos tríceps braquiales. Utiliza bandas de resistencia para proporcionar tensión, lo que lo convierte en un ejercicio versátil y accesible para mejorar la fuerza y definición de los tríceps.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje alto, como una barra de dominadas o un marco de puerta resistente.",
+    "Párate frente al punto de anclaje, sosteniendo los extremos de la banda con ambas manos, con las palmas hacia abajo.",
+    "Coloca tus pies al ancho de los hombros y dobla ligeramente las rodillas para mayor estabilidad.",
+    "Comienza con los codos doblados aproximadamente a 90 grados, manteniendo la parte superior de los brazos cerca de tus costados.",
+    "Exhala mientras extiendes los brazos hacia abajo, enderezando los codos hasta que los brazos estén completamente extendidos.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurando una contracción completa de los tríceps.",
+    "Inhala mientras regresas lentamente a la posición inicial con un movimiento controlado.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos estacionarios y cerca de tu cuerpo durante todo el ejercicio para maximizar el compromiso de los tríceps.",
+    "Evita usar impulso; concéntrate en movimientos lentos y controlados para una mejor activación muscular.",
+    "Ajusta la resistencia acercándote o alejándote del punto de anclaje para aumentar o disminuir la tensión.",
+    "Mantén una columna neutral y activa tu núcleo para una mejor postura y estabilidad durante el ejercicio.",
+    "Asegúrate de que la banda de resistencia esté bien anclada para prevenir accidentes o lesiones."
+  ],
+  "errores_comunes": [
+    "Los codos se abren en lugar de mantenerse cerca del cuerpo, reduciendo el compromiso de los tríceps.",
+    "Usar el impulso balanceando el cuerpo o los brazos, lo que disminuye el control y la efectividad.",
+    "Rango de movimiento inadecuado, como no extender completamente los brazos, limitando la activación muscular.",
+    "Inclinarse demasiado hacia adelante, haciendo que los hombros tomen el control del movimiento.",
+    "Las muñecas se doblan excesivamente, lo que lleva a tensión y reducción de la transmisión de fuerza.",
+    "No mantener un núcleo estable, resultando en mala postura y posible tensión en la espalda.",
+    "Permitir que la banda retroceda demasiado rápido, perdiendo tensión y control."
+  ]
+}

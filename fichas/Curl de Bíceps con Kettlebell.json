@@ -1,0 +1,44 @@
+{
+  "nombre": "Curl de Bíceps con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-kettlebell",
+  "video_url": "https://api.smartworkout.app/asset/video/03b2ef35-080f-4305-a0e3-c1bb14caebc5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps con Kettlebell es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Consiste en levantar una kettlebell con un movimiento controlado para activar los bíceps, promoviendo la fuerza muscular y la hipertrofia. Este ejercicio se puede realizar de pie o sentado y es adecuado para varios niveles de condición física.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una pesa rusa en cada mano con un agarre en supinación.",
+    "Mantén los codos cerca de tu torso y las palmas mirando hacia adelante.",
+    "Exhala mientras levantas las pesas rusas hacia arriba doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Continúa levantando hasta que las pesas rusas estén a la altura de los hombros y tus bíceps estén completamente contraídos.",
+    "Haz una pausa breve en la parte superior del movimiento, luego inhala mientras bajas lentamente las pesas rusas de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una postura recta durante todo el ejercicio para evitar usar el impulso.",
+    "Concéntrate en apretar los bíceps en la parte superior del curl para una contracción máxima.",
+    "Controla el descenso de las pesas rusas para maximizar el compromiso muscular.",
+    "Evita balancearte o usar la espalda para levantar las pesas; mantén el movimiento aislado a tus brazos.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a pesas rusas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a una mala forma y levantamientos impulsados por el impulso.",
+    "Balancear la pesa rusa en lugar de mantener movimientos controlados y suaves.",
+    "No extender completamente los brazos en la parte inferior del curl, limitando el rango de movimiento.",
+    "Enroscar las muñecas en la parte superior del movimiento, causando tensión innecesaria.",
+    "Involucrar los hombros y la parte superior de la espalda en lugar de aislar los bíceps.",
+    "Inclinarse hacia atrás o usar la parte inferior de la espalda para ayudar en el levantamiento, arriesgando tensión.",
+    "Permitir que los codos se desplacen hacia adelante, reduciendo la activación de los bíceps.",
+    "Apresurarse en el ejercicio, comprometiendo el compromiso muscular y el control."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión de Tríceps en Pronación",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-en-pronacion",
+  "video_url": "https://api.smartworkout.app/asset/video/6d0ca6ea-70e8-47f6-9d76-6bd3e4254d22.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Agarre Invertido es un ejercicio de aislamiento que se enfoca en el tríceps braquial, enfatizando específicamente la cabeza medial. Este ejercicio se realiza utilizando una máquina de cables con un agarre invertido, lo que puede ayudar a reducir el estrés en los codos y mejorar la activación muscular.",
+  "como_realizar": [
+    "Acopla una barra recta o EZ-curl a una polea alta en una máquina de cables.",
+    "Párate frente a la máquina, con los pies al ancho de los hombros, y agarra la barra con un agarre supino (palmas hacia arriba), manos aproximadamente al ancho de los hombros.",
+    "Mantén los codos cerca de tus costados y tus brazos superiores estacionarios durante todo el movimiento.",
+    "Comienza con los antebrazos paralelos al suelo, luego extiende los brazos hacia abajo contrayendo los tríceps hasta que los brazos estén completamente extendidos.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurando una contracción completa de los tríceps.",
+    "Vuelve lentamente a la posición inicial con control, permitiendo que los antebrazos regresen a estar paralelos al suelo.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en las rodillas para una mejor estabilidad durante el ejercicio.",
+    "Concéntrate en mantener los codos pegados y estacionarios para maximizar la activación de los tríceps.",
+    "Evita usar el impulso; realiza cada repetición de manera controlada para prevenir lesiones y asegurar un compromiso muscular efectivo.",
+    "Exhala al extender los brazos hacia abajo e inhala al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Los codos se abren hacia afuera, reduciendo el compromiso de los tríceps.",
+    "Usar impulso en lugar de movimiento controlado, lo que lleva a una mala activación muscular.",
+    "Permitir que las muñecas se doblen excesivamente, causando tensión y reduciendo la efectividad.",
+    "No extender completamente los brazos, limitando la activación de los tríceps.",
+    "Inclinarse hacia adelante en exceso, desviando el enfoque de los tríceps.",
+    "Apretar demasiado, causando tensión innecesaria en los antebrazos.",
+    "No mantener un núcleo estable, lo que lleva a una forma incorrecta.",
+    "Comenzar con los codos demasiado lejos del cuerpo, reduciendo el apalancamiento y el control."
+  ]
+}

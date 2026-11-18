@@ -1,0 +1,42 @@
+{
+  "nombre": "Curl de Muñeca Sentado con Barra EZ",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-sentado-con-barra-ez",
+  "video_url": "https://api.smartworkout.app/asset/video/c55080b2-fe0e-4cc3-9b9d-47a5f2797806.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca Sentado con Barra es un ejercicio de aislamiento que se enfoca en los flexores del antebrazo. Consiste en levantar una barra utilizando solo el movimiento de la muñeca mientras estás sentado, centrándose en fortalecer y aumentar la resistencia muscular en los antebrazos.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, posicionando las piernas ligeramente separadas.",
+    "Sujeta una barra con un agarre en supinación (palmas hacia arriba) y apoya los antebrazos en los muslos, permitiendo que las muñecas se extiendan más allá de las rodillas.",
+    "Comienza con las muñecas en una posición neutral, luego lentamente flexiona las muñecas para levantar la barra hacia arriba.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción de los músculos del antebrazo.",
+    "Baja la barra de nuevo a la posición inicial de manera controlada, permitiendo que las muñecas se extiendan completamente.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus antebrazos estacionarios sobre tus muslos durante todo el ejercicio para aislar el movimiento de la muñeca.",
+    "Usa un peso más ligero para mantener el control y prevenir el esfuerzo en las muñecas.",
+    "Concéntrate en un rango completo de movimiento para un compromiso muscular óptimo.",
+    "Exhala mientras levantas la barra y inhala mientras la bajas.",
+    "Evita usar el impulso; realiza cada repetición de manera lenta y deliberada.",
+    "Asegúrate de que tu agarre sea firme pero no demasiado apretado para evitar tensión innecesaria en las manos."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a una mala forma y a una reducción del rango de movimiento.",
+    "Permitir que los codos se levanten de los muslos, causando inestabilidad.",
+    "No mantener las muñecas alineadas con los antebrazos, lo que lleva a una tensión excesiva.",
+    "Enroscar la barra demasiado rápido, reduciendo el compromiso muscular.",
+    "No extender completamente las muñecas en la parte inferior del movimiento.",
+    "Inclinarse hacia atrás o hacia adelante, afectando el equilibrio y el control.",
+    "Agarrar la barra demasiado fuerte, causando tensión innecesaria en los antebrazos.",
+    "Descuidar mantener los hombros relajados, lo que lleva a tensión en la parte superior del cuerpo."
+  ]
+}

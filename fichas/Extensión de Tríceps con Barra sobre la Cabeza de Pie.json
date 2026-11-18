@@ -1,0 +1,41 @@
+{
+  "nombre": "Extensión de Tríceps con Barra sobre la Cabeza de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-barra-por-encima-de-la-cabeza-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/d6aa7feb-97ae-43bb-9565-56003d80cf40.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Barra por Encima de la Cabeza de Pie es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en levantar una barra por encima de la cabeza y extender completamente los brazos para activar los tríceps, promoviendo el crecimiento muscular y la fuerza en la parte superior del brazo.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una barra con ambas manos usando un agarre por encima.",
+    "Levanta la barra por encima de la cabeza, manteniendo los codos cerca de la cabeza y los brazos completamente extendidos.",
+    "Inhala y baja lentamente la barra detrás de la cabeza doblando los codos, manteniéndolos estacionarios.",
+    "Exhala y extiende los brazos de regreso a la posición inicial contrayendo los tríceps.",
+    "Repite para el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener el equilibrio y evitar arquear la espalda.",
+    "Asegúrate de que tus codos permanezcan cerca de tu cabeza para maximizar el compromiso de los tríceps.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada sin forzar.",
+    "Realiza el movimiento lentamente y con control para evitar usar el impulso.",
+    "Concéntrate en sentir el estiramiento en tus tríceps al bajar la barra y la contracción al levantarla."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a una mala forma y control reducido.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca de la cabeza.",
+    "Arquear excesivamente la parte baja de la espalda, forzando la columna.",
+    "No extender completamente los brazos por encima de la cabeza, limitando la activación de los tríceps.",
+    "Bajar la barra demasiado detrás de la cabeza, arriesgando tensión en los hombros.",
+    "Usar el impulso para levantar la barra en lugar de un movimiento controlado.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Agarrar la barra demasiado ancho, reduciendo el enfoque en los tríceps."
+  ]
+}

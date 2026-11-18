@@ -1,0 +1,48 @@
+{
+  "nombre": "Elevaciones Laterales en Banco Inclinado con Apoyo en Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/dumbbell-incline-chest-supported-lateral-raises",
+  "video_url": "https://api.smartworkout.app/asset/video/1cedf10b-6334-4bca-a4b2-d131bcc1e7e1.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "The Dumbbell Incline Chest Supported Lateral Raise is an isolation exercise targeting the lateral deltoids. It involves lying face down on an incline bench, which provides support and stability, minimizing momentum and maximizing shoulder engagement. This exercise is effective for building shoulder width and improving overall shoulder aesthetics.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Hold a dumbbell in each hand with a neutral grip (palms facing each other).",
+    "Lie face down on the bench with your chest supported and feet firmly planted on the ground.",
+    "Extend your arms down towards the floor, keeping a slight bend in your elbows.",
+    "Engage your core and lift the dumbbells out to the sides until your arms are parallel to the floor.",
+    "Pause briefly at the top of the movement, focusing on squeezing your shoulder blades together.",
+    "Slowly lower the dumbbells back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your neck in a neutral position to avoid strain.",
+    "Focus on controlled movements to maximize muscle engagement.",
+    "Avoid using momentum; lift with your shoulders, not your back or arms.",
+    "Maintain a slight bend in the elbows throughout the exercise to protect your joints.",
+    "Exhale as you lift the weights and inhale as you lower them.",
+    "Start with lighter weights to ensure proper form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to momentum-based lifting instead of controlled muscle engagement.",
+    "Allowing the chest to lift off the bench, reducing stability and compromising shoulder isolation.",
+    "Raising the dumbbells too high, causing unnecessary strain on the shoulder joints.",
+    "Bending the elbows excessively, which shifts focus away from the lateral deltoids.",
+    "Failing to maintain a neutral wrist position, increasing the risk of wrist strain.",
+    "Not engaging the core, resulting in a lack of overall body stability during the exercise.",
+    "Swinging the dumbbells instead of lifting them, reducing the effectiveness of the movement.",
+    "Neglecting to keep the shoulders down and back, leading to shoulder impingement risk.",
+    "Performing the exercise too quickly, which diminishes muscle activation and control.",
+    "Not adjusting the bench angle appropriately, which can alter the target muscle engagement."
+  ]
+}

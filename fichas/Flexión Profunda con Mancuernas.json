@@ -1,0 +1,47 @@
+{
+  "nombre": "Flexión Profunda con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-profunda-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/a940fd8f-929e-4101-af3b-8d44eda4d064.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Profunda con Mancuernas es una variación avanzada de la flexión tradicional que implica el uso de mancuernas para aumentar el rango de movimiento y comprometer más intensamente el pecho, los hombros y los tríceps. Este ejercicio mejora la fuerza del tren superior, la estabilidad y la definición muscular.",
+  "como_realizar": [
+    "Comienza colocando dos mancuernas en el suelo a la altura de los hombros. Asegúrate de que estén estables y no rueden.",
+    "Agarra firmemente las mancuernas y colócate en una posición de plancha alta con los brazos extendidos, manteniendo tu cuerpo en una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo y baja tu cuerpo doblando los codos, permitiendo que tu pecho descienda entre las mancuernas.",
+    "Baja hasta que tu pecho esté ligeramente por debajo del nivel de las mancuernas para maximizar el rango de movimiento.",
+    "Haz una pausa breve en la parte inferior, luego empuja a través de tus palmas para regresar a la posición inicial.",
+    "Repite durante el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén los codos a un ángulo de 45 grados respecto a tu torso para proteger tus hombros.",
+    "Mantén una columna neutral manteniendo tu cabeza alineada con tu columna durante todo el ejercicio.",
+    "Concéntrate en apretar los músculos del pecho al empujar hacia arriba para mejorar el compromiso muscular.",
+    "Asegúrate de que las mancuernas estén estables y colocadas sobre una superficie antideslizante para prevenir lesiones.",
+    "Comienza con pesos más ligeros si eres nuevo en este ejercicio para dominar la forma antes de progresar."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas o demasiado estrechas, afectando el compromiso y la estabilidad del hombro.",
+    "Codos que se abren excesivamente, lo que lleva a una tensión en el hombro.",
+    "Caderas hundidas o elevadas, comprometiendo el compromiso del núcleo.",
+    "Profundidad inadecuada, reduciendo la activación del pecho y tríceps.",
+    "Apresurar el movimiento, causando pérdida de control y forma.",
+    "No mantener una columna neutral, aumentando el estrés en la parte baja de la espalda.",
+    "No agarrar las mancuernas firmemente, arriesgando la inestabilidad de la muñeca.",
+    "Permitir que los hombros se colapsen, disminuyendo la estabilidad escapular.",
+    "Descuidar el compromiso del núcleo, llevando a una alineación incorrecta.",
+    "Distribución de peso desigual, causando desequilibrio y activación muscular incorrecta."
+  ]
+}

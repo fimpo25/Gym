@@ -1,0 +1,51 @@
+{
+  "nombre": "Dominadas en Front Lever",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/front-lever-pull-up",
+  "video_url": "https://api.smartworkout.app/asset/video/29994634-51a7-490e-ade0-78bc4436d473.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "PULL",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BICEPS",
+    "FOREARMS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Front Lever Pull Ups are an advanced calisthenics exercise that targets the lats, core, and shoulders. This movement requires significant upper body strength and core stability to maintain a horizontal position while performing pull-ups. It is often used to demonstrate control and strength in bodyweight training.",
+  "como_realizar": [
+    "Begin by hanging from a pull-up bar with a shoulder-width grip, palms facing forward.",
+    "Engage your core and lats to lift your legs and torso into a horizontal position, parallel to the ground.",
+    "Once in the front lever position, initiate the pull-up by bending your elbows and pulling your chest towards the bar.",
+    "Lower yourself back to the starting front lever position with control.",
+    "Repeat for the desired number of repetitions while maintaining the front lever position."
+  ],
+  "consejos": [
+    "Ensure your body remains straight and parallel to the ground throughout the exercise.",
+    "Focus on engaging your core and lats to maintain stability in the front lever position.",
+    "Start with tuck front lever pull-ups if you are new to this exercise to build strength gradually.",
+    "Use a spotter or resistance bands for assistance if you struggle to maintain form.",
+    "Incorporate exercises like planks and hollow holds into your routine to strengthen your core for better performance."
+  ],
+  "errores_comunes": [
+    "Bending the elbows too early, turning the movement into a row rather than a pull-up.",
+    "Arching the back instead of maintaining a straight body line, reducing core engagement.",
+    "Allowing the legs to sag, which compromises the lever position and increases difficulty.",
+    "Failing to engage the scapulae, leading to shoulder instability.",
+    "Using momentum to initiate the movement rather than controlled muscle engagement.",
+    "Neglecting to keep the head in a neutral position, causing neck strain.",
+    "Starting with an incorrect grip width, affecting leverage and muscle activation.",
+    "Not maintaining a hollow body position, reducing core tension and control.",
+    "Overextending the range of motion, risking shoulder strain."
+  ]
+}

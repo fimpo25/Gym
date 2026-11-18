@@ -1,0 +1,46 @@
+{
+  "nombre": "Colgado Muerto",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/colgado-muerto",
+  "video_url": "https://api.smartworkout.app/asset/video/44e4330a-22c4-4a90-a84e-1751d2a49728.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "El Colgado Muerto es un ejercicio simple pero efectivo que consiste en colgarse de una barra de dominadas con los brazos completamente extendidos. Este ejercicio se enfoca principalmente en la fuerza de agarre y también puede ayudar a descomprimir la columna vertebral, mejorar la movilidad de los hombros y aumentar la resistencia general de la parte superior del cuerpo.",
+  "como_realizar": [
+    "Encuentra una barra de dominadas resistente y asegúrate de que pueda soportar tu peso.",
+    "Párate debajo de la barra, estira los brazos hacia arriba y agárrala con un agarre por encima, con las manos a la altura de los hombros.",
+    "Levanta los pies del suelo doblando las rodillas o cruzando los tobillos.",
+    "Permite que tu cuerpo cuelgue libremente con los brazos completamente extendidos y los hombros comprometidos.",
+    "Mantén el núcleo apretado y evita balancearte o moverte en exceso.",
+    "Mantén esta posición durante el mayor tiempo posible mientras mantienes la forma adecuada."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea firme pero no demasiado tenso para evitar la fatiga prematura.",
+    "Involucra tus omóplatos retrayéndolos ligeramente para estabilizar tu posición.",
+    "Concéntrate en respirar de manera constante durante el ejercicio para mantener la resistencia.",
+    "Comienza con duraciones más cortas y aumenta gradualmente el tiempo a medida que mejora la fuerza de tu agarre.",
+    "Evita encoger los hombros hacia las orejas; mantenlos abajo y relajados.",
+    "Si eres nuevo en este ejercicio, considera usar correas de muñeca para soporte adicional."
+  ],
+  "errores_comunes": [
+    "No comprometer completamente las escápulas, lo que lleva a una tensión excesiva en las articulaciones del hombro.",
+    "Permitir que el cuerpo se balancee o se mueva, reduciendo la efectividad del ejercicio.",
+    "Agarrar la barra demasiado fuerte, causando fatiga innecesaria en los antebrazos.",
+    "No mantener la cabeza en una posición neutral, lo que puede llevar a molestias en el cuello.",
+    "Doblar los codos en lugar de mantenerlos rectos, reduciendo el estiramiento y el compromiso.",
+    "Contener la respiración, lo que puede aumentar la tensión y reducir la resistencia.",
+    "No extender completamente los brazos, limitando el rango de movimiento y los beneficios potenciales.",
+    "Comprometer el núcleo de manera inadecuada, llevando a una posición inestable."
+  ]
+}

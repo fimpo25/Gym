@@ -1,0 +1,42 @@
+{
+  "nombre": "Estiramiento Lateral de Cuello",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/neck-side-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/f3475b7e-a710-4061-87e1-fc6e102bcaee.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Neck Side Stretch is a flexibility exercise targeting the muscles on the sides of the neck, including the sternocleidomastoid and upper trapezius. This stretch helps improve neck mobility, reduce tension, and prevent stiffness, especially beneficial for individuals who spend long hours sitting or working at a desk.",
+  "como_realizar": [
+    "Sit or stand with your back straight and shoulders relaxed.",
+    "Gently tilt your head to one side, bringing your ear towards your shoulder without lifting the shoulder.",
+    "Hold the stretch for 15-30 seconds, feeling a gentle pull along the side of your neck.",
+    "Return your head to the neutral position and repeat on the opposite side.",
+    "Perform 2-3 sets on each side."
+  ],
+  "consejos": [
+    "Keep your shoulders down and relaxed throughout the stretch to avoid unnecessary tension.",
+    "Breathe deeply and evenly to enhance relaxation and effectiveness of the stretch.",
+    "Avoid forcing your head down; move only until you feel a gentle stretch.",
+    "If you feel any pain or discomfort, ease off slightly or stop the exercise.",
+    "Incorporate this stretch into your routine after workouts or during breaks if you work at a desk."
+  ],
+  "errores_comunes": [
+    "Tilting the head too far, causing strain on the neck muscles.",
+    "Lifting the shoulder towards the ear, reducing the effectiveness of the stretch.",
+    "Twisting the neck instead of maintaining a straight side tilt.",
+    "Failing to keep the spine aligned, leading to improper posture.",
+    "Using momentum instead of controlled movement, risking muscle strain.",
+    "Holding the stretch for too short a duration to be effective.",
+    "Not engaging the core, resulting in instability and poor form.",
+    "Stretching only one side, leading to muscle imbalance."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Crunch en Máquina Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-en-maquina-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/915f5116-ccc2-4bad-8f0a-bf8a281427b8.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch en máquina acostado es un ejercicio abdominal realizado en una máquina especializada diseñada para trabajar el recto abdominal. Este ejercicio proporciona resistencia para aumentar el compromiso muscular y mejorar la fuerza del núcleo.",
+  "como_realizar": [
+    "Ajusta la configuración de la máquina para adaptarla a tu tamaño corporal, asegurándote de que el respaldo y la colocación de los pies sean cómodos.",
+    "Acuéstate en la máquina con la espalda firmemente contra el respaldo y los pies asegurados bajo las almohadillas para los pies.",
+    "Agarra las manijas o coloca tus manos sobre el pecho, dependiendo del diseño de la máquina.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Exhala mientras contraes los músculos abdominales para levantar la parte superior de tu cuerpo hacia tus rodillas.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando la máxima contracción de los abdominales.",
+    "Inhala mientras regresas lentamente a la posición inicial, manteniendo el control durante todo el descenso.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la máquina esté ajustada correctamente para evitar tensiones en la espalda y el cuello.",
+    "Concéntrate en usar tus músculos abdominales en lugar de tirar con los brazos o las piernas.",
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén la parte baja de la espalda en contacto con el cojín durante todo el ejercicio para una forma adecuada.",
+    "Evita usar el impulso; en su lugar, confía en la contracción muscular para realizar cada repetición.",
+    "Exhala durante la fase de contracción y inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para iniciar el movimiento en lugar de activar los músculos del core.",
+    "Ajustar la resistencia de la máquina demasiado alta, lo que lleva a una forma incorrecta y un rango de movimiento reducido.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, lo que reduce la activación del core.",
+    "No contraer completamente los músculos abdominales en la parte superior del movimiento.",
+    "No mantener una posición neutral de la cabeza y el cuello, lo que lleva a tensión.",
+    "Apresurarse a través de las repeticiones sin un movimiento controlado, reduciendo la efectividad.",
+    "Alineación incorrecta de las almohadillas de la máquina, causando una activación muscular desigual.",
+    "Descuidar exhalar durante el crunch, lo que puede reducir la activación del core.",
+    "Comenzar el movimiento desde los hombros en lugar del core, lo que lleva a una forma incorrecta."
+  ]
+}

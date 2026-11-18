@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación Lateral a Frontal",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-a-frontal",
+  "video_url": "https://api.smartworkout.app/asset/video/327a5be8-fa67-4555-8291-fbfad2b9fd53.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación Lateral a Frontal es un ejercicio compuesto para los hombros que se enfoca en los músculos deltoides, específicamente en las cabezas anterior y lateral. Este movimiento implica levantar mancuernas desde los lados de tu cuerpo hacia el frente, involucrando tanto la abducción como la flexión del hombro.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una mancuerna en cada mano con los brazos a los lados.",
+    "Mantén una ligera flexión en los codos y una columna neutral durante todo el ejercicio.",
+    "Levanta las mancuernas lateralmente hasta la altura de los hombros, manteniendo las palmas hacia abajo.",
+    "Sin detenerte, lleva las mancuernas hacia adelante de manera controlada hasta que estén directamente frente a ti a la altura de los hombros.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial invirtiendo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus movimientos sean suaves y controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Evita usar el impulso; concéntrate en usar los músculos de los hombros para levantar las pesas.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad y apoyar la parte baja de tu espalda.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a cargas más pesadas.",
+    "Exhala mientras levantas las pesas e inhala mientras las bajas de nuevo."
+  ],
+  "errores_comunes": [
+    "Levantar las pesas demasiado alto, causando pinzamiento en el hombro.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "Balancear el cuerpo para levantar las pesas.",
+    "No mantener la muñeca recta, lo que lleva a una tensión.",
+    "Permitir que los codos se bloqueen en la parte superior del movimiento.",
+    "Levantar pesas demasiado pesadas, comprometiendo la forma.",
+    "No activar el core, resultando en pérdida de estabilidad.",
+    "Encoger los hombros, reduciendo el compromiso del hombro.",
+    "No mantener los brazos ligeramente doblados, aumentando el estrés en las articulaciones.",
+    "Soltar las pesas demasiado rápido, perdiendo tensión muscular."
+  ]
+}

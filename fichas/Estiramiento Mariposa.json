@@ -1,0 +1,45 @@
+{
+  "nombre": "Estiramiento Mariposa",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/butterfly-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/a93bed96-d2b2-41bd-86b7-9fb14711a6ce.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Butterfly Stretch is a flexibility exercise targeting the inner thighs, hips, and groin. It is commonly used to improve range of motion and reduce tension in the lower body, making it beneficial for athletes and individuals looking to enhance their flexibility.",
+  "como_realizar": [
+    "Sit on the floor with your back straight and legs extended in front of you.",
+    "Bend your knees and bring the soles of your feet together, allowing your knees to drop to the sides.",
+    "Hold your feet with your hands and pull them gently towards your body.",
+    "Keep your back straight and lean slightly forward from the hips to deepen the stretch.",
+    "Hold the position for 20-30 seconds while breathing deeply.",
+    "Release and return to the starting position."
+  ],
+  "consejos": [
+    "Ensure your back remains straight throughout the stretch to avoid strain.",
+    "Do not force your knees to touch the ground; let gravity naturally assist in the stretch.",
+    "Focus on breathing deeply to help relax your muscles and increase flexibility.",
+    "If you feel discomfort in your knees, place a cushion or rolled towel under them for support.",
+    "Perform this stretch after a workout when muscles are warm for better results."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing strain on the lower back.",
+    "Rounding the spine instead of keeping it straight.",
+    "Pulling the feet too close to the body, leading to knee discomfort.",
+    "Forcing the knees down with the hands, risking knee or hip strain.",
+    "Allowing the shoulders to hunch or tense up.",
+    "Failing to engage the core for stability.",
+    "Not keeping the soles of the feet together, reducing stretch effectiveness.",
+    "Holding the breath instead of breathing deeply and naturally."
+  ]
+}

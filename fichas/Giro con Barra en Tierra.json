@@ -1,0 +1,50 @@
+{
+  "nombre": "Giro con Barra en Tierra",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-con-barra-en-tierra",
+  "video_url": "https://api.smartworkout.app/asset/video/c85f1bc8-435b-464b-8a66-bc6cb6d3014c.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Giro con Barra en Tierra es un ejercicio para el core que se enfoca en los oblicuos, abdominales y hombros. Consiste en rotar el torso mientras se sostiene una barra con un extremo anclado, proporcionando un movimiento rotacional único que mejora la estabilidad y fuerza del core.",
+  "como_realizar": [
+    "Asegura un extremo de una barra en un accesorio de landmine o en una esquina de la habitación.",
+    "Párate con los pies al ancho de los hombros, sosteniendo el otro extremo de la barra con ambas manos a la altura del pecho.",
+    "Extiende completamente los brazos frente a ti, manteniendo una ligera flexión en los codos.",
+    "Activa tu núcleo y rota tu torso hacia un lado, pivotando sobre el pie opuesto.",
+    "Regresa a la posición inicial rotando de nuevo al centro.",
+    "Repite el movimiento hacia el otro lado, manteniendo el control en todo momento.",
+    "Realiza el número deseado de repeticiones en cada lado."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu zona lumbar.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular.",
+    "Asegúrate de que tus hombros y caderas se muevan juntos para mantener una forma adecuada.",
+    "Comienza con un peso más ligero para dominar la técnica antes de aumentar la resistencia.",
+    "Exhala al rotar e inhala al regresar a la posición central.",
+    "Mantén una ligera flexión en tus rodillas para un mejor equilibrio y estabilidad."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar de mantenerlas estables.",
+    "Permitir que las rodillas se inclinen hacia adentro durante el giro.",
+    "Torcer la columna vertebral en exceso en lugar de mantener un rango de movimiento controlado.",
+    "Usar los brazos para mover la barra en lugar de involucrar los músculos del core.",
+    "Inclinarse hacia adelante o hacia atrás en lugar de mantener una postura erguida.",
+    "No mantener los hombros hacia abajo y hacia atrás, lo que lleva a una mala posición de los hombros.",
+    "Moverse demasiado rápido, sacrificando el control y la estabilidad.",
+    "No mantener los pies firmemente plantados, causando desequilibrio.",
+    "Arqueando demasiado la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Descuidar la respiración adecuada, lo que lleva a tensión y efectividad reducida."
+  ]
+}

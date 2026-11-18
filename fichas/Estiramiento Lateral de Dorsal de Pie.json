@@ -1,0 +1,43 @@
+{
+  "nombre": "Estiramiento Lateral de Dorsal de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/standing-side-lat-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/3c53214a-7316-4933-bf75-83488a7e6af4.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS"
+  ],
+  "descripcion": "The Standing Side Lat Stretch is a flexibility exercise targeting the latissimus dorsi muscles, which are located on the sides of the back. This stretch helps improve range of motion in the shoulders and upper back, and can aid in reducing muscle tightness and enhancing overall posture.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, keeping your knees slightly bent.",
+    "Raise your right arm overhead, reaching towards the ceiling.",
+    "Lean your torso gently to the left side, feeling the stretch along the right side of your body.",
+    "Hold the stretch for 15-30 seconds, breathing deeply throughout.",
+    "Return to the starting position and repeat on the opposite side."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain balance and support your lower back.",
+    "Avoid leaning forward or backward; focus on a lateral stretch directly to the side.",
+    "Ensure your movements are slow and controlled to prevent injury.",
+    "If you feel any sharp pain, reduce the intensity of the stretch or stop if necessary.",
+    "Incorporate this stretch into your warm-up or cool-down routine to enhance flexibility."
+  ],
+  "errores_comunes": [
+    "Leaning forward or backward instead of directly to the side, reducing stretch effectiveness.",
+    "Allowing the hips to shift out of alignment, which can decrease the stretch on the lats.",
+    "Failing to keep the arm fully extended overhead, limiting the range of motion.",
+    "Bending the elbow of the stretching arm, which reduces the stretch intensity.",
+    "Not engaging the core, leading to instability and ineffective stretch.",
+    "Tilting the head forward or backward, which can strain the neck.",
+    "Holding the breath instead of breathing deeply, which can limit stretch benefits."
+  ]
+}

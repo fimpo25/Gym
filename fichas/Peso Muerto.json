@@ -1,0 +1,59 @@
+{
+  "nombre": "Peso Muerto",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/peso-muerto",
+  "video_url": "https://api.smartworkout.app/asset/video/97a01cea-2705-4d3b-b93d-193dfc57875f.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "CALVES",
+    "FOREARMS",
+    "GLUTEUS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El peso muerto es un ejercicio compuesto que trabaja múltiples grupos musculares, principalmente la cadena posterior, incluyendo los glúteos, isquiotibiales, parte baja de la espalda y trapecios. Es un movimiento fundamental de entrenamiento de fuerza que consiste en levantar una barra cargada desde el suelo hasta el nivel de la cadera mientras se mantiene una columna neutral.",
+  "como_realizar": [
+    "Párate con los pies al ancho de las caderas, con los dedos apuntando ligeramente hacia afuera.",
+    "Coloca la barra sobre la mitad de tus pies.",
+    "Dobla las caderas y las rodillas para agarrar la barra justo afuera de tus rodillas con un agarre por encima o mixto.",
+    "Mantén el pecho hacia arriba, la espalda recta y los hombros ligeramente delante de la barra.",
+    "Activa tu núcleo y empuja con los talones para levantar la barra extendiendo las caderas y las rodillas simultáneamente.",
+    "Mantén la barra cerca de tu cuerpo mientras la levantas hasta el nivel de la cadera.",
+    "Una vez completamente erguido, haz una pausa breve antes de bajar la barra al suelo inclinándote en las caderas y doblando las rodillas."
+  ],
+  "consejos": [
+    "Asegúrate de que tu columna vertebral permanezca neutral durante todo el levantamiento para prevenir lesiones.",
+    "Activa tus músculos del core antes de iniciar el levantamiento para una mejor estabilidad.",
+    "Mantén la barra cerca de tu cuerpo para mantener el equilibrio y reducir la tensión en la parte baja de la espalda.",
+    "Evita redondear la espalda; concéntrate en mantenerla recta activando tus dorsales y juntando tus omóplatos.",
+    "Usa un agarre mixto o correas si la fuerza de agarre es un factor limitante.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Redondear la parte baja de la espalda, lo que puede llevar a una tensión espinal potencial.",
+    "Levantar con los brazos en lugar de involucrar las piernas y el core.",
+    "Comenzar con las caderas demasiado bajas, asemejándose a una sentadilla en lugar de un bisagra.",
+    "Posicionar la barra demasiado lejos de las espinillas, aumentando la tensión en la parte baja de la espalda.",
+    "No mantener la barra cerca del cuerpo durante todo el levantamiento.",
+    "Hiperextender la espalda en la parte superior del levantamiento.",
+    "No involucrar los dorsales, lo que lleva a un redondeo de los hombros.",
+    "Usar un agarre desigual, causando una activación muscular desequilibrada.",
+    "Levantar las caderas demasiado rápido, resultando en un levantamiento con piernas rígidas.",
+    "Bloquear las rodillas prematuramente antes de que las caderas se extiendan.",
+    "No mantener una posición neutral de la cabeza, causando tensión en el cuello.",
+    "Dejar caer la barra demasiado rápido, perdiendo el control y arriesgando lesiones."
+  ]
+}

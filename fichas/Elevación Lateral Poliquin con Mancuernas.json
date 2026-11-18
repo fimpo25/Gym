@@ -1,0 +1,46 @@
+{
+  "nombre": "Elevación Lateral Poliquin con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-poliquin-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/392d3cca-7632-44bc-8dd5-c23a1e2dbcf0.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Elevación Poliquin es un ejercicio avanzado para los hombros que se enfoca en los deltoides laterales, mejorando el ancho y la definición de los hombros. Implica movimientos laterales controlados de los brazos, con un enfoque en mantener la tensión a lo largo de todo el rango de movimiento. Este ejercicio se realiza típicamente con mancuernas y requiere una forma adecuada para prevenir lesiones y maximizar la efectividad.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano a los lados.",
+    "Activa tu núcleo y mantén la espalda recta durante todo el ejercicio.",
+    "Con una ligera flexión en los codos, levanta los brazos lateralmente hasta que estén paralelos al suelo.",
+    "Pausa brevemente en la parte superior del movimiento, asegurándote de que tus muñecas estén alineadas con tus hombros.",
+    "Baja lentamente las mancuernas de regreso a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar los músculos de tus hombros para levantar las pesas, no el impulso.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita encoger los hombros durante el levantamiento para aislar los deltoides laterales.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de avanzar a cargas más pesadas.",
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir la tensión en las articulaciones."
+  ],
+  "errores_comunes": [
+    "Levantar las mancuernas demasiado alto, lo que desvía el enfoque de los deltoides laterales y puede tensar las articulaciones del hombro.",
+    "Usar impulso o balancear las pesas, reduciendo el compromiso muscular y el control.",
+    "Permitir que las muñecas se doblen excesivamente, lo que lleva a una mala alineación y un mayor riesgo de tensión en las muñecas.",
+    "Encoger los hombros durante el levantamiento, lo que involucra más los trapecios que los deltoides.",
+    "Inclinarse demasiado hacia adelante o hacia atrás, afectando el equilibrio y apuntando a los músculos incorrectos.",
+    "No mantener una ligera flexión en los codos, lo que puede causar molestias en las articulaciones y reducir la efectividad del ejercicio.",
+    "Levantar demasiado peso, comprometiendo la forma y reduciendo la capacidad de aislar los deltoides laterales.",
+    "Bajar las mancuernas demasiado rápido, lo que disminuye el tiempo bajo tensión y el control."
+  ]
+}

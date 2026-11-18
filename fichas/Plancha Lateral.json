@@ -1,0 +1,42 @@
+{
+  "nombre": "Plancha Lateral",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/plancha-lateral",
+  "video_url": "https://api.smartworkout.app/asset/video/f9ceb2e1-f7ba-4954-8cb7-78d6b60858fc.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Plancha Lateral es un ejercicio isométrico para el core que se enfoca en los músculos oblicuos, mejorando la estabilidad del core y el equilibrio. Consiste en mantener una posición recta del cuerpo apoyado en un brazo y el lateral de un pie.",
+  "como_realizar": [
+    "Acuéstate de lado con las piernas extendidas y apiladas desde la cadera hasta los pies.",
+    "Coloca tu codo directamente debajo de tu hombro, asegurando que tu antebrazo esté perpendicular a tu cuerpo.",
+    "Activa tu núcleo y levanta tus caderas del suelo, formando una línea recta desde la cabeza hasta los pies.",
+    "Mantén tu cabeza alineada con tu columna y sostén la posición mientras respiras de manera constante.",
+    "Mantén la posición durante el tiempo deseado, luego cambia de lado."
+  ],
+  "consejos": [
+    "Asegúrate de que tu codo esté directamente debajo de tu hombro para evitar tensiones.",
+    "Activa tus músculos del core para mantener el equilibrio y la estabilidad.",
+    "Mantén tu cuerpo en una línea recta para maximizar la efectividad.",
+    "Evita que tus caderas se hundan o suban demasiado; apunta a una posición neutral.",
+    "Concéntrate en una respiración constante para ayudar a mantener la posición por más tiempo."
+  ],
+  "errores_comunes": [
+    "Las caderas se hunden hacia el suelo, reduciendo el compromiso del core.",
+    "El hombro no está alineado directamente sobre el codo, aumentando la tensión en la articulación.",
+    "Los pies no están apilados, lo que lleva a la inestabilidad y reduce la efectividad.",
+    "El cuello está desalineado, causando tensión innecesaria.",
+    "La cadera superior rota hacia adelante o hacia atrás, comprometiendo la forma.",
+    "Los músculos del core no están comprometidos, reduciendo la estabilidad y efectividad.",
+    "El brazo superior no está extendido o posicionado correctamente, afectando el equilibrio.",
+    "Respiración inconsistente, lo que lleva a la pérdida de control y estabilidad."
+  ]
+}

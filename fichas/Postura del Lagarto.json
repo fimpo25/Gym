@@ -1,0 +1,49 @@
+{
+  "nombre": "Postura del Lagarto",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/postura-del-lagarto",
+  "video_url": "https://api.smartworkout.app/asset/video/53d0ec3b-e618-4e94-9ccb-aaba16734295.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "ABS",
+    "ADDUCTOR"
+  ],
+  "descripcion": "La Postura del Lagarto, o Utthan Pristhasana, es una postura de yoga que se enfoca en los flexores de la cadera, los isquiotibiales y los cuádriceps. Mejora la flexibilidad en las caderas y la ingle, al mismo tiempo que fortalece el núcleo y mejora el equilibrio.",
+  "como_realizar": [
+    "Comienza en una posición de perro boca abajo con tus manos y pies en la colchoneta.",
+    "Da un paso hacia adelante con tu pie derecho hacia el exterior de tu mano derecha, alineando tu rodilla sobre tu tobillo.",
+    "Baja tu rodilla izquierda a la colchoneta y deslízala hacia atrás ligeramente para extender tu pierna.",
+    "Mantén tus manos en la colchoneta o baja sobre tus antebrazos para un estiramiento más profundo.",
+    "Mantén la postura durante varias respiraciones, manteniendo la mirada hacia adelante o hacia abajo.",
+    "Para liberar, presiona hacia atrás en perro boca abajo y repite en el otro lado."
+  ],
+  "consejos": [
+    "Asegúrate de que tu rodilla delantera esté alineada sobre tu tobillo para evitar tensiones.",
+    "Activa tu núcleo para mantener la estabilidad y apoyar la parte baja de la espalda.",
+    "Si bajar sobre los antebrazos es desafiante, usa bloques de yoga para apoyo.",
+    "Mantén tu pierna trasera activa presionando la parte superior del pie contra la esterilla.",
+    "Concéntrate en una respiración profunda y uniforme para ayudar a relajarte en el estiramiento."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado hacia adelante, reduciendo la estabilidad y el compromiso.",
+    "Rodilla delantera colapsando hacia adentro, forzando la articulación de la rodilla.",
+    "Pierna trasera no extendida completamente, limitando el estiramiento del flexor de la cadera.",
+    "Caderas levantadas demasiado alto, disminuyendo la efectividad del estiramiento.",
+    "Hombros encorvados, causando tensión y desalineación.",
+    "Cuello inclinado hacia adelante, provocando tensión e incomodidad.",
+    "Núcleo no comprometido, resultando en pérdida de equilibrio y soporte.",
+    "Retención de la respiración, reduciendo el flujo de oxígeno y la relajación."
+  ]
+}

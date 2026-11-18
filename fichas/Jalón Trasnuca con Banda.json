@@ -1,0 +1,46 @@
+{
+  "nombre": "Jalón Trasnuca con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/band-pulldown-behind-neck",
+  "video_url": "https://api.smartworkout.app/asset/video/a82c5199-4f3e-43ca-a962-2fc78883059e.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The 'Band Pull Down Behind Neck' exercise targets the upper back muscles, particularly the latissimus dorsi, rhomboids, and trapezius. It involves pulling a resistance band down behind the neck while maintaining proper posture and control. This exercise helps improve shoulder mobility and upper back strength.",
+  "como_realizar": [
+    "Attach a resistance band to a high anchor point.",
+    "Stand or sit facing the anchor point with feet shoulder-width apart.",
+    "Grasp the band with both hands, palms facing forward, and arms extended overhead.",
+    "Engage your core and keep your back straight.",
+    "Pull the band down behind your neck by bending your elbows and squeezing your shoulder blades together.",
+    "Pause briefly at the bottom of the movement, ensuring tension in the back muscles.",
+    "Slowly return to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the exercise to maintain stability.",
+    "Avoid arching your back; maintain a neutral spine position.",
+    "Focus on squeezing your shoulder blades together as you pull down.",
+    "Ensure that your movements are controlled and not jerky to prevent injury.",
+    "Start with a lighter resistance band to master form before progressing to heavier resistance.",
+    "Breathe out as you pull down and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Pulling the band too far behind the neck, leading to excessive shoulder strain.",
+    "Using momentum instead of controlled movement, reducing muscle engagement.",
+    "Arching the lower back excessively, compromising spinal alignment.",
+    "Allowing the elbows to flare out too wide, reducing lat activation.",
+    "Failing to keep the core engaged, leading to instability.",
+    "Not maintaining a neutral neck position, causing unnecessary neck tension.",
+    "Using a band with improper resistance, affecting form and effectiveness.",
+    "Neglecting to retract the shoulder blades, limiting upper back involvement."
+  ]
+}

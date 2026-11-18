@@ -1,0 +1,49 @@
+{
+  "nombre": "Press Declinado Convergente",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-declinado-convergente",
+  "video_url": "https://api.smartworkout.app/asset/video/a814e9e3-9f7a-4785-8a83-ff0cee912f9b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho en Banco Declinado es un ejercicio compuesto que se enfoca en la parte inferior de los músculos pectorales. Consiste en empujar un peso alejándolo del cuerpo mientras se está acostado en un banco declinado, involucrando el pecho, los tríceps y los hombros.",
+  "como_realizar": [
+    "Ajusta el banco a un ángulo de declive de aproximadamente 15-30 grados.",
+    "Recuéstate en el banco con los pies asegurados bajo las almohadillas para pies.",
+    "Agarra la barra con las manos un poco más anchas que el ancho de los hombros.",
+    "Desmonta la barra y colócala sobre tu pecho inferior.",
+    "Baja la barra lentamente hacia tu pecho inferior, manteniendo los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Presiona la barra de nuevo hacia la posición inicial, extendiendo completamente los brazos sin bloquear los codos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca plana contra el banco durante todo el ejercicio.",
+    "Activa tu núcleo para mantener la estabilidad y el control durante el movimiento.",
+    "Evita abrir demasiado los codos para prevenir tensión en los hombros.",
+    "Controla el descenso de la barra para maximizar el compromiso muscular.",
+    "Exhala mientras presionas la barra hacia arriba e inhala mientras la bajas.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "Rebotar la barra en el pecho en lugar de bajarla de manera controlada.",
+    "Abrir los codos demasiado, aumentando la tensión en los hombros.",
+    "No activar el core para la estabilidad.",
+    "Arquear excesivamente la parte baja de la espalda, arriesgando tensión en la columna.",
+    "No mantener un rango completo de movimiento, reduciendo el compromiso muscular.",
+    "Permitir que las muñecas se doblen hacia atrás, forzando las articulaciones.",
+    "No alinear la trayectoria de la barra con la parte baja del pecho, desviando la fuerza.",
+    "Descuidar mantener los pies firmemente plantados para la estabilidad.",
+    "Apresurar el movimiento, sacrificando la tensión muscular y el control."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Dominadas Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/close-grip-pull-up",
+  "video_url": "https://api.smartworkout.app/asset/video/f5fd5f13-bfb7-4f07-855f-cea18e5e42eb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Close Grip Pull-Up is a bodyweight exercise targeting the upper back, biceps, and forearms. It involves pulling your body upward using a narrow grip on a pull-up bar, emphasizing the inner back muscles and arm flexors.",
+  "como_realizar": [
+    "Stand under a pull-up bar and reach up to grasp it with a close grip, palms facing away from you, hands about shoulder-width apart.",
+    "Hang from the bar with your arms fully extended and feet off the ground. Engage your core and keep your body straight.",
+    "Initiate the pull by squeezing your shoulder blades together and pulling your elbows down towards your sides.",
+    "Continue to pull until your chin is above the bar, keeping your elbows close to your body.",
+    "Pause briefly at the top of the movement, then slowly lower yourself back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure a full range of motion by fully extending your arms at the bottom of each rep.",
+    "Focus on engaging your lats and biceps throughout the movement for maximum effectiveness.",
+    "Avoid swinging or using momentum to lift yourself; maintain control throughout the exercise.",
+    "If you're unable to perform a full pull-up, use resistance bands or an assisted pull-up machine to build strength.",
+    "Keep your core tight to prevent excessive arching of the lower back during the exercise."
+  ],
+  "errores_comunes": [
+    "Gripping the bar too narrowly, causing wrist strain and reducing range of motion.",
+    "Using momentum by swinging the body, which disengages the target muscles.",
+    "Failing to retract the shoulder blades, leading to poor back muscle activation.",
+    "Not reaching full extension at the bottom, limiting muscle engagement.",
+    "Pulling with the arms instead of engaging the back muscles.",
+    "Allowing the elbows to flare out, reducing the effectiveness of the exercise.",
+    "Inadequate core engagement, leading to an unstable body position.",
+    "Rushing the movement, sacrificing control and form for speed.",
+    "Not maintaining a straight line from head to hips, causing poor alignment."
+  ]
+}

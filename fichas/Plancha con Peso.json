@@ -1,0 +1,49 @@
+{
+  "nombre": "Plancha con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/plancha-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/7838d7a5-3db2-483e-9eb5-d0946c68cbd6.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Plancha con Peso es un ejercicio avanzado para el core que consiste en mantener la posición de plancha mientras se añade peso extra para aumentar la resistencia. Este ejercicio se enfoca en los músculos del core, incluyendo el recto abdominal, el transverso del abdomen y los oblicuos, así como en los hombros y la parte baja de la espalda. Mejora la estabilidad, la fuerza y la resistencia del core.",
+  "como_realizar": [
+    "Comienza en una posición de plancha estándar con los antebrazos en el suelo y los codos directamente debajo de tus hombros.",
+    "Asegúrate de que tu cuerpo forme una línea recta desde la cabeza hasta los talones, activando tu núcleo y glúteos.",
+    "Pide a un compañero que coloque cuidadosamente un disco de pesas en tu espalda baja, asegurándose de que esté centrado y estable.",
+    "Mantén la posición de plancha, manteniendo el núcleo apretado y evitando cualquier hundimiento o arqueo de la espalda.",
+    "Sostén la posición durante la duración deseada, luego pide a tu compañero que retire el peso antes de bajar las rodillas al suelo."
+  ],
+  "consejos": [
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de avanzar a pesos más pesados.",
+    "Concéntrate en mantener tus caderas niveladas y evita que se caigan o se eleven durante el ejercicio.",
+    "Activa tus glúteos y cuádriceps para ayudar a mantener una posición estable.",
+    "Respira de manera constante durante el ejercicio para mantener el flujo de oxígeno y reducir la tensión.",
+    "Si experimentas alguna molestia en la parte baja de la espalda, detente inmediatamente y reevalúa tu forma."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o se levanten, comprometiendo el compromiso del núcleo.",
+    "Colocar las pesas demasiado hacia adelante o hacia atrás, causando desequilibrio.",
+    "No mantener una línea recta desde la cabeza hasta los talones.",
+    "Colocar las manos demasiado anchas o demasiado estrechas, afectando la estabilidad del hombro.",
+    "Contener la respiración, lo que lleva a tensión y reduce la resistencia.",
+    "Arquear la parte baja de la espalda, aumentando la tensión y reduciendo la efectividad.",
+    "Descuidar el compromiso de glúteos y cuádriceps, debilitando la estabilidad general.",
+    "Usar demasiado peso, lo que lleva a una ruptura de la forma.",
+    "No mantener el cuello neutral, causando tensión innecesaria."
+  ]
+}

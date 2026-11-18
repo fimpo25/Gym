@@ -1,0 +1,55 @@
+{
+  "nombre": "Sentadilla Barra Baja",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/lowbar-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/dd7de2a6-6559-4713-b29f-ad483a3af668.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Lowbar Squat is a compound exercise primarily targeting the muscles of the lower body, including the quadriceps, hamstrings, glutes, and lower back. It involves placing the barbell lower on the back compared to the high bar squat, typically across the posterior deltoids and just below the spine of the scapula. This positioning allows for a more horizontal back angle and greater hip flexion, emphasizing posterior chain engagement.",
+  "como_realizar": [
+    "Set up a barbell in a squat rack at about chest height.",
+    "Position yourself under the bar, placing it across your posterior deltoids just below the spine of your scapula.",
+    "Grip the bar with your hands slightly wider than shoulder-width apart, keeping your wrists straight.",
+    "Step back from the rack with feet shoulder-width apart and toes slightly pointed out.",
+    "Take a deep breath, brace your core, and initiate the squat by pushing your hips back and bending your knees.",
+    "Lower yourself until your hip crease is below your knee level while maintaining a neutral spine.",
+    "Drive through your heels to return to the starting position, extending your hips and knees simultaneously.",
+    "Exhale at the top of the movement and repeat for desired repetitions."
+  ],
+  "consejos": [
+    "Ensure that the barbell is positioned securely on your back to avoid slipping during the lift.",
+    "Maintain a tight core throughout the movement to support your lower back.",
+    "Focus on pushing through your heels to maximize glute and hamstring activation.",
+    "Keep your chest up and eyes forward to help maintain proper spinal alignment.",
+    "Warm up thoroughly before performing heavy sets to reduce injury risk.",
+    "Start with lighter weights to master form before progressing to heavier loads.",
+    "Consider using lifting shoes for better stability and ankle support."
+  ],
+  "errores_comunes": [
+    "Bar placed too high on the back, leading to improper weight distribution.",
+    "Feet positioned too narrowly, limiting stability and depth.",
+    "Knees caving inward, increasing stress on knee joints.",
+    "Back rounding or excessive forward lean, risking spinal strain.",
+    "Hips rising faster than the chest, causing loss of balance.",
+    "Insufficient hip hinge, reducing glute and hamstring engagement.",
+    "Failing to maintain a tight core, compromising overall stability.",
+    "Not reaching proper depth, limiting muscle activation.",
+    "Allowing the wrists to bend, causing unnecessary strain.",
+    "Lack of control during descent, leading to a bounce at the bottom."
+  ]
+}

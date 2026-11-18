@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Pierna a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-extension",
+  "video_url": "https://api.smartworkout.app/asset/video/9a8e775a-0093-49e4-b914-af2637dd67bb.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated One Leg Extension is an isolation exercise that targets the quadriceps muscles located at the front of the thigh. It is performed using a leg extension machine, which allows for controlled movement and precise targeting of the quadriceps. This exercise is beneficial for building strength and muscle definition in the legs.",
+  "como_realizar": [
+    "Adjust the seat and backrest of the leg extension machine so that your knees are aligned with the pivot point of the machine.",
+    "Sit on the machine with your back firmly against the backrest and your feet under the padded lever.",
+    "Select an appropriate weight on the machine's weight stack.",
+    "Grasp the handles or sides of the seat to stabilize your upper body.",
+    "Extend one leg by pushing against the padded lever until your leg is fully extended, keeping your foot flexed.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the quadriceps.",
+    "Slowly lower your leg back to the starting position without letting the weights touch.",
+    "Repeat for the desired number of repetitions before switching to the other leg."
+  ],
+  "consejos": [
+    "Ensure that your knee joint is aligned with the pivot point of the machine to prevent strain.",
+    "Keep your movements controlled and avoid using momentum to lift the weight.",
+    "Focus on squeezing your quadriceps at the top of each repetition for maximum contraction.",
+    "Maintain a neutral spine by keeping your back pressed against the backrest throughout the exercise.",
+    "Start with a lighter weight to perfect your form before progressing to heavier loads.",
+    "Avoid locking out your knee completely at full extension to protect your joint integrity.",
+    "Breathe out as you extend your leg and inhale as you return to starting position."
+  ],
+  "errores_comunes": [
+    "Using too much weight, causing momentum to take over and reducing muscle engagement.",
+    "Locking the knee at the top of the extension, which can strain the joint.",
+    "Allowing the foot to rotate inward or outward, leading to uneven muscle activation.",
+    "Failing to maintain a controlled pace, resulting in jerky movements.",
+    "Not fully extending the leg, limiting the range of motion and effectiveness.",
+    "Letting the hips lift off the seat, compromising stability and form.",
+    "Neglecting to adjust the machine to fit personal leg length, causing improper alignment.",
+    "Rushing through the eccentric phase, missing out on muscle strengthening benefits."
+  ]
+}

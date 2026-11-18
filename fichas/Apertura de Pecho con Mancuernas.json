@@ -1,0 +1,35 @@
+{
+  "nombre": "Apertura de Pecho con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-pecho-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/02abf225-e430-4ba1-a15d-bf07a46959db.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Apertura de Pecho con Mancuernas es un ejercicio de aislamiento que se enfoca en los músculos pectorales. Consiste en acostarse en un banco y extender los brazos hacia afuera con una ligera flexión en los codos, sosteniendo una mancuerna en cada mano. Este movimiento se centra en estirar y contraer los músculos del pecho, mejorando la definición y la fuerza muscular.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre por encima, palmas enfrentadas.",
+    "Extiende los brazos por encima del pecho, manteniendo una ligera flexión en los codos.",
+    "Baja lentamente las mancuernas hacia los lados en un arco amplio hasta sentir un estiramiento en el pecho.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Lleva las mancuernas de vuelta a la posición inicial apretando los músculos del pecho.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir el estrés en las articulaciones.",
+    "Concéntrate en usar los músculos del pecho para controlar el movimiento, en lugar de depender del impulso.",
+    "Mantén las escápulas retraídas y presionadas contra el banco para mayor estabilidad.",
+    "Inhala al bajar las mancuernas y exhala al levantarlas de nuevo.",
+    "Comienza con pesos más ligeros para dominar la forma adecuada antes de avanzar a cargas más pesadas.",
+    "Asegúrate de que tus movimientos sean lentos y controlados para maximizar el compromiso muscular."
+  ],
+  "errores_comunes": []
+}

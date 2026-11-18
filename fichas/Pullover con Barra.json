@@ -1,0 +1,46 @@
+{
+  "nombre": "Pullover con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/pullover-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/e5628a22-980d-4a2d-ba67-8923508ac2e2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "El pullover con barra es un ejercicio compuesto que se enfoca principalmente en el pecho y el dorsal ancho, mientras también involucra los tríceps, los hombros y el core. Se realiza acostado en un banco con una barra sostenida sobre el pecho, luego bajándola detrás de la cabeza en un movimiento en arco.",
+  "como_realizar": [
+    "Acuéstate plano en un banco con los pies firmemente plantados en el suelo.",
+    "Agarra la barra con ambas manos, a la altura de los hombros, y sostenla sobre tu pecho con los brazos extendidos.",
+    "Activa tu núcleo y mantén la espalda plana contra el banco.",
+    "Baja lentamente la barra en un arco sobre tu cabeza hasta que sientas un estiramiento en el pecho y los dorsales.",
+    "Pausa brevemente en la parte inferior del movimiento.",
+    "Regresa a la posición inicial invirtiendo el movimiento, manteniendo el control de la barra en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante el ejercicio para reducir la tensión en las articulaciones.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén tu núcleo comprometido para evitar el arqueo de la parte baja de la espalda durante el ejercicio.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada; es mejor comenzar ligero e incrementar gradualmente.",
+    "Asegúrate de que tu cabeza y cuello permanezcan en una posición neutral durante el movimiento."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que compromete la forma y reduce el control.",
+    "Permitir que los codos se abran, reduciendo el compromiso del pecho y los dorsales.",
+    "Arquear excesivamente la parte baja de la espalda, aumentando la tensión en la columna.",
+    "No mantener una posición estable de los hombros, arriesgando el estrés en la articulación del hombro.",
+    "Bajar la barra demasiado detrás de la cabeza, causando incomodidad en los hombros.",
+    "No comprometer completamente los dorsales y el pecho, convirtiendo el movimiento en un ejercicio de brazos.",
+    "Apresurarse en el movimiento, sacrificando el control y la activación muscular.",
+    "Ancho de agarre incorrecto, ya sea demasiado estrecho o demasiado ancho, afectando el enfoque muscular."
+  ]
+}

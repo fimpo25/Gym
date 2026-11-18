@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevaciones de Rodillas en Silla del Capitán",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevaciones-de-rodillas-en-silla-del-capitan",
+  "video_url": "https://api.smartworkout.app/asset/video/e994d983-956a-46d0-8492-966667f03313.mp4",
+  "tags": [
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Las Elevaciones de Rodillas en Silla del Capitán son un ejercicio efectivo para el core que se enfoca en el recto abdominal, los oblicuos y los flexores de la cadera. Se realiza utilizando un aparato de Silla del Capitán, que sostiene la parte superior del cuerpo mientras permite el movimiento libre de las piernas.",
+  "como_realizar": [
+    "Colócate en la Silla del Capitán con la espalda firmemente contra el respaldo.",
+    "Agarra las manijas firmemente para estabilizar la parte superior de tu cuerpo.",
+    "Deja que tus piernas cuelguen libremente con los pies fuera del suelo.",
+    "Activa tu núcleo llevando tu ombligo hacia tu columna.",
+    "Levanta lentamente tus rodillas hacia tu pecho de manera controlada.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la máxima contracción de los músculos abdominales.",
+    "Baja tus piernas de nuevo a la posición inicial sin balancearte ni usar impulso.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita balancear tus piernas; concéntrate en usar tus músculos centrales para levantar tus rodillas.",
+    "Asegúrate de que tu espalda permanezca presionada contra el respaldo durante todo el ejercicio.",
+    "Exhala al levantar las rodillas e inhala al bajarlas.",
+    "Comienza con un número moderado de repeticiones y aumenta gradualmente a medida que desarrollas fuerza.",
+    "Si experimentas molestias en la parte baja de la espalda, revisa tu forma y reduce el rango de movimiento si es necesario."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas en lugar de levantarlas de manera controlada, lo que lleva a un movimiento basado en el impulso.",
+    "Inclinarse demasiado hacia atrás, causando una curvatura excesiva de la parte baja de la espalda.",
+    "No comprometer los músculos del core, reduciendo la efectividad del ejercicio.",
+    "Permitir que los hombros se encojan, lo que puede tensar el cuello y la parte superior de la espalda.",
+    "No mantener las rodillas alineadas con las caderas, lo que puede causar molestias en las caderas.",
+    "Usar un rango de movimiento limitado, impidiendo la activación completa de los músculos abdominales.",
+    "Dejar caer las piernas demasiado rápido en el descenso, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "Agarrar las manijas demasiado fuerte, lo que puede causar tensión en los brazos y los hombros."
+  ]
+}

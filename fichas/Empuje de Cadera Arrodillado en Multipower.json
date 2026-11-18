@@ -1,0 +1,46 @@
+{
+  "nombre": "Empuje de Cadera Arrodillado en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-kneeling-hip-thrust",
+  "video_url": "https://api.smartworkout.app/asset/video/5e50d81b-14b3-4101-afe0-5c47ddfe370c.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Kneeling Hip Thrust is a lower body exercise that primarily targets the gluteus maximus, with secondary emphasis on the hamstrings and core. It is performed using a Smith machine, which provides stability and control, allowing for focused muscle engagement. This exercise is ideal for building strength and size in the glutes while minimizing lower back strain.",
+  "como_realizar": [
+    "Position a bench or padded surface behind the Smith machine bar at knee height.",
+    "Kneel on the floor with your back facing the bench, and position your shoulders against it.",
+    "Place the Smith machine bar across your hips, ensuring it is securely locked in place.",
+    "Grip the bar with both hands for stability.",
+    "Engage your core and glutes, then thrust your hips upward until your thighs are parallel to the floor.",
+    "Hold the top position for a moment, squeezing your glutes tightly.",
+    "Slowly lower your hips back to the starting position without resting them on the ground.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your knees are directly below your hips at the starting position to maximize glute engagement.",
+    "Keep your chin tucked and gaze forward throughout the movement to maintain a neutral spine.",
+    "Focus on squeezing your glutes at the top of each repetition to enhance muscle activation.",
+    "Avoid hyperextending your lower back by controlling the movement and maintaining core engagement.",
+    "Start with lighter weights to perfect your form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Placing feet too far forward or backward, leading to improper hip alignment.",
+    "Allowing the bar to rest on the lower back instead of the hips, causing discomfort and reducing effectiveness.",
+    "Failing to engage the glutes fully, relying too much on the lower back.",
+    "Using excessive weight that compromises form and control.",
+    "Rushing through the movement without pausing at the top to maximize muscle engagement.",
+    "Not maintaining a neutral spine, leading to potential lower back strain.",
+    "Allowing knees to collapse inward, reducing glute activation.",
+    "Performing partial reps without reaching full hip extension."
+  ]
+}

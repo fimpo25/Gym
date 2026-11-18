@@ -1,0 +1,48 @@
+{
+  "nombre": "Leñador con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/weighted-woodchopper",
+  "video_url": "https://api.smartworkout.app/asset/video/9b807b06-2a76-4bdb-b595-8f8473e11b90.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS"
+  ],
+  "descripcion": "The Weighted Woodchopper is a dynamic exercise that targets the core, particularly the obliques, while also engaging the shoulders and hips. It mimics the motion of chopping wood, involving a rotational movement that enhances functional strength and stability.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a weight (dumbbell or medicine ball) with both hands.",
+    "Start with the weight positioned near one shoulder, keeping your arms slightly bent.",
+    "Engage your core and rotate your torso as you bring the weight diagonally across your body towards the opposite hip.",
+    "Allow your hips and knees to pivot naturally as you perform the movement.",
+    "Reverse the motion, bringing the weight back to the starting position near your shoulder.",
+    "Repeat for the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Maintain a strong core throughout the exercise to protect your lower back.",
+    "Focus on controlled movements rather than speed to maximize muscle engagement.",
+    "Ensure your knees and hips pivot smoothly to avoid unnecessary strain.",
+    "Start with a lighter weight to master the form before progressing to heavier weights.",
+    "Keep your shoulders relaxed and avoid shrugging them during the movement.",
+    "Breathe out as you chop downwards and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Rotating at the hips instead of the torso, reducing core engagement.",
+    "Using the arms to lift the weight instead of engaging the core.",
+    "Allowing the knees to collapse inward during the movement.",
+    "Failing to maintain a neutral spine, leading to poor posture.",
+    "Swinging the weight too quickly, compromising control.",
+    "Not completing the full range of motion, limiting effectiveness.",
+    "Holding the breath instead of maintaining a steady breathing pattern.",
+    "Twisting the knees excessively, increasing injury risk.",
+    "Starting with too heavy a weight, causing form breakdown.",
+    "Leaning too far forward or backward, affecting balance and stability."
+  ]
+}

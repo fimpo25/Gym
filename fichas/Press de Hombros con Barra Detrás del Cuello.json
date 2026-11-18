@@ -1,0 +1,48 @@
+{
+  "nombre": "Press de Hombros con Barra Detrás del Cuello",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/barbell-behind-neck-shoulder-press",
+  "video_url": "https://api.smartworkout.app/asset/video/a260d6a5-06a4-4be9-a739-4005484d4683.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "The Barbell Behind Neck Shoulder Press is a compound exercise targeting the deltoid muscles, particularly the anterior and medial heads, as well as engaging the triceps and upper back. This exercise requires a barbell and is performed while standing or seated, focusing on controlled movement and proper form to avoid injury.",
+  "como_realizar": [
+    "Set up a barbell on a squat rack at about shoulder height.",
+    "Stand with your feet shoulder-width apart and grip the barbell with a pronated grip, slightly wider than shoulder-width.",
+    "Unrack the barbell and position it behind your neck, resting it on your upper traps.",
+    "Engage your core, keep your chest up, and ensure your back is straight.",
+    "Press the barbell upward in a controlled motion until your arms are fully extended overhead.",
+    "Slowly lower the barbell back to the starting position behind your neck.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Warm up your shoulders thoroughly before performing this exercise to prevent injury.",
+    "Maintain a neutral spine throughout the movement to protect your lower back.",
+    "Avoid using excessive weight to maintain control and proper form.",
+    "Keep your elbows slightly in front of you as you press up to reduce shoulder strain.",
+    "Focus on a smooth, controlled tempo both during the lift and when lowering the barbell.",
+    "If you experience discomfort in your shoulders, consider reducing weight or switching to a different shoulder press variation."
+  ],
+  "errores_comunes": [
+    "Lowering the bar too far down, causing excessive shoulder strain.",
+    "Using too much weight, leading to poor form and lack of control.",
+    "Failing to keep elbows under the bar, resulting in instability.",
+    "Arching the back excessively, increasing the risk of lower back injury.",
+    "Not engaging the core, leading to poor balance and control.",
+    "Allowing wrists to bend backward, causing unnecessary strain.",
+    "Using momentum to lift the bar, reducing muscle engagement.",
+    "Not maintaining a neutral head position, leading to neck strain.",
+    "Moving the bar unevenly, causing imbalanced shoulder activation.",
+    "Failing to lock out elbows at the top, reducing range of motion."
+  ]
+}

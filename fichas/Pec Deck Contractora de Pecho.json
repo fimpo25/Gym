@@ -1,0 +1,46 @@
+{
+  "nombre": "Pec Deck Contractora de Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/pec-deck:-contractora-de-pecho",
+  "video_url": "https://api.smartworkout.app/asset/video/9515b29a-ad82-4b95-ae20-e8372579256d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "Las aperturas en máquina para pectorales son un ejercicio de aislamiento que se centra en los músculos pectorales, principalmente el pectoral mayor. Implica el uso de una máquina de aperturas para pectorales donde el usuario se sienta con la espalda contra un respaldo, los brazos extendidos hacia los lados y los codos ligeramente doblados. El movimiento consiste en juntar los brazos frente al pecho, enfocándose en contraer los músculos pectorales.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus brazos estén paralelos al suelo al agarrar las manijas.",
+    "Siéntate con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre neutral, codos ligeramente doblados.",
+    "Inhala y lleva lentamente las manijas juntas frente a tu pecho contrayendo tus músculos pectorales.",
+    "Pausa brevemente en la contracción máxima, asegurando el máximo compromiso muscular.",
+    "Exhala y regresa lentamente a la posición inicial, manteniendo la tensión en tus músculos pectorales.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu asiento esté ajustado para que tus hombros estén alineados con el punto de pivote de la máquina.",
+    "Mantén los codos ligeramente doblados durante todo el movimiento para reducir la tensión en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho al juntar los brazos.",
+    "Evita usar el impulso; controla ambas fases del movimiento para obtener la máxima efectividad.",
+    "Mantén un ritmo lento y controlado para mejorar la activación muscular.",
+    "Mantén la espalda presionada contra el respaldo para evitar cualquier tensión innecesaria en la parte baja de la espalda."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos caigan por debajo de la altura de los hombros, reduciendo el compromiso del pecho.",
+    "Usar un peso excesivo, lo que lleva a un movimiento basado en el impulso en lugar de una contracción muscular controlada.",
+    "Inclinarse hacia adelante o hacia atrás, lo que altera el enfoque muscular previsto y puede tensar los hombros.",
+    "No mantener una ligera flexión en los codos, causando un estrés indebido en las articulaciones del codo.",
+    "No retraer completamente las escápulas, lo que limita la activación del pecho y aumenta la participación de los hombros.",
+    "Apresurarse en el movimiento, reduciendo el tiempo bajo tensión para los músculos del pecho.",
+    "Acercar demasiado las manijas, haciendo que los hombros asuman el control del movimiento.",
+    "Descuidar mantener las muñecas rectas, lo que puede llevar a una posible tensión en las muñecas."
+  ]
+}

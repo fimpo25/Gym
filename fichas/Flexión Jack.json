@@ -1,0 +1,51 @@
+{
+  "nombre": "Flexión Jack",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-jack",
+  "video_url": "https://api.smartworkout.app/asset/video/e95195f5-f331-4871-b0c2-eed87274e043.mp4",
+  "tags": [
+    "STRENGTH",
+    "PLYOMETRIC",
+    "CORE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Jack es un ejercicio dinámico que combina la flexión tradicional con el movimiento de un jumping jack. Trabaja los músculos del pecho, hombros, tríceps y core, además de ofrecer beneficios cardiovasculares. Este ejercicio mejora la fuerza del tren superior, la resistencia y la coordinación.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos colocadas un poco más anchas que el ancho de los hombros y los pies juntos.",
+    "Activa tu núcleo y mantén tu cuerpo en una línea recta desde la cabeza hasta los talones.",
+    "Baja tu pecho hacia el suelo doblando los codos, manteniéndolos en un ángulo de aproximadamente 45 grados con respecto a tu cuerpo.",
+    "Mientras te empujas de nuevo a la posición inicial, salta con los pies hacia los lados, más anchos que el ancho de las caderas.",
+    "Inmediatamente junta los pies de nuevo mientras bajas en la siguiente repetición de flexiones.",
+    "Continúa alternando entre flexiones y movimientos de jumping jack durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un núcleo fuerte durante todo el ejercicio para evitar que las caderas se hundan.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para asegurar una forma adecuada.",
+    "Mantén los codos ligeramente hacia adentro durante la flexión para proteger tus hombros.",
+    "Exhala al empujar hacia arriba y saltar, e inhala al bajar.",
+    "Si eres nuevo en este ejercicio, comienza con flexiones modificadas sobre las rodillas antes de avanzar a flexiones completas con salto.",
+    "Asegúrate de que tus manos estén posicionadas correctamente para evitar tensión en las muñecas."
+  ],
+  "errores_comunes": [
+    "No mantener una línea recta desde la cabeza hasta los talones, causando que las caderas se hundan o se levanten.",
+    "Permitir que los codos se abran excesivamente, aumentando la tensión en los hombros.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad y reduce la efectividad.",
+    "Realizar el movimiento de jumping jack demasiado rápido, comprometiendo la forma y el control.",
+    "Colocar las manos demasiado hacia adelante o hacia atrás, alterando el equilibrio y la alineación.",
+    "No bajar completamente el pecho al suelo, reduciendo el rango de movimiento.",
+    "Aterrizar fuertemente sobre los dedos de los pies durante el jumping jack, aumentando el impacto en las articulaciones.",
+    "Apresurarse en la fase de flexión, disminuyendo el compromiso muscular y el control."
+  ]
+}

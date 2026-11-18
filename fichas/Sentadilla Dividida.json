@@ -1,0 +1,48 @@
+{
+  "nombre": "Sentadilla Dividida",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/split-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/be7bd830-00ee-4786-92f6-f0b437dff54e.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The split squat is a lower-body exercise that targets the quadriceps, hamstrings, glutes, and calves. It involves a unilateral movement pattern that enhances balance and stability while improving strength in the legs. This exercise is performed by stepping one foot forward and lowering the hips until the rear knee nearly touches the ground, then returning to the starting position.",
+  "como_realizar": [
+    "Stand upright with your feet hip-width apart.",
+    "Step forward with your right foot, keeping your torso upright.",
+    "Lower your body by bending both knees until your left knee nearly touches the floor.",
+    "Ensure your right knee is aligned over your right ankle and does not extend past your toes.",
+    "Push through the heel of your right foot to return to the starting position.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Maintain an upright posture throughout the movement to engage core muscles.",
+    "Focus on keeping your front knee aligned with your ankle to prevent injury.",
+    "Control the descent to maximize muscle engagement and maintain balance.",
+    "Use a mirror or a partner to check form and ensure proper alignment.",
+    "Start with body weight before adding resistance like dumbbells or a barbell."
+  ],
+  "errores_comunes": [
+    "Allowing the front knee to cave inward, which can lead to knee strain.",
+    "Letting the back knee touch the ground, reducing control and engagement.",
+    "Failing to keep the torso upright, resulting in poor balance and core disengagement.",
+    "Pushing off with the front foot's toes instead of the heel, limiting glute activation.",
+    "Not maintaining a stable and straight back leg, causing imbalance.",
+    "Allowing the front foot to be too far forward, leading to ineffective range of motion.",
+    "Neglecting to engage the core, which can lead to lower back strain.",
+    "Rushing through the movement, sacrificing control and proper muscle engagement.",
+    "Not keeping the weight evenly distributed between both legs, causing uneven muscle activation."
+  ]
+}

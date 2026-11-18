@@ -1,0 +1,46 @@
+{
+  "nombre": "Torsión Espinal Supina",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/torsion-espinal-supina",
+  "video_url": "https://api.smartworkout.app/asset/video/176dacdc-1c83-4066-b89d-379f1ed904a6.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Torsión Espinal Acostado es un ejercicio de flexibilidad que se enfoca en la parte baja de la espalda, las caderas y los oblicuos. Se realiza en el suelo y ayuda a mejorar la movilidad de la columna vertebral y a aliviar la tensión en los músculos de la espalda.",
+  "como_realizar": [
+    "Acuéstate boca arriba con las piernas extendidas y los brazos estirados a los lados, con las palmas hacia abajo.",
+    "Dobla la rodilla derecha y llévala hacia tu pecho.",
+    "Guía suavemente tu rodilla derecha a través de tu cuerpo hacia el lado izquierdo, permitiendo que tus caderas roten mientras mantienes los hombros planos en el suelo.",
+    "Gira la cabeza hacia la derecha, mirando sobre tu hombro derecho para intensificar el estiramiento.",
+    "Mantén la posición durante 20-30 segundos, respirando profundamente y relajándote en el estiramiento.",
+    "Vuelve lentamente a la posición inicial y repite en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén ambos hombros presionados contra el suelo para maximizar el giro espinal.",
+    "Activa tus músculos del core para apoyar tu zona lumbar durante el estiramiento.",
+    "Si sientes incomodidad en la zona lumbar, reduce el rango de movimiento no llevando la rodilla tan lejos a través de tu cuerpo.",
+    "Concéntrate en una respiración lenta y controlada para mejorar la relajación y efectividad del estiramiento.",
+    "Realiza este ejercicio sobre una superficie cómoda como una esterilla de yoga para proteger tu columna."
+  ],
+  "errores_comunes": [
+    "Levantar el hombro del suelo reduce el estiramiento y puede provocar tensión.",
+    "No mantener las rodillas apiladas puede causar una torsión desigual y limitar la efectividad.",
+    "Permitir que las caderas se levanten del suelo puede reducir la alineación y el estiramiento de la columna.",
+    "Torcer en exceso la columna puede causar incomodidad o lesión.",
+    "No comprometer el núcleo puede resultar en un control deficiente y un estiramiento ineficaz.",
+    "Contener la respiración restringe la relajación y limita el rango de movimiento.",
+    "Rebotar o sacudirse en la torsión puede causar tensión muscular.",
+    "No alinear la cabeza con la columna puede crear tensión en el cuello."
+  ]
+}

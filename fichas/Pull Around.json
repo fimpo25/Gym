@@ -1,0 +1,45 @@
+{
+  "nombre": "Pull Around",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/pull-around",
+  "video_url": "https://api.smartworkout.app/asset/video/435cff62-b904-4149-b512-028033ac10d1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Pull Around is an isolation exercise primarily targeting the latissimus dorsi, with secondary engagement of the rear deltoids and rhomboids. It involves a cable machine and is performed with a single handle attachment, emphasizing a wide range of motion to effectively stretch and contract the lats.",
+  "como_realizar": [
+    "Attach a single handle to a low pulley on a cable machine.",
+    "Stand sideways to the machine, holding the handle with the hand furthest from the machine.",
+    "Step away from the machine to create tension in the cable, keeping your feet shoulder-width apart.",
+    "Start with your arm extended across your body, palm facing down.",
+    "Pull the handle in an arc across your body and upwards, keeping your arm slightly bent.",
+    "Focus on squeezing your lats as you pull, stopping when your hand reaches shoulder height.",
+    "Slowly return to the starting position, maintaining control throughout the movement.",
+    "Repeat for the desired number of repetitions before switching sides."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your elbow throughout the exercise to reduce strain on the joint.",
+    "Keep your core engaged to stabilize your body and prevent unwanted movement.",
+    "Focus on a slow and controlled motion, especially during the eccentric phase as you return to the starting position.",
+    "Visualize pulling with your back muscles rather than your arm to maximize lat engagement.",
+    "Ensure that your shoulder remains down and back during the movement to avoid unnecessary strain.",
+    "Adjust the weight so that you can perform the exercise with proper form for all repetitions."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to momentum-driven movement instead of controlled execution.",
+    "Allowing the elbows to flare out excessively, reducing target muscle engagement.",
+    "Failing to maintain a stable core, resulting in unnecessary torso movement.",
+    "Not keeping the shoulders down and back, causing strain on the neck and upper traps.",
+    "Performing the exercise too quickly, compromising form and muscle activation.",
+    "Neglecting to engage the lats, shifting the focus away from the intended muscles.",
+    "Starting the movement from the wrong position, which can lead to improper range of motion.",
+    "Overextending the arms during the pull, risking shoulder joint strain."
+  ]
+}

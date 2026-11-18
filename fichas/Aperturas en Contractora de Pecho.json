@@ -1,0 +1,45 @@
+{
+  "nombre": "Aperturas en Contractora de Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/aperturas-en-contractora-de-pecho",
+  "video_url": "https://api.smartworkout.app/asset/video/cbacfcac-1e0c-45f5-8003-463e2e92af4a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La apertura de pecho en máquina es un ejercicio de aislamiento que se enfoca en los músculos pectorales. Consiste en usar una máquina de apertura de pecho para realizar un movimiento controlado que estira y contrae los músculos del pecho, mejorando la definición y la fuerza muscular. Este ejercicio es ideal para concentrarse en el pecho sin involucrar significativamente otros grupos musculares.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura del pecho cuando te sientes.",
+    "Siéntate en la máquina con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre neutral, manteniendo los codos ligeramente doblados.",
+    "Exhala y lleva lentamente las manijas juntas frente a tu pecho contrayendo los músculos pectorales.",
+    "Pausa brevemente en la contracción máxima, asegurándote de que tus brazos estén paralelos entre sí.",
+    "Inhala y regresa lentamente a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan ligeramente doblados durante todo el ejercicio para reducir la tensión en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho al juntar las manijas para lograr una contracción máxima.",
+    "Mantén un movimiento lento y controlado para comprometer eficazmente los músculos y prevenir lesiones.",
+    "Evita que los pesos toquen el suelo entre repeticiones para mantener una tensión constante en los músculos del pecho.",
+    "Mantén los hombros hacia atrás y hacia abajo para aislar los músculos del pecho y evitar la participación de los hombros."
+  ],
+  "errores_comunes": [
+    "Ajustar el asiento demasiado alto o bajo, lo que desalinean los hombros y reduce el compromiso del pecho.",
+    "Permitir que los codos caigan por debajo del nivel de los hombros, lo que lleva a una tensión en los hombros.",
+    "Usar un peso excesivo, causando pérdida de control y forma inadecuada.",
+    "No mantener una ligera flexión en los codos, aumentando el estrés en las articulaciones.",
+    "Dejar que los brazos vayan demasiado hacia atrás, arriesgando una lesión en el hombro.",
+    "Apresurarse en las repeticiones, lo que disminuye la activación muscular.",
+    "No apretar el pecho en el pico del movimiento, reduciendo la efectividad.",
+    "Arquear la espalda excesivamente, lo que desvía el enfoque del pecho."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Gato-Vaca",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/gato-vaca",
+  "video_url": "https://api.smartworkout.app/asset/video/c6f8e551-5517-4bfb-81f8-63b53cc072eb.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS"
+  ],
+  "descripcion": "El ejercicio Gato-Vaca es un estiramiento dinámico que se enfoca en la columna vertebral, mejorando la flexibilidad y promoviendo la salud espinal. Implica alternar entre dos posiciones: la posición de 'Gato', que arquea la espalda, y la posición de 'Vaca', que crea una extensión en la columna. Este ejercicio es beneficioso para calentar los músculos de la espalda y aumentar la movilidad en la columna.",
+  "como_realizar": [
+    "Comienza en cuatro patas con las manos directamente debajo de los hombros y las rodillas debajo de las caderas.",
+    "Inhala profundamente, arquea la espalda hacia el techo mientras metes la barbilla hacia el pecho, asemejándote a un gato estirando su espalda.",
+    "Mantén la posición de 'Gato' por un momento, sintiendo el estiramiento a lo largo de tu columna.",
+    "Exhala lentamente, baja el vientre hacia el suelo y levanta la cabeza y el coxis hacia arriba en la posición de 'Vaca'.",
+    "Mantén la posición de 'Vaca' brevemente, permitiendo que tu columna se extienda completamente.",
+    "Repite la secuencia durante 8-10 respiraciones, moviéndote fluidamente entre cada posición."
+  ],
+  "consejos": [
+    "Asegúrate de que tus movimientos sean lentos y controlados para maximizar la movilidad de la columna vertebral.",
+    "Concéntrate en sincronizar tu respiración con cada movimiento; inhala durante 'Gato' y exhala durante 'Vaca'.",
+    "Mantén tu núcleo comprometido en todo momento para apoyar tu zona lumbar.",
+    "Si experimentas alguna incomodidad en las muñecas o rodillas, considera usar una esterilla o toalla para mayor amortiguación.",
+    "Mantén una posición neutral del cuello; evita forzar manteniendo la mirada hacia abajo durante las transiciones."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda durante la postura de la vaca, causando tensión.",
+    "No activar los músculos del core, lo que lleva a una falta de estabilidad.",
+    "Mover la cabeza demasiado hacia atrás en la postura de la vaca, arriesgando tensión en el cuello.",
+    "Dejar caer el vientre demasiado bajo en la postura de la vaca, comprometiendo la alineación de la columna.",
+    "Redondear excesivamente los hombros en la postura del gato, causando tensión.",
+    "No sincronizar la respiración con el movimiento, reduciendo la fluidez y el control.",
+    "Realizar el movimiento demasiado rápido, dificultando el compromiso muscular.",
+    "Permitir que los codos se doblen, afectando la posición y el soporte de los brazos.",
+    "Descuidar mantener las muñecas alineadas bajo los hombros, afectando el equilibrio.",
+    "No redondear completamente la espalda en la postura del gato, limitando la flexión de la columna."
+  ]
+}

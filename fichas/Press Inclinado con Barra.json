@@ -1,0 +1,48 @@
+{
+  "nombre": "Press Inclinado con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inclinado-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/d8c4f097-b27a-4178-ab88-ea69ae93ab97.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca Inclinado con Barra es un ejercicio compuesto para la parte superior del cuerpo que se enfoca principalmente en la porción superior de los músculos pectorales, con un énfasis secundario en los hombros y tríceps. Se realiza en un banco inclinado ajustado a un ángulo de 15-30 grados, lo que dirige más el enfoque hacia la parte superior del pecho en comparación con el press de banca plano.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 15-30 grados y colócalo debajo de un soporte para barra.",
+    "Recuéstate en el banco con los pies planos en el suelo para mayor estabilidad.",
+    "Agarra la barra con las manos un poco más anchas que el ancho de los hombros.",
+    "Desmonta la barra y sostenla directamente sobre tu pecho con los brazos completamente extendidos.",
+    "Baja la barra lentamente hacia la parte superior de tu pecho, manteniendo los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Haz una breve pausa cuando la barra esté cerca de tu pecho, luego presiona de nuevo hacia la posición inicial.",
+    "Repite el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca firmemente presionada contra el banco durante todo el ejercicio para mantener la forma adecuada.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo y evitar el arqueo de la parte baja de la espalda.",
+    "Concéntrate en movimientos controlados; evita rebotar la barra en tu pecho para reducir el riesgo de lesiones.",
+    "Ajusta el ángulo del banco si sientes una tensión excesiva en los hombros; un ángulo más bajo puede reducir este estrés.",
+    "Usa un observador por seguridad, especialmente cuando levantas pesos pesados o te acercas a la fatiga muscular."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo el compromiso del pecho.",
+    "Bajar la barra demasiado alto en el pecho, aumentando la tensión en los hombros.",
+    "Abrir los codos demasiado, arriesgando el pinzamiento del hombro.",
+    "Rebotar la barra en el pecho, llevando a un pobre control muscular.",
+    "No mantener una posición estable de la muñeca, arriesgando la tensión en la muñeca.",
+    "No usar un rango completo de movimiento, limitando la activación muscular.",
+    "Levantar las caderas del banco, comprometiendo la estabilidad.",
+    "Permitir que la barra se desplace hacia adelante, reduciendo la activación del pecho.",
+    "Usar demasiado peso, sacrificando la forma por la carga.",
+    "Descuidar el compromiso del core, llevando a una estabilidad reducida."
+  ]
+}

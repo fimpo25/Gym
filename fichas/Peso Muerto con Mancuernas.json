@@ -1,0 +1,50 @@
+{
+  "nombre": "Peso Muerto con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/peso-muerto-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/1785fa76-dd12-4830-87df-689db7f50b3b.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Peso Muerto con Mancuernas es un ejercicio compuesto que se enfoca en la cadena posterior, incluyendo los glúteos, isquiotibiales, la parte baja de la espalda y el core. Consiste en levantar las mancuernas desde el suelo hasta una posición de pie, flexionando las caderas mientras se mantiene una columna neutral.",
+  "como_realizar": [
+    "Párate con los pies al ancho de las caderas y coloca un par de mancuernas en el suelo frente a ti.",
+    "Dobla las caderas y las rodillas para bajar el cuerpo y agarra las mancuernas con un agarre por encima.",
+    "Mantén la espalda recta, el pecho hacia arriba y los hombros hacia atrás mientras activas el núcleo.",
+    "Impulsa con los talones para levantar las mancuernas extendiendo las caderas y las rodillas para ponerte de pie.",
+    "En la parte superior del movimiento, asegúrate de que tu cuerpo esté completamente erguido con los hombros hacia atrás y el pecho abierto.",
+    "Baja las mancuernas de nuevo al suelo empujando las caderas hacia atrás y doblando las rodillas, manteniendo la columna neutral.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu columna vertebral neutral durante el movimiento para evitar lesiones.",
+    "Activa los músculos del core para estabilizar tu cuerpo mientras levantas.",
+    "Asegúrate de que el movimiento se inicie al flexionar las caderas en lugar de doblar la cintura.",
+    "Mantén las mancuernas cerca de tu cuerpo mientras las levantas y bajas para mantener el equilibrio y el control.",
+    "Evita redondear tu espalda; mantén una posición de espalda plana durante las fases de levantamiento y bajada.",
+    "Usa un espejo o pide retroalimentación para asegurar una forma adecuada, especialmente si eres nuevo en este ejercicio.",
+    "Comienza con pesos más ligeros para dominar la técnica antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las rodillas se inclinen hacia adentro durante el levantamiento.",
+    "Levantar con los brazos en lugar de involucrar las piernas y las caderas.",
+    "Comenzar el levantamiento con las mancuernas demasiado lejos del cuerpo.",
+    "No inclinarse en las caderas, lo que lleva a una flexión excesiva de las rodillas.",
+    "Usar el impulso en lugar de un movimiento controlado.",
+    "No mantener los hombros retraídos y comprometidos.",
+    "Permitir que las mancuernas se alejen de las piernas.",
+    "Sobreextender la espalda en la parte superior del levantamiento.",
+    "Descuidar el braceo del núcleo durante todo el movimiento."
+  ]
+}

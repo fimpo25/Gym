@@ -1,0 +1,45 @@
+{
+  "nombre": "Step Up Poliquin",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/poliquin-step-up",
+  "video_url": "https://api.smartworkout.app/asset/video/44003b37-2dce-4a73-968e-14a62a63ea0d.mp4",
+  "tags": [
+    "BALANCE",
+    "FUNCTIONAL",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Poliquin Step-Up is a lower body exercise that targets the quadriceps, glutes, and hamstrings. It is performed with a focus on controlled movement and balance, enhancing knee stability and strength. This exercise is named after Charles Poliquin, a renowned strength coach, and is particularly effective for athletes looking to improve their leg power and knee health.",
+  "como_realizar": [
+    "Stand facing a bench or step with your feet hip-width apart.",
+    "Place one foot on the bench, ensuring your entire foot is flat and stable.",
+    "Push through the heel of the foot on the bench to lift your body upward.",
+    "Keep your torso upright and avoid leaning forward excessively.",
+    "Bring the trailing leg up to tap the bench lightly without placing weight on it.",
+    "Lower the trailing leg back to the ground in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Ensure the bench or step is at a height where your knee is at or slightly below hip level when stepping up.",
+    "Focus on pushing through the heel of the working leg to engage the glutes effectively.",
+    "Maintain a neutral spine throughout the movement to prevent lower back strain.",
+    "Control the descent to maximize muscle engagement and prevent injury.",
+    "Start with body weight and progress to holding dumbbells as you become more comfortable with the exercise.",
+    "Keep your core engaged to aid in balance and stability during the movement."
+  ],
+  "errores_comunes": [
+    "Allowing the knee to collapse inward, leading to poor alignment and reduced effectiveness.",
+    "Pushing off with the back leg instead of using the lead leg to drive the movement.",
+    "Failing to maintain a neutral spine, resulting in unnecessary strain on the lower back.",
+    "Using momentum to swing the body up rather than controlled muscle engagement.",
+    "Not keeping the heel of the lead foot flat on the step, which can reduce stability and effectiveness.",
+    "Leaning too far forward, which shifts the focus away from the target muscles.",
+    "Not fully extending the lead leg at the top of the movement, limiting range of motion.",
+    "Allowing the toes of the lead foot to point outward, affecting knee alignment and muscle activation."
+  ]
+}

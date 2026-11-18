@@ -1,0 +1,49 @@
+{
+  "nombre": "Press Trasnuca Sentado en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/smith-seated-behind-neck-press",
+  "video_url": "https://api.smartworkout.app/asset/video/8a35b285-2540-48a8-9c08-88e5fa08b8ee.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "The Smith Seated Behind Neck Press is a shoulder exercise performed using a Smith machine. It targets the deltoid muscles, particularly the posterior and lateral heads, as well as engaging the triceps and upper back muscles. This exercise provides a controlled movement path, reducing the need for stabilization and allowing for focused muscle engagement.",
+  "como_realizar": [
+    "Adjust the seat height of the Smith machine so that the barbell is at shoulder level when seated.",
+    "Sit on the bench with your back straight and feet flat on the floor.",
+    "Grip the barbell slightly wider than shoulder-width with your palms facing forward.",
+    "Unrack the bar by pushing it up slightly and moving it forward to clear the hooks.",
+    "Lower the bar slowly behind your head until it is just above your shoulders.",
+    "Press the bar back up to the starting position, fully extending your arms but avoiding locking your elbows.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure your back remains straight and pressed against the bench throughout the movement to prevent injury.",
+    "Keep your core engaged to maintain stability and support your lower back.",
+    "Avoid lowering the bar too far down to prevent shoulder strain; stop when your elbows are at about a 90-degree angle.",
+    "Use a controlled tempo both when lowering and pressing the bar to maximize muscle engagement.",
+    "Start with a lighter weight to focus on proper form before increasing resistance.",
+    "Breathe in as you lower the bar and exhale as you press it back up."
+  ],
+  "errores_comunes": [
+    "Bringing the bar too low behind the neck, increasing shoulder strain.",
+    "Using a grip that is too wide, reducing control and engagement.",
+    "Failing to keep the elbows under the wrists, leading to instability.",
+    "Leaning too far forward, which can compromise lower back safety.",
+    "Not engaging the core, resulting in poor posture and support.",
+    "Allowing the head to jut forward, causing neck strain.",
+    "Using momentum to lift the weight, reducing muscle activation.",
+    "Not maintaining a controlled descent, increasing risk of injury.",
+    "Locking out the elbows at the top, which can stress the joints.",
+    "Neglecting to adjust the seat height, affecting shoulder alignment."
+  ]
+}

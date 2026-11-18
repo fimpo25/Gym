@@ -1,0 +1,53 @@
+{
+  "nombre": "Sentadilla Cosaca con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-cossack-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/9671e832-7b4c-4f0e-801d-6cd6bf1bf232.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Weighted Cossack Squat is a lower-body exercise that targets the quadriceps, hamstrings, glutes, and adductors. It involves performing a lateral squat while holding a weight, enhancing strength, flexibility, and balance. This exercise is beneficial for improving hip mobility and building unilateral leg strength.",
+  "como_realizar": [
+    "Stand with your feet wider than shoulder-width apart, holding a dumbbell or kettlebell with both hands in front of your chest.",
+    "Shift your weight to your right leg, bending your right knee and lowering your hips into a squat position while keeping your left leg straight.",
+    "Ensure your right foot remains flat on the ground and your knee is aligned with your toes.",
+    "Keep your chest up and core engaged throughout the movement.",
+    "Push through your right heel to return to the starting position.",
+    "Repeat the movement on the left side by shifting your weight to your left leg.",
+    "Continue alternating sides for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain an upright torso to prevent leaning forward excessively.",
+    "Focus on keeping your core tight to stabilize your body during the movement.",
+    "Start with a lighter weight to master the technique before progressing to heavier loads.",
+    "Ensure that your knees do not extend beyond your toes to protect the joints.",
+    "Use a controlled tempo to maximize muscle engagement and prevent injury.",
+    "Inhale as you lower into the squat and exhale as you push back to standing."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing imbalance and strain on the lower back.",
+    "Allowing the knee to cave inward, increasing stress on the knee joint.",
+    "Not keeping the heel of the extended leg on the ground, reducing stability.",
+    "Holding the dumbbell too far from the chest, leading to poor control.",
+    "Dropping the hips too low without maintaining proper form, risking injury.",
+    "Failing to engage the core, resulting in lack of control and balance.",
+    "Rushing through the movement, compromising form and effectiveness.",
+    "Neglecting to keep the chest up, causing rounding of the back.",
+    "Not fully extending the non-working leg, limiting range of motion.",
+    "Using too much weight, which can lead to improper form and strain."
+  ]
+}

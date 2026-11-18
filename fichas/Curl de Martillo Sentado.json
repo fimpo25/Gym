@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Martillo Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-martillo-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/6e1bed1c-cbbc-4b8d-bedc-95e98afc5bad.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Martillo Sentado es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial del brazo superior. Consiste en levantar mancuernas con un agarre neutral mientras estás sentado, minimizando el movimiento del cuerpo para concentrarse en los brazos.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, sosteniendo una mancuerna en cada mano con un agarre neutral (palmas enfrentadas).",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el ejercicio.",
+    "Coloca tus brazos a los lados con los codos completamente extendidos.",
+    "Lentamente, levanta las mancuernas hacia arriba doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Continúa levantando hasta que las mancuernas estén a nivel de los hombros o ligeramente por encima.",
+    "Haz una pausa breve en la parte superior del movimiento, apretando los bíceps.",
+    "Baja las mancuernas de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una posición neutral de la muñeca para reducir la tensión y concentrarte en los músculos objetivo.",
+    "Evita balancearte o usar el impulso; mantén los movimientos lentos y controlados.",
+    "Asegúrate de que tus codos permanezcan cerca de tu cuerpo durante todo el ejercicio.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada curl para una contracción máxima.",
+    "Mantén tus hombros relajados y evita encogerlos durante el levantamiento.",
+    "Comienza con pesos más ligeros para perfeccionar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Balancear las pesas, usando el impulso en lugar de la activación muscular.",
+    "Inclinarse hacia atrás excesivamente, reduciendo la activación del bíceps.",
+    "No mantener los codos cerca del cuerpo, lo que lleva a la participación de los hombros.",
+    "Usar pesas demasiado pesadas, comprometiendo la forma y el control.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Enroscar las muñecas en la parte superior, reduciendo la participación del antebrazo.",
+    "Levantar los hombros durante el curl, desactivando los bíceps.",
+    "Permitir que la espalda se arquee, arriesgando tensión en la parte baja de la espalda."
+  ]
+}

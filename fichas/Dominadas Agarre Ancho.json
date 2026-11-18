@@ -1,0 +1,48 @@
+{
+  "nombre": "Dominadas Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/pull-up-wide-grip",
+  "video_url": "https://api.smartworkout.app/asset/video/3d88b4a8-4e3a-4b80-add3-beb55b2ddaa5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Pull-Up Wide Grip is a compound upper body exercise that primarily targets the latissimus dorsi muscles in the back, while also engaging the biceps, shoulders, and core. This variation uses a wider grip than the standard pull-up, which increases the emphasis on the outer portions of the lats and can help in building a broader back.",
+  "como_realizar": [
+    "Stand beneath a pull-up bar and reach up to grasp it with an overhand grip, hands positioned wider than shoulder-width apart.",
+    "Engage your core and pull your shoulder blades down and back to stabilize your upper body.",
+    "Initiate the pull by driving your elbows down towards your sides, lifting your body until your chin is above the bar.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the back muscles.",
+    "Lower yourself in a controlled manner back to the starting position with arms fully extended.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on squeezing your shoulder blades together as you pull up to maximize lat engagement.",
+    "Avoid swinging or using momentum; maintain a controlled movement throughout the exercise.",
+    "If you struggle with full pull-ups, consider using an assisted pull-up machine or resistance bands for support.",
+    "Ensure your grip is secure but not overly tight to prevent unnecessary forearm fatigue.",
+    "Keep your body straight and avoid arching your back during the movement to maintain proper form."
+  ],
+  "errores_comunes": [
+    "Gripping the bar too wide, which can reduce range of motion and strain the shoulders.",
+    "Failing to engage the core, leading to swinging or kipping during the movement.",
+    "Not pulling the chest up to the bar, resulting in incomplete range of motion.",
+    "Allowing the shoulders to shrug, which decreases lat engagement and increases neck tension.",
+    "Using momentum instead of controlled movement, reducing muscle activation.",
+    "Not fully extending the arms at the bottom, limiting the exercise's effectiveness.",
+    "Pulling with the arms instead of initiating the movement with the back muscles.",
+    "Tilting the head up, which can strain the neck and disrupt alignment.",
+    "Allowing the elbows to flare excessively, reducing lat activation and increasing shoulder stress."
+  ]
+}

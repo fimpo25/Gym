@@ -1,0 +1,45 @@
+{
+  "nombre": "Extensión de Tríceps con Cable a Dos Brazos",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-cable-a-dos-brazos",
+  "video_url": "https://api.smartworkout.app/asset/video/e6705953-0cb3-42fe-8e03-d9daa430172e.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Cable a Dos Brazos es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos detrás del cuerpo utilizando una máquina de cables, lo que proporciona una tensión constante durante todo el movimiento. Este ejercicio ayuda a desarrollar fuerza y definición en los tríceps.",
+  "como_realizar": [
+    "Coloca un mango en cada lado de una máquina de cables en la configuración más baja.",
+    "Párate frente a la máquina, sosteniendo un mango en cada mano con un agarre neutral.",
+    "Da un paso hacia atrás ligeramente para crear tensión en los cables y dóblate hacia adelante en las caderas hasta que tu torso esté casi paralelo al suelo.",
+    "Mantén los codos cerca de tus costados y dóblalos a 90 grados.",
+    "Extiende los brazos hacia atrás contrayendo los tríceps, manteniendo los codos estacionarios.",
+    "Haz una pausa breve en la parte superior del movimiento, luego regresa lentamente a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en las rodillas para estabilidad durante el ejercicio.",
+    "Mantén tu núcleo comprometido para prevenir tensión en la parte baja de la espalda.",
+    "Concéntrate en mover solo tus antebrazos; tus brazos superiores deben permanecer estacionarios.",
+    "Exhala al extender tus brazos e inhala al regresar a la posición inicial.",
+    "Usa un movimiento controlado para maximizar el compromiso muscular y evitar balanceos.",
+    "Comienza con pesos más ligeros para perfeccionar tu forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, causando pérdida de control y mala forma.",
+    "Permitir que los codos caigan por debajo del torso, reduciendo el compromiso del tríceps.",
+    "Balancear los brazos en lugar de mantener un movimiento controlado.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Arquear la espalda excesivamente, llevando a una mala postura y posible tensión.",
+    "Inclinarse demasiado hacia adelante, desviando el enfoque de los tríceps.",
+    "No mantener el core comprometido, comprometiendo la estabilidad.",
+    "Permitir que las muñecas se doblen, reduciendo la tensión en los tríceps.",
+    "Apresurar el movimiento, sacrificando la activación muscular por velocidad."
+  ]
+}

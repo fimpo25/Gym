@@ -1,0 +1,49 @@
+{
+  "nombre": "Face Pull Acostado con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/lying-cable-face-pull",
+  "video_url": "https://api.smartworkout.app/asset/video/1e4dadfd-a9dd-4771-a27b-669b3b5c4651.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Lying Cable Face Pull is an isolation exercise targeting the rear deltoids, upper back, and rotator cuff muscles. It is performed using a cable machine with a rope attachment, focusing on shoulder health and posture improvement.",
+  "como_realizar": [
+    "Set the cable pulley to a low position and attach a rope handle.",
+    "Lie down on a bench facing the cable machine, ensuring your feet are flat on the floor.",
+    "Grip the ends of the rope with an overhand grip, palms facing down.",
+    "Start with your arms extended in front of you, keeping a slight bend in your elbows.",
+    "Pull the rope towards your face by retracting your shoulder blades and bending your elbows outward.",
+    "Pause briefly when your hands are near your face, ensuring maximum contraction in the rear deltoids.",
+    "Slowly extend your arms back to the starting position, maintaining control of the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on squeezing your shoulder blades together during each pull to maximize muscle engagement.",
+    "Keep your core engaged to maintain stability throughout the movement.",
+    "Avoid using momentum; perform each repetition in a controlled manner for optimal results.",
+    "Ensure that your wrists remain neutral and do not bend excessively during the exercise.",
+    "Breath out as you pull the rope towards your face and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Pulling with the arms instead of engaging the rear deltoids and upper back.",
+    "Using too much weight, leading to poor form and reduced muscle activation.",
+    "Allowing the elbows to drop below shoulder height, decreasing target muscle engagement.",
+    "Arching the lower back excessively, causing strain and reducing stability.",
+    "Failing to keep the wrists neutral, leading to unnecessary wrist strain.",
+    "Using momentum to initiate the pull instead of controlled muscle contraction.",
+    "Not keeping the cable in line with the eyes, resulting in improper pull angle.",
+    "Neglecting to retract the shoulder blades fully, limiting range of motion.",
+    "Rushing the eccentric phase, reducing time under tension for the muscles."
+  ]
+}

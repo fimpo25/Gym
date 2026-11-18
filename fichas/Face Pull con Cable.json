@@ -1,0 +1,49 @@
+{
+  "nombre": "Face Pull con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/cable-face-pull",
+  "video_url": "https://api.smartworkout.app/asset/video/782de101-95a5-47b3-bffa-82b124a7f3f9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "REHAB",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Cable Face Pull is an upper body exercise that targets the rear deltoids, upper back, and traps. It is performed using a cable machine with a rope attachment, focusing on improving shoulder health, posture, and upper back strength.",
+  "como_realizar": [
+    "Attach a rope handle to a high pulley on the cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the rope with an overhand grip, palms facing down.",
+    "Step back until your arms are fully extended and there is tension in the cable.",
+    "Engage your core and keep your back straight.",
+    "Pull the rope towards your face, flaring your elbows out to the sides.",
+    "Squeeze your shoulder blades together at the peak of the movement.",
+    "Slowly extend your arms back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your elbows above your wrists throughout the movement to target the rear deltoids effectively.",
+    "Maintain a neutral spine and avoid arching your back during the exercise.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum contraction.",
+    "Use a controlled tempo to prevent using momentum and to ensure muscle engagement.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Pulling the cable too low, targeting the chest instead of the face.",
+    "Using too much weight, leading to momentum and lack of control.",
+    "Allowing the elbows to drop below shoulder height, reducing rear deltoid activation.",
+    "Standing too close or too far from the cable machine, affecting tension and range of motion.",
+    "Failing to retract the shoulder blades, minimizing engagement of the upper back muscles.",
+    "Not keeping a neutral spine, leading to poor posture and potential strain.",
+    "Using a narrow grip, limiting the ability to externally rotate the shoulders.",
+    "Rushing through the movement, sacrificing muscle engagement for speed."
+  ]
+}

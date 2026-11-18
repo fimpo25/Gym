@@ -1,0 +1,56 @@
+{
+  "nombre": "Sentadilla con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/ceb84676-82fe-4281-81b2-8aef624c83ba.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla con barra es un ejercicio compuesto fundamental que trabaja los cuádriceps, isquiotibiales, glúteos y la parte baja de la espalda. Se realiza bajando el cuerpo a una posición de sentadilla con una barra apoyada en la parte superior de la espalda, y luego volviendo a la posición de pie. Este ejercicio es esencial para desarrollar la fuerza general de las piernas y mejorar la estabilidad del core.",
+  "como_realizar": [
+    "Coloca la barra en un soporte para sentadillas a la altura de los hombros.",
+    "Pasa por debajo de la barra y colócala sobre la parte superior de tu espalda, asegurándote de que descanse cómodamente sobre tus músculos trapecios.",
+    "Agarra la barra con ambas manos un poco más anchas que el ancho de los hombros.",
+    "Levanta la barra del soporte enderezando las piernas y retrocediendo con cuidado.",
+    "Párate con los pies al ancho de los hombros, con los dedos ligeramente apuntando hacia afuera.",
+    "Activa tu núcleo y mantén el pecho hacia arriba durante todo el movimiento.",
+    "Comienza la sentadilla doblando las caderas y las rodillas, bajando el cuerpo hasta que los muslos estén paralelos al suelo o un poco más abajo.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos sin inclinarse hacia adentro.",
+    "Empuja a través de tus talones para volver a la posición de pie, extendiendo completamente las caderas y las rodillas.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante todo el ejercicio para prevenir lesiones.",
+    "Mantén tu peso distribuido uniformemente a través de tus pies, enfocándote en presionar a través de tus talones.",
+    "Evita que tus rodillas colapsen hacia adentro; mantenlas alineadas con tus dedos de los pies.",
+    "Controla el descenso y el ascenso para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Inhala al bajar en la sentadilla y exhala al empujar de nuevo hacia arriba para ponerte de pie.",
+    "Comienza con pesos más ligeros para perfeccionar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que las rodillas se inclinen hacia adentro durante el descenso o ascenso de la sentadilla.",
+    "Redondear la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Hacer sentadillas demasiado superficiales, sin alcanzar el paralelo o más abajo con los muslos.",
+    "Levantar los talones del suelo, desplazando el peso hacia los dedos de los pies.",
+    "Dejar caer el pecho hacia adelante excesivamente, perdiendo la tensión en la parte superior de la espalda.",
+    "No activar el core, lo que lleva a inestabilidad y falta de control.",
+    "Colocar la barra demasiado alta en el cuello en lugar de sobre los hombros.",
+    "No alinear las rodillas con los dedos de los pies, causando tensión en las rodillas.",
+    "Descender demasiado rápido sin control, arriesgando la pérdida de equilibrio.",
+    "Sobreextender las rodillas en la parte superior, bloqueándolas con fuerza."
+  ]
+}

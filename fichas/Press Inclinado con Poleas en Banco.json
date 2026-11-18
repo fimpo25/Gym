@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Inclinado con Poleas en Banco",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-inclinado-con-poleas-en-banco",
+  "video_url": "https://api.smartworkout.app/asset/video/2e44a1be-2421-4f9a-a706-ad09c60dc824.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca Inclinado con Cable Bajo es un ejercicio compuesto que se enfoca en los músculos del pecho superior, específicamente en la cabeza clavicular del pectoral mayor. Este ejercicio también involucra los deltoides anteriores y los tríceps. Al utilizar cables, proporciona tensión constante durante todo el movimiento, mejorando la activación y el crecimiento muscular.",
+  "como_realizar": [
+    "Coloca un banco inclinado a un ángulo de 30-45 grados frente a una máquina de cables.",
+    "Acopla las asas a las poleas bajas a cada lado de la máquina.",
+    "Siéntate en el banco con la espalda firmemente apoyada y los pies planos en el suelo.",
+    "Agarra las asas con un agarre por encima, palmas hacia adelante.",
+    "Coloca tus manos a nivel del pecho, con los codos doblados a aproximadamente 90 grados.",
+    "Presiona las asas hacia arriba y ligeramente hacia adentro hasta que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Pausa brevemente en la parte superior del movimiento, apretando los músculos del pecho.",
+    "Baja lentamente las asas de nuevo a la posición inicial, manteniendo el control."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca firmemente contra el banco para prevenir tensiones.",
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita bloquear los codos en la parte superior para mantener la tensión en tus músculos.",
+    "Concéntrate en apretar los músculos del pecho en el pico de cada repetición para una mejor activación.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo durante el ejercicio.",
+    "Ajusta el ángulo del banco si es necesario para apuntar a diferentes áreas del pecho."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, reduciendo el compromiso del pecho y aumentando la tensión en los hombros.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la alineación y estabilidad de la columna.",
+    "Usar demasiado peso, lo que lleva a un movimiento descontrolado y una activación muscular reducida.",
+    "No mantener una posición estable de los hombros, causando un movimiento excesivo de los hombros y un posible estrés en las articulaciones.",
+    "Bajar los cables demasiado rápido, reduciendo el tiempo bajo tensión y el control.",
+    "No extender completamente los brazos en la parte superior del movimiento, limitando el rango de movimiento y la activación muscular.",
+    "Colocar el banco en una inclinación demasiado pronunciada, desviando el enfoque del pecho superior.",
+    "Permitir que las muñecas se doblen hacia atrás, aumentando la tensión en las muñecas y los antebrazos.",
+    "Descuidar el compromiso del core, lo que lleva a la inestabilidad y una transferencia de potencia reducida.",
+    "Dejar que los cables se desalineen con el pecho, causando un compromiso muscular desigual."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Giro Ruso con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-ruso-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/7b69b3b7-82b7-422a-886a-910e98e99ef3.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro Ruso con Peso es un ejercicio para el core que se enfoca en los músculos oblicuos y mejora la fuerza rotacional. Consiste en girar el torso mientras se sostiene un peso, como una mancuerna o un balón medicinal, para aumentar la resistencia y activar el core de manera más efectiva.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos. Sostén un peso con ambas manos cerca de tu pecho.",
+    "Inclínate ligeramente hacia atrás, manteniendo la columna recta y el núcleo comprometido.",
+    "Levanta los pies del suelo, equilibrándote sobre tus huesos de asiento. Mantén esta posición durante todo el ejercicio.",
+    "Gira tu torso hacia la derecha, llevando el peso al lado de tu cadera. Mantén los brazos ligeramente doblados.",
+    "Regresa al centro, luego gira hacia el lado izquierdo de manera controlada.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo apretado durante todo el ejercicio para proteger tu espalda baja.",
+    "Evita usar el impulso; concéntrate en movimientos controlados para maximizar el compromiso muscular.",
+    "Si levantar los pies es demasiado desafiante, mantenlos en el suelo para mayor estabilidad.",
+    "Asegúrate de que tu espalda permanezca recta; evita redondear los hombros hacia adelante.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a pesos más pesados."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, causando tensión en la parte baja de la espalda.",
+    "Redondear la columna en lugar de mantenerla recta.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "No comprometer eficazmente los músculos del núcleo.",
+    "Permitir que las rodillas se muevan excesivamente durante el giro.",
+    "Girar solo los brazos en lugar de todo el torso.",
+    "Sostener el peso demasiado lejos del cuerpo, causando tensión en los hombros.",
+    "Moverse demasiado rápido, sacrificando la forma por la velocidad.",
+    "No mantener una base estable con los pies.",
+    "Girar demasiado, lo que puede llevar a una lesión en la espalda."
+  ]
+}

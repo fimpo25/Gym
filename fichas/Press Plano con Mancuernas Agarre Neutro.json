@@ -1,0 +1,45 @@
+{
+  "nombre": "Press Plano con Mancuernas Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-plano-con-mancuernas-agarre-neutro",
+  "video_url": "https://api.smartworkout.app/asset/video/4208805a-35b3-47da-a281-e3fcf76d3caa.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Mancuernas en Agarre Martillo es un ejercicio de pecho que trabaja los músculos pectorales, tríceps y deltoides anteriores. Consiste en presionar las mancuernas hacia arriba manteniendo un agarre neutral, lo que puede reducir la tensión en los hombros y muñecas en comparación con las variaciones tradicionales del press de banca.",
+  "como_realizar": [
+    "Acuéstate boca arriba en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre neutral, palmas enfrentadas.",
+    "Coloca las mancuernas a la altura de los hombros, con los codos doblados aproximadamente a 90 grados.",
+    "Activa tu núcleo y presiona las mancuernas hacia arriba hasta que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén las escápulas retraídas y presionadas contra el banco para estabilizar la parte superior del cuerpo.",
+    "Mantén una posición neutral de las muñecas para evitar tensiones innecesarias.",
+    "Concéntrate en movimientos controlados, tanto durante la fase de empuje como en la de descenso.",
+    "Exhala al levantar las mancuernas e inhala al bajarlas.",
+    "Asegúrate de que tus pies permanezcan planos en el suelo para proporcionar estabilidad y soporte.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso de los tríceps.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la estabilidad.",
+    "Bajar las mancuernas demasiado rápido, perdiendo control y arriesgando tensión en los hombros.",
+    "No extender completamente los brazos en la parte superior, limitando el rango de movimiento.",
+    "No mantener las muñecas alineadas con los antebrazos, aumentando la tensión en las muñecas.",
+    "Dejar que las mancuernas se desvíen demasiado hacia adelante o hacia atrás, afectando la posición de los hombros.",
+    "Usar el impulso para levantar, reduciendo la activación muscular.",
+    "No retraer las escápulas, llevando a un pobre compromiso del pecho."
+  ]
+}

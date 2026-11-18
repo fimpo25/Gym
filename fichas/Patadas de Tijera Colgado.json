@@ -1,0 +1,48 @@
+{
+  "nombre": "Patadas de Tijera Colgado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/patadas-de-tijera-colgado",
+  "video_url": "https://api.smartworkout.app/asset/video/08c88cfe-e4b4-426a-b4f0-aeb09c6f76ac.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El ejercicio de Patadas de Tijera Colgantes se enfoca en los músculos del core, particularmente los abdominales inferiores y los flexores de la cadera, al mismo tiempo que involucra los hombros y la fuerza de agarre. Consiste en realizar patadas de tijera mientras se está colgado de una barra de dominadas, requiriendo estabilidad y control.",
+  "como_realizar": [
+    "Comienza colgándote de una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo recto, evitando cualquier balanceo.",
+    "Levanta ligeramente las piernas frente a ti para iniciar la posición de patada de aleteo.",
+    "Realiza pequeñas patadas alternas con las piernas, manteniéndolas rectas y los dedos de los pies apuntados.",
+    "Mantén un patrón de respiración constante durante todo el ejercicio.",
+    "Continúa durante el número deseado de repeticiones o duración de tiempo."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea seguro en la barra para mantener la estabilidad.",
+    "Concéntrate en activar tu núcleo para evitar balanceos y maximizar la activación abdominal.",
+    "Mantén las piernas rectas y muévelas de manera controlada para realizar patadas de aleteo efectivas.",
+    "Comienza con duraciones más cortas o menos repeticiones si eres nuevo en este ejercicio para desarrollar resistencia.",
+    "Evita arquear la espalda; mantén una posición neutral de la columna durante todo el movimiento.",
+    "Si experimentas molestias en los hombros o el agarre, considera usar correas de muñeca para apoyo."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas excesivamente en lugar de un movimiento controlado de tijera.",
+    "Involucrar más los flexores de la cadera que los músculos del core.",
+    "Arquear la parte baja de la espalda en lugar de mantenerla neutral.",
+    "Usar el impulso en lugar del compromiso muscular para mover las piernas.",
+    "No mantener los hombros comprometidos y estables.",
+    "Permitir que las piernas caigan demasiado bajo, perdiendo tensión en el core.",
+    "No mantener un patrón de respiración constante.",
+    "Agarrar la barra demasiado fuerte, causando tensión innecesaria en los brazos.",
+    "Dejar que la cabeza y el cuello cuelguen en lugar de alinearlos con la columna."
+  ]
+}

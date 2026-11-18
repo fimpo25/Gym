@@ -1,0 +1,52 @@
+{
+  "nombre": "Peso Muerto Rumano a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/peso-muerto-rumano-a-una-pierna",
+  "video_url": "https://api.smartworkout.app/asset/video/a20d845c-3a0f-45f2-a3e0-826e0dd6c00c.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Peso Muerto Rumano a Una Pierna es un ejercicio unilateral que se enfoca en los isquiotibiales, glúteos y la parte baja de la espalda. Mejora el equilibrio, la estabilidad y la fuerza al activar los músculos de la cadena posterior, requiriendo también la activación del core para la estabilización.",
+  "como_realizar": [
+    "Párate derecho con los pies al ancho de las caderas, sosteniendo una mancuerna en tu mano derecha.",
+    "Desplaza tu peso hacia tu pierna izquierda y dobla ligeramente la rodilla.",
+    "Flexiona las caderas, extendiendo tu pierna derecha recta detrás de ti mientras bajas la mancuerna hacia el suelo.",
+    "Mantén la espalda recta y los hombros retraídos mientras bajas el peso.",
+    "Baja hasta que tu torso esté paralelo al suelo o sientas un estiramiento en los isquiotibiales.",
+    "Regresa a la posición inicial impulsándote a través de tu talón izquierdo y llevando tu pierna derecha hacia adelante.",
+    "Repite el número deseado de repeticiones antes de cambiar a la otra pierna."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el movimiento para evitar tensión en la parte baja de la espalda.",
+    "Concéntrate en flexionar las caderas en lugar de doblar la cintura.",
+    "Activa tu núcleo para ayudar a mantener el equilibrio y la estabilidad.",
+    "Mantén una ligera flexión en la rodilla de apoyo para reducir el estrés en la articulación.",
+    "Usa un espejo o grábate para asegurar una forma y alineación adecuadas.",
+    "Comienza con pesos más ligeros para dominar la técnica antes de avanzar a cargas más pesadas.",
+    "Realiza el ejercicio lentamente y con control para maximizar el compromiso muscular."
+  ],
+  "errores_comunes": [
+    "Permitir que la espalda se redondee en lugar de mantener una columna neutral.",
+    "Dejar que las caderas giren hacia afuera en lugar de mantenerlas cuadradas.",
+    "Bajar demasiado el pecho, perdiendo equilibrio y control.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Doblar excesivamente la rodilla de apoyo, convirtiéndolo en una sentadilla.",
+    "No mantener la pierna levantada recta y alineada con el cuerpo.",
+    "Usar el impulso en lugar de un movimiento controlado.",
+    "Descuidar activar adecuadamente los glúteos y los isquiotibiales.",
+    "Permitir que los hombros se encorven hacia adelante.",
+    "No mantener una línea recta desde la cabeza hasta el talón."
+  ]
+}

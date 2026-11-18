@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación para Deltoides Posterior con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/barbell-rear-delt-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/c40b0cfe-e3bc-4f4f-82db-a227b8ca30be.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Barbell Rear Delt Raise is an isolation exercise targeting the rear deltoids, part of the shoulder muscle group. It also engages the upper back and traps, promoting balanced shoulder development and improving posture.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a barbell with an overhand grip.",
+    "Bend your knees slightly and hinge forward at the hips, keeping your back straight and chest up.",
+    "Let the barbell hang in front of you with arms extended naturally.",
+    "Raise the barbell out to the sides until your arms are parallel to the floor, keeping a slight bend in your elbows.",
+    "Pause at the top of the movement, squeezing your shoulder blades together.",
+    "Lower the barbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your elbows throughout the movement to reduce joint strain.",
+    "Focus on squeezing your shoulder blades together at the top of each rep to maximize rear delt activation.",
+    "Keep your core engaged to maintain stability and prevent lower back strain.",
+    "Avoid using momentum; perform each rep with controlled movements for better muscle engagement.",
+    "Start with a lighter weight to ensure proper form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to swinging and loss of control.",
+    "Lifting the barbell too high, engaging traps instead of rear delts.",
+    "Hunching shoulders, reducing rear delt activation.",
+    "Bending elbows excessively, turning the exercise into a row.",
+    "Not maintaining a slight bend in the knees, causing lower back strain.",
+    "Allowing wrists to bend, putting stress on joints.",
+    "Standing too upright, minimizing rear delt engagement.",
+    "Not squeezing shoulder blades at the top of the movement.",
+    "Rushing the exercise, sacrificing form for speed.",
+    "Neglecting to keep a neutral spine, risking lower back injury."
+  ]
+}

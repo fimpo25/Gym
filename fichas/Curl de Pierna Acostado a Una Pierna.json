@@ -1,0 +1,46 @@
+{
+  "nombre": "Curl de Pierna Acostado a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-lying-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/78b831a4-0bd1-43cd-ba7b-98ddfe2d2fa7.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Lying Single Leg Hamstring Curl is an isolation exercise targeting the hamstrings. It involves lying face down on a leg curl machine and curling one leg at a time towards the glutes. This exercise helps in strengthening and developing the hamstring muscles, improving knee flexion and stability.",
+  "como_realizar": [
+    "Adjust the leg curl machine to fit your body size, ensuring the roller pad is positioned just above your ankles.",
+    "Lie face down on the machine with your hips aligned with the pivot point of the machine.",
+    "Grip the handles or sides of the bench for stability.",
+    "Start with one leg extended straight and slowly curl it upwards by bending your knee, bringing your heel towards your glutes.",
+    "Pause briefly at the top of the movement, ensuring maximum contraction of the hamstring.",
+    "Slowly lower your leg back to the starting position in a controlled manner.",
+    "Complete the desired number of repetitions before switching to the other leg."
+  ],
+  "consejos": [
+    "Maintain a slow and controlled motion throughout the exercise to maximize muscle engagement.",
+    "Avoid lifting your hips off the bench; keep your pelvis stable to isolate the hamstrings effectively.",
+    "Focus on squeezing your hamstring at the top of each curl for optimal contraction.",
+    "Ensure that you are breathing steadily; exhale as you curl up and inhale as you lower your leg.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using momentum to lift instead of controlled muscle engagement.",
+    "Allowing the hips to lift off the ground, reducing hamstring activation.",
+    "Not aligning the knee with the pivot point of the machine, leading to improper force distribution.",
+    "Hyperextending the knee at the bottom of the movement, risking joint strain.",
+    "Failing to maintain a neutral spine, causing unnecessary lower back stress.",
+    "Curling the toes instead of focusing on heel drive, reducing hamstring focus.",
+    "Rushing through the exercise, compromising form and effectiveness.",
+    "Allowing the non-working leg to assist, diminishing the single-leg focus."
+  ]
+}

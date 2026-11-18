@@ -1,0 +1,54 @@
+{
+  "nombre": "Flexión de Brazo con Extensión de Pierna y Brazo Opuesto",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazo-con-extension-de-pierna-y-brazo-opuesto",
+  "video_url": "https://api.smartworkout.app/asset/video/320ee1df-5892-44a6-9497-c54388ba5c1a.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Bird Dog es un ejercicio compuesto que combina la flexión tradicional con el movimiento bird dog. Este ejercicio trabaja el núcleo, el pecho, los hombros y los tríceps, al mismo tiempo que mejora el equilibrio y la estabilidad. Es una variación avanzada que requiere coordinación y fuerza.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos colocadas al ancho de los hombros y el cuerpo formando una línea recta desde la cabeza hasta los talones.",
+    "Realiza una flexión estándar bajando el pecho hacia el suelo, manteniendo los codos en un ángulo de 45 grados.",
+    "Mientras te empujas de nuevo a la posición inicial, levanta simultáneamente el brazo derecho y la pierna izquierda del suelo, extendiéndolos rectos hacia adelante y hacia atrás respectivamente.",
+    "Mantén esta posición brevemente, asegurándote de que tu cuerpo permanezca estable y alineado.",
+    "Regresa el brazo y la pierna a la posición inicial mientras te preparas para la siguiente repetición.",
+    "Alterna los lados con cada flexión, levantando el brazo y la pierna opuestos."
+  ],
+  "consejos": [
+    "Activa tu núcleo durante todo el ejercicio para mantener la estabilidad y prevenir que las caderas se hundan.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para mejorar el equilibrio y la coordinación.",
+    "Mantén la mirada ligeramente hacia adelante para mantener una posición neutral del cuello.",
+    "Si el equilibrio es un desafío, practica el movimiento de bird dog por separado antes de combinarlo con flexiones.",
+    "Asegúrate de que tu cuerpo forme una línea recta durante la posición de plancha para maximizar la efectividad.",
+    "Respira de manera constante durante el ejercicio, exhalando al subir e inhalando al bajar."
+  ],
+  "errores_comunes": [
+    "Levantar la pierna demasiado alto, causando arqueo y tensión en la parte baja de la espalda.",
+    "Permitir que las caderas roten en lugar de mantenerlas cuadradas.",
+    "Dejar caer la cabeza y perder la alineación del cuello.",
+    "No activar el core, lo que lleva a la inestabilidad.",
+    "No extender completamente el brazo y la pierna, reduciendo el rango de movimiento.",
+    "Apresurar el movimiento, comprometiendo el control y el equilibrio.",
+    "Permitir que los codos se abran durante la fase de flexión.",
+    "Descuidar mantener el hombro de apoyo estable y comprometido.",
+    "Dejar que la parte baja de la espalda se hunda durante la flexión."
+  ]
+}

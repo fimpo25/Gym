@@ -1,0 +1,44 @@
+{
+  "nombre": "Perro Hacia Arriba",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/perro-hacia-arriba",
+  "video_url": "https://api.smartworkout.app/asset/video/c3bda199-faa2-4f67-8498-841e8a86d6c0.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Perro hacia arriba, también conocido como Perro mirando hacia arriba o Urdhva Mukha Svanasana, es una postura de yoga que fortalece la columna vertebral, los brazos y las muñecas mientras estira el pecho, los hombros y el abdomen. Se utiliza comúnmente en secuencias de yoga para mejorar la postura y aumentar la flexibilidad.",
+  "como_realizar": [
+    "Comienza acostándote boca abajo en la colchoneta con las piernas extendidas hacia atrás y la parte superior de los pies descansando en el suelo.",
+    "Coloca tus manos debajo de tus hombros con los codos cerca de tu cuerpo.",
+    "Inhala profundamente y presiona firmemente en tus palmas para levantar tu pecho del suelo.",
+    "Endereza completamente tus brazos mientras mantienes los hombros relajados y alejados de tus orejas.",
+    "Activa tus muslos y levanta tus rodillas del suelo, equilibrándote sobre la parte superior de tus pies.",
+    "Mantén la postura durante varias respiraciones, manteniendo la mirada hacia adelante o ligeramente hacia arriba.",
+    "Exhala y baja lentamente tu cuerpo de nuevo a la posición inicial."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén alineadas directamente debajo de tus hombros para un soporte óptimo.",
+    "Mantén los codos ligeramente doblados si sientes alguna tensión en la parte baja de la espalda.",
+    "Activa los músculos del core para proteger la parte baja de la espalda durante la postura.",
+    "Concéntrate en levantar a través del pecho en lugar de empujar con los brazos para mantener una alineación adecuada.",
+    "Si experimentas incomodidad en las muñecas, intenta abrir bien los dedos para una mejor distribución del peso.",
+    "Mantén una respiración constante durante la postura para mejorar la relajación y el enfoque."
+  ],
+  "errores_comunes": [
+    "Permitir que los hombros se encojan hacia las orejas, causando tensión en el cuello.",
+    "Colapsar la parte baja de la espalda en lugar de activar el core para apoyar la columna.",
+    "No presionar la parte superior de los pies contra el suelo, reduciendo el compromiso de las piernas.",
+    "Hiperextender los codos, lo que lleva a la tensión en las articulaciones y reduce el control.",
+    "Dejar caer la cabeza hacia atrás en exceso, forzando el cuello.",
+    "No alinear las muñecas directamente debajo de los hombros, comprometiendo la estabilidad.",
+    "Permitir que los muslos toquen el suelo, lo que desactiva el core y las piernas."
+  ]
+}

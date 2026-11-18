@@ -1,0 +1,48 @@
+{
+  "nombre": "Corte en Medio Arrodillado con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/corte-en-medio-arrodillado-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/442d326f-92ed-48da-8b69-a0f0d6ff4244.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "BACK",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Corte en Medio Arrodillado con Banda es un ejercicio de estabilización del core que se enfoca en los oblicuos, hombros y caderas. Implica un movimiento rotacional que ayuda a mejorar la fuerza funcional y el equilibrio. Este ejercicio se realiza en una posición de medio arrodillado utilizando una banda de resistencia anclada a la altura del hombro.",
+  "como_realizar": [
+    "Ancla una banda de resistencia a la altura del hombro.",
+    "Arrodíllate sobre una rodilla con el pie opuesto plano en el suelo, formando un ángulo de 90 grados en ambas rodillas.",
+    "Sujeta la banda con ambas manos, con los brazos extendidos hacia el punto de anclaje.",
+    "Activa tu núcleo y rota tu torso, tirando de la banda diagonalmente a través de tu cuerpo de arriba hacia abajo.",
+    "Regresa a la posición inicial de manera controlada.",
+    "Realiza el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener la estabilidad.",
+    "Asegúrate de que tus caderas permanezcan cuadradas y no giren con tu torso.",
+    "Concéntrate en un movimiento suave y controlado en lugar de la velocidad.",
+    "Mantén una columna neutral y evita arquear la espalda.",
+    "Exhala al tirar de la banda a través de tu cuerpo e inhala al regresar a la posición inicial.",
+    "Ajusta la tensión de la banda acercándote o alejándote del punto de anclaje."
+  ],
+  "errores_comunes": [
+    "Rotar el torso en lugar de mantener un núcleo estable.",
+    "Permitir que la rodilla delantera colapse hacia adentro, perdiendo alineación.",
+    "Usar los brazos para tirar de la banda en lugar de involucrar el núcleo.",
+    "Inclinarse hacia adelante o hacia atrás, comprometiendo el equilibrio.",
+    "Realizar el movimiento demasiado rápido, sacrificando el control.",
+    "No mantener los hombros hacia abajo y hacia atrás, lo que lleva a una mala postura.",
+    "No extender completamente los brazos, reduciendo el rango de movimiento.",
+    "Descuidar involucrar los glúteos y las caderas para la estabilidad.",
+    "Permitir que la banda retroceda sin control, arriesgando tensión en las articulaciones."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "nombre": "Extensión de Espalda en Máquina de Palanca",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/lever-back-extension",
+  "video_url": "https://api.smartworkout.app/asset/video/8ff73f6a-aa27-44c3-82a1-e0dc83dc1634.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Lever Back Extension is a strength training exercise targeting the lower back muscles, specifically the erector spinae. It is performed using a lever machine designed to support the body while allowing controlled extension of the spine. This exercise helps improve posture, enhance core stability, and strengthen the lower back.",
+  "como_realizar": [
+    "Adjust the lever machine to fit your height, ensuring that the pads rest comfortably on your upper thighs.",
+    "Position yourself face down on the machine with your feet secured under the footpads.",
+    "Cross your arms over your chest or place your hands behind your head.",
+    "Engage your core and slowly lower your upper body towards the floor by bending at the hips.",
+    "Pause briefly at the bottom of the movement, ensuring you do not round your back.",
+    "Raise your upper body back to the starting position by extending at the hips until your body forms a straight line.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that the machine is adjusted properly to avoid strain on your lower back.",
+    "Keep your movements slow and controlled to maximize muscle engagement and reduce injury risk.",
+    "Focus on engaging your core throughout the exercise to maintain stability.",
+    "Avoid hyperextending your back at the top of the movement; stop when your body is in a straight line.",
+    "Exhale as you lift your body up and inhale as you lower it down.",
+    "Start with a lighter weight to perfect your form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Arching the back excessively instead of maintaining a neutral spine.",
+    "Using momentum to lift the torso rather than controlled muscle engagement.",
+    "Positioning the pad too high, causing discomfort and limiting range of motion.",
+    "Hyperextending the spine at the top of the movement.",
+    "Not aligning the hips properly with the pivot point of the machine.",
+    "Failing to engage the core muscles, leading to instability.",
+    "Allowing the shoulders to round forward during the exercise.",
+    "Rushing through the movement without proper control.",
+    "Not adjusting the machine to fit individual body dimensions.",
+    "Neglecting to engage the glutes and hamstrings effectively."
+  ]
+}

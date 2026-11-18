@@ -1,0 +1,47 @@
+{
+  "nombre": "Sentadilla Dividida en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-split-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/45e984df-f5ad-4b9e-ba00-3e5c32fb619d.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Split Squat is a lower body exercise that targets the quadriceps, hamstrings, and glutes. It is performed using a Smith machine, which provides stability and control throughout the movement. This exercise is ideal for building strength and muscle in the legs while minimizing the risk of imbalance.",
+  "como_realizar": [
+    "Set the bar on the Smith machine to a height just below shoulder level.",
+    "Stand with your back to the bar and position one foot forward and the other foot back, similar to a lunge stance.",
+    "Place the bar across your upper back and shoulders, ensuring it is secure and comfortable.",
+    "Engage your core and keep your chest up as you lower your back knee towards the ground by bending both knees.",
+    "Descend until your front thigh is parallel to the floor, ensuring your front knee does not extend past your toes.",
+    "Press through the heel of your front foot to return to the starting position.",
+    "Complete the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Ensure your feet are positioned at a comfortable distance apart for balance.",
+    "Keep your torso upright throughout the movement to avoid leaning forward.",
+    "Focus on maintaining a controlled descent and ascent to maximize muscle engagement.",
+    "Adjust the position of your feet if you feel any discomfort in your knees or hips.",
+    "Use a moderate weight that allows you to perform the exercise with proper form.",
+    "Engage your core muscles to help stabilize your body during the exercise."
+  ],
+  "errores_comunes": [
+    "Knee tracking too far over the toes, increasing strain on the knee joint.",
+    "Back knee touching the ground, reducing tension and control.",
+    "Front foot placed too far forward or backward, affecting balance and muscle engagement.",
+    "Torso leaning excessively forward, leading to poor posture and reduced glute activation.",
+    "Lack of control during descent, causing jerky movements and instability.",
+    "Uneven weight distribution between legs, reducing effectiveness and increasing imbalance.",
+    "Neglecting to engage core muscles, resulting in poor stability and form.",
+    "Using momentum to lift instead of controlled muscle contraction, reducing effectiveness.",
+    "Incorrect bar positioning on the back, causing discomfort and misalignment."
+  ]
+}

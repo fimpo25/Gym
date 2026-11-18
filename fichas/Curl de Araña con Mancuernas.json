@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Araña con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-arana-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/45eb1b50-84e5-49b1-a119-80345b27a182.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Araña con Mancuernas es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Se realiza en un banco inclinado, lo que permite un rango completo de movimiento y minimiza el impulso, mejorando así la contracción y el crecimiento muscular.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 45 grados.",
+    "Acuéstate boca abajo en el banco con el pecho y el estómago apoyados.",
+    "Sujeta una mancuerna en cada mano con un agarre supino, brazos completamente extendidos hacia el suelo.",
+    "Mantén los codos cerca de tu cuerpo y flexiona las mancuernas hacia arriba contrayendo los bíceps.",
+    "Pausa en la parte superior del movimiento, asegurando una contracción máxima.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan estacionarios y no se abran durante el curl.",
+    "Concéntrate en apretar tus bíceps en la parte superior de cada repetición para una contracción máxima.",
+    "Usa un tempo controlado para evitar usar el impulso, lo que puede reducir la efectividad.",
+    "Comienza con pesos más ligeros para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Mantén una posición neutral de la muñeca para prevenir tensiones y maximizar el compromiso del bíceps."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "Usar el impulso para levantar las mancuernas, lo que lleva a un mal control muscular.",
+    "Colocar el pecho demasiado alto en el banco, disminuyendo el rango de movimiento.",
+    "No extender completamente los brazos en la parte inferior, limitando la activación muscular.",
+    "Enroscar las muñecas en lugar de mantenerlas neutrales, forzando los antebrazos.",
+    "No mantener los brazos superiores estacionarios, desviando el enfoque de los bíceps.",
+    "Levantar demasiado peso, comprometiendo la forma y arriesgando tensión en los codos.",
+    "Apresurarse en el movimiento, reduciendo el tiempo bajo tensión."
+  ]
+}

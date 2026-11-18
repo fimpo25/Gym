@@ -1,0 +1,52 @@
+{
+  "nombre": "Prensa Pallof Horizontal en Polea Baja",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/prensa-pallof-horizontal-en-polea-baja",
+  "video_url": "https://api.smartworkout.app/asset/video/e84b6a2d-35b3-4fc4-aaf8-e4a11482f829.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Press Pallof Horizontal con Cable Bajo es un ejercicio de core anti-rotacional que se enfoca en los oblicuos, el transverso del abdomen y el recto abdominal. Consiste en presionar un cable horizontalmente desde una posición de polea baja mientras se resisten fuerzas rotacionales, promoviendo la estabilidad y fuerza del core.",
+  "como_realizar": [
+    "Coloca un mango en una máquina de cable de polea baja y ajusta el peso deseado.",
+    "Párate de lado a la máquina con los pies separados al ancho de los hombros, sosteniendo el mango con ambas manos cerca de tu pecho.",
+    "Aléjate de la máquina para crear tensión en el cable. Asegúrate de que tu cuerpo esté alineado y tus rodillas ligeramente flexionadas.",
+    "Activa tu núcleo y presiona el mango directamente frente a ti, manteniendo los brazos extendidos a la altura de los hombros.",
+    "Mantén la posición extendida brevemente, resistiendo cualquier rotación o movimiento en tu torso.",
+    "Lentamente regresa el mango a tu pecho mientras mantienes el control y repite el número deseado de repeticiones.",
+    "Cambia de lado y repite el ejercicio para asegurar un desarrollo equilibrado."
+  ],
+  "consejos": [
+    "Concéntrate en mantener tu core apretado durante todo el movimiento para maximizar la estabilidad.",
+    "Asegúrate de que tus hombros permanezcan nivelados y evita inclinarte hacia la máquina de cables.",
+    "Controla tu respiración exhalando al presionar hacia afuera e inhalando al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Mantén una ligera flexión en tus rodillas para mejorar la estabilidad y el equilibrio durante el ejercicio.",
+    "Mantén tus movimientos lentos y controlados para comprometer efectivamente tus músculos del core."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas roten en lugar de mantenerlas cuadradas hacia el frente.",
+    "No mantener una columna neutral, lo que lleva a un arqueo o redondeo excesivo.",
+    "Dejar que los hombros se encojan hacia las orejas, causando tensión en el cuello.",
+    "Usar el impulso para presionar el cable en lugar de un compromiso muscular controlado.",
+    "Pararse demasiado lejos de la máquina de cables, reduciendo la tensión en el núcleo.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "Alinear incorrectamente el mango del cable con el centro del pecho.",
+    "Descuidar comprometer completamente los músculos del núcleo durante todo el movimiento.",
+    "Comenzar con los pies demasiado juntos, reduciendo la estabilidad.",
+    "Apresurar las fases de presión y retorno, comprometiendo el control y la efectividad."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "nombre": "Empuje de Cadera Unilateral con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/empuje-de-cadera-unilateral-con-mancuerna",
+  "video_url": "https://api.smartworkout.app/asset/video/ec4bd299-a2f5-41ea-9eed-2fe4cfeca63f.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "BACK",
+    "QUADRICEPS"
+  ],
+  "descripcion": "La Elevación de Cadera Unilateral con Mancuerna es un ejercicio para la parte inferior del cuerpo que se enfoca en los glúteos, isquiotibiales y el core. Consiste en levantar las caderas mientras se equilibra sobre una pierna, con una mancuerna colocada en la cadera de trabajo para aumentar la resistencia. Este ejercicio mejora la fuerza unilateral, la estabilidad y la activación muscular en la cadena posterior.",
+  "como_realizar": [
+    "Siéntate en el suelo con la parte superior de la espalda apoyada contra un banco o superficie elevada.",
+    "Dobla una rodilla y coloca el pie plano en el suelo, mientras extiendes la otra pierna recta.",
+    "Coloca una mancuerna en la cadera de la pierna doblada, sujetándola firmemente con la mano.",
+    "Activa tu núcleo y empuja con el talón de la pierna doblada para levantar las caderas hacia el techo.",
+    "En la parte superior del movimiento, tu cuerpo debe formar una línea recta desde los hombros hasta la rodilla.",
+    "Aprieta los glúteos en la parte superior y mantén por un momento antes de bajar de nuevo.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Asegúrate de que la parte superior de tu espalda esté firmemente apoyada en el banco para mantener la estabilidad.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para evitar la tensión en la parte baja de la espalda.",
+    "Concéntrate en empujar con el talón para maximizar la activación de los glúteos.",
+    "Controla el descenso para mantener la tensión en los músculos y evitar bajar las caderas demasiado rápido.",
+    "Mantén una línea recta desde los hombros hasta la rodilla en la parte superior del empuje para una forma adecuada.",
+    "Comienza con una mancuerna más ligera para dominar la forma antes de avanzar a pesos más pesados."
+  ],
+  "errores_comunes": [
+    "Colocar la pierna que no está trabajando demasiado baja, causando pérdida de equilibrio y alineación incorrecta de la cadera.",
+    "Permitir que la mancuerna ruede o se desplace, llevando a una distribución desigual del peso.",
+    "Hiperextender la parte baja de la espalda en la parte superior del movimiento en lugar de enfocarse en la extensión de la cadera.",
+    "No activar los glúteos y los isquiotibiales, confiando demasiado en la parte baja de la espalda.",
+    "Dejar caer las caderas demasiado rápido en el descenso, perdiendo control y tensión.",
+    "Posicionar la espalda demasiado alta o demasiado baja en el banco, afectando el rango de movimiento y la estabilidad.",
+    "Permitir que la rodilla de la pierna que trabaja se incline hacia adentro, arriesgando tensión en la rodilla.",
+    "No mantener una columna neutral durante el movimiento, aumentando la tensión en la parte baja de la espalda.",
+    "Usar el impulso para levantar las caderas en lugar de un compromiso muscular controlado.",
+    "Descuidar mantener el núcleo comprometido, llevando a una mala postura y problemas de equilibrio."
+  ]
+}

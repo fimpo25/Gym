@@ -1,0 +1,55 @@
+{
+  "nombre": "Elíptica",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/elliptical-trainer",
+  "video_url": "https://api.smartworkout.app/asset/video/38a3a505-5577-4a0a-9a91-e44a7412b028.mp4",
+  "tags": [
+    "CARDIO",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The elliptical trainer is a stationary exercise machine used to simulate walking, running, or stair climbing without causing excessive pressure on the joints. It provides a cardiovascular workout that can vary from light to high intensity based on the resistance and speed settings. The elliptical trainer engages multiple muscle groups, including the quadriceps, hamstrings, glutes, chest, back, and arms.",
+  "como_realizar": [
+    "Step onto the elliptical trainer and place your feet on the pedals.",
+    "Grip the handles firmly with both hands.",
+    "Start pedaling forward by pushing down with one foot while pulling up with the other.",
+    "Adjust the resistance and incline settings to match your desired intensity level.",
+    "Maintain an upright posture with your core engaged throughout the workout.",
+    "Use a smooth and controlled motion, avoiding bouncing or jerky movements.",
+    "To stop, gradually slow down your pace until the machine comes to a complete stop."
+  ],
+  "consejos": [
+    "Ensure your feet are positioned comfortably on the pedals to avoid unnecessary strain.",
+    "Keep your shoulders relaxed and avoid gripping the handles too tightly.",
+    "Focus on a consistent breathing pattern to enhance endurance.",
+    "Vary your workout by adjusting resistance and incline for different muscle engagement.",
+    "Monitor your heart rate to stay within your target cardiovascular zone.",
+    "Incorporate interval training by alternating between high and low intensity periods."
+  ],
+  "errores_comunes": [
+    "Leaning too heavily on the handlebars, reducing lower body engagement.",
+    "Using a stride that is too short, limiting range of motion and effectiveness.",
+    "Allowing feet to lift off the pedals, disrupting smooth motion and control.",
+    "Hunching shoulders forward, leading to poor posture and potential neck strain.",
+    "Setting resistance too low, resulting in minimal muscle activation.",
+    "Pedaling backwards without maintaining proper form, risking knee discomfort.",
+    "Overextending knees at full stride, increasing strain on joints.",
+    "Neglecting to engage core muscles, reducing stability and overall workout quality.",
+    "Using only arms or only legs, failing to achieve a balanced full-body workout."
+  ]
+}

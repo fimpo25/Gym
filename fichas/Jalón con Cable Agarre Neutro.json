@@ -1,0 +1,51 @@
+{
+  "nombre": "Jalón con Cable Agarre Neutro",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/cable-neutral-grip-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/5cdf873a-c0f0-4182-bd8d-5d77fe5d8c23.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Cable Wide Neutral Grip Lat Pulldown targets the latissimus dorsi muscles, along with the biceps, shoulders, and upper back. This exercise is performed using a cable machine with a wide neutral grip attachment, allowing for a natural hand position that reduces strain on the wrists and shoulders while effectively engaging the back muscles.",
+  "como_realizar": [
+    "Sit at a cable pulldown machine and adjust the knee pad to secure your legs.",
+    "Attach a wide neutral grip handle to the high pulley.",
+    "Grasp the handle with palms facing each other, arms fully extended overhead.",
+    "Lean back slightly at the hips, keeping your chest up and core engaged.",
+    "Pull the handle down towards your upper chest by driving your elbows down and back.",
+    "Squeeze your shoulder blades together at the bottom of the movement.",
+    "Slowly extend your arms back to the starting position under control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slight arch in your lower back throughout the exercise to protect your spine.",
+    "Focus on pulling with your elbows rather than your hands to better engage the lats.",
+    "Avoid using momentum; control the movement both on the way down and up.",
+    "Keep your shoulders down and away from your ears to prevent unnecessary tension.",
+    "Ensure a full range of motion by fully extending your arms at the top of each rep.",
+    "Breathe out as you pull down and inhale as you return to the starting position."
+  ],
+  "errores_comunes": [
+    "Using too much weight leading to poor form and momentum-based movement.",
+    "Leaning too far back, turning the exercise into a row rather than a pulldown.",
+    "Pulling the bar down too low, past the chest, reducing lat engagement.",
+    "Allowing the shoulders to shrug up during the movement, disengaging the lats.",
+    "Using a grip that is too wide or too narrow, affecting the range of motion.",
+    "Not fully extending the arms at the top of the movement, limiting lat stretch.",
+    "Pulling with the arms instead of initiating the movement with the back muscles.",
+    "Bouncing or jerking the weight instead of maintaining controlled movement.",
+    "Neglecting to retract the shoulder blades at the start of the pull.",
+    "Allowing the elbows to flare out excessively, reducing lat activation."
+  ]
+}

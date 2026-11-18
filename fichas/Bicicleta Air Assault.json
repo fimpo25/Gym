@@ -1,0 +1,56 @@
+{
+  "nombre": "Bicicleta Air Assault",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/assault-air-bike",
+  "video_url": "https://api.smartworkout.app/asset/video/f7f76a00-8794-478f-b596-4b690632b7df.mp4",
+  "tags": [
+    "CARDIO",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "BACK",
+    "HAMSTRINGS",
+    "BICEPS",
+    "FOREARMS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Assault Air Bike is a high-intensity cardio machine that combines the benefits of cycling and upper body workouts. It uses air resistance, which increases with the speed and power of your pedaling, providing a scalable workout suitable for all fitness levels. The bike features moving handlebars, allowing for a full-body workout that engages both the lower and upper body muscles.",
+  "como_realizar": [
+    "Adjust the seat height so that your legs are slightly bent at the bottom of the pedal stroke.",
+    "Sit on the bike with your feet securely on the pedals and hands gripping the handlebars.",
+    "Start pedaling at a moderate pace to warm up, using both your legs and arms to move the pedals and handlebars.",
+    "Increase your speed and intensity by pedaling faster and pushing/pulling harder on the handlebars.",
+    "Maintain a steady breathing pattern, inhaling through your nose and exhaling through your mouth.",
+    "Cool down by gradually reducing your speed and intensity over the last few minutes of your workout."
+  ],
+  "consejos": [
+    "Ensure the seat is adjusted properly to avoid strain on your knees.",
+    "Engage your core muscles to maintain stability while pedaling.",
+    "Use both arms and legs equally to distribute effort and maximize efficiency.",
+    "Focus on smooth, controlled movements rather than jerky or rushed motions.",
+    "Monitor your heart rate to ensure you are working within your target zone.",
+    "Incorporate interval training by alternating between high-intensity bursts and recovery periods."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, causing poor posture and reduced efficiency.",
+    "Using only arms or only legs, leading to muscle imbalance and reduced power output.",
+    "Setting the seat too low, limiting leg extension and causing knee strain.",
+    "Gripping the handles too tightly, resulting in unnecessary tension in the upper body.",
+    "Pedaling too fast without control, increasing the risk of losing balance.",
+    "Neglecting to engage the core, reducing stability and power transfer.",
+    "Not maintaining a steady breathing pattern, leading to premature fatigue.",
+    "Allowing knees to flare outward, causing misalignment and potential knee discomfort."
+  ]
+}

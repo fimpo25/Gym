@@ -1,0 +1,50 @@
+{
+  "nombre": "Peso Muerto Rumano con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/peso-muerto-rumano-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/b5ba96be-7920-4363-b1f7-885bf760d895.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Peso Muerto Rumano con Mancuernas es un ejercicio de entrenamiento de fuerza que se enfoca en la cadena posterior, incluyendo los isquiotibiales, glúteos y la parte baja de la espalda. Implica una flexión en las caderas mientras se mantiene una columna neutral para levantar y bajar las mancuernas, enfatizando el control y la activación muscular.",
+  "como_realizar": [
+    "Párate con los pies a la altura de las caderas, sosteniendo una mancuerna en cada mano con un agarre por encima.",
+    "Mantén las rodillas ligeramente dobladas y la espalda recta.",
+    "Inclínate en las caderas, empujándolas hacia atrás mientras bajas las mancuernas a lo largo del frente de tus piernas.",
+    "Baja las mancuernas hasta que sientas un estiramiento en los isquiotibiales, manteniendo las pesas cerca de tu cuerpo.",
+    "Activa tus glúteos e isquiotibiales para volver a la posición inicial empujando tus caderas hacia adelante.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el movimiento para evitar lesiones.",
+    "Concéntrate en flexionar las caderas en lugar de doblar la cintura.",
+    "Mantén las mancuernas cerca de tus piernas para mantener el equilibrio y el control.",
+    "Activa tus músculos del core para estabilizar tu torso durante el ejercicio.",
+    "Comienza con pesos más ligeros para dominar la forma antes de progresar a cargas más pesadas.",
+    "Asegúrate de que tus rodillas permanezcan ligeramente flexionadas pero no las bloquees."
+  ],
+  "errores_comunes": [
+    "Doblar las rodillas en exceso, convirtiendo el movimiento en una sentadilla en lugar de un bisagra.",
+    "Redondear la parte baja de la espalda, lo que puede provocar tensión o lesión.",
+    "Permitir que los hombros se inclinen hacia adelante, desactivando los músculos de la parte superior de la espalda.",
+    "No mantener las mancuernas cerca del cuerpo, reduciendo el control y la efectividad.",
+    "Hiperextender la parte baja de la espalda en la parte superior del movimiento, arriesgando una lesión.",
+    "Usar el impulso en lugar de un movimiento controlado, reduciendo el compromiso muscular.",
+    "No mantener una columna neutral durante todo el ejercicio.",
+    "Descender demasiado bajo, causando que la espalda se redondee y perdiendo tensión en los isquiotibiales.",
+    "No activar el core, lo que lleva a inestabilidad y mala forma.",
+    "Levantar con los brazos en lugar de hacer una bisagra en las caderas, reduciendo el enfoque en los músculos de la cadena posterior."
+  ]
+}

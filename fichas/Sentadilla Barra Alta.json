@@ -1,0 +1,58 @@
+{
+  "nombre": "Sentadilla Barra Alta",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/high-bar-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/841fe685-c0e5-42b6-9835-db738c0bfced.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Highbar Squat is a compound lower body exercise that primarily targets the quadriceps, glutes, and hamstrings. It involves placing the barbell on the upper traps, maintaining an upright torso, and descending into a squat position while keeping the knees aligned with the toes.",
+  "como_realizar": [
+    "Position a barbell on a squat rack at shoulder height.",
+    "Step under the bar and place it on your upper traps, ensuring it is centered.",
+    "Grip the bar slightly wider than shoulder-width and lift your elbows to create a stable shelf.",
+    "Unrack the bar by standing up straight and take a step back.",
+    "Set your feet shoulder-width apart with toes slightly pointed out.",
+    "Engage your core and keep your chest up.",
+    "Initiate the squat by bending at the hips and knees simultaneously.",
+    "Descend until your thighs are parallel to the ground or slightly below.",
+    "Ensure your knees track over your toes throughout the movement.",
+    "Drive through your heels to return to the starting position, extending your hips and knees."
+  ],
+  "consejos": [
+    "Keep your core tight to maintain stability and prevent lower back strain.",
+    "Focus on keeping an upright torso to emphasize quadriceps engagement.",
+    "Ensure your knees do not cave inward; they should align with your toes.",
+    "Control the descent to maintain balance and prevent injury.",
+    "Use a full range of motion for maximum muscle activation.",
+    "Warm up properly before performing heavy squats to prepare your muscles and joints.",
+    "Start with lighter weights to perfect form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Knees caving inward during the ascent.",
+    "Heels lifting off the ground.",
+    "Bar placed too high on the neck.",
+    "Hips rising faster than the chest.",
+    "Not reaching full depth with thighs parallel to the ground.",
+    "Allowing the lower back to round.",
+    "Feet positioned too narrowly or too widely.",
+    "Failing to engage the core for stability.",
+    "Leaning too far forward, causing excessive forward tilt.",
+    "Not maintaining a neutral spine throughout the movement."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "nombre": "Jalón de Dorsales con Banda a un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/jalon-de-dorsales-con-banda-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/57451fbf-821a-4dbe-8dd4-c3761d0499d6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "El Jalón de Espalda con Banda de Resistencia en Posición de Rodillas con un Brazo es un ejercicio de aislamiento que se enfoca en los músculos dorsales anchos. Implica el uso de una banda de resistencia para simular el movimiento de un jalón de espalda mientras se está en posición de rodillas, permitiendo un entrenamiento unilateral y una mejor activación muscular.",
+  "como_realizar": [
+    "Asegura una banda de resistencia a un punto de anclaje alto, asegurándote de que esté segura.",
+    "Arrodíllate sobre una rodilla directamente debajo del punto de anclaje, con el otro pie firmemente plantado en el suelo para estabilidad.",
+    "Agarra el mango de la banda con una mano, con la palma hacia adelante, y extiende completamente el brazo por encima de la cabeza.",
+    "Activa tu núcleo y mantén el torso erguido durante todo el movimiento.",
+    "Tira de la banda hacia abajo llevando el codo hacia tu costado, manteniendo la escápula retraída.",
+    "Haz una breve pausa en la parte inferior del movimiento, sintiendo la contracción en tu dorsal ancho.",
+    "Vuelve lentamente a la posición inicial extendiendo el brazo nuevamente por encima de la cabeza.",
+    "Completa el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Asegúrate de que tu core esté comprometido para evitar una curvatura excesiva de la parte baja de la espalda.",
+    "Concéntrate en tirar con los músculos de la espalda en lugar de con el brazo para maximizar el compromiso del dorsal.",
+    "Mantén un movimiento lento y controlado durante cada repetición para aumentar el tiempo bajo tensión.",
+    "Mantén el hombro hacia abajo y alejado de la oreja para evitar tensiones innecesarias.",
+    "Experimenta con diferentes resistencias de bandas para encontrar un desafío adecuado para tu nivel de fuerza.",
+    "Realiza el ejercicio frente a un espejo si es posible para monitorear la forma y la alineación."
+  ],
+  "errores_comunes": [
+    "Tirar con el brazo en lugar de activar los músculos dorsales.",
+    "Permitir que el hombro se eleve en lugar de mantenerlo abajo y hacia atrás.",
+    "Usar impulso o sacudir la banda en lugar de movimientos controlados.",
+    "No mantener un núcleo estable, lo que lleva a una espalda arqueada o redondeada.",
+    "Tensión incorrecta de la banda, ya sea demasiado floja o demasiado apretada, afectando el rango de movimiento.",
+    "Girar el torso en lugar de mantenerlo cuadrado hacia el punto de anclaje.",
+    "No extender completamente el brazo en la parte superior del movimiento.",
+    "Descuidar mantener el codo cerca del cuerpo durante el jalón.",
+    "Colocar la rodilla demasiado lejos del punto de anclaje, causando desequilibrio.",
+    "No alinear la muñeca con el antebrazo, lo que lleva a una tensión innecesaria."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "nombre": "Apertura de Pecho con Mancuernas en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-de-pecho-con-mancuernas-en-banco-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/aec5c2b6-b5cb-44c9-bcaf-3e201a824590.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "Las Aperturas con Mancuernas en Banco Inclinado son un ejercicio de aislamiento que se enfoca en los músculos pectorales, específicamente en la parte superior del pecho. Consiste en acostarse en un banco inclinado y mover las mancuernas en un arco amplio para activar eficazmente los músculos del pecho. Este ejercicio ayuda a desarrollar la parte superior del pectoral mayor, mejorando la definición y la fuerza del pecho.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo de 30-45 grados.",
+    "Siéntate en el banco con una mancuerna en cada mano, apoyándolas en tus muslos.",
+    "Recuéstate en el banco y levanta las mancuernas por encima de tu pecho con las palmas enfrentadas.",
+    "Dobla ligeramente los codos y baja las mancuernas en un arco amplio hasta sentir un estiramiento en el pecho.",
+    "Mantén los codos ligeramente doblados durante todo el movimiento para proteger tus articulaciones.",
+    "Lleva las mancuernas de vuelta a la posición inicial de manera controlada, apretando el pecho en la parte superior.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda esté firmemente presionada contra el banco para mantener la estabilidad.",
+    "Controla el movimiento; evita que la gravedad baje las pesas demasiado rápido.",
+    "Concéntrate en sentir un estiramiento en tu pecho en lugar de cuán lejos puedes bajar las mancuernas.",
+    "Mantén tu núcleo comprometido para apoyar tu espalda baja durante el ejercicio.",
+    "Exhala al levantar las mancuernas e inhala al bajarlas.",
+    "Evita bloquear tus codos en la parte superior del movimiento para mantener la tensión en el pecho."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos bajen demasiado, causando tensión excesiva en los hombros.",
+    "Usar pesas demasiado pesadas, comprometiendo la forma y el control.",
+    "No mantener una ligera flexión en los codos, lo que lleva a estrés en las articulaciones.",
+    "Arquear la espalda excesivamente, reduciendo el compromiso del pecho.",
+    "Levantar las mancuernas demasiado alto sobre el pecho, limitando el rango de movimiento.",
+    "Mover los brazos demasiado rápido, perdiendo tensión muscular y control.",
+    "No mantener los hombros retraídos, reduciendo la activación del pecho.",
+    "Permitir que las muñecas se doblen, lo que lleva a una posible tensión."
+  ]
+}

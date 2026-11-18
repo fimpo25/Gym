@@ -1,0 +1,42 @@
+{
+  "nombre": "Curl con Mancuerna Individual",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-con-mancuerna-individual",
+  "video_url": "https://api.smartworkout.app/asset/video/ce242305-ce47-4129-8437-24d7fb78631d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl con Mancuerna Individual es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Consiste en levantar una mancuerna con una mano, enfatizando la fuerza unilateral y el equilibrio muscular. Este ejercicio ayuda a desarrollar el pico del bíceps y mejorar la simetría del brazo.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros, sosteniendo una mancuerna en una mano con un agarre en supinación.",
+    "Mantén tu codo cerca de tu torso y tu palma mirando hacia adelante.",
+    "Exhala mientras levantas la mancuerna hacia arriba doblando el codo, manteniendo el brazo superior estacionario.",
+    "Continúa levantando hasta que tu bíceps esté completamente contraído y la mancuerna esté a nivel del hombro.",
+    "Mantén la contracción por un momento, luego inhala mientras bajas lentamente la mancuerna de regreso a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar al otro brazo."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Evita balancearte o usar el impulso para levantar la mancuerna; concéntrate en aislar el músculo del bíceps.",
+    "Mantén la muñeca recta y evita doblarla durante el curl para prevenir tensiones.",
+    "Asegúrate de que tu codo permanezca fijo a tu lado para dirigir el esfuerzo al bíceps de manera efectiva.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a mancuernas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar el impulso balanceando el cuerpo o el brazo para levantar la mancuerna.",
+    "Permitir que el codo se desplace hacia adelante, reduciendo el compromiso del bíceps.",
+    "No extender completamente el brazo en la parte inferior del movimiento.",
+    "Enroscar la muñeca en la parte superior del movimiento, desviando el enfoque de los bíceps.",
+    "No mantener el brazo superior estacionario, lo que lleva a la implicación del hombro.",
+    "Usar un peso demasiado pesado, comprometiendo la forma y el control.",
+    "Apresurarse a través de las repeticiones sin un movimiento controlado.",
+    "No mantener una posición neutral de la muñeca, arriesgando tensión."
+  ]
+}

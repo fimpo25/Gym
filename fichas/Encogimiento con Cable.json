@@ -1,0 +1,43 @@
+{
+  "nombre": "Encogimiento con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimiento-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/828981bf-726c-4948-96d8-31906a78d7ea.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los encogimientos de hombros con cable son un ejercicio de aislamiento que se enfoca en los músculos trapecios. Este ejercicio utiliza una máquina de cables para proporcionar tensión constante durante el movimiento, involucrando eficazmente la parte superior de la espalda y los hombros. Es ideal para desarrollar fuerza y tamaño en los músculos trapecios.",
+  "como_realizar": [
+    "Párate frente a una máquina de polea baja con los pies separados al ancho de los hombros.",
+    "Acopla una barra recta o un mango de cuerda a la polea baja.",
+    "Agarra el mango con ambas manos, usando un agarre por encima, y ponte de pie con los brazos completamente extendidos.",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el ejercicio.",
+    "Levanta los hombros hacia las orejas en un movimiento de encogimiento, apretando los músculos trapecios en la parte superior del movimiento.",
+    "Mantén la contracción por un momento antes de bajar lentamente los hombros de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar tus músculos trapecios para levantar el peso, evitando la asistencia de tus brazos.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita rodar tus hombros hacia adelante o hacia atrás; muévelos directamente hacia arriba y hacia abajo.",
+    "Mantén una posición neutral de la cabeza, mirando hacia adelante durante todo el ejercicio.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada y aumenta gradualmente a medida que te sientas más cómodo."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a una mala forma y a una reducción del rango de movimiento.",
+    "Permitir que los hombros se inclinen hacia adelante en lugar de moverse directamente hacia arriba y hacia abajo.",
+    "No comprometer completamente los músculos trapecios al no levantar los hombros lo suficientemente alto.",
+    "Inclinarse hacia atrás o usar la parte baja de la espalda para ayudar en el movimiento.",
+    "Tirar con los brazos en lugar de centrarse en la elevación de los hombros.",
+    "Realizar el ejercicio demasiado rápido, reduciendo el compromiso y control muscular.",
+    "No mantener un núcleo estable, lo que lleva a un movimiento innecesario del cuerpo.",
+    "Descuidar mantener las muñecas rectas, lo que puede causar tensión."
+  ]
+}

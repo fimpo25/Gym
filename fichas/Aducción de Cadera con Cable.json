@@ -1,0 +1,49 @@
+{
+  "nombre": "Aducción de Cadera con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/cable-hip-adduction",
+  "video_url": "https://api.smartworkout.app/asset/video/75694192-2ab2-47af-a3be-c68dc401b852.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "Cable Hip Adduction is an isolation exercise targeting the adductor muscles of the inner thigh. It involves using a cable machine to provide resistance while moving the leg across the body's midline. This exercise helps in strengthening and toning the inner thighs, improving balance and stability.",
+  "como_realizar": [
+    "Attach an ankle strap to a low pulley on a cable machine.",
+    "Secure the strap around your ankle and stand sideways to the machine.",
+    "Position yourself so that the working leg is closest to the machine.",
+    "Hold onto the machine or a stable surface for support.",
+    "Start with your working leg extended out to the side.",
+    "Slowly bring your leg across your body, keeping it straight.",
+    "Pause briefly at the end of the movement, feeling the contraction in your inner thigh.",
+    "Return to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Maintain an upright posture throughout the exercise to avoid strain on your back.",
+    "Focus on using your inner thigh muscles to move your leg, rather than swinging it.",
+    "Keep your core engaged to maintain balance and stability during the movement.",
+    "Start with a light weight to master the form before increasing resistance.",
+    "Ensure that movements are slow and controlled, especially when returning to the starting position.",
+    "Avoid locking your knee; keep it slightly bent to reduce joint stress."
+  ],
+  "errores_comunes": [
+    "Using too much weight, causing loss of control and improper form.",
+    "Allowing the non-working leg to rotate outward, reducing isolation of the adductor muscles.",
+    "Leaning the torso excessively, which shifts focus away from the target muscles.",
+    "Rushing through the movement, leading to momentum-based execution instead of muscle engagement.",
+    "Not maintaining a stable core, resulting in unnecessary movement and reduced effectiveness.",
+    "Failing to keep the working leg straight, which decreases the range of motion and engagement.",
+    "Positioning the cable too high or too low, causing improper alignment and reduced effectiveness.",
+    "Not fully returning to the starting position, limiting the stretch and activation of the adductors.",
+    "Neglecting to adjust the machine for individual height, leading to awkward and inefficient movement."
+  ]
+}

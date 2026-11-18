@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Pantorrilla a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/single-leg-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/c0dca8a0-f2b2-4053-b8e8-e5d838c913c9.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Standing Single Leg Calf Raise is an isolation exercise targeting the calf muscles, specifically the gastrocnemius and soleus. This exercise is performed by standing on one leg and raising the heel to engage the calf muscles, enhancing balance and muscular endurance.",
+  "como_realizar": [
+    "Stand upright with your feet hip-width apart, using a wall or sturdy object for balance if necessary.",
+    "Shift your weight onto one leg, lifting the other foot slightly off the ground.",
+    "Engage your core and maintain a straight posture throughout the movement.",
+    "Slowly raise your heel off the ground as high as possible, keeping your knee straight.",
+    "Pause briefly at the top of the movement, feeling the contraction in your calf muscle.",
+    "Lower your heel back to the starting position in a controlled manner.",
+    "Complete the desired number of repetitions before switching to the other leg."
+  ],
+  "consejos": [
+    "Focus on maintaining balance by engaging your core muscles throughout the exercise.",
+    "Perform the movement slowly to maximize muscle engagement and control.",
+    "Ensure that your knee remains straight but not locked during the exercise.",
+    "Use a full range of motion for optimal calf muscle activation.",
+    "If balance is challenging, use a wall or chair for support without relying too heavily on it.",
+    "Start with body weight and gradually add resistance, such as dumbbells, as you become more comfortable with the movement."
+  ],
+  "errores_comunes": [
+    "Allowing the heel to drop too low, causing excessive strain on the Achilles tendon.",
+    "Using momentum instead of controlled movement, reducing muscle engagement.",
+    "Not maintaining a straight line from head to heel, leading to poor posture.",
+    "Failing to fully extend the ankle at the top of the movement, limiting range of motion.",
+    "Neglecting to engage the core, resulting in balance issues.",
+    "Placing the non-working leg incorrectly, affecting stability.",
+    "Rushing through repetitions, compromising form and effectiveness.",
+    "Not keeping the working knee slightly bent, increasing joint stress."
+  ]
+}

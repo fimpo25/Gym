@@ -1,0 +1,49 @@
+{
+  "nombre": "Press de Banca con Barra y Cadenas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-banca-con-barra-y-cadenas",
+  "video_url": "https://api.smartworkout.app/asset/video/04001bdc-c78d-4d5b-9e7d-c53983b9087a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Barra y Cadenas es una variación del press de banca tradicional que incorpora cadenas para añadir resistencia variable. A medida que se levanta la barra, más eslabones de la cadena se levantan del suelo, aumentando la carga. Este ejercicio se enfoca en los músculos pectorales, tríceps y hombros, y ayuda a mejorar la fuerza y potencia al acomodar la resistencia a lo largo del rango de movimiento.",
+  "como_realizar": [
+    "Configura un banco plano y coloca una barra con cadenas adjuntas en un soporte a una altura adecuada.",
+    "Recuéstate en el banco con los pies planos en el suelo y tus ojos directamente debajo de la barra.",
+    "Agarra la barra un poco más ancho que el ancho de los hombros, asegurando que tus muñecas estén rectas y los codos estén debajo de la barra.",
+    "Saca la barra del soporte enderezando tus brazos y colócala sobre tu pecho con los codos bloqueados.",
+    "Baja la barra lentamente hacia tu pecho, permitiendo que las cadenas se acumulen en el suelo, manteniendo el control y manteniendo los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Presiona la barra de nuevo hacia arriba explosivamente a la posición inicial, levantando más eslabones de cadena del suelo a medida que extiendes completamente tus brazos.",
+    "Repite para el número deseado de repeticiones, manteniendo la forma durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Asegúrate de que las cadenas estén distribuidas uniformemente en ambos lados de la barra para mantener el equilibrio.",
+    "Concéntrate en controlar el descenso de la barra para maximizar el compromiso muscular y la seguridad.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para estabilizar tu cuerpo.",
+    "Usa un observador si levantas pesos pesados para garantizar la seguridad al desenganchar y volver a enganchar.",
+    "Experimenta con diferentes longitudes de cadena para ajustar los niveles de resistencia según tu fuerza y objetivos.",
+    "Mantén un patrón de respiración constante: inhala al bajar la barra y exhala al presionarla hacia arriba."
+  ],
+  "errores_comunes": [
+    "Permitir que la barra rebote en el pecho, reduciendo el compromiso muscular y el control.",
+    "No mantener una posición estable de los hombros, aumentando el riesgo de tensión en los hombros.",
+    "Usar demasiado peso de cadena, lo que lleva a una forma comprometida y un rango de movimiento reducido.",
+    "No mantener los pies plantados en el suelo, causando inestabilidad y pérdida de potencia.",
+    "Arquear la espalda excesivamente, lo que puede llevar a una distribución incorrecta de la carga.",
+    "Bajar la barra de manera desigual, causando una activación muscular desequilibrada.",
+    "No comprometer el núcleo, lo que lleva a una falta de estabilidad y control.",
+    "No alinear las muñecas y los codos, aumentando el riesgo de estrés en las articulaciones.",
+    "Apresurar el levantamiento, lo que puede comprometer la forma y el control.",
+    "Descuidar ajustar la longitud de la cadena para una distribución adecuada de la carga durante el levantamiento."
+  ]
+}

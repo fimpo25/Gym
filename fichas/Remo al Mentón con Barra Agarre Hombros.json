@@ -1,0 +1,46 @@
+{
+  "nombre": "Remo al Mentón con Barra Agarre Hombros",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/barbell-shoulder-grip-upright-row",
+  "video_url": "https://api.smartworkout.app/asset/video/67366bdf-c624-4e65-8046-7204d48c1815.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "The Barbell Shoulder Grip Upright Row is a compound exercise targeting the shoulders and upper back, specifically the deltoids and trapezius muscles. This exercise involves lifting a barbell vertically along the front of your body to shoulder height, using a shoulder-width grip.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a barbell with an overhand grip at shoulder width.",
+    "Keep your back straight and core engaged throughout the movement.",
+    "Lift the barbell vertically by leading with your elbows, keeping it close to your body.",
+    "Raise the barbell until it reaches just below your chin, ensuring elbows are higher than your wrists.",
+    "Pause briefly at the top of the movement, then slowly lower the barbell back to the starting position.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine and avoid swinging your body during the lift.",
+    "Focus on using your shoulder and upper back muscles to lift the weight, not your arms.",
+    "Keep your elbows pointed outwards and higher than your wrists throughout the movement.",
+    "Control the descent of the barbell to maximize muscle engagement.",
+    "Start with a lighter weight to ensure proper form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Using too wide of a grip, which can reduce range of motion and limit engagement of the shoulder muscles.",
+    "Lifting the bar too high, causing excessive internal rotation of the shoulders and increasing risk of shoulder impingement.",
+    "Allowing the elbows to drop below the wrists, which can lead to poor shoulder engagement and reduced effectiveness.",
+    "Leaning forward or backward excessively, which can strain the lower back and reduce focus on the target muscles.",
+    "Using momentum to lift the bar, which decreases muscle activation and control.",
+    "Not keeping the wrists straight, leading to unnecessary strain and potential wrist discomfort.",
+    "Shrugging the shoulders instead of focusing on the upward movement of the elbows, which shifts the work away from the intended muscles.",
+    "Neglecting to engage the core, resulting in a loss of stability and potential imbalance.",
+    "Rushing through the movement, which can compromise form and reduce muscle engagement."
+  ]
+}

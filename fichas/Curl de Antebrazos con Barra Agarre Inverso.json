@@ -1,0 +1,45 @@
+{
+  "nombre": "Curl de Antebrazos con Barra Agarre Inverso",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-antebrazos-con-barra-en-agarre-inverso",
+  "video_url": "https://api.smartworkout.app/asset/video/c85f9c74-1ba7-4df5-98aa-3e0f5f2abc15.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BICEPS"
+  ],
+  "descripcion": "El Curl de Antebrazo con Barra y Agarre Inverso se enfoca en los extensores del antebrazo, centrándose en los músculos responsables de la extensión de la muñeca. Este ejercicio mejora la fuerza de agarre y el desarrollo del antebrazo, cruciales para la fuerza y estabilidad general del brazo.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una barra con un agarre por encima (palmas hacia abajo).",
+    "Coloca tus manos separadas al ancho de los hombros en la barra.",
+    "Mantén los codos cerca de tu torso y permite que la barra cuelgue a la longitud de tus brazos frente a ti.",
+    "Inhala y lentamente levanta la barra hacia arriba extendiendo tus muñecas, manteniendo los antebrazos estacionarios.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando la máxima contracción en los antebrazos.",
+    "Exhala y baja gradualmente la barra de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un agarre firme en la barra durante todo el ejercicio para maximizar el compromiso de los músculos del antebrazo.",
+    "Concéntrate en movimientos controlados para evitar el uso de impulso y asegurar una activación muscular adecuada.",
+    "Mantén los codos estacionarios para aislar eficazmente los músculos del antebrazo.",
+    "Evita usar un peso excesivo que comprometa la forma; prioriza la técnica sobre la carga.",
+    "Incorpora este ejercicio en tu rutina para mejorar la fuerza de agarre, lo cual es beneficioso para otros levantamientos."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un mal control y balanceo de la barra.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "No extender completamente las muñecas en la parte inferior del movimiento, reduciendo el rango de movimiento.",
+    "Doblar excesivamente las muñecas en la parte superior, causando tensión.",
+    "Involucrar los hombros o los brazos superiores en lugar de aislar los antebrazos.",
+    "Pararse con mala postura, como encorvarse o inclinarse hacia atrás.",
+    "Agarrar la barra demasiado fuerte, lo que lleva a una tensión innecesaria en las manos.",
+    "Realizar el movimiento demasiado rápido, sacrificando control y efectividad."
+  ]
+}

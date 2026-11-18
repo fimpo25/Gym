@@ -1,0 +1,49 @@
+{
+  "nombre": "Postura de la Paloma",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/postura-de-la-paloma",
+  "video_url": "https://api.smartworkout.app/asset/video/afce196e-d576-4b5c-87b1-c9dd97204b34.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Postura de la Paloma es un ejercicio de yoga que se enfoca principalmente en los flexores de la cadera y los glúteos. Es beneficioso para mejorar la flexibilidad, reducir el dolor lumbar y aumentar la movilidad general. Esta postura implica extender una pierna detrás de ti mientras doblas la otra pierna frente a ti, creando un estiramiento profundo en las caderas.",
+  "como_realizar": [
+    "Comienza en una posición de mesa sobre tus manos y rodillas.",
+    "Lleva tu rodilla derecha hacia tu muñeca derecha. Angula tu espinilla derecha debajo de tu torso y lleva tu pie derecho al frente de tu rodilla izquierda.",
+    "Desliza tu pierna izquierda hacia atrás, enderezando la rodilla y bajando la parte frontal del muslo al suelo.",
+    "Cuadra tus caderas hacia la esterilla, asegurándote de que no estén inclinadas hacia un lado.",
+    "Inhala para alargar tu columna, y al exhalar, inclínate hacia adelante sobre tu pierna derecha, descansando sobre tus antebrazos o extendiendo tus brazos hacia adelante.",
+    "Mantén la posición de 30 segundos a 2 minutos, respirando profundamente.",
+    "Para liberar, empuja hacia atrás con las manos y levanta tus caderas, regresando a una posición de mesa.",
+    "Repite en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén las caderas alineadas para asegurar un estiramiento uniforme en ambos lados.",
+    "Si sientes incomodidad en la rodilla, coloca una manta doblada o un cojín debajo de la cadera de la pierna doblada para apoyo.",
+    "Concéntrate en la respiración profunda para ayudar a relajarte en el estiramiento y liberar tensión.",
+    "Asegúrate de que la pierna trasera esté extendida recta detrás de ti con los dedos apuntando hacia abajo.",
+    "Evita forzarte en la postura; entra en ella gradualmente a medida que mejora la flexibilidad."
+  ],
+  "errores_comunes": [
+    "Las caderas no están alineadas hacia el frente, causando un estiramiento desigual.",
+    "La rodilla delantera no está doblada en un ángulo de 90 grados, lo que lleva a una alineación incorrecta.",
+    "La pierna trasera no está extendida recta hacia atrás, reduciendo la efectividad del estiramiento.",
+    "El torso no está alineado sobre las caderas, causando desequilibrio.",
+    "Los hombros están encorvados en lugar de relajados, lo que lleva a tensión.",
+    "El pie delantero está demasiado cerca del cuerpo, limitando el estiramiento de la cadera.",
+    "El pie trasero no está activamente comprometido, causando inestabilidad.",
+    "El cuello está tenso por mirar excesivamente hacia arriba o hacia abajo.",
+    "El peso está distribuido de manera desigual, poniendo estrés en la rodilla delantera.",
+    "La respiración es superficial, reduciendo la relajación y la profundidad del estiramiento."
+  ]
+}

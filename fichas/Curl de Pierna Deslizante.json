@@ -1,0 +1,48 @@
+{
+  "nombre": "Curl de Pierna Deslizante",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/sliding-leg-curl",
+  "video_url": "https://api.smartworkout.app/asset/video/57103c63-706f-4d7a-81b2-0415fac1727c.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Sliding Leg Curl is a bodyweight exercise targeting the hamstrings, glutes, and core. It involves sliding your feet on a smooth surface while maintaining a bridge position, which increases the engagement of the posterior chain muscles.",
+  "como_realizar": [
+    "Lie on your back with your knees bent and feet flat on a smooth surface.",
+    "Place your arms at your sides with palms facing down for stability.",
+    "Lift your hips off the ground to form a straight line from shoulders to knees, engaging your core and glutes.",
+    "Slowly slide your feet away from your body, extending your legs while keeping hips elevated.",
+    "Pause briefly when legs are fully extended, then slide feet back towards your body to return to the starting position.",
+    "Repeat for the desired number of repetitions while maintaining control and form."
+  ],
+  "consejos": [
+    "Ensure your core remains engaged throughout the movement to prevent lower back strain.",
+    "Keep your hips elevated and avoid letting them drop as you slide your feet.",
+    "Perform the movement slowly to maximize muscle engagement and control.",
+    "Use a towel or sliders under your feet if performing on a non-slippery surface.",
+    "Focus on squeezing the glutes and hamstrings as you bring your feet back towards you."
+  ],
+  "errores_comunes": [
+    "Hips sagging towards the floor, reducing hamstring engagement.",
+    "Allowing the knees to flare outwards, losing alignment and stability.",
+    "Not extending the legs fully, limiting the range of motion.",
+    "Using momentum to pull the legs back instead of controlled muscle contraction.",
+    "Failing to keep the core engaged, leading to lower back strain.",
+    "Rushing through reps, compromising form and muscle activation.",
+    "Lifting the hips too high, shifting focus away from the hamstrings.",
+    "Feet slipping due to lack of proper grip or surface friction."
+  ]
+}

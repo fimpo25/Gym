@@ -1,0 +1,43 @@
+{
+  "nombre": "Postura Mariposa Acostada",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/lying-butterfly-pose",
+  "video_url": "https://api.smartworkout.app/asset/video/fcce0e2d-916f-43cb-a6e4-1181c65dc9fc.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH"
+  ],
+  "musculo_primario": [
+    "ADDUCTOR"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "The Lying Butterfly Pose, also known as Supta Baddha Konasana, is a restorative yoga posture that focuses on opening the hips and stretching the inner thighs and groin. This exercise is performed while lying on your back, allowing gravity to assist in deepening the stretch. It is beneficial for improving flexibility, reducing tension, and promoting relaxation.",
+  "como_realizar": [
+    "Lie flat on your back on a mat with your legs extended.",
+    "Bend your knees and bring the soles of your feet together, allowing your knees to fall open to the sides.",
+    "Position your heels comfortably close to your pelvis.",
+    "Rest your arms alongside your body with palms facing up or place them on your abdomen.",
+    "Close your eyes and take slow, deep breaths, allowing your body to relax into the pose.",
+    "Hold the position for 3-5 minutes or as long as comfortable."
+  ],
+  "consejos": [
+    "Ensure that your back remains flat on the ground to avoid strain.",
+    "If you feel discomfort in your knees or hips, place cushions or blocks under your thighs for support.",
+    "Focus on relaxing your inner thighs and letting gravity gently deepen the stretch.",
+    "Keep breathing deeply and evenly to enhance relaxation and flexibility.",
+    "To exit the pose, use your hands to gently bring your knees together before extending your legs back out."
+  ],
+  "errores_comunes": [
+    "Allowing the knees to drop too low, causing strain on the inner thighs.",
+    "Failing to keep the back flat on the ground, leading to an arched lower back.",
+    "Not engaging the core, resulting in a lack of stability and support.",
+    "Positioning the feet too far from the body, reducing the stretch in the hips.",
+    "Pulling the feet too close to the body, causing discomfort or overstretching.",
+    "Neglecting to relax the shoulders, which can lead to unnecessary tension.",
+    "Holding the breath instead of maintaining a steady, relaxed breathing pattern."
+  ]
+}

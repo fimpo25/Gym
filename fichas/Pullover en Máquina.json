@@ -1,0 +1,50 @@
+{
+  "nombre": "Pullover en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/pullover-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/c0d47a85-1727-4c38-b01a-9d59fcee99d2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Pullover en máquina es un ejercicio de entrenamiento de fuerza que se enfoca en los músculos dorsal ancho, pectoral mayor y serrato anterior. Se realiza utilizando una máquina especializada que proporciona una trayectoria guiada de movimiento, permitiendo un compromiso muscular controlado y aislado. Este ejercicio es beneficioso para desarrollar la fuerza de la parte superior del cuerpo y aumentar el ancho de la espalda.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus hombros se alineen con el punto de pivote de la máquina.",
+    "Siéntate en la máquina con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre por encima, manteniendo los codos ligeramente doblados.",
+    "Activa tu núcleo y tira de las manijas hacia abajo en un movimiento en arco hasta que estén cerca de tus muslos.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurando la contracción completa de los músculos de la espalda.",
+    "Vuelve lentamente a la posición inicial de manera controlada, manteniendo la tensión en los músculos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan ligeramente doblados durante todo el movimiento para proteger tus articulaciones.",
+    "Concéntrate en apretar tus omóplatos juntos al bajar para maximizar el compromiso de la espalda.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y prevenir el arqueo de la parte baja de la espalda.",
+    "Controla la velocidad del movimiento para mejorar la activación muscular y reducir el impulso.",
+    "Ajusta el peso para que puedas realizar cada repetición con la forma adecuada y el rango completo de movimiento.",
+    "Exhala al bajar e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso de los dorsales.",
+    "Arquear excesivamente la parte baja de la espalda, causando tensión.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "No ajustar la altura del asiento, llevando a una posición incorrecta de los brazos.",
+    "Permitir que los codos se abran, reduciendo la activación de los dorsales.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Tirar con los brazos en lugar de comprometer los dorsales.",
+    "Apresurarse en el movimiento, sacrificando la forma.",
+    "No mantener un núcleo estable, afectando la postura.",
+    "Sobreextenderse en la parte superior, arriesgando tensión en los hombros."
+  ]
+}

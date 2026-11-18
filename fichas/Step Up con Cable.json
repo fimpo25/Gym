@@ -1,0 +1,50 @@
+{
+  "nombre": "Step Up con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/cable-step-up",
+  "video_url": "https://api.smartworkout.app/asset/video/cb73ca3f-4535-432a-8db8-db9c065a9d8b.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Cable Step-Up is a lower body exercise that targets the quadriceps, hamstrings, glutes, and calves. It involves stepping onto an elevated platform while holding a cable attachment for resistance, promoting balance, coordination, and strength.",
+  "como_realizar": [
+    "Attach a handle to the low pulley of a cable machine.",
+    "Stand facing the machine with your feet hip-width apart.",
+    "Hold the handle in one hand and step back to create tension in the cable.",
+    "Place one foot on an elevated platform or step, ensuring your knee is aligned over your ankle.",
+    "Push through the heel of the foot on the platform to lift your body upward.",
+    "Bring your trailing leg up to meet the leading leg on the platform.",
+    "Slowly lower the trailing leg back to the starting position, maintaining control.",
+    "Complete the desired number of repetitions before switching legs."
+  ],
+  "consejos": [
+    "Ensure your core is engaged throughout the movement for stability.",
+    "Keep your chest up and shoulders back to maintain proper posture.",
+    "Focus on pushing through the heel of the foot on the platform to activate the glutes effectively.",
+    "Avoid locking your knee at the top of the movement to maintain tension in the muscles.",
+    "Control the descent to prevent unnecessary strain on your joints.",
+    "Start with a lighter weight to master form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and momentum reliance.",
+    "Allowing the knee to cave inward instead of tracking over the toes.",
+    "Not fully extending the hip at the top of the step up.",
+    "Pushing off with the back leg instead of driving through the front heel.",
+    "Leaning forward excessively, reducing core engagement.",
+    "Failing to maintain a neutral spine throughout the movement.",
+    "Rushing the movement, compromising balance and control.",
+    "Not engaging the glutes and hamstrings effectively.",
+    "Allowing the cable to pull the body backward during descent."
+  ]
+}

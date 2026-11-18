@@ -1,0 +1,43 @@
+{
+  "nombre": "Press Alterno de Pie con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-standing-alternate-press",
+  "video_url": "https://api.smartworkout.app/asset/video/09cfbb01-395b-4001-b94d-b5f9f9ca1cc4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Dumbbell Standing Alternate Press is a compound exercise targeting the shoulders, specifically the deltoid muscles. It also engages the triceps and upper chest, providing a balanced upper body workout. This exercise involves pressing dumbbells overhead in an alternating fashion while standing, promoting stability and coordination.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in each hand at shoulder height with palms facing forward.",
+    "Engage your core to maintain a stable posture throughout the movement.",
+    "Press one dumbbell overhead by extending your arm fully, keeping the other dumbbell at shoulder height.",
+    "Lower the dumbbell back to the starting position while simultaneously pressing the other dumbbell overhead.",
+    "Continue alternating arms for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your core tight to prevent excessive arching of the lower back.",
+    "Focus on controlling the movement, avoiding any jerking or swinging motions.",
+    "Maintain a slight bend in your knees to support balance and reduce strain on your lower back.",
+    "Ensure that your elbows are slightly in front of your body at the bottom of each press to protect your shoulder joints.",
+    "Breathe out as you press the dumbbell overhead and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Using excessive weight, leading to compromised form.",
+    "Arching the lower back excessively during the press.",
+    "Failing to fully extend the arm overhead.",
+    "Allowing the elbows to flare out too wide.",
+    "Not engaging the core, resulting in instability.",
+    "Pressing the dumbbells unevenly or at different speeds.",
+    "Leaning back or shifting body weight during the press.",
+    "Raising the shoulders towards the ears, causing tension.",
+    "Dropping the dumbbells too quickly on the descent.",
+    "Neglecting to keep the wrists in a neutral position."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Rodillo de Pantorrillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/roll-calves",
+  "video_url": "https://api.smartworkout.app/asset/video/da38e865-3b96-48a0-b4d3-767fe6ea1fee.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The 'Roll Calves' exercise is designed to target the calf muscles, specifically the gastrocnemius and soleus. This exercise involves using a foam roller to apply pressure to the calf muscles, helping to release tension, improve flexibility, and enhance muscle recovery.",
+  "como_realizar": [
+    "Sit on the floor with your legs extended in front of you.",
+    "Place a foam roller under your calves, just above the ankles.",
+    "Lift your hips off the ground by supporting yourself with your hands placed behind you.",
+    "Slowly roll your calves over the foam roller from the ankles to just below the knees.",
+    "Pause on any tight spots for a few seconds to allow the muscle to release.",
+    "Continue rolling for 1-2 minutes or until you feel a reduction in muscle tension."
+  ],
+  "consejos": [
+    "Keep your core engaged to maintain balance while rolling.",
+    "Adjust the pressure by shifting more weight onto your calves or using one leg at a time.",
+    "Breathe deeply and relax your muscles as much as possible during the exercise.",
+    "To increase intensity, cross one leg over the other while rolling.",
+    "Focus on slow, controlled movements to maximize effectiveness."
+  ],
+  "errores_comunes": [
+    "Allowing the heels to touch the ground, reducing tension on the calves.",
+    "Using too much momentum, leading to a lack of muscle engagement.",
+    "Not maintaining a straight line from the knees to the hips, causing improper form.",
+    "Rolling too quickly, preventing full range of motion and control.",
+    "Failing to keep the core engaged, leading to instability.",
+    "Placing feet too wide or too narrow, affecting balance and effectiveness.",
+    "Neglecting to keep shoulders relaxed, causing unnecessary tension.",
+    "Not aligning the knees over the toes, risking joint strain."
+  ]
+}

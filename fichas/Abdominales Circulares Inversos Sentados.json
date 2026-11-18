@@ -1,0 +1,44 @@
+{
+  "nombre": "Abdominales Circulares Inversos Sentados",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-circulares-inversos-sentados",
+  "video_url": "https://api.smartworkout.app/asset/video/3689899e-a447-4e2a-a82e-965469c4687a.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR"
+  ],
+  "descripcion": "Los Abdominales Circulares Invertidos Sentados son un ejercicio abdominal que trabaja los músculos inferiores y superiores del abdomen, así como los oblicuos. Este ejercicio consiste en realizar movimientos circulares con las piernas mientras mantienes una posición sentada, activando los músculos del core para estabilizar tu cuerpo.",
+  "como_realizar": [
+    "Siéntate en el borde de un banco o colchoneta con las rodillas dobladas y los pies planos en el suelo.",
+    "Inclínate ligeramente hacia atrás, manteniendo la espalda recta y el core comprometido.",
+    "Levanta los pies del suelo, llevando las rodillas hacia el pecho.",
+    "Comienza a dibujar un círculo en el aire con las rodillas, moviéndolas en dirección de las agujas del reloj.",
+    "Completa el número deseado de repeticiones, luego cambia a la dirección contraria a las agujas del reloj.",
+    "Mantén una respiración controlada durante todo el ejercicio."
+  ],
+  "consejos": [
+    "Mantén tu núcleo apretado para evitar tensión en la parte baja de la espalda.",
+    "Concéntrate en movimientos suaves y controlados en lugar de la velocidad.",
+    "Si te resulta difícil mantener el equilibrio, coloca tus manos ligeramente en el suelo a tu lado para apoyo.",
+    "Asegúrate de que tus hombros permanezcan relajados y alejados de tus orejas.",
+    "Comienza con círculos más pequeños si eres nuevo en este ejercicio y aumenta gradualmente el tamaño a medida que ganas fuerza."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo el compromiso del core.",
+    "Usar impulso en lugar de movimientos controlados.",
+    "Realizar círculos demasiado amplios, forzando la parte baja de la espalda.",
+    "No mantener los pies elevados, disminuyendo la activación de los abdominales inferiores.",
+    "No mantener la espalda recta, lo que lleva a una mala postura.",
+    "No comprometer los oblicuos durante el movimiento circular.",
+    "Permitir que los hombros se encorven, reduciendo la estabilidad de la parte superior del cuerpo.",
+    "Respiración inconsistente, afectando la estabilidad del core y la resistencia."
+  ]
+}

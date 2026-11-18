@@ -1,0 +1,51 @@
+{
+  "nombre": "Prensa Pallof Horizontal con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/prensa-pallof-horizontal-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/55f64d35-6349-455d-840c-ceeb2a87f010.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Press Pallof Horizontal con Cable es un ejercicio de anti-rotación para el core que se enfoca en los oblicuos, el transverso del abdomen y estabiliza todo el núcleo. Consiste en presionar un asa de cable alejándola del cuerpo mientras se resisten las fuerzas de rotación, mejorando la estabilidad y la fuerza del core.",
+  "como_realizar": [
+    "Coloca un mango individual en una máquina de cable a la altura del pecho.",
+    "Párate perpendicular a la máquina de cable con los pies al ancho de los hombros.",
+    "Agarra el mango con ambas manos y aléjate de la máquina para crear tensión en el cable.",
+    "Coloca tus manos en el centro de tu pecho, con los codos doblados.",
+    "Activa tu core y presiona el mango directamente frente a ti, extendiendo completamente los brazos.",
+    "Mantén la posición extendida brevemente, asegurándote de que tu torso permanezca estable y no gire.",
+    "Regresa lentamente tus manos a la posición inicial en tu pecho.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para prevenir tensiones innecesarias en tu espalda.",
+    "Activa tus glúteos y mantén las rodillas ligeramente flexionadas para una mejor estabilidad.",
+    "Concéntrate en respirar de manera constante; exhala al presionar hacia afuera e inhala al regresar al inicio.",
+    "Mantén los hombros relajados y evita encogerlos durante el movimiento.",
+    "Asegúrate de que tus caderas permanezcan cuadradas y no giren al presionar hacia afuera.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas roten en lugar de mantenerlas cuadradas hacia el frente.",
+    "No mantener una columna neutral, lo que lleva a un arqueo o redondeo excesivo de la espalda.",
+    "Usar demasiado peso, causando pérdida de control durante el press.",
+    "No activar los músculos del core, reduciendo la efectividad del ejercicio.",
+    "Permitir que los hombros se encojan hacia arriba en lugar de mantenerlos hacia abajo y atrás.",
+    "Presionar el cable demasiado rápido, sacrificando control y estabilidad.",
+    "Estar demasiado cerca o demasiado lejos de la máquina de cables, alterando la resistencia prevista.",
+    "Permitir que las rodillas colapsen hacia adentro en lugar de mantener una postura estable.",
+    "Descuidar mantener los brazos completamente extendidos durante el press, reduciendo el compromiso del core.",
+    "No alinear el mango del cable con el centro del pecho, causando desequilibrio."
+  ]
+}

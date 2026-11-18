@@ -1,0 +1,47 @@
+{
+  "nombre": "Flexión de Superman",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-de-superman",
+  "video_url": "https://api.smartworkout.app/asset/video/fcabbb3a-e431-48e8-a2b7-175fd1fe3a89.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión Spider es una variación dinámica de la flexión tradicional que involucra el núcleo, el pecho, los hombros, los tríceps y los oblicuos. Consiste en llevar una rodilla hacia el codo del mismo lado mientras bajas el cuerpo, añadiendo un elemento de estabilización del núcleo y movilidad.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos separadas al ancho de los hombros y el cuerpo en línea recta desde la cabeza hasta los talones.",
+    "Mientras bajas el pecho hacia el suelo, simultáneamente lleva la rodilla derecha hacia el codo derecho.",
+    "Empuja de nuevo a la posición inicial mientras regresas la pierna derecha a la posición inicial.",
+    "Repite el movimiento con la rodilla izquierda hacia el codo izquierdo.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una línea recta desde la cabeza hasta los talones durante el movimiento para asegurar una forma adecuada.",
+    "Activa tus músculos del core para ayudar a estabilizar tu cuerpo mientras realizas el ejercicio.",
+    "Concéntrate en movimientos controlados en lugar de velocidad para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén los codos cerca de tu cuerpo al bajar para apuntar eficazmente a los tríceps.",
+    "Exhala al subir y inhala al bajar para una técnica de respiración óptima."
+  ],
+  "errores_comunes": [
+    "No activar el core, lo que lleva a una espalda baja hundida.",
+    "Colocación incorrecta de las manos, causando desequilibrio y reducción de potencia.",
+    "Extensión insuficiente de los brazos, limitando el rango de movimiento.",
+    "Levantar el pecho demasiado alto, resultando en tensión en la parte baja de la espalda.",
+    "Pobre coordinación entre el levantamiento de brazos y piernas, interrumpiendo el flujo del movimiento.",
+    "Descuidar mantener una línea recta del cuerpo, causando una forma incorrecta.",
+    "Aterrizar demasiado fuerte, aumentando el riesgo de tensión en muñecas y hombros.",
+    "Apresurar el movimiento, llevando a la pérdida de control y precisión."
+  ]
+}

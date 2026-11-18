@@ -1,0 +1,44 @@
+{
+  "nombre": "Dominadas Negativas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/negative-pull-up",
+  "video_url": "https://api.smartworkout.app/asset/video/cc92635f-b333-47fc-a0b0-87269e5399a5.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Negative Pull-Up is an exercise focused on building strength in the upper body, particularly targeting the latissimus dorsi, biceps, and forearms. It involves controlling the descent from the top position of a pull-up, emphasizing eccentric muscle contraction. This exercise is beneficial for those who are working towards achieving their first full pull-up or looking to increase their pull-up repetitions.",
+  "como_realizar": [
+    "Start by using a box or step to position yourself at the top of a pull-up bar with your chin above the bar.",
+    "Grip the bar with your hands shoulder-width apart, using an overhand grip.",
+    "Engage your core and maintain a straight body alignment.",
+    "Slowly lower yourself in a controlled manner, taking 3-5 seconds to descend until your arms are fully extended.",
+    "Step back onto the box or step and repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on controlling the descent to maximize muscle engagement.",
+    "Keep your shoulders down and back to maintain proper form and avoid strain.",
+    "Use a box or step that allows you to start at the top position comfortably.",
+    "Breathe steadily throughout the exercise, exhaling as you lower yourself.",
+    "If you're new to this exercise, start with fewer repetitions and gradually increase as you build strength."
+  ],
+  "errores_comunes": [
+    "Dropping too quickly instead of controlling the descent.",
+    "Not engaging the core, leading to excessive swinging.",
+    "Allowing the shoulders to shrug instead of keeping them down and back.",
+    "Failing to maintain a straight body line, causing hips to sag.",
+    "Using momentum to initiate the movement rather than starting from a stable position.",
+    "Not fully extending the arms at the bottom of the movement.",
+    "Neglecting to engage the back muscles, relying too much on the arms.",
+    "Starting from an improper grip, which can lead to wrist strain."
+  ]
+}

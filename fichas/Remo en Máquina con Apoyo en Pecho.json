@@ -1,0 +1,40 @@
+{
+  "nombre": "Remo en Máquina con Apoyo en Pecho",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/chest-supported-machine-row",
+  "video_url": "https://api.smartworkout.app/asset/video/452136c7-f3ef-4d04-8e91-2de2b9893b5b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The Chest Supported Row Machine is designed to target the muscles of the upper back, including the rhomboids, trapezius, and latissimus dorsi, while minimizing strain on the lower back. This machine provides support for the chest, allowing for a more isolated and controlled rowing motion.",
+  "como_realizar": [
+    "Adjust the seat height so that your chest is comfortably supported against the pad and your feet are flat on the floor.",
+    "Select an appropriate weight on the machine's weight stack.",
+    "Grasp the handles with a neutral or overhand grip, depending on machine design.",
+    "Keep your chest firmly against the pad and your back straight throughout the exercise.",
+    "Pull the handles towards your torso by retracting your shoulder blades and bending your elbows.",
+    "Pause briefly at the peak contraction, ensuring full engagement of your back muscles.",
+    "Slowly extend your arms to return to the starting position, maintaining control of the weight.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure that your chest remains in contact with the pad throughout the movement to prevent lower back strain.",
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum muscle activation.",
+    "Avoid using momentum; control both the concentric (pulling) and eccentric (releasing) phases of the exercise.",
+    "Start with a lighter weight to perfect your form before progressing to heavier loads.",
+    "Maintain a neutral spine position to avoid unnecessary stress on your lower back.",
+    "Breathe out as you pull the handles towards you and inhale as you return to the starting position."
+  ],
+  "errores_comunes": []
+}

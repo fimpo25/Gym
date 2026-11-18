@@ -1,0 +1,47 @@
+{
+  "nombre": "Press de Banca en el Suelo",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-banca-en-el-suelo",
+  "video_url": "https://api.smartworkout.app/asset/video/8b18f8e1-e2d8-41b9-a5e5-692999b6c551.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Barra en el Suelo es un ejercicio compuesto para la parte superior del cuerpo que trabaja el pecho, los tríceps y los hombros. Se realiza acostándose en el suelo y presionando una barra desde el nivel del pecho hasta la longitud del brazo por encima del torso. Este ejercicio minimiza la tensión en los hombros y enfatiza el compromiso de los tríceps debido al rango de movimiento limitado.",
+  "como_realizar": [
+    "Acuéstate de espaldas en el suelo con las piernas dobladas y los pies planos.",
+    "Coloca la barra sobre tu pecho, agarrándola un poco más ancha que el ancho de los hombros.",
+    "Activa tu núcleo y presiona la parte superior de tu espalda contra el suelo.",
+    "Baja la barra hasta que la parte superior de tus brazos toque el suelo, manteniendo los codos a un ángulo de 45 grados con respecto a tu cuerpo.",
+    "Haz una pausa breve, luego presiona la barra de nuevo hacia la posición inicial extendiendo tus brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el núcleo apretado durante todo el movimiento para estabilizar tu cuerpo.",
+    "Asegúrate de que tus muñecas permanezcan rectas y alineadas con tus antebrazos para evitar tensiones.",
+    "Concéntrate en movimientos controlados; evita rebotar la barra en el suelo.",
+    "Mantén un ancho de agarre constante para asegurar una activación muscular equilibrada.",
+    "Usa un observador si levantas pesado para garantizar la seguridad durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "No mantener las muñecas rectas, lo que puede provocar tensión en las muñecas.",
+    "Permitir que los codos se abran excesivamente, reduciendo la estabilidad del hombro.",
+    "Arqueando la parte baja de la espalda, lo que puede desactivar los músculos del core.",
+    "Rebotar la barra en el suelo, perdiendo control y reduciendo el compromiso muscular.",
+    "No alinear la barra con la mitad del pecho, causando una distribución desigual de la presión.",
+    "Usar un agarre demasiado ancho, limitando el rango de movimiento y la movilidad del hombro.",
+    "Bajar la barra demasiado rápido, comprometiendo el control y aumentando el riesgo de lesiones.",
+    "Descuidar retraer las escápulas, reduciendo el soporte de la parte superior de la espalda.",
+    "Presionar con fuerza desigual, lo que lleva a un desarrollo muscular desequilibrado.",
+    "No comprometer completamente los tríceps, limitando la potencia de presión."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "nombre": "Sentadilla Búlgara con Salto",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-bulgara-con-salto",
+  "video_url": "https://api.smartworkout.app/asset/video/f7eb1a15-61f3-4fe6-8ef4-4e5dbf57c3f6.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Búlgara con Salto es un ejercicio dinámico para la parte inferior del cuerpo que combina elementos de la sentadilla búlgara dividida con un salto pliométrico. Se enfoca en los cuádriceps, isquiotibiales, glúteos y pantorrillas, al mismo tiempo que mejora el equilibrio, la coordinación y la potencia explosiva.",
+  "como_realizar": [
+    "Comienza de pie a unos pocos pies de distancia de un banco o superficie elevada. Extiende una pierna hacia atrás y coloca la parte superior de tu pie en el banco.",
+    "Baja tus caderas a una posición de sentadilla doblando tu rodilla delantera, asegurándote de que se alinee sobre tu tobillo. Tu rodilla trasera debe bajar hacia el suelo.",
+    "Explota hacia arriba empujando con el talón delantero, saltando lo más alto posible mientras mantienes el pie trasero en el banco.",
+    "Aterriza suavemente sobre tu pie delantero, bajando inmediatamente de nuevo a la posición de sentadilla para prepararte para la siguiente repetición.",
+    "Completa el número deseado de repeticiones en una pierna antes de cambiar a la otra."
+  ],
+  "consejos": [
+    "Mantén el torso recto durante todo el movimiento para asegurar una forma y equilibrio adecuados.",
+    "Concéntrate en impulsar a través de tu talón delantero para maximizar la potencia y el compromiso de los glúteos y cuádriceps.",
+    "Mantén tu núcleo comprometido para estabilizar tu cuerpo durante las fases de salto y aterrizaje.",
+    "Comienza con una altura de banco más baja si eres nuevo en este ejercicio para desarrollar confianza y técnica.",
+    "Realiza el ejercicio de manera controlada, enfatizando la calidad del movimiento sobre la velocidad."
+  ],
+  "errores_comunes": [
+    "No mantener un núcleo estable, lo que lleva a la pérdida de equilibrio.",
+    "Permitir que la rodilla delantera se colapse hacia adentro, aumentando el estrés en las articulaciones.",
+    "No mantener el pecho erguido, causando inclinación hacia adelante y mala postura.",
+    "Aterrizar con las piernas rígidas, aumentando el impacto en las articulaciones.",
+    "Usar excesivamente la pierna trasera, reduciendo el compromiso de la pierna delantera.",
+    "Descuidar la extensión completa de las caderas durante la fase de salto.",
+    "Realizar sentadillas poco profundas, limitando el rango de movimiento y la efectividad.",
+    "Apresurar el movimiento, sacrificando el control y la precisión.",
+    "No alinear la rodilla delantera sobre los dedos del pie, arriesgando tensión en la rodilla."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Abducción de Cadera con Banda Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/abduccion-de-cadera-con-banda-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/a0ed4817-1dbd-49fd-90ae-ca97c2f4ef46.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Abducción de Cadera Sentado con Banda es un ejercicio que se enfoca en los músculos glúteo medio y mínimo. Implica el uso de una banda de resistencia para proporcionar tensión, ayudando a fortalecer y estabilizar las caderas. Este ejercicio es beneficioso para mejorar la movilidad de la cadera, aumentar el rendimiento atlético y prevenir lesiones.",
+  "como_realizar": [
+    "Siéntate en un banco o silla con los pies planos en el suelo, separados al ancho de las caderas.",
+    "Coloca una banda de resistencia alrededor de tus piernas, justo por encima de las rodillas.",
+    "Mantén la espalda recta y activa los músculos del core.",
+    "Empuja lentamente las rodillas hacia afuera contra la resistencia de la banda, manteniendo los pies estacionarios.",
+    "Mantén la posición por un momento, luego regresa lentamente a la posición inicial.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la banda de resistencia esté lo suficientemente ajustada para proporcionar una tensión adecuada durante todo el movimiento.",
+    "Concéntrate en mantener la espalda recta y el núcleo comprometido para evitar inclinarte hacia adelante o hacia atrás.",
+    "Realiza el movimiento lentamente y con control para maximizar la activación muscular.",
+    "Mantén los pies planos en el suelo y evita levantar los talones durante el ejercicio.",
+    "Comienza con una banda de resistencia más ligera si eres nuevo en este ejercicio y aumenta gradualmente a medida que te fortalezcas."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo el compromiso de las caderas.",
+    "Permitir que las rodillas colapsen hacia adentro, perdiendo tensión en la banda.",
+    "Usar una banda con demasiada resistencia, limitando el rango de movimiento.",
+    "No mantener una columna neutral, causando tensión en la parte baja de la espalda.",
+    "Realizar el movimiento demasiado rápido, sacrificando el control.",
+    "No mantener los pies planos en el suelo, desestabilizando la posición.",
+    "Descuidar el compromiso de los músculos del core, reduciendo la estabilidad general.",
+    "Permitir que los hombros se encorven hacia adelante, afectando la postura."
+  ]
+}

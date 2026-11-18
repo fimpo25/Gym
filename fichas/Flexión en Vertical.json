@@ -1,0 +1,49 @@
+{
+  "nombre": "Flexión en Vertical",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/handstand-push-up",
+  "video_url": "https://api.smartworkout.app/asset/video/91661081-fad1-4e62-8725-175f3f671a3b.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "Handstand Push Ups are a challenging bodyweight exercise that targets the shoulders, triceps, and upper chest. This exercise requires significant upper body strength and balance as it involves performing a push-up while in a handstand position, either against a wall or freestanding.",
+  "como_realizar": [
+    "Begin by positioning yourself in a handstand against a wall, with your hands shoulder-width apart and fingers spread for stability.",
+    "Ensure your body is in a straight line from head to heels, engaging your core to maintain balance.",
+    "Slowly lower your body by bending your elbows, keeping them close to your body, until your head nearly touches the ground.",
+    "Press through your palms to extend your arms and return to the starting position.",
+    "Maintain control throughout the movement and focus on using your shoulder and tricep muscles."
+  ],
+  "consejos": [
+    "Warm up thoroughly before attempting handstand push-ups to prevent injury.",
+    "Practice holding a stable handstand against the wall before incorporating the push-up motion.",
+    "Keep your core engaged throughout the exercise to maintain balance and stability.",
+    "If you're new to this exercise, start with partial range of motion and gradually increase depth as strength improves.",
+    "Focus on slow, controlled movements to maximize muscle engagement and reduce risk of injury."
+  ],
+  "errores_comunes": [
+    "Arching the back excessively, leading to poor core engagement.",
+    "Flaring the elbows out too wide, reducing shoulder stability.",
+    "Not maintaining a straight line from wrists to hips, causing imbalance.",
+    "Lowering too quickly, resulting in loss of control and potential head impact.",
+    "Failing to engage the scapulae, compromising shoulder support.",
+    "Inadequate head positioning, causing neck strain.",
+    "Limited range of motion, not achieving full depth.",
+    "Over-reliance on momentum, reducing muscle activation.",
+    "Inconsistent hand placement, affecting balance and alignment."
+  ]
+}

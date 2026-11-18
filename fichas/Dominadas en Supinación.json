@@ -1,0 +1,49 @@
+{
+  "nombre": "Dominadas en Supinación",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/chin-up",
+  "video_url": "https://api.smartworkout.app/asset/video/eb90d7a1-2d23-42a3-ba2a-1ca5db10296c.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The chin-up is a compound upper-body exercise that primarily targets the latissimus dorsi muscles in the back, along with the biceps, forearms, and shoulders. It involves pulling your body up to a bar using a supinated or underhand grip, with hands typically shoulder-width apart.",
+  "como_realizar": [
+    "Stand beneath a pull-up bar and grasp it with an underhand grip, palms facing you, hands shoulder-width apart.",
+    "Hang from the bar with your arms fully extended and feet off the ground. Engage your core and keep your body straight.",
+    "Initiate the movement by pulling your shoulder blades down and back, then pull your chest towards the bar by bending your elbows.",
+    "Continue pulling until your chin is above the bar. Pause briefly at the top of the movement.",
+    "Lower yourself back to the starting position in a controlled manner, fully extending your arms.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on engaging your back muscles rather than just pulling with your arms to maximize lat activation.",
+    "Keep your core tight throughout the movement to prevent swinging or kipping.",
+    "If you're unable to perform a full chin-up, use resistance bands for assistance or perform negative chin-ups by jumping to the top position and lowering yourself slowly.",
+    "Ensure a full range of motion by fully extending your arms at the bottom of each rep.",
+    "Avoid using momentum; perform each rep in a controlled manner to increase strength effectively."
+  ],
+  "errores_comunes": [
+    "Using momentum by swinging the body to complete the movement.",
+    "Failing to fully extend the arms at the bottom of the movement.",
+    "Pulling with the arms instead of engaging the back muscles.",
+    "Allowing the shoulders to shrug up towards the ears.",
+    "Not keeping the core engaged, leading to excessive arching of the back.",
+    "Gripping the bar too tightly, causing forearm fatigue.",
+    "Not bringing the chin above the bar at the top of the movement.",
+    "Letting the elbows flare out excessively to the sides.",
+    "Rushing through the movement without controlled tempo.",
+    "Neglecting to breathe properly, holding breath throughout the exercise."
+  ]
+}

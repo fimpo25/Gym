@@ -1,0 +1,44 @@
+{
+  "nombre": "Apertura con Cable Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/apertura-con-cable-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/9efa8ada-44a1-4cc6-a808-6c71704992ab.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "La Apertura con Cable Acostado es un ejercicio de aislamiento que se enfoca en los músculos pectorales. Consiste en acostarse en un banco plano y usar cables para realizar un movimiento de apertura, lo cual ayuda a desarrollar el pecho al enfocarse en las porciones interna y externa de los pectorales. Este ejercicio también involucra los hombros y tríceps como músculos secundarios.",
+  "como_realizar": [
+    "Coloca las poleas de una máquina de cables en la posición más baja y adjunta agarres de manija simple.",
+    "Acuéstate en un banco posicionado entre las pilas de cables, asegurándote de que tus pies estén planos en el suelo.",
+    "Agarra cada manija con un agarre por encima, palmas enfrentadas, y extiende tus brazos rectos hacia arriba sobre tu pecho.",
+    "Con una ligera flexión en los codos, baja lentamente tus brazos hacia los lados en un arco amplio hasta que sientas un estiramiento en tu pecho.",
+    "Pausa brevemente en la parte inferior del movimiento, luego lleva tus brazos de regreso a la posición inicial apretando los músculos del pecho.",
+    "Repite para el número deseado de repeticiones, manteniendo el control durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el ejercicio para reducir el estrés en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho al juntar los brazos para maximizar el compromiso muscular.",
+    "Mantén un movimiento controlado; evita que las pesas tiren de tus brazos hacia atrás demasiado rápido.",
+    "Asegúrate de que tus omóplatos permanezcan en contacto con el banco para estabilizar la parte superior del cuerpo.",
+    "Exhala al juntar los brazos e inhala al bajarlos de nuevo."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos bajen demasiado, reduciendo el compromiso del pecho y aumentando la tensión en los hombros.",
+    "Usar demasiado peso, lo que lleva a movimientos descontrolados y mala forma.",
+    "No mantener una ligera flexión en los codos, lo que puede estresar las articulaciones del codo.",
+    "No mantener los hombros retraídos, causando que los hombros asuman el movimiento.",
+    "Acercar demasiado los cables, perdiendo tensión en los músculos del pecho.",
+    "Arquear excesivamente la parte baja de la espalda, lo que puede llevar a un compromiso inadecuado del core.",
+    "Levantar la cabeza del banco, causando tensión en el cuello y desalineación.",
+    "Mover los brazos demasiado rápido, reduciendo el tiempo bajo tensión y el control."
+  ]
+}

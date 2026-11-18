@@ -1,0 +1,45 @@
+{
+  "nombre": "Flexión Agarre Cerrado Rodillas en el Suelo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazos-con-agarre-cerrado-y-rodillas-en-el-suelo",
+  "video_url": "https://api.smartworkout.app/asset/video/91525fb7-a6b4-4b9e-844c-dfa088d3a185.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "Las flexiones con agarre cerrado de rodillas son un ejercicio con el peso del cuerpo que se enfoca en los tríceps, el pecho y los hombros. Al realizar esta variación sobre las rodillas, se reduce la carga, haciéndola adecuada para principiantes o como calentamiento para atletas más avanzados.",
+  "como_realizar": [
+    "Comienza en una posición de rodillas en el suelo. Coloca tus manos directamente debajo de tus hombros con los dedos mirando hacia adelante y los pulgares casi tocándose.",
+    "Activa tu núcleo y mantén la espalda recta desde la cabeza hasta las rodillas.",
+    "Baja tu pecho hacia el suelo doblando los codos, manteniéndolos cerca de tu cuerpo.",
+    "Haz una pausa brevemente cuando tu pecho esté justo por encima del suelo.",
+    "Empuja a través de tus palmas para enderezar tus brazos y regresar a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos pegados al cuerpo durante todo el movimiento para maximizar el compromiso de los tríceps.",
+    "Mantén una línea recta desde la cabeza hasta las rodillas para evitar arquear o hundir la espalda.",
+    "Concéntrate en movimientos controlados; evita bajar rápidamente para asegurar la activación muscular y prevenir lesiones.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Si experimentas molestias en las muñecas, intenta realizar el ejercicio sobre una superficie suave o usando barras para flexiones."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso de los tríceps.",
+    "Codos hacia afuera, aumentando la tensión en los hombros.",
+    "Caderas hundidas, llevando a una mala activación del core.",
+    "No bajar el pecho completamente al suelo, limitando el rango de movimiento.",
+    "Cuello adelantado, causando tensión innecesaria en el cuello.",
+    "Apresurar el movimiento, reduciendo el control y la efectividad.",
+    "No mantener los codos cerca del cuerpo, comprometiendo la forma."
+  ]
+}

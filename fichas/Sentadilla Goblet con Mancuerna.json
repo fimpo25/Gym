@@ -1,0 +1,45 @@
+{
+  "nombre": "Sentadilla Goblet con Mancuerna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/dumbbell-goblet-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/bb9fac7a-a129-4015-847a-f283ae9e3ade.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Dumbbell Goblet Squat is a compound lower-body exercise that primarily targets the quadriceps, glutes, and hamstrings. It involves holding a dumbbell close to the chest with both hands while performing a squat, promoting core stability and improving overall squat form.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, toes slightly pointed out.",
+    "Hold a dumbbell vertically with both hands under the top weight, keeping it close to your chest.",
+    "Engage your core and keep your chest up.",
+    "Initiate the movement by pushing your hips back and bending your knees to lower into a squat.",
+    "Descend until your thighs are at least parallel to the ground, ensuring knees track over toes.",
+    "Press through your heels to return to the starting position, maintaining an upright torso throughout.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep the dumbbell close to your body to maintain balance and reduce strain on your back.",
+    "Focus on keeping your chest up and shoulders back to prevent rounding of the spine.",
+    "Engage your core throughout the movement to enhance stability and control.",
+    "Ensure that your knees do not cave inward during the squat; they should align with your toes.",
+    "Breathe in as you lower into the squat and exhale as you push back up.",
+    "Start with a lighter weight to perfect form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Holding the dumbbell too low, causing a forward lean and imbalance.",
+    "Allowing knees to cave inward during the squat, reducing stability.",
+    "Squatting too shallow, limiting full range of motion and muscle engagement.",
+    "Rounding the back instead of maintaining a neutral spine, increasing risk of back strain.",
+    "Letting heels lift off the ground, compromising balance and power.",
+    "Failing to engage the core, leading to poor control and form.",
+    "Dropping the hips too quickly, reducing control and increasing injury risk."
+  ]
+}

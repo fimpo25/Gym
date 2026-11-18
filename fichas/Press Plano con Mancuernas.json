@@ -1,0 +1,50 @@
+{
+  "nombre": "Press Plano con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-plano-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/bb4a469e-f8bb-4667-8f65-2c4b4b2bba0d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Mancuernas es un ejercicio compuesto que se enfoca principalmente en los músculos pectorales, con activación secundaria de los tríceps y los deltoides anteriores. Se realiza acostándose en un banco plano y presionando las mancuernas hacia arriba desde el nivel del pecho hasta que los brazos estén completamente extendidos.",
+  "como_realizar": [
+    "Acuéstate boca arriba en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una mancuerna en cada mano con un agarre por encima, palmas hacia adelante.",
+    "Coloca las mancuernas a la altura del pecho, con los codos doblados aproximadamente a 90 grados.",
+    "Empuja las mancuernas hacia arriba extendiendo los brazos hasta que estén completamente rectos sobre tu pecho.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Baja las mancuernas de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Asegúrate de que tus omóplatos estén retraídos y presionados contra el banco para un mejor soporte.",
+    "Evita abrir demasiado los codos; mantenlos en un ángulo de 45 grados con respecto a tu torso.",
+    "Controla la velocidad del movimiento; evita usar el impulso para levantar las pesas.",
+    "Exhala al presionar las pesas hacia arriba e inhala al bajarlas.",
+    "Comienza con pesas más ligeras para perfeccionar tu forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Arquear excesivamente la parte baja de la espalda, reduciendo la estabilidad del core.",
+    "Codos abiertos, aumentando la tensión en los hombros.",
+    "Mancuernas no alineadas sobre el pecho, arriesgando el equilibrio.",
+    "Bajar las mancuernas demasiado, causando estrés en los hombros.",
+    "Presionar de manera desigual, llevando a desequilibrios musculares.",
+    "Levantar con impulso, reduciendo el compromiso muscular.",
+    "Agarrar las mancuernas demasiado fuerte, causando fatiga en los antebrazos.",
+    "No retraer las escápulas, limitando la activación del pecho.",
+    "No mantener las muñecas rectas, aumentando la tensión en las muñecas.",
+    "Apresurarse en las repeticiones, sacrificando la forma y el control."
+  ]
+}

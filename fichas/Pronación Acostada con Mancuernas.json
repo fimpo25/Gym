@@ -1,0 +1,41 @@
+{
+  "nombre": "Pronación Acostada con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/pronacion-acostada-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/7edeecef-6ab8-4dae-9860-cff466008288.mp4",
+  "tags": [
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La pronación tumbado con mancuernas es un ejercicio que se enfoca en los músculos del antebrazo, específicamente en el pronador redondo y el pronador cuadrado. Este ejercicio ayuda a mejorar la estabilidad de la muñeca y la fuerza del antebrazo, lo cual es beneficioso para la fuerza de agarre en general.",
+  "como_realizar": [
+    "Acuéstate en un banco plano con el pecho hacia arriba.",
+    "Sujeta una mancuerna en cada mano con los brazos extendidos directamente sobre tu pecho, con las palmas enfrentándose entre sí.",
+    "Gira lentamente tus muñecas hacia adentro para que las palmas queden hacia abajo.",
+    "Mantén la posición pronada por un momento, asegurando un control total sobre el movimiento.",
+    "Gira lentamente tus muñecas de regreso a la posición inicial con las palmas enfrentándose entre sí.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Comienza con un peso ligero para asegurar una forma adecuada y prevenir tensión en las muñecas.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y evitar lesiones.",
+    "Mantén los codos ligeramente doblados para reducir la tensión en la articulación del codo.",
+    "Mantén un patrón de respiración constante; exhala al pronar e inhala al regresar a la posición inicial.",
+    "Asegúrate de que solo se muevan tus muñecas; mantén tus brazos estables durante todo el ejercicio."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo que lleva a un movimiento incontrolado.",
+    "Permitir que los codos se abran en lugar de mantenerlos cerca del cuerpo.",
+    "Arquear la espalda excesivamente durante el levantamiento.",
+    "No mantener una posición neutral de la muñeca.",
+    "Apresurarse en el movimiento sin un rango completo de movimiento.",
+    "Descuidar el compromiso adecuado de los músculos del antebrazo.",
+    "Levantar las mancuernas demasiado alto, causando tensión en los hombros.",
+    "No mantener la cabeza y el cuello alineados con la columna vertebral."
+  ]
+}

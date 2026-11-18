@@ -1,0 +1,44 @@
+{
+  "nombre": "Abdominales Janda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-janda",
+  "video_url": "https://api.smartworkout.app/asset/video/ecd15638-1053-4da9-ad07-9143ef378755.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Janda Sit Up es un ejercicio avanzado para el core diseñado para aislar los músculos abdominales minimizando la participación de los flexores de la cadera. Este ejercicio enfatiza la contracción del recto abdominal y los oblicuos, proporcionando un entrenamiento abdominal más intenso.",
+  "como_realizar": [
+    "Acuéstate boca arriba con las rodillas dobladas en un ángulo de 90 grados y los pies planos en el suelo.",
+    "Coloca tus manos detrás de la cabeza, manteniendo los codos abiertos.",
+    "Activa tus glúteos y isquiotibiales haciendo que un compañero sostenga tus tobillos o usando una banda de resistencia alrededor de ellos para crear tensión.",
+    "Exhala y lentamente enrolla tu torso hacia tus rodillas, enfocándote en contraer los músculos abdominales.",
+    "Pausa en la parte superior del movimiento, asegurando la máxima contracción de los abdominales.",
+    "Inhala y baja lentamente tu torso de nuevo a la posición inicial, manteniendo el control durante todo el descenso."
+  ],
+  "consejos": [
+    "Concéntrate en usar tus músculos abdominales para levantar tu torso en lugar de tirar con el cuello o los brazos.",
+    "Mantén la parte baja de la espalda presionada contra el suelo al levantar para evitar involucrar los flexores de la cadera.",
+    "Mantén un movimiento lento y controlado para maximizar el compromiso muscular y reducir el impulso.",
+    "Asegúrate de que tu respiración esté sincronizada con el movimiento: exhala al subir e inhala al bajar.",
+    "Si sientes tensión en el cuello o la parte baja de la espalda, revisa tu forma y asegúrate de un correcto compromiso de los músculos del núcleo."
+  ],
+  "errores_comunes": [
+    "Involucrar los flexores de la cadera en lugar de aislar los abdominales.",
+    "No mantener una columna neutral durante todo el movimiento.",
+    "Usar el impulso en lugar de la contracción muscular controlada.",
+    "Levantar la parte baja de la espalda del suelo al comenzar.",
+    "No involucrar completamente los glúteos y los isquiotibiales para estabilizar la pelvis.",
+    "Permitir que los pies se levanten del suelo durante el sit-up.",
+    "Apresurar el movimiento, lo que lleva a una mala forma y efectividad reducida.",
+    "Posicionar incorrectamente las manos, causando tensión en el cuello.",
+    "No exhalar completamente al subir, reduciendo el compromiso del core.",
+    "Sobreextender el cuello al tirar de la cabeza con las manos."
+  ]
+}

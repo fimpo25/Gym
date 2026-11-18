@@ -1,0 +1,47 @@
+{
+  "nombre": "Flexiones con Asas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones-con-asas",
+  "video_url": "https://api.smartworkout.app/asset/video/f1e128ff-2642-44cd-b553-6a73c59dda9b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La flexión en barras paralelas es un ejercicio compuesto para la parte superior del cuerpo que se enfoca principalmente en el pecho, los tríceps y los hombros. Consiste en sostener el peso de tu cuerpo sobre barras paralelas y bajar el pecho hacia las barras antes de empujar de nuevo hacia la posición inicial. Este ejercicio mejora la fuerza de la parte superior del cuerpo, la estabilidad y la resistencia muscular.",
+  "como_realizar": [
+    "Colócate entre las barras paralelas, agarrando firmemente cada barra con las palmas hacia adentro.",
+    "Extiende completamente los brazos para levantar tu cuerpo del suelo, manteniendo las piernas rectas y los pies juntos.",
+    "Activa tu núcleo y mantén una línea recta desde la cabeza hasta los talones durante todo el movimiento.",
+    "Dobla lentamente los codos para bajar el pecho hacia las barras hasta que los codos alcancen aproximadamente un ángulo de 90 grados.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando control y estabilidad.",
+    "Empuja a través de tus palmas para extender los brazos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos cerca de tu cuerpo para maximizar el compromiso del tríceps y reducir la tensión en los hombros.",
+    "Mantén una columna neutral activando los músculos del core durante todo el ejercicio.",
+    "Controla el descenso para evitar caer demasiado rápido, lo que puede provocar lesiones.",
+    "Concéntrate en un rango completo de movimiento para una máxima activación muscular.",
+    "Si eres nuevo en este ejercicio, considera usar bandas de resistencia para asistencia o realizar repeticiones negativas para desarrollar fuerza gradualmente."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o se eleven, comprometiendo el compromiso del núcleo y la alineación.",
+    "Codos abiertos, aumentando la tensión en los hombros y reduciendo la activación del tríceps.",
+    "Rango de movimiento incompleto, impidiendo el compromiso total del músculo.",
+    "Apresurar el movimiento, llevando a la pérdida de control y forma.",
+    "Descuidar mantener los hombros hacia abajo y hacia atrás, causando tensión en el cuello.",
+    "No mantener una línea recta desde la cabeza hasta los talones, afectando la postura.",
+    "Manos posicionadas demasiado anchas o demasiado estrechas, alterando el enfoque muscular.",
+    "No comprometer completamente el pecho y los tríceps, reduciendo la efectividad del ejercicio."
+  ]
+}

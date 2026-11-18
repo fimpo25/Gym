@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexión de Dedos",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexion-de-dedos",
+  "video_url": "https://api.smartworkout.app/asset/video/8fad7bad-4464-4e8f-8cce-4e2cc2e0f778.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión de Dedos es un ejercicio avanzado de peso corporal que se enfoca en la parte superior del cuerpo, especialmente en el pecho, los hombros, los tríceps y los antebrazos. Requiere una fuerza y estabilidad significativas en los dedos, lo que lo hace adecuado para atletas experimentados que buscan mejorar la fuerza de agarre y la resistencia general de la parte superior del cuerpo.",
+  "como_realizar": [
+    "Comienza en una posición estándar de flexión con tu cuerpo en línea recta desde la cabeza hasta los talones.",
+    "Coloca tus manos separadas al ancho de los hombros en el suelo, pero en lugar de usar las palmas, equilibra sobre las yemas de los dedos.",
+    "Activa tu núcleo y mantén los codos cerca de tu cuerpo mientras te bajas hacia el suelo.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurándote de que tu pecho esté justo por encima del suelo.",
+    "Empuja a través de las yemas de los dedos para levantar tu cuerpo de nuevo a la posición inicial.",
+    "Mantén un movimiento controlado durante todo el ejercicio para evitar lesiones."
+  ],
+  "consejos": [
+    "Calienta a fondo antes de intentar las flexiones de dedos para evitar tensiones en los dedos.",
+    "Comienza con menos repeticiones y aumenta gradualmente a medida que mejora la fuerza de tus dedos.",
+    "Mantén el núcleo apretado durante todo el ejercicio para mantener una forma adecuada y evitar que las caderas se hundan.",
+    "Si eres nuevo en este ejercicio, considera comenzar con planchas en las puntas de los dedos para desarrollar fuerza inicial.",
+    "Asegúrate de distribuir el peso de manera uniforme en todos los dedos para evitar sobrecargar cualquier dedo en particular.",
+    "Concéntrate en movimientos lentos y controlados en lugar de velocidad para maximizar el compromiso muscular."
+  ],
+  "errores_comunes": [
+    "Colocar los dedos demasiado separados, reduciendo la estabilidad y el control.",
+    "No activar el core, lo que lleva a un hundimiento de la sección media.",
+    "Permitir que los codos se abran excesivamente, causando tensión en los hombros.",
+    "Dejar caer la cabeza, interrumpiendo la alineación de la columna.",
+    "Doblarse en las caderas en lugar de mantener una línea recta desde la cabeza hasta los talones.",
+    "No extender completamente los brazos en la parte superior de la flexión, limitando el rango de movimiento.",
+    "Apresurar el movimiento, sacrificando la forma por la velocidad.",
+    "Descuidar activar las escápulas, reduciendo la fuerza de la parte superior del cuerpo.",
+    "Permitir que los dedos colapsen hacia adentro, aumentando el estrés en las articulaciones.",
+    "Realizar el ejercicio en una superficie demasiado dura, aumentando el riesgo de lesión en los dedos."
+  ]
+}

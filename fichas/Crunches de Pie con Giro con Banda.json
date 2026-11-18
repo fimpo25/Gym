@@ -1,0 +1,43 @@
+{
+  "nombre": "Crunches de Pie con Giro con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunches-de-pie-con-giro-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/e20edacd-7025-41dc-9bd5-c6aafaf64f51.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Abdominales de Pie con Giro y Banda se enfocan en los músculos oblicuos y mejoran la estabilidad del núcleo. Este ejercicio implica el uso de una banda de resistencia para añadir tensión y desafiar el movimiento rotacional del torso mientras estás de pie.",
+  "como_realizar": [
+    "Ancla una banda de resistencia a la altura de la cintura. Párate con los pies separados al ancho de los hombros, sosteniendo la banda con ambas manos extendidas frente a ti.",
+    "Activa tu núcleo y dobla ligeramente las rodillas para estabilizar tu postura.",
+    "Gira tu torso hacia un lado, tirando de la banda a través de tu cuerpo mientras mantienes los brazos rectos.",
+    "Regresa a la posición inicial con control, luego gira hacia el lado opuesto.",
+    "Repite el número deseado de repeticiones, manteniendo la tensión en la banda durante todo el movimiento."
+  ],
+  "consejos": [
+    "Mantén tus caderas estables y evita rotarlas durante el ejercicio para maximizar el compromiso de los oblicuos.",
+    "Concéntrate en un movimiento lento y controlado para mejorar la activación muscular y prevenir lesiones.",
+    "Asegúrate de que la banda de resistencia esté tensa en la posición inicial para mantener una tensión constante.",
+    "Exhala al girar e inhala al regresar a la posición central.",
+    "Ajusta el punto de anclaje de la banda o tu distancia de ella para modificar la resistencia según sea necesario."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar del torso, reduciendo el compromiso del núcleo.",
+    "Permitir que la banda tire del cuerpo hacia atrás demasiado rápido, perdiendo el control.",
+    "Estar demasiado lejos del punto de anclaje, causando una tensión excesiva en la banda.",
+    "Estar demasiado cerca del punto de anclaje, reduciendo la resistencia y efectividad.",
+    "No mantener una columna recta, lo que lleva a una mala postura.",
+    "Usar los brazos para iniciar el giro en lugar de comprometer el núcleo.",
+    "Descuidar mantener los pies firmemente plantados, causando inestabilidad.",
+    "Girar demasiado, arriesgando tensión en la parte baja de la espalda.",
+    "No comprometer los oblicuos, reduciendo la efectividad del ejercicio.",
+    "Contener la respiración, lo que puede aumentar la presión arterial y reducir el rendimiento."
+  ]
+}

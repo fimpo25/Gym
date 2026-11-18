@@ -1,0 +1,48 @@
+{
+  "nombre": "Jalón al Pecho con Cable Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/cable-close-grip-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/1bc93876-8995-48cf-ac81-d5df47e1e9f8.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS"
+  ],
+  "descripcion": "The Cable Close Grip Lat Pulldown is an upper body exercise that primarily targets the latissimus dorsi muscles, while also engaging the biceps, rhomboids, and trapezius. This exercise is performed using a cable machine with a close grip handle attachment, allowing for a focused contraction of the back muscles.",
+  "como_realizar": [
+    "Sit at the cable machine with your feet flat on the floor and thighs secured under the pad.",
+    "Grasp the close grip handle attachment with both hands, palms facing each other.",
+    "Lean back slightly at the hips while keeping your back straight and chest up.",
+    "Pull the handle down towards your chest by driving your elbows down and back.",
+    "Squeeze your shoulder blades together at the bottom of the movement.",
+    "Slowly release the handle back to the starting position, maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on pulling with your elbows rather than your hands to engage the lats more effectively.",
+    "Keep your core tight throughout the movement to maintain stability.",
+    "Avoid using momentum; control both the concentric and eccentric phases of the exercise.",
+    "Ensure your shoulders do not shrug up during the pull to prevent unnecessary strain.",
+    "Adjust the seat height so that you can comfortably reach the handle without fully extending your arms at rest."
+  ],
+  "errores_comunes": [
+    "Leaning too far back, turning the exercise into a row rather than a pulldown.",
+    "Using momentum by jerking the weight instead of controlled movement.",
+    "Pulling the bar down too low, past the chest, reducing lat engagement.",
+    "Allowing shoulders to roll forward at the bottom of the movement.",
+    "Failing to fully extend arms at the top, reducing range of motion.",
+    "Gripping the bar too tightly, causing forearm fatigue before lats are fully worked.",
+    "Not engaging core muscles, leading to unstable posture.",
+    "Using too much weight, compromising form and control.",
+    "Allowing elbows to flare out, reducing focus on the lats.",
+    "Pulling with the arms instead of initiating the movement with the back."
+  ]
+}

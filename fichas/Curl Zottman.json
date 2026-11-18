@@ -1,0 +1,43 @@
+{
+  "nombre": "Curl Zottman",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-zottman",
+  "video_url": "https://api.smartworkout.app/asset/video/7ff591e4-d0e1-4f8d-a368-3c5e17e86ba4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Zottman es un ejercicio compuesto que se enfoca en los bíceps y los antebrazos. Combina un curl de bíceps estándar con un curl inverso, trabajando eficazmente tanto los músculos flexores como los extensores del brazo. Este ejercicio se realiza con mancuernas y es beneficioso para desarrollar la fuerza y el tamaño de los brazos.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano a los lados con un agarre neutral (palmas hacia adentro).",
+    "Mantén los codos cerca del torso y levanta las pesas hacia arriba flexionando los codos, girando las muñecas para que las palmas miren hacia arriba mientras levantas.",
+    "En la parte superior del movimiento, haz una pausa breve y luego gira las muñecas para que las palmas miren hacia abajo.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial con este agarre inverso.",
+    "Gira las muñecas de nuevo a la posición neutral para prepararte para la siguiente repetición."
+  ],
+  "consejos": [
+    "Mantén un movimiento controlado durante todo el ejercicio para maximizar el compromiso muscular.",
+    "Evita balancearte o usar el impulso para levantar las pesas; concéntrate en aislar los bíceps y los antebrazos.",
+    "Mantén tu núcleo comprometido y la espalda recta para mantener una postura adecuada.",
+    "Usa un peso que te permita realizar el ejercicio con la forma correcta; es mejor comenzar con menos peso e incrementarlo gradualmente.",
+    "Respira de manera natural, exhalando al levantar e inhalando al bajar las pesas."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar las pesas en lugar de movimientos controlados.",
+    "Permitir que los codos se abran, reduciendo el compromiso del bíceps.",
+    "No rotar completamente las muñecas en la parte superior e inferior del movimiento.",
+    "Balancear el cuerpo para ayudar en el curl, lo que lleva a una mala forma.",
+    "No mantener las muñecas rectas, causando tensión innecesaria.",
+    "Levantar demasiado peso, comprometiendo la forma y el control.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Apresurarse en el ejercicio sin enfocarse en la contracción muscular."
+  ]
+}

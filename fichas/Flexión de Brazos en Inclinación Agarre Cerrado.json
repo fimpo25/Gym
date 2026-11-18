@@ -1,0 +1,50 @@
+{
+  "nombre": "Flexión de Brazos en Inclinación Agarre Cerrado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazos-en-inclinacion-con-agarre-cerrado",
+  "video_url": "https://api.smartworkout.app/asset/video/c671d047-e0bd-4bc7-b601-460df461855b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "La Flexión de Brazos en Inclinación con Agarre Cerrado es un ejercicio con el peso corporal que se enfoca en los tríceps, el pecho y los hombros. Consiste en realizar una flexión de brazos con las manos colocadas más juntas que el ancho de los hombros sobre una superficie elevada, como un banco o un escalón, para aumentar el énfasis en los tríceps.",
+  "como_realizar": [
+    "Colócate frente a una superficie elevada como un banco o escalón.",
+    "Coloca tus manos en el borde de la superficie, más cerca que el ancho de los hombros.",
+    "Extiende tus piernas detrás de ti, equilibrándote sobre los dedos de los pies, formando una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo y mantén tu cuerpo rígido.",
+    "Baja tu pecho hacia la superficie doblando los codos, manteniéndolos cerca de tu cuerpo.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Empuja a través de tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén los codos pegados al cuerpo durante todo el movimiento para maximizar el trabajo de los tríceps.",
+    "Mantén una línea recta desde la cabeza hasta los talones; evita hundir o arquear la espalda.",
+    "Controla la velocidad del movimiento; baja lentamente y empuja hacia arriba con fuerza.",
+    "Inhala al bajar y exhala al empujar hacia arriba.",
+    "Ajusta la altura de la inclinación para modificar la dificultad; las inclinaciones más altas son más fáciles, las inclinaciones más bajas son más desafiantes."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado anchas, reduciendo el compromiso de los tríceps.",
+    "Codos hacia afuera, causando tensión en los hombros.",
+    "Caderas hundidas, provocando estrés en la parte baja de la espalda.",
+    "Compromiso inadecuado del core, comprometiendo la estabilidad.",
+    "Bajar el cuerpo demasiado rápido, perdiendo el control.",
+    "No bajar el pecho completamente hasta la inclinación, limitando el rango de movimiento.",
+    "Cuello inclinado hacia adelante, causando tensión en el cuello.",
+    "Pies colocados demasiado cerca, reduciendo el equilibrio.",
+    "Muñecas dobladas excesivamente, aumentando la tensión en las muñecas."
+  ]
+}

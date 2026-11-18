@@ -1,0 +1,46 @@
+{
+  "nombre": "Zancada Trasera con Kettlebell",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/zancada-trasera-con-kettlebell",
+  "video_url": "https://api.smartworkout.app/asset/video/170ce9ca-67d8-4e99-b75a-91f92c70928a.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La Zancada Trasera con Kettlebell es un ejercicio compuesto que se enfoca en la parte inferior del cuerpo, particularmente en los cuádriceps, isquiotibiales, glúteos y pantorrillas. También involucra el core para la estabilidad. Este ejercicio consiste en dar un paso hacia atrás en una posición de zancada mientras se sostiene un kettlebell, lo que añade resistencia y desafía el equilibrio.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de las caderas, sosteniendo una pesa rusa en una mano a la altura del hombro o con ambas manos frente a tu pecho.",
+    "Activa tu núcleo y mantén el pecho erguido.",
+    "Da un paso hacia atrás con una pierna, bajando las caderas hasta que ambas rodillas estén dobladas a aproximadamente 90 grados. La rodilla delantera debe estar directamente sobre el tobillo.",
+    "Asegúrate de que la rodilla trasera quede justo por encima del suelo sin tocarlo.",
+    "Empuja con el talón del pie delantero para volver a la posición inicial.",
+    "Repite el número deseado de repeticiones antes de cambiar de pierna."
+  ],
+  "consejos": [
+    "Mantén una postura erguida durante todo el movimiento para proteger tu zona lumbar.",
+    "Concéntrate en mantener tu núcleo comprometido para mejorar el equilibrio y la estabilidad.",
+    "Asegúrate de que tu rodilla delantera no se extienda más allá de tus dedos del pie para evitar tensión en la articulación de la rodilla.",
+    "Usa un movimiento controlado al dar el paso hacia atrás y regresar a la posición inicial para maximizar el compromiso muscular.",
+    "Comienza con una pesa rusa más ligera si eres nuevo en este ejercicio para dominar la forma adecuada antes de aumentar el peso."
+  ],
+  "errores_comunes": [
+    "Permitir que la rodilla delantera se incline hacia adentro, reduciendo la estabilidad y aumentando el estrés en la articulación de la rodilla.",
+    "Sostener la kettlebell demasiado lejos del cuerpo, causando desequilibrio y tensión innecesaria en los hombros.",
+    "Dar un paso hacia atrás demasiado corto, limitando el rango de movimiento y el compromiso muscular.",
+    "No mantener el pecho erguido, lo que lleva a una espalda redondeada y mala postura.",
+    "No involucrar el núcleo, resultando en una falta de estabilidad y control.",
+    "Dejar que la rodilla trasera toque el suelo, lo que puede llevar a la pérdida de control y posibles lesiones.",
+    "Impulsarse con los dedos del pie trasero en lugar de usar el talón del pie delantero, reduciendo la potencia y efectividad.",
+    "Apresurarse en el movimiento sin el control adecuado, aumentando el riesgo de perder el equilibrio.",
+    "Permitir que la kettlebell se balancee excesivamente, lo que puede interrumpir el equilibrio y la forma."
+  ]
+}

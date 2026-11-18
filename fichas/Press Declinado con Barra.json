@@ -1,0 +1,49 @@
+{
+  "nombre": "Press Declinado con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-declinado-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/3d084e3c-1133-40c6-a618-fb4a2bac4ebc.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Barra en Declive es un ejercicio compuesto que se enfoca en la parte inferior de los músculos pectorales, tríceps y deltoides anteriores. Se realiza en un banco declinado, que posiciona el cuerpo en un ángulo descendente, enfatizando el pecho inferior.",
+  "como_realizar": [
+    "Ajusta el banco declinado a un ángulo de aproximadamente 15 a 30 grados.",
+    "Recuéstate en el banco con los pies asegurados bajo las almohadillas para los pies.",
+    "Agarra la barra un poco más ancha que el ancho de los hombros.",
+    "Desmonta la barra y sostenla sobre tu pecho con los brazos completamente extendidos.",
+    "Baja la barra lentamente hacia la parte inferior de tu pecho, manteniendo los codos a un ángulo de 45 grados con respecto a tu torso.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Presiona la barra de nuevo a la posición inicial extendiendo los brazos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén firmemente asegurados bajo las almohadillas para mantener la estabilidad.",
+    "Mantén tu núcleo comprometido durante todo el ejercicio para apoyar tu espalda baja.",
+    "Mantén un ritmo controlado; evita rebotar la barra en tu pecho.",
+    "Concéntrate en apretar los músculos del pecho al presionar la barra hacia arriba.",
+    "Exhala al presionar hacia arriba e inhala al bajar la barra.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Arquear la espalda excesivamente, reduciendo la estabilidad y el control.",
+    "Permitir que la barra se desplace demasiado hacia adelante o hacia atrás, comprometiendo el equilibrio.",
+    "No activar el core, lo que lleva a una falta de soporte y posible tensión.",
+    "Bajar la barra demasiado rápido, arriesgando la pérdida de control.",
+    "No mantener un agarre firme, lo que puede llevar al deslizamiento de la barra.",
+    "Abrir los codos demasiado, aumentando la tensión en los hombros.",
+    "No llevar la barra al pecho inferior, afectando el rango de movimiento.",
+    "Rebotar la barra en el pecho, reduciendo el compromiso muscular.",
+    "Descuidar retraer las escápulas, llevando a una mala posición de los hombros.",
+    "Presionar de manera desigual, causando una activación muscular desequilibrada."
+  ]
+}

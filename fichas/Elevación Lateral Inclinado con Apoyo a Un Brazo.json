@@ -1,0 +1,47 @@
+{
+  "nombre": "Elevación Lateral Inclinado con Apoyo a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/one-arm-dumbbell-supported-bent-over-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/6ea6d8c6-4d88-4035-ac3c-cabc36b863ec.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The One-Arm Dumbbell Supported Bent Over Lateral Raise is an isolation exercise targeting the posterior deltoids. It involves bending over at the hips with one hand supported on a bench or stable surface, while the other arm lifts a dumbbell laterally to shoulder height. This exercise helps in developing shoulder stability and strength, particularly in the rear deltoids.",
+  "como_realizar": [
+    "Start by standing beside a bench or stable surface with your feet shoulder-width apart.",
+    "Hold a dumbbell in one hand with a neutral grip, palm facing inward.",
+    "Bend at the hips until your torso is nearly parallel to the floor, keeping your back straight.",
+    "Place your non-working hand on the bench for support.",
+    "With a slight bend in your elbow, raise the dumbbell laterally to shoulder height.",
+    "Pause briefly at the top of the movement, then slowly lower the dumbbell back to the starting position.",
+    "Repeat for the desired number of repetitions before switching arms."
+  ],
+  "consejos": [
+    "Maintain a straight back throughout the exercise to avoid strain.",
+    "Focus on lifting with your shoulder rather than your arm to effectively target the rear deltoid.",
+    "Control the movement and avoid using momentum to lift the dumbbell.",
+    "Keep your core engaged to maintain stability and balance during the exercise.",
+    "Ensure your head is aligned with your spine by looking at a spot on the floor slightly ahead of you."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to swinging and momentum instead of controlled movement.",
+    "Not keeping the back flat, resulting in rounding and potential strain on the lower back.",
+    "Allowing the supporting arm to lock out completely, reducing stability and control.",
+    "Raising the dumbbell too high, causing engagement of the upper traps instead of the rear deltoids.",
+    "Not maintaining a slight bend in the elbow, which can lead to joint strain.",
+    "Failing to keep the neck in a neutral position, leading to unnecessary tension.",
+    "Neglecting to engage the core, compromising balance and stability.",
+    "Lifting the dumbbell with the palm facing down, which can reduce rear deltoid activation.",
+    "Allowing the shoulder blade to move excessively, which reduces isolation of the target muscle.",
+    "Performing the exercise too quickly, sacrificing muscle engagement for speed."
+  ]
+}

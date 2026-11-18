@@ -1,0 +1,41 @@
+{
+  "nombre": "Giro Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/7c798219-e8ec-4017-bfc4-b9aa10ef146b.mp4",
+  "tags": [
+    "CORE",
+    "MOBILITY"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Giro Sentado es un ejercicio efectivo para el core que se enfoca en los músculos oblicuos. Consiste en rotar el torso mientras estás sentado, involucrando los músculos abdominales para estabilidad y control. Este ejercicio se puede realizar con o sin resistencia adicional, como una pelota medicinal o una mancuerna, para aumentar la intensidad.",
+  "como_realizar": [
+    "Siéntate en el suelo con las rodillas dobladas y los pies planos en el suelo. Inclínate ligeramente hacia atrás para activar tu núcleo.",
+    "Mantén las manos juntas frente a tu pecho o agarra un peso si estás usando resistencia.",
+    "Mantén la espalda recta y gira el torso hacia la derecha, llevando tus manos o el peso al lado de tu cadera.",
+    "Regresa al centro y luego gira hacia la izquierda, repitiendo el movimiento.",
+    "Continúa alternando lados durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén la espalda recta durante todo el ejercicio para evitar tensiones en la parte baja de la espalda.",
+    "Activa los músculos del core tirando del ombligo hacia la columna para una mejor estabilidad.",
+    "Controla la velocidad del movimiento; evita usar el impulso para girar.",
+    "Si usas un peso, comienza con uno más ligero para asegurar una forma adecuada antes de aumentar la resistencia.",
+    "Respira de manera constante, exhalando al girar e inhalando al regresar al centro."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, causando tensión en la parte baja de la espalda.",
+    "Redondear los hombros, lo que lleva a una mala postura y una menor activación del core.",
+    "No mantener la columna recta, lo que resulta en un movimiento de torsión ineficaz.",
+    "Usar el impulso en lugar de un movimiento controlado, disminuyendo la activación muscular.",
+    "No activar el core, lo que lleva a una dependencia excesiva de los brazos para el movimiento.",
+    "Permitir que las rodillas se tambaleen o se muevan excesivamente, reduciendo la estabilidad.",
+    "Torcer solo los brazos sin rotar el torso, limitando el rango de movimiento.",
+    "Contener la respiración, lo que puede aumentar la tensión y reducir el rendimiento."
+  ]
+}

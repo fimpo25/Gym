@@ -1,0 +1,47 @@
+{
+  "nombre": "Giro con Cable Arriba Abajo",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/giro-con-cable-(arriba-abajo)",
+  "video_url": "https://api.smartworkout.app/asset/video/2bbc0071-2c1d-4c70-9b53-dc723223ef02.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "GLUTEUS"
+  ],
+  "descripcion": "El Giro con cable (arriba abajo) es un ejercicio de fortalecimiento del núcleo que se enfoca en los oblicuos y el transverso del abdomen. Implica un movimiento rotacional utilizando una máquina de cable, mejorando la estabilidad y aumentando la potencia rotacional.",
+  "como_realizar": [
+    "Coloca la máquina de cables en una posición de polea alta y acopla un solo mango.",
+    "Párate con los pies separados al ancho de los hombros, de lado a la máquina, y agarra el mango con ambas manos.",
+    "Activa tu núcleo y dobla ligeramente las rodillas para mayor estabilidad.",
+    "Tira del mango hacia abajo a través de tu cuerpo en un movimiento controlado, rotando tu torso mientras lo haces.",
+    "Continúa el movimiento hasta que tus manos estén cerca de tu cadera opuesta.",
+    "Vuelve lentamente a la posición inicial invirtiendo el movimiento, manteniendo el control en todo momento.",
+    "Completa el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén tu core comprometido durante todo el ejercicio para maximizar la efectividad y proteger tu zona lumbar.",
+    "Concéntrate en movimientos lentos y controlados en lugar de usar el impulso para asegurar un compromiso muscular adecuado.",
+    "Mantén una ligera flexión en las rodillas para estabilizar tu postura y prevenir tensiones innecesarias.",
+    "Exhala mientras tiras del cable hacia abajo e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tus hombros permanezcan relajados y evita encogerlos durante el movimiento."
+  ],
+  "errores_comunes": [
+    "Rotar las caderas en lugar de aislar el torso, reduciendo el compromiso del core.",
+    "Permitir que el cable tire de los brazos de manera incontrolada, llevando a la pérdida de tensión.",
+    "Pararse demasiado lejos de la máquina de cables, causando sobreextensión y tensión.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "Inclinarse hacia adelante o hacia atrás, alterando el equilibrio y la estabilidad.",
+    "No mantener una columna neutral, aumentando la tensión en la parte baja de la espalda.",
+    "No activar los oblicuos, dependiendo de la fuerza de los brazos en su lugar.",
+    "Ejecutar el movimiento demasiado rápido, reduciendo la activación muscular.",
+    "Descuidar mantener los hombros abajo y relajados, causando tensión innecesaria."
+  ]
+}

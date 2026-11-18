@@ -1,0 +1,48 @@
+{
+  "nombre": "Zancadas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/zancadas",
+  "video_url": "https://api.smartworkout.app/asset/video/ff14232b-8cf5-4d5f-baa6-3a464e6efe58.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "Las zancadas son un ejercicio compuesto para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y pantorrillas. Este ejercicio también involucra el core para estabilidad y equilibrio. Las zancadas se pueden realizar con el peso corporal o con resistencia adicional, como mancuernas o una barra.",
+  "como_realizar": [
+    "Párate erguido con los pies separados al ancho de las caderas y las manos en las caderas o sosteniendo pesas a los lados.",
+    "Da un paso hacia adelante con el pie derecho, bajando las caderas hasta que ambas rodillas estén dobladas en un ángulo de aproximadamente 90 grados.",
+    "Asegúrate de que tu rodilla delantera esté directamente sobre tu tobillo y tu rodilla trasera quede justo por encima del suelo.",
+    "Empuja con el talón de tu pie delantero para volver a la posición inicial.",
+    "Repite el movimiento con tu pierna izquierda para completar una repetición completa."
+  ],
+  "consejos": [
+    "Mantén el torso erguido durante todo el movimiento para mantener el equilibrio y activar el core.",
+    "Evita que la rodilla delantera se extienda más allá de los dedos del pie para reducir el estrés en la articulación de la rodilla.",
+    "Concéntrate en un descenso y ascenso controlados para maximizar el compromiso muscular.",
+    "Para mayor intensidad, sostén mancuernas en cada mano o coloca una barra sobre la parte superior de la espalda.",
+    "Mantén un patrón de respiración constante; inhala al bajar y exhala al subir."
+  ],
+  "errores_comunes": [
+    "Permitir que la rodilla delantera se extienda más allá de los dedos del pie, lo que puede forzar la articulación de la rodilla.",
+    "No mantener el torso recto, lo que lleva a un desequilibrio y una menor activación del core.",
+    "Dar un paso demasiado estrecho, causando inestabilidad y alineación incorrecta.",
+    "No bajar la rodilla trasera lo suficientemente cerca del suelo, limitando el rango de movimiento y la activación muscular.",
+    "Dejar que el talón delantero se levante del suelo, reduciendo la estabilidad y la potencia.",
+    "Impulsarse con los dedos del pie en lugar del talón, lo que puede disminuir la activación de los glúteos.",
+    "Permitir que la pierna trasera permanezca demasiado recta, reduciendo la efectividad de la zancada.",
+    "Torcer las caderas o el torso, lo que puede llevar a un mal equilibrio y una activación muscular desigual.",
+    "Apresurar el movimiento, lo que compromete el control y la forma."
+  ]
+}

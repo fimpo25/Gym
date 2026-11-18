@@ -1,0 +1,51 @@
+{
+  "nombre": "Sentadilla Ciclista",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/cyclist-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/82aed196-41f3-4d53-8436-f7877f2cea92.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Cyclist Squat is a variation of the traditional squat that emphasizes the quadriceps by altering the foot positioning and range of motion. This exercise is performed with feet positioned closer together and elevated heels, which increases the demand on the quadriceps while reducing the involvement of the glutes and hamstrings. It is particularly beneficial for cyclists and athletes looking to enhance their quad strength and endurance.",
+  "como_realizar": [
+    "Begin by standing with your feet hip-width apart and place a weight plate or wedge under your heels to elevate them slightly.",
+    "Position your feet closer together than in a standard squat, with toes pointing forward.",
+    "Hold a barbell across your upper back using an overhand grip, or keep your hands at your sides if performing a bodyweight version.",
+    "Engage your core and keep your chest up as you begin to lower into a squat by bending at the knees.",
+    "Descend until your thighs are parallel to the ground or slightly below, ensuring your knees track over your toes.",
+    "Pause briefly at the bottom of the movement, then drive through your heels to return to the starting position.",
+    "Repeat for the desired number of repetitions, maintaining control throughout the movement."
+  ],
+  "consejos": [
+    "Keep your core engaged throughout the movement to maintain stability and protect your lower back.",
+    "Focus on keeping your knees aligned with your toes to prevent inward collapse, which can strain the knee joints.",
+    "Elevating the heels helps target the quadriceps more effectively by increasing knee flexion during the squat.",
+    "If balance is an issue, use a lighter weight or perform the exercise near a support structure for added stability.",
+    "Maintain a controlled tempo both when descending and ascending to maximize muscle engagement and minimize injury risk.",
+    "Ensure that you warm up properly before performing Cyclist Squats to prepare your muscles and joints for the exercise."
+  ],
+  "errores_comunes": [
+    "Feet placed too wide, reducing quad activation.",
+    "Heels lifting off the ground, causing instability.",
+    "Knees caving inward, increasing stress on joints.",
+    "Leaning too far forward, shifting focus away from quads.",
+    "Inadequate depth, limiting range of motion and muscle engagement.",
+    "Rushing through reps, sacrificing control and form.",
+    "Locking knees at the top, reducing tension on muscles.",
+    "Uneven weight distribution, leading to imbalance."
+  ]
+}

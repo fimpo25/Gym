@@ -1,0 +1,44 @@
+{
+  "nombre": "Press Francés Horizontal en Polea Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/press-frances-horizontal-en-polea-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/2a980c2f-e8f8-4719-83a6-40c2e87cc26b.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Press Francés Horizontal con Cable Sentado es un ejercicio de aislamiento que se enfoca en los tríceps. Consiste en extender los brazos contra la resistencia proporcionada por una máquina de cables, concentrándose en la cabeza larga de los tríceps. Este ejercicio se realiza sentado, lo que ayuda a estabilizar el cuerpo y permite una mejor concentración en los tríceps.",
+  "como_realizar": [
+    "Siéntate en un banco frente a una máquina de cables con una barra recta unida a la polea baja.",
+    "Agarra la barra con un agarre por encima, manos a la altura de los hombros.",
+    "Colócate de manera que tus brazos superiores estén paralelos al suelo y los codos doblados a un ángulo de 90 grados.",
+    "Mantén los codos cerca de tu cabeza y extiende los brazos hacia adelante contrayendo los tríceps.",
+    "Haz una pausa breve en la extensión completa, asegurándote de que tus brazos estén rectos pero no bloqueados.",
+    "Vuelve lentamente a la posición inicial doblando los codos de nuevo a 90 grados.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y evita arquear la espalda durante el ejercicio.",
+    "Mantén los codos estacionarios y cerca de tu cabeza durante todo el movimiento para maximizar el compromiso de los tríceps.",
+    "Concéntrate en movimientos controlados; evita usar el impulso para levantar el peso.",
+    "Exhala al extender los brazos e inhala al regresar a la posición inicial.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran hacia afuera, reduciendo el compromiso de los tríceps.",
+    "Usar impulso o balancear los brazos, comprometiendo el control y la efectividad.",
+    "Inclinarse demasiado hacia adelante o hacia atrás, alterando el ángulo y la tensión previstos.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Arquear excesivamente la parte baja de la espalda, lo que puede provocar tensión.",
+    "Agarrar el mango demasiado fuerte, causando tensión innecesaria en los antebrazos.",
+    "No mantener los codos fijos en posición, lo que lleva a la participación de los hombros.",
+    "Realizar el movimiento demasiado rápido, reduciendo la activación muscular y el control.",
+    "Comenzar con el cable demasiado bajo, lo que puede limitar el rango y la efectividad."
+  ]
+}

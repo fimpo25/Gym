@@ -1,0 +1,48 @@
+{
+  "nombre": "Remo al Mentón con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/cable-upright-row",
+  "video_url": "https://api.smartworkout.app/asset/video/bb2ceac3-d65c-4568-9c00-a2861b746dcb.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "The Cable Narrow Grip Upright Row is a compound exercise targeting the shoulders and upper trapezius muscles. It involves pulling a cable attachment vertically along the body while maintaining a narrow grip, emphasizing the deltoids and traps.",
+  "como_realizar": [
+    "Attach a straight bar or narrow grip handle to the low pulley of a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart, knees slightly bent.",
+    "Grasp the handle with an overhand grip, hands close together, and let the arms hang straight down.",
+    "Engage your core and keep your back straight throughout the movement.",
+    "Pull the handle upward along your body, leading with your elbows until they are at shoulder height.",
+    "Pause briefly at the top of the movement, ensuring your elbows are higher than your wrists.",
+    "Slowly lower the handle back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your elbows higher than your wrists throughout the movement to maximize shoulder engagement.",
+    "Avoid swinging or using momentum; focus on controlled movements to effectively target the muscles.",
+    "Maintain a neutral spine and engage your core to prevent lower back strain.",
+    "Start with a lighter weight to perfect your form before increasing resistance.",
+    "Exhale as you lift the handle and inhale as you lower it back down."
+  ],
+  "errores_comunes": [
+    "Gripping the bar too narrowly, causing excessive internal shoulder rotation.",
+    "Pulling the bar too high, leading to shoulder impingement risk.",
+    "Using momentum by swinging the body, reducing muscle engagement.",
+    "Allowing the wrists to bend excessively, causing strain.",
+    "Standing too far from the cable machine, altering the movement path.",
+    "Shrugging the shoulders excessively, overemphasizing the traps.",
+    "Not keeping the elbows above the wrists, reducing effectiveness.",
+    "Rounding the back, compromising spinal alignment.",
+    "Using too much weight, leading to form breakdown.",
+    "Neglecting to engage the core, resulting in instability."
+  ]
+}

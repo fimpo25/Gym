@@ -1,0 +1,46 @@
+{
+  "nombre": "Patada de Glúteo con Banda en Equilibrio de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/patada-de-gluteo-con-banda-de-resistencia-en-equilibrio-de-pie",
+  "video_url": "https://api.smartworkout.app/asset/video/e672bc71-a92f-4189-8b4f-6977b0fab6b1.mp4",
+  "tags": [
+    "FUNCTIONAL",
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Patada Trasera de Glúteos con Banda de Pie en Equilibrio es un ejercicio para la parte inferior del cuerpo que se enfoca en el glúteo mayor y mejora el equilibrio y la estabilidad del núcleo. Consiste en extender una pierna hacia atrás contra la resistencia de una banda mientras se mantiene una postura erguida.",
+  "como_realizar": [
+    "Asegura una banda de resistencia alrededor de tus tobillos.",
+    "Párate erguido con los pies separados al ancho de las caderas y activa tu núcleo.",
+    "Desplaza tu peso sobre tu pierna izquierda y dobla ligeramente la rodilla.",
+    "Levanta tu pie derecho del suelo y extiéndelo hacia atrás, manteniendo la pierna recta.",
+    "Aprieta tus glúteos en la parte superior del movimiento.",
+    "Vuelve lentamente a la posición inicial sin tocar el suelo.",
+    "Completa el número deseado de repeticiones, luego cambia de pierna."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener el equilibrio.",
+    "Concéntrate en apretar los glúteos al extender la pierna hacia atrás.",
+    "Mantén una ligera flexión en la pierna de apoyo para reducir la tensión en la rodilla.",
+    "Evita arquear la espalda; mantenla neutral para prevenir lesiones.",
+    "Realiza el movimiento lentamente y con control para una efectividad máxima.",
+    "Usa un espejo para asegurar una forma y alineación adecuadas durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso de los glúteos.",
+    "Arquear la parte baja de la espalda, causando tensión y reduciendo la estabilidad del core.",
+    "Usar impulso en lugar de movimiento controlado.",
+    "Permitir que la rodilla de apoyo colapse hacia adentro, arriesgando tensión en la rodilla.",
+    "No mantener las caderas cuadradas, llevando a una activación muscular desigual.",
+    "Patear demasiado alto, causando tensión en la parte baja de la espalda.",
+    "No mantener una columna neutral durante todo el ejercicio.",
+    "Descuidar el compromiso del core, reduciendo el equilibrio y el control.",
+    "Usar una resistencia de banda incorrecta, llevando a una mala forma.",
+    "No extender completamente la pierna, limitando la activación de los glúteos."
+  ]
+}

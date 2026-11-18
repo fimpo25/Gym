@@ -1,0 +1,49 @@
+{
+  "nombre": "Press de Hombros en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/press-de-hombros-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/2d1009a6-6a5b-402b-97ff-f30cb3677cce.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Hombros en Máquina es un ejercicio compuesto que se enfoca en los músculos deltoides, especialmente en las cabezas anterior y medial, así como en los tríceps y los músculos pectorales superiores. Se realiza utilizando una máquina de press de hombros, que proporciona estabilidad y permite un movimiento controlado, haciéndolo adecuado tanto para principiantes como para levantadores avanzados.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que las manijas estén a la altura de los hombros o ligeramente por debajo cuando estés sentado.",
+    "Siéntate con la espalda firmemente contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas con un agarre por encima, palmas hacia adelante.",
+    "Activa tu núcleo y mantén el pecho hacia arriba durante todo el ejercicio.",
+    "Presiona las manijas hacia arriba hasta que tus brazos estén completamente extendidos pero no bloqueados.",
+    "Baja lentamente las manijas de nuevo a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos estén ligeramente delante de tu cuerpo para reducir la tensión en la articulación del hombro.",
+    "Mantén una columna neutral y evita arquear la espalda durante el press.",
+    "Usa un peso que te permita mantener la forma adecuada durante todas las repeticiones.",
+    "Concéntrate en un movimiento lento y controlado para maximizar el compromiso muscular.",
+    "Exhala al presionar el peso hacia arriba e inhala al bajarlo.",
+    "Evita encoger los hombros; mantenlos relajados para prevenir la tensión en el cuello."
+  ],
+  "errores_comunes": [
+    "Ajustar el asiento demasiado alto o demasiado bajo, desalineando las manijas con la altura de los hombros.",
+    "Permitir que la espalda se arquee excesivamente, reduciendo el compromiso del core.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, afectando la alineación de la articulación del hombro.",
+    "No mantener una posición neutral de la muñeca, lo que lleva a una tensión innecesaria.",
+    "Presionar el peso demasiado rápido, sacrificando el control y el compromiso muscular.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Bajar el peso demasiado, causando estrés en la articulación del hombro.",
+    "Involucrar los trapecios en lugar de enfocarse en los deltoides.",
+    "Encoger los hombros hacia arriba durante el press, reduciendo el aislamiento del hombro.",
+    "Usar el impulso para levantar el peso, en lugar de una contracción muscular controlada."
+  ]
+}

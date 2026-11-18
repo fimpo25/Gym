@@ -1,0 +1,58 @@
+{
+  "nombre": "TRX Perro de Caza a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/trx-perro-de-caza-a-una-pierna",
+  "video_url": "https://api.smartworkout.app/asset/video/84b4a59e-1afd-4b09-b984-ee08cb2fb3d4.mp4",
+  "tags": [
+    "MOTOR",
+    "BALANCE",
+    "FUNCTIONAL",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "HAMSTRINGS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El TRX Bird Dog con una sola pierna es un ejercicio compuesto que trabaja el núcleo, los glúteos y los hombros, mejorando la estabilidad y el equilibrio. Utilizando el entrenador de suspensión TRX, este ejercicio requiere coordinación y control al extender las extremidades opuestas mientras mantienes un núcleo estable.",
+  "como_realizar": [
+    "Asegura las correas TRX a un punto de anclaje.",
+    "Ajusta las correas TRX a la longitud de media pantorrilla.",
+    "Arrodíllate en el suelo con las manos directamente debajo de los hombros y las rodillas debajo de las caderas.",
+    "Coloca un pie en el lazo de la correa TRX, manteniendo la rodilla doblada a 90 grados.",
+    "Activa tu núcleo y extiende el brazo opuesto hacia adelante mientras simultáneamente extiendes la pierna en la correa TRX hacia atrás.",
+    "Mantén la posición por un momento, asegurándote de que tu cuerpo forme una línea recta desde la mano hasta el pie.",
+    "Regresa a la posición inicial con control.",
+    "Repite el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el movimiento para prevenir tensión en la parte baja de la espalda.",
+    "Concéntrate en movimientos lentos y controlados para mejorar la estabilidad y el compromiso muscular.",
+    "Mantén tus caderas niveladas y evita rotarlas al extender tus extremidades.",
+    "Activa tu núcleo llevando tu ombligo hacia tu columna para mejorar el equilibrio.",
+    "Asegúrate de que tu rodilla de apoyo esté directamente debajo de tu cadera para una alineación óptima.",
+    "Respira de manera constante y uniforme durante el ejercicio para mantener el enfoque y el control."
+  ],
+  "errores_comunes": [
+    "Las caderas giran o caen en lugar de mantenerse niveladas.",
+    "Arqueando la parte baja de la espalda en lugar de mantener una columna neutral.",
+    "Permitir que la rodilla de apoyo colapse hacia adentro.",
+    "No comprometer el núcleo, lo que lleva a la inestabilidad.",
+    "Extender el brazo y la pierna demasiado alto, causando pérdida de equilibrio.",
+    "No mantener una línea recta desde la cabeza hasta el talón en el lado extendido.",
+    "Usar impulso en lugar de movimientos controlados.",
+    "Descuidar mantener los hombros alejados de las orejas.",
+    "Dejar que las correas TRX se aflojen en lugar de mantener la tensión.",
+    "Contener la respiración en lugar de respirar de manera constante."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "nombre": "Encogimientos en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/encogimientos-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/6e768e70-2b06-414e-a287-84656bb3b0a2.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los encogimientos en máquina se centran en los músculos trapecios, enfocándose principalmente en los trapecios superiores. Este ejercicio se realiza utilizando una máquina de encogimientos, que proporciona estabilidad y permite un movimiento controlado. Es efectivo para desarrollar fuerza y tamaño en la parte superior de la espalda y mejorar la postura.",
+  "como_realizar": [
+    "Ajusta la altura del asiento de la máquina de encogimientos para que las almohadillas descansen cómodamente sobre tus hombros.",
+    "Párate con los pies al ancho de los hombros y agarra las manijas firmemente.",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el ejercicio.",
+    "Levanta los hombros directamente hacia las orejas en un movimiento de encogimiento, apretando los trapecios en la parte superior del movimiento.",
+    "Mantén la contracción por un momento, luego baja lentamente los hombros de nuevo a la posición inicial.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar tus músculos trapecios para levantar el peso, no tus brazos.",
+    "Evita rodar tus hombros; levántalos directamente hacia arriba y hacia abajo.",
+    "Mantén tus movimientos controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Exhala al levantar tus hombros e inhala al bajarlos.",
+    "Comienza con un peso más ligero para asegurar una forma adecuada antes de aumentar la resistencia."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, causando dependencia del impulso en lugar de la activación muscular.",
+    "No elevar completamente los hombros, limitando el rango de movimiento.",
+    "Permitir que los hombros se inclinen hacia adelante, lo que desactiva el trapecio superior.",
+    "Inclinar la cabeza hacia adelante o hacia abajo, lo que provoca tensión en el cuello.",
+    "Encogerse de manera desigual, causando desequilibrio muscular y mala forma.",
+    "Agarrar las manijas demasiado fuerte, lo que puede causar tensión innecesaria en los antebrazos.",
+    "Inclinarse hacia atrás o hacia adelante, comprometiendo la postura y reduciendo la efectividad.",
+    "No mantener un ritmo controlado, lo que lleva a movimientos bruscos."
+  ]
+}

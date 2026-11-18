@@ -1,0 +1,51 @@
+{
+  "nombre": "Peso Muerto Rumano en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-romanian-deadlift",
+  "video_url": "https://api.smartworkout.app/asset/video/3b4631d5-6ce6-4d34-aee5-c6f9e0fc8823.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK",
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Romanian Deadlift is a compound exercise targeting the hamstrings, glutes, and lower back. Utilizing the Smith machine provides stability and control, allowing for a focused stretch and contraction of the posterior chain muscles. This exercise is beneficial for developing strength and muscle mass in the lower body while minimizing the risk of injury due to the guided bar path.",
+  "como_realizar": [
+    "Set the Smith machine bar to a height just below your hips.",
+    "Stand with your feet hip-width apart, toes pointing forward, and position yourself under the bar.",
+    "Grip the bar with an overhand grip, hands slightly wider than shoulder-width apart.",
+    "Unlock the bar by rotating it forward and step back slightly to clear the safety stops.",
+    "Keep your knees slightly bent and maintain a neutral spine throughout the movement.",
+    "Hinge at the hips, lowering the bar along your thighs while pushing your hips back.",
+    "Lower until you feel a stretch in your hamstrings, keeping the bar close to your legs.",
+    "Reverse the motion by driving your hips forward and returning to the starting position."
+  ],
+  "consejos": [
+    "Focus on hinging at the hips rather than bending at the waist to protect your lower back.",
+    "Maintain a slight bend in your knees throughout the exercise to keep tension on your hamstrings.",
+    "Keep your core engaged to stabilize your spine and prevent rounding of the back.",
+    "Control the movement speed, especially during the lowering phase, to maximize muscle engagement.",
+    "Ensure that your shoulders remain retracted and avoid letting them round forward.",
+    "Use a mirror or ask for feedback to ensure proper form and alignment during execution."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to compromised form and reduced range of motion.",
+    "Allowing the bar to travel too far away from the body, increasing strain on the lower back.",
+    "Not maintaining a neutral spine throughout the movement, risking lower back injury.",
+    "Bending the knees excessively, turning the movement into more of a squat than a hinge.",
+    "Failing to engage the core, leading to instability and poor control of the movement.",
+    "Rounding the shoulders forward, which can lead to upper back strain.",
+    "Not pushing the hips back sufficiently, reducing hamstring and glute engagement.",
+    "Raising the bar too high at the top, causing unnecessary tension in the lower back.",
+    "Moving too quickly, sacrificing form and muscle engagement for speed.",
+    "Not keeping the feet flat on the ground, leading to imbalance and reduced power."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "nombre": "Supinación con Mancuernas en Decúbito",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/supinacion-con-mancuernas-en-decubito",
+  "video_url": "https://api.smartworkout.app/asset/video/1f1604cb-328b-40eb-a4a0-ca44282fa4db.mp4",
+  "tags": [
+    "REHAB"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Supinación con Mancuerna a un Brazo es un ejercicio de aislamiento que se enfoca en el bíceps braquial, centrándose específicamente en la función de supinación del antebrazo. Este ejercicio mejora el pico del bíceps al enfatizar el movimiento rotacional de la muñeca, lo cual es crucial para una contracción completa del bíceps.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, sosteniendo una mancuerna en una mano con un agarre neutral (palma hacia adentro).",
+    "Descansa tu codo en tu muslo o mantenlo cerca de tu torso para estabilidad.",
+    "Comienza con el brazo completamente extendido y la mancuerna a nivel del muslo.",
+    "Lentamente flexiona la mancuerna hacia arriba mientras simultáneamente giras tu muñeca para que la palma quede hacia arriba en la parte superior del movimiento.",
+    "Pausa brevemente en la parte superior, asegurando la máxima contracción del bíceps.",
+    "Baja la mancuerna de nuevo a la posición inicial con control, girando tu muñeca de nuevo a una posición neutral.",
+    "Repite para el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Concéntrate en movimientos suaves y controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén el codo estacionario durante todo el ejercicio para aislar efectivamente los bíceps.",
+    "Usa un peso más ligero para mantener la forma adecuada y asegurar un rango completo de movimiento durante la supinación.",
+    "Activa tu núcleo para mantener la estabilidad y evitar balanceos durante el ejercicio.",
+    "Exhala mientras levantas y supinas la mancuerna, e inhala mientras la bajas de nuevo."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a un control y forma deficientes.",
+    "Permitir que el codo se aleje del torso, reduciendo el compromiso del bíceps.",
+    "Rotar el hombro en lugar de aislar el antebrazo durante la supinación.",
+    "Apresurarse en el movimiento, comprometiendo la activación muscular.",
+    "No supinar completamente la muñeca, limitando el rango de movimiento.",
+    "Agarrar la mancuerna demasiado fuerte, causando tensión innecesaria en el antebrazo.",
+    "Inclinar el torso hacia un lado, causando desequilibrio y forma incorrecta.",
+    "Descuidar mantener la muñeca recta, lo que lleva a tensión y alineación incorrecta."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Press Plano con Poleas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-plano-con-poleas",
+  "video_url": "https://api.smartworkout.app/asset/video/f3454e00-4dac-4f89-84e8-af80e8386e86.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Banca con Cables es una variación del press de banca tradicional que utiliza una máquina de cables para proporcionar tensión constante durante todo el movimiento. Este ejercicio se enfoca en los músculos pectorales, tríceps y deltoides anteriores. Se realiza en un banco plano con cables conectados a un sistema de poleas bajas, permitiendo un rango de movimiento controlado y suave.",
+  "como_realizar": [
+    "Coloca un banco plano entre dos máquinas de polea baja. Adjunta manijas en D a cada cable.",
+    "Acuéstate en el banco con los pies planos en el suelo, asegurándote de que tu espalda esté en contacto con el banco.",
+    "Agarra cada manija con un agarre por encima y coloca tus manos a la altura del pecho, con los codos doblados aproximadamente a 90 grados.",
+    "Presiona las manijas hacia arriba extendiendo tus brazos, manteniendo las muñecas rectas y alineadas con los antebrazos.",
+    "Pausa brevemente en la parte superior del movimiento, asegurando una contracción completa de los músculos del pecho.",
+    "Baja lentamente las manijas de nuevo a la posición inicial, manteniendo el control y la tensión en los cables.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el ejercicio para prevenir tensión en la parte baja de la espalda.",
+    "Concéntrate en apretar los músculos del pecho al presionar las manijas hacia arriba para un máximo compromiso.",
+    "Mantén los codos ligeramente metidos para reducir el estrés en las articulaciones del hombro.",
+    "Controla el movimiento tanto hacia arriba como hacia abajo para maximizar la tensión muscular y la efectividad.",
+    "Evita bloquear completamente los codos en la parte superior del movimiento para mantener una tensión continua en los músculos.",
+    "Asegúrate de que tus omóplatos permanezcan retraídos y estables contra el banco durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran excesivamente, lo que lleva a una tensión en los hombros.",
+    "Arquear demasiado la parte baja de la espalda, reduciendo el compromiso del core.",
+    "No mantener un ritmo controlado, permitiendo que el impulso tome el control.",
+    "No retraer completamente las escápulas, limitando la activación del pecho.",
+    "Llevar los cables demasiado bajos, lo que puede desviar el enfoque del pecho.",
+    "Bloquear los codos en la parte superior, reduciendo la tensión en los músculos.",
+    "Colocar el banco demasiado lejos de los cables, alterando la línea de tracción.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "Descuidar mantener los pies plantados, afectando la estabilidad y la potencia."
+  ]
+}

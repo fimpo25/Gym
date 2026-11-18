@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión de Tríceps con Barra EZ en Decúbito Supino",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-barra-ez-en-decubito-supino",
+  "video_url": "https://api.smartworkout.app/asset/video/4cafc40d-554d-4dcc-9d18-f2f6c6752dc1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps con Barra EZ Acostado, también conocida como 'Skull Crusher', es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Principalmente involucra la cabeza larga del tríceps, proporcionando un crecimiento muscular efectivo y desarrollo de fuerza. Este ejercicio se realiza acostado en un banco plano mientras se utiliza una barra EZ, lo que reduce el estrés en las muñecas en comparación con una barra recta.",
+  "como_realizar": [
+    "Acuéstate en un banco con los pies firmemente plantados en el suelo.",
+    "Sujeta una barra EZ con un agarre estrecho, palmas hacia adelante, y extiende los brazos sobre tu pecho.",
+    "Mantén los codos estacionarios y baja lentamente la barra hacia tu frente doblando los codos.",
+    "Haz una pausa breve cuando la barra esté cerca de tu frente, asegurando tensión en los tríceps.",
+    "Extiende los brazos de regreso a la posición inicial contrayendo los tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus codos permanezcan cerca de tu cabeza durante todo el movimiento para maximizar el compromiso de los tríceps.",
+    "Controla el descenso de la barra para prevenir lesiones y mantener una tensión constante en los tríceps.",
+    "Evita que tus codos se abran hacia afuera; mantenlos apuntando hacia el techo.",
+    "Usa un observador si levantas pesos pesados para asegurar la seguridad y la forma adecuada.",
+    "Concéntrate en un rango completo de movimiento para una activación muscular óptima.",
+    "Comienza con pesos más ligeros para dominar la forma antes de progresar a cargas más pesadas."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran hacia afuera, reduciendo el compromiso de los tríceps.",
+    "Bajar la barra demasiado hacia atrás, aumentando la tensión en los hombros.",
+    "Usar el impulso para levantar la barra, disminuyendo el control muscular.",
+    "No extender completamente los codos en la parte superior, limitando la activación de los tríceps.",
+    "Arquear excesivamente la parte baja de la espalda, comprometiendo la alineación de la columna.",
+    "No mantener las muñecas rectas, causando un estrés innecesario en las muñecas.",
+    "Dejar caer la barra demasiado rápido, arriesgando la pérdida de control y forma.",
+    "Colocar los codos demasiado hacia adelante, desviando el enfoque de los tríceps."
+  ]
+}

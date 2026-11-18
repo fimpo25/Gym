@@ -1,0 +1,46 @@
+{
+  "nombre": "Inclinación Lateral de Pie con Banda",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/inclinacion-lateral-de-pie-con-banda",
+  "video_url": "https://api.smartworkout.app/asset/video/ab801dff-4918-460d-a184-1bdd68bb288a.mp4",
+  "tags": [
+    "MOBILITY",
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Inclinación Lateral de Pie con Banda es un ejercicio que se enfoca en los músculos oblicuos, que forman parte del núcleo. Consiste en inclinar el torso hacia un lado mientras se mantiene la tensión con una banda de resistencia, ayudando a mejorar la estabilidad y la fuerza del núcleo.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una banda de resistencia en ambas manos.",
+    "Coloca un extremo de la banda debajo de tu pie izquierdo y sostiene el otro extremo con tu mano derecha.",
+    "Mantén tu mano izquierda en la cadera o déjala colgar naturalmente a tu lado.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Dobla lentamente tu torso hacia la derecha, tirando contra la resistencia de la banda.",
+    "Pausa brevemente en la parte inferior del movimiento, sintiendo el estiramiento en tu oblicuo izquierdo.",
+    "Regresa a la posición inicial contrayendo los músculos oblicuos izquierdos.",
+    "Completa el número deseado de repeticiones antes de cambiar de lado."
+  ],
+  "consejos": [
+    "Asegúrate de que tus movimientos sean controlados y deliberados para maximizar el compromiso muscular.",
+    "Evita inclinarte hacia adelante o hacia atrás; concéntrate en una flexión lateral pura.",
+    "Mantén los hombros relajados y evita encogerlos durante el ejercicio.",
+    "Mantén una ligera flexión en las rodillas para reducir la tensión en la parte baja de la espalda.",
+    "Concéntrate en usar tus músculos oblicuos para iniciar y controlar el movimiento.",
+    "Exhala al inclinarte hacia el lado e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse hacia adelante o hacia atrás en lugar de directamente hacia el lado.",
+    "Permitir que las caderas se desplacen o roten, reduciendo el compromiso de los oblicuos.",
+    "Usar el impulso para doblarse en lugar de una contracción muscular controlada.",
+    "Doblar las rodillas en exceso, alterando la trayectoria del movimiento.",
+    "Sujetar la banda demasiado floja, reduciendo la resistencia y efectividad.",
+    "No mantener el núcleo comprometido, lo que lleva a una estabilidad reducida.",
+    "Sobreextender la flexión lateral, arriesgando tensión en la parte baja de la espalda.",
+    "No volver a una posición completamente erguida entre repeticiones."
+  ]
+}

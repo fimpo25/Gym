@@ -1,0 +1,41 @@
+{
+  "nombre": "Elevación de Tibial de Pie",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/standing-tibialis-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/caeac689-22e7-4507-9895-f81803a609e7.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Standing Tibialis Raise targets the tibialis anterior muscle located at the front of the lower leg. This exercise helps improve ankle stability, enhances balance, and can aid in preventing shin splints. It is particularly beneficial for athletes and individuals looking to strengthen their lower legs.",
+  "como_realizar": [
+    "Stand upright with your feet hip-width apart, near a wall or sturdy object for support if needed.",
+    "Keep your knees slightly bent and your core engaged throughout the exercise.",
+    "Lift your toes off the ground as high as possible while keeping your heels planted firmly on the floor.",
+    "Hold the top position for a moment, feeling the contraction in the front of your lower legs.",
+    "Slowly lower your toes back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your knees to reduce strain on your joints.",
+    "Focus on lifting your toes as high as possible to maximize muscle engagement.",
+    "Use a wall or chair for balance if necessary, especially when starting out.",
+    "Perform the exercise slowly and with control to ensure proper muscle activation.",
+    "Incorporate this exercise into your routine to help prevent common lower leg injuries."
+  ],
+  "errores_comunes": [
+    "Leaning back excessively, reducing tibialis engagement.",
+    "Using momentum instead of controlled movement.",
+    "Not fully lowering the toes to the ground, limiting range of motion.",
+    "Locking the knees, which can reduce stability and effectiveness.",
+    "Allowing the feet to turn inward or outward, misaligning the movement path.",
+    "Neglecting to engage the core for balance and support.",
+    "Performing the exercise too quickly, compromising muscle activation.",
+    "Failing to maintain an upright posture, which can strain the lower back."
+  ]
+}

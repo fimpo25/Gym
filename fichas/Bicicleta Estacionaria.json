@@ -1,0 +1,48 @@
+{
+  "nombre": "Bicicleta Estacionaria",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/stacionary-bike",
+  "video_url": "https://api.smartworkout.app/asset/video/5c370a4a-ad16-4679-b218-a25a4537bab1.mp4",
+  "tags": [
+    "CARDIO",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "GLUTEUS"
+  ],
+  "descripcion": "The stationary bike is a cardiovascular exercise machine that simulates cycling. It is designed to improve cardiovascular endurance, burn calories, and strengthen the lower body muscles, including the quadriceps, hamstrings, calves, and glutes. The resistance can be adjusted to increase or decrease the intensity of the workout.",
+  "como_realizar": [
+    "Adjust the seat height so that your legs are slightly bent at the bottom of the pedal stroke.",
+    "Sit on the bike with your back straight and hands resting on the handlebars.",
+    "Start pedaling slowly to warm up, gradually increasing your speed.",
+    "Adjust the resistance level to a comfortable setting for your workout goals.",
+    "Maintain a steady pace and keep your core engaged throughout the session.",
+    "Cool down by gradually reducing your speed and resistance before stopping."
+  ],
+  "consejos": [
+    "Ensure the seat is at the correct height to avoid knee strain; your knees should be slightly bent when pedaling.",
+    "Keep your back straight and shoulders relaxed to prevent tension in the upper body.",
+    "Use a heart rate monitor to stay within your target heart rate zone for optimal cardiovascular benefits.",
+    "Vary resistance levels and speed for interval training to enhance endurance and calorie burn.",
+    "Stay hydrated by drinking water before, during, and after your workout.",
+    "Focus on smooth pedal strokes to engage muscles effectively and reduce joint stress."
+  ],
+  "errores_comunes": [
+    "Seat height is too low or too high, leading to improper knee extension.",
+    "Handlebars positioned incorrectly, causing poor posture and back strain.",
+    "Pedaling too fast without resistance, reducing muscle engagement.",
+    "Leaning forward excessively, putting strain on the neck and shoulders.",
+    "Using only the balls of the feet, leading to calf strain.",
+    "Allowing knees to flare outwards, causing hip misalignment.",
+    "Gripping handlebars too tightly, increasing tension in the wrists and forearms.",
+    "Not adjusting resistance, failing to challenge muscles effectively.",
+    "Pedaling with uneven force, leading to inefficient movement patterns.",
+    "Ignoring core engagement, resulting in reduced stability and power."
+  ]
+}

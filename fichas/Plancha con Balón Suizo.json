@@ -1,0 +1,44 @@
+{
+  "nombre": "Plancha con Balón Suizo",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/plancha-con-balon-suizo",
+  "video_url": "https://api.smartworkout.app/asset/video/e62b2c61-8694-4e73-af05-02e24563b0ea.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE",
+    "ISOMETRIC"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Plancha con Balón Suizo es un ejercicio de estabilización del core que mejora el equilibrio, la fuerza y la resistencia al involucrar múltiples grupos musculares. Se enfoca principalmente en los músculos abdominales, la parte baja de la espalda y los hombros, mientras requiere coordinación y control.",
+  "como_realizar": [
+    "Comienza colocando tus antebrazos sobre una pelota suiza, asegurándote de que tus codos estén directamente debajo de tus hombros.",
+    "Extiende tus piernas detrás de ti con los dedos de los pies en el suelo, formando una línea recta desde la cabeza hasta los talones.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Mantén una posición neutral del cuello mirando ligeramente hacia adelante.",
+    "Mantén esta posición durante el tiempo deseado, asegurándote de que tus caderas no se hundan ni se levanten."
+  ],
+  "consejos": [
+    "Mantén tu cuerpo en línea recta para evitar tensión innecesaria en la parte baja de la espalda.",
+    "Concéntrate en apretar los glúteos y los cuádriceps para mantener la estabilidad.",
+    "Respira de manera constante durante el ejercicio para ayudar a mantener la tensión en el core.",
+    "Si sientes incomodidad en la parte baja de la espalda, ajusta tu posición o reduce la duración.",
+    "Comienza con tiempos de sujeción más cortos y aumenta gradualmente el tiempo a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan o se eleven, comprometiendo el compromiso del núcleo.",
+    "Colocar los codos demasiado hacia adelante, aumentando la tensión en los hombros.",
+    "No mantener una línea recta desde la cabeza hasta los talones.",
+    "Descansar el peso sobre la pelota en lugar de estabilizar activamente.",
+    "Contener la respiración, reduciendo la estabilidad y resistencia del núcleo.",
+    "Colocar los pies demasiado juntos, disminuyendo el equilibrio.",
+    "Permitir que los hombros se encorven, reduciendo la estabilidad escapular.",
+    "No comprometer los glúteos, debilitando el soporte del cuerpo inferior.",
+    "Permitir que la cabeza caiga, tensionando los músculos del cuello.",
+    "Comenzar con una pelota inestable, aumentando el riesgo de perder el equilibrio."
+  ]
+}

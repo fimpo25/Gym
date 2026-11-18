@@ -1,0 +1,47 @@
+{
+  "nombre": "Curl de Concentración con Martillo",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-concentracion-con-martillo",
+  "video_url": "https://api.smartworkout.app/asset/video/7ff591e4-d0e1-4f8d-a368-3c5e17e86ba4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl Martillo de Concentración es un ejercicio de aislamiento que se enfoca en los músculos braquial y braquiorradial, así como en el bíceps braquial. Se realiza con una mancuerna mientras estás sentado, concentrándote en una forma estricta y un movimiento controlado para maximizar el compromiso muscular y la hipertrofia.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, las piernas ligeramente separadas.",
+    "Sujeta una mancuerna en una mano con un agarre neutral (pulgar hacia arriba).",
+    "Inclínate ligeramente hacia adelante y apoya el codo del brazo que trabaja contra el muslo interno de la pierna del mismo lado.",
+    "Mantén la espalda recta y el núcleo comprometido durante todo el movimiento.",
+    "Lentamente flexiona el codo para levantar la mancuerna hacia arriba, manteniendo la muñeca recta.",
+    "Haz una pausa breve en la parte superior del movimiento cuando tu antebrazo esté vertical o ligeramente más allá.",
+    "Baja la mancuerna de nuevo a la posición inicial de manera controlada.",
+    "Completa el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Concéntrate en usar un movimiento lento y controlado para maximizar la tensión muscular.",
+    "Evita balancearte o usar el impulso para levantar el peso; mantén el movimiento estricto.",
+    "Asegúrate de que tu codo permanezca estacionario contra tu muslo para aislar eficazmente los músculos objetivo.",
+    "Mantén una posición neutral de la muñeca durante todo el ejercicio para prevenir tensiones y asegurar una forma adecuada.",
+    "Exhala mientras levantas el peso e inhala mientras lo bajas.",
+    "Comienza con un peso más ligero para dominar la forma antes de progresar a mancuernas más pesadas."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar el peso en lugar de un compromiso muscular controlado.",
+    "Permitir que el codo se aleje del muslo interno, reduciendo el aislamiento de los bíceps.",
+    "Enroscar la muñeca en la parte superior del movimiento, lo que desvía el enfoque de los bíceps.",
+    "No extender completamente el brazo en la parte inferior, limitando el rango de movimiento.",
+    "Inclinarse hacia atrás o usar el torso para ayudar en el levantamiento, disminuyendo la activación del bíceps.",
+    "Agarrar la mancuerna demasiado fuerte, lo que lleva a la fatiga del antebrazo antes que la fatiga del bíceps.",
+    "No mantener el hombro estable, lo que puede llevar a tensión o incomodidad.",
+    "Apresurarse en la fase excéntrica, minimizando la tensión muscular y el potencial de crecimiento."
+  ]
+}

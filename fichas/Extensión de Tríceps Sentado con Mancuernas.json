@@ -1,0 +1,44 @@
+{
+  "nombre": "Extensión de Tríceps Sentado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-sentado-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/0cb91ac4-cb58-4002-8e5b-bb01f743dad1.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps Sentado con Mancuerna es un ejercicio de aislamiento que se enfoca en el tríceps braquial. Consiste en extender los brazos por encima de la cabeza mientras se está sentado, utilizando una mancuerna para proporcionar resistencia. Este ejercicio ayuda a desarrollar fuerza y masa en los tríceps.",
+  "como_realizar": [
+    "Siéntate en un banco con respaldo, manteniendo los pies planos en el suelo.",
+    "Sujeta una mancuerna con ambas manos, con las palmas hacia arriba, y levántala por encima de la cabeza hasta que tus brazos estén completamente extendidos.",
+    "Mantén los codos cerca de tu cabeza y perpendiculares al suelo.",
+    "Baja lentamente la mancuerna detrás de tu cabeza doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Haz una pausa breve cuando la mancuerna llegue justo por debajo del nivel de la cabeza.",
+    "Extiende los brazos de nuevo a la posición inicial contrayendo tus tríceps.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una columna neutral y evita arquear la espalda durante el ejercicio.",
+    "Mantén los codos lo más cerca posible de la cabeza para maximizar el compromiso de los tríceps.",
+    "Usa un movimiento controlado; evita balancearte o usar el impulso para levantar la mancuerna.",
+    "Comienza con un peso más ligero para dominar la forma adecuada antes de avanzar a pesos más pesados.",
+    "Inhala al bajar la mancuerna y exhala al extender los brazos hacia arriba.",
+    "Asegúrate de que solo se muevan los antebrazos; mantén los brazos superiores estacionarios durante todo el ejercicio."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se abran hacia afuera, reduciendo el compromiso del tríceps.",
+    "Usar peso excesivo, lo que lleva a una mala forma y control.",
+    "No extender completamente los brazos, limitando el rango de movimiento.",
+    "Arquear la espalda, causando tensión innecesaria.",
+    "Bajar la mancuerna demasiado rápido, arriesgando la pérdida de control.",
+    "No mantener el núcleo comprometido, resultando en inestabilidad.",
+    "Bajar la barbilla al pecho, afectando la postura.",
+    "Doblar las muñecas en exceso, aumentando la tensión en las articulaciones."
+  ]
+}

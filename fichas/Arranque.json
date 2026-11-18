@@ -1,0 +1,59 @@
+{
+  "nombre": "Arranque",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/snatch",
+  "video_url": "https://api.smartworkout.app/asset/video/f03197e6-375f-4bad-b34c-5dcf941c88d1.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "FOREARMS",
+    "CHEST",
+    "CALVES",
+    "GLUTEUS",
+    "QUADRICEPS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The snatch is a dynamic Olympic weightlifting exercise that involves lifting a barbell from the ground to overhead in one continuous motion. It requires a combination of strength, speed, flexibility, and technique. The movement is divided into several phases: the first pull, transition, second pull, and catch.",
+  "como_realizar": [
+    "Stand with feet hip-width apart, toes slightly turned out. Position the barbell over the middle of your feet.",
+    "Grip the barbell with a wide grip, arms straight and outside of your knees.",
+    "Lower your hips with your chest up and back straight, keeping your gaze forward.",
+    "Initiate the lift by pushing through your heels, extending your knees and hips in a smooth motion.",
+    "As the bar passes your knees, transition by pulling the bar close to your body and shrugging your shoulders.",
+    "Explosively extend your hips and knees while pulling yourself under the bar.",
+    "Catch the bar overhead in a deep squat position with arms fully extended and locked out.",
+    "Stand up from the squat position to complete the lift, keeping the bar stable overhead."
+  ],
+  "consejos": [
+    "Ensure your grip is wide enough to allow for a comfortable overhead position.",
+    "Keep the barbell close to your body throughout the lift to maintain control and efficiency.",
+    "Focus on an explosive hip extension to generate maximum power during the second pull.",
+    "Practice flexibility in shoulders and ankles to achieve a stable overhead squat position.",
+    "Use lighter weights initially to perfect technique before progressing to heavier loads.",
+    "Maintain a neutral spine throughout the lift to prevent injury and ensure proper form."
+  ],
+  "errores_comunes": [
+    "Starting with hips too high or too low, disrupting the pull mechanics.",
+    "Pulling with the arms too early, reducing power from the legs and hips.",
+    "Not keeping the barbell close to the body, leading to inefficient movement.",
+    "Failing to fully extend the hips, resulting in a lack of upward momentum.",
+    "Inadequate shoulder mobility, causing poor overhead positioning.",
+    "Catching the barbell with bent elbows, compromising stability overhead.",
+    "Landing with feet too wide, affecting balance and control.",
+    "Neglecting to engage the core, leading to instability during the lift.",
+    "Rushing the lift, which can lead to a loss of control and precision.",
+    "Improper grip width, affecting the bar path and balance."
+  ]
+}

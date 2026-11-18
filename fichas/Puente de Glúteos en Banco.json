@@ -1,0 +1,49 @@
+{
+  "nombre": "Puente de Glúteos en Banco",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos-en-banco",
+  "video_url": "https://api.smartworkout.app/asset/video/cdefa0ab-30d9-42e9-869b-fdd0aa374304.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos en Banco es un ejercicio efectivo que se enfoca en los músculos glúteos, isquiotibiales y el core. Al elevar los hombros sobre un banco, esta variación aumenta el rango de movimiento, proporcionando un mayor desafío y una activación muscular más significativa en comparación con el puente de glúteos estándar.",
+  "como_realizar": [
+    "Siéntate en el suelo con la parte superior de la espalda apoyada en un banco, las rodillas dobladas y los pies planos en el suelo.",
+    "Coloca los pies a la altura de las caderas y posiciónalos de manera que tus espinillas estén verticales cuando levantes las caderas.",
+    "Apoya los brazos en el banco para mayor estabilidad o crúzalos sobre el pecho.",
+    "Activa tu núcleo y aprieta los glúteos mientras levantas las caderas hacia el techo hasta que tu cuerpo forme una línea recta desde los hombros hasta las rodillas.",
+    "Mantén la posición superior por un momento, asegurando la máxima contracción en los glúteos.",
+    "Baja lentamente las caderas de nuevo a la posición inicial sin dejar que toquen el suelo.",
+    "Repite el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén posicionados correctamente; deben estar directamente debajo de tus rodillas en la parte superior del movimiento.",
+    "Concéntrate en apretar tus glúteos durante todo el ejercicio para maximizar la activación muscular.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad y evitar el arqueo de la parte baja de la espalda.",
+    "Evita empujar excesivamente con los talones; busca una presión equilibrada en todo tu pie.",
+    "Controla el movimiento tanto en las fases de elevación como de descenso para mejorar el compromiso muscular y prevenir lesiones."
+  ],
+  "errores_comunes": [
+    "Pies colocados demasiado lejos del banco, reduciendo la activación de los glúteos.",
+    "Pies demasiado cerca del banco, limitando el rango de movimiento.",
+    "Arquear la parte baja de la espalda en lugar de flexionar en las caderas.",
+    "No mantener el núcleo comprometido, lo que lleva a la tensión en la parte baja de la espalda.",
+    "Permitir que las rodillas colapsen hacia adentro, reduciendo el compromiso de los glúteos.",
+    "Levantar las caderas de manera desigual, causando desequilibrio y efectividad reducida.",
+    "No alinear los hombros, las caderas y las rodillas en la posición superior.",
+    "Usar impulso en lugar de movimiento controlado, reduciendo la activación muscular.",
+    "Dejar caer las caderas demasiado rápido en el descenso, arriesgando incomodidad en la parte baja de la espalda.",
+    "No apretar los glúteos en la parte superior del movimiento, perdiendo la contracción máxima."
+  ]
+}

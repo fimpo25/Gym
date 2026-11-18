@@ -1,0 +1,44 @@
+{
+  "nombre": "Abdominales Inclinados con Giro",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/abdominales-inclinados-con-giro",
+  "video_url": "https://api.smartworkout.app/asset/video/85920430-bc75-4c95-919d-c031af9c2410.mp4",
+  "tags": [
+    "CORE",
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Abdominal Inclinado con Giro es un ejercicio avanzado para el core que se enfoca en los músculos abdominales, especialmente los oblicuos. Consiste en realizar un abdominal en un banco inclinado mientras se incorpora un movimiento de giro para activar los músculos laterales del abdomen.",
+  "como_realizar": [
+    "Ajusta un banco inclinado a un ángulo moderado, típicamente entre 30 a 45 grados.",
+    "Siéntate en el banco y asegura tus pies bajo las almohadillas para pies.",
+    "Recuéstate con las manos colocadas detrás de la cabeza o cruzadas sobre el pecho.",
+    "Activa tu núcleo y levanta la parte superior del cuerpo del banco, girando el torso hacia un lado mientras asciendes.",
+    "Alcanza la parte superior del movimiento con el codo apuntando hacia la rodilla opuesta.",
+    "Baja lentamente de nuevo a la posición inicial de manera controlada.",
+    "Repite el movimiento, alternando lados con cada repetición."
+  ],
+  "consejos": [
+    "Concéntrate en movimientos controlados para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Mantén tu núcleo apretado durante todo el ejercicio para mantener la estabilidad y efectividad.",
+    "Evita tirar de tu cuello con las manos; en su lugar, utiliza los músculos del núcleo para levantarte.",
+    "Exhala al girar hacia arriba e inhala al regresar a la posición inicial.",
+    "Comienza con una inclinación más baja si eres nuevo en este ejercicio y aumenta gradualmente a medida que desarrollas fuerza.",
+    "Asegúrate de que tus movimientos sean suaves y deliberados, evitando cualquier movimiento brusco."
+  ],
+  "errores_comunes": [
+    "No mantener el core comprometido durante todo el movimiento, lo que reduce la efectividad.",
+    "Usar el impulso para levantar el torso en lugar de un compromiso muscular controlado.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, lo que puede tensar la columna.",
+    "Girar el torso sin una alineación adecuada, causando una activación muscular desigual.",
+    "No mantener un patrón de respiración constante, lo que reduce el rendimiento.",
+    "Apresurar el movimiento, lo que compromete la forma y el control.",
+    "Descuidar volver completamente a la posición inicial, limitando el rango de movimiento.",
+    "Permitir que los pies se levanten de la inclinación, reduciendo la estabilidad y el compromiso del core."
+  ]
+}

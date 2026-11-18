@@ -1,0 +1,49 @@
+{
+  "nombre": "Sentadilla a Banco en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/smith-squat-to-bench",
+  "video_url": "https://api.smartworkout.app/asset/video/5a5deab3-1144-45f7-a3fc-c72187844f3a.mp4",
+  "tags": [
+    "STRENGTH",
+    "FUNCTIONAL",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Smith Squat To Bench is a compound lower body exercise performed using a Smith machine and a bench. It targets the quadriceps, hamstrings, glutes, and core muscles. The fixed bar path of the Smith machine provides stability, making it suitable for beginners to focus on form and technique.",
+  "como_realizar": [
+    "Position a bench behind you in the Smith machine so that when you sit back, your thighs are parallel to the floor.",
+    "Adjust the bar on the Smith machine to shoulder height. Load the desired weight onto the bar.",
+    "Stand under the bar with your feet shoulder-width apart. Position the bar across your upper back and shoulders.",
+    "Unrack the bar by rotating it forward. Step back until your legs are aligned with the bench.",
+    "Engage your core, keep your chest up, and begin lowering your body by bending at the hips and knees.",
+    "Descend until your glutes lightly touch the bench, ensuring your knees do not extend past your toes.",
+    "Push through your heels to return to the starting position, fully extending your hips and knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the bench is positioned correctly to allow a full range of motion without compromising form.",
+    "Keep your weight distributed evenly through your heels to maintain balance and control.",
+    "Focus on keeping your chest up and back straight throughout the movement to prevent injury.",
+    "Use a spotter if you're lifting heavy weights or if you're new to this exercise for added safety.",
+    "Control the descent and avoid bouncing off the bench to maintain muscle tension and effectiveness."
+  ],
+  "errores_comunes": [
+    "Feet positioned too far forward or backward, causing imbalance.",
+    "Knees caving inward during the squat, leading to poor alignment.",
+    "Not descending low enough to touch the bench, limiting range of motion.",
+    "Bouncing off the bench instead of controlled touch, reducing muscle engagement.",
+    "Leaning excessively forward, placing undue stress on the lower back.",
+    "Bar positioned too high on the neck, risking neck strain.",
+    "Failing to keep the core engaged, resulting in loss of stability.",
+    "Allowing the heels to lift off the ground, compromising balance.",
+    "Using momentum to rise instead of controlled muscle activation.",
+    "Not maintaining a neutral spine, increasing risk of back injury."
+  ]
+}

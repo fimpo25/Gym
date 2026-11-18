@@ -1,0 +1,50 @@
+{
+  "nombre": "Curl de Bíceps con TRX",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-biceps-con-trx",
+  "video_url": "https://api.smartworkout.app/asset/video/1b225b9a-779a-4ec6-8295-53affcd3b590.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps con TRX es un ejercicio de entrenamiento en suspensión que se enfoca en los músculos del bíceps. Utiliza el peso corporal y la gravedad para proporcionar resistencia, mejorando la fuerza y la resistencia muscular. Este ejercicio se realiza usando correas TRX, que permiten un rango de movimiento y requieren estabilidad del núcleo.",
+  "como_realizar": [
+    "Asegura las correas TRX a un punto de anclaje seguro a una altura adecuada.",
+    "Párate frente al punto de anclaje con los pies separados al ancho de los hombros.",
+    "Sujeta las manijas del TRX con un agarre supino, palmas hacia arriba.",
+    "Inclínate ligeramente hacia atrás, manteniendo el cuerpo recto y el núcleo comprometido.",
+    "Extiende completamente los brazos frente a ti, manteniendo la tensión en las correas.",
+    "Tira de tu cuerpo hacia el anclaje doblando los codos, manteniendo los brazos superiores estacionarios.",
+    "Continúa flexionando hasta que tus manos estén cerca de tus hombros.",
+    "Extiende lentamente los brazos de nuevo a la posición inicial, manteniendo el control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que las correas TRX estén bien ancladas antes de comenzar el ejercicio.",
+    "Mantén los codos cerca de tu cuerpo durante todo el movimiento para maximizar el compromiso del bíceps.",
+    "Mantén una línea recta desde la cabeza hasta los talones activando el core y los glúteos.",
+    "Controla el movimiento tanto en las fases de flexión como de extensión para mejorar la activación muscular.",
+    "Ajusta la posición de tus pies para aumentar o disminuir la resistencia: dar un paso hacia adelante reduce la resistencia, mientras que dar un paso hacia atrás la aumenta.",
+    "Concéntrate en apretar los bíceps en la parte superior de la flexión para una contracción máxima.",
+    "Exhala al flexionar y inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, reduciendo el compromiso de los bíceps y dependiendo del peso corporal.",
+    "Permitir que los codos se abran, desviando el enfoque de los bíceps.",
+    "No mantener las muñecas rectas, causando tensión y reduciendo la efectividad.",
+    "Usar el impulso para balancear el cuerpo, disminuyendo el control muscular y el compromiso.",
+    "No extender completamente los brazos en la parte inferior, limitando el rango de movimiento.",
+    "Tirar con los hombros en lugar de aislar los bíceps.",
+    "Apresurarse en el movimiento, sacrificando la forma por la velocidad.",
+    "No mantener una posición de plancha estable, afectando la estabilidad del núcleo y la efectividad del ejercicio."
+  ]
+}

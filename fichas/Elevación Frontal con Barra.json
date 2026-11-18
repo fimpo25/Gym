@@ -1,0 +1,41 @@
+{
+  "nombre": "Elevación Frontal con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-frontal-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/951c8728-438b-48b2-83d6-c9422cc511d6.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación Frontal con Barra es un ejercicio de aislamiento que se enfoca en los deltoides anteriores. Consiste en levantar una barra frente al cuerpo hasta la altura de los hombros, enfatizando la fuerza y estabilidad de los hombros.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una barra con un agarre por encima frente a tus muslos.",
+    "Mantén los brazos rectos pero no bloqueados, y activa tu núcleo para estabilidad.",
+    "Inhala y levanta la barra hacia adelante y hacia arriba hasta que tus brazos estén paralelos al suelo.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurando control y estabilidad.",
+    "Exhala mientras bajas lentamente la barra de nuevo a la posición inicial."
+  ],
+  "consejos": [
+    "Comienza con un peso ligero para asegurar una forma adecuada y evitar tensiones.",
+    "Mantén una ligera flexión en los codos para reducir el estrés en las articulaciones.",
+    "Mantén tus movimientos controlados; evita usar el impulso para levantar la barra.",
+    "Activa tu núcleo durante todo el ejercicio para apoyar la parte baja de tu espalda.",
+    "Concéntrate en levantar con los hombros, no con los brazos, para maximizar el compromiso del deltoides."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a balanceo y momentum en lugar de levantamiento controlado.",
+    "Levantar la barra por encima de la altura de los hombros, causando tensión innecesaria en los hombros.",
+    "Doblar los codos excesivamente, convirtiendo el ejercicio en un remo vertical parcial.",
+    "No comprometer el core, resultando en una espalda arqueada y mala postura.",
+    "Permitir que las muñecas se doblen hacia atrás, poniendo tensión en las muñecas.",
+    "No mantener una posición neutral del cuello, llevando a tensión en el cuello.",
+    "Apresurar el movimiento, reduciendo el tiempo bajo tensión y el compromiso muscular.",
+    "Descuidar mantener los hombros hacia abajo y atrás, causando elevación y tensión en los hombros."
+  ]
+}

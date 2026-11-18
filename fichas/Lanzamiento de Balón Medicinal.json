@@ -1,0 +1,49 @@
+{
+  "nombre": "Lanzamiento de Balón Medicinal",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/lanzamiento-de-balon-medicinal",
+  "video_url": "https://api.smartworkout.app/asset/video/1a9fa2c7-31ff-49c3-a0e6-821cd78aa2f4.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "CARDIO",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "BACK"
+  ],
+  "descripcion": "El ejercicio de lanzamiento de balón es un entrenamiento dinámico de cuerpo completo que se enfoca principalmente en el núcleo, los hombros y las piernas. Consiste en levantar un balón con peso por encima de la cabeza y lanzarlo con fuerza al suelo, involucrando múltiples grupos musculares y mejorando la potencia, la coordinación y la resistencia cardiovascular.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, con las rodillas ligeramente flexionadas.",
+    "Sujeta una pelota de slam con ambas manos frente a ti.",
+    "Activa tu núcleo y levanta la pelota por encima de la cabeza extendiendo completamente los brazos.",
+    "Sube a las puntas de los pies al levantar la pelota para obtener más potencia.",
+    "Lanza la pelota con fuerza al suelo frente a ti usando tu núcleo y brazos.",
+    "Atrapa la pelota en el rebote o recógela si no rebota.",
+    "Vuelve a la posición inicial y repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de mantener la espalda recta y activar el core durante todo el movimiento para prevenir lesiones.",
+    "Usa un peso que te desafíe pero que te permita mantener la forma adecuada.",
+    "Concéntrate en usar todo tu cuerpo para generar potencia en el slam, no solo los brazos.",
+    "Controla tu respiración; exhala al lanzar la pelota hacia abajo e inhala al levantarla de nuevo.",
+    "Comienza con un ritmo moderado para dominar la técnica antes de aumentar la velocidad o el peso."
+  ],
+  "errores_comunes": [
+    "No comprometer el core, lo que lleva a una reducción de potencia y efectividad.",
+    "No usar todo el rango de movimiento, limitando los beneficios del ejercicio.",
+    "Doblarse en la cintura en lugar de inclinarse en las caderas, aumentando la tensión en la parte baja de la espalda.",
+    "Golpear la pelota sin control, arriesgando lesiones por el rebote inesperado de la pelota.",
+    "No mantener una postura estable, lo que puede afectar el equilibrio y la potencia.",
+    "Usar una pelota demasiado ligera, reduciendo la intensidad y efectividad del ejercicio.",
+    "Permitir que las rodillas colapsen hacia adentro, lo que puede tensar las articulaciones.",
+    "Descuidar el seguimiento con los brazos, disminuyendo la fuerza del golpe.",
+    "Contener la respiración, lo que puede llevar a una tensión y fatiga innecesarias."
+  ]
+}

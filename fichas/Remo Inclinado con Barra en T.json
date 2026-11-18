@@ -1,0 +1,51 @@
+{
+  "nombre": "Remo Inclinado con Barra en T",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/t-bar-bent-over-row",
+  "video_url": "https://api.smartworkout.app/asset/video/7d9f7624-4684-4a80-a3ae-91ac7c3ebc6d.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "The T-Bar Bent Over Row is a compound exercise targeting the muscles of the back, including the latissimus dorsi, rhomboids, and trapezius. It also engages the biceps and core for stabilization. This exercise is performed using a T-bar row machine or a barbell with a landmine attachment.",
+  "como_realizar": [
+    "Load the desired weight onto the T-bar or barbell.",
+    "Stand with your feet shoulder-width apart, knees slightly bent.",
+    "Hinge at the hips to bend forward, keeping your back straight and chest up.",
+    "Grip the handles of the T-bar or barbell with both hands, palms facing each other.",
+    "Engage your core and pull the weight towards your lower chest by retracting your shoulder blades.",
+    "Pause briefly at the top of the movement, squeezing your back muscles.",
+    "Slowly lower the weight back to the starting position while maintaining control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Keep your back straight and avoid rounding your shoulders to prevent injury.",
+    "Focus on pulling with your back muscles rather than your arms to maximize effectiveness.",
+    "Maintain a slight bend in your knees to support your lower back.",
+    "Control the weight throughout the movement to ensure proper form and muscle engagement.",
+    "Breathe out as you pull the weight up and inhale as you lower it down.",
+    "Start with a lighter weight to master form before progressing to heavier loads."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of maintaining a neutral spine.",
+    "Using momentum to lift the weight instead of controlled movement.",
+    "Allowing the elbows to flare out too much, reducing lat engagement.",
+    "Standing too upright, minimizing the range of motion.",
+    "Gripping the bar too wide, leading to shoulder strain.",
+    "Not engaging the core, causing instability during the lift.",
+    "Pulling the bar to the chest instead of the lower ribcage.",
+    "Neglecting to retract the shoulder blades at the top of the movement.",
+    "Allowing the knees to lock, reducing lower body support.",
+    "Lifting the head up excessively, causing neck strain."
+  ]
+}

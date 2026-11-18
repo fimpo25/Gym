@@ -1,0 +1,44 @@
+{
+  "nombre": "Remo al Mentón con Barra Agarre Ancho",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/barbell-wide-grip-upright-row",
+  "video_url": "https://api.smartworkout.app/asset/video/fcd6e4b1-6ec5-4065-af19-6e715644c5ac.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Barbell Wide Grip Upright Row is an upper body exercise targeting the shoulders and upper back. It involves lifting a barbell with a wide grip from the thighs to the chest, primarily engaging the deltoids, trapezius, and biceps.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart, holding a barbell with an overhand grip wider than shoulder-width.",
+    "Keep your back straight, chest up, and core engaged throughout the movement.",
+    "Lift the barbell vertically along your body, leading with your elbows until it reaches chest level.",
+    "Pause briefly at the top of the movement, ensuring your elbows are higher than your wrists.",
+    "Lower the barbell back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a wide grip to better target the shoulder muscles.",
+    "Focus on lifting with your elbows to maximize shoulder engagement.",
+    "Avoid using momentum; keep the movement slow and controlled.",
+    "Keep your wrists straight and avoid bending them during the lift.",
+    "Exhale as you lift the barbell and inhale as you lower it.",
+    "Ensure your shoulders remain relaxed and do not shrug during the exercise."
+  ],
+  "errores_comunes": [
+    "Using too narrow a grip, which reduces shoulder engagement and increases strain on wrists.",
+    "Pulling the bar too high, causing shoulder impingement and excessive strain on the rotator cuff.",
+    "Leading with the elbows instead of keeping them slightly below the wrists, leading to poor shoulder alignment.",
+    "Using momentum to lift the bar, reducing muscle engagement and control.",
+    "Allowing the back to round, which decreases stability and increases risk of lower back strain.",
+    "Not keeping the core engaged, leading to a lack of stability and poor posture.",
+    "Shrugging the shoulders excessively, which can lead to neck strain.",
+    "Failing to keep the wrists straight, causing unnecessary stress on the joints.",
+    "Not maintaining a controlled tempo, resulting in reduced muscle activation and increased risk of losing balance."
+  ]
+}

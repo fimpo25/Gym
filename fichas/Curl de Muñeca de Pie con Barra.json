@@ -1,0 +1,42 @@
+{
+  "nombre": "Curl de Muñeca de Pie con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-de-muneca-de-pie-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/8ac66913-d841-40fb-a1f1-57a76e24282c.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca de Pie con Barra es un ejercicio de aislamiento que se enfoca en los músculos del antebrazo, específicamente los flexores de la muñeca. Consiste en sostener una barra con un agarre en supinación y flexionar las muñecas hacia arriba mientras se está de pie, para fortalecer y aumentar la resistencia en los antebrazos.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros, sosteniendo una barra con un agarre en supinación.",
+    "Mantén los brazos rectos y cerca de tu cuerpo, permitiendo que la barra descanse contra tus muslos.",
+    "Flexiona las muñecas hacia arriba, levantando la barra lo más alto posible mientras mantienes los brazos inmóviles.",
+    "Haz una pausa breve en la parte superior del movimiento, sintiendo la contracción en tus antebrazos.",
+    "Baja lentamente la barra de nuevo a la posición inicial, manteniendo el control en todo momento.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Usa un peso moderado que te permita realizar el ejercicio con la forma adecuada.",
+    "Concéntrate en mover solo tus muñecas; mantén tus brazos y hombros estables.",
+    "Mantén una ligera flexión en tus rodillas para apoyar el equilibrio y reducir la tensión en la parte baja de la espalda.",
+    "Exhala al levantar la barra hacia arriba e inhala al bajarla de nuevo.",
+    "Evita usar el impulso; controla el movimiento para un máximo compromiso muscular.",
+    "Asegúrate de un rango completo de movimiento extendiendo y flexionando completamente tus muñecas."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a un control deficiente y un compromiso muscular ineficaz.",
+    "Doblar los codos, lo que desvía el enfoque de los antebrazos.",
+    "Permitir que las muñecas caigan demasiado, causando tensión innecesaria.",
+    "No mantener una columna neutral, aumentando el riesgo de tensión en la parte baja de la espalda.",
+    "No mantener las muñecas alineadas con los antebrazos, reduciendo la efectividad del ejercicio.",
+    "Apresurarse en el movimiento, comprometiendo la activación muscular.",
+    "No extender completamente las muñecas, limitando el rango de movimiento y las posibles ganancias.",
+    "Involucrar los hombros, lo que resta aislamiento a los antebrazos."
+  ]
+}

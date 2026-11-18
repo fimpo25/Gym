@@ -1,0 +1,46 @@
+{
+  "nombre": "Crunch en V",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-en-v",
+  "video_url": "https://api.smartworkout.app/asset/video/0facf142-2880-4bc1-9254-a5885aeb3891.mp4",
+  "tags": [
+    "CORE",
+    "BALANCE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Crunch en V-Sit es un ejercicio para el core que se enfoca en los músculos abdominales, especialmente el recto abdominal y los oblicuos. Consiste en equilibrarse sobre los glúteos mientras levantas las piernas y el torso para formar una forma de 'V', activando el core durante todo el movimiento.",
+  "como_realizar": [
+    "Siéntate en el suelo con las piernas extendidas y los brazos a los lados.",
+    "Inclínate ligeramente hacia atrás, manteniendo la espalda recta y activa tu núcleo.",
+    "Levanta las piernas del suelo, doblando ligeramente las rodillas.",
+    "Simultáneamente levanta el torso para formar una forma de 'V' con tu cuerpo.",
+    "Mantén esta posición brevemente, asegurándote de que tu núcleo permanezca activo.",
+    "Baja el torso y las piernas de nuevo a la posición inicial de manera controlada.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo apretado durante todo el ejercicio para mantener el equilibrio y la estabilidad.",
+    "Evita redondear la espalda; mantén una columna recta para prevenir tensiones.",
+    "Controla el movimiento tanto al levantar hacia la posición 'V' como al regresar al inicio.",
+    "Concéntrate en respirar de manera constante; exhala al levantar hacia la 'V' e inhala al bajar.",
+    "Si eres nuevo en este ejercicio, comienza con menos repeticiones y aumenta gradualmente a medida que desarrollas fuerza."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia atrás, perdiendo el compromiso del core.",
+    "Redondear la parte baja de la espalda, arriesgando tensión en la columna.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "Pies tocando el suelo, reduciendo la activación del core.",
+    "Tensión en el cuello por tirar de la cabeza con las manos.",
+    "Respiración inconsistente, llevando a la fatiga.",
+    "Piernas no completamente extendidas, limitando el rango de movimiento.",
+    "Hombros encorvados, reduciendo la efectividad.",
+    "Movimientos rápidos, comprometiendo la forma y el control."
+  ]
+}

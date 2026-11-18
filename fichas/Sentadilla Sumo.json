@@ -1,0 +1,50 @@
+{
+  "nombre": "Sentadilla Sumo",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/sentadilla-sumo",
+  "video_url": "https://api.smartworkout.app/asset/video/2510a3d6-2777-4784-8a2e-ca15efd04241.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ADDUCTOR",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Sentadilla Sumo es un ejercicio para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y muslos internos. Implica una postura más amplia que una sentadilla tradicional, lo que enfatiza los músculos aductores y proporciona un ángulo diferente de compromiso para los músculos de la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Párate con los pies más anchos que el ancho de los hombros y los dedos de los pies ligeramente hacia afuera.",
+    "Mantén el pecho hacia arriba, los hombros hacia atrás y el núcleo comprometido durante todo el movimiento.",
+    "Baja el cuerpo doblando las rodillas y empujando las caderas hacia atrás como si te sentaras en una silla.",
+    "Asegúrate de que tus rodillas sigan la línea de los dedos de los pies y no se extiendan más allá de ellos.",
+    "Desciende hasta que tus muslos estén paralelos al suelo o ligeramente por debajo, dependiendo de la flexibilidad.",
+    "Presiona a través de tus talones para volver a la posición inicial, extendiendo completamente tus caderas y rodillas."
+  ],
+  "consejos": [
+    "Mantén una columna neutral durante el movimiento para evitar la tensión en la parte baja de la espalda.",
+    "Concéntrate en mantener el peso distribuido uniformemente en tus pies, especialmente presionando a través de los talones.",
+    "Activa tu núcleo para estabilizar tu torso y evitar inclinarte hacia adelante.",
+    "Ajusta el ancho de tu postura según la comodidad y flexibilidad para asegurar una forma adecuada.",
+    "Controla el descenso y el ascenso para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Inhala al bajar y exhala al subir para mantener el ritmo de la respiración."
+  ],
+  "errores_comunes": [
+    "Pies posicionados demasiado estrechos, reduciendo la estabilidad y limitando el rango de movimiento.",
+    "Rodillas colapsando hacia adentro, aumentando el estrés en las articulaciones.",
+    "Caderas no empujadas lo suficiente hacia atrás, llevando a un movimiento excesivo de las rodillas hacia adelante.",
+    "Torso inclinado demasiado hacia adelante, desplazando el peso lejos de los talones.",
+    "No mantener una columna neutral, causando tensión innecesaria en la espalda.",
+    "No activar los músculos del core, reduciendo el control y la estabilidad general.",
+    "Descender demasiado rápido, comprometiendo el control y la activación muscular.",
+    "No agacharse lo suficiente para activar completamente los glúteos y los muslos internos.",
+    "Permitir que los talones se levanten del suelo, disminuyendo el equilibrio y la potencia.",
+    "Subir de manera desigual, causando un desequilibrio en la activación muscular."
+  ]
+}

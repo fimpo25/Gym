@@ -1,0 +1,51 @@
+{
+  "nombre": "Press de Pecho de Pie con Cable",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/press-de-pecho-de-pie-con-cable",
+  "video_url": "https://api.smartworkout.app/asset/video/ef96f9bc-745f-4096-a1c1-f5fdd71e94df.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Press de Pecho de Pie con Cable es un ejercicio efectivo que se enfoca en los músculos pectorales, tríceps y deltoides anteriores. Consiste en empujar un cable hacia adelante mientras estás de pie, involucrando el core para estabilidad y equilibrio.",
+  "como_realizar": [
+    "Coloca las poleas del cable a la altura del pecho y adjunta las manijas.",
+    "Párate en el centro de la máquina de cables con los pies al ancho de los hombros.",
+    "Agarra las manijas con un agarre por encima y da un paso adelante ligeramente para crear tensión en los cables.",
+    "Coloca tus manos a la altura del pecho con los codos doblados a 90 grados.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas.",
+    "Presiona las manijas hacia adelante hasta que tus brazos estén completamente extendidos sin bloquear los codos.",
+    "Vuelve lentamente a la posición inicial, manteniendo la tensión en los cables.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el movimiento para mantener el equilibrio.",
+    "Evita bloquear los codos al final del press para proteger tus articulaciones.",
+    "Mantén una ligera flexión en las rodillas para una mejor estabilidad.",
+    "Concéntrate en apretar los músculos del pecho al presionar hacia adelante.",
+    "Controla el movimiento al regresar para maximizar el compromiso muscular.",
+    "Ajusta el peso para que puedas realizar el ejercicio con la forma adecuada."
+  ],
+  "errores_comunes": [
+    "Los codos se abren demasiado, reduciendo el compromiso del pecho y aumentando la tensión en los hombros.",
+    "Arquear excesivamente la parte baja de la espalda, lo que lleva a un pobre compromiso del core y potencial incomodidad en la parte baja de la espalda.",
+    "Permitir que los hombros se encojan, lo que reduce la activación del pecho y aumenta la tensión en el cuello.",
+    "Usar el impulso inclinándose hacia adelante o hacia atrás, comprometiendo el control y el compromiso muscular.",
+    "No alinear los cables con la línea del pecho, resultando en una dirección de fuerza incorrecta y efectividad reducida.",
+    "Extender demasiado los brazos al final del press, causando estrés innecesario en las articulaciones.",
+    "Descuidar mantener una postura estable, lo que afecta el equilibrio y la producción de potencia.",
+    "Apresurarse en las repeticiones, llevando a una mala forma y activación muscular reducida.",
+    "No retraer las escápulas al inicio, disminuyendo la participación del pecho.",
+    "Usar un agarre demasiado ancho o demasiado estrecho, afectando el rango de movimiento y el enfoque muscular."
+  ]
+}

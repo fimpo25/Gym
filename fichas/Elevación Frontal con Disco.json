@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación Frontal con Disco",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-frontal-con-disco",
+  "video_url": "https://api.smartworkout.app/asset/video/353212ef-2c5c-4c1a-a0d2-f9cf466daf42.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación Frontal con Disco es un ejercicio de aislamiento que se enfoca en los deltoides anteriores. Consiste en levantar un disco de peso frente al cuerpo, involucrando principalmente los músculos del hombro. Este ejercicio ayuda a desarrollar la fuerza del hombro y mejorar la estabilidad del mismo.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo un disco de pesas con ambas manos en las posiciones de las 3 en punto y las 9 en punto.",
+    "Mantén los brazos rectos pero no bloqueados, y sostiene el disco frente a tus muslos.",
+    "Activa tu núcleo y mantén una ligera flexión en las rodillas para estabilizar tu cuerpo.",
+    "Inhala y levanta lentamente el disco hacia arriba en un movimiento controlado hasta que alcance la altura de los hombros.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tus hombros estén comprometidos.",
+    "Exhala mientras bajas el disco de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar los músculos de los hombros para levantar el disco, evitando el impulso o el balanceo.",
+    "Mantén la espalda recta y evita arquearla para prevenir tensión en la parte baja de la espalda.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a discos más pesados.",
+    "Mantén un patrón de respiración constante; inhala al levantar y exhala al bajar.",
+    "Asegúrate de que tus muñecas permanezcan neutrales y no se doblen durante el ejercicio.",
+    "Realiza el movimiento lentamente para maximizar el compromiso muscular y el control."
+  ],
+  "errores_comunes": [
+    "Usar el impulso al balancear el disco en lugar de levantar con un movimiento controlado.",
+    "Levantar el disco por encima del nivel de los hombros, causando tensión innecesaria en los hombros.",
+    "Arquear la parte baja de la espalda debido a la falta de compromiso del core.",
+    "Bloquear completamente los codos, reduciendo el compromiso de los hombros.",
+    "Agarrar el disco demasiado fuerte, causando tensión en los antebrazos y muñecas.",
+    "Inclinarse hacia atrás para compensar el peso, arriesgando tensión en la parte baja de la espalda.",
+    "Permitir que los hombros se encojan, reduciendo el enfoque en los deltoides anteriores.",
+    "No mantener una posición neutral de la muñeca, lo que lleva a molestias en la muñeca.",
+    "Descuidar mantener los pies a la altura de los hombros, afectando el equilibrio y la estabilidad."
+  ]
+}

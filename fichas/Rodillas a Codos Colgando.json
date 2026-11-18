@@ -1,0 +1,50 @@
+{
+  "nombre": "Rodillas a Codos Colgando",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/rodillas-a-codos-colgando",
+  "video_url": "https://api.smartworkout.app/asset/video/15b84a6b-99ac-4bd5-b1d8-7c98272a3ea5.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "Rodillas a Codos Colgando es un ejercicio de fortalecimiento del núcleo que se enfoca en los músculos abdominales, particularmente el recto abdominal y los oblicuos. También involucra los flexores de la cadera y estabiliza los hombros y la fuerza de agarre. Este ejercicio se realiza colgándose de una barra de dominadas y llevando las rodillas hacia los codos de manera controlada.",
+  "como_realizar": [
+    "Agarra una barra de dominadas con un agarre por encima, manos al ancho de los hombros.",
+    "Cuelga libremente con los brazos completamente extendidos y los pies fuera del suelo.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Inhala profundamente, luego exhala mientras levantas las rodillas hacia los codos.",
+    "Mantén el movimiento controlado, evitando balancearte o usar impulso.",
+    "Pausa brevemente cuando tus rodillas estén cerca de tus codos.",
+    "Baja lentamente las piernas de nuevo a la posición inicial mientras mantienes el control.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea seguro para evitar resbalones durante el ejercicio.",
+    "Concéntrate en activar tu núcleo durante todo el movimiento para maximizar la efectividad.",
+    "Evita usar el impulso; realiza cada repetición de manera lenta y controlada.",
+    "Si no puedes llevar tus rodillas hasta los codos, apunta a un rango de movimiento que te desafíe sin comprometer la forma.",
+    "Mantén una respiración constante; exhala al levantar las rodillas e inhala al bajarlas.",
+    "Considera usar correas para las muñecas si la fuerza de agarre es un factor limitante.",
+    "Para aumentar la dificultad, intenta mantener la posición superior por más tiempo."
+  ],
+  "errores_comunes": [
+    "Balancear el cuerpo excesivamente en lugar de usar un movimiento controlado.",
+    "No activar los músculos del core, confiando demasiado en el impulso.",
+    "No llevar las rodillas completamente hacia los codos, reduciendo el rango de movimiento.",
+    "Permitir que los hombros se encojan hacia las orejas, causando una mala posición de los hombros.",
+    "Usar un agarre por encima demasiado ancho, lo que puede llevar a la inestabilidad.",
+    "Arquear la espalda excesivamente, lo que puede tensar la parte baja de la espalda.",
+    "No mantener una posición neutral de la cabeza, lo que lleva a la tensión en el cuello.",
+    "Confiar demasiado en los brazos en lugar de centrarse en el compromiso del core.",
+    "Dejar caer las piernas demasiado rápido, perdiendo el control en el descenso."
+  ]
+}

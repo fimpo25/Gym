@@ -1,0 +1,49 @@
+{
+  "nombre": "Buenos Días Sentado",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/buenos-dias-sentado",
+  "video_url": "https://api.smartworkout.app/asset/video/27a5d8a9-d2da-4ad2-ad3f-5a0445036ed3.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "El Buenos Días Sentado es un ejercicio compuesto que se enfoca en la parte baja de la espalda, los glúteos y los isquiotibiales. Implica inclinarse en las caderas mientras se mantiene la espalda recta, realizado en posición sentada para aislar más eficazmente los músculos de la cadena posterior.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo, separados al ancho de los hombros.",
+    "Sujeta una barra sobre la parte superior de tu espalda, asegurándote de que no esté descansando sobre tu cuello.",
+    "Activa tu núcleo y mantén el pecho hacia arriba.",
+    "Inhala profundamente, luego inclínate hacia adelante desde las caderas, manteniendo la espalda recta y la cabeza alineada con la columna.",
+    "Baja el torso hasta que esté casi paralelo al suelo o hasta donde tu flexibilidad lo permita.",
+    "Exhala al regresar a la posición inicial contrayendo los glúteos y los isquiotibiales.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que la barra esté colocada de manera segura en la parte superior de tu espalda, evitando cualquier presión en el cuello.",
+    "Mantén una columna neutral durante todo el movimiento para prevenir lesiones.",
+    "Concéntrate en flexionar las caderas en lugar de doblar la cintura para activar los grupos musculares correctos.",
+    "Controla el descenso y el ascenso para maximizar el compromiso muscular y evitar el impulso.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Mantén tus pies firmemente plantados para proporcionar estabilidad durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Redondear la espalda en lugar de mantener una columna neutral.",
+    "Permitir que las rodillas se inclinen hacia adentro, reduciendo la estabilidad.",
+    "Inclinarse demasiado hacia adelante, causando pérdida de equilibrio.",
+    "No comprometer el núcleo, llevando a un control deficiente.",
+    "Usar impulso en lugar de movimientos controlados.",
+    "Colocar los pies demasiado juntos, limitando el rango de movimiento.",
+    "No mantener el pecho levantado, aumentando la tensión en la parte baja de la espalda.",
+    "Arquear excesivamente la parte baja de la espalda, arriesgando lesiones.",
+    "No mantener una posición fija de las caderas, causando desalineación.",
+    "Descuidar activar los glúteos y los isquiotibiales."
+  ]
+}

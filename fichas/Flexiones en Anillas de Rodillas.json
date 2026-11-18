@@ -1,0 +1,48 @@
+{
+  "nombre": "Flexiones en Anillas de Rodillas",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/flexiones-en-anillas-de-rodillas",
+  "video_url": "https://api.smartworkout.app/asset/video/1ac58147-1cfd-40f2-9aa7-549d8b6e5365.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "Las Flexiones en Anillas de Rodillas son un ejercicio de peso corporal que se enfoca en el pecho, tríceps y hombros. Esta variación utiliza anillas de gimnasia para aumentar la inestabilidad, involucrando los músculos del core para la estabilización. Realizar el ejercicio sobre las rodillas reduce la carga, haciéndolo adecuado para principiantes o aquellos que se centran en la forma y el control.",
+  "como_realizar": [
+    "Ajusta los anillos para que cuelguen justo por encima del suelo.",
+    "Arrodíllate en una colchoneta con las rodillas separadas al ancho de las caderas.",
+    "Agarra firmemente los anillos con las palmas enfrentadas.",
+    "Inclínate ligeramente hacia adelante, manteniendo una línea recta desde los hombros hasta las rodillas.",
+    "Baja el pecho hacia los anillos doblando los codos, manteniéndolos cerca del cuerpo.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Empuja a través de tus palmas para extender los brazos y regresar a la posición inicial."
+  ],
+  "consejos": [
+    "Asegúrate de que los anillos estén estables y bien sujetos antes de comenzar.",
+    "Concéntrate en mantener una línea recta desde los hombros hasta las rodillas durante todo el movimiento.",
+    "Activa tu núcleo para evitar que la parte baja de la espalda se hunda o arquee.",
+    "Mantén los codos cerca de tu cuerpo para maximizar el compromiso del tríceps.",
+    "Controla la velocidad del movimiento, especialmente al bajar, para aumentar la activación muscular.",
+    "Inhala al bajar y exhala al empujar hacia arriba."
+  ],
+  "errores_comunes": [
+    "Permitir que las caderas se hundan, causando una pérdida de compromiso del core y una alineación incorrecta.",
+    "Codos abiertos, lo que puede llevar a tensión en los hombros y efectividad reducida.",
+    "Anillos colocados demasiado anchos, resultando en un estrés excesivo en los hombros y disminución de la estabilidad.",
+    "No mantener una columna neutral, lo que puede llevar a molestias en la espalda.",
+    "Rango de movimiento inadecuado al no bajar el pecho lo suficientemente cerca de los anillos.",
+    "Falta de control durante el descenso, causando inestabilidad y mala activación muscular.",
+    "Descuidar mantener las muñecas neutrales, aumentando la tensión en las muñecas y los antebrazos.",
+    "Apresurar el movimiento, lo que reduce el tiempo bajo tensión y el compromiso muscular."
+  ]
+}

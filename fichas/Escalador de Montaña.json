@@ -1,0 +1,53 @@
+{
+  "nombre": "Escalador de Montaña",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/escalador-de-montana",
+  "video_url": "https://api.smartworkout.app/asset/video/1ea4065d-8785-4c13-9fd5-a5bdf409b6b7.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "CORE",
+    "CARDIO",
+    "FUNCTIONAL",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "BACK",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El escalador de montaña es un ejercicio con el peso del cuerpo que se enfoca en los músculos del núcleo, así como en los hombros, brazos y piernas. Combina una posición de plancha con un movimiento de carrera, proporcionando beneficios tanto de fuerza como cardiovasculares.",
+  "como_realizar": [
+    "Comienza en una posición de plancha alta con las manos colocadas al ancho de los hombros directamente debajo de tus hombros.",
+    "Mantén tu cuerpo en una línea recta desde la cabeza hasta los talones, activando los músculos del core.",
+    "Lleva tu rodilla derecha hacia el pecho mientras mantienes la pierna izquierda extendida.",
+    "Cambia rápidamente de pierna, llevando la rodilla izquierda hacia el pecho mientras extiendes la pierna derecha hacia atrás.",
+    "Continúa alternando las piernas a un ritmo rápido, manteniendo la posición de plancha durante todo el ejercicio.",
+    "Respira de manera constante y mantén un ritmo consistente."
+  ],
+  "consejos": [
+    "Asegúrate de que tus manos estén directamente debajo de tus hombros para mantener una alineación adecuada y reducir la tensión en las muñecas.",
+    "Activa tu núcleo durante todo el ejercicio para evitar que tus caderas se hundan o se levanten demasiado.",
+    "Mantén tus movimientos controlados; evita rebotar o dejar que tus pies golpeen el suelo.",
+    "Concéntrate en mantener un patrón de respiración constante para apoyar la resistencia durante el ejercicio.",
+    "Si eres nuevo en este ejercicio, comienza despacio para asegurar una forma adecuada antes de aumentar la velocidad.",
+    "Para aumentar la intensidad, intenta realizar el ejercicio por un período más largo o a un ritmo más rápido."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado hacia adelante, causando tensión en los hombros.",
+    "Caderas elevadas demasiado alto, reduciendo el compromiso del core.",
+    "Permitir que la espalda se hunda, llevando a tensión en la parte baja de la espalda.",
+    "Rebotar o saltar en lugar de un movimiento controlado de las piernas.",
+    "No extender completamente la pierna hacia atrás, limitando el rango de movimiento.",
+    "Pies aterrizando demasiado fuerte, aumentando el impacto en las articulaciones.",
+    "Cuello inclinado hacia adelante, causando tensión en el cuello.",
+    "No mantener una línea recta desde la cabeza hasta los talones.",
+    "Apresurar el movimiento, sacrificando la forma por la velocidad.",
+    "No comprometer el core, reduciendo la efectividad del ejercicio."
+  ]
+}

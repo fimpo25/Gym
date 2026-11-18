@@ -1,0 +1,50 @@
+{
+  "nombre": "Remo al Mentón en Multipower",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/smith-machine-upright-row",
+  "video_url": "https://api.smartworkout.app/asset/video/13bd1488-1ec1-42ca-b5ce-d6f68a098e77.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "The Smith Machine Upright Row is a compound exercise targeting the shoulders and upper back. It involves lifting a barbell vertically along the body using a Smith machine, which provides stability and control. This exercise primarily engages the deltoids, trapezius, and biceps.",
+  "como_realizar": [
+    "Set the Smith machine bar to the appropriate height, just below your thighs.",
+    "Stand with your feet shoulder-width apart, grasp the bar with an overhand grip slightly narrower than shoulder-width.",
+    "Unlock the bar from the safety catches and let it hang in front of your thighs.",
+    "Keep your back straight, chest up, and core engaged throughout the movement.",
+    "Lift the bar vertically along your body by driving your elbows upward and outward.",
+    "Continue lifting until your elbows are at shoulder height or slightly above.",
+    "Pause briefly at the top of the movement, ensuring your elbows are higher than your wrists.",
+    "Lower the bar back to the starting position in a controlled manner.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a neutral spine and avoid leaning forward or backward during the lift.",
+    "Focus on leading with your elbows rather than pulling with your hands.",
+    "Keep your wrists straight to minimize strain and reduce injury risk.",
+    "Control the movement speed to maximize muscle engagement and avoid momentum.",
+    "Exhale as you lift the bar and inhale as you lower it back down.",
+    "Start with a lighter weight to master form before progressing to heavier loads.",
+    "Ensure that your grip is firm but not overly tight to prevent unnecessary tension in the forearms."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and control.",
+    "Hands placed too close together, causing excessive internal shoulder rotation.",
+    "Lifting the bar too high, placing undue stress on the shoulder joints.",
+    "Shrugging the shoulders instead of focusing on the deltoids and traps.",
+    "Leaning forward, which can strain the lower back.",
+    "Pulling with the wrists instead of leading with the elbows.",
+    "Failing to engage the core, resulting in instability.",
+    "Rushing through reps without controlled movement.",
+    "Locking the elbows at the top of the movement, reducing muscle engagement."
+  ]
+}

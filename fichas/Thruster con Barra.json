@@ -1,0 +1,57 @@
+{
+  "nombre": "Thruster con Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/thruster-con-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/42744805-6e12-4cbb-b61b-fede5201b37e.mp4",
+  "tags": [
+    "STRENGTH",
+    "EXPLOSIVE",
+    "PUSH",
+    "FUNCTIONAL",
+    "CARDIO"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "FOREARMS",
+    "CHEST",
+    "CALVES",
+    "BACK",
+    "GLUTEUS",
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Thruster con Barra es un ejercicio compuesto que combina una sentadilla frontal con un press por encima de la cabeza. Trabaja múltiples grupos musculares, incluidos los cuádriceps, glúteos, hombros y tríceps, lo que lo convierte en un entrenamiento efectivo para todo el cuerpo. Este ejercicio se utiliza comúnmente en entrenamientos funcionales y rutinas de CrossFit para mejorar la fuerza, la potencia y la resistencia cardiovascular.",
+  "como_realizar": [
+    "Comienza de pie con los pies separados al ancho de los hombros, sosteniendo una barra a la altura de los hombros con un agarre por encima. Tus codos deben estar apuntando hacia adelante y ligeramente hacia arriba.",
+    "Activa tu núcleo y mantén el pecho hacia arriba mientras bajas en una sentadilla, empujando las caderas hacia atrás y hacia abajo hasta que tus muslos estén paralelos al suelo.",
+    "Impulsa a través de tus talones para levantarte explosivamente, usando el impulso para presionar la barra por encima de la cabeza hasta que tus brazos estén completamente extendidos.",
+    "Baja la barra de nuevo a la altura de los hombros de manera controlada para completar una repetición.",
+    "Repite el número deseado de repeticiones, manteniendo la forma adecuada en todo momento."
+  ],
+  "consejos": [
+    "Concéntrate en mantener un núcleo fuerte durante el movimiento para proteger tu zona lumbar.",
+    "Asegúrate de que tus rodillas sigan la línea de tus dedos del pie durante la sentadilla para prevenir lesiones.",
+    "Usa un peso que te permita realizar el ejercicio con la forma adecuada; evita usar demasiado peso demasiado pronto.",
+    "Mantén los codos ligeramente hacia adelante durante el press para mantener la estabilidad y el control.",
+    "Exhala mientras presionas la barra por encima de la cabeza e inhala mientras bajas en la sentadilla."
+  ],
+  "errores_comunes": [
+    "Usar un peso excesivo, lo que lleva a una forma comprometida.",
+    "Permitir que las rodillas se inclinen hacia adentro durante la fase de sentadilla.",
+    "No lograr la profundidad completa en la sentadilla, reduciendo la efectividad.",
+    "No mantener el núcleo comprometido, causando inestabilidad.",
+    "Presionar la barra hacia adelante en lugar de directamente sobre la cabeza.",
+    "No mantener una columna neutral durante el movimiento.",
+    "Levantarse sobre los dedos de los pies en lugar de mantener los talones en el suelo.",
+    "Usar impulso en lugar de un movimiento controlado.",
+    "Permitir que los codos caigan durante el press, reduciendo la potencia.",
+    "Descuidar bloquear completamente los brazos en la parte superior del press."
+  ]
+}

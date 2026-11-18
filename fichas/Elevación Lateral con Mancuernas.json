@@ -1,0 +1,43 @@
+{
+  "nombre": "Elevación Lateral con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/elevacion-lateral-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/62ca1060-9268-4fa5-a167-0bc79fa10a3a.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación Lateral con Mancuernas es un ejercicio de aislamiento que se enfoca en los músculos deltoides laterales de los hombros. Está diseñado para aumentar el ancho de los hombros y mejorar la estética general de los mismos. Este ejercicio consiste en levantar las mancuernas hacia los lados del cuerpo hasta alcanzar la altura de los hombros, enfocándose en un movimiento controlado y una forma adecuada.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros, sosteniendo una mancuerna en cada mano con un agarre neutral.",
+    "Mantén los brazos ligeramente doblados en los codos y conserva este ángulo durante todo el ejercicio.",
+    "Activa tu núcleo y mantén la espalda recta.",
+    "Levanta lentamente las mancuernas hacia los lados hasta que tus brazos estén paralelos al suelo, manteniendo las muñecas en línea con los antebrazos.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de sentir tensión en los hombros.",
+    "Baja las mancuernas de nuevo a la posición inicial de manera controlada.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en usar los músculos de los hombros para levantar las pesas, no el impulso o el balanceo.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita levantar pesas demasiado pesadas que comprometan la forma; prioriza la técnica sobre el peso.",
+    "Asegúrate de que tus codos lideren el movimiento, no tus manos, para apuntar correctamente a los deltoides laterales.",
+    "Mantén una ligera flexión en las rodillas para estabilizar tu postura.",
+    "Exhala al levantar las pesas e inhala al bajarlas."
+  ],
+  "errores_comunes": [
+    "Levantar las mancuernas demasiado alto, involucrando los trapecios en lugar de los deltoides.",
+    "Usar el impulso balanceando el cuerpo para levantar las pesas.",
+    "Permitir que las muñecas se doblen, causando tensión y reduciendo el compromiso del hombro.",
+    "Levantar los hombros en lugar de mantenerlos abajo y hacia atrás.",
+    "No mantener una ligera flexión en los codos, lo que lleva a la tensión en las articulaciones.",
+    "Inclinarse hacia adelante o hacia atrás en exceso, alterando el equilibrio y la forma.",
+    "Bajar las pesas demasiado rápido, perdiendo control y tensión muscular.",
+    "Comenzar con pesas que son demasiado pesadas, comprometiendo la forma y el control."
+  ]
+}

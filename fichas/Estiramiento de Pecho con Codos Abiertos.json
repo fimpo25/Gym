@@ -1,0 +1,42 @@
+{
+  "nombre": "Estiramiento de Pecho con Codos Abiertos",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/estiramiento-de-pecho-con-codos-abiertos",
+  "video_url": "https://api.smartworkout.app/asset/video/e6d86856-f18f-466b-8cdc-b3a48c9644f5.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento de Pecho con Codos Hacia Afuera es un estiramiento estático que se enfoca en los músculos pectorales, diseñado específicamente para mejorar la flexibilidad y el rango de movimiento en el pecho y los hombros. Este ejercicio es beneficioso para personas que buscan mejorar su postura y aliviar la tensión en la parte superior del cuerpo.",
+  "como_realizar": [
+    "Párate derecho con los pies separados al ancho de los hombros.",
+    "Extiende un brazo hacia el lado a la altura del hombro, doblando el codo en un ángulo de 90 grados para que tu antebrazo esté paralelo al suelo.",
+    "Coloca tu antebrazo contra una pared o superficie firme.",
+    "Gira suavemente tu torso alejándote de la pared hasta que sientas un estiramiento en el pecho y el hombro.",
+    "Mantén el estiramiento durante 15-30 segundos, manteniendo una respiración constante.",
+    "Vuelve lentamente a la posición inicial y cambia de brazo para repetir en el lado opuesto."
+  ],
+  "consejos": [
+    "Mantén los hombros relajados y evita encogerlos durante el estiramiento.",
+    "Asegúrate de que tu codo permanezca a la altura del hombro para dirigir eficazmente los músculos del pecho.",
+    "Concéntrate en un estiramiento suave; evita empujar demasiado para prevenir lesiones.",
+    "Mantén una columna neutral durante el ejercicio para apoyar una postura adecuada.",
+    "Realiza este estiramiento después de los entrenamientos o durante los descansos para aliviar la tensión muscular."
+  ],
+  "errores_comunes": [
+    "Permitir que las escápulas se levanten en lugar de mantenerlas retraídas, reduciendo la efectividad del estiramiento.",
+    "Colocar los codos demasiado bajos, lo que puede limitar el estiramiento de los músculos del pecho.",
+    "Arqueando demasiado la parte baja de la espalda, lo que puede llevar a molestias o tensión.",
+    "No comprometer el núcleo, lo que puede resultar en pérdida de equilibrio y estabilidad.",
+    "Forzar los codos demasiado hacia atrás, arriesgando tensión en la articulación del hombro.",
+    "Descuidar mantener el cuello relajado, lo que puede llevar a tensión innecesaria.",
+    "Contener la respiración, lo que puede reducir el flujo de oxígeno y aumentar la tensión en el cuerpo."
+  ]
+}

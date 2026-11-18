@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión de Tríceps sobre la Cabeza con Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-por-encima-de-la-cabeza-con-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/790b5e86-1814-490e-85e4-6a38387db32a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps por Encima de la Cabeza con un Brazo es un ejercicio de aislamiento que se enfoca en el músculo tríceps braquial. Consiste en extender el brazo por encima de la cabeza mientras se sostiene una mancuerna, concentrándose en la cabeza larga del tríceps. Este ejercicio ayuda a desarrollar la fuerza muscular y la definición en la parte superior del brazo.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una mancuerna en una mano.",
+    "Levanta el brazo con la mancuerna por encima de la cabeza, manteniendo el codo cerca de tu cabeza.",
+    "Con la palma hacia adelante, baja lentamente la mancuerna detrás de tu cabeza doblando el codo.",
+    "Haz una pausa breve en la parte inferior del movimiento.",
+    "Extiende tu brazo de regreso a la posición inicial contrayendo tus tríceps.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener el equilibrio y evitar el arqueo de la parte baja de la espalda.",
+    "Asegúrate de que tu codo permanezca estacionario y cerca de tu cabeza durante todo el movimiento.",
+    "Usa un movimiento controlado para evitar el uso de impulso, lo que puede reducir la efectividad y aumentar el riesgo de lesiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a pesos más pesados.",
+    "Exhala mientras extiendes tu brazo e inhala mientras bajas la mancuerna."
+  ],
+  "errores_comunes": [
+    "El codo se abre hacia afuera en lugar de mantenerse cerca de la cabeza.",
+    "Arquear excesivamente la parte baja de la espalda, lo que lleva a una mala alineación de la columna.",
+    "Usar el impulso para levantar el peso en lugar de un movimiento controlado.",
+    "No extender completamente el brazo en la parte superior del movimiento.",
+    "Permitir que el hombro gire o se mueva excesivamente durante el ejercicio.",
+    "Sostener la mancuerna demasiado atrás en la mano, causando tensión en la muñeca.",
+    "Bajar demasiado el codo, reduciendo el rango de movimiento.",
+    "No activar el núcleo para la estabilidad, lo que lleva a un desequilibrio.",
+    "Usar un peso demasiado pesado, comprometiendo la forma y el control."
+  ]
+}

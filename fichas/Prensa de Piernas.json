@@ -1,0 +1,47 @@
+{
+  "nombre": "Prensa de Piernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/prensa-de-piernas",
+  "video_url": "https://api.smartworkout.app/asset/video/8632c417-b02c-4dc4-8adb-eb1a02646ab9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "La prensa de piernas es un ejercicio compuesto para la parte inferior del cuerpo que se enfoca en los cuádriceps, isquiotibiales, glúteos y pantorrillas. Se realiza utilizando una máquina de prensa de piernas, donde el usuario empuja una plataforma con peso usando sus piernas. Este ejercicio es efectivo para desarrollar fuerza y masa muscular en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Siéntate en la máquina de prensa de piernas con la espalda y la cabeza apoyadas cómodamente contra el soporte acolchado.",
+    "Coloca tus pies a la altura de los hombros en la plataforma, asegurándote de que tus talones estén planos y los dedos ligeramente hacia afuera.",
+    "Ajusta el asiento para que tus rodillas estén en un ángulo de 90 grados al comenzar.",
+    "Agarra las manijas a cada lado del asiento para estabilizar la parte superior de tu cuerpo.",
+    "Presiona la plataforma alejándola extendiendo tus piernas, manteniendo los pies planos y empujando a través de tus talones.",
+    "No bloquees tus rodillas en la parte superior del movimiento; mantén una ligera flexión.",
+    "Baja lentamente la plataforma de nuevo a la posición inicial doblando tus rodillas, asegurándote de que no colapsen hacia adentro.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda baja permanezca en contacto con el asiento durante todo el movimiento para evitar tensiones.",
+    "Concéntrate en empujar con los talones en lugar de los dedos de los pies para involucrar más los glúteos y los isquiotibiales.",
+    "Mantén un ritmo controlado; evita dejar caer el peso para prevenir lesiones.",
+    "Mantén el core comprometido para apoyar la espalda baja durante el ejercicio.",
+    "Ajusta la colocación de los pies para apuntar a diferentes músculos: más alto en la plataforma para una mayor activación de glúteos e isquiotibiales, más bajo para un mayor enfoque en los cuádriceps."
+  ],
+  "errores_comunes": [
+    "Colocar los pies demasiado altos o demasiado bajos en la plataforma, lo que lleva a una mala orientación de los grupos musculares.",
+    "Bloquear las rodillas en la parte superior del movimiento, aumentando el riesgo de tensión en las articulaciones.",
+    "Permitir que las rodillas se colapsen hacia adentro, lo que puede causar inestabilidad en las rodillas.",
+    "Usar demasiado peso, comprometiendo la forma y el control.",
+    "No activar los músculos del core, lo que resulta en tensión en la parte baja de la espalda.",
+    "No mantener una columna neutral, lo que lleva a posibles problemas de espalda.",
+    "Rango de movimiento inadecuado, impidiendo el compromiso completo del músculo.",
+    "Confiar en el impulso en lugar de movimientos controlados.",
+    "Empujar a través de los dedos de los pies en lugar de los talones, reduciendo la activación de los glúteos."
+  ]
+}

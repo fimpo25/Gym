@@ -1,0 +1,47 @@
+{
+  "nombre": "Empuje de Tríceps en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/empuje-de-triceps-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/c3ea9317-3cf5-4744-ab6d-3b1e356ef7d9.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST",
+    "SHOULDERS"
+  ],
+  "descripcion": "Los fondos en máquina se centran en aislar los músculos tríceps utilizando una máquina especializada. Este ejercicio permite un movimiento controlado y una resistencia constante, lo que lo hace ideal para desarrollar la fuerza y el tamaño de los tríceps. La máquina ofrece soporte y estabilidad, reduciendo el riesgo de lesiones y permitiendo un enfoque preciso en los tríceps.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus brazos superiores estén paralelos al suelo al agarrar las manijas.",
+    "Siéntate y agarra firmemente las manijas con un agarre neutral, manteniendo los codos cerca de tu cuerpo.",
+    "Asegúrate de que tu espalda esté recta y presionada contra el respaldo durante todo el ejercicio.",
+    "Presiona hacia abajo las manijas extendiendo los codos hasta que tus brazos estén completamente rectos.",
+    "Haz una pausa breve en la parte inferior del movimiento, apretando tus tríceps.",
+    "Vuelve lentamente a la posición inicial doblando los codos, manteniendo el control del peso.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos pegados al cuerpo para maximizar el trabajo de los tríceps.",
+    "Evita bloquear completamente los codos en la parte inferior para mantener la tensión en los tríceps.",
+    "Controla el movimiento tanto al bajar como al subir para evitar usar el impulso.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Mantén un patrón de respiración constante; exhala al presionar hacia abajo e inhala al regresar a la posición inicial.",
+    "Asegúrate de que tus hombros permanezcan relajados y no se encorven durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Inclinarse demasiado hacia adelante, reduciendo el compromiso de los tríceps.",
+    "Bloquear los codos en la parte superior, causando tensión en las articulaciones.",
+    "Usar peso excesivo, llevando a una mala forma.",
+    "No mantener los hombros hacia abajo y hacia atrás, arriesgando el pinzamiento del hombro.",
+    "Permitir que los codos se abran, reduciendo el enfoque en los tríceps.",
+    "No usar el rango completo de movimiento, limitando la activación muscular.",
+    "Apresurar el movimiento, comprometiendo el control y la efectividad.",
+    "Agarrar las manijas demasiado fuerte, causando tensión innecesaria."
+  ]
+}

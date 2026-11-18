@@ -1,0 +1,41 @@
+{
+  "nombre": "Elevación de Pantorrilla Rotatoria",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/rotary-calf-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/1cbd5faf-3112-4aff-b9ba-226000014936.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Rotary Calf Raise is an exercise targeting the calf muscles, specifically the gastrocnemius and soleus. It involves a rotary motion that engages the calves through a full range of motion, enhancing muscle development and strength. This exercise is typically performed using a specialized machine that allows for controlled movement and resistance adjustment.",
+  "como_realizar": [
+    "Adjust the seat height on the rotary calf raise machine so that your knees are slightly bent when seated.",
+    "Position your feet on the footplate with your toes pointing forward and heels hanging off the edge.",
+    "Secure your thighs under the padded lever to ensure stability during the exercise.",
+    "Begin by pushing through the balls of your feet to raise your heels as high as possible, engaging your calf muscles.",
+    "Hold the top position for a moment, then slowly lower your heels back to the starting position.",
+    "Repeat for the desired number of repetitions, maintaining control throughout the movement."
+  ],
+  "consejos": [
+    "Ensure your knees remain slightly bent throughout the exercise to avoid unnecessary strain on the joints.",
+    "Focus on a slow and controlled movement to maximize muscle engagement and prevent injury.",
+    "Keep your core engaged to maintain stability and prevent excessive movement in other parts of your body.",
+    "Exhale as you lift your heels and inhale as you lower them back down.",
+    "Start with a lighter weight to master proper form before increasing resistance."
+  ],
+  "errores_comunes": [
+    "Placing feet too high or too low on the platform, reducing calf engagement.",
+    "Locking knees, which shifts focus away from the calves and can cause joint strain.",
+    "Using excessive weight, leading to poor form and reduced range of motion.",
+    "Bouncing at the bottom of the movement, which decreases muscle activation.",
+    "Not fully extending the ankles at the top, limiting calf muscle contraction.",
+    "Allowing heels to drop too quickly, resulting in a lack of control.",
+    "Leaning forward excessively, which can shift the load away from the calves.",
+    "Neglecting to engage the core, causing instability and poor posture."
+  ]
+}

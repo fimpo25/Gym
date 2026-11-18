@@ -1,0 +1,47 @@
+{
+  "nombre": "Escaladora",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/escaladora",
+  "video_url": "https://api.smartworkout.app/asset/video/6548fbeb-3ba0-4c6a-83a5-ef524cf046d5.mp4",
+  "tags": [
+    "CARDIO",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "ADDUCTOR",
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Escaladora es una máquina de ejercicio cardiovascular que simula la acción de subir escaleras. Se enfoca principalmente en los músculos de la parte inferior del cuerpo, incluyendo los cuádriceps, isquiotibiales, glúteos y pantorrillas, al mismo tiempo que proporciona beneficios cardiovasculares. Este ejercicio ayuda a mejorar la resistencia, la fuerza y los niveles generales de condición física.",
+  "como_realizar": [
+    "Comienza subiendo a la máquina y sujetando firmemente los pasamanos.",
+    "Selecciona tu programa de entrenamiento deseado o ajusta manualmente la velocidad y la resistencia a tu nivel de condición física.",
+    "Comienza a pisar alternando la presión en cada pedal, simulando un movimiento de subir escaleras.",
+    "Mantén una postura erguida con el núcleo comprometido y evita apoyarte demasiado en los pasamanos.",
+    "Continúa el movimiento durante la duración deseada o hasta que alcances tu objetivo de fitness."
+  ],
+  "consejos": [
+    "Mantén tus movimientos suaves y controlados para evitar tensiones innecesarias en tus articulaciones.",
+    "Concéntrate en usar tus piernas para impulsar el movimiento en lugar de depender de los pasamanos para apoyo.",
+    "Ajusta el nivel de resistencia para desafiarte a medida que desarrollas fuerza y resistencia con el tiempo.",
+    "Asegúrate de usar calzado adecuado con buen agarre para evitar resbalones.",
+    "Mantente hidratado antes y después de usar el Stair Climber para mantener un rendimiento óptimo."
+  ],
+  "errores_comunes": [
+    "Apoyarse demasiado en los pasamanos, reduciendo el compromiso del tren inferior.",
+    "Dar pasos demasiado superficiales, limitando el rango de movimiento.",
+    "Permitir que las rodillas colapsen hacia adentro, aumentando el estrés en las articulaciones.",
+    "Encogerse en lugar de mantener una postura erguida.",
+    "Dar pasos demasiado rápidos, sacrificando el control y la forma.",
+    "Descuidar el compromiso del core, llevando a la inestabilidad.",
+    "No extender completamente la pierna en cada paso, minimizando la activación muscular.",
+    "Usar solo los dedos de los pies para pisar, causando tensión en las pantorrillas."
+  ]
+}

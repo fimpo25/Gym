@@ -1,0 +1,45 @@
+{
+  "nombre": "Elevación de Piernas Colgando con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/elevacion-de-piernas-colgando-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/af8b3a07-9947-401a-85a0-f726cf72363b.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Elevación de Piernas Colgado con Peso es un ejercicio avanzado para el core que se enfoca en los músculos abdominales inferiores, los flexores de la cadera y los oblicuos. Al añadir peso, se incrementa la intensidad y se requiere una mayor estabilización del core y fuerza de agarre. Este ejercicio se realiza colgándose de una barra de dominadas y levantando las piernas mientras se sostiene un peso entre los pies o se utilizan pesas en los tobillos.",
+  "como_realizar": [
+    "Comienza colgándote de una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Asegúrate de que tu cuerpo esté completamente extendido y tus pies estén fuera del suelo.",
+    "Sujeta una mancuerna o un disco de pesas entre tus pies o usa pesas de tobillo.",
+    "Activa tu núcleo y mantén las piernas rectas mientras las elevas a un ángulo de 90 grados con tu torso.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que tu núcleo esté apretado.",
+    "Baja lentamente las piernas de nuevo a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos para reducir la tensión en las articulaciones.",
+    "Concéntrate en movimientos controlados para maximizar el compromiso del core.",
+    "Evita balancear las piernas o usar el impulso para levantarlas.",
+    "Mantén la cabeza en una posición neutral y evita mirar hacia arriba o hacia abajo en exceso.",
+    "Si eres nuevo en este ejercicio, comienza sin pesas para dominar la forma primero.",
+    "Asegúrate de que tu agarre en la barra sea firme para evitar resbalones.",
+    "Exhala al levantar las piernas e inhala al bajarlas."
+  ],
+  "errores_comunes": [
+    "Balancear las piernas en lugar de levantarlas de manera controlada.",
+    "Usar el impulso para levantar las piernas en lugar de activar los músculos del core.",
+    "No mantener la parte baja de la espalda presionada contra el banco o soporte.",
+    "Permitir que los hombros se encojan o se eleven en lugar de mantenerlos estables.",
+    "Doblar las rodillas en exceso, reduciendo el compromiso de los abdominales inferiores.",
+    "No levantar las piernas lo suficientemente alto para comprometer todo el rango de movimiento.",
+    "Sostener el peso incorrectamente, lo que lleva a desequilibrio o tensión.",
+    "Arquear la espalda en exceso, lo que puede causar tensión en la parte baja de la espalda."
+  ]
+}

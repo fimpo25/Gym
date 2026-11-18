@@ -1,0 +1,51 @@
+{
+  "nombre": "Saltos al Cajón",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/box-jumps",
+  "video_url": "https://api.smartworkout.app/asset/video/e5d7fca6-f8f0-4fd9-a8d4-86d4e9f0404e.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "EXPLOSIVE",
+    "BALANCE",
+    "FUNCTIONAL",
+    "CARDIO"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS",
+    "ADDUCTOR"
+  ],
+  "descripcion": "Box jumps are a plyometric exercise that involves jumping from the ground onto a raised platform, such as a box or bench. This exercise targets the lower body muscles, including the quadriceps, hamstrings, glutes, and calves, while also engaging the core for stabilization. Box jumps are effective for improving explosive power, agility, and overall athletic performance.",
+  "como_realizar": [
+    "Stand with your feet shoulder-width apart at a comfortable distance from the box.",
+    "Engage your core and bend your knees slightly to prepare for the jump.",
+    "Swing your arms back and then forward as you explode upward, using your legs to propel yourself onto the box.",
+    "Land softly on the box with both feet flat and knees slightly bent to absorb the impact.",
+    "Stand up fully on the box to complete the movement.",
+    "Step down carefully one foot at a time and reset for the next repetition."
+  ],
+  "consejos": [
+    "Ensure the box is stable and at an appropriate height for your fitness level to prevent injury.",
+    "Focus on landing softly to reduce impact on your joints.",
+    "Keep your core engaged throughout the movement to maintain balance and control.",
+    "Start with a lower box height if you are new to box jumps and gradually increase as you become more confident.",
+    "Use your arms to generate momentum and help with the jump.",
+    "Maintain a consistent breathing pattern; exhale as you jump and inhale as you land."
+  ],
+  "errores_comunes": [
+    "Failing to engage core muscles, leading to instability during the jump.",
+    "Not using arms effectively for momentum and balance.",
+    "Landing with feet too close together, reducing stability.",
+    "Landing with knees caving inward, increasing stress on the joints.",
+    "Jumping from a flat-footed position instead of using the balls of the feet.",
+    "Not fully extending hips at the top of the jump, limiting power output.",
+    "Landing too heavily, which can strain the joints.",
+    "Not bending knees enough on landing, causing excessive impact on the legs.",
+    "Jumping down from the box instead of stepping down, increasing risk of injury.",
+    "Choosing a box height that is too high, compromising form and safety."
+  ]
+}

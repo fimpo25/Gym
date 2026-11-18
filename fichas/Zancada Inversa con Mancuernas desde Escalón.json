@@ -1,0 +1,48 @@
+{
+  "nombre": "Zancada Inversa con Mancuernas desde Escalón",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/zancada-inversa-con-mancuernas-desde-escalon",
+  "video_url": "https://api.smartworkout.app/asset/video/39c19c16-74a3-47a5-8d63-81f3da358d05.mp4",
+  "tags": [
+    "STRENGTH",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "CALVES",
+    "GLUTEUS"
+  ],
+  "descripcion": "La Zancada Inversa con Mancuernas desde un Escalón es un ejercicio compuesto para la parte inferior del cuerpo que trabaja los cuádriceps, isquiotibiales, glúteos y pantorrillas. Al realizar la zancada desde un escalón, aumentas el rango de movimiento y desafías tu equilibrio y estabilidad. Este ejercicio también involucra el core para la estabilización.",
+  "como_realizar": [
+    "Párate en un escalón o plataforma con los pies separados al ancho de las caderas, sosteniendo una mancuerna en cada mano a los lados.",
+    "Activa tu núcleo y da un paso hacia atrás con un pie, bajando tu cuerpo en una estocada hasta que tu muslo delantero esté paralelo al suelo.",
+    "Asegúrate de que tu rodilla delantera esté alineada sobre tu tobillo y que tu rodilla trasera quede justo por encima del suelo.",
+    "Empuja con el talón de tu pie delantero para regresar a la posición inicial en el escalón.",
+    "Repite con la otra pierna, alternando las piernas durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén el pecho hacia arriba y los hombros hacia atrás durante todo el movimiento para mantener una postura adecuada.",
+    "Concéntrate en un descenso lento y controlado para maximizar el compromiso muscular y prevenir lesiones.",
+    "Asegúrate de que tu rodilla delantera no se extienda más allá de tus dedos del pie para proteger la articulación de la rodilla.",
+    "Usa un espejo o pide retroalimentación para asegurar una forma y alineación adecuadas.",
+    "Comienza con pesas más ligeras para dominar la técnica antes de avanzar a mancuernas más pesadas."
+  ],
+  "errores_comunes": [
+    "Dar un paso demasiado hacia atrás, causando pérdida de equilibrio y control.",
+    "Permitir que la rodilla delantera se incline hacia adentro, llevando a una mala alineación de la rodilla.",
+    "No mantener el torso erguido, resultando en una inclinación hacia adelante.",
+    "No activar los músculos del core, reduciendo la estabilidad.",
+    "Dejar que la rodilla trasera golpee el suelo, arriesgando una lesión.",
+    "Usar el impulso en lugar de un movimiento controlado para volver a la posición de pie.",
+    "Colocar el pie delantero demasiado cerca del borde del escalón, arriesgando inestabilidad.",
+    "No mantener un ángulo de 90 grados en la rodilla delantera en la parte inferior de la zancada.",
+    "Sujetar las mancuernas demasiado flojas, comprometiendo el agarre y el control.",
+    "Descuidar empujar con el talón del pie delantero, reduciendo la activación de los glúteos."
+  ]
+}

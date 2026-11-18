@@ -1,0 +1,47 @@
+{
+  "nombre": "Dedos a la Barra",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/dedos-a-la-barra",
+  "video_url": "https://api.smartworkout.app/asset/video/1d180d72-8b8e-4cef-a5df-9b9b5511c3a2.mp4",
+  "tags": [
+    "CORE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "Dedos a la Barra es un ejercicio dinámico para el core que se enfoca principalmente en los músculos abdominales, los flexores de la cadera y la fuerza de agarre. Consiste en colgarse de una barra de dominadas y levantar los dedos de los pies para tocar la barra, lo que requiere coordinación, fuerza y flexibilidad.",
+  "como_realizar": [
+    "Comienza colgándote de una barra de dominadas con un agarre por encima del ancho de los hombros.",
+    "Activa tu núcleo e inicia el movimiento balanceando ligeramente las piernas hacia atrás.",
+    "Usa los músculos del núcleo para levantar las piernas hacia arriba, apuntando a que los dedos de los pies toquen la barra.",
+    "Mantén el control durante todo el movimiento, evitando un balanceo excesivo.",
+    "Baja las piernas de nuevo a la posición inicial de manera controlada.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu agarre sea firme y seguro en la barra para evitar resbalones.",
+    "Concéntrate en activar tus músculos centrales durante todo el movimiento.",
+    "Evita usar el impulso; el control es clave para maximizar la efectividad y la seguridad.",
+    "Si tienes dificultades para alcanzar la barra con los dedos de los pies, comienza llevando las rodillas lo más alto posible.",
+    "Exhala al levantar las piernas e inhala al bajarlas de nuevo.",
+    "Mantén los hombros comprometidos y evita que se hundan durante el ejercicio."
+  ],
+  "errores_comunes": [
+    "Balancearse excesivamente en lugar de usar un movimiento controlado.",
+    "No comprometer efectivamente los músculos del core.",
+    "Permitir que los hombros se colapsen o se encojan durante el movimiento.",
+    "No mantener una posición de cuerpo hueco durante todo el ejercicio.",
+    "Levantar las piernas usando el impulso en lugar de un compromiso muscular controlado.",
+    "No mantener las piernas rectas durante la fase ascendente.",
+    "Llevar los dedos de los pies a la barra sin extender completamente las caderas.",
+    "Bajar demasiado rápido desde la posición superior, arriesgando tensión en los hombros.",
+    "Usar un agarre demasiado suelto, lo que lleva a la pérdida de control.",
+    "Descuidar activar los dorsales para estabilizar la cintura escapular."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "nombre": "Jalón Brazo Recto con Cable a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/one-arm-straight-arm-cable-lat-pulldown",
+  "video_url": "https://api.smartworkout.app/asset/video/1bcaaf4e-af5f-4c76-af14-fb116c883891.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "The Straight One Arm Cable Pulldown targets the latissimus dorsi, teres major, and other muscles of the back. This exercise is performed using a cable machine with a single handle attachment, allowing for unilateral training and improved muscle symmetry.",
+  "como_realizar": [
+    "Attach a single handle to the high pulley of a cable machine.",
+    "Stand facing the machine with feet shoulder-width apart.",
+    "Grasp the handle with one hand, palm facing down, and step back slightly to create tension in the cable.",
+    "Bend your torso forward slightly at the hips while keeping your back straight.",
+    "Pull the handle down towards your hip while keeping your arm straight, engaging your lats and squeezing your shoulder blade.",
+    "Pause briefly at the bottom of the movement, then slowly return to the starting position.",
+    "Complete the desired number of repetitions before switching to the other arm."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your knees for stability.",
+    "Keep your core engaged throughout the exercise to support your lower back.",
+    "Focus on pulling with your back muscles rather than using your arm strength.",
+    "Avoid rotating your torso; keep it stable to isolate the target muscles effectively.",
+    "Control the movement on both the downward and upward phases to maximize muscle engagement."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to poor form and lack of control.",
+    "Allowing the shoulder to internally rotate, reducing lat engagement.",
+    "Bending the elbow during the movement, shifting focus away from the lats.",
+    "Leaning back excessively, which can strain the lower back.",
+    "Not maintaining a straight arm throughout the exercise, compromising effectiveness.",
+    "Using momentum instead of controlled movement, reducing muscle activation.",
+    "Failing to fully extend the arm at the top of the movement, limiting range of motion.",
+    "Not engaging the core, leading to instability and poor posture.",
+    "Pulling with the arm instead of initiating the movement with the lats.",
+    "Allowing the shoulder to elevate, reducing isolation of the lat muscles."
+  ]
+}

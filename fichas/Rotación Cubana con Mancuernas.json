@@ -1,0 +1,46 @@
+{
+  "nombre": "Rotación Cubana con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/hombros/rotacion-cubana-con-mancuernas",
+  "video_url": "https://api.smartworkout.app/asset/video/8fd69878-d700-4068-ab50-63ab763f1ace.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "REHAB",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "La Rotación Cubana con Mancuernas es un ejercicio que se enfoca en los músculos del manguito rotador, mejorando la estabilidad y movilidad del hombro. Involucra una combinación de rotación externa y elevación lateral, lo que lo hace efectivo para mejorar la salud del hombro y prevenir lesiones.",
+  "como_realizar": [
+    "Párate con los pies separados al ancho de los hombros, sosteniendo una mancuerna en cada mano con un agarre prono.",
+    "Levanta los brazos a la altura de los hombros, manteniendo los codos doblados a 90 grados y los brazos superiores paralelos al suelo.",
+    "Rota los antebrazos hacia arriba rotando externamente los hombros, manteniendo los codos estacionarios.",
+    "Haz una pausa breve en la parte superior del movimiento, asegurándote de que los antebrazos estén verticales.",
+    "Baja lentamente las mancuernas de nuevo a la posición inicial invirtiendo la rotación.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Comienza con pesos ligeros para centrarte en la forma y el control.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante todo el ejercicio.",
+    "Evita usar el impulso; realiza el movimiento de manera lenta y deliberada.",
+    "Asegúrate de que tus codos permanezcan a la altura de los hombros y no bajen durante la rotación.",
+    "Respira de manera constante, exhalando al rotar hacia arriba e inhalando al regresar al inicio."
+  ],
+  "errores_comunes": [
+    "Levantar demasiado peso, comprometiendo la forma y el control.",
+    "Dejar caer los codos por debajo de la altura de los hombros durante la rotación.",
+    "Usar el impulso en lugar de un movimiento controlado.",
+    "No mantener las muñecas rectas, lo que lleva a la tensión en las muñecas.",
+    "No involucrar completamente los músculos del hombro durante todo el ejercicio.",
+    "Permitir que los brazos superiores se alejen del cuerpo.",
+    "Rotar demasiado rápido, reduciendo la activación muscular.",
+    "Descuidar mantener un núcleo estable durante el movimiento."
+  ]
+}

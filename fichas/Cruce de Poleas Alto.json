@@ -1,0 +1,48 @@
+{
+  "nombre": "Cruce de Poleas Alto",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/cruce-de-poleas-alto",
+  "video_url": "https://api.smartworkout.app/asset/video/9514aef8-30ff-4652-9524-9cf4633346db.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Apertura de Pecho en Polea Alta-Baja es un ejercicio de aislamiento que se enfoca en los músculos pectorales. Implica el uso de una máquina de poleas para realizar un movimiento de apertura, comenzando con las poleas posicionadas por encima de los hombros y tirándolas hacia abajo en un arco hacia la línea media del cuerpo. Este movimiento enfatiza la parte inferior del pecho.",
+  "como_realizar": [
+    "Coloca las poleas de una máquina de cables en una posición alta por encima de la altura de los hombros.",
+    "Adjunta manijas en D a cada polea.",
+    "Párate en el centro de la máquina con los pies separados al ancho de los hombros, sosteniendo una manija en cada mano.",
+    "Da un paso adelante ligeramente para crear tensión en los cables, manteniendo una ligera flexión en los codos.",
+    "Coloca tus brazos hacia los lados a la altura de los hombros, con las palmas hacia adelante.",
+    "Exhala y lleva tus manos juntas frente a tu cuerpo en un arco amplio, manteniendo la flexión en los codos.",
+    "Aprieta los músculos del pecho en el punto máximo del movimiento.",
+    "Inhala y regresa lentamente a la posición inicial, controlando el peso en todo momento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido durante todo el ejercicio para mantener la estabilidad.",
+    "Evita bloquear los codos; mantén una ligera flexión para proteger tus articulaciones.",
+    "Concéntrate en apretar los músculos del pecho al juntar las manos.",
+    "Controla el movimiento tanto en la fase concéntrica (juntar las manos) como en la excéntrica (volver al inicio).",
+    "Ajusta el peso para que puedas realizar cada repetición con la forma adecuada sin forzar.",
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular."
+  ],
+  "errores_comunes": [
+    "Comenzar con los cables demasiado altos o demasiado bajos, lo que lleva a una mala orientación de los músculos del pecho.",
+    "Permitir que los codos se doblen excesivamente, lo que desvía el enfoque del pecho a los brazos.",
+    "Usar el impulso para balancear los cables en lugar de movimientos controlados, reduciendo el compromiso muscular.",
+    "No mantener una ligera flexión en los codos, aumentando la tensión en las articulaciones del hombro.",
+    "Sobreextender los brazos al final del movimiento, arriesgando una lesión en el hombro.",
+    "No retraer las escápulas, lo que puede llevar a una mala postura y una activación ineficaz del pecho.",
+    "Configurar el peso demasiado pesado, causando una ruptura en la forma y un rango de movimiento reducido.",
+    "Inclinarse demasiado hacia adelante o hacia atrás, comprometiendo el equilibrio y apuntando a los grupos musculares incorrectos.",
+    "No alinear las muñecas con los antebrazos, lo que lleva a la tensión en las muñecas.",
+    "Descuidar involucrar el núcleo, lo que puede resultar en inestabilidad y mala forma."
+  ]
+}

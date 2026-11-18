@@ -1,0 +1,44 @@
+{
+  "nombre": "Flexión de Brazos con Rodillas en Diamante",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/flexion-de-brazos-con-rodillas-en-diamante",
+  "video_url": "https://api.smartworkout.app/asset/video/c59c0ddb-a29e-4cdc-b760-11d01605085a.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [
+    "CHEST"
+  ],
+  "descripcion": "La Flexión Diamante de Rodillas es un ejercicio con el peso del cuerpo que se enfoca en los tríceps, el pecho y los hombros. Es una versión modificada de la flexión diamante estándar, realizada sobre las rodillas para reducir la intensidad, lo que la hace adecuada para principiantes o para aquellos que se centran en la forma y el control.",
+  "como_realizar": [
+    "Comienza en una posición de rodillas en el suelo. Coloca tus manos juntas debajo de tu pecho, formando un diamante con tus pulgares e índices.",
+    "Coloca tus rodillas a la altura de las caderas y mantén la espalda recta. Activa tu núcleo durante todo el movimiento.",
+    "Baja tu pecho hacia tus manos doblando los codos, manteniéndolos cerca de tu cuerpo.",
+    "Haz una pausa brevemente cuando tu pecho esté justo por encima de tus manos, asegurándote de mantener el control y la tensión en los músculos.",
+    "Empuja a través de tus palmas para extender tus brazos y regresar a la posición inicial.",
+    "Repite el número deseado de repeticiones, manteniendo la forma adecuada en todo momento."
+  ],
+  "consejos": [
+    "Concéntrate en mantener los codos cerca de tu cuerpo para maximizar el compromiso de los tríceps.",
+    "Mantén una línea recta desde tu cabeza hasta tus rodillas para asegurar una alineación adecuada y reducir la tensión en la parte baja de la espalda.",
+    "Controla el descenso y el ascenso para aumentar la activación muscular y prevenir lesiones.",
+    "Si encuentras difícil mantener la forma, considera reducir las repeticiones o tomar descansos entre series.",
+    "Asegúrate de que tus manos estén directamente debajo de tu pecho en todo momento para una posición y efectividad óptimas."
+  ],
+  "errores_comunes": [
+    "Manos colocadas demasiado separadas, reduciendo el compromiso de los tríceps.",
+    "Codos que se abren excesivamente, causando tensión en los hombros.",
+    "Caderas hundidas o levantadas, llevando a una mala activación del core.",
+    "No mantener el cuerpo en una línea recta desde las rodillas hasta los hombros.",
+    "Bajar solo hasta la mitad, limitando el rango de movimiento y efectividad.",
+    "Apresurar el movimiento, comprometiendo el control y la forma.",
+    "No alinear las manos directamente debajo del pecho, reduciendo la estabilidad.",
+    "Descuidar la activación de los glúteos y el core, afectando la tensión general del cuerpo."
+  ]
+}

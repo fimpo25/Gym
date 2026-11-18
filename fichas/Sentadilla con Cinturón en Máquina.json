@@ -1,0 +1,45 @@
+{
+  "nombre": "Sentadilla con Cinturón en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/machine-belt-squat",
+  "video_url": "https://api.smartworkout.app/asset/video/92d0326f-da30-40f4-a872-25166fb02fa7.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [
+    "GLUTEUS"
+  ],
+  "descripcion": "The Machine Belt Squat is a lower body exercise that targets the quadriceps, hamstrings, glutes, and calves. It uses a specialized machine that allows for squatting with reduced spinal load by placing the weight around the hips instead of on the shoulders. This exercise is ideal for those looking to build leg strength while minimizing stress on the lower back.",
+  "como_realizar": [
+    "Begin by adjusting the machine to your height and securing the belt around your hips.",
+    "Stand on the platform with feet shoulder-width apart and toes slightly pointed out.",
+    "Engage your core and maintain an upright torso throughout the movement.",
+    "Lower your body by bending at the hips and knees, keeping your chest up and knees aligned with your toes.",
+    "Descend until your thighs are parallel to the floor or as far as your mobility allows.",
+    "Push through your heels to return to the starting position, fully extending your hips and knees.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Ensure the belt is snug but comfortable around your hips to prevent slipping during the exercise.",
+    "Focus on keeping your weight distributed evenly across both feet to maintain balance.",
+    "Keep your knees tracking over your toes to avoid unnecessary strain on the joints.",
+    "Maintain a neutral spine throughout the movement by engaging your core muscles.",
+    "Control the descent and avoid bouncing at the bottom of the squat to protect your joints.",
+    "Use a full range of motion to maximize muscle engagement and effectiveness of the exercise."
+  ],
+  "errores_comunes": [
+    "Leaning too far forward, shifting weight onto toes instead of keeping it on heels.",
+    "Failing to maintain a neutral spine, resulting in excessive rounding or arching of the back.",
+    "Allowing knees to cave inward, increasing stress on knee joints.",
+    "Not descending low enough to achieve full range of motion, limiting muscle engagement.",
+    "Rising too quickly, sacrificing control and stability for speed.",
+    "Neglecting to engage core muscles, leading to poor balance and support.",
+    "Positioning feet too close together, restricting natural squat movement.",
+    "Pushing through the toes instead of driving through the heels during the ascent."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nombre": "Crunch Abdominal Sentado en Polea",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-abdominal-sentado-en-polea",
+  "video_url": "https://api.smartworkout.app/asset/video/93de91b8-220c-4325-83dd-9aacc43d46f7.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Crunch de Abdominales Sentado con Cable es un ejercicio de aislamiento que se enfoca en el recto abdominal. Implica el uso de una máquina de cables para proporcionar resistencia, permitiendo una contracción abdominal controlada y efectiva. Este ejercicio ayuda a desarrollar la fuerza y definición del núcleo.",
+  "como_realizar": [
+    "Conecta un mango de cuerda a la polea alta de una máquina de cables.",
+    "Siéntate en un banco o pelota de estabilidad frente a la máquina, con los pies planos en el suelo.",
+    "Sujeta los mangos de cuerda con ambas manos, colocándolos detrás de tu cabeza o a nivel de los hombros.",
+    "Activa tu núcleo y inclínate ligeramente hacia adelante para crear tensión en el cable.",
+    "Exhala y contrae tus abdominales para tirar de tu torso hacia abajo, llevando tus codos hacia tus rodillas.",
+    "Pausa brevemente en la parte inferior del movimiento, asegurando una contracción completa.",
+    "Inhala y regresa lentamente a la posición inicial, manteniendo la tensión en tu núcleo durante todo el tiempo."
+  ],
+  "consejos": [
+    "Mantén la espalda recta y evita usar el impulso para realizar el movimiento.",
+    "Concéntrate en usar tus músculos abdominales en lugar de tirar con los brazos.",
+    "Controla la velocidad del movimiento para maximizar el compromiso muscular y prevenir lesiones.",
+    "Asegúrate de que el rango de movimiento sea cómodo y no esfuerce tu zona lumbar.",
+    "Ajusta el peso en la máquina de cables para que coincida con tu nivel de condición física, apuntando a 10-15 repeticiones por serie."
+  ],
+  "errores_comunes": [
+    "Tirar con los brazos en lugar de activar los músculos del core.",
+    "Redondear excesivamente la parte baja de la espalda, lo que lleva a una mala postura.",
+    "Usar el impulso en lugar de movimientos controlados.",
+    "Colocar los pies demasiado hacia adelante, reduciendo el compromiso del core.",
+    "Inclinarse demasiado hacia atrás, desviando el enfoque de los abdominales.",
+    "Rango de movimiento inadecuado, limitando la activación muscular.",
+    "No mantener una columna neutral durante todo el ejercicio.",
+    "Permitir que el cable tire del cuerpo hacia atrás demasiado rápido.",
+    "No alinear el cable directamente con la línea de tracción."
+  ]
+}

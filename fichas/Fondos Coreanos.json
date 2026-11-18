@@ -1,0 +1,45 @@
+{
+  "nombre": "Fondos Coreanos",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/fondos-coreanos",
+  "video_url": "https://api.smartworkout.app/asset/video/8882f5e4-8e0a-4d6a-8555-9614262afcac.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS",
+    "TRICEPS"
+  ],
+  "descripcion": "El Fondo Coreano es un ejercicio avanzado de peso corporal que se enfoca en los tríceps, hombros y pecho. Implica un patrón de movimiento único que requiere una fuerza y estabilidad significativas en la parte superior del cuerpo. Este ejercicio se realiza típicamente en barras paralelas y es conocido por su transición dinámica de un fondo a una posición horizontal.",
+  "como_realizar": [
+    "Comienza posicionándote entre barras paralelas, agarrándolas firmemente con las palmas hacia adentro.",
+    "Levanta tu cuerpo del suelo enderezando los brazos, asegurándote de que tus hombros estén directamente sobre tus muñecas.",
+    "Baja tu cuerpo doblando los codos hasta que tus brazos superiores estén paralelos al suelo.",
+    "Al llegar al fondo de la inmersión, inclínate hacia adelante y extiende tus piernas detrás de ti, pasando a una posición horizontal.",
+    "Mantén esta posición brevemente, activando tu núcleo y manteniendo una línea recta desde la cabeza hasta los talones.",
+    "Regresa a la posición inicial invirtiendo el movimiento, llevando tus piernas de nuevo debajo de ti y empujando hacia arriba a través de tus brazos."
+  ],
+  "consejos": [
+    "Concéntrate en mantener el control durante el movimiento para evitar balanceos.",
+    "Activa los músculos del core para estabilizar tu cuerpo durante la fase de transición.",
+    "Mantén los codos cerca de tu cuerpo para maximizar el trabajo de los tríceps.",
+    "Practica en barras más bajas inicialmente si eres nuevo en este ejercicio para ganar confianza y fuerza.",
+    "Asegúrate de calentar adecuadamente los hombros y las muñecas antes de intentar el Korean Dip para reducir el riesgo de lesiones."
+  ],
+  "errores_comunes": [
+    "No mantener una línea recta del cuerpo, lo que lleva a un arqueo o hundimiento excesivo.",
+    "Permitir que los hombros se inclinen hacia adelante, reduciendo el compromiso escapular.",
+    "Caer demasiado rápido en la inmersión sin un descenso controlado.",
+    "No lograr un rango completo de movimiento al detenerse demasiado alto o ir demasiado bajo.",
+    "Descuidar mantener los codos cerca del cuerpo, causando que se abran.",
+    "Usar el impulso en lugar de la fuerza muscular para volver a subir.",
+    "Compromiso inadecuado del núcleo, lo que lleva a la inestabilidad.",
+    "Sobreextender el cuello mirando hacia arriba o hacia abajo en lugar de mantenerlo neutral."
+  ]
+}

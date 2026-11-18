@@ -1,0 +1,47 @@
+{
+  "nombre": "Cruce de Poleas en Banco Inclinado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/cruce-de-poleas-en-banco-inclinado",
+  "video_url": "https://api.smartworkout.app/asset/video/88828613-9780-4e76-8fa3-208a5be4e452.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [
+    "SHOULDERS"
+  ],
+  "descripcion": "Las Aperturas en Cable con Banco Inclinado son un ejercicio de aislamiento que se enfoca en la parte superior de los músculos pectorales. Implica el uso de una máquina de cables con un banco ajustable en posición inclinada. Este ejercicio ayuda a desarrollar la definición y fuerza del pecho, enfatizando las fibras superiores del pecho.",
+  "como_realizar": [
+    "Ajusta un banco a un ángulo de inclinación de 30-45 grados y colócalo entre dos poleas de cable.",
+    "Coloca los accesorios de manija en D en las poleas bajas.",
+    "Siéntate en el banco con los pies planos en el suelo y agarra cada manija con un agarre neutral.",
+    "Recuéstate contra el banco, manteniendo la espalda recta y el núcleo comprometido.",
+    "Extiende tus brazos por encima del pecho con una ligera flexión en los codos, palmas enfrentadas.",
+    "Inhala y baja lentamente los brazos hacia los lados en un arco amplio hasta sentir un estiramiento en el pecho.",
+    "Exhala y lleva los brazos de regreso a la posición inicial, apretando los músculos del pecho en la parte superior del movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén una ligera flexión en los codos durante todo el movimiento para reducir el estrés en las articulaciones.",
+    "Concéntrate en apretar los músculos del pecho en la parte superior del movimiento para una contracción máxima.",
+    "Mantén tus movimientos controlados y evita que las pesas tiren demasiado hacia atrás tus brazos para prevenir tensión en los hombros.",
+    "Asegúrate de que tus hombros permanezcan hacia abajo y hacia atrás, evitando cualquier encogimiento durante el ejercicio.",
+    "Ajusta el ángulo del banco si es necesario para apuntar a diferentes áreas del pecho de manera más efectiva."
+  ],
+  "errores_comunes": [
+    "Permitir que los codos se doblen excesivamente, convirtiendo el fly en un press.",
+    "Ajustar el banco con una inclinación demasiado pronunciada, cambiando el enfoque del pecho a los hombros.",
+    "No mantener una ligera flexión en los codos, aumentando la tensión en las articulaciones.",
+    "Dejar que los cables tiren demasiado hacia atrás los brazos, arriesgando tensión en los hombros.",
+    "No retraer las escápulas, reduciendo el compromiso del pecho.",
+    "Usar impulso en lugar de movimientos controlados, disminuyendo la efectividad.",
+    "Acercar demasiado las manijas, perdiendo tensión en el pecho.",
+    "Arquear excesivamente la espalda, comprometiendo la forma y la estabilidad.",
+    "No mantener las muñecas neutrales, lo que puede llevar a una posible tensión en las muñecas."
+  ]
+}

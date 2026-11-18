@@ -1,0 +1,43 @@
+{
+  "nombre": "Extensión de Tríceps con Katana",
+  "nombre_ingles": "",
+  "grupo_muscular": "triceps",
+  "musculo_categoria": "TRICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/tr%C3%ADceps/extension-de-triceps-con-katana",
+  "video_url": "https://api.smartworkout.app/asset/video/25d5f2cc-d1dc-4814-add6-c04d422394b4.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "TRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Extensión de Tríceps Katana es un ejercicio de aislamiento que se enfoca en el tríceps braquial, especialmente en la cabeza larga. Este ejercicio se realiza utilizando una máquina de cables con un accesorio de cuerda, lo que permite un rango completo de movimiento y tensión continua en los tríceps.",
+  "como_realizar": [
+    "Coloca un mango de cuerda en la polea alta de una máquina de cables.",
+    "Ponte de pie de espaldas a la máquina, sosteniendo la cuerda con ambas manos por encima de tu cabeza, con los codos doblados y cerca de tus orejas.",
+    "Da un paso adelante ligeramente para crear tensión en el cable.",
+    "Extiende completamente tus brazos enderezando los codos, manteniendo los brazos superiores estacionarios.",
+    "Haz una pausa breve en la parte inferior del movimiento, asegurando la contracción completa de los tríceps.",
+    "Vuelve lentamente a la posición inicial doblando los codos.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén tu núcleo comprometido para mantener el equilibrio y evitar el arqueo de la parte baja de la espalda.",
+    "Concéntrate en mover solo tus antebrazos; mantén tus brazos superiores estacionarios durante todo el ejercicio.",
+    "Usa un movimiento controlado para evitar usar el impulso, lo que reduce la efectividad.",
+    "Asegúrate de que tus codos permanezcan cerca de tu cabeza durante todo el movimiento.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de aumentar la resistencia.",
+    "Exhala al extender tus brazos e inhala al regresar a la posición inicial."
+  ],
+  "errores_comunes": [
+    "Los codos se abren en lugar de mantenerse cerca de la cabeza, reduciendo el compromiso de los tríceps.",
+    "Usar el impulso para balancear las pesas en lugar de movimientos controlados, lo que lleva a una mala activación muscular.",
+    "Arquear excesivamente la parte baja de la espalda, lo que puede tensar la columna vertebral.",
+    "Permitir que las muñecas se doblen, causando un estrés innecesario en las articulaciones.",
+    "No extender completamente los brazos, limitando el rango de movimiento y la efectividad.",
+    "No mantener el núcleo comprometido, lo que lleva a inestabilidad y reducción de potencia.",
+    "Apresurarse en las repeticiones, lo que compromete la forma y el control."
+  ]
+}

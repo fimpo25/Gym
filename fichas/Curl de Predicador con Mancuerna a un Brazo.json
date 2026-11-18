@@ -1,0 +1,37 @@
+{
+  "nombre": "Curl de Predicador con Mancuerna a un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "biceps",
+  "musculo_categoria": "BICEPS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/b%C3%ADceps/curl-de-predicador-con-mancuerna-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/01af56f1-0920-42dd-bb13-5b6bb683c1e0.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BICEPS"
+  ],
+  "musculos_secundarios": [
+    "FOREARMS"
+  ],
+  "descripcion": "El Curl de Bíceps en Banco Scott con Mancuerna a Una Mano es un ejercicio de aislamiento que se enfoca en el bíceps braquial. Consiste en flexionar una mancuerna con un brazo mientras el brazo superior está apoyado en un banco Scott, permitiendo un rango completo de movimiento y minimizando el impulso. Este ejercicio enfatiza la contracción máxima del bíceps y ayuda a desarrollar la fuerza y el tamaño del brazo.",
+  "como_realizar": [
+    "Siéntate en un banco de predicador con los pies planos en el suelo y el pecho contra el cojín.",
+    "Sujeta una mancuerna en una mano con un agarre supino, el brazo completamente extendido, y coloca tu brazo superior en el cojín del banco.",
+    "Mantén la muñeca recta y el codo inmóvil durante todo el movimiento.",
+    "Flexiona la mancuerna hacia arriba contrayendo los bíceps hasta que el antebrazo esté vertical o ligeramente más allá.",
+    "Haz una breve pausa en la parte superior del movimiento para maximizar la contracción.",
+    "Baja lentamente la mancuerna de nuevo a la posición inicial, extendiendo completamente el brazo.",
+    "Repite el número deseado de repeticiones antes de cambiar de brazo."
+  ],
+  "consejos": [
+    "Asegúrate de que tu brazo superior permanezca en contacto con el cojín para aislar efectivamente los bíceps.",
+    "Usa un movimiento controlado para evitar usar el impulso, enfocándote en la contracción muscular.",
+    "Evita movimientos de balanceo o sacudidas para mantener la tensión en los bíceps durante todo el ejercicio.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a mancuernas más pesadas.",
+    "Exhala mientras subes el curl e inhala mientras bajas la mancuerna.",
+    "Mantén tu núcleo comprometido para mantener la estabilidad durante el ejercicio."
+  ],
+  "errores_comunes": []
+}

@@ -1,0 +1,43 @@
+{
+  "nombre": "Estiramiento de Cuádriceps Acostado",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/piernas/estiramiento-de-cuadriceps-acostado",
+  "video_url": "https://api.smartworkout.app/asset/video/5e379c49-8da6-4d2b-9b42-613f5e87fc4c.mp4",
+  "tags": [
+    "STRETCH",
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "QUADRICEPS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Estiramiento de Cuádriceps Acostado es un ejercicio efectivo para aumentar la flexibilidad en los músculos cuádriceps ubicados en la parte frontal del muslo. Este estiramiento ayuda a mejorar el rango de movimiento, reducir la tensión muscular y prevenir lesiones. Es particularmente beneficioso para atletas e individuos involucrados en actividades que requieren piernas fuertes y flexibles.",
+  "como_realizar": [
+    "Acuéstate de lado sobre una superficie plana, asegurándote de que tu cuerpo esté alineado en una línea recta.",
+    "Dobla la rodilla de tu pierna superior y lleva el talón hacia tus glúteos.",
+    "Alcanza hacia atrás con tu mano del mismo lado para agarrar tu tobillo o pie.",
+    "Tira suavemente de tu tobillo hacia tus glúteos hasta que sientas un estiramiento en la parte frontal de tu muslo.",
+    "Mantén el estiramiento durante 20-30 segundos, manteniendo una respiración constante.",
+    "Libera el estiramiento lentamente y cambia de lado para repetir con la otra pierna."
+  ],
+  "consejos": [
+    "Mantén tus caderas alineadas y evita que se inclinen hacia adelante o hacia atrás durante el estiramiento.",
+    "Concéntrate en mantener una línea recta desde tu cabeza hasta tu coxis para asegurar una alineación adecuada.",
+    "Si te resulta difícil alcanzar tu tobillo, utiliza una correa o toalla alrededor de tu pie para ayudar con el estiramiento.",
+    "Asegúrate de no forzar el estiramiento; debe ser suave y no causar dolor.",
+    "Realiza este estiramiento después de un entrenamiento cuando los músculos estén calientes para obtener mejores ganancias de flexibilidad."
+  ],
+  "errores_comunes": [
+    "Tirar del talón con demasiada fuerza hacia los glúteos, causando tensión en la rodilla.",
+    "Permitir que la parte baja de la espalda se arquee excesivamente, reduciendo la efectividad del estiramiento.",
+    "No mantener la pelvis neutral, lo que lleva a un estiramiento incorrecto.",
+    "Usar el impulso para tirar de la pierna, comprometiendo el control y la precisión.",
+    "No involucrar el core, resultando en una mala estabilización.",
+    "Colocar la rodilla demasiado lejos del suelo, limitando el estiramiento.",
+    "Torcer el torso, lo que desvía el enfoque de los cuádriceps.",
+    "Mantener el estiramiento por un tiempo demasiado corto para lograr beneficios."
+  ]
+}

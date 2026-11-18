@@ -1,0 +1,41 @@
+{
+  "nombre": "Curl Inverso de Muñeca con Mancuerna a Un Brazo",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/curl-inverso-de-muneca-con-mancuerna-a-un-brazo",
+  "video_url": "https://api.smartworkout.app/asset/video/f3357eb8-2440-42ad-b5c2-b8cac7496724.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "El Curl de Muñeca Inversa con Mancuerna a Una Mano se enfoca en los músculos extensores del antebrazo. Este ejercicio se realiza utilizando una mancuerna para extender la muñeca en un movimiento inverso, centrándose en fortalecer y aumentar la resistencia en los músculos del antebrazo.",
+  "como_realizar": [
+    "Siéntate en un banco con los pies planos en el suelo. Sostén una mancuerna en una mano con un agarre por encima.",
+    "Apoya tu antebrazo en tu muslo o en una superficie plana, permitiendo que tu muñeca cuelgue sobre el borde.",
+    "Comienza con tu muñeca en una posición neutral, luego extiende lentamente tu muñeca hacia arriba, levantando la mancuerna.",
+    "Pausa en la parte superior del movimiento por un momento, sintiendo la contracción en tu antebrazo.",
+    "Baja la mancuerna de nuevo a la posición inicial de manera controlada.",
+    "Repite el número deseado de repeticiones, luego cambia al otro brazo."
+  ],
+  "consejos": [
+    "Mantén tus movimientos lentos y controlados para maximizar el compromiso muscular.",
+    "Evita usar el impulso; concéntrate en aislar los músculos del antebrazo.",
+    "Mantén una posición neutral de la muñeca al inicio para prevenir tensiones.",
+    "Asegúrate de que tu codo permanezca estacionario durante todo el ejercicio.",
+    "Usa un peso más ligero si no puedes controlar el movimiento adecuadamente."
+  ],
+  "errores_comunes": [
+    "Usar demasiado peso, lo que lleva a la pérdida de control y mala forma.",
+    "Doblar el codo en lugar de mantenerlo estacionario, reduciendo el compromiso de la muñeca.",
+    "Permitir que el antebrazo se levante del banco o del muslo, disminuyendo la estabilidad.",
+    "Rizar la muñeca demasiado hacia adelante, causando tensión innecesaria.",
+    "No extender completamente la muñeca hacia abajo, limitando el rango de movimiento.",
+    "Usar impulso en lugar de movimientos controlados de la muñeca.",
+    "Agarrar la mancuerna demasiado fuerte, causando fatiga en el antebrazo.",
+    "Colocar la muñeca incorrectamente, lo que lleva a una activación muscular desigual."
+  ]
+}

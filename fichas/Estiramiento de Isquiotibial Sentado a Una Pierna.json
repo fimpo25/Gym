@@ -1,0 +1,44 @@
+{
+  "nombre": "Estiramiento de Isquiotibial Sentado a Una Pierna",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/seated-single-leg-hamstring-stretch",
+  "video_url": "https://api.smartworkout.app/asset/video/d3b31035-9680-437b-a9e3-3e8a03a95321.mp4",
+  "tags": [
+    "STRETCH",
+    "MOBILITY",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "HAMSTRINGS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Seated Single Leg Hamstring Stretch is a flexibility exercise targeting the hamstring muscles located at the back of the thigh. This stretch helps improve flexibility, reduce muscle tension, and enhance overall lower body mobility. It is particularly beneficial for athletes and individuals who engage in activities that require strong and flexible legs.",
+  "como_realizar": [
+    "Sit on the floor with your legs extended straight in front of you.",
+    "Bend your right knee and place the sole of your right foot against the inner thigh of your left leg.",
+    "Keep your left leg straight and toes pointing towards the ceiling.",
+    "Inhale deeply, then slowly exhale as you lean forward from your hips, reaching towards your left foot with both hands.",
+    "Maintain a straight back and avoid rounding your shoulders as you stretch.",
+    "Hold the stretch for 15-30 seconds, feeling a gentle pull along the back of your left thigh.",
+    "Slowly return to the starting position and switch legs to repeat on the other side."
+  ],
+  "consejos": [
+    "Ensure your movements are slow and controlled to prevent injury.",
+    "Focus on keeping your back straight to maximize the effectiveness of the stretch.",
+    "If you cannot reach your foot, aim to reach as far as comfortable without straining.",
+    "Breathe deeply throughout the stretch to help relax your muscles.",
+    "Perform this stretch after a workout or as part of a cool-down routine for best results."
+  ],
+  "errores_comunes": [
+    "Rounding the back instead of hinging at the hips, reducing hamstring engagement.",
+    "Locking the knee of the stretched leg, increasing tension on the joint rather than the muscle.",
+    "Allowing the foot of the stretched leg to rotate outward, decreasing stretch effectiveness.",
+    "Bending the supporting leg excessively, leading to an unstable base.",
+    "Pulling on the toes instead of reaching towards them, risking strain on the calf and ankle.",
+    "Failing to engage the core, resulting in poor posture and reduced stretch efficiency.",
+    "Leaning too far forward, causing overstretching and potential muscle strain.",
+    "Holding the breath, which can increase tension and reduce relaxation in the muscles."
+  ]
+}

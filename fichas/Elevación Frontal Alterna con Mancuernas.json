@@ -1,0 +1,44 @@
+{
+  "nombre": "Elevación Frontal Alterna con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-alternate-front-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/822b1ddf-57d4-44b3-b930-06e934167318.mp4",
+  "tags": [
+    "STRENGTH",
+    "PUSH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Dumbbell Alternate Front Raise is an isolation exercise targeting the anterior deltoids. It involves lifting dumbbells in front of the body alternately, which helps in developing shoulder strength and definition. This exercise also engages the upper chest and traps to a lesser extent.",
+  "como_realizar": [
+    "Stand with feet shoulder-width apart, holding a dumbbell in each hand with a neutral grip.",
+    "Keep your arms straight but not locked, and position the dumbbells in front of your thighs.",
+    "Engage your core and maintain a slight bend in your knees.",
+    "Raise one dumbbell in front of you to shoulder height, keeping your palm facing down.",
+    "Lower the dumbbell back to the starting position with control.",
+    "Repeat the movement with the opposite arm.",
+    "Continue alternating arms for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a controlled motion to avoid using momentum.",
+    "Keep your back straight and avoid leaning backward as you lift the weights.",
+    "Focus on lifting with your shoulders, not your arms or back.",
+    "Exhale as you lift the dumbbell and inhale as you lower it.",
+    "Start with lighter weights to ensure proper form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Swinging the dumbbells using momentum instead of controlled lifting.",
+    "Raising the dumbbells above shoulder height, causing unnecessary strain.",
+    "Leaning back to compensate for weight, risking lower back strain.",
+    "Using excessively heavy weights, leading to poor form and control.",
+    "Locking the elbows instead of keeping a slight bend.",
+    "Not engaging the core, resulting in instability and poor posture.",
+    "Allowing shoulders to shrug, reducing focus on the front deltoids.",
+    "Failing to keep wrists straight, leading to potential wrist strain.",
+    "Neglecting to lower the dumbbells slowly, missing eccentric muscle engagement."
+  ]
+}

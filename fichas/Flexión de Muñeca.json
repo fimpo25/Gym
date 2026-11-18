@@ -1,0 +1,46 @@
+{
+  "nombre": "Flexión de Muñeca",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/flexion-de-muneca",
+  "video_url": "https://api.smartworkout.app/asset/video/d9a6c488-ede0-4dcd-8611-0bd194e94614.mp4",
+  "tags": [
+    "STRENGTH",
+    "MOBILITY",
+    "BALANCE",
+    "FUNCTIONAL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "La Flexión de Muñeca es un ejercicio con el peso corporal que se enfoca en los antebrazos y las muñecas, mejorando la fuerza y flexibilidad en estas áreas. Se realiza con el dorso de las manos en el suelo, requiriendo equilibrio y control. Este ejercicio es beneficioso para atletas que buscan mejorar la estabilidad de las muñecas y la resistencia de los antebrazos.",
+  "como_realizar": [
+    "Comienza arrodillándote en el suelo, colocando tus manos en el suelo con el dorso de las manos hacia abajo y los dedos apuntando hacia tu cuerpo.",
+    "Asegúrate de que tus muñecas estén directamente debajo de tus hombros y tus rodillas debajo de tus caderas.",
+    "Activa tu núcleo para mantener una línea recta desde tu cabeza hasta tus rodillas.",
+    "Baja lentamente tu pecho hacia el suelo doblando los codos, manteniendo tus muñecas estables.",
+    "Pausa brevemente en la parte inferior, luego empuja a través del dorso de tus manos para regresar a la posición inicial.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Calienta bien tus muñecas antes de intentar este ejercicio para prevenir lesiones.",
+    "Comienza con un rango de movimiento pequeño si eres nuevo en las flexiones de muñeca, aumentando gradualmente a medida que ganas fuerza.",
+    "Concéntrate en mantener el control durante todo el movimiento para maximizar la efectividad y la seguridad.",
+    "Mantén los codos cerca de tu cuerpo para reducir la tensión en las muñecas.",
+    "Si experimentas incomodidad, intenta ajustar el ángulo de tus manos o reduce el número de repeticiones."
+  ],
+  "errores_comunes": [
+    "Colocar las manos demasiado separadas, reduciendo la estabilidad y el control.",
+    "Permitir que los codos se abran, llevando a un compromiso inadecuado de los músculos de la muñeca y el antebrazo.",
+    "No mantener las muñecas alineadas con los hombros, causando tensión en las articulaciones.",
+    "Doblar las muñecas en exceso, aumentando el riesgo de lesión.",
+    "No mantener una línea recta desde la cabeza hasta los talones, comprometiendo el compromiso del core.",
+    "Dejar caer las caderas demasiado bajas, reduciendo la activación del core y aumentando la tensión en la parte baja de la espalda.",
+    "Realizar las repeticiones demasiado rápido, sacrificando la forma por la velocidad.",
+    "No extender completamente los brazos en la parte superior de la flexión, limitando el rango de movimiento.",
+    "Descuidar el compromiso del core, llevando a inestabilidad y mala forma.",
+    "Permitir que los hombros se colapsen, reduciendo el compromiso de la parte superior del cuerpo."
+  ]
+}

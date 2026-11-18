@@ -1,0 +1,52 @@
+{
+  "nombre": "Salto a la Cuerda",
+  "nombre_ingles": "",
+  "grupo_muscular": "piernas",
+  "musculo_categoria": "LEGS",
+  "url": "https://smartworkout.app/en/exercise-library/legs/jump-rope",
+  "video_url": "https://api.smartworkout.app/asset/video/41a04bcf-e0ef-40c5-bd4e-4499a4c281ad.mp4",
+  "tags": [
+    "PLYOMETRIC",
+    "CARDIO",
+    "BALANCE",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CALVES"
+  ],
+  "musculos_secundarios": [
+    "ABS",
+    "HAMSTRINGS",
+    "GLUTEUS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "Jump rope is a cardiovascular exercise that involves jumping over a swinging rope. It enhances coordination, agility, and cardiovascular endurance. This exercise can be performed at varying intensities and is effective for burning calories and improving overall fitness.",
+  "como_realizar": [
+    "Choose a rope of appropriate length; when you stand on the middle of the rope, the handles should reach your armpits.",
+    "Hold the handles with a firm grip, keeping your elbows close to your body.",
+    "Stand with your feet together on a flat surface, maintaining an upright posture.",
+    "Swing the rope over your head using your wrists, not your arms.",
+    "Jump off the ground just enough to clear the rope, landing softly on the balls of your feet.",
+    "Maintain a steady rhythm and keep your jumps consistent in height and speed."
+  ],
+  "consejos": [
+    "Start with short sessions to build endurance and gradually increase duration as you become more comfortable.",
+    "Focus on wrist movement rather than arm movement to conserve energy and maintain control.",
+    "Keep your core engaged to maintain balance and stability throughout the exercise.",
+    "Wear supportive athletic shoes to cushion your feet and reduce impact stress.",
+    "Practice different footwork patterns like alternating feet or high knees to add variety and challenge.",
+    "Ensure you have enough space around you to avoid tripping or hitting obstacles with the rope."
+  ],
+  "errores_comunes": [
+    "Jumping too high, leading to unnecessary fatigue and reduced control.",
+    "Using arms excessively instead of wrists to turn the rope.",
+    "Keeping shoulders tense, causing fatigue and inefficient movement.",
+    "Landing heavily on heels instead of the balls of the feet.",
+    "Failing to maintain a consistent rhythm, disrupting coordination.",
+    "Holding the rope handles too tightly, causing tension in arms.",
+    "Not engaging core muscles, leading to poor posture and balance.",
+    "Allowing the rope to hit the ground too far in front or behind.",
+    "Jumping with knees locked, increasing impact and injury risk.",
+    "Looking down at feet, causing neck strain and poor alignment."
+  ]
+}

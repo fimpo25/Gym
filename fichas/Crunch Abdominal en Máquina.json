@@ -1,0 +1,37 @@
+{
+  "nombre": "Crunch Abdominal en Máquina",
+  "nombre_ingles": "",
+  "grupo_muscular": "abdominales",
+  "musculo_categoria": "ABS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/abdominales/crunch-abdominal-en-maquina",
+  "video_url": "https://api.smartworkout.app/asset/video/9cfb3911-1f0e-4377-bf77-57b509c1b924.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "ABS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Los Crunches Abdominales en Máquina se enfocan en el músculo recto abdominal, comúnmente conocido como el músculo del 'six-pack'. Este ejercicio se realiza utilizando una máquina especializada que proporciona resistencia, permitiendo contracciones abdominales controladas y aisladas. Es ideal para desarrollar la fuerza del núcleo y mejorar la definición abdominal.",
+  "como_realizar": [
+    "Ajusta la altura del asiento para que tus rodillas estén en un ángulo de 90 grados cuando estés sentado.",
+    "Selecciona un peso apropiado en la pila de la máquina.",
+    "Siéntate en la máquina con la espalda presionada contra el respaldo y los pies planos en el suelo.",
+    "Agarra las manijas o coloca tus brazos como lo indique el diseño de la máquina.",
+    "Activa tu núcleo tirando de tu ombligo hacia tu columna vertebral.",
+    "Exhala mientras contraes tus músculos abdominales para llevar tu pecho hacia tus rodillas, manteniendo un movimiento lento y controlado.",
+    "Pausa brevemente en el pico de la contracción, asegurando máxima tensión en los abdominales.",
+    "Inhala mientras regresas lentamente a la posición inicial, manteniendo el control durante todo el movimiento.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Mantén un ritmo lento y controlado para maximizar el compromiso muscular y reducir el riesgo de lesiones.",
+    "Concéntrate en usar tus músculos abdominales en lugar de tirar con tus brazos o piernas.",
+    "Mantén el cuello relajado para evitar tensiones; no tires con la cabeza o el cuello.",
+    "Asegúrate de respirar correctamente: exhala durante la contracción e inhala durante la liberación.",
+    "Comienza con un peso más ligero para dominar la forma antes de aumentar la resistencia.",
+    "Ajusta la configuración de la máquina para adaptarse al tamaño de tu cuerpo para un rendimiento y comodidad óptimos."
+  ],
+  "errores_comunes": []
+}

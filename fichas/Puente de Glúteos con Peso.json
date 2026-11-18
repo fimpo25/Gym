@@ -1,0 +1,49 @@
+{
+  "nombre": "Puente de Glúteos con Peso",
+  "nombre_ingles": "",
+  "grupo_muscular": "gluteos",
+  "musculo_categoria": "GLUTEUS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/gl%C3%BAteos/puente-de-gluteos-con-peso",
+  "video_url": "https://api.smartworkout.app/asset/video/03924d42-784a-4b17-9c6d-b3d63c22ac7c.mp4",
+  "tags": [
+    "STRENGTH",
+    "CORE"
+  ],
+  "musculo_primario": [
+    "GLUTEUS"
+  ],
+  "musculos_secundarios": [
+    "HAMSTRINGS",
+    "QUADRICEPS"
+  ],
+  "descripcion": "El Puente de Glúteos con Peso es un ejercicio de fuerza que se enfoca en los músculos glúteos, isquiotibiales y el core. Consiste en levantar las caderas del suelo mientras se sostiene un peso sobre la pelvis, mejorando la activación muscular y la fuerza en la parte inferior del cuerpo.",
+  "como_realizar": [
+    "Acuéstate de espaldas con las rodillas dobladas y los pies planos en el suelo, a la altura de las caderas.",
+    "Coloca un peso, como una barra o una mancuerna, sobre tu pelvis. Sujétalo firmemente con ambas manos.",
+    "Activa tu núcleo y aprieta tus glúteos.",
+    "Presiona a través de tus talones para levantar tus caderas hacia el techo hasta que tu cuerpo forme una línea recta desde los hombros hasta las rodillas.",
+    "Mantén la posición superior por un momento, asegurándote de que tus glúteos estén completamente contraídos.",
+    "Baja lentamente tus caderas de nuevo a la posición inicial sin dejar que toquen el suelo.",
+    "Repite durante el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tus pies estén posicionados correctamente; demasiado adelante o demasiado cerca puede reducir la efectividad.",
+    "Mantén tu núcleo comprometido durante todo el movimiento para proteger tu zona lumbar.",
+    "Evita arquear la espalda en la parte superior del movimiento; concéntrate en apretar los glúteos.",
+    "Controla el descenso para maximizar el compromiso muscular y prevenir lesiones.",
+    "Comienza con un peso más ligero para dominar la forma antes de avanzar a cargas más pesadas.",
+    "Mantén una presión uniforme a través de ambos talones para asegurar una activación muscular equilibrada."
+  ],
+  "errores_comunes": [
+    "Colocar el peso demasiado alto en el estómago, lo que lleva a una distribución ineficaz de la carga.",
+    "Permitir que las rodillas colapsen hacia adentro, reduciendo el compromiso de los glúteos y aumentando la tensión en las rodillas.",
+    "Hiperextender la parte baja de la espalda en la parte superior del movimiento, lo que puede causar molestias en la espalda.",
+    "No alinear correctamente los pies, lo que puede llevar a una activación desigual de los músculos.",
+    "No comprometer el core, lo que resulta en pérdida de estabilidad y control.",
+    "Usar el impulso para levantar el peso en lugar de una contracción muscular controlada.",
+    "Levantar los talones del suelo, lo que disminuye la activación de los glúteos.",
+    "No apretar los glúteos en la parte superior del movimiento, reduciendo la efectividad del ejercicio.",
+    "Permitir que la cabeza se levante del suelo, causando tensión en el cuello.",
+    "Bajar las caderas demasiado rápido, lo que reduce el tiempo bajo tensión para los músculos."
+  ]
+}

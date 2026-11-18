@@ -1,0 +1,42 @@
+{
+  "nombre": "Elevación Lateral Sentado con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "hombros",
+  "musculo_categoria": "SHOULDERS",
+  "url": "https://smartworkout.app/en/exercise-library/shoulders/dumbbell-seated-lateral-raise",
+  "video_url": "https://api.smartworkout.app/asset/video/4dd16830-39e0-47aa-8ae9-5f6c31b00d39.mp4",
+  "tags": [
+    "STRENGTH"
+  ],
+  "musculo_primario": [
+    "SHOULDERS"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Dumbbell Seated Lateral Raise is an isolation exercise targeting the lateral deltoid muscles. It helps in building shoulder width and improving shoulder definition. This exercise is performed while seated, which minimizes the use of momentum and focuses on the deltoids.",
+  "como_realizar": [
+    "Sit on a bench with your feet flat on the floor, holding a dumbbell in each hand at your sides.",
+    "Keep your back straight and engage your core for stability.",
+    "With a slight bend in your elbows, raise the dumbbells out to the sides until they reach shoulder height.",
+    "Pause briefly at the top of the movement, ensuring your elbows are slightly higher than your wrists.",
+    "Slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Maintain a slight bend in your elbows throughout the movement to reduce strain on the joints.",
+    "Focus on lifting with your shoulders rather than using momentum or swinging the weights.",
+    "Keep your palms facing down as you lift to better target the lateral deltoids.",
+    "Exhale as you lift the weights and inhale as you lower them.",
+    "Start with lighter weights to ensure proper form and gradually increase as you build strength.",
+    "Avoid shrugging your shoulders during the lift; keep them relaxed."
+  ],
+  "errores_comunes": [
+    "Using momentum by swinging the weights instead of lifting with controlled motion.",
+    "Leaning too far forward or backward, compromising shoulder engagement.",
+    "Lifting the dumbbells too high, engaging traps instead of deltoids.",
+    "Allowing wrists to bend, reducing tension on the shoulders.",
+    "Failing to keep elbows slightly bent, leading to joint strain.",
+    "Raising shoulders towards ears, which reduces shoulder isolation.",
+    "Not maintaining a neutral spine, affecting posture and muscle activation.",
+    "Starting with too heavy weights, causing form breakdown and potential strain."
+  ]
+}

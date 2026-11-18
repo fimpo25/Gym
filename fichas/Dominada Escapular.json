@@ -1,0 +1,46 @@
+{
+  "nombre": "Dominada Escapular",
+  "nombre_ingles": "",
+  "grupo_muscular": "antebrazos",
+  "musculo_categoria": "FOREARMS",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/antebrazos/dominada-scapular",
+  "video_url": "https://api.smartworkout.app/asset/video/e7366231-24ff-4313-b784-f702753f16b6.mp4",
+  "tags": [
+    "MOBILITY",
+    "REHAB",
+    "WARMUP",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "FOREARMS"
+  ],
+  "musculos_secundarios": [
+    "BACK"
+  ],
+  "descripcion": "Las Retracciones Escapulares Colgantes son un ejercicio enfocado en fortalecer los músculos alrededor de la escápula, particularmente el trapecio inferior, los romboides y el serrato anterior. Este ejercicio ayuda a mejorar la estabilidad del hombro y la postura, siendo beneficioso para atletas e individuos que buscan mejorar la fuerza y movilidad de la parte superior del cuerpo.",
+  "como_realizar": [
+    "Comienza colgándote de una barra de dominadas con un agarre por encima, manos a la altura de los hombros.",
+    "Activa tu núcleo y mantén tu cuerpo recto sin balancearte ni doblarte en las caderas.",
+    "Inicia el movimiento retrayendo tus escápulas, tirando de tus omóplatos hacia abajo y juntos.",
+    "Mantén la posición retraída por un momento, asegurando el pleno compromiso de los músculos escapulares.",
+    "Libera lentamente y regresa a la posición inicial con control.",
+    "Repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Concéntrate en mover solo tus omóplatos; evita doblar los codos o usar los brazos para tirar.",
+    "Mantén el cuello relajado y evita encoger los hombros durante el movimiento.",
+    "Mantén un patrón de respiración constante; exhala al retraer tus escápulas e inhala al liberar.",
+    "Comienza con retenciones más cortas si eres nuevo en este ejercicio, aumentando gradualmente la duración a medida que ganas fuerza.",
+    "Asegúrate de tener un agarre fuerte en la barra para mantener la estabilidad durante todo el ejercicio."
+  ],
+  "errores_comunes": [
+    "No comprometer los músculos escapulares, lo que lleva a depender de los músculos del brazo.",
+    "Permitir que los hombros se encojan hacia arriba en lugar de retraer la escápula.",
+    "Usar el impulso para realizar el movimiento en lugar de un compromiso muscular controlado.",
+    "No retraer completamente la escápula, lo que resulta en un rango de movimiento limitado.",
+    "Arquear excesivamente la espalda, causando una alineación incorrecta y posible tensión.",
+    "Dejar que la cabeza se proyecte hacia adelante, interrumpiendo la alineación de la columna.",
+    "Descuidar mantener un núcleo estable, lo que afecta el control y la estabilidad general.",
+    "Agarrar la barra demasiado fuerte, lo que puede llevar a una tensión innecesaria en los antebrazos."
+  ]
+}

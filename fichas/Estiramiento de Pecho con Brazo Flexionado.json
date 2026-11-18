@@ -1,0 +1,48 @@
+{
+  "nombre": "Estiramiento de Pecho con Brazo Flexionado",
+  "nombre_ingles": "",
+  "grupo_muscular": "pecho",
+  "musculo_categoria": "CHEST",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/pecho/estiramiento-de-pecho-con-brazo-flexionado",
+  "video_url": "https://api.smartworkout.app/asset/video/82dd6c00-4236-4d7a-98fb-a140411f1ddc.mp4",
+  "tags": [
+    "MOBILITY",
+    "STRETCH",
+    "WARMUP"
+  ],
+  "musculo_primario": [
+    "CHEST"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "Párate derecho y extiende los brazos hacia los lados con los codos doblados a 90 grados, con las palmas hacia adelante. Lentamente aprieta los omóplatos juntos, abriendo el pecho mientras mantienes los brazos en posición. Mantén el estiramiento durante 20-30 segundos, sintiendo un tirón suave a través del pecho y los hombros. Mantén una respiración constante durante todo el ejercicio. Este estiramiento mejora la flexibilidad del pecho y contrarresta la rigidez causada por posturas inclinadas hacia adelante.",
+  "como_realizar": [
+    "Párate derecho con los pies al ancho de los hombros y la postura recta.",
+    "Levanta los brazos hacia los lados y dobla los codos en un ángulo de 90 grados, manteniendo los brazos superiores paralelos al suelo.",
+    "Coloca los antebrazos y las manos contra una pared o marco de puerta a la altura de los hombros.",
+    "Da un paso lento hacia adelante con un pie, permitiendo que el pecho se desplace suavemente más allá de los brazos mientras mantienes los codos doblados y en su lugar.",
+    "Siente el estiramiento a lo largo del pecho y la parte frontal de los hombros sin forzar ni causar dolor.",
+    "Mantén el estiramiento durante 20 a 30 segundos mientras respiras profundamente y mantienes una buena postura.",
+    "Regresa a la posición inicial y relaja los brazos.",
+    "Repite el estiramiento de 2 a 3 veces, asegurándote de mantener el control y evitar estiramientos excesivos."
+  ],
+  "consejos": [
+    "Mantente erguido y mantén los hombros relajados mientras realizas el estiramiento para evitar tensión innecesaria.",
+    "Dobla los codos en un ángulo de 90 grados y coloca tus antebrazos contra una pared o marco de puerta para una apertura óptima del pecho.",
+    "Da un paso hacia adelante lentamente con un pie para aumentar la intensidad del estiramiento en el pecho y los hombros.",
+    "Mantén la cabeza alineada con la columna y evita inclinarte hacia adelante o arquear la espalda en exceso.",
+    "Sostén el estiramiento durante al menos 20-30 segundos para permitir que tus músculos se alarguen de manera efectiva.",
+    "Respira profunda y uniformemente durante todo el estiramiento para ayudar a relajar los músculos y mejorar la flexibilidad.",
+    "Evita rebotar o forzar el estiramiento para prevenir lesiones o tensiones musculares.",
+    "Incorpora este estiramiento en tu rutina de calentamiento o enfriamiento para mejorar la movilidad del pecho y la postura."
+  ],
+  "errores_comunes": [
+    "Colocar el codo demasiado alto o demasiado bajo, reduciendo la efectividad del estiramiento.",
+    "Permitir que el hombro se incline hacia adelante, disminuyendo el compromiso del pecho.",
+    "Girar el torso en lugar de mantener una posición estable.",
+    "Extender demasiado el brazo, lo que puede provocar tensión en el hombro.",
+    "No mantener la muñeca alineada con el antebrazo, causando incomodidad.",
+    "Mantener el estiramiento por un tiempo demasiado corto, limitando las ganancias de flexibilidad.",
+    "No involucrar el núcleo, resultando en una mala postura y equilibrio.",
+    "Descuidar la respiración profunda, lo que puede aumentar la tensión y reducir la relajación."
+  ]
+}

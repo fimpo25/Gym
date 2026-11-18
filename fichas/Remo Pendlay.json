@@ -1,0 +1,49 @@
+{
+  "nombre": "Remo Pendlay",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/es/biblioteca-ejercicios/espalda/remo-pendlay",
+  "video_url": "https://api.smartworkout.app/asset/video/9ee650ee-da32-4c46-94ea-1204b16ee962.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [
+    "BICEPS",
+    "FOREARMS",
+    "SHOULDERS"
+  ],
+  "descripcion": "El Remo Pendlay es un ejercicio con barra que se enfoca en la parte superior de la espalda, los dorsales y los trapecios. Hace hincapié en una forma estricta y en la potencia explosiva desde una posición de parada completa, lo que lo convierte en un movimiento efectivo para desarrollar fuerza y masa muscular en la espalda.",
+  "como_realizar": [
+    "Párate con los pies al ancho de los hombros y coloca una barra cargada en el suelo frente a ti.",
+    "Dobla las caderas y las rodillas para bajar el torso hasta que esté casi paralelo al suelo, manteniendo una columna neutral.",
+    "Agarra la barra con un agarre por encima, ligeramente más ancho que el ancho de los hombros.",
+    "Activa tu núcleo y retrae las escápulas.",
+    "Levanta la barra explosivamente desde el suelo hasta la parte inferior del pecho, manteniendo los codos cerca del cuerpo.",
+    "Pausa brevemente en la parte superior del movimiento, luego baja la barra de nuevo al suelo bajo control.",
+    "Reajusta tu posición y repite para el número deseado de repeticiones."
+  ],
+  "consejos": [
+    "Asegúrate de que tu espalda permanezca plana durante todo el movimiento para evitar lesiones.",
+    "Mantén tu cabeza en una posición neutral mirando ligeramente hacia adelante en el suelo.",
+    "Concéntrate en tirar con los codos en lugar de con las manos para involucrar más eficazmente los músculos de la espalda.",
+    "Usa un movimiento controlado al bajar la barra para mantener la tensión en los músculos.",
+    "Comienza con un peso más ligero para perfeccionar tu forma antes de avanzar a cargas más pesadas.",
+    "Mantén un fuerte compromiso del core para estabilizar tu cuerpo durante cada repetición."
+  ],
+  "errores_comunes": [
+    "Usar el impulso para levantar la barra en lugar de un compromiso muscular controlado.",
+    "No mantener una columna neutral, lo que lleva a un redondeo excesivo de la espalda.",
+    "Levantar la barra demasiado alto, causando tensión en los hombros.",
+    "Permitir que las caderas se eleven, reduciendo el enfoque en los músculos de la espalda.",
+    "No devolver completamente la barra al suelo entre repeticiones, lo que lleva a un rango de movimiento parcial.",
+    "No comprometer el núcleo, resultando en inestabilidad y reducción de potencia.",
+    "Tirar con los brazos en lugar de iniciar el movimiento con los músculos de la espalda.",
+    "Colocar los pies demasiado juntos, comprometiendo el equilibrio y la estabilidad.",
+    "No mantener los codos cerca del cuerpo, lo que puede llevar a estrés en los hombros."
+  ]
+}

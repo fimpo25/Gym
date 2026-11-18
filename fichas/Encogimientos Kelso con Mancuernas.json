@@ -1,0 +1,44 @@
+{
+  "nombre": "Encogimientos Kelso con Mancuernas",
+  "nombre_ingles": "",
+  "grupo_muscular": "espalda",
+  "musculo_categoria": "BACK",
+  "url": "https://smartworkout.app/en/exercise-library/back/dumbbell-kelso-shrugs",
+  "video_url": "https://api.smartworkout.app/asset/video/1a69c113-7a8b-4e7a-ada7-295f8b62db23.mp4",
+  "tags": [
+    "STRENGTH",
+    "PULL"
+  ],
+  "musculo_primario": [
+    "BACK"
+  ],
+  "musculos_secundarios": [],
+  "descripcion": "The Dumbbell Kelso Shrug is an isolation exercise targeting the trapezius muscles, specifically the middle and lower fibers. It involves a horizontal shrugging motion performed while lying face down on an incline bench, allowing for a greater range of motion and focus on scapular retraction.",
+  "como_realizar": [
+    "Set an incline bench to a 30-45 degree angle.",
+    "Lie face down on the bench with your chest supported and feet firmly on the ground.",
+    "Hold a dumbbell in each hand with a neutral grip, arms hanging straight down.",
+    "Engage your core and keep your neck in a neutral position.",
+    "Exhale as you retract your shoulder blades, lifting the dumbbells towards your hips.",
+    "Pause briefly at the top of the movement, ensuring full contraction of the trapezius muscles.",
+    "Inhale as you slowly lower the dumbbells back to the starting position with control.",
+    "Repeat for the desired number of repetitions."
+  ],
+  "consejos": [
+    "Focus on squeezing your shoulder blades together at the top of the movement for maximum contraction.",
+    "Keep your elbows slightly bent but fixed throughout the exercise to maintain tension on the traps.",
+    "Avoid using momentum; perform each rep with controlled motion to effectively target the trapezius muscles.",
+    "Maintain a neutral spine and avoid arching your back during the exercise to prevent strain.",
+    "Start with lighter weights to master form before progressing to heavier dumbbells."
+  ],
+  "errores_comunes": [
+    "Using too much weight, leading to compromised form and reduced range of motion.",
+    "Raising the shoulders instead of retracting the scapula, which shifts focus away from the target muscles.",
+    "Allowing the elbows to flare out, reducing the effectiveness of the scapular retraction.",
+    "Failing to maintain a neutral spine, which can strain the lower back.",
+    "Performing the movement too quickly, reducing muscle engagement and control.",
+    "Neglecting to squeeze the shoulder blades together at the top of the movement.",
+    "Letting the dumbbells swing, which decreases control and engagement of the target muscles.",
+    "Not keeping the chest open, which limits the range of scapular retraction."
+  ]
+}
