@@ -771,6 +771,23 @@ module.exports = [
     },
   },
   {
+    nombre: "fichas en inglés: se muestran con los textos en español que trae la app",
+    correr: async (t) => {
+      await t.page.route(/r2\.dev\/Remo%20Gorila\.json/, (r) => r.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify({ nombre: "Remo Gorila", musculo_primario: ["BACK"], musculos_secundarios: ["BICEPS"], descripcion: "The Gorilla Row is a unilateral back exercise.", como_realizar: ["Stand with feet shoulder-width apart."], consejos: ["Keep a neutral spine."], errores_comunes: ["Rounding the back."] }) }));
+      await t.abrir();
+      const r = await t.ev(() => new Promise((ok) => fetchExDescRaw("Remo Gorila", (d) => ok(d))));
+      t.ok(/^El Remo de Gorila/.test(r.descripcion) && /^Párate/.test(r.como_realizar[0]) && r.consejos.length > 1 && r.errores_comunes.length > 1, "textos en español: " + r.descripcion.slice(0, 60));
+      t.igual([r.musculo_primario, r.musculos_secundarios], [["BACK"], ["BICEPS"]], "los músculos siguen viniendo de la ficha");
+      t.ok(!/\bnúcleo\b/.test(JSON.stringify(r)), "dice core, no núcleo");
+      // sin señal y sin la ficha guardada: igual muestra el texto en español
+      const s = await t.ev(() => new Promise((ok) => fetchExDescRaw("Seal Row", (d) => ok(d))));
+      t.ok(s && /^El Remo/.test(s.descripcion || ""), "sin la ficha de R2 igual hay texto: " + (s && s.descripcion || "").slice(0, 50));
+      // todas las claves corresponden a ejercicios de la biblioteca
+      const sueltas = await t.ev(() => descEsLoad().then((es) => { const files = {}; Object.keys(LIBRARY).forEach((g) => LIBRARY[g].exercises.forEach((n) => { files[DESC_ALIAS[n] || mediaName(n)] = 1; })); return Object.keys(es).filter((k) => !files[k]); }));
+      t.igual(sueltas, [], "cada texto es de un ejercicio de la biblioteca");
+    },
+  },
+  {
     nombre: "pantallas principales: Balance, biblioteca, historial, récords, tiempos y mesociclo abren sin errores",
     correr: async (t) => {
       await t.abrir(sembrarRutina);

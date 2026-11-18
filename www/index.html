@@ -9241,16 +9241,25 @@ function fetchExDesc(name, cb) {
     cb(data);
   });
 }
+// Fichas que en R2 estan en ingles: los textos en espanol vienen dentro de la app (fichas_es.json),
+// tomados de la version en espanol de la misma pagina de origen. Reemplazan a los de la ficha.
+var _descEs = null;
+function descEsLoad() {
+  if (!_descEs) _descEs = fetch("fichas_es.json").then(function(r) { return r.ok ? r.json() : {}; }).catch(function() { return {}; });
+  return _descEs;
+}
 function fetchExDescRaw(name, cb) {
   var url = getDescSrc(name);
   if (!url) { cb(null); return; }
-  mediaResponse(url)   // cacheada en el celular (ver CACHE DE VIDEOS Y FICHAS)
-    .then(function(r) {
-      if (!r) { cb(null); return; }
-      return r.json();
-    })
-    .then(function(data) { cb(data || null); })
-    .catch(function() { cb(null); });
+  var key = DESC_ALIAS[name] || mediaName(name);
+  var ficha = mediaResponse(url)   // cacheada en el celular (ver CACHE DE VIDEOS Y FICHAS)
+    .then(function(r) { return r ? r.json() : null; })
+    .catch(function() { return null; });
+  Promise.all([ficha, descEsLoad()]).then(function(v) {
+    var data = v[0], es = v[1] && v[1][key];
+    if (es) { data = data || {}; Object.keys(es).forEach(function(k) { data[k] = es[k]; }); }
+    cb(data || null);
+  }).catch(function() { cb(null); });
 }
 
 // Renderiza un objeto de descripcion JSON a HTML.
