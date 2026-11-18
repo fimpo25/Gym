@@ -1,8 +1,8 @@
 name: Bajar fichas de R2
-# Solo con un tag fichas-*: baja las descripciones para revisarlas. No compila ni publica nada.
+# Solo en la rama fichas-revision: baja las descripciones para revisarlas. No compila ni publica nada.
 on:
   push:
-    tags: ['fichas-*']
+    branches: [fichas-revision]
 permissions:
   contents: read
 jobs:
