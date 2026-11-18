@@ -822,6 +822,41 @@ module.exports = [
     },
   },
   {
+    nombre: "intervalos con el recorrido ya en marcha: arrancan desde ese momento",
+    correr: async (t) => {
+      await t.abrir(gpsSimulado);
+      await t.ev(() => { localStorage.setItem("gymStretchSug", "0"); localStorage.setItem("gymRouteOpts", JSON.stringify({ autoPause: true, voice: true })); });
+      await t.page.click(".lnCard.route"); await t.espera(300);
+      await t.page.locator(".rtModes button", { hasText: "Caminar" }).click();
+      await t.page.click("#rtStartBtn"); await t.espera(500);
+      const andar = (n, vel) => t.ev(([n, v]) => { for (let i = 0; i < n; i++) { window.__off += 1000; window.__lat = (window.__lat || -32.9442) + v / 110540; window.__fix(window.__lat, -60.6505, 8, 20); } }, [n, vel]);
+      await andar(120, 1.4); await t.espera(1300);
+      t.ok(/Empezar intervalos: semana 1 · día 1/.test(await t.page.locator("#rtIvLive").innerText()), "botón en el recorrido en curso");
+      await t.page.click("#rtIvLive"); await t.espera(250);
+      await t.page.locator("#trSheetBody button", { hasText: "sin la entrada en calor" }).click(); await t.espera(600);
+      let st = await t.ev(() => RouteGps.status());
+      t.igual([st.mode, st.autoPause, st.iv.slice(0, 7)], ["correr", false, "r60,k90"], "intervalos sin la entrada en calor, como carrera y sin pausa automática");
+      t.cerca(st.ivOff / 1000, 120, 3, "empiezan desde este momento");
+      t.ok(/Corré/i.test(await t.page.locator("#ivLive").innerText()) && /^Corré 1 minuto\. Repetición 1 de 8\./.test(await t.ev(() => RT.lastIvSpeech)), "primera fase: correr");
+      t.ok(await t.page.locator("#rtIvLive").isHidden(), "el botón se oculta");
+      const tramo = (desde, hasta) => t.ev(([a, b]) => { const ph = ivParse(RT.st.iv); for (let i = a; i < b; i++) { window.__off += 1000; const k = ivPhaseAt(ph, i + 0.5).k; window.__lat += (k === "r" ? 2.8 : 1.5) / 110540; window.__fix(window.__lat, -60.6505, 8, 20); } }, [desde, hasta]);
+      await tramo(0, 65); await t.espera(1300);
+      t.igual(await t.ev(() => RT.lastIvSpeech), "Caminá 1 minuto y medio.", "sigue el reloj de los intervalos");
+      // quitar y volver a poner
+      await t.page.click(".ivQuit"); await t.espera(400);
+      t.igual(await t.ev(() => [RT.st.iv, localStorage.getItem("gymRouteIv")]), ["", null], "quitar los intervalos");
+      await t.page.click("#rtIvLive"); await t.espera(250);
+      await t.page.locator("#trSheetBody button", { hasText: "sin la entrada en calor" }).click(); await t.espera(600);
+      await tramo(0, 1415); await t.espera(1300);
+      t.ok(/Intervalos terminados/i.test(await t.page.locator("#ivLive").innerText()), "terminados");
+      await t.page.click("#rtStop"); await t.espera(250);
+      await t.page.locator("#trSheetBody button", { hasText: "Guardar recorrido" }).click(); await t.espera(600);
+      const r = await t.ev(() => { const x = routes[routes.length - 1]; return { mode: x.mode, w: x.iv.w, d: x.iv.d, done: x.iv.done, runD: x.iv.runD, sig: ivNext() }; });
+      t.igual([r.mode, r.w, r.d, r.done, r.sig.w, r.sig.d], ["correr", 1, 1, true, 1, 2], "sesión completa: el plan avanza");
+      t.cerca(r.runD, 480 * 2.8, 40, "lo caminado antes de empezar no cuenta como intervalos");
+    },
+  },
+  {
     nombre: "pantallas principales: Balance, biblioteca, historial, récords, tiempos y mesociclo abren sin errores",
     correr: async (t) => {
       await t.abrir(sembrarRutina);

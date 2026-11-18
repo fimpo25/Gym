@@ -82,6 +82,25 @@ public class RoutePlugin extends Plugin {
         call.resolve();
     }
 
+    /** Empieza (o quita, con spec vacio) los intervalos en un recorrido que ya esta en curso. */
+    @PluginMethod
+    public void setIntervals(PluginCall call) {
+        synchronized (RouteTrack.LOCK) {
+            String spec = call.getString("spec", "");
+            if (spec != null && !spec.isEmpty()) {
+                if (RouteTrack.autoPaused) { RouteTrack.autoPaused = false; RouteTrack.runSince = System.currentTimeMillis(); }
+                RouteTrack.autoOn = false;                       // el reloj de los intervalos no se frena solo
+                RouteTrack.lastMoveAt = System.currentTimeMillis();
+                if (call.hasOption("mode")) { RouteTrack.mode = call.getString("mode", RouteTrack.mode); RouteTrack.maxSpeed = call.getDouble("maxSpeed", RouteTrack.maxSpeed); }
+            }
+            RouteTrack.setIntervals(spec);
+            RouteTrack.ivOff = RouteTrack.elapsedMs();
+            RouteTrack.ivSaid = -1; RouteTrack.ivHalf = -1; RouteTrack.ivEnd = false;
+            RouteTrack.save(getContext());
+        }
+        call.resolve();
+    }
+
     /** Cambia las opciones a mitad del recorrido. */
     @PluginMethod
     public void setOpts(PluginCall call) {
@@ -128,6 +147,7 @@ public class RoutePlugin extends Plugin {
             r.put("steps", RouteTrack.steps);
             r.put("kmDone", RouteTrack.kmDone);
             r.put("iv", RouteTrack.ivSpec);
+            r.put("ivOff", RouteTrack.ivOff);
         }
         r.put("diag", RouteTrack.diag());
         r.put("gps", gpsOn());

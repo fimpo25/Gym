@@ -54,6 +54,7 @@ final class RouteTrack {
     static int[] ivS = null;
     static int ivSaid = -1, ivHalf = -1;
     static boolean ivEnd = false;
+    static long ivOff = 0;                 // tiempo del recorrido en que empezaron los intervalos
 
     private RouteTrack() {}
 
@@ -67,7 +68,7 @@ final class RouteTrack {
         synchronized (LOCK) {
             state = "running"; mode = m; maxSpeed = maxV; autoOn = auto; voiceOn = voice; autoPaused = false; anchor = null; nAuto = 0;
             steps = 0; stepPrev = -1; kmDone = 0; kmSpoken = 0; kmPrevMs = 0; kmLastMs = 0;
-            setIntervals(iv); ivSaid = -1; ivHalf = -1; ivEnd = false;
+            setIntervals(iv); ivSaid = -1; ivHalf = -1; ivEnd = false; ivOff = 0;
             startedAt = System.currentTimeMillis(); accMs = 0; runSince = startedAt; lastMoveAt = startedAt;
             dist = 0; gain = 0; loss = 0; refAlt = Double.NaN; seg = 0; rejects = 0; last = null;
             pts.clear(); fixAcc = -1; fixAt = 0;
@@ -115,7 +116,7 @@ final class RouteTrack {
         synchronized (LOCK) {
             state = "idle"; accMs = 0; dist = 0; gain = 0; loss = 0; seg = 0; last = null; refAlt = Double.NaN; rejects = 0;
             autoPaused = false; anchor = null; steps = 0; stepPrev = -1; kmDone = 0; kmSpoken = 0;
-            setIntervals(""); ivSaid = -1; ivHalf = -1; ivEnd = false;
+            setIntervals(""); ivSaid = -1; ivHalf = -1; ivEnd = false; ivOff = 0;
             pts.clear();
             try { new File(ctx.getFilesDir(), FILE).delete(); } catch (Exception e) { /* nada */ }
             ctx.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit().clear().apply();
@@ -243,7 +244,7 @@ final class RouteTrack {
     /** Fase actual de los intervalos: {indice, segundos que faltan} o null. Indice = largo si termino. */
     static int[] ivPhase() {
         if (ivS == null) return null;
-        long e = elapsedMs() / 1000; int acc = 0;
+        long e = Math.max(0, elapsedMs() - ivOff) / 1000; int acc = 0;
         for (int i = 0; i < ivS.length; i++) { acc += ivS[i]; if (e < acc) return new int[] { i, (int) (acc - e) }; }
         return new int[] { ivS.length, 0 };
     }
@@ -314,7 +315,7 @@ final class RouteTrack {
                 .putFloat("dist", (float) dist).putFloat("gain", (float) gain).putFloat("loss", (float) loss).putInt("seg", seg)
                 .putBoolean("autoOn", autoOn).putBoolean("voiceOn", voiceOn).putBoolean("autoPaused", autoPaused).putInt("steps", steps)
                 .putInt("kmDone", kmDone).putLong("kmLastMs", kmLastMs).putLong("kmPrevMs", kmPrevMs).putInt("nAuto", nAuto)
-                .putString("ivSpec", ivSpec).putInt("ivSaid", ivSaid).putInt("ivHalf", ivHalf).putBoolean("ivEnd", ivEnd).apply();
+                .putString("ivSpec", ivSpec).putInt("ivSaid", ivSaid).putInt("ivHalf", ivHalf).putBoolean("ivEnd", ivEnd).putLong("ivOff", ivOff).apply();
     }
 
     /** Si la app se cerro con un recorrido en curso, lo recupera (queda en pausa). */
@@ -329,7 +330,7 @@ final class RouteTrack {
             if ("running".equals(st) && !sp.getBoolean("autoPaused", false)) accMs += Math.max(0, System.currentTimeMillis() - sp.getLong("runSince", System.currentTimeMillis()));
             autoOn = sp.getBoolean("autoOn", false); voiceOn = sp.getBoolean("voiceOn", false); autoPaused = false; anchor = null;
             steps = sp.getInt("steps", 0); stepPrev = -1; nAuto = sp.getInt("nAuto", 0);
-            setIntervals(sp.getString("ivSpec", "")); ivSaid = sp.getInt("ivSaid", -1); ivHalf = sp.getInt("ivHalf", -1); ivEnd = sp.getBoolean("ivEnd", false);
+            setIntervals(sp.getString("ivSpec", "")); ivSaid = sp.getInt("ivSaid", -1); ivHalf = sp.getInt("ivHalf", -1); ivEnd = sp.getBoolean("ivEnd", false); ivOff = sp.getLong("ivOff", 0);
             kmDone = sp.getInt("kmDone", 0); kmSpoken = kmDone; kmLastMs = sp.getLong("kmLastMs", 0); kmPrevMs = sp.getLong("kmPrevMs", 0);
             dist = sp.getFloat("dist", 0); gain = sp.getFloat("gain", 0); loss = sp.getFloat("loss", 0); seg = sp.getInt("seg", 0) + 1;
             last = null; lastMono = -1; rejects = 0; refAlt = Double.NaN; pts.clear();
