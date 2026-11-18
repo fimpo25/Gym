@@ -741,6 +741,36 @@ module.exports = [
     },
   },
   {
+    nombre: "rutina olvidada abierta: al día siguiente se guarda sola con sus series",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina);
+      await t.ev(() => { showScreen("homeScreen"); openRoutine("rA"); }); await t.espera(300);
+      await registrarSerie(t, 80, 8); await registrarSerie(t, 80, 7);
+      // pasan 2 h: sigue en curso y "Terminar" muestra el resumen normal
+      await t.ev(() => { window.__off += 2 * 3600e3; trainFinish(); }); await t.espera(250);
+      t.ok(/Guardar y terminar/.test(await t.page.locator("#trSheetBody").innerText()), "a las 2 h la rutina sigue en curso");
+      await t.ev(() => closeTrSheet());
+      // al día siguiente: "Terminar" la guarda con la hora de la última serie
+      await t.ev(() => { window.__off += 20 * 3600e3; trainFinish(); }); await t.espera(400);
+      let r = await t.ev(() => { const s = loadSessions(); const x = s[s.length - 1] || {}; return { n: s.length, series: x.totalSets, ej: (x.exercises || []).map((e) => e.name + ":" + e.sets), dur: x.dur, auto: x.auto, abierta: localStorage.getItem("gymSessionStart"), pantalla: document.querySelector(".screen.active").id }; });
+      t.igual([r.n, r.series, r.ej, r.auto, r.abierta, r.pantalla], [1, 2, ["Press de Banca:2"], 1, null, "homeScreen"], "se guardó la rutina de ayer");
+      t.ok(r.dur < 120, "la duración llega hasta la última serie, no hasta hoy (" + r.dur + " s)");
+      // al abrir la app: una rutina abierta hace 20 h se cierra sola
+      await t.ev(() => {
+        const t0 = Date.now() - window.__off - 20 * 3600e3, wk = getWeekKey(new Date(t0));   // hora real: al recargar se pierde el adelanto del reloj
+        gymData[wk] = gymData[wk] || {}; gymData[wk]["Sentadilla"] = [{ reps: "6", weight: "100", d: localDay(t0), t: t0 + 600e3, rir: 2 }, { reps: "6", weight: "100", d: localDay(t0), t: t0 + 900e3, rir: 2 }];
+        persist(); localStorage.setItem("gymSessionStart", JSON.stringify({ d: localDay(t0), t: t0, routineId: "rB" }));
+      });
+      await t.page.reload(); await t.page.waitForFunction(() => typeof launchInit === "function"); await t.espera(900);
+      r = await t.ev(() => { const s = loadSessions(), x = s[s.length - 1]; return { n: s.length, rutina: x.routine, series: x.totalSets, dur: x.dur, abierta: localStorage.getItem("gymSessionStart"), toast: [...document.querySelectorAll(".appToast")].map((e) => e.textContent).join(" | ") }; });
+      t.igual([r.n, r.rutina, r.series, r.dur, r.abierta], [2, "Piernas", 2, 900, null], "al abrir la app se guarda la que quedó abierta");
+      t.ok(/La rutina de ayer quedó abierta: la guardé con 2 series \(15 min\)/.test(r.toast), "avisa: " + r.toast);
+      // sin series: solo se cierra
+      await t.ev(() => localStorage.setItem("gymSessionStart", JSON.stringify({ d: "x", t: Date.now() - 17 * 3600e3, routineId: "rZ" })));
+      t.igual(await t.ev(() => [!!trainCloseStale(true), loadSessions().length, localStorage.getItem("gymSessionStart")]), [true, 2, null], "sin series no guarda nada");
+    },
+  },
+  {
     nombre: "pantallas principales: Balance, biblioteca, historial, récords, tiempos y mesociclo abren sin errores",
     correr: async (t) => {
       await t.abrir(sembrarRutina);

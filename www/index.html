@@ -4427,8 +4427,46 @@ function doSubstitute(newName, group) {
 // ---- reloj de sesion y descanso flotante ----
 var SESSION_MAX_MS = 16 * 3600e3;   // una rutina abierta mas de 16 h se considera abandonada
 function trainSessionStart() {
+  trainCloseStale();
   if (trainGetSession()) return;
   safeStore("gymSessionStart", JSON.stringify({ d: localDay(), t: Date.now(), routineId: trainRoutineId }));
+}
+// Rutina que quedo abierta (te olvidaste de terminarla): si pasaron 6 h desde la ultima serie,
+// o 16 h desde que empezo, se cierra sola y se guarda en el historial con la hora de la ultima serie.
+var SESSION_IDLE_MS = 6 * 3600e3;
+function trainCloseStale(quiet) {
+  var raw = null; try { raw = JSON.parse(localStorage.getItem("gymSessionStart") || "null"); } catch(e) {}
+  if (!raw || !raw.t) return null;
+  var f = raw.routineId ? findRoutine(raw.routineId) : null, names = f ? f.routine.exercises : [], last = raw.t, ex = {}, total = 0, vol = 0;
+  var w1 = getWeekKey(new Date());
+  for (var w = getWeekKey(new Date(raw.t)); w <= w1; w = wkAdd(w, 1)) {
+    var wd = gymData[w]; if (!wd) continue;
+    names.forEach(function(n) {
+      (wd[n] || []).forEach(function(x) {
+        if (!x || !x.t || x.t < raw.t) return;
+        if (x.t > last) last = x.t;
+        var e = ex[n] = ex[n] || { name: n, sets: 0, warm: 0, vol: 0 };
+        if (x.warmup) e.warm++; else { e.sets++; total++; var v = (parseFloat(x.weight) || 0) * (parseFloat(x.reps) || 0); e.vol += v; vol += v; }
+      });
+    });
+  }
+  var now = Date.now();
+  if (now - last < SESSION_IDLE_MS && now - raw.t < SESSION_MAX_MS) return null;   // sigue en curso
+  var exs = names.filter(function(n) { return ex[n]; }).map(function(n) { ex[n].vol = Math.round(ex[n].vol); return ex[n]; }), rec = null;
+  if (exs.length) {
+    rec = { id: newId(), start: raw.t, end: last, dur: Math.max(0, Math.round((last - raw.t) / 1000)), routineId: raw.routineId, routine: f ? routineTitle(raw.routineId) : "", folder: f ? f.folder.name : "", exercises: exs, totalSets: total, totalVol: Math.round(vol), auto: 1 };
+    var list = loadSessions(); list.push(rec); safeStore("gymSessions", JSON.stringify(list));
+  }
+  try { localStorage.removeItem("gymSessionStart"); } catch(e) {}
+  try { swapsRestore(); } catch(e) {}
+  if (trainRoutineId === raw.routineId) trainEdit = {};
+  try { updateLiveBar(); } catch(e) {}
+  if (rec && !quiet) {
+    var dl = localDay(raw.t), cuando = dl === localDay(now - 864e5) ? "de ayer" : dl === localDay(now) ? "de hoy" : "del " + new Date(raw.t).toLocaleDateString("es-AR", { day: "numeric", month: "short" });
+    setTimeout(function() { showToast("La rutina " + cuando + " quedó abierta: la guardé con " + total + (total === 1 ? " serie" : " series") + " (" + fmtDur(rec.dur) + ")"); }, 600);
+  }
+  if (rec) setTimeout(function() { autoBackup("sesion"); }, 1500);
+  return { rec: rec };
 }
 function fmtClock(sec) { var h = Math.floor(sec / 3600), m = Math.floor(sec % 3600 / 60), ss = sec % 60; return (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m + ":" + (ss < 10 ? "0" : "") + ss; }
 function trainSessionText() {
@@ -4974,6 +5012,11 @@ function trainSessionSummary() {
   return out;
 }
 function trainFinish() {
+  var stale = trainCloseStale(true);
+  if (stale) {   // quedo abierta de otro dia: ya se guardo con sus series
+    if (stale.rec) showToast("Guardé la rutina que quedó abierta: " + stale.rec.totalSets + (stale.rec.totalSets === 1 ? " serie" : " series") + " (" + fmtDur(stale.rec.dur) + ")");
+    trainEndSession(); return;
+  }
   var f = findRoutine(trainRoutineId); var ses = trainGetSession();
   var sum = trainSessionSummary();
   var dur = ses ? Math.max(0, Math.round((Date.now() - ses.t) / 1000)) : 0;
@@ -9561,7 +9604,12 @@ function closeExDesc() {
 
 renderHome();
 // las pantallas de rutina estan mas abajo en el HTML: arrancar cuando ya existen
+try { trainCloseStale(); } catch(e) {}
 try { swapsCheck(); } catch(e) {}
+document.addEventListener("visibilitychange", function() {
+  if (document.hidden) return;
+  try { var c = trainCloseStale(); if (c && document.getElementById("trainScreen").classList.contains("active")) showScreen("homeScreen"); } catch(e) {}
+});
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", launchInit); else launchInit();
 </script>
 
