@@ -446,8 +446,8 @@ module.exports = [
       t.igual(await t.ev(() => repRange("Press de Banca")), [8, 12], "rango de repeticiones");
       // biblioteca: detalle de un ejercicio y agregarlo a una rutina
       await t.ev(() => { showScreen("libraryScreen"); }); await t.espera(300);
-      await t.ev(() => openLibDetail("Curl con Barra", "Biceps", "#34D399", false)); await t.espera(400);
-      t.igual(await t.ev(() => document.getElementById("libDetailName").textContent), "Curl con Barra", "detalle de la biblioteca");
+      await t.ev(() => openLibDetail("Curl de Bíceps Alterno", "Biceps", "#34D399", false)); await t.espera(400);
+      t.igual(await t.ev(() => document.getElementById("libDetailName").textContent), "Curl de Bíceps Alterno", "detalle de la biblioteca");
       await t.ev(() => { try { closeLibDetail(); } catch (e) {} });
       // editor de rutina y superserie
       await t.ev(() => { showScreen("homeScreen"); openRoutineEditor("rA"); }); await t.espera(300);
@@ -785,6 +785,40 @@ module.exports = [
       // todas las claves corresponden a ejercicios de la biblioteca
       const sueltas = await t.ev(() => descEsLoad().then((es) => { const files = {}; Object.keys(LIBRARY).forEach((g) => LIBRARY[g].exercises.forEach((n) => { files[DESC_ALIAS[n] || mediaName(n)] = 1; })); return Object.keys(es).filter((k) => !files[k]); }));
       t.igual(sueltas, [], "cada texto es de un ejercicio de la biblioteca");
+    },
+  },
+  {
+    nombre: "ejercicio solo por hoy: se suma a la sesión, se registra y la rutina queda como estaba",
+    correr: async (t) => {
+      await t.abrir(sembrarRutina);
+      await t.ev(() => { showScreen("homeScreen"); openRoutine("rA"); }); await t.espera(300);
+      await t.page.click("#trAddTemp"); await t.espera(300);
+      t.igual(await t.pantalla(), "libraryScreen", "abre la biblioteca");
+      t.ok(/solo hoy en Empuje\. No queda en la rutina/.test(await t.page.locator("#libBanner").innerText()), "cartel de la biblioteca");
+      await t.ev(() => { const g = exGroupOf("Curl de Bíceps Alterno"); openLibDetail("Curl de Bíceps Alterno", g, (GROUPS[g] || LIBRARY[g]).color, false); }); await t.espera(300);
+      t.igual(await t.page.locator("#libDetailAddBtn").innerText(), "Hacer solo por hoy", "botón de la ficha");
+      await t.page.click("#libDetailAddBtn"); await t.espera(400);
+      let r = await t.ev(() => ({ pantalla: document.querySelector(".screen.active").id, rutina: findRoutine("rA").routine.exercises, cartel: [...document.querySelectorAll(".trSwap")].map((e) => e.textContent) }));
+      t.igual(r, { pantalla: "trainScreen", rutina: ["Press de Banca", "Encogimientos de Hombros con Mancuernas", "Curl de Bíceps Alterno"], cartel: ["Solo por hoy: no queda en la rutina"] }, "agregado a la sesión de hoy");
+      // registrar una serie del ejercicio agregado
+      const ej = t.page.locator(".trEx").nth(2), fila = ej.locator(".trRow:not(.done):not(.trHead)").first();
+      if (!(await fila.count())) { await ej.locator(".trAdd").first().click(); await t.espera(150); }
+      await ej.locator(".trRow:not(.done):not(.trHead)").first().locator(".trIn").nth(0).fill("30");
+      await ej.locator(".trRow:not(.done):not(.trHead)").first().locator(".trIn").nth(1).fill("10");
+      await ej.locator(".trRow:not(.done):not(.trHead)").first().locator(".trOk").click(); await t.espera(200);
+      await t.ev(() => trainFinish()); await t.espera(250);
+      await t.page.locator("#trSheetBody .trSheetPrimary").click(); await t.espera(400);
+      r = await t.ev(() => { const s = loadSessions(), x = s[s.length - 1]; return { rutina: findRoutine("rA").routine.exercises, sesion: x.exercises.map((e) => e.name), series: (gymData[getWeekKey(new Date())]["Curl de Bíceps Alterno"] || []).length, pendiente: localStorage.getItem("gymSwaps") }; });
+      t.igual(r, { rutina: ["Press de Banca", "Encogimientos de Hombros con Mancuernas"], sesion: ["Curl de Bíceps Alterno"], series: 1, pendiente: null }, "queda en la sesión guardada y sale de la rutina");
+      // quitarlo de la sesión y dejarlo en la rutina
+      await t.ev(() => { openRoutine("rA"); tempAdd("Curl Zottman", exGroupOf("Curl Zottman")); tempAdd("Fondos en Paralelas", exGroupOf("Fondos en Paralelas")); renderTrain(); }); await t.espera(200);
+      await t.ev(() => trainExMenu(exInfo("Curl Zottman"))); await t.espera(200);
+      await t.page.locator("#trSheetBody button", { hasText: "Quitar de la sesión de hoy" }).click(); await t.espera(250);
+      await t.ev(() => trainExMenu(exInfo("Fondos en Paralelas"))); await t.espera(200);
+      await t.page.locator("#trSheetBody button", { hasText: "Dejar este ejercicio en la rutina" }).click(); await t.espera(250);
+      await t.ev(() => { swapsRestore(); });
+      t.igual(await t.ev(() => findRoutine("rA").routine.exercises), ["Press de Banca", "Encogimientos de Hombros con Mancuernas", "Fondos en Paralelas"], "quitar de hoy / dejar en la rutina");
+      t.igual(await t.ev(() => tempAdd("Press de Banca", "Pecho")), false, "no agrega uno que ya está en la rutina");
     },
   },
   {

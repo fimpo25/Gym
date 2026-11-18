@@ -438,6 +438,9 @@ button:focus:not(:focus-visible){outline:none}
 .rtEdBtn{width:38px;height:38px;border:1px solid #253043;background:transparent;color:#A9B4C6;border-radius:10px;font-size:15px;cursor:pointer}
 .rtEdBtn:disabled{opacity:.25}
 .rtEdBtn.danger{color:#FF5C7A}
+.trAddExRow{display:grid;grid-template-columns:1.25fr 1fr;gap:8px}
+.trAddExRow .trAddEx{padding:13px 8px}
+.trAddEx.trAddPerm{color:var(--text-3);border-color:#26324A}
 .trAddEx{display:block;width:100%;border:1px dashed #34425A;background:transparent;color:#22D3EE;border-radius:14px;padding:13px;font-size:14px;font-weight:700;cursor:pointer;margin:4px 0 10px}
 .trFinish{display:block;width:100%;border:1px solid #FF5C7A66;background:#FF5C7A12;color:#FF5C7A;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer}
 .trFinishTop{border:1px solid #FF5C7A66;background:transparent;color:#FF5C7A;border-radius:10px;padding:6px 12px;font-size:13px;font-weight:700;cursor:pointer}
@@ -2983,7 +2986,8 @@ function libCreateExercise() {
       if (!GROUPS[sel.g]) GROUPS[sel.g] = { color: LV[sel.g].color, exercises: [] };
       GROUPS[sel.g].exercises.push(name); persistGroups();
       closeTrSheet(); renderLibrary(); renderHome();
-      if (libAddRoutine && findRoutine(libAddRoutine.id)) { addToRoutine(libAddRoutine.id, name, sel.g); showToast("Creado y agregado a " + findRoutine(libAddRoutine.id).routine.name); renderLibrary(); }
+      if (libAddRoutine && libAddRoutine.temp && findRoutine(libAddRoutine.id)) { var bk = libAddRoutine.back; if (tempAdd(name, sel.g)) { libAddRoutine = null; showScreen(bk); } }
+      else if (libAddRoutine && findRoutine(libAddRoutine.id)) { addToRoutine(libAddRoutine.id, name, sel.g); showToast("Creado y agregado a " + findRoutine(libAddRoutine.id).routine.name); renderLibrary(); }
       else routinePicker(name, sel.g);
     };
     body.appendChild(ok);
@@ -3026,7 +3030,7 @@ function renderLibrary() {
   // Show context banner if opened from edit screen
   var banner = document.getElementById("libBanner");
   if (libAddRoutine && findRoutine(libAddRoutine.id)) {
-    banner.textContent = "Agregando a la rutina " + findRoutine(libAddRoutine.id).routine.name + ". Toc\u00e1 un ejercicio y Agregar.";
+    banner.textContent = libAddRoutine.temp ? "Eleg\u00ed un ejercicio para hacer solo hoy en " + findRoutine(libAddRoutine.id).routine.name + ". No queda en la rutina." : "Agregando a la rutina " + findRoutine(libAddRoutine.id).routine.name + ". Toc\u00e1 un ejercicio y Agregar.";
     banner.style.cssText = "display:block;background:#22D3EE1a;border:1px solid #22D3EE50;color:#22D3EE;border-radius:10px;padding:8px 14px;font-size:13px;font-weight:600;margin-bottom:10px";
   } else if (libSubstitute) {
     var subR = findRoutine(libSubstitute.routineId);
@@ -4314,8 +4318,9 @@ function trainExMenu(ex) {
     trSheetBtn(body, "&#127947;&nbsp; Calculadora 1RM", function(){ trainOpenRM(ex.name); });
     trSheetBtn(body, "&#9998;&nbsp; Nota", function(){ trainNote(ex.name); });
     var swc = swapOf(ex.name);
+    if (swc && swc.mode === "temp") trSheetBtn(body, "&#10005;&nbsp; Quitar de la sesión de hoy", function(){ machineUndo(ex.name, false); });
+    else if (swc) trSheetBtn(body, "&#8617;&nbsp; Volver a " + escHtml(swc.orig), function(){ machineUndo(ex.name, false); });
     if (swc) {
-      trSheetBtn(body, "&#8617;&nbsp; Volver a " + escHtml(swc.orig), function(){ machineUndo(ex.name, false); });
       trSheetBtn(body, "&#10003;&nbsp; Dejar este ejercicio en la rutina", function(){ machineUndo(ex.name, true); });
     }
     trSheetBtn(body, "&#9203;&nbsp; M\u00e1quina ocupada: alternativas", function(){ setTimeout(function(){ machineSheet(ex.name); }, 30); });
@@ -4526,7 +4531,7 @@ function renderTrain() {
     var vt = document.createElement("span"); vt.className = "trExVol"; vt.textContent = volTot > 0 ? Math.round(volTot).toLocaleString("es-AR") + " kg" : "";
     hd.appendChild(ttl); hd.appendChild(vt); hd.appendChild(more); blk.appendChild(hd);
     var swp = swapOf(name);
-    if (swp) { var sv = document.createElement("div"); sv.className = "trSwap"; sv.textContent = (swp.mode === "insert" ? "Agregado hoy después de " : "Hoy en lugar de ") + swp.orig; blk.appendChild(sv); }
+    if (swp) { var sv = document.createElement("div"); sv.className = "trSwap"; sv.textContent = swp.mode === "temp" ? "Solo por hoy: no queda en la rutina" : (swp.mode === "insert" ? "Agregado hoy después de " : "Hoy en lugar de ") + swp.orig; blk.appendChild(sv); }
     if (trainLast[name]) { var lv = document.createElement("div"); lv.className = "trExLast"; lv.textContent = "\u00daltima vez: " + trainLast[name]; blk.appendChild(lv); }
     if (trainSug[name]) {
       var sg2 = trainSug[name], sgb = document.createElement("div"); sgb.className = "trSug " + sg2.mode;
@@ -4618,9 +4623,12 @@ function renderTrain() {
     blk.appendChild(addRow);
     list.appendChild(blk);
   });
-  var addEx = document.createElement("button"); addEx.className = "trAddEx"; addEx.textContent = "+ Agregar ejercicio a la rutina";
+  var addRowEx = document.createElement("div"); addRowEx.className = "trAddExRow";
+  var addTmp = document.createElement("button"); addTmp.className = "trAddEx"; addTmp.id = "trAddTemp"; addTmp.textContent = "+ Ejercicio solo por hoy";
+  addTmp.onclick = function(){ openLibraryForRoutine(trainRoutineId, "trainScreen", true); };
+  var addEx = document.createElement("button"); addEx.className = "trAddEx trAddPerm"; addEx.textContent = "+ Agregar a la rutina";
   addEx.onclick = function(){ openLibraryForRoutine(trainRoutineId, "trainScreen"); };
-  list.appendChild(addEx);
+  addRowEx.appendChild(addTmp); addRowEx.appendChild(addEx); list.appendChild(addRowEx);
   var fin = document.createElement("button"); fin.className = "trFinish"; fin.textContent = "Terminar rutina";
   fin.onclick = trainFinish; list.appendChild(fin);
   document.getElementById("trHint").style.display = anyPh ? "block" : "none";
@@ -4934,8 +4942,8 @@ function rtEditRename() { var f = findRoutine(rtEditId); if (!f) return; askText
 
 // ---- Biblioteca en modo "agregar a rutina" ----
 var libAddRoutine = null;   // { id, back }
-function openLibraryForRoutine(id, back) {
-  libAddRoutine = { id: id, back: back || "rtEditScreen" };
+function openLibraryForRoutine(id, back, temp) {
+  libAddRoutine = { id: id, back: back || "rtEditScreen", temp: !!temp };
   libSubstitute = null; libTargetGroup = null;
   showScreen("libraryScreen");
 }
@@ -8597,7 +8605,7 @@ function swapsRestore() {
     var ex = f.routine.exercises;
     sw.list.slice().reverse().forEach(function(c) {
       var i = ex.indexOf(c.alt); if (i < 0) return;
-      if (c.mode === "insert" || ex.indexOf(c.orig) >= 0) ex.splice(i, 1); else ex[i] = c.orig;
+      if (c.mode === "insert" || c.mode === "temp" || ex.indexOf(c.orig) >= 0) ex.splice(i, 1); else ex[i] = c.orig;
     });
     persistRoutines();
   }
@@ -8622,9 +8630,22 @@ function machineSwap(orig, alt) {
 }
 function machineUndo(alt, keep) {
   var sw = swapsGet(), c = swapOf(alt), f = findRoutine(trainRoutineId); if (!sw || !c || !f) return;
-  if (!keep) { var ex = f.routine.exercises, i = ex.indexOf(alt); if (i >= 0) { if (c.mode === "insert" || ex.indexOf(c.orig) >= 0) ex.splice(i, 1); else ex[i] = c.orig; } persistRoutines(); delete trainEdit[alt]; }
+  if (!keep) { var ex = f.routine.exercises, i = ex.indexOf(alt); if (i >= 0) { if (c.mode === "insert" || c.mode === "temp" || ex.indexOf(c.orig) >= 0) ex.splice(i, 1); else ex[i] = c.orig; } persistRoutines(); delete trainEdit[alt]; }
   sw.list = sw.list.filter(function(x) { return x.alt !== alt; }); swapsSet(sw); renderTrain();
-  showToast(keep ? alt + " queda en la rutina" : "Volviste a " + c.orig);
+  showToast(keep ? alt + " queda en la rutina" : c.mode === "temp" ? alt + " ya no está en la sesión de hoy" : "Volviste a " + c.orig);
+}
+// Ejercicio solo por hoy: se suma a la sesion en curso y sale de la rutina al terminarla.
+// Las series quedan registradas como cualquier otra (historial, Balance, progresion).
+function tempAdd(name, group) {
+  var f = findRoutine(trainRoutineId); if (!f) return false;
+  var ex = f.routine.exercises; if (ex.indexOf(name) >= 0) { showToast(name + " ya está en la rutina"); return false; }
+  var ses = trainGetSession(), sw = swapsGet(), t = ses ? ses.t : 0;
+  if (!sw || sw.routineId !== trainRoutineId || sw.t !== t) { swapsRestore(); sw = { routineId: trainRoutineId, t: t, list: [] }; }
+  if (!isInRoutine(name) && group) addFromLibrary(name, group);
+  ex.push(name); sw.list.push({ orig: null, alt: name, mode: "temp" });
+  persistRoutines(); swapsSet(sw);
+  showToast(name + " agregado solo por hoy");
+  return true;
 }
 // Ejercicios que trabajan el mismo musculo principal; primero mismo patron, otro equipo y los que ya conoces
 function machineAlternatives(name, max) {
@@ -8658,7 +8679,7 @@ function machineSheet(name) {
       else sub += " · sin historial";
       trSheetBtn(body, escHtml(a.name) + '<span class="updOld">' + escHtml(sub) + "</span>", function() { machineSwap(name, a.name); });
     });
-    if (c) trSheetBtn(body, "&#8617;&nbsp; Volver a " + escHtml(c.orig), function() { machineUndo(name, false); });
+    if (c && c.orig) trSheetBtn(body, "&#8617;&nbsp; Volver a " + escHtml(c.orig), function() { machineUndo(name, false); });
     trSheetBtn(body, "Buscar otro en la biblioteca (cambio permanente)", function() { startSubstitute(name); });
   });
 }
@@ -9027,6 +9048,7 @@ var GUIDE_SECTIONS = [
       { icon:"&#128161;", title:"Sugerencias", desc:"Al empezar una rutina aparece arriba la movilidad previa que corresponde (piernas o torso), y al guardarla te ofrece el estiramiento final. En Recorridos, lo mismo antes y después de caminar, correr o andar en bici. Se apagan en Estiramiento." },
       { icon:"&#128205;", title:"Recorridos", desc:"Caminar, correr o bici con GPS: mapa del trazado, tiempo, distancia, ritmo, parciales por km, velocidad máxima, calorías y desnivel. Sigue grabando con la pantalla bloqueada y muestra el avance en la notificación, con botón para pausar." },
       { icon:"&#9208;", title:"Pausa automática y voz", desc:"En Recorridos podés activar la pausa automática: si frenás (un semáforo, por ejemplo) el tiempo deja de correr y sigue solo cuando te volvés a mover. El aviso por voz dice en cada km el tiempo total y el del último km (en bici, la velocidad); en el APK habla aunque la pantalla esté bloqueada y baja la música mientras tanto. Caminando o corriendo también cuenta los pasos (pide el permiso de actividad física)." },
+      { icon:"&#10133;", title:"Ejercicio solo por hoy", desc:"En una rutina en curso, '+ Ejercicio solo por hoy' (abajo de todo) suma un ejercicio de la biblioteca a la sesión de hoy sin cambiar la rutina: al terminarla vuelve a quedar como estaba. Las series quedan registradas igual (historial, Balance y progresión). Si querés que se quede, en el menú del ejercicio está 'Dejar este ejercicio en la rutina'." },
       { icon:"&#9201;", title:"Intervalos para empezar a correr", desc:"En Recorridos, 'Intervalos correr y caminar' tiene un plan de 9 semanas de 0 a 5 km (basado en el Couch to 5K del NHS): 3 salidas por semana, de 1 minuto corriendo hasta 30 minutos seguidos. La app marca qué sesión sigue y te avisa cada cambio con la voz y vibrando, aunque la pantalla esté bloqueada. También podés armar tus propios intervalos (correr, caminar, repeticiones, entrada en calor y vuelta a la calma)." },
       { icon:"&#127942;", title:"Récords y GPX", desc:"Recorridos guarda tu tramo más rápido de 1, 5 y 10 km por actividad, dentro de cualquier recorrido (no hace falta que corras justo esa distancia). En el detalle de cada recorrido, 'Exportar GPX' arma el archivo con el trazado y los tiempos para pasarlo a Strava, Google Earth u otra app." },
       { icon:"&#9878;", title:"Cuerpo", desc:"Registro de peso y medidas (cintura, cadera, pecho, brazo, muslo y grasa corporal). Muestra el promedio de 7 días, la tendencia por semana y el gráfico. El último peso se usa para las calorías de los recorridos y aparece en el resumen semanal para Claude." },
@@ -9538,8 +9560,9 @@ function openLibDetail(name, group, color, inRoutine) {
   } else if (libAddRoutine && findRoutine(libAddRoutine.id)) {
     var tr = findRoutine(libAddRoutine.id).routine, already = tr.exercises.indexOf(name) >= 0;
     addBtn.style.background = already ? "#182030" : color; addBtn.style.color = already ? "#555" : "#000";
-    addBtn.textContent = already ? "Ya est\u00e1 en " + tr.name : "Agregar a " + tr.name;
-    addBtn.onclick = already ? null : function(){ addToRoutine(libAddRoutine.id, name, group); closeLibDetail(); renderLibrary(); showToast("Agregado a " + tr.name); };
+    addBtn.textContent = already ? "Ya est\u00e1 en " + tr.name : libAddRoutine.temp ? "Hacer solo por hoy" : "Agregar a " + tr.name;
+    if (libAddRoutine.temp) addBtn.onclick = already ? null : function(){ var back = libAddRoutine.back; closeLibDetail(); if (tempAdd(name, group)) { libAddRoutine = null; showScreen(back); } };
+    else addBtn.onclick = already ? null : function(){ addToRoutine(libAddRoutine.id, name, group); closeLibDetail(); renderLibrary(); showToast("Agregado a " + tr.name); };
   } else {
     addBtn.style.background = color; addBtn.style.color = "#000";
     addBtn.textContent = inRoutine ? "Cambiar rutinas" : "+ Agregar a una rutina";
