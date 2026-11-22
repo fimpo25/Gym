@@ -1104,6 +1104,7 @@ body.hasLive .screen.active{padding-bottom:78px}
 .eqVerdict.warn{color:var(--energy)}
 .eqVerdict.ok{color:#6EE7B7}
 .trSwap{font-size:12px;color:var(--energy);margin:-2px 0 6px 18px}
+.trPlan{font-size:12px;color:var(--primary);margin:-2px 16px 6px 18px;line-height:1.4}
 .wkRep{display:flex;align-items:center;gap:10px;background:linear-gradient(160deg,#221A33,#0E131C 75%);border:1px solid #FFB02044;border-radius:16px;padding:12px 12px 12px 14px;margin-bottom:12px}
 .wkRepTxt{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
 .wkRepTxt b{font-size:14.5px;color:#fff}
@@ -2442,6 +2443,15 @@ function formatWeek(wk) { var s = new Date(wk + "T12:00:00"), e = new Date(wk + 
   } catch(e) {}
 })();
 var activeWeek = getWeekKey(new Date());
+// Si la app queda abierta de un domingo a un lunes, la semana "actual" tiene que pasar a la nueva
+var _weekSeen = activeWeek;
+function syncActiveWeek() {
+  var now = getWeekKey(new Date());
+  if (now === _weekSeen) return false;
+  if (activeWeek === _weekSeen) activeWeek = now;
+  _weekSeen = now; return true;
+}
+document.addEventListener("visibilitychange", function() { if (!document.hidden && syncActiveWeek()) { try { renderHome(); } catch(e) {} } });
 
 var weeklyGoal = 0;
 try { weeklyGoal = parseInt(localStorage.getItem("weeklyGoal")||"0")||0; } catch(e) {}
@@ -2454,6 +2464,7 @@ function setGoal(days) {
 var selectedGroup = null;
 
 function showScreen(id) {
+  try { syncActiveWeek(); } catch(e) {}
   // Si saliamos de libraryScreen, liberar miniaturas de video
   var wasInLibrary = false;
   var libScreen = document.getElementById("libraryScreen");
@@ -4165,6 +4176,7 @@ function getTrainSets(name) {
       sets = keep;
     }
   }
+  if (!mine.length) sets = planRows(name, sets);
   trainEdit[name] = sets;
   return sets;
 }
@@ -4533,6 +4545,8 @@ function renderTrain() {
     var vt = document.createElement("span"); vt.className = "trExVol"; vt.textContent = volTot > 0 ? Math.round(volTot).toLocaleString("es-AR") + " kg" : "";
     hd.appendChild(ttl); hd.appendChild(vt); hd.appendChild(more); blk.appendChild(hd);
     var swp = swapOf(name);
+    var plx = routinePlan(name);
+    if (plx) { var pv = document.createElement("div"); pv.className = "trPlan"; pv.textContent = planText(plx); blk.appendChild(pv); }
     if (swp) { var sv = document.createElement("div"); sv.className = "trSwap"; sv.textContent = swp.mode === "temp" ? "Solo por hoy: no queda en la rutina" : (swp.mode === "insert" ? "Agregado hoy después de " : "Hoy en lugar de ") + swp.orig; blk.appendChild(sv); }
     if (trainLast[name]) { var lv = document.createElement("div"); lv.className = "trExLast"; lv.textContent = "\u00daltima vez: " + trainLast[name]; blk.appendChild(lv); }
     if (trainSug[name]) {
@@ -6579,6 +6593,8 @@ function fmtW(w) { return (Math.round(w * 100) / 100).toLocaleString("es-AR"); }
 function progSuggest(name) {
   var R = repRange(name), lo = R[0], hi = R[1];
   var ms = mesoActive(trainWeek || getWeekKey(new Date())), tRir = ms ? ms.rir.num : 2, tRirTxt = ms ? ms.rir.label : "2";
+  var plr = !ms && routinePlan(name);   // sin mesociclo, manda el RIR del plan de la rutina
+  if (plr && plr.rir) { var rr = String(plr.rir).split(/[–-]/).map(parseFloat).filter(function(v) { return !isNaN(v); }); if (rr.length) { tRir = rr.reduce(function(a, v) { return a + v; }, 0) / rr.length; tRirTxt = plr.rir; } }
   var last = trainLastSession(name);
   var work = last ? last.sets.filter(function(x){ return !x.warmup && (parseFloat(x.reps) || 0) > 0; }) : [];
   if (!work.length) return { mode: "calib", text: "Calibración: elegí un peso con el que llegues a " + lo + "–" + hi + " reps dejando " + tRirTxt + " en reserva.", why: "Con esa primera serie la app conoce tu punto de partida y desde ahí te va sugiriendo.", sets: null };
@@ -8947,6 +8963,110 @@ function bodySheet(day) {
   });
 }
 
+
+// ============================================================
+// PLAN POR EJERCICIO dentro de una rutina: series, reps, RIR, descanso y una nota.
+// routine.plan = { "Ejercicio": { s: 3, lo: 6, hi: 10, rir: "2", rest: 180, note: "" } }
+// Define cuantas filas de series aparecen y se muestra arriba del ejercicio.
+// ============================================================
+function routinePlan(name) {
+  var f = trainRoutineId ? findRoutine(trainRoutineId) : null;
+  return f && f.routine.plan && f.routine.plan[name] || null;
+}
+function planText(pl) {
+  return "Plan: " + pl.s + " × " + pl.lo + "–" + pl.hi + (pl.rir ? " · RIR " + pl.rir : "") + (pl.rest ? " · descanso " + fmtRest(pl.rest) : "") + (pl.note ? " · " + pl.note : "");
+}
+// Ajusta las filas de series de trabajo a las del plan (sin tocar las ya registradas)
+function planRows(name, sets) {
+  var pl = routinePlan(name); if (!pl || !pl.s) return sets;
+  var work = sets.filter(function(x) { return !x.warmup; });
+  if (work.some(function(x) { return x._saved; })) return sets;
+  while (work.length < pl.s) {
+    var last = work[work.length - 1], x = { reps: "", weight: "" };
+    if (last && last._ph) x._ph = { reps: last._ph.reps, weight: last._ph.weight };
+    sets.push(x); work.push(x);
+  }
+  if (work.length > pl.s) { var drop = work.slice(pl.s); sets = sets.filter(function(x) { return drop.indexOf(x) < 0; }); }
+  return sets;
+}
+
+// Entrenamiento continuo de 5 días armado en el chat (noviembre de 2026). Se carga una sola vez.
+// [ejercicio, series, reps min, reps max, RIR, descanso (s), nota]
+var CONT5 = [
+  { name: "Piernas (cuádriceps) + torso", ex: [
+    ["Sentadilla con Barra", 3, 6, 10, "2", 180, ""],
+    ["Extensión de Pierna Sentado en Máquina", 2, 12, 15, "0–1", 120, ""],
+    ["Press Inclinado con Mancuernas", 3, 8, 12, "1–2", 150, ""],
+    ["Jalón de Dorsales Agarre Ancho", 2, 10, 12, "1", 120, ""],
+    ["Elevación Lateral con Cable", 2, 12, 20, "0–1", 90, ""],
+    ["Curl de Bíceps Inclinado Sentado", 3, 10, 15, "0–1", 90, ""],
+    ["Crunch Abdominal con Cable de Rodillas", 2, 10, 15, "1", 90, ""] ] },
+  { name: "Pecho + cadena posterior", ex: [
+    ["Press de Banca", 3, 6, 10, "2", 180, ""],
+    ["Press Inclinado Convergente", 3, 8, 12, "1", 150, ""],
+    ["Cruce de Polea Medio", 2, 12, 15, "0–1", 90, ""],
+    ["Remo en Polea Sentado", 2, 10, 12, "1", 120, ""],
+    ["Curl de Pierna Sentado", 3, 10, 15, "0–1", 120, ""],
+    ["Face Pull con Cable", 2, 12, 15, "1", 90, ""],
+    ["Extensión de Tríceps con Cuerda", 3, 10, 15, "0–1", 90, ""] ] },
+  { name: "Espalda + cuádriceps", ex: [
+    ["Dominadas Agarre Neutro", 3, 6, 10, "1–2", 180, "con lastre si pasás las 10 reps"],
+    ["Remo con Barra en T con Apoyo en Pecho", 2, 8, 12, "1", 150, ""],
+    ["Pullover en Máquina", 2, 12, 15, "0–1", 90, "o en polea alta"],
+    ["Prensa de Piernas", 3, 10, 15, "1–2", 150, "pies bajos o medios"],
+    ["Elevación Lateral Inclinado Sentado con Mancuernas", 2, 12, 15, "0–1", 90, ""],
+    ["Curl de Bíceps con Barra EZ", 3, 8, 12, "0–1", 90, ""],
+    ["Elevación de Pantorrilla en Máquina", 3, 10, 15, "0–1", 90, ""] ] },
+  { name: "Hombros + brazos", ex: [
+    ["Press de Hombros Sentado con Mancuernas", 3, 8, 12, "1–2", 150, ""],
+    ["Elevación Lateral con Mancuernas", 2, 12, 20, "0–1", 90, ""],
+    ["Apertura Posterior con Cable", 3, 12, 20, "0–1", 90, ""],
+    ["Remo en Máquina con Apoyo en Pecho", 2, 10, 12, "1", 120, "codos abiertos"],
+    ["Extensión de Tríceps por Encima de la Cabeza con Cable", 3, 10, 15, "0–1", 90, ""],
+    ["Elevaciones de Rodillas Colgado", 3, 10, 15, "1", 90, ""] ] },
+  { name: "Piernas (isquios y glúteos) + torso", ex: [
+    ["Peso Muerto Rumano", 3, 8, 10, "2", 180, ""],
+    ["Empuje de Cadera en Máquina", 2, 10, 15, "1", 150, ""],
+    ["Curl de Pierna Acostado en Prono", 2, 10, 15, "0–1", 120, ""],
+    ["Press Inclinado en Multipower", 3, 8, 12, "1", 120, ""],
+    ["Jalón con Cable Agarre Neutro", 2, 10, 12, "1", 120, ""],
+    ["Elevación Lateral en Máquina", 2, 12, 15, "0–1", 90, ""],
+    ["Curl de Martillo con Mancuernas", 2, 10, 15, "0–1", 90, ""],
+    ["Elevación de Pantorrilla Sentado", 2, 12, 15, "0–1", 90, ""] ] }
+];
+function seedCont5() {
+  try {
+    if (localStorage.getItem("gymSeedCont5")) return false;
+    var data = routinesData();
+    if (!data.folders.some(function(f) { return f.cont; })) return false;   // solo en la app que ya usa entrenamiento continuo
+    var f = { id: newId(), name: "Entrenamiento continuo · 5 días", open: true, cont: true, routines: [] };
+    gymData.restPrefs = gymData.restPrefs || {};
+    CONT5.forEach(function(r) {
+      var rt = { id: newId(), name: r.name, exercises: [], plan: {} };
+      r.ex.forEach(function(e) {
+        var n = e[0], g = exGroupOf(n);
+        if (g && !isInRoutine(n)) {   // como addFromLibrary, pero sin redibujar la biblioteca 37 veces
+          var gk = Object.keys(GROUPS).filter(function(k) { return k.toLowerCase() === g.toLowerCase(); })[0];
+          if (!gk) { GROUPS[g] = { color: LIBRARY[g] ? LIBRARY[g].color : GROUP_COLORS[0], exercises: [] }; gk = g; }
+          GROUPS[gk].exercises.push(n);
+        }
+        rt.exercises.push(n);
+        rt.plan[n] = { s: e[1], lo: e[2], hi: e[3], rir: e[4], rest: e[5], note: e[6] };
+        repRanges[n] = [e[2], e[3]];
+        var old = gymData.restPrefs[n];
+        gymData.restPrefs[n] = old && typeof old === "object" ? Object.assign({}, old, { work: e[5] }) : { work: e[5] };
+      });
+      f.routines.push(rt);
+    });
+    data.folders.forEach(function(x) { x.open = false; });
+    data.folders.unshift(f);
+    persistGroups(); persistRoutines(); safeStore("gymRepRange", JSON.stringify(repRanges)); persist();
+    localStorage.setItem("gymSeedCont5", "1");
+    setTimeout(function() { showToast("Cargué tu entrenamiento continuo de 5 días"); }, 900);
+    return true;
+  } catch(e) { return false; }
+}
+
 // -- DRAG & DROP --------------------------------------------------------------
 var dragSrcGroup = null;
 var dragSrcIdx = null;
@@ -9676,6 +9796,7 @@ function closeExDesc() {
 renderHome();
 // las pantallas de rutina estan mas abajo en el HTML: arrancar cuando ya existen
 try { trainCloseStale(); } catch(e) {}
+try { if (seedCont5()) { renderRoutinesHome(); renderHome(); } } catch(e) {}
 try { swapsCheck(); } catch(e) {}
 document.addEventListener("visibilitychange", function() {
   if (document.hidden) return;

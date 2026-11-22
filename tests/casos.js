@@ -857,6 +857,25 @@ module.exports = [
     },
   },
   {
+    nombre: "rutina de 5 días: se carga una vez como entrenamiento continuo, con el plan de cada ejercicio",
+    correr: async (t) => {
+      await t.abrir(() => { localStorage.setItem("gymRoutines", JSON.stringify({ folders: [{ id: "fc", name: "Entrenamiento continuo", open: true, cont: true, routines: [{ id: "ra", name: "Rutina A", exercises: ["Sentadilla con Barra"] }] }] }));
+        localStorage.setItem("gymData", JSON.stringify({ restPrefs: { "Press de Banca": { work: 120, warm: 45 } } })); });
+      let r = await t.ev(() => { const d = routinesData(), f = d.folders[0]; return { carpetas: d.folders.map((x) => x.name + (x.open ? "" : " (cerrada)")), cont: f.cont, rutinas: f.routines.map((x) => x.name + ":" + x.exercises.length), plan: f.routines[0].plan["Sentadilla con Barra"], rango: repRange("Curl de Pierna Sentado"), descanso: gymData.restPrefs["Press de Banca"], flag: localStorage.getItem("gymSeedCont5") }; });
+      t.igual(r.carpetas, ["Entrenamiento continuo · 5 días", "Entrenamiento continuo (cerrada)"], "carpeta nueva primero; la vieja queda cerrada");
+      t.igual([r.cont, r.rutinas], [true, ["Piernas (cuádriceps) + torso:7", "Pecho + cadena posterior:7", "Espalda + cuádriceps:7", "Hombros + brazos:6", "Piernas (isquios y glúteos) + torso:8"]], "5 rutinas en rotación");
+      t.igual([r.plan, r.rango, r.descanso, r.flag], [{ s: 3, lo: 6, hi: 10, rir: "2", rest: 180, note: "" }, [10, 15], { work: 180, warm: 45 }, "1"], "plan, rango de reps y descanso");
+      await t.ev(() => { showScreen("homeScreen"); openRoutine(routinesData().folders[0].routines[0].id); }); await t.espera(300);
+      const tx = await t.page.locator(".trEx").first().innerText();
+      t.ok(/Plan: 3 × 6–10 · RIR 2 · descanso 3:00/.test(tx), "muestra el plan: " + tx.slice(0, 120).replace(/\n+/g, " | "));
+      t.igual(await t.page.locator(".trEx").first().locator(".trRow:not(.trHead)").count(), 3, "3 filas de series, como dice el plan");
+      t.igual(await t.page.locator(".trEx").nth(1).locator(".trRow:not(.trHead)").count(), 2, "2 filas en la extensión");
+      t.ok(/Día 1 · Piernas \(cuádriceps\) \+ torso/.test(await t.ev(() => routineTitle(routinesData().folders[0].routines[0].id))), "arranca en el día 1");
+      await t.page.reload(); await t.page.waitForFunction(() => typeof launchInit === "function"); await t.espera(300);
+      t.igual(await t.ev(() => routinesData().folders.map((x) => x.name)), ["Entrenamiento continuo"], "no se vuelve a cargar (la prueba repone las rutinas al recargar)");
+    },
+  },
+  {
     nombre: "pantallas principales: Balance, biblioteca, historial, récords, tiempos y mesociclo abren sin errores",
     correr: async (t) => {
       await t.abrir(sembrarRutina);
