@@ -9003,7 +9003,7 @@ var CONT5 = [
     ["Crunch Abdominal con Cable de Rodillas", 2, 10, 15, "1", 90, ""] ] },
   { name: "Pecho + cadena posterior", ex: [
     ["Press de Banca", 3, 6, 10, "2", 180, ""],
-    ["Press Inclinado Convergente", 3, 8, 12, "1", 150, ""],
+    ["Press Inclinado con Mancuernas", 3, 8, 12, "1", 150, ""],
     ["Cruce de Polea Medio", 2, 12, 15, "0–1", 90, ""],
     ["Remo en Polea Sentado", 2, 10, 12, "1", 120, ""],
     ["Curl de Pierna Sentado", 3, 10, 15, "0–1", 120, ""],
@@ -9034,6 +9034,30 @@ var CONT5 = [
     ["Curl de Martillo con Mancuernas", 2, 10, 15, "0–1", 90, ""],
     ["Elevación de Pantorrilla Sentado", 2, 12, 15, "0–1", 90, ""] ] }
 ];
+// Cambios pedidos despues de cargarla: [rutina, ejercicio viejo, ejercicio nuevo]
+var CONT5_SWAPS = [["Pecho + cadena posterior", "Press Inclinado Convergente", "Press Inclinado con Mancuernas"]];   // no tiene la maquina convergente
+function cont5Fix() {
+  try {
+    var done = JSON.parse(localStorage.getItem("gymCont5Fix") || "[]"), data = routinesData(), changed = false;
+    CONT5_SWAPS.forEach(function(sw, i) {
+      if (done.indexOf(i) >= 0) return;
+      data.folders.forEach(function(f) {
+        if (f.name !== "Entrenamiento continuo · 5 días") return;
+        f.routines.forEach(function(r) {
+          if (r.name !== sw[0]) return;
+          var k = r.exercises.indexOf(sw[1]); if (k < 0 || r.exercises.indexOf(sw[2]) >= 0) return;
+          r.exercises[k] = sw[2];
+          if (r.plan && r.plan[sw[1]]) { r.plan[sw[2]] = r.plan[sw[1]]; delete r.plan[sw[1]]; }
+          changed = true;
+        });
+      });
+      done.push(i);
+    });
+    if (changed) persistRoutines();
+    localStorage.setItem("gymCont5Fix", JSON.stringify(done));
+    return changed;
+  } catch(e) { return false; }
+}
 function seedCont5() {
   try {
     if (localStorage.getItem("gymSeedCont5")) return false;
@@ -9797,6 +9821,7 @@ renderHome();
 // las pantallas de rutina estan mas abajo en el HTML: arrancar cuando ya existen
 try { trainCloseStale(); } catch(e) {}
 try { if (seedCont5()) { renderRoutinesHome(); renderHome(); } } catch(e) {}
+try { if (cont5Fix()) renderRoutinesHome(); } catch(e) {}
 try { swapsCheck(); } catch(e) {}
 document.addEventListener("visibilitychange", function() {
   if (document.hidden) return;

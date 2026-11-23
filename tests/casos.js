@@ -764,7 +764,7 @@ module.exports = [
       await t.page.reload(); await t.page.waitForFunction(() => typeof launchInit === "function"); await t.espera(900);
       r = await t.ev(() => { const s = loadSessions(), x = s[s.length - 1]; return { n: s.length, rutina: x.routine, series: x.totalSets, dur: x.dur, abierta: localStorage.getItem("gymSessionStart"), toast: [...document.querySelectorAll(".appToast")].map((e) => e.textContent).join(" | ") }; });
       t.igual([r.n, r.rutina, r.series, r.dur, r.abierta], [2, "Piernas", 2, 900, null], "al abrir la app se guarda la que quedó abierta");
-      t.ok(/La rutina de ayer quedó abierta: la guardé con 2 series \(15 min\)/.test(r.toast), "avisa: " + r.toast);
+      t.ok(/La rutina de (ayer|hoy) quedó abierta: la guardé con 2 series \(15 min\)/.test(r.toast), "avisa: " + r.toast);
       // sin series: solo se cierra
       await t.ev(() => localStorage.setItem("gymSessionStart", JSON.stringify({ d: "x", t: Date.now() - 17 * 3600e3, routineId: "rZ" })));
       t.igual(await t.ev(() => [!!trainCloseStale(true), loadSessions().length, localStorage.getItem("gymSessionStart")]), [true, 2, null], "sin series no guarda nada");
@@ -871,6 +871,10 @@ module.exports = [
       t.igual(await t.page.locator(".trEx").first().locator(".trRow:not(.trHead)").count(), 3, "3 filas de series, como dice el plan");
       t.igual(await t.page.locator(".trEx").nth(1).locator(".trRow:not(.trHead)").count(), 2, "2 filas en la extensión");
       t.ok(/Día 1 · Piernas \(cuádriceps\) \+ torso/.test(await t.ev(() => routineTitle(routinesData().folders[0].routines[0].id))), "arranca en el día 1");
+      t.igual(await t.ev(() => { const r = routinesData().folders[0].routines[1]; return [r.exercises[1], r.plan["Press Inclinado con Mancuernas"].s, !!r.plan["Press Inclinado Convergente"]]; }), ["Press Inclinado con Mancuernas", 3, false], "sin máquina convergente: press inclinado con mancuernas");
+      // a quien ya la tenia cargada con la convergente, se le cambia una sola vez
+      t.igual(await t.ev(() => { localStorage.removeItem("gymCont5Fix"); const d = routinesData(), r = d.folders[0].routines[1]; r.exercises[1] = "Press Inclinado Convergente"; r.plan["Press Inclinado Convergente"] = r.plan["Press Inclinado con Mancuernas"]; delete r.plan["Press Inclinado con Mancuernas"]; persistRoutines();
+        const a = cont5Fix(), r2 = routinesData().folders[0].routines[1]; return [a, r2.exercises[1], r2.plan["Press Inclinado con Mancuernas"].rest, cont5Fix()]; }), [true, "Press Inclinado con Mancuernas", 150, false], "cambio aplicado a la rutina ya cargada");
       await t.page.reload(); await t.page.waitForFunction(() => typeof launchInit === "function"); await t.espera(300);
       t.igual(await t.ev(() => routinesData().folders.map((x) => x.name)), ["Entrenamiento continuo"], "no se vuelve a cargar (la prueba repone las rutinas al recargar)");
     },
