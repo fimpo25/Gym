@@ -9011,7 +9011,7 @@ var CONT5 = [
     ["Extensión de Tríceps con Cuerda", 3, 10, 15, "0–1", 90, ""] ] },
   { name: "Espalda + cuádriceps", ex: [
     ["Dominadas Agarre Neutro", 3, 6, 10, "1–2", 180, "con lastre si pasás las 10 reps"],
-    ["Remo con Barra en T con Apoyo en Pecho", 2, 8, 12, "1", 150, ""],
+    ["Remo Ancho en Banco Inclinado con Mancuernas", 2, 8, 12, "1", 150, "pecho apoyado, codos a 45°"],
     ["Pullover en Máquina", 2, 12, 15, "0–1", 90, "o en polea alta"],
     ["Prensa de Piernas", 3, 10, 15, "1–2", 150, "pies bajos o medios"],
     ["Elevación Lateral Inclinado Sentado con Mancuernas", 2, 12, 15, "0–1", 90, ""],
@@ -9035,7 +9035,8 @@ var CONT5 = [
     ["Elevación de Pantorrilla Sentado", 2, 12, 15, "0–1", 90, ""] ] }
 ];
 // Cambios pedidos despues de cargarla: [rutina, ejercicio viejo, ejercicio nuevo]
-var CONT5_SWAPS = [["Pecho + cadena posterior", "Press Inclinado Convergente", "Press Inclinado con Mancuernas"]];   // no tiene la maquina convergente
+var CONT5_SWAPS = [["Pecho + cadena posterior", "Press Inclinado Convergente", "Press Inclinado con Mancuernas"],   // no tiene la maquina convergente
+  ["Espalda + cuádriceps", "Remo con Barra en T con Apoyo en Pecho", "Remo Ancho en Banco Inclinado con Mancuernas", "pecho apoyado, codos a 45°"]];   // ni la barra T con apoyo
 function cont5Fix() {
   try {
     var done = JSON.parse(localStorage.getItem("gymCont5Fix") || "[]"), data = routinesData(), changed = false;
@@ -9047,7 +9048,7 @@ function cont5Fix() {
           if (r.name !== sw[0]) return;
           var k = r.exercises.indexOf(sw[1]); if (k < 0 || r.exercises.indexOf(sw[2]) >= 0) return;
           r.exercises[k] = sw[2];
-          if (r.plan && r.plan[sw[1]]) { r.plan[sw[2]] = r.plan[sw[1]]; delete r.plan[sw[1]]; }
+          if (r.plan && r.plan[sw[1]]) { r.plan[sw[2]] = r.plan[sw[1]]; delete r.plan[sw[1]]; if (sw[3]) r.plan[sw[2]].note = sw[3]; }
           changed = true;
         });
       });

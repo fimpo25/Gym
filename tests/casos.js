@@ -875,6 +875,7 @@ module.exports = [
       // a quien ya la tenia cargada con la convergente, se le cambia una sola vez
       t.igual(await t.ev(() => { localStorage.removeItem("gymCont5Fix"); const d = routinesData(), r = d.folders[0].routines[1]; r.exercises[1] = "Press Inclinado Convergente"; r.plan["Press Inclinado Convergente"] = r.plan["Press Inclinado con Mancuernas"]; delete r.plan["Press Inclinado con Mancuernas"]; persistRoutines();
         const a = cont5Fix(), r2 = routinesData().folders[0].routines[1]; return [a, r2.exercises[1], r2.plan["Press Inclinado con Mancuernas"].rest, cont5Fix()]; }), [true, "Press Inclinado con Mancuernas", 150, false], "cambio aplicado a la rutina ya cargada");
+      t.igual(await t.ev(() => { const r = routinesData().folders[0].routines[2]; return [r.exercises[1], r.plan["Remo Ancho en Banco Inclinado con Mancuernas"].note]; }), ["Remo Ancho en Banco Inclinado con Mancuernas", "pecho apoyado, codos a 45°"], "sin barra T con apoyo: remo con mancuernas en banco inclinado");
       await t.page.reload(); await t.page.waitForFunction(() => typeof launchInit === "function"); await t.espera(300);
       t.igual(await t.ev(() => routinesData().folders.map((x) => x.name)), ["Entrenamiento continuo"], "no se vuelve a cargar (la prueba repone las rutinas al recargar)");
     },
